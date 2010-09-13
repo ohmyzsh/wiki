@@ -118,6 +118,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov-plus@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @clean@.
 
+*arrow*
+
+!http://grab.by/4gAA!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @arrow@.
 
 h2. How to Submit Your Theme
 
