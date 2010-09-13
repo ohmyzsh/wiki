@@ -20,7 +20,6 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @cypher.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @darkblood.
 
-
 *evan* - _a skinny, topless prompt_
 
 !http://img.skitch.com/20091228-nems77ig6wkayf7w3daysd7jif.jpg!
@@ -29,19 +28,19 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @evan@.
 
 *funky* - it's funky...
 
-<div class="thumbnail"><a href="http://skitch.com/robbyrussell/b7c8x/funky-zsh-theme"><img src="http://img.skitch.com/20090831-rgwwappxjmt49dx6ngwuk1xsqd.preview.jpg" alt="funky zsh-theme" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
+!http://img.skitch.com/20091228-rgwwappxjmt49dx6ngwuk1xsqd.jpg!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @funky@.
 
 *gallifrey*
 
-<img src="http://img.skitch.com/20091113-qqtd3j8xinysujg5ugrsbr7x1y.jpg" />
+!http://img.skitch.com/20091113-qqtd3j8xinysujg5ugrsbr7x1y.jpg!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gallifrey@.
 
 *garyblessington*
 
-<div class="thumbnail"><a href="http://skitch.com/garyblessington/nyems/terminal-zsh"><img src="http://img.skitch.com/20090922-j7824tcw3p93h973tyjag77k9r.preview.jpg" alt="Terminal 2014 zsh" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
+!http://img.skitch.com/20091228-b5psxcshiq9f3iqgremchrwxxr.jpg!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @garyblessington@.
 
@@ -65,13 +64,14 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @macovsky@.
 
 *maran*
 
-<div class="thumbnail"><a href="http://skitch.com/robbyrussell/b7x9w/maran-zsh-theme"><img src="http://img.skitch.com/20090901-e49wy5f8961gstbiagqre279e1.preview.jpg" alt="maran zsh theme" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
+!http://img.skitch.com/20091228-e49wy5f8961gstbiagqre279e1.jpg!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @maran@.
 
 *risto*
 
-<div class="thumbnail"><a href="http://skitch.com/robbyrussell/nyf5a/risto"><img src="http://img.skitch.com/20090922-n2w6w1cdxyc87e227dgdkymr15.preview.jpg" alt="risto" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
+!http://img.skitch.com/20091228-n2w6w1cdxyc87e227dgdkymr15.jpg!
+
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @risto@.
 
@@ -90,9 +90,15 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @wezm@.
 
 *xiong-chiamiov*
 
-<div class="thumbnail"><a href="http://skitch.com/robbyrussell/nnyhr/xiong"><img src="http://img.skitch.com/20091006-axm1b99qpxdyey6pu4h28tj27.preview.jpg" alt="xiong" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
+!http://img.skitch.com/20091228-axm1b99qpxdyey6pu4h28tj27.jpg!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov@.
+
+*xiong-chiamiov-plus*
+
+!http://img.skitch.com/20091228-jt31is2wx2tamh1a9cwwk8r4p.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov-plus@.
 
 
 h2. How to Submit Your Theme
