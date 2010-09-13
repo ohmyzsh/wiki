@@ -137,6 +137,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dallas@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @linuxonly@.
 (As the name states, this only works on linux.)
 
+*eastwood*
+!http://i49.tinypic.com/2je2rb.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @eastwood@.
+
 h2. How to Submit Your Theme
 
 We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours!
