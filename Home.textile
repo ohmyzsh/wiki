@@ -1,1 +1,3 @@
 Welcome to the oh-my-zsh wiki!
+
+Check out all of the [[Themes]] that have been contributed.
