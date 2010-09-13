@@ -56,6 +56,12 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @wezm@.
 
+*macovsky*
+
+<div class="thumbnail"><img src="http://gyazo.com/8becc8a7ed5ab54a0262a470555c3eed.png"></div>
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @macovsky@.
+
 h2. How to Submit Your Theme
 
 We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours! 
