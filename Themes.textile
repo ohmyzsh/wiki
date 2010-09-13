@@ -62,6 +62,12 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @imajes@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jnrowe@.  This theme requires at least *v4.3.6* of @zsh@.
 
+*jreese*
+
+!http://dl.dropbox.com/u/1552408/Screenshots/2010-04-08-oh-my-zsh.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jreese@.
+
 *macovsky*
 
 !http://gyazo.com/8becc8a7ed5ab54a0262a470555c3eed.png!
