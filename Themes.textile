@@ -1,4 +1,6 @@
-Screenshots and examples of the themes that have been contributed to Oh My Zsh.
+All the current themes can be found in the `themes/`directory. 
+
+Here is a collection of screenshots of themes that have been contributed to Oh My Zsh.
 
 *robbyrussell* _the (default) that Robby uses_
 
