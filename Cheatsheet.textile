@@ -1,10 +1,19 @@
+Commands:
+
+* @tab@ - Create a new tab in the current directory (OS X)
+* @take@ - Create a new directory and change to it, will create intermediate directories as required.
+* @zsh_stats@ - get a list of the top ten commands and how many times they have been run
+* @uninstall_oh_my_zsh@ - Uninstall Oh-my-zsh 
+* @upgrade_oh_my_zsh@ - Upgrade Oh-my-zsh 
+
 Tab-completion:
 
+* @ls -(tab)@ - for options and helpful text of what they do
 * @cap (tab)@
 * @rake (tab)@
 * @ssh (tab)@
 * @sudo umount (tab)@
-* @kill PROCESSNAME (tab)@
+* @kill (tab)@
 
 Git:
 
