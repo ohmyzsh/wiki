@@ -44,6 +44,12 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @risto@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov@.
 
+*wezm*
+
+<div class="thumbnail"><a href="http://skitch.com/robbyrussell/nna7r/wezm.zsh-theme"><img src="http://img.skitch.com/20091011-nsk66d4jks2tsn1n766i4f84gh.preview.jpg" alt="wezm.zsh-theme" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @wezm@.
+
 h2. How to Submit Your Theme
 
 We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours! 
