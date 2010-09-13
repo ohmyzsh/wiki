@@ -25,3 +25,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @funky@.
 <div class="thumbnail"><a href="http://skitch.com/robbyrussell/b7x9w/maran-zsh-theme"><img src="http://img.skitch.com/20090901-e49wy5f8961gstbiagqre279e1.preview.jpg" alt="maran zsh theme" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @maran@.
+
+h2. Submit Your Theme
+
+We're hoping to collect a bunch from people, so don't hesitate to fork oh-my-zsh, add yours, and send a pull request. 
