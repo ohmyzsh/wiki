@@ -26,6 +26,14 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @funky@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @maran@.
 
-h2. Submit Your Theme
+h2. How to Submit Your Theme
 
-We're hoping to collect a bunch from people, so don't hesitate to fork oh-my-zsh, add yours, and send a pull request. 
+We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours! 
+
+h3. Option 1: Fork, add, send pull request
+
+Fork the project, add your theme, and send a pull request. We'll evaluate it and merge if there are no problems.
+
+h3. Option 2: Gist it
+
+Just send "robbyrussell":http://github.com/robbyrussell a link to a gist of your @PROMPT@ config and he'll try to add it himself. (be sure to give it a name!)
