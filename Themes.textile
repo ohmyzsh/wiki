@@ -4,7 +4,7 @@ Here is a collection of screenshots of themes that have been contributed to Oh M
 
 *robbyrussell* _the (default) that Robby uses_
 
-<div class="thumbnail"><a href="http://skitch.com/robbyrussell/npr26/robbyrussell-ohmyzsh"><img src="http://img.skitch.com/20091228-f12kxw7f4u5s7drn7eesdapbd9.preview.jpg" alt="robbyrussell ohmyzsh" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
+<div class="thumbnail"><a href="http://skitch.com/robbyrussell/npr3d/robbyrussell-ohmyzsh"><img src="http://img.skitch.com/20091228-qcke3kuenp61cwcnwqcd724pr7.preview.jpg" alt="robbyrussell ohmyzsh" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @robbyrussell@.
 
