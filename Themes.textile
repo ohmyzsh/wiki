@@ -1,9 +1,8 @@
 Screenshots and examples of the themes that have been contributed to Oh My Zsh.
 
-*robbyrussell* (default)
+*robbyrussell* _the (default) that Robby uses_
 
-Screenshot:
-<div class="thumbnail"><a href="http://skitch.com/robbyrussell/b7m43/zsh-users-robbyrussell-projects-development-planetargon-brainstorm-zsh"><img src="http://img.skitch.com/20090831-j8q4wx315p3x4dj99parmgnn4w.preview.jpg" alt="zsh /Users/robbyrussell/Projects/development/planetargon/brainstorm 2014 zsh" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
+<div class="thumbnail"><a href="http://skitch.com/robbyrussell/b7cek/robbyrussell-zsh-theme"><img src="http://img.skitch.com/20090831-trbkihimj7fpkmpx3ccrcq9b76.preview.jpg" alt="robbyrussell zsh-theme" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @robbyrussell@.
 
