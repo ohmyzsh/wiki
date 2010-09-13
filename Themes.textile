@@ -1,4 +1,4 @@
-All the current themes can be found in the `themes/`directory. 
+All the current themes can be found in the `themes/`directory.
 
 Here is a collection of screenshots of themes that have been contributed to Oh My Zsh.
 
@@ -8,11 +8,22 @@ Here is a collection of screenshots of themes that have been contributed to Oh M
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @robbyrussell@.
 
+*cypher*
+
+!http://img.skitch.com/20091228-r19yxykxhdxkkqqp6687w5pgf4.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @cypher.
+
+*darkblood*
+
+!http://img.skitch.com/20091228-811f9n5j1gxb2bjk5bh5f32ds3.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @darkblood.
+
+
 *evan* - _a skinny, topless prompt_
 
-Contributed by evan.
-
-<div class="thumbnail"><a href="http://skitch.com/robbyrussell/b7c8n/evan-zsh-theme"><img src="http://img.skitch.com/20090831-bnjpf93a1142f2mxueq5n8ti7d.preview.jpg" alt="evan zsh-theme" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
+!http://img.skitch.com/20091228-nems77ig6wkayf7w3daysd7jif.jpg!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @evan@.
 
@@ -34,7 +45,25 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gallifrey@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @garyblessington@.
 
-*maran* 
+*geoffgarside*
+
+!http://img.skitch.com/20091228-k27xd6iqn99qe4h5c6fm4i1yws.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @geoffgarside@.
+
+*imajes*
+
+!http://img.skitch.com/20091228-kq8qwqpsqdyh7jyeyuxmyptkma.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @imajes@.
+
+*macovsky*
+
+!http://gyazo.com/8becc8a7ed5ab54a0262a470555c3eed.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @macovsky@.
+
+*maran*
 
 <div class="thumbnail"><a href="http://skitch.com/robbyrussell/b7x9w/maran-zsh-theme"><img src="http://img.skitch.com/20090901-e49wy5f8961gstbiagqre279e1.preview.jpg" alt="maran zsh theme" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
 
@@ -46,32 +75,28 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @maran@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @risto@.
 
+*tonotdo*
+
+!http://img.skitch.com/20091228-1mm8nuyik55iych3mpn1qjm4a7.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @tonotdo@.
+
+*wezm*
+
+!http://img.skitch.com/20091228-nsk66d4jks2tsn1n766i4f84gh.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @wezm@.
+
+
 *xiong-chiamiov*
 
 <div class="thumbnail"><a href="http://skitch.com/robbyrussell/nnyhr/xiong"><img src="http://img.skitch.com/20091006-axm1b99qpxdyey6pu4h28tj27.preview.jpg" alt="xiong" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov@.
 
-*wezm*
-
-<div class="thumbnail"><a href="http://skitch.com/robbyrussell/nna7r/wezm.zsh-theme"><img src="http://img.skitch.com/20091011-nsk66d4jks2tsn1n766i4f84gh.preview.jpg" alt="wezm.zsh-theme" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @wezm@.
-
-*macovsky*
-
-<div class="thumbnail"><img src="http://gyazo.com/8becc8a7ed5ab54a0262a470555c3eed.png"></div>
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @macovsky@.
 
 h2. How to Submit Your Theme
 
-We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours! 
+We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours!
 
-h3. Option 1: Fork, add, send pull request
-
-Fork the project, add your theme, and send a pull request. We'll evaluate it and merge if there are no problems.
-
-h3. Option 2: Gist it
-
-Just send "robbyrussell":http://github.com/robbyrussell a link to a gist of your @PROMPT@ config and he'll try to add it himself. (be sure to give it a name!)
+Fork the project, add your theme, and send a pull request to Robby Russell. We'll evaluate it and merge if there are no problems.
