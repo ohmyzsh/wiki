@@ -4,3 +4,10 @@ Tab-completion:
 * @rake (tab)@
 * @ssh (tab)@
 * @sudo umount (tab)@
+
+Git:
+
+Dynamic access to current branch name with the current_branch function.
+
+* @git pull origin $(current_branch)@
+* @grb publish $(current_branch) origin@
