@@ -3,159 +3,151 @@ All the current themes can be found in the `themes/`directory. "See list here.."
 Here is a collection of screenshots of themes that have been contributed to Oh My Zsh.  There are many missing from this page, if you have a moment, feel free to help us complete the list.
 
 *robbyrussell* _the (default) that Robby uses_
-
 !http://img.skitch.com/20091228-qcke3kuenp61cwcnwqcd724pr7.jpg!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @robbyrussell@.
 
-*cypher*
+*afowler*
+!http://imgur.com/F6tdP.jpg!
 
-!http://img.skitch.com/20091228-r19yxykxhdxkkqqp6687w5pgf4.jpg!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @cypher@.
-
-*darkblood*
-
-!http://img.skitch.com/20091228-811f9n5j1gxb2bjk5bh5f32ds3.jpg!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @darkblood@.
-
-*evan* - _a skinny, topless prompt_
-
-!http://img.skitch.com/20091228-nems77ig6wkayf7w3daysd7jif.jpg!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @evan@.
-
-*funky* - it's funky...
-
-!http://img.skitch.com/20091228-rgwwappxjmt49dx6ngwuk1xsqd.jpg!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @funky@.
-
-*gallifrey*
-
-!http://img.skitch.com/20091113-qqtd3j8xinysujg5ugrsbr7x1y.jpg!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gallifrey@.
-
-*garyblessington*
-
-!http://img.skitch.com/20091228-b5psxcshiq9f3iqgremchrwxxr.jpg!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @garyblessington@.
-
-*geoffgarside*
-
-!http://img.skitch.com/20091228-k27xd6iqn99qe4h5c6fm4i1yws.jpg!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @geoffgarside@.
-
-*imajes*
-
-!http://img.skitch.com/20091228-kq8qwqpsqdyh7jyeyuxmyptkma.jpg!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @imajes@.
-
-*jnrowe*
-
-!http://jnrowe.github.com/images/jnrowe-2009-12-30.png!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jnrowe@.  This theme requires at least *v4.3.6* of @zsh@.
-
-*jreese*
-
-!http://dl.dropbox.com/u/1552408/Screenshots/2010-04-08-oh-my-zsh.png!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jreese@.
-
-*macovsky*
-
-!http://gyazo.com/8becc8a7ed5ab54a0262a470555c3eed.png!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @macovsky@.
-
-*maran*
-
-!http://img.skitch.com/20091228-e49wy5f8961gstbiagqre279e1.jpg!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @maran@.
-
-*risto*
-
-!http://img.skitch.com/20091228-n2w6w1cdxyc87e227dgdkymr15.jpg!
-
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @risto@.
-
-*tonotdo*
-
-!http://img.skitch.com/20091228-1mm8nuyik55iych3mpn1qjm4a7.jpg!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @tonotdo@.
-
-*wezm*
-
-!http://img.skitch.com/20091228-nsk66d4jks2tsn1n766i4f84gh.jpg!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @wezm@.
-
-
-*xiong-chiamiov*
-
-!http://img.skitch.com/20091228-axm1b99qpxdyey6pu4h28tj27.jpg!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov@.
-
-*xiong-chiamiov-plus*
-
-!http://img.skitch.com/20091228-jt31is2wx2tamh1a9cwwk8r4p.jpg!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov-plus@.
-
-*clean*
-
-!http://imagebin.ca/img/ZzgZ91G8.png!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @clean@.
+To use: set @ZSH_THEME@ in @~/.zshrc@ to @afowler@.
 
 *arrow*
-
 !http://grab.by/grabs/7175a75dcb7d13a03413b06476dbff80.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @arrow@.
 
-*dallas*
+*aussiegeek*
+!http://imgur.com/kAgF5.jpg!
 
-!http://images.dallasreedy.com/oh-my-zsh_dallas-theme.png!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dallas@.
-
-*linuxonly*
-
-!http://psy.trapd00r.se/scrots/prompt.png!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @linuxonly@.
-(As the name states, this only works on linux.)
-
-*eastwood*
-!http://i49.tinypic.com/2je2rb.png!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @eastwood@.
-
-*sporty_256*
-!http://farm4.static.flickr.com/3024/4556482563_5b0de521be_o.png!
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sporty_256@.
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @aussiegeek@.
 
 *candy*
 !http://img571.imageshack.us/img571/4951/ohmyzshcandy.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @candy@.
 
+*clean*
+!http://imagebin.ca/img/ZzgZ91G8.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @clean@.
+
+*cypher*
+!http://img.skitch.com/20091228-r19yxykxhdxkkqqp6687w5pgf4.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @cypher@.
+
+*dallas*
+!http://images.dallasreedy.com/oh-my-zsh_dallas-theme.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dallas@.
+
+*darkblood*
+!http://img.skitch.com/20091228-811f9n5j1gxb2bjk5bh5f32ds3.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @darkblood@.
+
+*daveverwer*
+!http://imgur.com/YqR8x.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @daveverwer@.
+
+*eastwood*
+!http://i49.tinypic.com/2je2rb.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @eastwood@.
+
+*evan* - _a skinny, topless prompt_
+!http://img.skitch.com/20091228-nems77ig6wkayf7w3daysd7jif.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @evan@.
+
+*funky* - it's funky...
+!http://img.skitch.com/20091228-rgwwappxjmt49dx6ngwuk1xsqd.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @funky@.
+
+*gallifrey*
+!http://img.skitch.com/20091113-qqtd3j8xinysujg5ugrsbr7x1y.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gallifrey@.
+
+*garyblessington*
+!http://img.skitch.com/20091228-b5psxcshiq9f3iqgremchrwxxr.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @garyblessington@.
+
+*geoffgarside*
+!http://img.skitch.com/20091228-k27xd6iqn99qe4h5c6fm4i1yws.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @geoffgarside@.
+
+*imajes*
+!http://img.skitch.com/20091228-kq8qwqpsqdyh7jyeyuxmyptkma.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @imajes@.
+
+*jnrowe*
+!http://jnrowe.github.com/images/jnrowe-2009-12-30.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jnrowe@.  This theme requires at least *v4.3.6* of @zsh@.
+
+*jreese*
+!http://dl.dropbox.com/u/1552408/Screenshots/2010-04-08-oh-my-zsh.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jreese@.
+
+*linuxonly*
+!http://psy.trapd00r.se/scrots/prompt.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @linuxonly@.
+(As the name states, this only works on linux.)
+
+*macovsky*
+!http://gyazo.com/8becc8a7ed5ab54a0262a470555c3eed.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @macovsky@.
+
+*maran*
+!http://img.skitch.com/20091228-e49wy5f8961gstbiagqre279e1.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @maran@.
+
 *mrtazz*
 !http://farm5.static.flickr.com/4101/4910363151_f8170b691d.jpg!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @mrtazz@.
+
+*risto*
+!http://img.skitch.com/20091228-n2w6w1cdxyc87e227dgdkymr15.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @risto@.
+
+*sporty_256*
+!http://farm4.static.flickr.com/3024/4556482563_5b0de521be_o.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sporty_256@.
+
+*tonotdo*
+!http://img.skitch.com/20091228-1mm8nuyik55iych3mpn1qjm4a7.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @tonotdo@.
+
+*wezm*
+!http://img.skitch.com/20091228-nsk66d4jks2tsn1n766i4f84gh.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @wezm@.
+
+*xiong-chiamiov*
+!http://img.skitch.com/20091228-axm1b99qpxdyey6pu4h28tj27.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov@.
+
+*xiong-chiamiov-plus*
+!http://img.skitch.com/20091228-jt31is2wx2tamh1a9cwwk8r4p.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov-plus@.
+
 
 h2. How to Submit Your Theme
 
