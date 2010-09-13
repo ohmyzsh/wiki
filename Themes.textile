@@ -120,7 +120,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @clean@.
 
 *arrow*
 
-!http://grab.by/4gAA!
+!http://grab.by/grabs/7175a75dcb7d13a03413b06476dbff80.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @arrow@.
 
