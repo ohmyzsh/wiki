@@ -152,6 +152,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sporty_256@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @candy@.
 
+*mrtazz*
+!http://farm5.static.flickr.com/4101/4910363151_f8170b691d.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @mrtazz@.
+
 h2. How to Submit Your Theme
 
 We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours!
