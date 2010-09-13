@@ -130,6 +130,12 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @arrow@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dallas@.
 
+*linuxonly*
+
+!http://psy.trapd00r.se/scrots/prompt.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @linuxonly@.
+(As the name states, this only works on linux.)
 h2. How to Submit Your Theme
 
 We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours!
