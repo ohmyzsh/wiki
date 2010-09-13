@@ -124,6 +124,12 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @clean@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @arrow@.
 
+*dallas*
+
+!http://images.dallasreedy.com/oh-my-zsh_dallas-theme.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dallas@.
+
 h2. How to Submit Your Theme
 
 We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours!
