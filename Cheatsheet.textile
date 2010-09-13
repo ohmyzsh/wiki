@@ -21,3 +21,16 @@ Dynamic access to current branch name with the current_branch function.
 
 * @git pull origin $(current_branch)@
 * @grb publish $(current_branch) origin@
+
+Helpful aliases for common git tasks:
+* @g@ - git
+* @gst@ - git status
+* @gl@ - git pull
+* @gup@ - git fetch && git rebase
+* @gp@ - git push
+* @gd@ - git diff | mate
+* @gdv@ - git diff -w "$@" | vim -R -
+* @gc@ - git commit -v
+* @gca@ - git commit -v -a
+* @gb@ - git branch
+* @gba@ - git branch -a
