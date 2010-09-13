@@ -19,3 +19,9 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @evan@.
 <div class="thumbnail"><a href="http://skitch.com/robbyrussell/b7c8x/funky-zsh-theme"><img src="http://img.skitch.com/20090831-rgwwappxjmt49dx6ngwuk1xsqd.preview.jpg" alt="funky zsh-theme" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @funky@.
+
+*maran* 
+
+<div class="thumbnail"><a href="http://skitch.com/robbyrussell/b7x9w/maran-zsh-theme"><img src="http://img.skitch.com/20090901-e49wy5f8961gstbiagqre279e1.preview.jpg" alt="maran zsh theme" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @maran@.
