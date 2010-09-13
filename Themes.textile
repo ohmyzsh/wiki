@@ -12,13 +12,13 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @robbyrussell@.
 
 !http://img.skitch.com/20091228-r19yxykxhdxkkqqp6687w5pgf4.jpg!
 
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @cypher.
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @cypher@.
 
 *darkblood*
 
 !http://img.skitch.com/20091228-811f9n5j1gxb2bjk5bh5f32ds3.jpg!
 
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @darkblood.
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @darkblood@.
 
 *evan* - _a skinny, topless prompt_
 
@@ -146,6 +146,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @eastwood@.
 !http://farm4.static.flickr.com/3024/4556482563_5b0de521be_o.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sporty_256@.
+
+*candy*
+!http://img571.imageshack.us/img571/4951/ohmyzshcandy.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @candy@.
 
 h2. How to Submit Your Theme
 
