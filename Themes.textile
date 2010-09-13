@@ -106,6 +106,12 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov-plus@.
 
+*clean*
+
+!http://imagebin.ca/img/ZzgZ91G8.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @clean@.
+
 
 h2. How to Submit Your Theme
 
