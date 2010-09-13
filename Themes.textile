@@ -142,6 +142,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @linuxonly@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @eastwood@.
 
+*sporty_256*
+!http://farm4.static.flickr.com/3024/4556482563_5b0de521be_o.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sporty_256@.
+
 h2. How to Submit Your Theme
 
 We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours!
