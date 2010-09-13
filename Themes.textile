@@ -56,6 +56,12 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @geoffgarside@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @imajes@.
 
+*jnrowe*
+
+!http://jnrowe.github.com/images/jnrowe-2009-12-30.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jnrowe@.  This theme requires at least *v4.3.6* of @zsh@.
+
 *macovsky*
 
 !http://gyazo.com/8becc8a7ed5ab54a0262a470555c3eed.png!
