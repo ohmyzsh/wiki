@@ -20,6 +20,12 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @evan@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @funky@.
 
+*gallifrey*
+
+<img src="http://img.skitch.com/20091113-qqtd3j8xinysujg5ugrsbr7x1y.jpg" />
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gallifrey@.
+
 *garyblessington*
 
 <div class="thumbnail"><a href="http://skitch.com/garyblessington/nyems/terminal-zsh"><img src="http://img.skitch.com/20090922-j7824tcw3p93h973tyjag77k9r.preview.jpg" alt="Terminal 2014 zsh" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
