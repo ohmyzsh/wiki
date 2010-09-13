@@ -1,0 +1,5 @@
+Tab-completion:
+
+* @cap (tab)@
+* @rake (tab)@
+* @ssh (tab)@
