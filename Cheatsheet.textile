@@ -4,6 +4,7 @@ Tab-completion:
 * @rake (tab)@
 * @ssh (tab)@
 * @sudo umount (tab)@
+* @kill PROCESSNAME (tab)@
 
 Git:
 
