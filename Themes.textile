@@ -109,6 +109,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kennethreitz@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @linuxonly@.
 (As the name states, this only works on linux.)
 
+*lukerandall*
+!http://cl.ly/f701d00760f8059e06dc/content!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @lukerandall@.
+
 *macovsky*
 !http://gyazo.com/8becc8a7ed5ab54a0262a470555c3eed.png!
 
