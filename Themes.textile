@@ -139,7 +139,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @risto@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sporty_256@.
 
-*theunraveler*
+*theunraveler* - Minimal, informative when it needs to be.
 !http://dl.dropbox.com/u/5232448/zsh.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @theunraveler@
