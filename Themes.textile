@@ -99,7 +99,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jnrowe@.  This theme requires at least
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jreese@.
 
 *kennethreitz*
-http://cl.ly/f3ec682e998df705e1ed/content
+!http://cl.ly/f3ec682e998df705e1ed/content!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kennethreitz@.
 
