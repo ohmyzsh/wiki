@@ -33,6 +33,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @candy@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @clean@.
 
+*cloud*
+!http://cl.ly/2lEQ/content
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @cloud@.
+
 *cypher*
 !http://img.skitch.com/20091228-r19yxykxhdxkkqqp6687w5pgf4.jpg!
 
