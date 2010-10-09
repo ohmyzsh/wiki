@@ -34,7 +34,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @candy@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @clean@.
 
 *cloud*
-!http://cl.ly/2lEQ/content
+!http://f.cl.ly/items/14f5807e8871122d9fe0/cloud.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @cloud@.
 
