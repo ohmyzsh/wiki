@@ -134,6 +134,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @maran@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @mrtazz@.
 
+*philips*
+!http://farm5.static.flickr.com/4124/5065882407_11d06f4e45.jpg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @philips@.
+
 *risto*
 !http://img.skitch.com/20091228-n2w6w1cdxyc87e227dgdkymr15.jpg!
 
