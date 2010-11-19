@@ -19,4 +19,5 @@ TODO: Work on descriptions and list who the lead maintainer is...
 * ruby
 * ssh-agent
 * textmate
+* vagrant - autocompletion for Vagrant commands, task names, box names and built-in handy documentation. All in one place.
 * vi-mode
