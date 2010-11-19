@@ -1,7 +1,9 @@
 Welcome to the oh-my-zsh wiki!
 
-Help us build a [[Cheatsheet]]
+Ways to help...
 
-Check out all of the [[Themes]] that have been contributed.
+* Help us build a [[Cheatsheet]]
+* Check out all of the [[Themes]] that have been contributed.
+* Check out all of our [[Plugins]]
 
 Don't forget to "follow us on twitter":http://twitter.com/ohmyzsh
