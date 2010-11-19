@@ -2,10 +2,11 @@ The following plugins are bundled.
 
 TODO: Work on descriptions and list who the lead maintainer is...
 
-* brew -- plugin which provides completion for the homebrew package manager for OSX
+* brew
+* command-not-found -- If a command is not recognized in the $PATH, this will use Ubuntu's command-not-found package to find it or suggest spelling mistakes.
 * cap -- a few commands for Capistrano, a deployment tool built in Ruby
 * dirpersist
-* gem -- plugin which provides completion for ruby's gem command
+* gem
 * git
 * github
 * lighthouse
@@ -13,7 +14,7 @@ TODO: Work on descriptions and list who the lead maintainer is...
 * mysql
 * osx
 * phing
-* pip -- plugin which provides completion for python's pip command
+* pip
 * rails
 * ruby
 * ssh-agent
