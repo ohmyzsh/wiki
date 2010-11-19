@@ -19,4 +19,3 @@ TODO: Work on descriptions and list who the lead maintainer is...
 * ssh-agent
 * textmate
 * vi-mode
-* Bullet list item
