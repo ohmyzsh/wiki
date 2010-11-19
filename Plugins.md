@@ -2,10 +2,10 @@ The following plugins are bundled.
 
 TODO: Work on descriptions and list who the lead maintainer is...
 
-* brew
+* brew -- plugin which provides completion for the homebrew package manager for OSX
 * cap -- a few commands for Capistrano, a deployment tool built in Ruby
 * dirpersist
-* gem
+* gem -- plugin which provides completion for ruby's gem command
 * git
 * github
 * lighthouse
@@ -13,7 +13,7 @@ TODO: Work on descriptions and list who the lead maintainer is...
 * mysql
 * osx
 * phing
-* pip
+* pip -- plugin which provides completion for python's pip command
 * rails
 * ruby
 * ssh-agent
