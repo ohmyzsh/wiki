@@ -3,7 +3,7 @@ The following plugins are bundled.
 TODO: Work on descriptions and list who the lead maintainer is...
 
 * brew
-* cap
+* cap -- a few commands for Capistrano, a deployment tool built in Ruby
 * dirpersist
 * gem
 * git
