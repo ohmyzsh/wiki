@@ -24,7 +24,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @arrow@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @aussiegeek@.
 
 *bira*
-!http://i.imgur.com/GZqXu.png
+!http://i.imgur.com/GZqXu.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @bira@.
 
