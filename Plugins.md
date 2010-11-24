@@ -13,7 +13,7 @@ TODO: Work on descriptions and list who the lead maintainer is...
 * macports - adds aliases for running macports commands
 * mysql - aliases for starting stopping and getting mysql status ( *mysqlstart*, *mysqlstop*, *mysqlstatus*)
 * osx - open the current directory in a new tab via the *tab* command
-* phing
+* phing - auto complete for phing targets. 
 * pip
 * rails - rails 2.3 commands (mostly) for running scripts
 * ruby - alias for sudo gem ( *sgem* ) and a find ruby files in directory alias ( *rfind* )
