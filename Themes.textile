@@ -88,6 +88,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gallifrey@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @garyblessington@.
 
+*gentoo*
+!http://i51.tinypic.com/2preioo.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gentoo@.
+
 *geoffgarside*
 !http://img.skitch.com/20091228-k27xd6iqn99qe4h5c6fm4i1yws.jpg!
 
