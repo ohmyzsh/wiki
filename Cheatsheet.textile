@@ -1,3 +1,6 @@
+To try it out if you have just cloned it (to your home directory):
+* @source ~/.oh-my-zsh/templates/zshrc.zsh-template@
+
 Commands:
 
 * @tab@ - Create a new tab in the current directory (OS X)
