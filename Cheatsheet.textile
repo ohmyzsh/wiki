@@ -17,6 +17,7 @@ Tab-completion:
 * @ssh (tab)@
 * @sudo umount (tab)@
 * @kill (tab)@
+* @unrar (tab)@
 
 Git:
 
