@@ -78,6 +78,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @evan@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @fishy@.
 
+*flazz* - has git and vi-command mode support (when enabled)
+!http://i.imgur.com/5hg16.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @flazz@.
+
 *funky* - it's funky...
 !http://img.skitch.com/20091228-rgwwappxjmt49dx6ngwuk1xsqd.jpg!
 
