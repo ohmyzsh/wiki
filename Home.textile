@@ -5,5 +5,6 @@ Ways to help...
 * Help us build a [[Cheatsheet]]
 * Check out all of the [[Themes]] that have been contributed.
 * Check out all of our [[Plugins]]
+* Read our user [[Testimonials]]
 
 Don't forget to "follow us on twitter":http://twitter.com/ohmyzsh
