@@ -169,6 +169,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @philips@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @risto@.
 
+*rixius*
+!http://dl.dropbox.com/u/6673910/zshTheme.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @rixius@.
+
 *sporty_256*
 !http://farm4.static.flickr.com/3024/4556482563_5b0de521be_o.png!
 
