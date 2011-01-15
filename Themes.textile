@@ -133,6 +133,9 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kardan@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kennethreitz@.
 
+*lambda*
+!http://cl.ly/350F0F0k1M2y3A2i3p1S/content!
+
 *linuxonly*
 !http://psy.trapd00r.se/scrots/prompt.png!
 
