@@ -63,6 +63,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @darkblood@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @daveverwer@.
 
+*dieter*
+!http://dieter.plaetinck.be/files/oh-my-zsh-theme-dieter.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dieter@ and get this small [[fix|https://github.com/Dieterbe/oh-my-zsh/commit/7ca0afd6861fe0c9e6903a08f0e469746df627e0]] if you don't have it yet.
+
 *eastwood*
 !http://i49.tinypic.com/2je2rb.png!
 
