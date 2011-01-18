@@ -36,5 +36,6 @@ Helpful aliases for common git tasks:
 * @gdv@ - git diff -w "$@" | vim -R -
 * @gc@ - git commit -v
 * @gca@ - git commit -v -a
+* @gco@ - git checkout
 * @gb@ - git branch
 * @gba@ - git branch -a
