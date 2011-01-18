@@ -1,17 +1,18 @@
 To try it out if you have just cloned it (to your home directory):
 * @source ~/.oh-my-zsh/templates/zshrc.zsh-template@
 
-Commands:
+h4. Commands:
 
 * @tab@ - Create a new tab in the current directory (OS X)
 * @take@ - Create a new directory and change to it, will create intermediate directories as required.
-* @zsh_stats@ - get a list of the top ten commands and how many times they have been run
+* @x@/@extract@ - Extract an archive (supported types: tar.{bz2,gz,xz,lzma}, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z).
+* @zsh_stats@ - Get a list of the top ten commands and how many times they have been run
 * @uninstall_oh_my_zsh@ - Uninstall Oh-my-zsh 
 * @upgrade_oh_my_zsh@ - Upgrade Oh-my-zsh 
 
-Tab-completion:
+h4. Tab-completion:
 
-* @ls -(tab)@ - for options and helpful text of what they do
+* @ls -(tab)@ - For options and helpful text of what they do
 * @cap (tab)@
 * @rake (tab)@
 * @ssh (tab)@
@@ -19,14 +20,14 @@ Tab-completion:
 * @kill (tab)@
 * @unrar (tab)@
 
-Git:
+h4. Git:
 
-Dynamic access to current branch name with the current_branch function.
+h5. Dynamic access to current branch name with the current_branch function.
 
 * @git pull origin $(current_branch)@
 * @grb publish $(current_branch) origin@
 
-Helpful aliases for common git tasks:
+h5. Helpful aliases for common git tasks:
 * @g@ - git
 * @gst@ - git status
 * @gl@ - git pull
