@@ -167,6 +167,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @maran@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @mrtazz@.
 
+*nanotech*
+!http://nanotech.nanotechcorp.net/downloads/nanotech.zsh-theme.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @nanotech@.
+
 *nicoulaj*
 !http://i.imgur.com/ypGBP.png!
 
