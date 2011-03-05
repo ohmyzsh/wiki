@@ -153,7 +153,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @linuxonly@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @lukerandall@.
 
 *macovsky*
-!http://gyazo.com/8becc8a7ed5ab54a0262a470555c3eed.png!
+!http://img806.imageshack.us/img806/9679/screenshot20110305at183.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @macovsky@.
 
