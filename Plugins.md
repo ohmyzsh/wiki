@@ -16,6 +16,7 @@ TODO: Work on descriptions and list who the lead maintainer is...
 * macports - adds aliases for running macports commands
 * mysql - aliases for starting stopping and getting mysql status ( *mysqlstart*, *mysqlstop*, *mysqlstatus*)
 * osx - open the current directory in a new tab via the *tab* command
+* perl - useful shortcuts for perlbrew, perldoc, and perl one-liners
 * phing - auto complete for phing targets. 
 * pip - completion plugin for the pip command
 * rails - rails 2.3 commands (mostly) for running scripts
