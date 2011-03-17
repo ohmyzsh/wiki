@@ -13,7 +13,7 @@ TODO: Work on descriptions and list who the lead maintainer is...
 * github - adds autocomplete to the github gem installable via gem install github-gem
 * lighthouse - open lighthouse tickets using the command *open_lighthouse_ticket* ( see [[http://screencast.com/t/ZDgwNDUwNT]]
 * lol - brings lulz to your zsh (based on lolbash)
-* macports - adds aliases for running macports commands
+* macports - adds "port" command completion and aliases for running macports commands
 * mysql - aliases for starting stopping and getting mysql status ( *mysqlstart*, *mysqlstop*, *mysqlstatus*)
 * osx - open the current directory in a new tab via the *tab* command
 * perl - useful shortcuts for perlbrew, perldoc, and perl one-liners
