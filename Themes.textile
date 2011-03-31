@@ -134,7 +134,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jreese@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kardan@.
 
 *kennethreitz*
-!http://cl.ly/f3ec682e998df705e1ed/content!
+!http://kreitz.co/103i3929433y1A1I3G2n/content!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kennethreitz@.
 
