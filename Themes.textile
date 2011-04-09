@@ -9,17 +9,17 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @robbyrussell@.
 
 
 *afowler*
-!http://imgur.com/F6tdP.jpg!
+!http://i.imgur.com/LEAtp.png!
 
 To use: set @ZSH_THEME@ in @~/.zshrc@ to @afowler@.
 
 *arrow*
-!http://grab.by/grabs/7175a75dcb7d13a03413b06476dbff80.png!
+!http://i.imgur.com/SerOb.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @arrow@.
 
 *aussiegeek*
-!http://imgur.com/kAgF5.jpg!
+!http://i.imgur.com/WAZOk.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @aussiegeek@.
 
@@ -34,7 +34,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @bira@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @candy@.
 
 *clean*
-!http://imagebin.ca/img/ZzgZ91G8.png!
+!http://i.imgur.com/cgBRE.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @clean@.
 
@@ -59,7 +59,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dallas@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @darkblood@.
 
 *daveverwer*
-!http://imgur.com/YqR8x.jpg!
+!http://i.imgur.com/gfaEy.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @daveverwer@.
 
@@ -134,7 +134,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jreese@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kardan@.
 
 *kennethreitz*
-!http://kreitz.co/103i3929433y1A1I3G2n/content!
+!http://i.imgur.com/Cv3Ba.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kennethreitz@.
 
@@ -142,13 +142,13 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kennethreitz@.
 !http://cl.ly/3d0734251t1W2J2g3H3q/content!
 
 *linuxonly*
-!http://psy.trapd00r.se/scrots/prompt.png!
+!http://i.imgur.com/H3zfT.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @linuxonly@.
 (As the name states, this only works on linux.)
 
 *lukerandall*
-!http://cl.ly/f701d00760f8059e06dc/content!
+!http://i.imgur.com/hRByS.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @lukerandall@.
 
