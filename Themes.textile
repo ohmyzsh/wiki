@@ -237,6 +237,10 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov-plus@.
 
+*kolo*
+!http://i.imgur.com/bPZhd.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kolo@.
 
 h2. How to Submit Your Theme
 
