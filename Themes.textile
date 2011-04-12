@@ -113,6 +113,12 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gentoo@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @geoffgarside@.
 
+*kphoen*
+
+!http://i.imgur.com/hIE3v.png.!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kphoen@.
+
 *imajes*
 !http://img.skitch.com/20091228-kq8qwqpsqdyh7jyeyuxmyptkma.jpg!
 
