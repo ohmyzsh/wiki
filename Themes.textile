@@ -145,7 +145,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kardan@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kennethreitz@.
 
 *lambda*
-!http://cl.ly/3d0734251t1W2J2g3H3q/content!
+!http://f.cl.ly/items/0X3x2A0V0B2F3A0D2H0n/Screen%20shot%202011-01-14%20at%209.22.41%20PM.png!
 
 *linuxonly*
 !http://i.imgur.com/H3zfT.png!
