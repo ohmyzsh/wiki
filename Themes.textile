@@ -68,6 +68,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @daveverwer@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dieter@ and get this small [[fix|https://github.com/Dieterbe/oh-my-zsh/commit/7ca0afd6861fe0c9e6903a08f0e469746df627e0]] if you don't have it yet. (Fix was [[pulled|https://github.com/robbyrussell/oh-my-zsh/commit/8294cf44d1d348fd1590ee28b5be8483fb012153]] into robbyrussell/oh-my-zsh on 2011-01-08.)
 
+*dogenpunk*
+!http://i.imgur.com/3E3gU.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dogenpunk@.
+
 *eastwood*
 !http://i49.tinypic.com/2je2rb.png!
 
