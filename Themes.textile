@@ -253,6 +253,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kolo@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @frisk@.
 
+*gallois*
+!http://i.imgur.com/GTZX4.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gallois@.
+
 h2. How to Submit Your Theme
 
 We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours!
