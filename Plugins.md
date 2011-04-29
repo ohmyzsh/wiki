@@ -11,6 +11,7 @@ TODO: Work on descriptions and list who the lead maintainer is...
 * gem - completion plugin for the gem command
 * git - adds a lot of git aliases ( g*x* e.g. gd - git diff) and functions for pulling for dealing with the current branch
 * github - adds autocomplete to the github gem installable via gem install github-gem
+* git-flow - Support for [git-flow](https://github.com/nvie/gitflow) completion
 * lighthouse - open lighthouse tickets using the command *open_lighthouse_ticket* ( see [[http://screencast.com/t/ZDgwNDUwNT]]
 * lol - brings lulz to your zsh (based on lolbash)
 * macports - adds "port" command completion and aliases for running macports commands
