@@ -26,3 +26,4 @@ TODO: Work on descriptions and list who the lead maintainer is...
 * textmate -  aliases for opening rails apps without the cruft, also has *tm* function which cd's to the folder and opens mate
 * vagrant - autocompletion for Vagrant commands, task names, box names and built-in handy documentation. All in one place.
 * vi-mode
+* lein - auto-completion for [leiningen](https://github.com/technomancy/leiningen), build tool for [clojure](http://clojure.org/)
