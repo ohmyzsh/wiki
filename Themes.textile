@@ -1,4 +1,3 @@
-
 All the current themes can be found in the `themes/`directory. "See list here..":http://github.com/robbyrussell/oh-my-zsh/tree/master/themes/ 
 
 Here is a collection of screenshots of themes that have been contributed to Oh My Zsh.  There are many missing from this page, if you have a moment, feel free to help us complete the list.
@@ -274,6 +273,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jtriley@.
 !http://dl.dropbox.com/u/682947/juanghurtado-zsh-theme.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @juanghurtado@.
+
+*muse*
+!http://i.imgur.com/6Si4w.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @muse@.
 
 h2. How to Submit Your Theme
 
