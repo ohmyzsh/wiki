@@ -279,6 +279,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @juanghurtado@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @muse@.
 
+*simple*
+!http://i.imgur.com/TfRRe.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @simple@.
+
 h2. How to Submit Your Theme
 
 We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours!
