@@ -84,7 +84,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @eastwood@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @evan@.
 
 *fishy* - the fish shell prompt with git support
-!http://img839.imageshack.us/img839/629/fishyzshtheme.png!
+!http://i.imgur.com/uy6ta.png!!http://i.imgur.com/pbWBz.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @fishy@.
 
