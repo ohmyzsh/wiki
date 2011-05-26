@@ -7,4 +7,6 @@ Ways to help...
 * Check out all of our [[Plugins]]
 * Read our user [[Testimonials]]
 
+Want to help manage the project? We need [[Volunteers]].
+
 Don't forget to "follow us on twitter":http://twitter.com/ohmyzsh
