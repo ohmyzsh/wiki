@@ -233,6 +233,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @tjkirch@
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @tonotdo@.
 
+*trapd00r*
+!http://i.japh.se/trapd00r_zsh_theme.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @trapd00r@
+
 *wezm*
 !http://img.skitch.com/20091228-nsk66d4jks2tsn1n766i4f84gh.jpg!
 
