@@ -1,4 +1,3 @@
-
 Enable the plugins you want by editing your _~/.zshrc_ file. Example:
 
     plugins=(rails3 git ruby)
@@ -146,6 +145,12 @@ Clean apt cache
 * gem - completion plugin for the gem command
 
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+
+## gpg-agent
+
+* gpg-agent - starts gpg-agent (with ssh support) if not running and includes its environment variables
+
+**Maintainer:** [fwalch](https://github.com/fwalch)
 
 ## git
 
