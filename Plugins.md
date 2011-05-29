@@ -13,8 +13,7 @@ You should always read the source for the plugin before using it to avoid surpri
 The following plugins are bundled:
 
 ## apache2-macports
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+**Maintainer:** [robbyrussell][robbyrussell]
 
 Enables aliases to control a local Apache2 installed via [Macports](http://www.macports.org/).
 
@@ -31,16 +30,20 @@ Restart Apache:
     apache2restart
 
 ## brew
+**Maintainer:** [robbyrussell][robbyrussell]
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+* `brews`: list installed brews
+
+Adds the brew install directories to your path **in front** of `/usr/bin`.
+
+After `brew update`, run `brew-link-completion` to make a symlink to the official zsh completion file that comes with brew into your oh-my-zsh brew plugin directory.
 
 Completion plugin for the [[Homebrew|http://mxcl.github.com/homebrew/]] OS X package manager.
 
 ## bundler
+**Maintainer:** [robbyrussell][robbyrussell]
 
 Enables aliases to [Bundler](http://gembundler.com/).
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
 Bundle exec, execute a command in the context of the bundle
 
@@ -55,16 +58,14 @@ Bundle update
     bu
 
 ## cap
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+**Maintainer:** [robbyrussell][robbyrussell]
 
 Commands for [Capistrano](https://github.com/capistrano/capistrano/wiki), a deployment tool built in Ruby.
 
 * cap -- a few commands for Capistrano, a deployment tool built in Ruby
 
 ## command-not-found
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+**Maintainer:** [robbyrussell][robbyrussell]
 
 Only for Ubuntu: If a command is not recognized in the $PATH, this will use Ubuntu's command-not-found package to find it or suggest spelling mistakes:
 
@@ -76,20 +77,17 @@ Only for Ubuntu: If a command is not recognized in the $PATH, this will use Ubun
 The plugin uses the command-not-found package zsh support.
 
 ## compleat
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+**Maintainer:** [robbyrussell][robbyrussell]
 
 Completion for human beings. **Further documentation needed**
 
 ## cpanm
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+**Maintainer:** [robbyrussell][robbyrussell]
 
 Completion plugin for cpanminus (see [[https://github.com/rshhh/cpanminus/blob/master/etc/_cpanm]])_
 
 ## deb
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+**Maintainer:** [robbyrussell][robbyrussell]
 
 A set of aliases to work with the Debian Advanced Packaging Tool, apt.
 
@@ -130,145 +128,147 @@ Clean apt cache
     ac
 
 ## debian
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
+**Maintainer:** [robbyrussell][robbyrussell]
 
 ## dirpersist
+**Maintainer:** [robbyrussell][robbyrussell]
 
 * dirpersist
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## gem
+**Maintainer:** [robbyrussell][robbyrussell]
 
 * gem - completion plugin for the gem command
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## gpg-agent
+**Maintainer:** [robbyrussell][robbyrussell]
 
 * gpg-agent - starts gpg-agent (with ssh support) if not running and includes its environment variables
 
-**Maintainer:** [fwalch](https://github.com/fwalch)
-
 ## git
+**Maintainer:** [robbyrussell][robbyrussell]
 
 * git - adds a lot of git aliases ( g*x* e.g. gd - git diff) and functions for pulling for dealing with the current branch
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## git-flow
+**Maintainer:** [robbyrussell][robbyrussell]
+
 * git-flow - Support for [git-flow](https://github.com/nvie/gitflow) completion
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## github
+**Maintainer:** [robbyrussell][robbyrussell]
 
 * github - adds autocomplete to the github gem installable via gem install github-gem
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## lein
+**Maintainer:** [robbyrussell][robbyrussell]
 
 * lein - auto-completion for [leiningen](https://github.com/technomancy/leiningen), build tool for [clojure](http://clojure.org/)
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## lighthouse
+**Maintainer:** [robbyrussell][robbyrussell]
 
 * lighthouse - open lighthouse tickets using the command *open_lighthouse_ticket* ( see [[http://screencast.com/t/ZDgwNDUwNT]]
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## lol
+**Maintainer:** [robbyrussell][robbyrussell]
+
 * lol - brings lulz to your zsh (based on lolbash)
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## macports
+**Maintainer:** [robbyrussell][robbyrussell]
 
 * macports - adds "port" command completion and aliases for running macports commands
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## mysql-macports
+**Maintainer:** [robbyrussell][robbyrussell]
 
 * mysql - aliases for starting stopping and getting mysql status ( *mysqlstart*, *mysqlstop*, *mysqlstatus*)
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+## node
+* `node-api [SECTION]`: open the [node api](http://nodejs.org/docs/v0.4.8/api/all.html), for your current version, in your browser. **Note: This uses `open` which comes with OS X. This needs to be re-factored to work on other platforms.**
 
 ## npm
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+**Maintainer:** [robbyrussell][robbyrussell]
 
 ## osx
+**Maintainer:** [robbyrussell][robbyrussell]
 
+* `showfiles`/`hidefiles`: show/hide hidden files in Finder
+* `rm-dsstore`: recursively remove `.DS_Store` files from the current directory
 * osx - open the current directory in a new tab via the *tab* command
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## perl
+**Maintainer:** [robbyrussell][robbyrussell]
 
 * perl - useful shortcuts for perlbrew, perldoc, and perl one-liners
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## phing
+**Maintainer:** [robbyrussell][robbyrussell]
 
 * phing - auto complete for phing targets. 
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## pip
+**Maintainer:** [robbyrussell][robbyrussell]
 
 * pip - completion plugin for the pip command
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+## pow
+* `kapow`: helper function to touch `tmp/restart.txt`, restarting an application in pow.
 
 ## rails
+**Maintainer:** [robbyrussell][robbyrussell]
+
 * rails - rails 2.3 commands (mostly) for running scripts
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## rails3
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+**Maintainer:** [robbyrussell][robbyrussell]
 
 ## redis-cli
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+**Maintainer:** [robbyrussell][robbyrussell]
 
 ## ruby
+**Maintainer:** [robbyrussell][robbyrussell]
+
 * ruby - alias for sudo gem ( *sgem* ) and a find ruby files in directory alias ( *rfind* )
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+## rvm
+* `rb18 [GEMSET]`: shortcut for `rvm use ruby-1.8.7-p334@GEMSET` (with gemset completion)
+* `rb19 [GEMSET]`: shortcut for `rvm use ruby-1.9.2-p180@GEMSET` (with gemset completion)
+* `rubies`: list installed rubies
+* `gemsets`: list gemsets for currently active ruby
+* `gems`: list gems available in currently active gemset **Note: This has opinions about colors. It should be re-factored to be customizable in themes.**
+
+After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-completion` to make a symlink to the official zsh completion file that comes with rvm into your oh-my-zsh rvm plugin directory.
 
 ## ssh-agent
+**Maintainer:** [robbyrussell][robbyrussell]
+
 * ssh-agent - cygwin ssh-agent plugin for starting agent (see - http://www.cygwin.com/ml/cygwin/2001-06/msg00537.html )
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## svn
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+**Maintainer:** [robbyrussell][robbyrussell]
 
 ## textmate
+**Maintainer:** [robbyrussell][robbyrussell]
+
 * textmate -  aliases for opening rails apps without the cruft, also has *tm* function which cd's to the folder and opens mate
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+## thor
+
+Completions for `thor`
 
 ## vagrant
+**Maintainer:** [robbyrussell][robbyrussell]
 
 * vagrant - autocompletion for Vagrant commands, task names, box names and built-in handy documentation. All in one place.
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## vi-mode
+**Maintainer:** [robbyrussell][robbyrussell]
+
 * vi-mode
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
 ## yum
+**Maintainer:** [robbyrussell][robbyrussell]
 
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+[robbyrussell]: https://github.com/robbyrussell
