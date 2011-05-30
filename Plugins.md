@@ -29,6 +29,12 @@ Restart Apache:
 
     apache2restart
 
+## Autojump
+
+Will enable autojump if installed with homebrew.
+
+This does not add any commands on it's own.
+
 ## brew
 **Maintainer:** [robbyrussell][robbyrussell]
 
