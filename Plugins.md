@@ -33,7 +33,7 @@ Restart Apache:
 
 Will enable autojump if installed with homebrew.
 
-This does not add any commands on it's own.
+This does not add any commands on its own.
 
 ## brew
 **Maintainer:** [robbyrussell][robbyrussell]
