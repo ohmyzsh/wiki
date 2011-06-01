@@ -6,6 +6,7 @@ Ways to help...
 * Check out all of the [[Themes]] that have been contributed.
 * Check out all of our [[Plugins]]
 * Read our user [[Testimonials]]
+* Want to contribute? View our [[Coding Style Guide]]
 
 Want to help manage the project? We need [[Volunteers]].
 
