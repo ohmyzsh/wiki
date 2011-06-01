@@ -299,6 +299,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @steeef@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @minimal@.
 
+*alanpeabody*
+!http://dl.dropbox.com/u/3952084/alanpeabody_zsh_theme.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @alanpeabody@.
+
 h2. How to Submit Your Theme
 
 We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours!
