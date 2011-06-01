@@ -304,6 +304,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @minimal@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @alanpeabody@.
 
+*miloshadzic*
+!http://i.imgur.com/9fcZg.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @miloshadzic@.
+
 h2. How to Submit Your Theme
 
 We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours!
