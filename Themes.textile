@@ -275,6 +275,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sporty_256@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @steeef@.
 
+*sunaku*
+!http://ompldr.org/vOHcwZg!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sunaku@.
+
 *theunraveler* - Minimal, informative when it needs to be.
 !http://dl.dropbox.com/u/5232448/zsh.png!
 
