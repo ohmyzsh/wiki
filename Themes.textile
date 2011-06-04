@@ -230,6 +230,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @muse@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @nanotech@.
 
+*nebirhos*
+!http://i.imgur.com/CzMMw.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @nebirhos@.
+
 *nicoulaj*
 !http://i.imgur.com/ypGBP.png!
 
