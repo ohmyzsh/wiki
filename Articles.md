@@ -7,4 +7,4 @@ If you know of any that are missing, feel free to contribute! :-)
 * [[Hooray! Oh My Zsh has been updated.|http://thechangelog.com/post/5452652236/hooray-oh-my-zsh-has-been-updated]]
 * [[Improving oh-my-zsh startup time|http://www.santosvelasco.com/2011/04/22/improving-oh-my-zsh-startup-time/]]
 * [[Zsh!|http://blog.secondplanetanimation.com/2011/05/31/zsh]]
-
+* [[zsh, oh-my-zsh… I love you!|http://blog.ghedini.co.cc/post/967115353/zsh-oh-my-zsh-i-love-you]]
