@@ -8,3 +8,4 @@ If you know of any that are missing, feel free to contribute! :-)
 * [[Improving oh-my-zsh startup time|http://www.santosvelasco.com/2011/04/22/improving-oh-my-zsh-startup-time/]]
 * [[Zsh!|http://blog.secondplanetanimation.com/2011/05/31/zsh]]
 * [[zsh, oh-my-zsh… I love you!|http://blog.ghedini.co.cc/post/967115353/zsh-oh-my-zsh-i-love-you]]
+* [[Intridea’s blog post about Zsh & Oh my zsh.|http://intridea.com/posts/its-not-enough-to-bash-in-heads-youve-got-to-bash-in-minds-with-zsh]]
