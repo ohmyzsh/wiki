@@ -265,6 +265,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @rixius@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @simple@.
 
+*smt*
+!http://i.imgur.com/0HQmc.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @smt@.
+
 *sorin*
 !http://i.imgur.com/aipDQ.png!
 
