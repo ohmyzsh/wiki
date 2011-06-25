@@ -285,7 +285,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sporty_256@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @steeef@.
 
-*sunaku* - shows exit status if nonzero, status & branch if git, @pwd@
+*sunaku* - exit status if nonzero, status & branch if git, @pwd@ always
 !http://ompldr.org/vOHcwZg!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sunaku@.
