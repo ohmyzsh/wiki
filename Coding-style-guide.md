@@ -1,4 +1,3 @@
-
 ## Variables
 
 Meaningful self documenting names should be used, if the variable name does not make it reasonably obvious as to the meaning, appropriate comments should be added.
@@ -14,13 +13,13 @@ Variables name should not clobber command names, such as `dir`, `pwd`
 
 Braces should be on the same line as the function name:
 
-    helpful() {
+    function helpful() {
       ...
     }
 
 Private or utility functions should be prefixed with an underscore:
 
-    _helper_util() {
+    function _helper_util() {
       ...
     }
 
