@@ -19,7 +19,7 @@ Braces should be on the same line as the function name:
 
 Private or utility functions should be prefixed with an underscore:
 
-    function _helper_util() {
+    function _helper-util() {
       ...
     }
 
