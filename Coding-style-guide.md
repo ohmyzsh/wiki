@@ -35,6 +35,8 @@ When possible, use environment variables instead of forking a command.
 
 `if-then` statements should be on one line:
 
-    if [[ -f $1 ]]; then
-      ...
-    fi
+```bash
+if [[ -f $1 ]]; then
+  ...
+fi
+```
