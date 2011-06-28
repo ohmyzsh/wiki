@@ -13,15 +13,19 @@ Variables name should not clobber command names, such as `dir`, `pwd`
 
 Braces should be on the same line as the function name:
 
-    function helpful() {
-      ...
-    }
+```bash
+function helpful() {
+  ...
+}
+```
 
 Private or utility functions should be prefixed with an underscore:
 
-    function _helper-util() {
-      ...
-    }
+```bash
+function _helper-util() {
+  ...
+}
+```
 
 
 ## General
@@ -30,8 +34,10 @@ Indenting should be done with 2 spaces.
 
 When possible, use environment variables instead of forking a command.
 
-    $(pwd) # don't use, forks a new process
-    $PWD   # do use
+```bash
+$(pwd) # don't use, forks a new process
+$PWD   # do use
+```
 
 `if-then` statements should be on one line:
 
