@@ -1,5 +1,8 @@
 Welcome to the oh-my-zsh wiki!
 
+* Read our user [[Testimonials]]
+* Don't forget to "follow us on twitter":http://twitter.com/ohmyzsh
+
 # Help Wanted! 
 
 * Help us build the [[Cheatsheet]]
@@ -9,6 +12,3 @@ Welcome to the oh-my-zsh wiki!
 
 ## Want to help manage the project? 
 We need [[Volunteers]].
-
-* Read our user [[Testimonials]]
-* Don't forget to "follow us on twitter":http://twitter.com/ohmyzsh
