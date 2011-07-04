@@ -79,6 +79,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dieter@ and get this small [[fix|https
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dogenpunk@.
 
+*dpree*
+!http://gyazo.com/28e31261bf74230f04f31afd4140d361.png(dpree.zsh-theme)!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dpree@.
+
 *eastwood*
 !http://i49.tinypic.com/2je2rb.png!
 
