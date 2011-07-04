@@ -80,7 +80,9 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dieter@ and get this small [[fix|https
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dogenpunk@.
 
 *dpree*
-!http://gyazo.com/28e31261bf74230f04f31afd4140d361.png(dpree.zsh-theme)!
+!https://img.skitch.com/20110704-8uab1m4p52cqeq8pjh2m4uant8.png(dpree.zsh-theme)!
+
+Font: Andale Mono 12pt
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dpree@.
 
