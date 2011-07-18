@@ -63,6 +63,13 @@ Bundle update
 
     bu
 
+## cake
+**Maintainer:** [PabloSerbo][PabloSerbo]
+
+Commands for [Cake](http://jashkenas.github.com/coffee-script/#cake), the coffee-script build tool.
+
+* cake -- auto complete for cake tasks
+
 ## cap
 **Maintainer:** [robbyrussell][robbyrussell]
 
