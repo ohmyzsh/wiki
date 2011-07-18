@@ -34,6 +34,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @aussiegeek@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @bira@.
 
+*blinks
+!http://i.imgur.com/vFnc8.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @blinks@.
+
 *candy*
 !http://img571.imageshack.us/img571/4951/ohmyzshcandy.png!
 
