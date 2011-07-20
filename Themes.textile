@@ -302,6 +302,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @steeef@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sunaku@.
 
+*sunrise* - Lightweight prompt with exit status and @git status@ consistent mode line
+!http://dl.dropbox.com/u/420934/Permanent/sunrise.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sunrise@.
+
 *theunraveler* - Minimal, informative when it needs to be.
 !http://dl.dropbox.com/u/5232448/zsh.png!
 
