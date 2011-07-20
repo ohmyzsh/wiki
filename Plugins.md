@@ -32,7 +32,7 @@ Restart Apache:
 ## archlinux
 **Maintainer:** [Benjamin Boudreau](https://github.com/dreur)
 
-### Enabled aliases for `pacman` (replace `pac` by `ya` for `yaourt`)
+### Enabled [aliases](https://wiki.archlinux.org/index.php/Pacman_Tips) for `pacman` (replace `pac` by `ya` for `yaourt`)
 Install specific package(s) from the repositories
 
     pacin='sudo pacman -S'
@@ -75,7 +75,25 @@ Install given package(s) as dependencies of another package
 
 Force refresh of all package lists after updating /etc/pacman.d/mirrorlist
 
-    pacmir='sudo pacman -Syy'                
+    pacmir='sudo pacman -Syy'
+
+### Extra functions for package management in Archlinux
+
+List all installed packages with a short description - [Source](https://bbs.archlinux.org/viewtopic.php?id=93683)
+
+    paclist
+
+List all orhpaned packages
+
+    paclsorhpans
+
+Delete all orhpaned packages
+
+    pacrmorhpans
+    
+List all disowned files in your system
+
+    pacdisowned | less +F
 
 ## Autojump
 
