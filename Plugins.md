@@ -29,6 +29,54 @@ Restart Apache:
 
     apache2restart
 
+## archlinux
+**Maintainer:** [Benjamin Boudreau](https://github.com/dreur)
+
+### Enabled aliases for `pacman` (replace `pac` by `ya` for `yaourt`)
+Install specific package(s) from the repositories
+
+    pacin='sudo pacman -S'
+
+Install specific package not from the repositories but from a file 
+
+    pacins='sudo pacman -U'          
+
+Remove the specified package(s), retaining its configuration(s) and required dependencies
+
+    pacre='sudo pacman -R'           
+
+Remove the specified package(s), its configuration(s) and unneeded dependencies
+
+    pacrem='sudo pacman -Rns'        
+
+Display information about a given package in the repositories
+
+    pacrep='pacman -Si'              
+
+Search for package(s) in the repositories
+
+    pacreps='pacman -Ss'             
+
+Display information about a given package in the local database
+
+    pacloc='pacman -Qi'              
+
+Search for package(s) in the local database
+
+    paclocs='pacman -Qs'
+
+Update and refresh the local package and ABS databases against repositories
+
+    pacupd='sudo pacman -Sy && sudo abs'     
+
+Install given package(s) as dependencies of another package
+
+    pacinsd='sudo pacman -S --asdeps'        
+
+Force refresh of all package lists after updating /etc/pacman.d/mirrorlist
+
+    pacmir='sudo pacman -Syy'                
+
 ## Autojump
 
 Will enable autojump if installed with homebrew.
@@ -285,3 +333,4 @@ Completions for `thor`
 **Maintainer:** [robbyrussell][robbyrussell]
 
 [robbyrussell]: https://github.com/robbyrussell
+
