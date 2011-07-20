@@ -83,13 +83,13 @@ List all installed packages with a short description - [Source](https://bbs.arch
 
     paclist
 
-List all orhpaned packages
+List all orphaned packages
 
-    paclsorhpans
+    paclsorphans
 
-Delete all orhpaned packages
+Delete all orphaned packages
 
-    pacrmorhpans
+    pacrmorphans
     
 List all disowned files in your system
 
