@@ -341,6 +341,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @trapd00r@
 !http://i.imgur.com/0qE2m.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @wedisagree@
+Instructions to further customise the theme are available as comments in the theme file.
 
 *wezm*
 !http://img.skitch.com/20091228-nsk66d4jks2tsn1n766i4f84gh.jpg!
