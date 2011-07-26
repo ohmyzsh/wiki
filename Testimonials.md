@@ -9,3 +9,4 @@ Please share your thoughts on Oh My Zsh... they might help influence others to u
 
 "This project is so much more than a sane set of defaults for zsh. It is a major hub of plugin development! The fact that everything is all nicely packaged as a project on github is very nice indeed. Zsh is an amazing shell, but it seems to suffer a lack of guides on how to use it. By checking out oh-my-zsh you get a really nice set of examples in which you can learn zsh" -- [[Ksira|http://github.com/ksira]]
 
+"oh-my-zsh: your life in a shell" -- [[fox|http://github.com/volpino]]
