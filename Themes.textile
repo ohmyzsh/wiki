@@ -337,6 +337,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @tonotdo@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @trapd00r@
 
+*wedisagree*
+!http://i.imgur.com/0qE2m.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @wedisagree@
+
 *wezm*
 !http://img.skitch.com/20091228-nsk66d4jks2tsn1n766i4f84gh.jpg!
 
