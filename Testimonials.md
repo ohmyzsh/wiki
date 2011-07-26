@@ -12,3 +12,5 @@ Please share your thoughts on Oh My Zsh... they might help influence others to u
 "oh-my-zsh: your life in a shell" -- [[fox|https://github.com/volpino]]
 
 "oh-my-zsh is probably one of the most fun open source projects to yell the name out loud." -- [[secondplanet|https://github.com/secondplanet]]
+
+"oh-my-zsh is now mandatory on all my dev servers, it makes bash look boring!" -- [[digital006|https://github.com/digital006]]
