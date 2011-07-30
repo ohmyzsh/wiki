@@ -19,3 +19,4 @@ Please share your thoughts on Oh My Zsh... they might help influence others to u
 
 "if a shell can make disruptive progress, zsh does." -- [[troyd|https://twitter.com/#!/troyd/status/96330785086373888]]
 
+"My terminal is the happiest terminal on the whole earth since I have installed Zsh and Oh My Zsh!" -- [[semahawk|https://github.com/semahawk]]
