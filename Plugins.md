@@ -214,6 +214,10 @@ Clean apt cache
 
 * dirpersist
 
+## gas
+
+* gas - completion plugin for the [gas](https://github.com/walle/gas) gem
+
 ## gem
 **Maintainer:** [robbyrussell][robbyrussell]
 
