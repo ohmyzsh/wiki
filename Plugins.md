@@ -214,10 +214,6 @@ Clean apt cache
 
 * dirpersist
 
-## gas
-
-* gas - completion plugin for the [gas](https://github.com/walle/gas) gem
-
 ## gem
 **Maintainer:** [robbyrussell][robbyrussell]
 
@@ -226,7 +222,7 @@ Clean apt cache
 ## gpg-agent
 **Maintainer:** [robbyrussell][robbyrussell]
 
-* gpg-agent - starts gpg-agent (with ssh support) not running and includes its environment variables
+* gpg-agent - starts gpg-agent (with ssh support) if not running and includes its environment variables
 
 ## git
 **Maintainer:** [robbyrussell][robbyrussell]
