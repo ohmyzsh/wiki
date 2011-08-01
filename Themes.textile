@@ -317,6 +317,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sunrise@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @superjarin@.
 
+*terminalparty* - There is a party every day.
+!http://f.cl.ly/items/0z3I4612443J1x2p2v0A/Screen%20Shot%202011-08-01%20at%2013.50.07.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @terminalparty@
+
 *theunraveler* - Minimal, informative when it needs to be.
 !http://dl.dropbox.com/u/5232448/zsh.png!
 
