@@ -9,6 +9,7 @@ h4. Commands:
 * @zsh_stats@ - Get a list of the top ten commands and how many times they have been run
 * @uninstall_oh_my_zsh@ - Uninstall Oh-my-zsh 
 * @upgrade_oh_my_zsh@ - Upgrade Oh-my-zsh 
+* @d@ - List last used directories; use @cd +n@ to switch to directory number @n@.
 
 h4. Tab-completion:
 
