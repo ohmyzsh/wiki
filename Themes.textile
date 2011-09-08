@@ -37,7 +37,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @bira@.
 *blinks*
 !http://i.imgur.com/vFnc8.png!
 
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @blinks@, and set up [Solarized](http://ethanschoonover.com/solarized).
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @blinks@, and set up "Solarized":http://ethanschoonover.com/solarized.
 
 *candy*
 !http://img571.imageshack.us/img571/4951/ohmyzshcandy.png!
