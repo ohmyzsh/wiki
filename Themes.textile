@@ -358,6 +358,12 @@ Instructions to further customise the theme are available as comments in the the
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @wezm@.
 
+*wuffers*
+
+!http://i.imgur.com/cFqth.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @wuffers@.
+
 *xiong-chiamiov*
 !http://img.skitch.com/20091228-axm1b99qpxdyey6pu4h28tj27.jpg!
 
