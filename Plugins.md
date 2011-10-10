@@ -214,6 +214,11 @@ Clean apt cache
 
 * dirpersist
 
+## fabric
+**Maintainer:** [santiycr][santiycr]
+
+* fab - completion plugin for [fabric](http://docs.fabfile.org/en/1.2.2/index.html)
+
 ## gas
 
 * gas - completion plugin for the [gas](https://github.com/walle/gas) gem
