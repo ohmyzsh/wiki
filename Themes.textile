@@ -54,6 +54,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @clean@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @cloud@.
 
+*crunch*
+!https://img.skitch.com/20111010-ep1hhf185gku7k13tmdxxw6d6d.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @crunch@.
+
 *cypher*
 !http://img.skitch.com/20091228-r19yxykxhdxkkqqp6687w5pgf4.jpg!
 
