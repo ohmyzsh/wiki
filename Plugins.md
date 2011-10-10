@@ -332,6 +332,13 @@ After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-complet
 ## svn
 **Maintainer:** [robbyrussell][robbyrussell]
 
+## terminitor
+**Maintainer:** [philippbosch](https://github.com/philippbosch)
+
+[terminitor](https://github.com/achiu/terminitor) is a tool that "automates your development workflow setup". 
+
+* terminitor – auto complete for terminitor commands and scripts
+
 ## textmate
 **Maintainer:** [robbyrussell][robbyrussell]
 
