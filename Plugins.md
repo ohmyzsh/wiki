@@ -248,6 +248,14 @@ Clean apt cache
 
 * github - adds autocomplete to the github gem installable via gem install github-gem
 
+## gradle
+**Maintainer:** [matthewmccullough](http://github.com/matthewmccullough)
+
+Adds autocompletion of task names and option switches to command line use of gradle by actually executing gradle tasks in the background and collecting the result.
+
+Caches the result of the task names in a `.gradletasknamecache` file that is regenerated if the timestamp of the `build.gradle` file changes.
+
+
 ## lein
 **Maintainer:** [robbyrussell][robbyrussell]
 
