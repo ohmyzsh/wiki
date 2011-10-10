@@ -363,6 +363,12 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov-plus@.
 
+*rkj-repos*
+!http://i.imgur.com/Vc2gL.png!
+!http://i.imgur.com/vWJuk.png!
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @rkj-repos@.
+
+
 h2. How to Submit Your Theme
 
 We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours!
