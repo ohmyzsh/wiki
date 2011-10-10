@@ -155,6 +155,11 @@ Only for Ubuntu: If a command is not recognized in the $PATH, this will use Ubun
 
 The plugin uses the command-not-found package zsh support.
 
+## cloudapp
+**Maintainer:** [matthewmccullough](http://github.com/matthewmccullough)
+
+Uploads files and piped contents to the [Cloudapp](http://getcloudapp.com/) service. Outputs and copies the resultant URL to the clipboard. Uses the cloudapp ruby gem from @holman.
+
 ## compleat
 **Maintainer:** [robbyrussell][robbyrussell]
 
