@@ -260,6 +260,15 @@ Adds autocompletion of task names and option switches to command line use of gra
 
 Caches the result of the task names in a `.gradletasknamecache` file that is regenerated if the timestamp of the `build.gradle` file changes.
 
+## grails
+**Maintainer:** [zachriggle](http://github.com/zachriggle)
+
+Adds tab-completion of Grails script names to the command line use of grails.  Looks for scripts in the following paths:
+
+- `$GRAILS_HOME/scripts` 
+- `~/.grails/scripts `
+- `./scripts`
+- `./plugins/*/scripts`
 
 ## lein
 **Maintainer:** [robbyrussell][robbyrussell]
