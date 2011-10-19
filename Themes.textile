@@ -262,6 +262,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @nebirhos@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @nicoulaj@.
 
+*norm*
+!http://i.imgur.com/XjpUR.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @norm@.
+
 *philips*
 !http://farm5.static.flickr.com/4124/5065882407_11d06f4e45.jpg!
 
