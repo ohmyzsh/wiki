@@ -2,7 +2,7 @@ Here are a collection of blog posts and articles that mention Oh My Zsh.
 
 If you know of any that are missing, feel free to contribute! :-)
 
-* [[Trying Out Zsh|http://mrminimalist.net/blog/2011/08/28/trying-out-zsh/]]
+* [[Trying Out Zsh|http://mrminimalist.net/blog/2011/08/28/trying-out-zsh/]] (no longer there)
 * [[Changelog - Episode 0.6.1 - Oh my zsh! with Robby Russell|http://thechangelog.com/post/5875746546/episode-0-6-1-oh-my-zsh-with-robby-russell]] -- podcast!
 * [[My Extravagant Zsh Prompt|http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/]]
 * [[Hooray! Oh My Zsh has been updated.|http://thechangelog.com/post/5452652236/hooray-oh-my-zsh-has-been-updated]]
