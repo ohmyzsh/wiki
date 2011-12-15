@@ -97,7 +97,7 @@ List all disowned files in your system
 
 ## Autojump
 
-Will enable autojump if installed with homebrew.
+Will enable autojump if installed with homebrew or macports.
 
 This does not add any commands on its own.
 
