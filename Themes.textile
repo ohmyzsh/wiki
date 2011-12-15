@@ -328,7 +328,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @sunrise@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @superjarin@.
 
 *suvash* - username, host, directory, git branch and rvm gemset
-!http://suvashshares.s3.amazonaws.com/oh-my-zsh/suvash-zsh-theme.png
+!http://suvashshares.s3.amazonaws.com/oh-my-zsh/suvash-zsh-theme.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @suvash@.
 
