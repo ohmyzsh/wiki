@@ -385,7 +385,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov-plus@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @rkj-repos@.
 
 *zhann*
-!http://i.imgur.com/Aad0U.png!
+!http://i.imgur.com/f6shl.png!
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @zhann@.
 
 
