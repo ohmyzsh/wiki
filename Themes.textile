@@ -384,6 +384,10 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @xiong-chiamiov-plus@.
 !http://i.imgur.com/vWJuk.png!
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @rkj-repos@.
 
+*zhann*
+!http://i.imgur.com/Aad0U.png!
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @zhann@.
+
 
 h2. How to Submit Your Theme
 
