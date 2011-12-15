@@ -272,6 +272,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @norm@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @philips@.
 
+*pygmalion*
+!http://i.imgur.com/E3KKx.png
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @pygmalion@.
+
 *rachel*
 !http://img.skitch.com/20110114-bga7p8qihdu481mmfagsb1as6q.png!
 
