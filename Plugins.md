@@ -359,6 +359,11 @@ After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-complet
 ## svn
 **Maintainer:** [robbyrussell][robbyrussell]
 
+## symfony2
+**Maintainer:** [andrewtch](https://github.com/andrewtch)
+
+[Symfony2](http://symfony.com) autocomplete plugin; binds to app/console<tab>, and not ./console command!
+
 ## terminitor
 **Maintainer:** [philippbosch](https://github.com/philippbosch)
 
