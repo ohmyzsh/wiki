@@ -398,6 +398,9 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @rkj-repos@.
 !http://i.imgur.com/f6shl.png!
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @zhann@.
 
+*gnzh*
+!http://dl.dropbox.com/u/4109351/pics/gnzh-zsh-theme.png!
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gnzh@.
 
 h2. How to Submit Your Theme
 
