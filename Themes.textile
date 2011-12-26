@@ -227,6 +227,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @macovsky@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @maran@.
 
+*mh*
+!https://img.skitch.com/20111226-ki31rh8ytx7pnj3wwa3w71y6wg.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @mh@.
+
 *miloshadzic*
 !http://i.imgur.com/9fcZg.png!
 
