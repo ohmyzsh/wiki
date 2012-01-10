@@ -1,7 +1,7 @@
 To try it out if you have just cloned it (to your home directory):
 * @source ~/.oh-my-zsh/templates/zshrc.zsh-template@
 
-h2. Commands:
+h1. Commands
 
 * @tab@ - Create a new tab in the current directory (OS X - req enabling access for assistive devices under sys prefs)
 * @take@ - Create a new directory and change to it, will create intermediate directories as required.
@@ -11,7 +11,7 @@ h2. Commands:
 * @upgrade_oh_my_zsh@ - Upgrade Oh-my-zsh 
 * @d@ - List last used directories; use @cd +n@ to switch to directory number @n@.
 
-h2. Tab-completion:
+h1. Tab-completion
 
 * @ls -(tab)@ - For options and helpful text of what they do
 * @cap (tab)@
@@ -21,14 +21,14 @@ h2. Tab-completion:
 * @kill (tab)@
 * @unrar (tab)@
 
-h2. Git:
+h1. Git
 
-h3. Dynamic access to current branch name with the current_branch function.
+h2. Dynamic access to current branch name with the current_branch function
 
 * @git pull origin $(current_branch)@
 * @grb publish $(current_branch) origin@
 
-h3. Helpful aliases for common git tasks:
+h2. Helpful aliases for common git tasks
 * @g@ - git
 * @gst@ - git status
 * @gl@ - git pull
