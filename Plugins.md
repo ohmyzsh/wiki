@@ -372,7 +372,13 @@ After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-complet
 ## textmate
 **Maintainer:** [robbyrussell][robbyrussell]
 
-* textmate -  aliases for opening rails apps without the cruft, also has *tm* function which cd's to the folder and opens mate
+* `et` aliases `mate .`
+* `ett` aliases `mate Gemfile app config features lib db public spec test Rakefile Capfile Todo`
+* `etp` aliases `mate app config lib db public spec test vendor/plugins vendor/gems Rakefile Capfile Todo`
+* `etts` aliases `mate app config lib db public script spec test vendor/plugins vendor/gems Rakefile Capfile Todo`
+* `mr` aliases `mate CHANGELOG app config db lib public script spec test`
+* `tm [directory]` changes to specified directory and executes `mate .` 
+
 
 ## thor
 
