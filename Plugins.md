@@ -304,8 +304,6 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 ## osx
 **Maintainer:** [robbyrussell][robbyrussell]
 
-* `showfiles`/`hidefiles`: show/hide hidden files in Finder
-* `rm-dsstore`: recursively remove `.DS_Store` files from the current directory
 * `tab` - open the current directory in a new tab via the *tab* command
 
 ## perl
