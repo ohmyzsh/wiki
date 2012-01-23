@@ -9,7 +9,29 @@ h1. Commands
 * @zsh_stats@ - Get a list of the top ten commands and how many times they have been run
 * @uninstall_oh_my_zsh@ - Uninstall Oh-my-zsh 
 * @upgrade_oh_my_zsh@ - Upgrade Oh-my-zsh 
-* @d@ - List last used directories; use @cd +n@ to switch to directory number @n@.
+
+h2. See @~/.oh-my-zsh/libs/directories.zsh@
+* @..@ aliases @cd ..@
+* @cd..@ aliases @cd ..@
+* @cd...@ aliases @cd ../..@
+* @cd....@ aliases @cd ../../..@
+* @cd.....@ aliases @cd ../../../..@
+* @cd/@ aliases @cd /@
+* @cd +n@ to switch to directory number @n@
+* @1@ aliases @cd -@
+* @2@ aliases @cd +2@
+* @3@ aliases @cd +3@
+* @4@ aliases @cd +4@
+* @5@ aliases @cd +5@
+* @6@ aliases @cd +6@
+* @7@ aliases @cd +7@
+* @8@ aliases @cd +8@
+* @9@ aliases @cd +9@
+* @md@ aliases @mkdir -p@
+* @rd@ aliases @rmdir@
+* @d@ aliases @dirs -v@, lists last used directories
+* @mcd directory@ creates and changes into directory @directory@
+
 
 h1. Tab-completion
 
