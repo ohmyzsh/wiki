@@ -242,6 +242,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @miloshadzic@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @minimal@.
 
+*mortalscumbag*
+!http://i.imgur.com/VsuGM.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @mortalscumbag@.
+
 *mrtazz*
 !http://farm5.static.flickr.com/4101/4910363151_f8170b691d.jpg!
 
