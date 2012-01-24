@@ -242,7 +242,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @miloshadzic@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @minimal@.
 
-*mortalscumbag*
+*mortalscumbag* - also tells you when logged in over ssh
 !http://i.imgur.com/VsuGM.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @mortalscumbag@.
