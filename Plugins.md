@@ -165,6 +165,8 @@ Uploads files and piped contents to the [Cloudapp](http://getcloudapp.com/) serv
 
 Completion for human beings. **Further documentation needed**
 
+See this [blog post about compleat](http://limpet.net/mbrubeck/2009/10/30/compleat.html)
+
 ## cpanm
 **Maintainer:** [robbyrussell][robbyrussell]
 
