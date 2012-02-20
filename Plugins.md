@@ -334,6 +334,18 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 ## rails3
 **Maintainer:** [robbyrussell][robbyrussell]
 
+* `rc - rails console`
+* `rd - rails destroy`
+* `rdb - rails dbconsole`
+* `rdbm - rake db:migrate db:test:clone`
+* `rg - rails generate`
+* `rp - rails plugin`
+* `rs - rails server`
+* `rsd - rails server --debugger`
+* `devlog - tail -f log/development.log`
+* `rdm - rake db:migrate`
+* `rdr - rake db:rollback`
+
 ## redis-cli
 **Maintainer:** [robbyrussell][robbyrussell]
 
@@ -400,4 +412,3 @@ Completions for `thor`
 **Maintainer:** [robbyrussell][robbyrussell]
 
 [robbyrussell]: https://github.com/robbyrussell
-
