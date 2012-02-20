@@ -63,17 +63,3 @@ h2. Helpful aliases for common git tasks
 * @gco@ - @git checkout@
 * @gb@ - @git branch@
 * @gba@ - @git branch -a@
-
-h1. Rails3
-
-* @rc@ - @rails console@
-* @rd@ - @rails destroy@
-* @rdb@ - @rails dbconsole@
-* @rdbm@ - @rake db:migrate db:test:clone@
-* @rg@ - @rails generate@
-* @rp@ - @rails plugin@
-* @rs@ - @rails server@
-* @rsd@ - @rails server --debugger@
-* @devlog@ - @tail -f log/development.log@
-* @rdm@ - @rake db:migrate@
-* @rdr@ - @rake db:rollback@
