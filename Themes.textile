@@ -90,7 +90,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dieter@ and get this small [[fix|https
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dogenpunk@.
 
 *dpoggi*
-!http://files.droplr.com/files/30319227/3Eqm.Screen%20shot%202011-07-12%20at%2023%3A24%3A35.png?AWSAccessKeyId=AKIAJSVQN3Z4K7MT5U2A&Expires=1311620110&Signature=Vn7hsOQW3UJ9SPDXCGE5ZmPqMBM%3D!
+!http://i.imgur.com/9uotC.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dpoggi@.
 
