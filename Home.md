@@ -1,7 +1,7 @@
 Welcome to the oh-my-zsh wiki!
 
 * Read our user [[Testimonials]]
-* Don't forget to "follow us on twitter":http://twitter.com/ohmyzsh
+* Don't forget to [follow us on twitter](http://twitter.com/ohmyzsh)
 
 # Help Wanted! 
 
