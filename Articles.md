@@ -15,3 +15,4 @@ If you know of any that are missing, feel free to contribute! :-)
 * [[Tips, tricks and examples for the Z shell|http://grml.org/zsh/zsh-lovers.html]] (2010-07-28)
 * [[oh-my-zsh on OpenBSD 5.0| http://blog.bsdguy.net/?p=112]] (2011-11-12)
 * [[zsh: The Powerful Shell|http://nerdrug.org/blog/zsh-the-powerful-shell/]] (2011-10-02) - in italian
+* [[zsh on Mac OSX|http://www.mooduino.co.uk/2012/06/z-shell-on-mac-os-x.html]] (2012-06-13)
