@@ -226,6 +226,18 @@ This is a small zle trick that lets you cycle your directory stack left or right
 
 * dirpersist
 
+
+## encode64
+**Maintainer:** [fuksito](http://github.com/fuksito)
+
+This is a plugin that helps to encode/decode strings with base64 from the console quickly:
+
+    $ encode64 some_string
+    => c29tZV9zdHJpbmc=
+
+    $ decode64 c29tZV9zdHJpbmc=
+    => some_string
+
 ## fabric
 **Maintainer:** [santiycr][santiycr]
 
