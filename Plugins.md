@@ -218,6 +218,9 @@ Clean apt cache
 ## debian
 **Maintainer:** [robbyrussell][robbyrussell]
 
+## dircycle
+This is a small zle trick that lets you cycle your directory stack left or right using Ctrl+Shift+Left/Right. This is useful when moving back and forth between directories in development environments, and can be thought of as kind of a nondestructive pushd/popd.
+
 ## dirpersist
 **Maintainer:** [robbyrussell][robbyrussell]
 
