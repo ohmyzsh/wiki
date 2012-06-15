@@ -309,6 +309,11 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 
 * macports - adds "port" command completion and aliases for running macports commands
 
+## mvn
+**Maintainer:** [fred-o][fred-o]
+
+* mvn - adds command line completion for apache maven
+
 ## mysql-macports
 **Maintainer:** [robbyrussell][robbyrussell]
 
@@ -379,6 +384,11 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 * `gems`: list gems available in currently active gemset **Note: This has opinions about colors. It should be re-factored to be customizable in themes.**
 
 After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-completion` to make a symlink to the official zsh completion file that comes with rvm into your oh-my-zsh rvm plugin directory.
+
+## screen
+**Maintainer:** [fred-o][fred-o]
+
+* screen - automatic setting of window titles and status for [GNU Screen](http://www.gnu.org/software/screen/)
 
 ## ssh-agent
 **Maintainer:** [robbyrussell][robbyrussell]
