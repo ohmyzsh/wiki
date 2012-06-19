@@ -11,6 +11,7 @@ h1. Commands
 * @upgrade_oh_my_zsh@ - Upgrade Oh-my-zsh 
 
 h2. See @~/.oh-my-zsh/libs/directories.zsh@
+* @alias@ lists all aliases
 * @..@ aliases @cd ..@
 * @cd..@ aliases @cd ..@
 * @cd...@ aliases @cd ../..@
