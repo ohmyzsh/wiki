@@ -435,6 +435,11 @@ Completions for `thor`
 
 * vi-mode
 
+## virtualenvwrapper
+**Maintainer:** [mispy](https://github.com/mispy)
+
+* virtualenvwrapper - Loads Python's [virtualenvwrapper](http://www.doughellmann.com/projects/virtualenvwrapper/) shell tools, and automatically activates virtualenv on cd into git repository with matching name.
+
 ## yum
 **Maintainer:** [robbyrussell][robbyrussell]
 
