@@ -10,7 +10,7 @@ h1. Commands
 * @uninstall_oh_my_zsh@ - Uninstall Oh-my-zsh 
 * @upgrade_oh_my_zsh@ - Upgrade Oh-my-zsh 
 
-h2. See @~/.oh-my-zsh/libs/directories.zsh@
+h2. See @~/.oh-my-zsh/lib/directories.zsh@
 * @alias@ lists all aliases
 * @..@ aliases @cd ..@
 * @cd..@ aliases @cd ..@
