@@ -9,6 +9,11 @@ Here is a collection of screenshots of themes that have been contributed to Oh M
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @robbyrussell@.
 
+*af-magic*
+!http://f.cl.ly/items/3S10401r24040W0V3w06/af-magic.png!
+
+To use: set @ZSH_THEME@ in @~/.zshrc@ to @af-magic@.
+
 *afowler*
 !http://i.imgur.com/LEAtp.png!
 
