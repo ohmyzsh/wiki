@@ -397,6 +397,11 @@ After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-complet
 
 * ssh-agent - cygwin ssh-agent plugin for starting agent (see - http://www.cygwin.com/ml/cygwin/2001-06/msg00537.html )
 
+## supervisor
+**Maintainer:** [everbird](http://github.com/everbird)
+
+* supervisor - Adds tab-completion for supervisord/supervisorctl in [Supervisor](http://supervisord.org/). These scripts are from [zshcompfunc4supervisor](https://bitbucket.org/hhatto/zshcompfunc4supervisor).
+
 ## svn
 **Maintainer:** [robbyrussell][robbyrussell]
 
