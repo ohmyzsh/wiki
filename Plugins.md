@@ -239,7 +239,7 @@ This is a plugin that helps to encode/decode strings with base64 from the consol
     => some_string
 
 ## fabric
-**Maintainer:** [santiycr][santiycr]
+**Maintainer:** [santiycr](https://github.com/santiycr)
 
 * fab - completion plugin for [fabric](http://docs.fabfile.org/en/1.2.2/index.html)
 
