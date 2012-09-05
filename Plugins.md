@@ -399,19 +399,6 @@ After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-complet
 
 * screen - automatic setting of window titles and status for [GNU Screen](http://www.gnu.org/software/screen/)
 
-## sprunge
-**Maintainer:** [ilikenwf](https://github.com/ilikenwf)
-
-* [sprunge](http://sprunge.us) - a basic cli interface to pastebin, which accepts it's input through web requests. Designed for Linux users, sprunge is an easy way to pastebin text without having to actually use a web browser. The oh-my-zsh plugin is based on http://www.shellperson.net/sprunge-pastebin-script/, author unknown.
-
-You can use sprunge in the following ways:
-
-* **Pipes**: `echo "hello there...testing sprunge"|sprunge`
-* **Files**: `sprunge test.txt`
-* **Strings**: `sprunge "hello"`
-
-Note that if a filename is misspelled or doesn't have the necessary path description, it will NOT generate an error, but will instead treat it as a text string and upload it.
-
 ## ssh-agent
 **Maintainer:** [robbyrussell][robbyrussell]
 
