@@ -404,6 +404,12 @@ After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-complet
 
 * ssh-agent - cygwin ssh-agent plugin for starting agent (see - http://www.cygwin.com/ml/cygwin/2001-06/msg00537.html )
 
+## sublime
+**Maintainer:** [dylnhdsn](https://github.com/dylnhdsn)
+
+* `st` - open a specified file in Sublime Text
+* `stt` - open the current directory in Sublime Text
+
 ## supervisor
 **Maintainer:** [everbird](http://github.com/everbird)
 
