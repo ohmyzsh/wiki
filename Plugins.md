@@ -419,7 +419,7 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-completion` to make a symlink to the official zsh completion file that comes with rvm into your oh-my-zsh rvm plugin directory.
 
 ## screen
-**Maintainer:** [fred-o][fred-o]
+**Maintainer:** [fred-o](https://github.com/fred-o)
 
 * screen - automatic setting of window titles and status for [GNU Screen](http://www.gnu.org/software/screen/)
 
