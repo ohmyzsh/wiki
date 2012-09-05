@@ -291,6 +291,11 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 - `./scripts`
 - `./plugins/*/scripts`
 
+## knife
+**Maintainer:** [franklouwers](https://github.com/franklouwers)
+
+* knife - adds autocompletion to [knife](http://wiki.opscode.com/display/chef/Knife)
+
 ## lein
 **Maintainer:** [robbyrussell][robbyrussell]
 
