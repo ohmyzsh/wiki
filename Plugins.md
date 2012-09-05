@@ -409,6 +409,17 @@ After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-complet
 
 * supervisor - Adds tab-completion for supervisord/supervisorctl in [Supervisor](http://supervisord.org/). These scripts are from [zshcompfunc4supervisor](https://bitbucket.org/hhatto/zshcompfunc4supervisor).
 
+## suse
+**Maintainer:** [r-darwish](https://github.com/r-darwish)
+
+* `zi - sudo zypper install`
+* `zrf - sudo zypper refresh`
+* `zs - zipper search`
+* `zup - sudo zypper dist-upgrade`
+* `zrm - sudo zypper remove`
+* `zp - sudo zypper patch`
+* `zps - sudo zypper ps`
+
 ## svn
 **Maintainer:** [robbyrussell][robbyrussell]
 
