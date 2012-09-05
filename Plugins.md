@@ -417,6 +417,11 @@ After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-complet
 
 [Symfony2](http://symfony.com) autocomplete plugin; binds to app/console<tab>, and not ./console command!
 
+## taskwarrior
+**Maintainer:** [lepht](https://github.com/lepht)
+
+* taskwarrior - adds smart tab completion for [TaskWarrior](http://taskwarrior.org). For example, `task[tabtab]` will give you a list of current tasks, `task 66[tabtab]` gives a list of available modifications for that task, etc.
+
 ## terminalapp
 **Maintainer:** [OutPunk](https://github.com/OutPunk)
 
