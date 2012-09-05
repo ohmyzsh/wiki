@@ -331,7 +331,7 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 * `hgca - hg qimport -r tip ; hg qrefresh -e ; hg qfinish tip`, this is the 'git commit --amend' equivalent
 
 ## mvn
-**Maintainer:** [fred-o][fred-o]
+**Maintainer:** [fred-o](https://github.com/fred-o)
 
 * mvn - adds command line completion for apache maven
 
