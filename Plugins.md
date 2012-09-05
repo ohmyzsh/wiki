@@ -417,6 +417,11 @@ After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-complet
 
 [Symfony2](http://symfony.com) autocomplete plugin; binds to app/console<tab>, and not ./console command!
 
+## terminalapp
+**Maintainer:** [OutPunk](https://github.com/OutPunk)
+
+* terminalapp - automatically sets the Terminal.app resume directory, so when restoring windows with OS X Lion's "Resume" feature it will restore the directory too.
+
 ## terminitor
 **Maintainer:** [philippbosch](https://github.com/philippbosch)
 
