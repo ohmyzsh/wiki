@@ -311,6 +311,20 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 
 * macports - adds "port" command completion and aliases for running macports commands
 
+## mercurial
+**Maintainer:** [ptrv](https://github.com/ptrv)
+
+* `hgc - hg commit`
+* `hgb - hg branch`
+* `hgba - hg branches`
+* `hgco - hg checkout`
+* `hgd - hg diff`
+* `hged - hg diffmerge`
+* `hgl - hg pull -u`
+* `hgp - hg push`
+* `hgs - hg status`
+* `hgca - hg qimport -r tip ; hg qrefresh -e ; hg qfinish tip`, this is the 'git commit --amend' equivalent
+
 ## mvn
 **Maintainer:** [fred-o][fred-o]
 
