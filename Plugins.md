@@ -327,6 +327,11 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 ## npm
 **Maintainer:** [robbyrussell][robbyrussell]
 
+## nyan
+**Maintainer:** [robbyrussell][robbyrussell]
+
+* nyan - nyan cat goodness in your shell
+
 ## osx
 **Maintainer:** [robbyrussell][robbyrussell]
 
