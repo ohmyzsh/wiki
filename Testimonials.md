@@ -23,4 +23,4 @@ Please share your thoughts on Oh My Zsh... they might help influence others to u
 
 "ZSH, by default, is a pain to setup. Thanks oh-my-zsh for hand-holding noobs into this wonderful shell!" -- [[vikred|https://github.com/vikas-reddy]]
 
-"I've just started to use ZSH and with oh-my-zsh, my life just get better!" -- [[vinnx|https://github.com/vinhnx]]
+"I've just started to use ZSH and with oh-my-zsh, my life just got better!" -- [[vinnx|https://github.com/vinhnx]]
