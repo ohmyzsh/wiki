@@ -401,6 +401,8 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 ## redis-cli
 **Maintainer:** [robbyrussell][robbyrussell]
 
+Completion plugin for [redis-cli](http://redis.io/topics/quickstart)
+
 ## ruby
 **Maintainer:** [robbyrussell][robbyrussell]
 
