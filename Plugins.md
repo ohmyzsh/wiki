@@ -520,4 +520,58 @@ Completions for `thor`
 ## yum
 **Maintainer:** [robbyrussell][robbyrussell]
 
+Enables aliases for [Yum](http://yum.baseurl.org), the popular front-end to the RPM Package Manager.
+
+Search package
+
+    ys - "yum search"
+
+Show package info
+
+    yp - "yum info"
+
+List packages
+
+    yl - "yum list"
+
+List package groups
+
+    ygl - "yum grouplist"
+
+Print all installed packages
+
+    yli - "yum list installed"
+
+Rebuilds the yum package list
+
+    ymc - "yum makecache"
+
+Upgrate packages
+
+    yu - "sudo yum update"
+
+Install package
+
+    yi - "sudo yum install"
+
+Install package group
+
+    ygi - "sudo yum groupinstall"
+
+Remove package
+
+    yr - "sudo yum remove"
+
+Remove pagage group
+
+    ygr - "sudo yum groupremove"
+
+Remove package and leaves
+
+    yrl - "sudo yum remove --remove-leaves"
+
+Clean cache
+
+    yc - "sudo yum clean all"
+
 [robbyrussell]: https://github.com/robbyrussell
