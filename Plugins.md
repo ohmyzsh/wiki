@@ -174,7 +174,7 @@ See this [blog post about compleat](http://limpet.net/mbrubeck/2009/10/30/comple
 
 Completion plugin for cpanminus (see [[https://github.com/rshhh/cpanminus/blob/master/etc/_cpanm]])_
 
-## deb
+## debian
 **Maintainer:** [robbyrussell][robbyrussell]
 
 A set of aliases to work with the Debian Advanced Packaging Tool, apt.
@@ -214,9 +214,6 @@ Search packages
 Clean apt cache
 
     ac
-
-## debian
-**Maintainer:** [robbyrussell][robbyrussell]
 
 ## dircycle
 This is a small zle trick that lets you cycle your directory stack left or right using Ctrl+Shift+Left/Right. This is useful when moving back and forth between directories in development environments, and can be thought of as kind of a nondestructive pushd/popd.
