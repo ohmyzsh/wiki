@@ -269,7 +269,7 @@ You can find a list of some of the aliases introduced [here](http://jasonm23.git
 ## github
 **Maintainer:** [robbyrussell][robbyrussell]
 
-* github - adds autocomplete to the github gem installable via gem install github-gem
+* github - adds autocomplete to the github gem, which is installable via `gem install github-gem`
 
 ## gradle
 **Maintainer:** [matthewmccullough](http://github.com/matthewmccullough)
