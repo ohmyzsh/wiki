@@ -465,6 +465,8 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 ## svn
 **Maintainer:** [robbyrussell][robbyrussell]
 
+* svn - adds several functions for dealing with the status of the current directory's svn repo.
+
 ## symfony2
 **Maintainer:** [andrewtch](https://github.com/andrewtch)
 
