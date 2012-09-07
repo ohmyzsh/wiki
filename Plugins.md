@@ -343,6 +343,8 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 ## npm
 **Maintainer:** [robbyrussell][robbyrussell]
 
+* npm - adds autocompletion to [npm](https://npmjs.org)
+
 ## nyan
 **Maintainer:** [robbyrussell][robbyrussell]
 
