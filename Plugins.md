@@ -172,7 +172,7 @@ See this [blog post about compleat](http://limpet.net/mbrubeck/2009/10/30/comple
 ## cpanm
 **Maintainer:** [robbyrussell][robbyrussell]
 
-Completion plugin for cpanminus (see [[https://github.com/rshhh/cpanminus/blob/master/etc/_cpanm]])_
+Completion plugin for [cpanminus](https://github.com/miyagawa/cpanminus/)
 
 ## debian
 **Maintainer:** [robbyrussell][robbyrussell]
