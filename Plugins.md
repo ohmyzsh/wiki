@@ -95,9 +95,9 @@ List all disowned files in your system
 
     pacdisowned | less +F
 
-## Autojump
+## autojump
 
-Will enable autojump if installed with homebrew or macports.
+Enables [autojump](https://github.com/joelthelion/autojump/wiki/) if installed with homebrew, macports or debian/ubuntu package.
 
 This does not add any commands on its own.
 
