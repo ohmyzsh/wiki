@@ -189,7 +189,7 @@ Update packages
 
 Upgrade packages
 
-    au
+    ag
 
 Install packages
 
