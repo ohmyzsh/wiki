@@ -194,7 +194,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jtriley@.
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @juanghurtado@.
 
 *kardan*
-!https://files.me.com/daniel_karlsson/jeb8lj!
+!http://zshthem.es/screenshots/kardan.png!
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kardan@.
 
