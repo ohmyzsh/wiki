@@ -366,7 +366,7 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 
 **Maintainer:** [jimhester][jimhester]
 
-per-directory-history - tracks command history both per directory and globally, with the ability to switch between them on the fly, bound to ctrl-g.
+per-directory-history - tracks previous command history both per current directory and globally, with the ability to switch between them on the fly, bound to ctrl-g.
 
 ## perl
 **Maintainer:** [robbyrussell][robbyrussell]
