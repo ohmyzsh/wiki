@@ -362,6 +362,12 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 * `man-preview` - open a specified man page in Preview
 * `trash` - move a specified file to the Trash
 
+## per-directory-history
+
+**Maintainer:** [jimhester][jimhester]
+
+per-directory-history - tracks command history both per directory and globally, with the ability to switch between them on the fly, bound to ctrl-g.
+
 ## perl
 **Maintainer:** [robbyrussell][robbyrussell]
 
@@ -579,3 +585,4 @@ Clean cache
     yc - "sudo yum clean all"
 
 [robbyrussell]: https://github.com/robbyrussell
+[jimhester]: https://github.com/jimhester
