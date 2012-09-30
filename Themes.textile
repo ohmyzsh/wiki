@@ -19,6 +19,17 @@ To use: set @ZSH_THEME@ in @~/.zshrc@ to @af-magic@.
 
 To use: set @ZSH_THEME@ in @~/.zshrc@ to @afowler@.
 
+*agnoster* ("more info":https://gist.github.com/3712874)
+
+!https://gist.github.com/raw/3712874/5d28e2d9fe2e4d0a4fda0315ad97bdafa399425c/screenshot.png!
+
+(Shown with "Solarized Dark colorscheme":http://ethanschoonover.com/solarized and "patched Menlo 14pt":https://gist.github.com/1595572 in "iTerm 2":http://www.iterm2.com/)
+
+To use:
+* install one of the "patched fonts from Vim-Powerline":https://github.com/Lokaltog/vim-powerline/wiki/Patched-fonts or "patch your own":https://github.com/Lokaltog/vim-powerline/tree/develop/fontpatcher for the special characters.
+* set @ZSH_THEME@ in @~/.zshrc@ to @agnoster@.
+* _optionally_ set @DEFAULT_USER@ in @~/.zshrc@ to your regular username to hide the "user@hostname" info when you're logged in as yourself on your local machine.
+
 *alanpeabody*
 !http://dl.dropbox.com/u/3952084/alanpeabody_zsh_theme.png!
 
