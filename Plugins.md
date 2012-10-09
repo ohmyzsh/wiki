@@ -156,7 +156,18 @@ Only for Ubuntu: If a command is not recognized in the $PATH, this will use Ubun
     bash: gedit: command not found
 
 The plugin uses the command-not-found package zsh support.
+## Composer
+**Maintainer:** [danielcsgomes](https://github.com/danielcsgomes)
 
+[Composer](http://getcomposer.org/) autocomplete plugin with useful aliases:
+    
+* `c   = 'composer'`
+* `csu = 'composer self-update'`
+* `cu  = 'composer update'`
+* `ci  = 'composer install'`
+* `ccp = 'composer create-project'`
+* `cget = installs composer on the current path`
+    
 ## cloudapp
 **Maintainer:** [matthewmccullough](http://github.com/matthewmccullough)
 
@@ -488,6 +499,11 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 **Maintainer:** [andrewtch](https://github.com/andrewtch)
 
 [Symfony2](http://symfony.com) autocomplete plugin; binds to app/console<tab>, and not ./console command!
+
+**New aliases:**
+
+* `sf2 = 'php app/console'`
+* `sf2clear = 'php app/console cache:clear'` 
 
 ## taskwarrior
 **Maintainer:** [lepht](https://github.com/lepht)
