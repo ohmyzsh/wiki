@@ -288,6 +288,15 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 - `./scripts`
 - `./plugins/*/scripts`
 
+## jira
+**Maintainer:** [paulredmond](https://github.com/paulredmond)
+
+* Open Jira issues using the command *open_jira_issue*
+```shell
+jira # Open new issue form in browser
+jira ABC-123 # Open issue in browser
+```
+
 ## knife
 **Maintainer:** [franklouwers](https://github.com/franklouwers)
 
