@@ -512,6 +512,14 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 
 Completions for `thor`
 
+## urltools
+
+Adds command line utilities for URL manipulation.
+
+* `urlencode` encodes a string so it compiles with the URL character rules laid out in RFC 1738
+
+* `urldecode` decode a string encoded according to the URL character rules in RFC 1738
+
 ## vagrant
 **Maintainer:** [robbyrussell][robbyrussell]
 
