@@ -357,6 +357,23 @@ jira ABC-123 # Open issue in browser
 
 * mysql - aliases for starting stopping and getting mysql status ( *mysqlstart*, *mysqlstop*, *mysqlstatus*)
 
+## nanoc
+**Maintainer:** [josh-](https://github.com/josh-)
+
+Enhances the [Nanoc](http://nanoc.stoneship.org/) static site generator with aliases and ZSH autocompletion.
+
+### Aliases
+
+* `n` is an alias to `nanoc`, other commands may be appended to this or on its own it will compile a site.
+* `na` starts the autocompiler.
+* `nco` compiles a site.
+* `nci <item>` creates an item <item>.
+* `ncl <layout>` creates a layout <layout>.
+* `ncs <site>` creates a site <site>.
+* `nd` deploys a site.
+* `nv` starts the `adsf` server for the current site.
+* `nw` starts the watcher.
+
 ## node
 * `node-api [SECTION]`: open the [node api](http://nodejs.org/docs/v0.4.8/api/all.html), for your current version, in your browser. **Note: This uses `open` which comes with OS X. This needs to be re-factored to work on other platforms.**
 
