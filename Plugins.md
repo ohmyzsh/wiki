@@ -360,7 +360,7 @@ jira ABC-123 # Open issue in browser
 ## nanoc
 **Maintainer:** [josh-](https://github.com/josh-)
 
-Enhances the [Nanoc](http://nanoc.stoneship.org/) static site generator with aliases and ZSH autocompletion.
+Enhances the [Nanoc](http://nanoc.stoneship.org/) static site generator with aliases and ZSH autocompletion. Discussed in further detail in [this blog post](http://joshparnham.com/2012/10/nanoc-plus-zsh-equals-awesomeness/).
 
 ### Aliases
 
