@@ -110,13 +110,6 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dogenpunk@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dpoggi@.
 
-*dpree*
-!https://img.skitch.com/20110704-8uab1m4p52cqeq8pjh2m4uant8.png(dpree.zsh-theme)!
-
-Font: Andale Mono 12pt
-
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @dpree@.
-
 *eastwood*
 !http://i49.tinypic.com/2je2rb.png!
 
