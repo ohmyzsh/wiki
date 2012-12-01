@@ -321,6 +321,13 @@ jira ABC-123 # Open issue in browser
 
 * knife - adds autocompletion to [knife](http://wiki.opscode.com/display/chef/Knife)
 
+## last-working-dir
+**Maintainer:** [op](https://github.com/op)
+
+Keeps track of the last used directory and automatically jumps to it for new shells. Similar to how many terminal emulators does it.
+
+* lwd - jump to last working directory (automatically called for new shells)
+
 ## lein
 **Maintainer:** [robbyrussell][robbyrussell]
 
