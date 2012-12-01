@@ -173,6 +173,14 @@ The plugin uses the command-not-found package zsh support.
 
 Uploads files and piped contents to the [Cloudapp](http://getcloudapp.com/) service. Outputs and copies the resultant URL to the clipboard. Uses the cloudapp ruby gem from @holman.
 
+## coffee
+**Maintainer:** [jdavis](https://github.com/jdavis)
+
+Completion plugin for [CoffeeScript](http://coffeescript.org/).
+
+For available options, look at the [usage](http://coffeescript.org/#usage) or run the command `coffee --help`.
+
+
 ## compleat
 **Maintainer:** [robbyrussell][robbyrussell]
 
