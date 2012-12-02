@@ -285,6 +285,11 @@ You can find a list of some of the aliases introduced [here](http://jasonm23.git
 
 * git-flow - Support for [git-flow](https://github.com/nvie/gitflow) completion
 
+## git-hubflow
+**Maintainer:** [willman500](https://github.com/willman500)
+
+* git-hubflow - Support for [git HubFlow](http://dev.datasift.com/blog/hubflow-github-and-gitflow-model-together) completion
+
 ## github
 **Maintainer:** [robbyrussell][robbyrussell]
 
