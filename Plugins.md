@@ -542,6 +542,11 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 * `sf2 = 'php app/console'`
 * `sf2clear = 'php app/console cache:clear'` 
 
+## systemd
+**Maintainer:** [aelesbao](https://github.com/aelesbao)
+
+[systemd](http://http://freedesktop.org/wiki/Software/systemd) aliases plugin; Add `sc-[command]` aliases to all `systemctl` commands, using `sudo` when needed.
+
 ## taskwarrior
 **Maintainer:** [lepht](https://github.com/lepht)
 
