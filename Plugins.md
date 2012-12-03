@@ -289,7 +289,35 @@ You can find a list of some of the aliases introduced [here](http://jasonm23.git
 ## git-extras
 **Maintainer:** [agrimaldi](https://github.com/agrimaldi)
 
-* git-extras - Support for [git-extras](https://github.com/visionmedia/git-extras) completion
+git-extras - Support for [git-extras](https://github.com/visionmedia/git-extras) completion
+
+* `git changelog - populate changelog file with commits since the previous tag`
+* `git contrib - display author contributions`
+* `git count - count commits`
+* `git delete-branch - delete local and remote branch`
+* `git delete-submodule - delete submodule`
+* `git delete-tag - delete local and remote tag`
+* `git extras - git-extras`
+* `git graft:'merge commits from source branch to destination branch`
+* `git squash - merge commits from source branch into the current one as a single commit`
+* `git feature - create a feature branch`
+* `git refactor - create a refactor branch`
+* `git bug - create a bug branch`
+* `git summary - repository summary`
+* `git effort - display effort statistics`
+* `git repl - read-eval-print-loop`
+* `git commits-since - list commits since a given date`
+* `git release - release commit with the given tag`
+* `git alias - define, search and show aliases`
+* `git ignore - add patterns to .gitignore`
+* `git info - show info about the repository`
+* `git create-branch - create local and remote branch`
+* `git fresh-branch - create empty local branch`
+* `git undo - remove the latest commit`
+* `git setup - setup a git repository`
+* `git touch - one step creation of new files`
+* `git obliterate - Completely remove a file from the repository, including past commits and tags`
+* `git local-commits - list unpushed commits on the local branch`
 
 ## git-flow
 **Maintainer:** [robbyrussell][robbyrussell]
