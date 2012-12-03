@@ -197,6 +197,10 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jtriley@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @juanghurtado@.
 
+*kafeitu*
+!http://www.kafeitu.me/files/2012/03/zsh-theme-kafeitu-git.png!
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kafeitu@.
+
 *kardan*
 !http://zshthem.es/screenshots/kardan.png!
 
