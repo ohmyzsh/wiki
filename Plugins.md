@@ -290,6 +290,7 @@ You can find a list of some of the aliases introduced [here](http://jasonm23.git
 **Maintainer:** [agrimaldi](https://github.com/agrimaldi)
 
 git-extras - Support for [git-extras](https://github.com/visionmedia/git-extras) completion
+Pressing tab after the various commands should autofill authors, branches and tags depending on context
 
 * `git changelog [-l/--list] - populate changelog file with commits since the previous tag`
 * `git contrib - display author contributions`
