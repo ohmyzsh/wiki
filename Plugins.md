@@ -291,20 +291,20 @@ You can find a list of some of the aliases introduced [here](http://jasonm23.git
 
 git-extras - Support for [git-extras](https://github.com/visionmedia/git-extras) completion
 
-* `git changelog - populate changelog file with commits since the previous tag`
+* `git changelog [-l/--list] - populate changelog file with commits since the previous tag`
 * `git contrib - display author contributions`
-* `git count - count commits`
+* `git count [--all] - count commits`
 * `git delete-branch - delete local and remote branch`
 * `git delete-submodule - delete submodule`
 * `git delete-tag - delete local and remote tag`
-* `git extras - git-extras`
+* `git extras [-v/--version] - git-extras`
 * `git graft:'merge commits from source branch to destination branch`
 * `git squash - merge commits from source branch into the current one as a single commit`
-* `git feature - create a feature branch`
-* `git refactor - create a refactor branch`
-* `git bug - create a bug branch`
+* `git feature [finish] - create a feature branch`
+* `git refactor [finish] - create a refactor branch`
+* `git bug [finish] - create a bug branch`
 * `git summary - repository summary`
-* `git effort - display effort statistics`
+* `git effort [--above] - display effort statistics`
 * `git repl - read-eval-print-loop`
 * `git commits-since - list commits since a given date`
 * `git release - release commit with the given tag`
