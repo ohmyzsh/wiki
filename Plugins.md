@@ -286,6 +286,11 @@ This is a plugin that helps to encode/decode strings with base64 from the consol
 
 You can find a list of some of the aliases introduced [here](http://jasonm23.github.com/oh-my-git-aliases.html).
 
+## git-extras
+**Maintainer:** [agrimaldi](https://github.com/agrimaldi)
+
+* git-extras - Support for [git-extras](https://github.com/visionmedia/git-extras) completion
+
 ## git-flow
 **Maintainer:** [robbyrussell][robbyrussell]
 
