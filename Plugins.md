@@ -259,6 +259,12 @@ This is a plugin that helps to encode/decode strings with base64 from the consol
 
 * fab - completion plugin for [fabric](http://docs.fabfile.org/en/1.2.2/index.html)
 
+## Forklift
+
+**Maintainer:** [bitboxer](https://github.com/bitboxer)
+
+    fl [<folder>] - Opens specified directory or current working directory in ForkLift.app
+
 ## gas
 
 * gas - completion plugin for the [gas](https://github.com/walle/gas) gem
