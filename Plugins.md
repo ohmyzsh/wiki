@@ -331,6 +331,18 @@ Pressing tab after the various commands should autofill authors, branches and ta
 
 * git-hubflow - Support for [git HubFlow](http://dev.datasift.com/blog/hubflow-github-and-gitflow-model-together) completion
 
+## git_remote_branch
+**Maintainer:** [webmat](https://github.com/webmat)
+
+* git_remote_branch - Support for [grb](https://github.com/webmat/git_remote_branch) completion
+
+* grb create branch_name [origin_server]
+* grb publish branch_name [origin_server]
+* grb delete branch_name [origin_server]
+* grb track branch_name [origin_server]
+* grb rename new_branch_name [origin_server]
+* grb explain create
+
 ## github
 **Maintainer:** [robbyrussell][robbyrussell]
 
