@@ -759,3 +759,9 @@ Clean cache
 
 * `zsw` aliases `rm .zeus.sock`
 * `zweep` aliases `rm .zeus.sock`
+
+
+## Pass
+**Maintainer:** [sanbor](https://github.com/sanbor)
+ 
+Completion plugin for [pass](http://zx2c4.com/projects/password-store/). [Source](http://git.zx2c4.com/password-store/tree/contrib/pass.zsh-completion)
