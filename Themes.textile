@@ -197,6 +197,12 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jtriley@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @juanghurtado@.
 
+*junkfood*
+
+!http://www.tylercipriani.com/images/junkfoodtheme.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @junkfood@.
+
 *kafeitu*
 !http://www.kafeitu.me/files/2012/03/zsh-theme-kafeitu-git.png!
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @kafeitu@.
