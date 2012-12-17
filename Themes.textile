@@ -197,7 +197,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @jtriley@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @juanghurtado@.
 
-*junkfood*
+*junkfood* ("more info":http://www.tylercipriani.com/2012/12/18/zsh-prompt-customization.html)
 
 !http://www.tylercipriani.com/images/junkfoodtheme.png!
 
