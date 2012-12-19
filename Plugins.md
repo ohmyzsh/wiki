@@ -327,7 +327,7 @@ Pressing tab after the various commands should autofill authors, branches and ta
 * git-flow - Support for [git-flow](https://github.com/nvie/gitflow) completion
 
 ## git-hubflow
-**Maintainer:** [willman500](https://github.com/willman500)
+**Maintainer:** [wweaver](https://github.com/wweaver)
 
 * git-hubflow - Support for [git HubFlow](http://dev.datasift.com/blog/hubflow-github-and-gitflow-model-together) completion
 
