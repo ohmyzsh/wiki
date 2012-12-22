@@ -509,12 +509,12 @@ per-directory-history - tracks previous command history both per current directo
 * `rdb - rails dbconsole`
 * `rdbm - rake db:migrate db:test:clone`
 * `rg - rails generate`
+* `rgm - rails generate migration`
+* `rdm - rake db:migrate`
+* `rdr - rake db:rollback`
 * `rp - rails plugin`
 * `rs - rails server`
 * `rsd - rails server --debugger`
-* `devlog - tail -f log/development.log`
-* `rdm - rake db:migrate`
-* `rdr - rake db:rollback`
 
 ## redis-cli
 **Maintainer:** [robbyrussell][robbyrussell]
