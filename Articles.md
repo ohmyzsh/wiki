@@ -18,3 +18,4 @@ If you know of any that are missing, feel free to contribute! :-)
 * [[zsh on Mac OSX|http://www.mooduino.co.uk/2012/06/z-shell-on-mac-os-x.html]] (2012-06-13)
 * [[oh my zsh|http://blog.lazywei.com/2012/11/21/oh-my-zsh/]] (2012-11-21) - in Traditional Chinese
 * [[Oh my zsh!|http://blog.vishaltelangre.com/15-12-2012-oh-my-zsh.html]] (2012-12-15) - w/ customized Powerline theme screenshot! 
+* [[Oh My ZSH! Build Podcast|http://build-podcast.com/oh-my-zsh/]] (2013-01-13) - Screencast
