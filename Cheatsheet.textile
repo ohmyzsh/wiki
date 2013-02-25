@@ -31,8 +31,6 @@ h2. See @~/.oh-my-zsh/lib/directories.zsh@
 * @md@ aliases @mkdir -p@
 * @rd@ aliases @rmdir@
 * @d@ aliases @dirs -v@, lists last used directories
-* @mcd directory@ creates and changes into directory @directory@
-
 
 h1. Tab-completion
 
