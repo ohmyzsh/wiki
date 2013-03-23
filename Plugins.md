@@ -684,7 +684,7 @@ Rebuilds the yum package list
 
     ymc - "yum makecache"
 
-Upgrate packages
+Upgrade packages
 
     yu - "sudo yum update"
 
