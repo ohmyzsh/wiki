@@ -304,7 +304,7 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @philips@.
 *pygmalion*
 !http://i.imgur.com/E3KKx.png!
 
-To use: Set @ZSH_THEME@ in @~/.zshrc@ to @pygmalion@.
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @pygmalion@. (Shown with "Solarized Dark colorscheme":http://ethanschoonover.com/solarized)
 
 *rachel*
 !http://img.skitch.com/20110114-bga7p8qihdu481mmfagsb1as6q.png!
