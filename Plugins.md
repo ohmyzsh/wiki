@@ -103,6 +103,8 @@ This does not add any commands on its own.
 
 ## bower
 
+**Maintainer:** [miklos-martin](https://github.com/miklos-martin)
+
 Bower is a package manager for the web.
 This plugin provides some aliases and completitions for this great tool.
 
