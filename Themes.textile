@@ -432,6 +432,10 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @rkj-repos@.
 !http://i.imgur.com/f6shl.png!
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @zhann@.
 
+*ys*
+!https://f.cloud.github.com/assets/1415488/252783/25a3055e-8bb4-11e2-9b9f-95c0d6f870fb.jpg!
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @ys@.
+
 *gnzh*
 !http://dl.dropbox.com/u/4109351/pics/gnzh-zsh-theme.png!
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gnzh@.
