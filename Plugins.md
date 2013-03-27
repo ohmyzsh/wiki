@@ -539,6 +539,34 @@ Completion plugin for [redis-cli](http://redis.io/topics/quickstart)
 
 After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-completion` to make a symlink to the official zsh completion file that comes with rvm into your oh-my-zsh rvm plugin directory.
 
+## sbt
+**Maintainer:** [mcaserta](https://github.com/mcaserta)
+
+* sbt - completion plugin for [SBT](http://www.scala-sbt.org/)
+
+Useful aliases:
+
+* `sbc - sbt compile`
+* `sbco - sbt console`
+* `sbcq - sbt console-quick`
+* `sbcl - sbt clean`
+* `sbcp - sbt console-project`
+* `sbd - sbt doc`
+* `sbdc - sbt dist:clean`
+* `sbdi - sbt dist`
+* `sbgi - sbt gen-idea`
+* `sbp - sbt publish`
+* `sbpl - sbt publish-local`
+* `sbr - sbt run`
+* `sbrm - sbt run-main`
+* `sbu - sbt update`
+* `sbx - sbt test`
+
+## scala
+**Maintainer:** [mcaserta](https://github.com/mcaserta)
+
+* scala - completion plugin for [scala](http://www.scala-lang.org/) and scalac
+
 ## screen
 **Maintainer:** [fred-o](https://github.com/fred-o)
 
