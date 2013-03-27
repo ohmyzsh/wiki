@@ -101,6 +101,29 @@ Enables [autojump](https://github.com/joelthelion/autojump/wiki/) if installed w
 
 This does not add any commands on its own.
 
+## bower
+
+Bower is a package manager for the web.
+This plugin provides some aliases and completitions for this great tool.
+
+### Aliases
+
+* `bi`: installs a package (`bower install`)
+* `bl`: lists installed packages (`bower list`)
+* `bs`: searches for packages (`bower search`)
+
+### Completition
+
+It completes the basic commands for bower. It uses the `bower help` command to achieve this, not a burned-in list of commands.
+It also provides completition for bower install, uses the output of bower search. It takes a few seconds for the first time (in the session), but then the output of `bower search` is cached, so things then speed up a lot.
+
+### Example
+
+```
+# to install jquery for example
+bi jq<TAB>
+```
+
 ## brew
 **Maintainer:** [robbyrussell][robbyrussell]
 
