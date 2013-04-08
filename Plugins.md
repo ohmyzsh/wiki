@@ -525,6 +525,10 @@ per-directory-history - tracks previous command history both per current directo
 ## pow
 * `kapow`: helper function to touch `tmp/restart.txt`, restarting an application in pow.
 
+## powify
+
+A simple [powify](sethvargo/powify) autocomplete plugin. It includes all commands, subcomands, and rack app name autocompletion where needed.
+
 ## rails
 **Maintainer:** [robbyrussell][robbyrussell]
 
