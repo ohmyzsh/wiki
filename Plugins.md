@@ -527,7 +527,7 @@ per-directory-history - tracks previous command history both per current directo
 
 ## powify
 
-A simple [powify](sethvargo/powify) autocomplete plugin. It includes all commands, subcomands, and rack app name autocompletion where needed.
+A simple [powify](https://github.com/sethvargo/powify) autocomplete plugin. It includes all commands, subcomands, and rack app name autocompletion where needed.
 
 ## rails
 **Maintainer:** [robbyrussell][robbyrussell]
