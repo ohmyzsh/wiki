@@ -155,6 +155,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gallois@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @garyblessington@.
 
+*gianu*
+!http://i.imgur.com/XWlUj0J.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gianu@.
+
 *gentoo*
 !http://i51.tinypic.com/2preioo.png!
 
