@@ -689,6 +689,23 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 
 Completions for `thor`
 
+## tmux
+**Maintainer:** [jmatth](http://github.com/jmatth)
+
+Adds several options for effecting the startup behavior of [tmux](http://tmux.sourceforge.net/). Each of the options are set by changing the environment variables below:
+
+1. `ZSH_TMUX_AUTOSTART`: Automatically start a tmux session upon logging in. Set to `false` by default.
+
+2. `ZSH_TMUX_AUTOSTART_ONCE`: Only attempt to autostart tmux once. If this is disabled when the previous option is enabled, then tmux will be autostarted every time you source your zsh config files. Set to `true` by default.
+
+3. `ZSH_TMUX_AUTOCONNECT`: When running `tmux` automatically connect to the currently running tmux session if it exits, otherwise start a new session. Set to `true` by default.
+
+4. `ZSH_TMUX_AUTOQUIT`: Close the terminal session when tmux exits. Set to the value of `ZSH_TMUX_AUTOSTART` by default.
+
+5. `ZSH_TMUX_FIXTERM`: When running tmux, the variable `$TERM` is supposed to be set to `screen` or one of its derivatives. This option will set the `default-terminal` option of tmux to `screen-256color` if 256 color terminal support is detected, and `screen` otherwise. The term values it uses can be overridden by changing the `ZSH_TMUX_FIXTERM_WITH_256COLOR` and `ZSH_TMUX_FIXTERM_WITHOUT_256COLOR` variables respectively. Set to `true` by default.
+
+If the user specifies any arguments for `tmux` then the command is just executed as it was typed it without any modification.
+
 ## tmuxinator
 
 Completions for [tmuxinator](https://github.com/aziz/tmuxinator). To enable
