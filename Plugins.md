@@ -689,6 +689,14 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 
 Completions for `thor`
 
+## tmuxinator
+
+Completions for [tmuxinator](https://github.com/aziz/tmuxinator). To enable
+completions for `mux`, a shortcut for tmuxinator, add following alias in your
+zshrc to overwrite the executable:
+
+    alias mux=tmuxinator
+
 ## urltools
 
 Adds command line utilities for URL manipulation.
