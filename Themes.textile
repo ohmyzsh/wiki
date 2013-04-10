@@ -457,6 +457,6 @@ We're hoping to collect a bunch of zsh prompt themes from people. Please send us
 
 Fork the project, add your theme, and send a pull request to Robby Russell. We'll evaluate it and merge if there are no problems.
 
-h2. Screenshots of each theme
+h2. Screenshots of Each Theme
 
-"Screenshots of each theme":https://www.dropbox.com/sh/6uocvl2adifvwi2/am--8llm2h?lst (as of 2013-04-10), in OS X Terminal.app with Consolas 14pt and Solarized Dark color scheme, inside a folder containing both a git and a mercurial repo. Each screenshot displays the output of the @pwd@ command. It has shortcomings (Solarized displays some colors as white, and plugins for some themes might be missing), but it offers a convenient and uniform overview of each theme. Plugins used were battery, rvm, hg prompt, among others which did not seem to change the shell.
+"Screenshots of each theme":https://www.dropbox.com/sh/u532agyv1hyash1/LS9yNESRlQ?lst (as of 2013-04-10), in OS X Terminal.app using Consolas 13pt and Pro color scheme, inside a folder containing both a git and a mercurial repo. Each screenshot displays the output of the @pwd@ command. It has shortcomings (plugins for some themes might be missing), but it offers a convenient and uniform overview of each theme. Plugins used were battery, rvm, hg prompt, among others.
