@@ -245,11 +245,7 @@ Remove package
 
 Apt policy
 
-    ap
-
-Show package info
-
-    av [package name]
+    app
 
 Search packages
 
