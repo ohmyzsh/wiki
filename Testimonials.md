@@ -26,3 +26,5 @@ Please share your thoughts on Oh My Zsh... they might help influence others to u
 "I've just started to use ZSH and with oh-my-zsh, my life just got better!" -- [[vinnx|https://github.com/vinhnx]]
 
 "thanks to anyone who helped make the firework you call zsh!" --[[awesoham|http://sohamchowdhury.com/]]
+
+"Oh-my-zsh 很贴心，让zsh配置变得更加简单，同时让我享受到了比以往更加美丽的终端！" --[[tuhaihe|http://tuhaihe.com/]]
