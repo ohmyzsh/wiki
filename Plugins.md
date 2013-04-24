@@ -37,29 +37,29 @@ Install specific package(s) from the repositories
 
     pacin='sudo pacman -S'
 
-Install specific package not from the repositories but from a file 
+Install specific package not from the repositories but from a file
 
-    pacins='sudo pacman -U'          
+    pacins='sudo pacman -U'
 
 Remove the specified package(s), retaining its configuration(s) and required dependencies
 
-    pacre='sudo pacman -R'           
+    pacre='sudo pacman -R'
 
 Remove the specified package(s), its configuration(s) and unneeded dependencies
 
-    pacrem='sudo pacman -Rns'        
+    pacrem='sudo pacman -Rns'
 
 Display information about a given package in the repositories
 
-    pacrep='pacman -Si'              
+    pacrep='pacman -Si'
 
 Search for package(s) in the repositories
 
-    pacreps='pacman -Ss'             
+    pacreps='pacman -Ss'
 
 Display information about a given package in the local database
 
-    pacloc='pacman -Qi'              
+    pacloc='pacman -Qi'
 
 Search for package(s) in the local database
 
@@ -67,11 +67,11 @@ Search for package(s) in the local database
 
 Update and refresh the local package and ABS databases against repositories
 
-    pacupd='sudo pacman -Sy && sudo abs'     
+    pacupd='sudo pacman -Sy && sudo abs'
 
 Install given package(s) as dependencies of another package
 
-    pacinsd='sudo pacman -S --asdeps'        
+    pacinsd='sudo pacman -S --asdeps'
 
 Force refresh of all package lists after updating /etc/pacman.d/mirrorlist
 
@@ -90,7 +90,7 @@ List all orphaned packages
 Delete all orphaned packages
 
     pacrmorphans
-    
+
 List all disowned files in your system
 
     pacdisowned | less +F
@@ -185,14 +185,14 @@ The plugin uses the command-not-found package zsh support.
 **Maintainer:** [danielcsgomes](https://github.com/danielcsgomes)
 
 [Composer](http://getcomposer.org/) autocomplete plugin with useful aliases:
-    
+
 * `c   = 'composer'`
 * `csu = 'composer self-update'`
 * `cu  = 'composer update'`
 * `ci  = 'composer install'`
 * `ccp = 'composer create-project'`
 * `cget = installs composer on the current path`
-    
+
 ## cloudapp
 **Maintainer:** [matthewmccullough](http://github.com/matthewmccullough)
 
@@ -351,6 +351,11 @@ Pressing tab after the various commands should autofill authors, branches and ta
 
 * git-flow - Support for [git-flow](https://github.com/nvie/gitflow) completion
 
+## git-flow-avh
+**Maintainer:** [statschner](https://github.com/statschner)
+
+* git-flow-avh - Support for [git-flow-avh](https://github.com/petervanderdoes/gitflow) completion
+
 ## git-hubflow
 **Maintainer:** [wweaver](https://github.com/wweaver)
 
@@ -385,7 +390,7 @@ Caches the result of the task names in a `.gradletasknamecache` file that is reg
 
 Adds tab-completion of Grails script names to the command line use of grails.  Looks for scripts in the following paths:
 
-- `$GRAILS_HOME/scripts` 
+- `$GRAILS_HOME/scripts`
 - `~/.grails/scripts `
 - `./scripts`
 - `./plugins/*/scripts`
@@ -511,7 +516,7 @@ per-directory-history - tracks previous command history both per current directo
 ## phing
 **Maintainer:** [robbyrussell][robbyrussell]
 
-* phing - auto complete for phing targets. 
+* phing - auto complete for phing targets.
 
 ## pip
 **Maintainer:** [robbyrussell][robbyrussell]
@@ -650,7 +655,7 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 **New aliases:**
 
 * `sf2 = 'php app/console'`
-* `sf2clear = 'php app/console cache:clear'` 
+* `sf2clear = 'php app/console cache:clear'`
 
 ## systemd
 **Maintainer:** [aelesbao](https://github.com/aelesbao)
@@ -670,7 +675,7 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 ## terminitor
 **Maintainer:** [philippbosch](https://github.com/philippbosch)
 
-[terminitor](https://github.com/achiu/terminitor) is a tool that "automates your development workflow setup". 
+[terminitor](https://github.com/achiu/terminitor) is a tool that "automates your development workflow setup".
 
 * terminitor – auto complete for terminitor commands and scripts
 
@@ -682,7 +687,7 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 * `etp` aliases `mate app config lib db public spec test vendor/plugins vendor/gems Rakefile Capfile Todo`
 * `etts` aliases `mate app config lib db public script spec test vendor/plugins vendor/gems Rakefile Capfile Todo`
 * `mr` aliases `mate CHANGELOG app config db lib public script spec test`
-* `tm [directory]` changes to specified directory and executes `mate .` 
+* `tm [directory]` changes to specified directory and executes `mate .`
 
 
 ## thor
@@ -855,5 +860,5 @@ Completion plugin for [zeus](https://github.com/burke/zeus). The describing text
 
 ## Pass
 **Maintainer:** [sanbor](https://github.com/sanbor)
- 
+
 Completion plugin for [pass](http://zx2c4.com/projects/password-store/). [Source](http://git.zx2c4.com/password-store/tree/contrib/pass.zsh-completion)
