@@ -106,7 +106,7 @@ This does not add any commands on its own.
 **Maintainer:** [miklos-martin](https://github.com/miklos-martin)
 
 Bower is a package manager for the web.
-This plugin provides some aliases and completitions for this great tool.
+This plugin provides some aliases and completions for this great tool.
 
 ### Aliases
 
@@ -114,10 +114,10 @@ This plugin provides some aliases and completitions for this great tool.
 * `bl`: lists installed packages (`bower list`)
 * `bs`: searches for packages (`bower search`)
 
-### Completition
+### Completion
 
 It completes the basic commands for bower. It uses the `bower help` command to achieve this, not a burned-in list of commands.
-It also provides completition for bower install, uses the output of bower search. It takes a few seconds for the first time (in the session), but then the output of `bower search` is cached, so things then speed up a lot.
+It also provides completion for bower install, uses the output of bower search. It takes a few seconds for the first time (in the session), but then the output of `bower search` is cached, so things then speed up a lot.
 
 ### Example
 
@@ -799,9 +799,12 @@ Clean cache
 
 
 ## zeus
-**Maintainer:** [Bamboo](https://github.com/b4mboo)
 
 **Homepage:** [Zeus project](https://github.com/burke/zeus)
+
+### Aliases
+
+**Maintainer:** [Bamboo](https://github.com/b4mboo)
 
 * `zi` aliases `zeus init`
 * `zinit` aliases `zeus init`
@@ -841,6 +844,13 @@ Clean cache
 
 * `zsw` aliases `rm .zeus.sock`
 * `zweep` aliases `rm .zeus.sock`
+
+### Completion
+
+**Maintainer:** [johnjohndoe](https://github.com/johnjohndoe)
+
+Completion plugin for [zeus](https://github.com/burke/zeus). The describing texts are inspired by the texts given in the [documenation of Rails command line tools](http://guides.rubyonrails.org/command_line.html).
+* [Source](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/zeus/_zeus)
 
 
 ## Pass
