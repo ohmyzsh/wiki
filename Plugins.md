@@ -311,6 +311,11 @@ This is a plugin that helps to encode/decode strings with base64 from the consol
 
 You can find a list of some of the aliases introduced [here](http://jasonm23.github.com/oh-my-git-aliases.html).
 
+## gitfast
+**Maintainer:** [felipec](https://github.com/felipec)
+
+Enables the zsh completion from git.git folks, which is much faster than the official one from zsh. A lot of zsh-specific features are not supported, like descriptions for every argument, but everything the bash completion has, this one does two (as it is using it behind the scenes). Not only is it faster, it should be more robust, and updated regularly to the latest git upstream version.
+
 ## git-extras
 **Maintainer:** [agrimaldi](https://github.com/agrimaldi)
 
