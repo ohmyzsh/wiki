@@ -747,6 +747,20 @@ Adds command line utilities for URL manipulation.
 
 * virtualenvwrapper - Loads Python's [virtualenvwrapper](http://www.doughellmann.com/projects/virtualenvwrapper/) shell tools, and automatically activates virtualenv on cd into git repository with matching name.
 
+## web-search
+**Maintainer:** [xuhdev](https://github.com/xuhdev)
+
+Adds several commands to do web search. Available commands are:
+
+- `bing`
+- `google`
+- `yahoo`
+
+Examples:
+
+- Search for oh-my-zsh on Google: `google oh-my-zsh`
+- Search for "What is GitHub" on Bing: `bing what is github`
+
 ## yum
 **Maintainer:** [robbyrussell][robbyrussell]
 
