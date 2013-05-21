@@ -381,7 +381,7 @@ Pressing tab after the various commands should autofill authors, branches and ta
 ## github
 **Maintainer:** [robbyrussell][robbyrussell]
 
-* github - adds autocomplete to the github gem, which is installable via `gem install github-gem`
+* github - adds autocomplete to the github gem, which is installable via `gem install github`
 
 ## gradle
 **Maintainer:** [matthewmccullough](http://github.com/matthewmccullough)
