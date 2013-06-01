@@ -28,3 +28,5 @@ Please share your thoughts on Oh My Zsh... they might help influence others to u
 "thanks to anyone who helped make the firework you call zsh!" --[[awesoham|http://sohamchowdhury.com/]]
 
 "Oh-my-zsh 很贴心，让 Zsh 配置变得更加简单，它让我享受到了比以往更加美丽的终端！" --[[tuhaihe|http://tuhaihe.com/]]
+
+"I just can't imagine not using oh-my-zsh. I can believe I won't have to mess around with `.bashrc` again" --[[davblayn|https://github.com/davblayn]]
