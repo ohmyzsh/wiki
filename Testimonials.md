@@ -30,3 +30,5 @@ Please share your thoughts on Oh My Zsh... they might help influence others to u
 "Oh-my-zsh 很贴心，让 Zsh 配置变得更加简单，它让我享受到了比以往更加美丽的终端！" --[[tuhaihe|http://tuhaihe.com/]]
 
 "I just can't imagine not using oh-my-zsh. I can believe I won't have to mess around with `.bashrc` again" --[[davblayn|https://github.com/davblayn]]
+
+".i mi noi lojbo cu prami la'o gy oh-my-zsh gy i'esai" -- [[DavidMikeSimon|https://github/DavidMikeSimon]]
