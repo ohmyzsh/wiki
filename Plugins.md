@@ -278,7 +278,7 @@ This is a plugin that helps to encode/decode strings with base64 from the consol
 ## fabric
 **Maintainer:** [santiycr](https://github.com/santiycr)
 
-* fab - completion plugin for [fabric](http://docs.fabfile.org/en/1.2.2/index.html)
+* fab - completion plugin for [fabric](http://docs.fabfile.org/)
 
 ## fbterm
 
