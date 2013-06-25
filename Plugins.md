@@ -555,6 +555,11 @@ A simple [powify](https://github.com/sethvargo/powify) autocomplete plugin. It i
 * `rs - rails server`
 * `rsd - rails server --debugger`
 
+## rand-quote
+**Maintainer:** [posva](https://github.com/posva)
+
+Creates a function `quote` to display a colored random quote picked from this [site](http://www.quotationspage.com/random.php3)
+
 ## redis-cli
 **Maintainer:** [robbyrussell][robbyrussell]
 
