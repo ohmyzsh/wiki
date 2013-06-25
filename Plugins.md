@@ -565,6 +565,11 @@ Creates a function `quote` to display a colored random quote picked from this [s
 
 Completion plugin for [redis-cli](http://redis.io/topics/quickstart)
 
+## repo
+**Maintainer:** [Stibbons][Stibbons]
+
+Completion plugin for [git-repo](https://code.google.com/p/git-repo/)
+
 ## ruby
 **Maintainer:** [robbyrussell][robbyrussell]
 
