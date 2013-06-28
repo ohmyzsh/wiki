@@ -401,12 +401,17 @@ Adds tab-completion of Grails script names to the command line use of grails.  L
 - `./plugins/*/scripts`
 
 ## jira
-**Maintainer:** [paulredmond](https://github.com/paulredmond)
+**Maintainer:** [tresni](https://github.com/tresni)
 
 * Open Jira issues using the command *open_jira_issue*
 ```shell
 jira # Open new issue form in browser
 jira ABC-123 # Open issue in browser
+```
+
+If you use Rapid Board make sure to add the following to your .zshrc:
+```shell
+JIRA_RAPID_BOARD="true"
 ```
 
 ## knife
