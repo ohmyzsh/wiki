@@ -170,6 +170,18 @@ Commands for [Capistrano](https://github.com/capistrano/capistrano/wiki), a depl
 
 * cap -- a few commands for Capistrano, a deployment tool built in Ruby
 
+## celery
+**Maintainer:** [dongweiming](https://github.com/dongweiming)
+
+Commands for [celery](https://github.com/celery/celery), a distributed task queue.
+
+### Completion
+
+```
+# View worker have those parameter options
+celery worker<TAB>
+```
+
 ## command-not-found
 **Maintainer:** [robbyrussell][robbyrussell]
 
