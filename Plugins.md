@@ -129,13 +129,11 @@ bi jq<TAB>
 ## brew
 **Maintainer:** [robbyrussell][robbyrussell]
 
-* `brews`: list installed brews
+[[Homebrew|http://mxcl.github.com/homebrew/]] is an OS X package manager
 
-Adds the brew install directories to your path **in front** of `/usr/bin`.
-
-After `brew update`, run `brew-link-completion` to make a symlink to the official zsh completion file that comes with brew into your oh-my-zsh brew plugin directory.
-
-Completion plugin for the [[Homebrew|http://mxcl.github.com/homebrew/]] OS X package manager.
+This plugin :
+* creates a `brews` alias to list installed brews (= `brew list -1`)
+* adds completion for the `brew` command
 
 ## bundler
 **Maintainer:** [robbyrussell][robbyrussell]
