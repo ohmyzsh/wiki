@@ -543,6 +543,12 @@ per-directory-history - tracks previous command history both per current directo
 
 * pip - completion plugin for the pip command
 
+## pod
+**Maintainer:** [mekanics](https://github.com/mekanics)
+
+* Completion plugin for [CocoaPods](http://cocoapods.org/)
+* You can find the official documentation [here](http://docs.cocoapods.org/commands.html)
+
 ## pow
 * `kapow`: helper function to touch `tmp/restart.txt`, restarting an application in pow.
 
