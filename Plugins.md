@@ -273,6 +273,11 @@ This is a small zle trick that lets you cycle your directory stack left or right
 
 * dirpersist
 
+## docker
+**Maintainer:** [Azaan](http://github.com/AeonAxan)
+
+* Auto complete arguments and options for all docker commands.
+* Show containerIDs and Images for tab completion where applicable ([screenshots](https://github.com/AeonAxan/oh-my-zsh/blob/master/plugins/docker/README.md))
 
 ## encode64
 **Maintainer:** [fuksito](http://github.com/fuksito)
