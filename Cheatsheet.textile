@@ -67,5 +67,7 @@ h2. Editors
 * @stt@ - @open current directory in Sublime Text 2@
 
 h2. Symfony2
-* @sf2@ - @php app/console@
-* @sf2clear@ - @php app/console cache:clear@
+* @sf@ - @php app/console@
+* @sfcl@ - @php app/console cache:clear@
+* @sfroute@ - @php app/console router:debug@
+* @sfgb@ - @php app/console generate:bundle@
