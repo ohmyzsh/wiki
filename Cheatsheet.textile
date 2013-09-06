@@ -65,3 +65,7 @@ h2. Helpful aliases for common git tasks
 
 h2. Editors
 * @stt@ - @open current directory in Sublime Text 2@
+
+h2. Symfony2
+* @sf2@ - @php app/console@
+* @sf2clear@ - @php app/console cache:clear@
