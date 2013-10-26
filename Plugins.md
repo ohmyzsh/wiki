@@ -305,6 +305,10 @@ This is a plugin that helps to encode/decode strings with base64 from the consol
 
     fl [<folder>] - Opens specified directory or current working directory in ForkLift.app
 
+## fasd
+
+* [fasd](https://github.com/clvv/fasd) - command-line productivity booster, offers quick access to files and directories, inspired by autojump, z and v
+
 ## gas
 
 * gas - completion plugin for the [gas](https://github.com/walle/gas) gem
