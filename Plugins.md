@@ -154,6 +154,11 @@ Bundle update
 
 Also creates shell aliases so you don't have to type "bundle exec" before most common ruby commands when you are in a directory with a Gemfile.  Here is a [list of commands](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/bundler/bundler.plugin.zsh#L9) it does this for: `annotate cap capify cucumber ey foreman guard heroku middleman nanoc rackup rainbows rails rake rspec ruby shotgun spec spork thin thor unicorn unicorn_rails`
 
+## cabal
+**Maintainer:** [telser](https://github.com/telser)
+
+* cabal -- auto-completion for [Cabal](http://haskell.org/cabal) a build tool for [Haskell](http://haskell.org).
+
 ## cake
 **Maintainer:** [serby](https://github.com/serby)
 
