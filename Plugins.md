@@ -570,6 +570,12 @@ per-directory-history - tracks previous command history both per current directo
 
 A simple [powify](https://github.com/sethvargo/powify) autocomplete plugin. It includes all commands, subcomands, and rack app name autocompletion where needed.
 
+## pyenv
+**Maintainer:** [ssm](https://github.com/ssm)
+
+* Completion for the [pyenv](https://github.com/yyuu/pyenv) command, which maintains local python installations.
+* Exports a "pyenv_prompt_info()" function for your custom prompt.
+
 ## rails
 **Maintainer:** [robbyrussell][robbyrussell]
 
