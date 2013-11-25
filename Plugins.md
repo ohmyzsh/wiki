@@ -185,6 +185,24 @@ Commands for [celery](https://github.com/celery/celery), a distributed task queu
 celery worker<TAB>
 ```
 
+## chruby
+**Maintainer** [webframp](https://github.com/webframp)
+
+Loads [chruby](https://github.com/postmodern/chruby), a simple ruby
+version manager, if installed, and provides `chruby_prompt_info`
+variable for theme use.
+
+Commands:
+
+* `rubies: list installed rubies or change current ruby`
+
+You can manually specify the path to load chruby from using zstyle:
+
+* `zstyle :omz:plugins:chruby path`
+* `zstyle :omz:plugins:chruby auto`
+
+Simple build definition completion is also provided for [ruby-build](https://github.com/sstephenson/ruby-build) to make installed rubies from source faster.
+
 ## command-not-found
 **Maintainer:** [robbyrussell][robbyrussell]
 
