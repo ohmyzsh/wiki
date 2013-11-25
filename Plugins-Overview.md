@@ -1,3 +1,16 @@
+* [Productivity](#productivity) 
+* [FS jumping](#productivity) 
+* [Build tools](#productivity) 
+* [Node JS](#productivity) 
+* [PHP](#productivity) 
+* [Ruby](#productivity) 
+* [Python](#productivity) 
+* [Distro-related](#productivity) 
+* [MacOS](#productivity) 
+* [Misc](#productivity) 
+
+
+
 ### Productivity
 Name              | Description                                                      |
 ------------------|------------------------------------------------------------------|
