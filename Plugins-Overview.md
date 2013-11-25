@@ -117,6 +117,8 @@ npm       | package managerfor NodeJS
 nvm       | NodeJs version manager
 
 ### PHP
+Name       | Description                          |
+-----------|--------------------------------------|
 laravel   | PHP deployment tool artisan completion http://four.laravel.com/docs/artisan
 composer | PHP dependency manager http://getcomposer.org/                                 |
 phing | ant-like build system for PHP http://www.phing.info/
