@@ -371,7 +371,7 @@ Pressing tab after the various commands should autofill authors, branches and ta
 * `git delete-submodule` - delete submodule
 * `git delete-tag` - delete local and remote tag
 * `git extras [-v/--version]` - git-extras
-* `git graft:'merge commits from source branch to destination branch
+* `git graft` - merge commits from source branch to destination branch
 * `git squash` - merge commits from source branch into the current one as a single commit
 * `git feature [finish]` - create a feature branch
 * `git refactor [finish]` - create a refactor branch
