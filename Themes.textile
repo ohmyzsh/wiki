@@ -35,6 +35,11 @@ To use:
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @alanpeabody@.
 
+*amuse*
+!https://github-camo.global.ssl.fastly.net/dbe28e6d07f700a96149a36fe48ff9c065aae14f/687474703a2f2f64687275766173616761722e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031332f30332f416d7573652e706e67!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @amuse@.
+
 *arrow*
 !http://i.imgur.com/SerOb.png!
 
