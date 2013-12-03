@@ -101,6 +101,11 @@ Enables [autojump](https://github.com/joelthelion/autojump/wiki/) if installed w
 
 This does not add any commands on its own.
 
+## autopep8
+**Maintainer:** [Gaetan Semet](https://github.com/Stibbons)
+
+Completion for the python file formatting (PEP8) tool
+
 ## bower
 
 **Maintainer:** [miklos-martin](https://github.com/miklos-martin)
@@ -251,6 +256,22 @@ See this [blog post about compleat](http://limpet.net/mbrubeck/2009/10/30/comple
 
 Completion plugin for [cpanminus](https://github.com/miyagawa/cpanminus/)
 
+## custom-aliases
+**Maintainer:** [Gaetan Semet](https://github.com/Stibbons)
+
+Collection of useful zsh aliases, not enabled by default since they may change some user defined aliases.
+
+- ls aliases: l, la (all), lr (recustively sorted by date), lt (current dir sorted by date), ll (long list), lS (reverse sort by size)
+- zshrc: edit directly ~/.zshrc with vim
+- cd .., cd ../.., cd ../../../...  directly mapped to '..', or '...', or '....'
+- alias to place at the end of command line: G (grep), H (head), T (tail), M (most)
+- h (history)
+- j (jobs)
+- p (processes for current user)
+- interactive mode for rm, cp, mv
+
+
+Completion for the python interpreter
 ## debian
 **Maintainer:** [robbyrussell][robbyrussell]
 
@@ -564,6 +585,11 @@ per-directory-history - tracks previous command history both per current directo
 
 * perl - useful shortcuts for perlbrew, perldoc, and perl one-liners
 
+## pep8
+**Maintainer:** [Gaetan Semet](https://github.com/Stibbons)
+
+Completion for the pep8 python coding style (PEP8) check tool
+
 ## phing
 **Maintainer:** [robbyrussell][robbyrussell]
 
@@ -592,6 +618,17 @@ A simple [powify](https://github.com/sethvargo/powify) autocomplete plugin. It i
 
 * Completion for the [pyenv](https://github.com/yyuu/pyenv) command, which maintains local python installations.
 * Exports a "pyenv_prompt_info()" function for your custom prompt.
+
+## pylint
+**Maintainer:** [Gaetan Semet](https://github.com/Stibbons)
+
+Completion for the python file coding style check tool
+
+## python
+**Maintainer:** [Gaetan Semet](https://github.com/Stibbons)
+
+Completion for the python interpreter
+
 
 ## rails
 **Maintainer:** [robbyrussell][robbyrussell]
@@ -625,6 +662,10 @@ Completion plugin for [redis-cli](http://redis.io/topics/quickstart)
 
 ## repo
 **Maintainer:** [Gaetan Semet](https://github.com/Stibbons)
+
+* rs: repo sync
+* rra: repo rebase --auto-stash
+* rsrra: repo sync and repo rebase
 
 Completion plugin for [git-repo](https://code.google.com/p/git-repo/)
 
