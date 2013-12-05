@@ -60,6 +60,13 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @bira@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @blinks@, and set up "Solarized":http://ethanschoonover.com/solarized.
 
+*bureau*
+!https://f.cloud.github.com/assets/529247/1503497/dc461f1c-48ab-11e3-922d-9897ee4f9cd2.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @bureau@.
+In the right prompt you see git status and (if you use nvm) the Node.js version.
+(I'm using Solarized color scheme in this screenshot)
+
 *candy*
 !http://img571.imageshack.us/img571/4951/ohmyzshcandy.png!
 
