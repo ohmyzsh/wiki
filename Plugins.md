@@ -178,6 +178,20 @@ Commands for [Capistrano](https://github.com/capistrano/capistrano/wiki), a depl
 
 * cap -- a few commands for Capistrano, a deployment tool built in Ruby
 
+## catimg
+**Maintainer:** [posva](https://github.com/posva/)
+
+**Original repo:** [catimg.git](https://github.com/posva/catimg)
+
+Print pictures to the `stdout` using `convert` [ImageMagick](http://www.imagemagick.org/) 
+
+Example usage `catimg image.png`
+options:
+
+* `-h` -- print help
+* `-w` -- select output width
+* `-c` -- change printed character (default `"  "` without the quotes)
+
 ## celery
 **Maintainer:** [dongweiming](https://github.com/dongweiming)
 
