@@ -1,6 +1,6 @@
 Enable the plugins you want by editing your _~/.zshrc_ file. Example:
 
-    plugins=(rails3 git ruby)
+    plugins=(rails git ruby)
 
 _Completion plugins_ will let zsh know which arguments the package has so it can autocomplete. For instance, if you have the Homebrew plugin installed and type:
 
