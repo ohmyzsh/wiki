@@ -22,7 +22,7 @@ colorize          | cat with syntax highlight support                           
 command-not-found | suggests package name with relevant command                      |
 compleat          | reformats completion http://github.com/mbrubeck/compleat         |
 copydir           | copies current dir full path to clipboard                        |
-copyfile          | copies selected file full path to clipboard                      |
+copyfile          | copies selected file content to clipboard                        |
 cp                | cp with progress bar (rsync)                                     |
 dircycle          | hotkeys fot cycling directories                                  |
 dirpersist        | saves and restores your directory stack across shell invocations |
