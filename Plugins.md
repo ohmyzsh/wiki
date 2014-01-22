@@ -782,8 +782,10 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 
 **New aliases:**
 
-* `sf2 = 'php app/console'`
-* `sf2clear = 'php app/console cache:clear'`
+* `sf = 'php app/console'`
+* `sfcl = 'php app/console cache:clear'`
+* `sfroute = 'php app/console router:debug'`
+* `sfgb = 'php app/console generate:bundle'`
 
 ## systemd
 **Maintainer:** [aelesbao](https://github.com/aelesbao)
