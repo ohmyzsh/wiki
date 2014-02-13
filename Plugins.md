@@ -1011,7 +1011,7 @@ Completion plugin for [pass](http://zx2c4.com/projects/password-store/). [Source
 
 **Maintainer:** [mfaerevaag](https://github.com/mfaerevaag)
 
-`wd` (warp directory) lets you jump to custom directories in zsh, without using cd. Why? Because cd seems ineffecient when the folder is frequently visited or has a long path. [Source](https://github.com/mfaerevaag/wd)
+`wd` (warp directory) lets you jump to custom directories in zsh, without using cd. Why? Because cd seems inefficient when the folder is frequently visited or has a long path. [Source](https://github.com/mfaerevaag/wd)
 
 ### Usage
 
