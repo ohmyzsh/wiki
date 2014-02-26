@@ -257,20 +257,7 @@ Completion plugin for [CoffeeScript](http://coffeescript.org/).
 
 For available options, look at the [usage](http://coffeescript.org/#usage) or run the command `coffee --help`.
 
-
-## compleat
-**Maintainer:** [robbyrussell][robbyrussell]
-
-Completion for human beings. **Further documentation needed**
-
-See this [blog post about compleat](http://limpet.net/mbrubeck/2009/10/30/compleat.html)
-
-## cpanm
-**Maintainer:** [robbyrussell][robbyrussell]
-
-Completion plugin for [cpanminus](https://github.com/miyagawa/cpanminus/)
-
-## custom-aliases
+## common-aliases
 **Maintainer:** [Gaetan Semet](https://github.com/Stibbons)
 
 Collection of useful zsh aliases, not enabled by default since they may change some user defined aliases.
@@ -286,6 +273,19 @@ Collection of useful zsh aliases, not enabled by default since they may change s
 
 
 Completion for the python interpreter
+
+## compleat
+**Maintainer:** [robbyrussell][robbyrussell]
+
+Completion for human beings. **Further documentation needed**
+
+See this [blog post about compleat](http://limpet.net/mbrubeck/2009/10/30/compleat.html)
+
+## cpanm
+**Maintainer:** [robbyrussell][robbyrussell]
+
+Completion plugin for [cpanminus](https://github.com/miyagawa/cpanminus/)
+
 ## debian
 **Maintainer:** [robbyrussell][robbyrussell]
 
