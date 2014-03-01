@@ -135,7 +135,7 @@ jruby      | Jruby aliases
 pow |  rack apps restarter http://pow.cx/
 powder |     powder gem autocompletion https://github.com/Rodreegez/powder 
 powify |    another pow manager https://github.com/sethvargo/powify
-rails rails3 rails4 | rails aliases
+rails | rails aliases for rails 2, rails 3, and rails 4 all in one clean plugin
 rake | Ruby build tool 
 rbenv | ruby version switcher
 rbfu | **[OBSOLATE]**  anther Ruby version manager https://github.com/hmans/rbfu
