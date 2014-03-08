@@ -120,10 +120,11 @@ nvm       | NodeJs version manager
 ### PHP
 Name       | Description                          |
 -----------|--------------------------------------|
-laravel   | PHP deployment tool artisan completion http://four.laravel.com/docs/artisan
-composer | PHP dependency manager http://getcomposer.org/                                 |
-phing | ant-like build system for PHP http://www.phing.info/
-symfony symfony2 | PHP webframework http://symfony.com/ autocompletion
+composer | PHP dependency manager http://getcomposer.org
+laravel | PHP deployment tool artisan completion http://four.laravel.com/docs/artisan
+phing | Ant-like build system for PHP http://phing.info
+symfony symfony2 | PHP webframework http://symfony.com
+yii | PHP webframework http://yiiframework.com
 
 ### Ruby
 Name       | Description                          |
