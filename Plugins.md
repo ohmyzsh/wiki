@@ -886,6 +886,15 @@ Examples:
 - Search for oh-my-zsh on Google: `google oh-my-zsh`
 - Search for "What is GitHub" on Bing: `bing what is github`
 
+## yii
+**Maintainer:** [IgorTimoshenko](https://github.com/IgorTimoshenko)
+
+[Yii](http://yiiframework.com) autocompletion plugin.
+
+### Aliases
+
+* `yiic = 'protected/yiic'`
+
 ## yum
 **Maintainer:** [robbyrussell][robbyrussell]
 
