@@ -50,6 +50,11 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @arrow@.
 
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @aussiegeek@.
 
+*avit*
+!http://i.imgur.com/4E4aIkh.png!
+
+To use: Set @ZSH_THEME@ in @~/.zshrc@ to @avit@.
+
 *bira*
 !http://i.imgur.com/GZqXu.png!
 
