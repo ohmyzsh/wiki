@@ -536,18 +536,6 @@ Keeps track of the last used directory and automatically jumps to it for new she
 * `hgs - hg status`
 * `hgca - hg qimport -r tip ; hg qrefresh -e ; hg qfinish tip`, this is the 'git commit --amend' equivalent
 
-
-## mvn
-**Maintainer:** [fred-o](https://github.com/fred-o)
-
-* mvn - adds command line completion for apache maven
-
-## mysql-macports
-**Maintainer:** [robbyrussell][robbyrussell]
-
-* mysql - aliases for starting stopping and getting mysql status ( *mysqlstart*, *mysqlstop*, *mysqlstatus*)
-
-
 ## meteor
 **Maintainer:** [jorge-d](https://github.com/jorge-d)
 
@@ -560,6 +548,16 @@ $ cd some_random_meteor_project
 $ meteor add [tab] # Will list all the available packages
 $ meteor remove [tab] # Will all the installed packages
 ```
+
+## mvn
+**Maintainer:** [fred-o](https://github.com/fred-o)
+
+* mvn - adds command line completion for apache maven
+
+## mysql-macports
+**Maintainer:** [robbyrussell][robbyrussell]
+
+* mysql - aliases for starting stopping and getting mysql status ( *mysqlstart*, *mysqlstop*, *mysqlstatus*)
 
 ## nanoc
 **Maintainer:** [josh-](https://github.com/josh-)
