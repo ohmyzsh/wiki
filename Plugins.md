@@ -536,6 +536,7 @@ Keeps track of the last used directory and automatically jumps to it for new she
 * `hgs - hg status`
 * `hgca - hg qimport -r tip ; hg qrefresh -e ; hg qfinish tip`, this is the 'git commit --amend' equivalent
 
+
 ## mvn
 **Maintainer:** [fred-o](https://github.com/fred-o)
 
@@ -545,6 +546,20 @@ Keeps track of the last used directory and automatically jumps to it for new she
 **Maintainer:** [robbyrussell][robbyrussell]
 
 * mysql - aliases for starting stopping and getting mysql status ( *mysqlstart*, *mysqlstop*, *mysqlstatus*)
+
+
+## meteor
+**Maintainer:** [jorge-d](https://github.com/jorge-d)
+
+This plugin adds completion for the meteor command
+
+Examples:
+```shell
+$ meteor [tab]
+$ cd some_random_meteor_project
+$ meteor add [tab] # Will list all the available packages
+$ meteor remove [tab] # Will all the installed packages
+```
 
 ## nanoc
 **Maintainer:** [josh-](https://github.com/josh-)
