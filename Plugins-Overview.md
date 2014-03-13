@@ -82,7 +82,7 @@ cpanm    | Pearl CPAN http://search.cpan.org/                                   
 docker   | application shipment tool https://github.com/dotcloud/docker                   |
 gas      | small utility used to manage Git authors. https://github.com/walle/gas         | 
 git      | extras: git-extras gitfast git-flow git-flow-avh git-hubflow git-remote-branch |
-github   | cli access                                                                     |
+github   | cli access, url shortener                                                      |
 gitignore| gi alias to fetch default .gitignore files from http://gitignore.io/           |
 gnu-utils| GNU coreutils wrappers to override shell builtins                              |
 go       | Go build tool http://golang.org/cmd/go/                                        |
