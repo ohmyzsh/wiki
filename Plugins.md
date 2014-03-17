@@ -108,6 +108,8 @@ Completion for the python file formatting (PEP8) tool
 
 ## aws
 
+**Maintainer:** [Cristian Măgherușan-Stanciu](https://github.com/cristim)
+
 Activates the ZSH completion plugin shipped together with the [aws command-line tool](http://aws.amazon.com/cli/)
 
 ### Enabled aliases
