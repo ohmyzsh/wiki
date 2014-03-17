@@ -106,6 +106,19 @@ This does not add any commands on its own.
 
 Completion for the python file formatting (PEP8) tool
 
+## aws
+
+Activates the ZSH completion plugin shipped together with the [aws command-line tool](http://aws.amazon.com/cli/)
+
+### Enabled aliases
+Choose the current AWS credentials profile from those defined in .aws/config, with auto-completion support.
+
+    asp
+
+Print the currently set AWS credentials profile
+
+    agp
+
 ## bower
 
 **Maintainer:** [miklos-martin](https://github.com/miklos-martin)
