@@ -341,6 +341,22 @@ Clean apt cache
 ## dircycle
 This is a small zle trick that lets you cycle your directory stack left or right using Ctrl+Shift+Left/Right. This is useful when moving back and forth between directories in development environments, and can be thought of as kind of a nondestructive pushd/popd.
 
+## dirhistory
+**Maintainer:** [jeffwilliams][jeffwilliams]
+
+This plugin allows you to navigate the history of previous current-working-directories using ALT-LEFT and ALT-RIGHT. ALT-LEFT moves back to directories that the user has changed to in the past, and ALT-RIGHT undoes ALT-LEFT.
+
+For example, if the shell was started, and the following commands were entered:
+
+cd ~
+cd /usr
+cd share
+cd doc
+
+Then entering ALT-LEFT at the prompt would change directory from /usr/share/doc to /usr/share, then if pressed again to /usr/, then ~. If ALT-RIGHT were pressed the directory would be changed to /usr/ again.
+
+Currently the max history size is 100. The navigation should work for xterm, PuTTY xterm mode, and GNU screen.
+
 ## dirpersist
 **Maintainer:** [robbyrussell][robbyrussell]
 
