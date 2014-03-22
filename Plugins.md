@@ -819,6 +819,10 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 
 * svn - adds several functions for dealing with the status of the current directory's svn repo.
 
+## svn-fast-info
+
+* svn-fast-info - is a faster drop-in replacement of the **svn** plugin, it brings the same level of functionality using the same API. The speed improvements are especially visible on big SVN repository. 
+
 ## symfony2
 **Maintainer:** [andrewtch](https://github.com/andrewtch)
 
