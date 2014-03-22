@@ -106,7 +106,8 @@ repo |    git repo managment tool autocompletion https://code.google.com/p/git-r
 sbt |    autocomplete for ScalaBuildTool http://www.scala-sbt.org/
 scala |    autocomplete
 sfffe |    aliases for ack (JS & CSS grepping) http://beyondgrep.com/
-svn |    subversion autocmpletion
+svn |    subversion autocompletion
+svn-fast-info |    faster subversion autocompletion (especially interesting on big project)
 vagrant | quick development env deployment http://www.vagrantup.com/
 
 ### Node JS
