@@ -526,6 +526,18 @@ JIRA_RAPID_BOARD="true"
 
 * knife - adds autocompletion to [knife](http://wiki.opscode.com/display/chef/Knife)
 
+## laravel4
+**Maintainer:** [m0nah](https://github.com/m0nah)
+
+[Laravel 4](http://laravel.com) autocomplete plugin!
+
+**Aliases:**
+
+* `la4 = 'php artisan'`
+* `la4dump = 'php artisan dump-autoload'`
+* `la4cache = 'php artisan cache:clear'`
+* `la4routes = 'php artisan routes'`
+
 ## last-working-dir
 **Maintainer:** [op](https://github.com/op)
 
