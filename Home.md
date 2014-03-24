@@ -3,6 +3,7 @@ Welcome to the oh-my-zsh wiki!
 * Read our user [[Testimonials]]
 * Don't forget to [follow us on twitter](http://twitter.com/ohmyzsh)
 * Brief overview of included plugins [[Plugins Overview]]
+* Learn about [[Customization]]
 
 # Help Wanted! 
 
