@@ -240,7 +240,7 @@ Simple build definition completion is also provided for [ruby-build](https://git
 ## command-not-found
 **Maintainer:** [robbyrussell][robbyrussell]
 
-Only for Ubuntu: If a command is not recognized in the $PATH, this will use Ubuntu's command-not-found package to find it or suggest spelling mistakes:
+Only for Ubuntu and openSUSE: If a command is not recognized in the $PATH, this will use Ubuntu's command-not-found package to find it or suggest spelling mistakes:
 
     ~$ gedit
     The program 'gedit' is currently not installed. You can install it by typing:
