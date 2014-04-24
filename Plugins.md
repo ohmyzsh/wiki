@@ -396,6 +396,8 @@ This is a plugin that helps to encode/decode strings with base64 from the consol
 
 ## fasd
 
+**Maintainer:** [a-b](https://github.com/a-b)
+
 * [fasd](https://github.com/clvv/fasd) - command-line productivity booster, offers quick access to files and directories, inspired by autojump, z and v
 
 ## gas
