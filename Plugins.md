@@ -523,6 +523,15 @@ If you use Rapid Board make sure to add the following to your .zshrc:
 JIRA_RAPID_BOARD="true"
 ```
 
+## jsontools
+**Maintainer:** [bobwilliams](https://github.com/bobwilliams)
+
+handy command line tools for dealing with json data.
+* pp_json - pretty prints json
+* is_json - returns true if valid json; false otherwise
+* urlencode_json - returns a url encoded string for the given json
+* urldecode_json - returns decoded json for the given url encoded string
+
 ## knife
 **Maintainer:** [franklouwers](https://github.com/franklouwers)
 
