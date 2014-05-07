@@ -419,7 +419,7 @@ This is a plugin that helps to encode/decode strings with base64 from the consol
 
 * git - adds a lot of git aliases ( g*x* e.g. gd - git diff) and functions for pulling for dealing with the current branch
 
-Please see the [dedicated page](Plugin:git).
+Please see the [dedicated page](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git).
 
 You can find a list of some of the aliases introduced [here _(OUTDATED)_](http://jasonm23.github.com/oh-my-git-aliases.html).
 
