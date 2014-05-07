@@ -419,7 +419,9 @@ This is a plugin that helps to encode/decode strings with base64 from the consol
 
 * git - adds a lot of git aliases ( g*x* e.g. gd - git diff) and functions for pulling for dealing with the current branch
 
-You can find a list of some of the aliases introduced [here](http://jasonm23.github.com/oh-my-git-aliases.html).
+Please see the [dedicated page](Plugin:git).
+
+You can find a list of some of the aliases introduced [here _(OUTDATED)_](http://jasonm23.github.com/oh-my-git-aliases.html).
 
 ## gitfast
 **Maintainer:** [felipec](https://github.com/felipec)
