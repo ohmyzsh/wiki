@@ -1,3 +1,7 @@
+We're having a discussion on the need to have [a few moderators](https://github.com/robbyrussell/oh-my-zsh/issues/2771) as well as having some [general guidelines for new collaborators](https://github.com/robbyrussell/oh-my-zsh/issues/2766) in the project, wether they want to submit a patch, report a bug or just ask a question. Feel free to write your opinion!
+
+***
+
 As you an see by looking at the project, we have a lot of pending Pull Requests and Issues. While there are a number of people helping out by answering Issues and reviewing Pull Requests, I'd like to find 2-3 volunteers to assist me with organizing, reviewing, and helping me work through these.
 
 ### Pull Requests
