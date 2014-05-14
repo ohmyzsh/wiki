@@ -78,7 +78,7 @@ bower    | Front-end package manager https://github.com/bower/bower             
 cabal    | Haskell package manager http://www.haskell.org/cabal/                          |
 cake     | CoffeeScript build tool                                                        |
 coffee   | CoffeeScript completion                                                        |
-cpanm    | Pearl CPAN http://search.cpan.org/                                             |
+cpanm    | cpanminus get, unpack, build, install Perl modules https://github.com/miyagawa/cpanminus/ |
 docker   | application shipment tool https://github.com/dotcloud/docker                   |
 gas      | small utility used to manage Git authors. https://github.com/walle/gas         | 
 git      | extras: git-extras gitfast git-flow git-flow-avh git-hubflow git-remote-branch |
