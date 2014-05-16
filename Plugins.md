@@ -953,11 +953,13 @@ Adds several commands to do web search. Available commands are:
 - `bing`
 - `google`
 - `yahoo`
+- `duckduckgo`
 
 Examples:
 
 - Search for oh-my-zsh on Google: `google oh-my-zsh`
 - Search for "What is GitHub" on Bing: `bing what is github`
+- Search for "foo bar" on DuckDuckGo: `ddg foo bar`
 
 ## yii
 **Maintainer:** [IgorTimoshenko](https://github.com/IgorTimoshenko)
