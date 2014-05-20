@@ -813,7 +813,7 @@ You can use sprunge in the following ways:
 Note that if a filename is misspelled or doesn't have the necessary path description, it will NOT generate an error, but will instead treat it as a text string and upload it.
 
 ## ssh-agent
-**Maintainer:** [robbyrussell][robbyrussell]
+**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
 * ssh-agent - cygwin ssh-agent plugin for starting agent (see - http://www.cygwin.com/ml/cygwin/2001-06/msg00537.html )
 
@@ -822,6 +822,9 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 
 * `st` - open a specified file in Sublime Text
 * `stt` - open the current directory in Sublime Text
+
+## sudo
+**Maintainer:** [dongweiming](https://github.com/dongweiming)
 
 ## supervisor
 **Maintainer:** [everbird](http://github.com/everbird)
