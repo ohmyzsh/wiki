@@ -826,6 +826,8 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 ## sudo
 **Maintainer:** [dongweiming](https://github.com/dongweiming)
 
+* `ESC` twice: Puts `sudo` in front of the current command, or the last one if the command line is empty.
+
 ## supervisor
 **Maintainer:** [everbird](http://github.com/everbird)
 
