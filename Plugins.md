@@ -468,7 +468,7 @@ Pressing tab after the various commands should autofill authors, branches and ta
 * git-flow - Support for [git-flow](https://github.com/nvie/gitflow) completion
 
 ## git-flow-avh
-**Maintainer:** [statschner](https://github.com/statschner)
+**Maintainer:** 
 
 * git-flow-avh - Support for [git-flow-avh](https://github.com/petervanderdoes/gitflow) completion
 
