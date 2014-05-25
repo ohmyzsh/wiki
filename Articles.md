@@ -18,5 +18,6 @@ If you know of any that are missing, feel free to contribute! :-)
 * [[Oh my zsh!|http://blog.vishaltelangre.com/15-12-2012-oh-my-zsh.html]] (2012-12-15) - w/ customized Powerline theme screenshot! 
 * [[Oh My ZSH! Build Podcast|http://build-podcast.com/oh-my-zsh/]] (2013-01-13) - Screencast
 * [[Oh my Zsh!|http://tuhaihe.com/oh-my-zsh.html]] - in Simplified Chinese(简体中文)
+* [[Budspencer theme|https://vimeo.com/96424888]] (2014-05-25) - Screencast showing how to cope with vi modes
 
 Also checkout [Oh My Zsh on Hacker Notes](http://thehackernotes.com/robbyrussell/oh-my-zsh)
