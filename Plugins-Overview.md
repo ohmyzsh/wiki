@@ -67,7 +67,7 @@ autojump          | shell extension to jump to frequently used directories      
 fasd              | quick access to files and dirs https://github.com/clvv/fasd      |
 jump              | allows to mark dirs and jump to marks                           |
 pj |     aliases for quick access to projects dir
-wd2 |    yet another autojump tool github.com/mfaerevaag/wd
+wd |    yet another autojump tool github.com/mfaerevaag/wd
 z |     yet another autojump
 
 ### Build tools
