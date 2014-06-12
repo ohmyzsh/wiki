@@ -468,11 +468,9 @@ To use: Set @ZSH_THEME@ in @~/.zshrc@ to @ys@.
 !http://dl.dropbox.com/u/4109351/pics/gnzh-zsh-theme.png!
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @gnzh@.
 
-h2. How to Submit Your Theme
+h2. (Don’t) Send us your theme! (for now)
 
-We're hoping to collect a bunch of zsh prompt themes from people. Please send us yours!
-
-Fork the project, add your theme, and send a pull request to Robby Russell. We'll evaluate it and merge if there are no problems.
+We have enough themes for the time being. Please fork the project and add on in there, you can let people know how to grab it from there.
 
 h2. Screenshots of Each Theme
 
