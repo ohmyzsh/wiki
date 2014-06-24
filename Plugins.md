@@ -348,10 +348,10 @@ This plugin allows you to navigate the history of previous current-working-direc
 
 For example, if the shell was started, and the following commands were entered:
 
-cd ~
-cd /usr
-cd share
-cd doc
+    cd ~
+    cd /usr
+    cd share
+    cd doc
 
 Then entering ALT-LEFT at the prompt would change directory from /usr/share/doc to /usr/share, then if pressed again to /usr/, then ~. If ALT-RIGHT were pressed the directory would be changed to /usr/ again.
 
