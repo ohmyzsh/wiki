@@ -642,7 +642,7 @@ Enhances the [Nanoc](http://nanoc.stoneship.org/) static site generator with ali
 * nyan - nyan cat goodness in your shell
 
 ## osx
-**Maintainer:** [robbyrussell][robbyrussell]
+**Maintainers:** [robbyrussell][robbyrussell] [sorin-ionescu](https://github.com/sorin-ionescu)
 
 * `tab` - open the current directory in a new tab
 * `pfd` - return the path of the frontmost Finder window
