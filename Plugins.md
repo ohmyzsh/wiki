@@ -653,6 +653,12 @@ Enhances the [Nanoc](http://nanoc.stoneship.org/) static site generator with ali
 * `man-preview` - open a specified man page in Preview
 * `trash` - move a specified file to the Trash
 
+## pass
+
+**Maintainer:** [sanbor](https://github.com/sanbor)
+
+Completion plugin for [pass](http://zx2c4.com/projects/password-store/). [Source](http://git.zx2c4.com/password-store/tree/contrib/pass.zsh-completion)
+
 ## per-directory-history
 
 **Maintainer:** [jimhester][jimhester]
@@ -1085,12 +1091,6 @@ Clean cache
 
 Completion plugin for [zeus](https://github.com/burke/zeus). The describing texts are inspired by the texts given in the [documenation of Rails command line tools](http://guides.rubyonrails.org/command_line.html).
 * [Source](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/zeus/_zeus)
-
-## Pass
-
-**Maintainer:** [sanbor](https://github.com/sanbor)
-
-Completion plugin for [pass](http://zx2c4.com/projects/password-store/). [Source](http://git.zx2c4.com/password-store/tree/contrib/pass.zsh-completion)
 
 ## wd
 
