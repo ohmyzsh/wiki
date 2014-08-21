@@ -12,7 +12,7 @@ Here is a collection of screenshots of themes that have been contributed to Oh M
 To use: Set @ZSH_THEME@ in @~/.zshrc@ to @robbyrussell@.
 
 *af-magic*
-!http://i.imgur.com/toqlR.jpg!
+!http://i.imgur.com/il7uuoW.png!
 
 To use: set @ZSH_THEME@ in @~/.zshrc@ to @af-magic@.
 
