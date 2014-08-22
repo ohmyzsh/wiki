@@ -178,7 +178,7 @@ forklift           | MacOS file browser                                         
 macports  | macport autocompletion
 mysql-macports |    same as apache-macport for MySQL
 osx | MacOS completions
-pod |    http://cocoapods.org library dependency manager for XCode
+pod |    http://cocoapods.org library dependency manager for Xcode
 terminalapp |    Apple Terminal enhancer
 textmate |    aliases
 
