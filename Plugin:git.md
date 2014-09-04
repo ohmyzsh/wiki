@@ -12,11 +12,10 @@ Enable it by adding `git` to the [`plugins` array](https://github.com/robbyrusse
 <tr><td><pre>gst</pre></td><td><pre>git status</pre></td></tr>
 <tr><td><pre>gd</pre></td><td><pre>git diff</pre></td></tr>
 <tr><td><pre>gdc</pre></td><td><pre>git diff --cached</pre></td></tr>
+<tr><td><pre>gdv</pre></td><td><pre>git diff -w "$@" | view -</pre></td></tr>
 <tr><td><pre>gl</pre></td><td><pre>git pull</pre></td></tr>
 <tr><td><pre>gup</pre></td><td><pre>git pull --rebase</pre></td></tr>
 <tr><td><pre>gp</pre></td><td><pre>git push</pre></td></tr>
-<tr><td><pre>gd</pre></td><td><pre>git diff</pre></td></tr>
-<tr><td><pre>gdv</pre></td><td><pre>git diff -w "$@" | view -</pre></td></tr>
 <tr><td><pre>gc</pre></td><td><pre>git commit -v</pre></td></tr>
 <tr><td><pre>gc!</pre></td><td><pre>git commit -v --amend</pre></td></tr>
 <tr><td><pre>gca</pre></td><td><pre>git commit -v -a</pre></td></tr>
