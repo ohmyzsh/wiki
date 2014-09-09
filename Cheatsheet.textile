@@ -102,7 +102,7 @@ h2. Helpful aliases for common git tasks
 * @glp@ - @_git_log_prettily@
 
 h2. Editors
-* @stt@ - @open current directory in Sublime Text 2@
+* @stt@ - @open current directory in Sublime Text 2/3@
 
 h2. Symfony2
 * @sf@ - @php app/console@
