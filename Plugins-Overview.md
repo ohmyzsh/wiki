@@ -36,7 +36,7 @@ kate              |   Kate text editor alias http://kate-editor.org/
 last-working-dir  |     same as dirpresist
 mosh |     mobile shell with roaming (wifi, mobile networks) and local echo http://mosh.mit.edu/
 pass |    pass utility autocompletion
-per-directory-history |     self-descriotive
+per-directory-history |     self-descriptive
 profiles |     different zsh profiles per hostname
 rsync |    aliases
 safe-paste |    extended copy/paste in terminal
