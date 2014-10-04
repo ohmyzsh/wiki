@@ -86,7 +86,7 @@ github   | cli access, url shortener                                            
 gitignore| gi alias to fetch default .gitignore files from http://gitignore.io/           |
 gnu-utils| GNU coreutils wrappers to override shell builtins                              |
 go       | Go build tool http://golang.org/cmd/go/                                        |
-golang   | **[DUPLICATE]** indetical to 'go'. Should be removed?                          |
+golang   | **[DUPLICATE]** identical to 'go'. Should be removed?                          |
 gradle   | build automation tool http://www.gradle.org/                                   |
 grails   | funcs for grails scritp managment http://grails.org/
 heroku   | cli access https://www.heroku.com/
