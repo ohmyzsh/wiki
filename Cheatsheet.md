@@ -7,7 +7,7 @@ Commands
 
 - `tab` - Create a new tab in the current directory (OS X - req enabling access for assistive devices under sys prefs)
 - `take` - Create a new directory and change to it, will create intermediate directories as required.
-- `x`/@extract@ - Extract an archive (supported types: tar.{bz2,gz,xz,lzma}, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z).
+- `x`/`extract` - Extract an archive (supported types: tar.{bz2,gz,xz,lzma}, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z).
 - `zsh_stats` - Get a list of the top ten commands and how many times they have been run
 - `uninstall_oh_my_zsh` - Uninstall Oh-my-zsh
 - `upgrade_oh_my_zsh` - Upgrade Oh-my-zsh
