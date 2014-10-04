@@ -1,4 +1,5 @@
-## Variables
+Variables
+---------
 
 Meaningful self documenting names should be used, if the variable name does not make it reasonably obvious as to the meaning, appropriate comments should be added.
 
@@ -8,8 +9,8 @@ Preferred naming convention is to use `snake_case` names, and not `CamelCase` or
 
 Variables name should not clobber command names, such as `dir`, `pwd`
 
-
-## Functions
+Functions
+---------
 
 Braces should be on the same line as the function name:
 
@@ -27,8 +28,8 @@ function _helper-util() {
 }
 ```
 
-
-## General
+General
+-------
 
 Indenting should be done with 2 spaces.
 
