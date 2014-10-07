@@ -774,7 +774,7 @@ Enhances the [Nanoc](http://nanoc.stoneship.org/) static site generator with ali
 node
 ----
 
-- `node-api [SECTION]`: open the [node api](http://nodejs.org/docs/v0.4.8/api/all.html), for your current version, in your browser. **Note: This uses `open` which comes with OS X. This needs to be re-factored to work on other platforms.**
+- `node-api [SECTION]`: open the [node api](http://nodejs.org/docs/v0.4.8/api/all.html), for your current version, in your browser.
 
 npm
 ---
