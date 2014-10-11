@@ -2,9 +2,7 @@ oh-my-zsh is fully configurable to your needs with the help of the `$ZSH_CUSTOM`
 
 Initially `$ZSH_CUSTOM` points to oh-my-zsh's `custom` directory. Whatever you place inside of it will take precedence over the built-in configuration.
 
-[[_TOC_]]
-
-#### Overriding and adding plugins
+## Overriding and adding plugins
 
 Let's say you created your own plugin `foobar` and want to add it to your configuration.
 
@@ -27,7 +25,7 @@ Also follow these steps if you want to override plugins that ship with your oh-m
 
 A word of warning: None of the original rvm plugin files will get sourced if you define a custom rvm plugin. If you want to customize just a single public function of a plugin, use the approach as outlined in the section below that tells you about how to override internals.
 
-#### Overriding and adding themes
+## Overriding and adding themes
 
 Adding and customizing your own themes pretty much works the same as with plugins.
 
@@ -51,7 +49,7 @@ If you don't change its filename, your `.zshrc` file can stay the same: `ZSH_THE
 
 Hint: Using a random theme with `$ZSH_THEME="random"` will not look into your custom themes directory. Only built-in themes will be used.
 
-#### Overriding internals
+## Overriding internals
 
 oh-my-zsh's internals are defined in its `lib` directory. To change them just create a file inside the `custom` directory (its name doesn't matter, as long as it has a `.zsh` ending) and start customizing whatever you want. Unsatisfied with the way `git_prompt_info()` works? Ride your own implementation!
 
@@ -65,7 +63,7 @@ function git_prompt_info() {
 Such customization files will always be the last thing that oh-my-zsh sources before handing over control to your terminal. Also use this approach if you want to override specific details of built-in plugins.
 
 
-#### Using another customization directory
+## Using another customization directory
 
 If you don't want to use the built-in `custom` directory itself, just change the path of `$ZSH_CUSTOM` inside your `.zshrc` to a directory of your own liking. Everything will be fine as long as you adhere to the conventional file hierarchy.
 
@@ -87,6 +85,6 @@ $HOME
         └── my_awesome_theme.zsh-theme
 ```
 
-### Version control of customizations
+## Version control of customizations
 
 By default git is set to ignore the custom directory, so that oh-my-zsh's update process does not interfere with your customizations. If you want to use a version control system like git for your personal changes, just initialize an own repository inside the `custom` directory (`git init`), or point `$ZSH_CUSTOM` to another directory you have under version control.
