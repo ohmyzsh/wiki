@@ -2,14 +2,14 @@ oh-my-zsh is fully configurable to your needs with the help of the `$ZSH_CUSTOM`
 
 Initially `$ZSH_CUSTOM` points to oh-my-zsh's `custom` directory. Whatever you place inside of it will take precedence over the built-in configuration.
 
+[[_TOC_]]
+
 #### Overriding and adding plugins
 
-Let's say you created your own plugin `foobar` and want to add it to your configuration.\`\`` bash
-
-your .zshrc
-===========
+Let's say you created your own plugin `foobar` and want to add it to your configuration.
 
 ```zsh
+# Your .zshrc
 plugins=(git bundler foobar)
 ```
 
