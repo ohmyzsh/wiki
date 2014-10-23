@@ -67,7 +67,7 @@ Helpful aliases for common git tasks
 - `gd` - `git diff`
 - `gdc` - `git diff --cached`
 - `gdv` - <code>git diff ~~w "$`" | view -</code>
-	- `gc@~~`git commit -v\`
+- `gc - `git commit -v`
 - `gc!` - `git commit -v --amend`
 - `gca` - `git commit -v -a`
 - `gca!` - `git commit -v -a --amend`
