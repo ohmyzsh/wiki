@@ -110,6 +110,8 @@ Helpful aliases for common git tasks
 - `ggpnp` - `git pull origin $(current_branch) && git push origin $(current_branch)`
 - `glp` - `_git_log_prettily`
 
+You also find these commands in Dash as a Cheat-sheet.
+
 Editors
 -------
 
