@@ -124,3 +124,18 @@ Symfony2
 - `sfcl` - `php app/console cache:clear`
 - `sfroute` - `php app/console router:debug`
 - `sfgb` - `php app/console generate:bundle`
+
+Systemd
+===
+shortcut for systemctl command utility
+--------------------------------------
+
+- `sc-status NAME`  - `show the status of the NAME process'
+- `sc-show NAME`    - `show the NAME systemd .service file`
+- `sc-start NAME`   - `start the NAME process`
+- `sc-stop NAME`    - `stop the NAME process`
+- `sc-restart NAME` - `restart the NAME process`
+- `sc-enable NAME`  - `enable the NAME process to start at boot`
+- `sc-disable NAME` - `disable the NAME process at boot`
+
+
