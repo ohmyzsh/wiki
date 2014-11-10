@@ -676,7 +676,12 @@ jsontools
 
 **Maintainer:** [bobwilliams](https://github.com/bobwilliams)
 
-handy command line tools for dealing with json data.* pp_json - pretty prints json* is_json - returns true if valid json; false otherwise* urlencode_json - returns a url encoded string for the given json* urldecode_json - returns decoded json for the given url encoded string
+handy command line tools for dealing with json data.
+
+- pp_json - pretty prints json
+- is_json - returns true if valid json; false otherwise
+- urlencode_json - returns a url encoded string for the given json
+- urldecode_json - returns decoded json for the given url encoded string
 
 knife
 -----
@@ -720,7 +725,7 @@ lighthouse
 
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
-- lighthouse - open lighthouse tickets using the command *open_lighthouse_ticket* ( see [[http://screencast.com/t/ZDgwNDUwNT]]
+- lighthouse - open lighthouse tickets using the command *open_lighthouse_ticket* (see [[http://screencast.com/t/ZDgwNDUwNT]])
 
 lol
 ---
