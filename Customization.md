@@ -51,7 +51,7 @@ Hint: Using a random theme with `$ZSH_THEME="random"` will not look into your cu
 
 ## Overriding internals
 
-oh-my-zsh's internals are defined in its `lib` directory. To change them just create a file inside the `custom` directory (its name doesn't matter, as long as it has a `.zsh` ending) and start customizing whatever you want. Unsatisfied with the way `git_prompt_info()` works? Ride your own implementation!
+oh-my-zsh's internals are defined in its `lib` directory. To change them just create a file inside the `custom` directory (its name doesn't matter, as long as it has a `.zsh` ending) and start customizing whatever you want. Unsatisfied with the way `git_prompt_info()` works? Write your own implementation!
 
 ```bash
 # custom/my_patches.zsh
