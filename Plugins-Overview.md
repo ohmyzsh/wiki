@@ -17,7 +17,7 @@ Last review date: 20-Nov-13
 
 | Name                       | Description                                                                                                    |
 |----------------------------|----------------------------------------------------------------------------------------------------------------|
-| autoenv                    | automaticly execs script on changing dir (.env file)                                                           |
+| autoenv                    | automatically execs script on changing dir (.env file)                                                           |
 | colemak                    | colemak layout support + vi-mode fixes for colemak http://en.wikipedia.org/wiki/Keyboard_layout#Colemak        |
 | colored-man                | adds colors to manpages                                                                                        |
 | colorize                   | cat with syntax highlight support                                                                              |
@@ -26,7 +26,7 @@ Last review date: 20-Nov-13
 | copydir                    | copies current dir full path to clipboard                                                                      |
 | copyfile                   | copies selected file content to clipboard                                                                      |
 | cp                         | cp with progress bar (rsync)                                                                                   |
-| dircycle                   | hotkeys fot cycling directories                                                                                |
+| dircycle                   | hotkeys for cycling directories                                                                                |
 | dirpersist                 | saves and restores your directory stack across shell invocations                                               |
 | encode64                   | e64 & d64 aliases                                                                                              |
 | extract                    | 'x' alias - swiss knife for archive extracting                                                                 |
@@ -101,9 +101,9 @@ Last review date: 20-Nov-13
 | nanoc           | static website generator http://nanoc.ws/                                                 |
 | postgres        | aliases for Postgres managing                                                             |
 | perl            | aliases for Perl                                                                          |
-| rebar           | Eralng build tool autocompletion                                                          |
+| rebar           | Erlang build tool autocompletion                                                          |
 | redis-cli       | Redis autocompletion                                                                      |
-| repo            | git repo managment tool autocompletion https://code.google.com/p/git-repo/                |
+| repo            | git repo management tool autocompletion https://code.google.com/p/git-repo/               |
 | sbt             | autocomplete for ScalaBuildTool http://www.scala-sbt.org/                                 |
 | scala           | autocomplete                                                                              |
 | sfffe           | aliases for ack (JS & CSS grepping) http://beyondgrep.com/                                |
@@ -115,10 +115,10 @@ Last review date: 20-Nov-13
 
 | Name      | Description                                         |
 |-----------|-----------------------------------------------------|
-| jake-node | Node JS build tool Jake https://github.com/mde/jake |
+| jake-node | NodeJS build tool Jake https://github.com/mde/jake  |
 | node      | NodeJS docs easy access via CLI                     |
-| npm       | package managerfor NodeJS                           |
-| nvm       | NodeJs version manager                              |
+| npm       | package manager for NodeJS                          |
+| nvm       | NodeJS version manager                              |
 
 ### PHP
 
@@ -137,14 +137,14 @@ Last review date: 20-Nov-13
 | bundler    | package manager http://bundler.io/                                       |
 | capistrano | remote deployment tool                                                   |
 | gem        | http://rubygems.org/                                                     |
-| jruby      | Jruby aliases                                                            |
+| jruby      | JRuby aliases                                                            |
 | pow        | rack apps restarter http://pow.cx/                                       |
 | powder     | powder gem autocompletion https://github.com/Rodreegez/powder            |
 | powify     | another pow manager https://github.com/sethvargo/powify                  |
 | rails      | rails aliases for rails 2, rails 3, and rails 4 all in one clean plugin  |
 | rake       | Ruby build tool                                                          |
-| rbenv      | ruby version switcher                                                    |
-| rbfu       | **[OBSOLATE]** anther Ruby version manager https://github.com/hmans/rbfu |
+| rbenv      | Ruby version switcher                                                    |
+| rbfu       | **[OBSOLETE]** anther Ruby version manager https://github.com/hmans/rbfu |
 | ruby       | aliases                                                                  |
 | rvm        | another RubyVersionManager                                               |
 | thor       | Ruby doc tool https://github.com/erikhuda/thor                           |
@@ -167,7 +167,7 @@ Last review date: 20-Nov-13
 |-----------|-----------------------------------------|
 | archlinux | aliases for yaourt and pacman           |
 | debian    | aliases for apt* utils                  |
-| suse      | aliases for Suse Linux (zypper aliases) |
+| suse      | aliases for SUSE Linux (zypper aliases) |
 | systemd   | aliases                                 |
 | yum       | aliases                                 |
 
@@ -175,7 +175,7 @@ Last review date: 20-Nov-13
 
 | Name             | Description                                                    |
 |------------------|----------------------------------------------------------------|
-| apache2-macports | apache managment functions                                     |
+| apache2-macports | apache management functions                                    |
 | brew             | package manger http://brew.sh/                                 |
 | bwana            | allows to open manpages in browser http://www.bruji.com/bwana/ |
 | cloudapp         | completion for cloudapp http://getcloudapp.com/                |
@@ -195,5 +195,5 @@ Last review date: 20-Nov-13
 | emoji-clock | fancy shell clocks                                                               |
 | lol         | dowant                                                                           |
 | nyan        | Nyancat in terminal (nyanhost is down :( )                                       |
-| rand-quote  | quote function for random quoutes from http://www.quotationspage.com/random.php3 |
+| rand-quote  | quote function for random quotes from http://www.quotationspage.com/random.php3  |
 | themes      | ZSH theme switcher                                                               |
