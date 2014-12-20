@@ -96,7 +96,7 @@ Last review date: 20-Nov-13
 | lein            | leiningen autocompletion http://leiningen.org                                             |
 | lighthouse      | CLI access to issue tracker Lighthouse, http://lighthouseapp.com/                         |
 | mercurial       | hg autocompletion                                                                         |
-| mix             | Elixir build tool autocompletion http://elixir-lang.org/docs/stable/Mix.html              |
+| mix             | Elixir build tool autocompletion http://elixir-lang.org/docs/stable/mix                   |
 | mvn             | maven completion                                                                          |
 | nanoc           | static website generator http://nanoc.ws/                                                 |
 | postgres        | aliases for Postgres managing                                                             |
@@ -125,7 +125,7 @@ Last review date: 20-Nov-13
 | Name             | Description                                                                 |
 |------------------|-----------------------------------------------------------------------------|
 | composer         | PHP dependency manager http://getcomposer.org                               |
-| laravel          | PHP deployment tool artisan completion http://four.laravel.com/docs/artisan |
+| laravel          | PHP deployment tool artisan completion http://laravel.com/docs/4.2/artisan  |
 | phing            | Ant-like build system for PHP http://phing.info                             |
 | symfony symfony2 | PHP webframework http://symfony.com                                         |
 | yii              | PHP webframework http://yiiframework.com                                    |
