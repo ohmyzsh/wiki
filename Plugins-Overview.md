@@ -89,12 +89,12 @@ Last review date: 20-Nov-13
 | go              | Go build tool http://golang.org/cmd/go/                                                   |
 | golang          | **[DUPLICATE]** identical to 'go'. Should be removed?                                     |
 | gradle          | build automation tool http://www.gradle.org/                                              |
-| grails          | funcs for grails scritp managment http://grails.org/                                      |
+| grails          | funcs for grails script management http://grails.org/                                      |
 | heroku          | cli access https://www.heroku.com/                                                        |
 | jira            | JIRA cli access                                                                           |
 | knife knife_ssh | knife autocompletion http://docs.opscode.com/knife.html                                   |
 | lein            | leiningen autocompletion http://leiningen.org                                             |
-| lighthouse      | CLI access ot issue tracker Lighthouse, http://lighthouseapp.com/                         |
+| lighthouse      | CLI access to issue tracker Lighthouse, http://lighthouseapp.com/                         |
 | mercurial       | hg autocompletion                                                                         |
 | mix             | Elixir build tool autocompletion http://elixir-lang.org/docs/stable/Mix.html              |
 | mvn             | maven completion                                                                          |
