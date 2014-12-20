@@ -49,7 +49,7 @@ Last review date: 20-Nov-13
 | supervisor                 | autocompletion for http://supervisord.org                                                                      |
 | taskwarrior                | autocompletion for http://taskwarrior.org                                                                      |
 | terminitor                 | **[RENAMED to consular]** Consular automates your development workflow setup https://github.com/achiu/consular |
-| tmux tmuxinator            | enchanced Tmux support                                                                                         |
+| tmux tmuxinator            | enhanced Tmux support                                                                                         |
 | torrent                    | magnet2torrent converter function                                                                              |
 | urltools                   | urlencode/urldecode etc                                                                                        |
 | vi-mode                    | self descriptive                                                                                               |
