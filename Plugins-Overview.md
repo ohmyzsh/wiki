@@ -128,7 +128,7 @@ Last review date: 20-Nov-13
 | laravel          | PHP deployment tool artisan completion http://laravel.com/docs/4.2/artisan  |
 | phing            | Ant-like build system for PHP http://phing.info                             |
 | symfony symfony2 | PHP webframework http://symfony.com                                         |
-| yii              | PHP webframework http://yiiframework.com                                    |
+| yii yii2         | PHP webframework http://yiiframework.com                                    |
 
 ### Ruby
 
