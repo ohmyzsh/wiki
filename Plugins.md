@@ -1237,6 +1237,13 @@ yii
 
 - `yiic = 'protected/yiic'`
 
+yii2
+---
+
+**Maintainer:** [ekaragodin](https://github.com/ekaragodin)
+
+[Yii2](http://yiiframework.com) autocompletion plugin.
+
 yum
 ---
 
