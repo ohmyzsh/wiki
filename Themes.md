@@ -26,7 +26,7 @@ To use: set `ZSH_THEME` in `~/.zshrc` to `afowler`.
 ### agnoster
 ([more info](https://gist.github.com/3712874))
 
-![](https://dl.dropboxusercontent.com/content_link/qAxJ754fa2JYQXmI0mnBhxWoEJS4wQTUDtpkyZ4B8kps6sDlQyk34GuLBuxzRWjb)
+![](http://i.imgur.com/xsUVuac.png)
 
 (Shown with [Solarized Dark colorscheme](http://ethanschoonover.com/solarized) and [patched Menlo 14pt](https://gist.github.com/1595572) in [iTerm 2](http://www.iterm2.com/))
 
@@ -77,7 +77,7 @@ To use: Set `ZSH_THEME` in `~/.zshrc` to `blinks`, and set up [Solarized](http:/
 To use: Set `ZSH_THEME` in `~/.zshrc` to `bureau`. In the right prompt you see git status and (if you use nvm) the Node.js version. (I’m using Solarized color scheme in this screenshot)
 
 ### candy
-![](https://dl.dropboxusercontent.com/content_link/1roaFIdLI8HOOShLKnmJFZEkccfEILWBfUekr7BD5bOnGborXd0UHwA1sr5Pk5xT)
+![](http://i.imgur.com/gDbxsff.png)
 
 To use: Set `ZSH_THEME` in `~/.zshrc` to `candy`.
 
@@ -102,7 +102,7 @@ To use: Set `ZSH_THEME` in `~/.zshrc` to `crunch`.
 To use: Set `ZSH_THEME` in `~/.zshrc` to `cypher`.
 
 ### dallas
-![](http://images.dallasreedy.com/oh-my-zsh_dallas-theme.png)
+![](http://i.imgur.com/Xgcu9NS.png)
 
 To use: Set `ZSH_THEME` in `~/.zshrc` to `dallas`.
 
@@ -232,7 +232,7 @@ To use: Set `ZSH_THEME` in `~/.zshrc` to `juanghurtado`.
 ### junkfood
 ([more info](http://www.tylercipriani.com/2012/12/18/zsh-prompt-customization.html))
 
-![](http://www.tylercipriani.com/images/junkfoodtheme.png)
+![](http://i.imgur.com/3bgU1UW.png)
 
 To use: Set `ZSH_THEME` in `~/.zshrc` to `junkfood`.
 
@@ -268,7 +268,7 @@ To use: Set `ZSH_THEME` in `~/.zshrc` to `linuxonly`. (As the name states, this 
 To use: Set `ZSH_THEME` in `~/.zshrc` to `lukerandall`.
 
 ### macovsky
-![](http://img806.imageshack.us/img806/9679/screenshot20110305at183.png)
+![](http://i.imgur.com/fsedfuT.png)
 
 To use: Set `ZSH_THEME` in `~/.zshrc` to `macovsky`.
 
@@ -408,7 +408,7 @@ To use: Set `ZSH_THEME` in `~/.zshrc` to `superjarin`.
 ### suvash
 username, host, directory, git branch and rvm gemset
 
-![](http://suvashshares.s3.amazonaws.com/oh-my-zsh/suvash-zsh-theme.png)
+![](http://i.imgur.com/MyJ9kxn.png)
 
 To use: Set `ZSH_THEME` in `~/.zshrc` to `suvash`.
 
@@ -439,7 +439,7 @@ To use: Set `ZSH_THEME` in `~/.zshrc` to `tjkirch`
 To use: Set `ZSH_THEME` in `~/.zshrc` to `tonotdo`.
 
 ### trapd00r
-![](http://i.japh.se/trapd00r_zsh_theme.png)
+![](http://i.imgur.com/qLSIo3x.png)
 
 To use: Set `ZSH_THEME` in `~/.zshrc` to `trapd00r`
 
