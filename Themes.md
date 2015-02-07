@@ -483,7 +483,7 @@ To use: Set `ZSH_THEME` in `~/.zshrc` to `rkj-repos`.
 To use: Set `ZSH_THEME` in `~/.zshrc` to `zhann`.
 
 ### ys
-Clean, simple, compatible and meaningful. ([more info](http://blog.ysmood.org/2013/03/my-ys-terminal-theme/))
+Clean, simple, compatible and meaningful. ([more info](http://blog.ysmood.org/my-ys-terminal-theme/))
 
 [![How it looks like on Mac.](https://f.cloud.github.com/assets/1415488/252783/25a3055e-8bb4-11e2-9b9f-95c0d6f870fb.jpg)](http://ysmood.org/wp/2013/03/my-ys-terminal-theme/)
 
