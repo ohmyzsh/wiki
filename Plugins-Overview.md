@@ -199,6 +199,6 @@ Last review date: 20-Nov-13
 | [battery](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/battery)         | allows see battery status in PS                                                    |
 | [emoji-clock](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/emoji-clock) | fancy shell clocks                                                                 |
 | [lol](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/lol)                 | dowant                                                                             |
-| [nyan](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/nyan)               | Nyancat in terminal (nyanhost is down :( )                                         |
+| [nyan](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/nyan)               | Nyan Cat in terminal 
 | [rand-quote](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/rand-quote)   | quote function for random quotes from http://www.quotationspage.com/random.php3    |
 | [themes](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/themes)           | ZSH theme switcher                                                                 |
