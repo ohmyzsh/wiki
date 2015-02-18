@@ -184,11 +184,6 @@ To use: Set `ZSH_THEME` in `~/.zshrc` to `gallois`.
 
 To use: Set `ZSH_THEME` in `~/.zshrc` to `garyblessington`.
 
-### gianu
-![](http://i.imgur.com/XWlUj0J.png)
-
-To use: Set `ZSH_THEME` in `~/.zshrc` to `gianu`.
-
 ### gentoo
 ![](http://i51.tinypic.com/2preioo.png)
 
@@ -198,6 +193,12 @@ To use: Set `ZSH_THEME` in `~/.zshrc` to `gentoo`.
 ![](http://img.skitch.com/20091228-k27xd6iqn99qe4h5c6fm4i1yws.jpg)
 
 To use: Set `ZSH_THEME` in `~/.zshrc` to `geoffgarside`.
+
+### gianu
+![](http://i.imgur.com/XWlUj0J.png)
+
+To use: Set `ZSH_THEME` in `~/.zshrc` to `gianu`.
+
 
 ### kphoen
 ![](http://i.imgur.com/hIE3v.png.)
