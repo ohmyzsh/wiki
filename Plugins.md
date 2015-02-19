@@ -307,6 +307,33 @@ You can manually specify the path to load chruby from using zstyle:
 
 Simple build definition completion is also provided for [ruby-build](https://github.com/sstephenson/ruby-build) to make installed rubies from source faster.
 
+chucknorris
+-----------
+
+**Maintainer** [maff](https://github.com/maff)
+
+Adds Chuck Norris fortune file from http://www.k-lug.org/~kessler/projects.html. Depends on fortune (and cowsay if using `chuck_cow`) being installed (available via homebrew, apt, ...). Perfectly suitable as MOTD.
+
+Commands:
+
+- `chuck: print random Chuck Norris quote`
+- `chuck_cow: print quote in cowthink`
+
+Having `chuck_cow` at the end of your .zshrc results in:
+
+```
+Last login: Fri Jan 30 23:12:26 on ttys001
+ ______________________________________
+( When Chuck Norris plays Monopoly, it )
+( affects the actual world economy.    )
+ --------------------------------------
+        o   ^__^
+         o  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
 command-not-found
 -----------------
 
