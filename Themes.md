@@ -41,8 +41,8 @@ The rest of the themes, in alphabetical order:
 
 Additional setup:
 
-- install one of the [patched fonts from Vim-Powerline](https://github.com/Lokaltog/powerline-fonts) or [patch your own](https://powerline.readthedocs.org/en/latest/fontpatching.html#font-patching) for the special characters.
-- *optionally* set `DEFAULT_USER` in `~/.zshrc` to your regular username to hide the “user@hostname” info when you’re logged in as yourself on your local machine.
+- Install one of the [patched fonts from Vim-Powerline](https://github.com/Lokaltog/powerline-fonts) or [patch your own](https://powerline.readthedocs.org/en/latest/fontpatching.html#font-patching) for the special characters.
+- *Optionally* set `DEFAULT_USER` in `~/.zshrc` to your regular username to hide the “user@hostname” info when you’re logged in as yourself on your local machine.
 
 ### alanpeabody
 ![](http://dl.dropbox.com/u/3952084/alanpeabody_zsh_theme.png)
@@ -72,7 +72,7 @@ Additional setup: Set up [Solarized](http://ethanschoonover.com/solarized).
 ### bureau
 ![](https://f.cloud.github.com/assets/529247/1503497/dc461f1c-48ab-11e3-922d-9897ee4f9cd2.png)
 
-To use: In the right prompt you see git status and (if you use nvm) the Node.js version. (I’m using the [Solarized](http://ethanschoonover.com/solarized) color scheme in this screenshot)
+To use: In the right prompt you see git status and (if you use nvm) the Node.js version. (I’m using the [Solarized](http://ethanschoonover.com/solarized) color scheme in this screenshot.)
 
 ### candy
 ![](http://i.imgur.com/gDbxsff.png)
