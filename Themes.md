@@ -4,12 +4,15 @@ In order to enable a theme, set `ZSH_THEME` to the name of the theme in your `~/
 
 Here is a collection of screenshots and descriptions of themes that have been contributed to Oh My Zsh. There are some missing from this page. If you have a moment, feel free to help us complete the list.
 
-(*in alphabetical order*)
 
 ### robbyrussell
 *the (default) that Robby uses* 
 
 ![](http://img.skitch.com/20091228-qcke3kuenp61cwcnwqcd724pr7.jpg)
+
+------------------------------------
+
+The rest of the themes, in alphabetical order:
 
 ### af-magic
 ![](http://i.imgur.com/il7uuoW.png)
@@ -102,15 +105,15 @@ Additional setup: Get this small [[fix|https://github.com/Dieterbe/oh-my-zsh/com
 
 ![](http://img.skitch.com/20091228-nems77ig6wkayf7w3daysd7jif.jpg)
 
-### flazz
-Has git and vi-command mode support (when enabled)
-
-![](http://i.imgur.com/5hg16.png)
-
 ### fishy
 The fish shell prompt with git support
 
 ![](http://ompldr.org/vOHN0Ng)
+
+### flazz
+Has git and vi-command mode support (when enabled)
+
+![](http://i.imgur.com/5hg16.png)
 
 ### frisk
 ![](http://i.imgur.com/q02ng.png)
@@ -138,8 +141,8 @@ it’s funky…
 ### gianu
 ![](http://i.imgur.com/XWlUj0J.png)
 
-### kphoen
-![](http://i.imgur.com/hIE3v.png.)
+### gnzh
+![](http://dl.dropbox.com/u/4109351/pics/gnzh-zsh-theme.png)
 
 ### imajes
 ![](http://img.skitch.com/20091228-kq8qwqpsqdyh7jyeyuxmyptkma.jpg)
@@ -174,6 +177,9 @@ To use: This theme requires at least **v4.3.6** of `zsh`.
 
 ### kolo
 ![](http://i.imgur.com/bPZhd.png)
+
+### kphoen
+![](http://i.imgur.com/hIE3v.png.)
 
 ### lambda
 ![](http://f.cl.ly/items/0X3x2A0V0B2F3A0D2H0n/Screen%20shot%202011-01-14%20at%209.22.41%20PM.png)
@@ -240,6 +246,11 @@ also tells you when logged in over ssh
 
 ### rixius
 ![](http://dl.dropbox.com/u/6673910/zshTheme.png)
+
+### rkj-repos
+![](http://i.imgur.com/Vc2gL.png)
+
+![](http://i.imgur.com/vWJuk.png)
 
 ### sammy
 ![](http://f.cl.ly/items/2H2U332P381G202Z3E0B/sammy_preview.png)
@@ -317,21 +328,14 @@ Instructions to further customize the theme are available as comments in the the
 ### xiong-chiamiov-plus
 ![](http://img.skitch.com/20091228-jt31is2wx2tamh1a9cwwk8r4p.jpg)
 
-### rkj-repos
-![](http://i.imgur.com/Vc2gL.png)
-
-![](http://i.imgur.com/vWJuk.png)
-
-### zhann
-![](http://i.imgur.com/f6shl.png)
-
 ### ys
 Clean, simple, compatible and meaningful. ([more info](http://blog.ysmood.org/my-ys-terminal-theme/))
 
 [![How it looks like on Mac.](https://f.cloud.github.com/assets/1415488/252783/25a3055e-8bb4-11e2-9b9f-95c0d6f870fb.jpg)](http://ysmood.org/wp/2013/03/my-ys-terminal-theme/)
 
-### gnzh
-![](http://dl.dropbox.com/u/4109351/pics/gnzh-zsh-theme.png)
+### zhann
+![](http://i.imgur.com/f6shl.png)
+
 
 (Don’t) Send us your theme! (for now)
 -------------------------------------
