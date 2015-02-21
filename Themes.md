@@ -3,17 +3,7 @@ All the current themes can be found in the `themes/` directory in the oh-my-zsh 
 In order to enable a theme, set `ZSH_THEME` to the name of the theme in your `~/.zshrc`, before sourcing Oh My Zsh; for example: `ZSH_THEME=robbyrussell`  
 If you do not want any theme enabled, just set `ZSH_THEME` to blank: `ZSH_THEME=""`
 
-Here is a collection of screenshots and descriptions of themes that have been contributed to Oh My Zsh. There are some missing from this page.
-
-#### Theme Description Format
-
-The theme descriptions should contain:
-* The name of the theme.
-* A screenshot.
-* Instructions for any configuration besides setting `ZSH_THEME` in `~/.zshrc`. For example, font installation, terminal colorscheme configuration, or optional environment variables that affect the theme.
-* Any dependencies outside Oh My Zsh.
-
-We use manually-constructed screenshots because some of the themes require additional terminal configuration to look their best, and so the code in example shell sessions can showcase the theme's features. There is also a separate collection of automatically-generated screenshots linked [at the bottom of this page](#screenshots-of-each-theme).
+Here is a collection of screenshots and descriptions of themes that have been contributed to Oh My Zsh. There are some missing from this page. If you want to add or edit descriptions, see the [format description](#theme-description-format) at the bottom of this page.
 
 ## The Themes
 
@@ -339,13 +329,21 @@ Clean, simple, compatible and meaningful. ([more info](http://blog.ysmood.org/my
 ### zhann
 ![](http://i.imgur.com/f6shl.png)
 
+#### Theme Description Format
 
-(Don’t) Send us your theme! (for now)
--------------------------------------
+The theme descriptions should contain:
+* The name of the theme.
+* A screenshot.
+* Instructions for any configuration besides setting `ZSH_THEME` in `~/.zshrc`. For example, font installation, terminal colorscheme configuration, or optional environment variables that affect the theme.
+* Any dependencies outside Oh My Zsh.
+
+We use manually-constructed screenshots because some of the themes require additional terminal configuration to look their best, and so the code in example shell sessions can showcase the theme's features. There is also a separate collection of automatically-generated screenshots linked [at the bottom of this page](#screenshots-of-each-theme).
+
+
+##  (Don’t) Send us your theme! (for now)
 
 We have enough themes for the time being. Please fork the project and add on in there, you can let people know how to grab it from there.
 
-Screenshots of Each Theme
--------------------------
+##  Screenshots of Each Theme
 
 [Screenshots of each theme](https://www.dropbox.com/sh/u532agyv1hyash1/LS9yNESRlQ?lst) (as of 2013-04-10), in OS X Terminal.app using Consolas 13pt and Pro color scheme, inside a folder containing both a git and a mercurial repo. Each screenshot displays the output of the `pwd` command. It has shortcomings (plugins for some themes might be missing), but it offers a convenient and uniform overview of each theme. Plugins used were battery, rvm, hg prompt, among others.
