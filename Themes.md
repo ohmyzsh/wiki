@@ -329,16 +329,15 @@ Clean, simple, compatible and meaningful. ([more info](http://blog.ysmood.org/my
 ### zhann
 ![](http://i.imgur.com/f6shl.png)
 
-#### Theme Description Format
+## Theme Description Format
 
 The theme descriptions should contain:
 * The name of the theme.
-* A screenshot.
+* A screenshot. Preferably in PNG format.
 * Instructions for any configuration besides setting `ZSH_THEME` in `~/.zshrc`. For example, font installation, terminal colorscheme configuration, or optional environment variables that affect the theme.
 * Any dependencies outside Oh My Zsh.
 
 We use manually-constructed screenshots because some of the themes require additional terminal configuration to look their best, and so the code in example shell sessions can showcase the theme's features. There is also a separate collection of automatically-generated screenshots linked [at the bottom of this page](#screenshots-of-each-theme).
-
 
 ##  (Don’t) Send us your theme! (for now)
 
