@@ -108,11 +108,10 @@ Additional setup: Get this small [[fix|https://github.com/Dieterbe/oh-my-zsh/com
 ### fishy
 The fish shell prompt with git support
 
-![](http://ompldr.org/vOHN0Ng)
+![fishy](https://cloud.githubusercontent.com/assets/1441704/6315377/3ee891ce-ba00-11e4-92cc-885bc3c96c6e.png)
 
 ### flazz
 Has git and vi-command mode support (when enabled)
-
 ![](http://i.imgur.com/5hg16.png)
 
 ### frisk
@@ -120,8 +119,7 @@ Has git and vi-command mode support (when enabled)
 
 ### funky
 it’s funky…
-
-![](http://img.skitch.com/20091228-rgwwappxjmt49dx6ngwuk1xsqd.jpg)
+![funky](https://cloud.githubusercontent.com/assets/1441704/6315381/55ccfdb2-ba00-11e4-9fd1-86623b5bba17.png)
 
 ### gallifrey
 ![](http://img.skitch.com/20091113-qqtd3j8xinysujg5ugrsbr7x1y.jpg)
@@ -136,7 +134,7 @@ it’s funky…
 ![](http://i51.tinypic.com/2preioo.png)
 
 ### geoffgarside
-![](http://img.skitch.com/20091228-k27xd6iqn99qe4h5c6fm4i1yws.jpg)
+![geoffgarside](https://cloud.githubusercontent.com/assets/1441704/6315385/701d32e0-ba00-11e4-8c31-ab30a0fd6324.png)
 
 ### gianu
 ![](http://i.imgur.com/XWlUj0J.png)
@@ -149,8 +147,6 @@ it’s funky…
 
 ### jnrowe
 ![](http://jnrowe.github.com/_static/jnrowe-2009-12-30.png)
-
-To use: This theme requires at least **v4.3.6** of `zsh`.
 
 ### jreese
 ![](http://dl.dropbox.com/u/7859496/Screenshots/2010-04-08-oh-my-zsh.png)
@@ -196,7 +192,7 @@ To use: This theme requires at least **v4.3.6** of `zsh`.
 ![](http://i.imgur.com/fsedfuT.png)
 
 ### maran
-![](http://img.skitch.com/20091228-e49wy5f8961gstbiagqre279e1.jpg)
+![maran](https://cloud.githubusercontent.com/assets/1441704/6315389/7df9c496-ba00-11e4-8386-027d324255c4.png)
 
 ### mh
 ![](https://img.skitch.com/20111226-ki31rh8ytx7pnj3wwa3w71y6wg.png)
@@ -238,11 +234,8 @@ also tells you when logged in over ssh
 
 (Shown with [Solarized Dark colorscheme](http://ethanschoonover.com/solarized).)
 
-### rachel
-![](http://img.skitch.com/20110114-bga7p8qihdu481mmfagsb1as6q.png)
-
 ### risto
-![](http://img.skitch.com/20091228-n2w6w1cdxyc87e227dgdkymr15.jpg)
+![risto](https://cloud.githubusercontent.com/assets/1441704/6315405/18aa274c-ba01-11e4-8bb7-0ba9ca166974.png)
 
 ### rixius
 ![](http://dl.dropbox.com/u/6673910/zshTheme.png)
@@ -272,8 +265,7 @@ also tells you when logged in over ssh
 
 ### sunaku
 exit status if nonzero, status & branch if git, `pwd` always
-
-![](http://ompldr.org/vOHcwZg)
+![sunaku](https://cloud.githubusercontent.com/assets/1441704/6315408/4599c546-ba01-11e4-8ba0-591dc9433f7f.png)
 
 ### sunrise
 Lightweight prompt with exit status and `git status` consistent mode line
@@ -297,8 +289,7 @@ There is a party every day.
 
 ### theunraveler
 Minimal, informative when it needs to be.
-
-![](http://dl.dropbox.com/u/5232448/zsh.png)
+![theunraveler](https://cloud.githubusercontent.com/assets/1441704/6315413/6d28ed9e-ba01-11e4-98ad-7ae9a713e95c.png)
 
 ### tjkirch
 Based on dst, plus a lightning bolt and return codes.
@@ -317,16 +308,16 @@ Based on dst, plus a lightning bolt and return codes.
 Instructions to further customize the theme are available as comments in the theme file.
 
 ### wezm
-![](http://img.skitch.com/20091228-nsk66d4jks2tsn1n766i4f84gh.jpg)
+![wezm](https://cloud.githubusercontent.com/assets/1441704/6315419/915f6ca6-ba01-11e4-95b3-2c98114b5e5c.png)
 
 ### wuffers
 ![](http://i.imgur.com/cFqth.png)
 
 ### xiong-chiamiov
-![](http://img.skitch.com/20091228-axm1b99qpxdyey6pu4h28tj27.jpg)
+![xiong-chiamiov](https://cloud.githubusercontent.com/assets/1441704/6315428/ded1e6ee-ba01-11e4-8b9d-a67485476e9f.png)
 
 ### xiong-chiamiov-plus
-![](http://img.skitch.com/20091228-jt31is2wx2tamh1a9cwwk8r4p.jpg)
+![xiong-chiamiov-plus](https://cloud.githubusercontent.com/assets/1441704/6315427/d02464d2-ba01-11e4-8546-9c8dc984be79.png)
 
 ### ys
 Clean, simple, compatible and meaningful. ([more info](http://blog.ysmood.org/my-ys-terminal-theme/))
