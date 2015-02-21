@@ -1,10 +1,21 @@
 All the current themes can be found in the `themes/` directory in the oh-my-zsh distribution. [See list here.](http://github.com/robbyrussell/oh-my-zsh/tree/master/themes/)
 
-In order to enable a theme, set `ZSH_THEME` to the name of the theme in your `~/.zshrc`, before sourcing Oh My Zsh; _e.g._ `ZSH_THEME=robbyrussell`  
+In order to enable a theme, set `ZSH_THEME` to the name of the theme in your `~/.zshrc`, before sourcing Oh My Zsh; for example: `ZSH_THEME=robbyrussell`  
 If you do not want any theme enabled, just set `ZSH_THEME` to blank: `ZSH_THEME=""`
 
 Here is a collection of screenshots and descriptions of themes that have been contributed to Oh My Zsh. There are some missing from this page.
 
+#### Theme Description Format
+
+The theme descriptions should contain:
+* The name of the theme.
+* A screenshot.
+* Instructions for any configuration besides setting `ZSH_THEME` in `~/.zshrc`. For example, font installation, terminal colorscheme configuration, or optional environment variables that affect the theme.
+* Any dependencies outside Oh My Zsh.
+
+We use manually-constructed screenshots because some of the themes require additional terminal configuration to look their best, and so the code in example shell sessions can showcase the theme's features. There is also a separate collection of automatically-generated screenshots linked [at the bottom of this page](#screenshots-of-each-theme).
+
+## The Themes
 
 ### robbyrussell
 *the (default) that Robby uses* 
