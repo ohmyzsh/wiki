@@ -44,24 +44,24 @@ Additional setup:
 To use: You might need to install one of the [patched powerline fonts](https://github.com/Lokaltog/powerline-fonts) for it to look the same.
 
 ### arrow
-![](http://i.imgur.com/SerOb.png)
+![arrow](https://cloud.githubusercontent.com/assets/2618447/6316717/51a09e7e-ba00-11e4-8120-45ca128b9bf6.png)
 
 ### aussiegeek
-![](http://i.imgur.com/WAZOk.png)
+![aussiegeek](https://cloud.githubusercontent.com/assets/2618447/6316719/51a34962-ba00-11e4-9577-882124c30b4e.png)
 
 ### avit
-![](http://i.imgur.com/4E4aIkh.png)
+![avit](https://cloud.githubusercontent.com/assets/2618447/6316718/51a2fd9a-ba00-11e4-845a-24bed6ae9210.png)
 
 ### bira
-![](http://i.imgur.com/GZqXu.png)
+![bira](https://cloud.githubusercontent.com/assets/2618447/6316716/51a0708e-ba00-11e4-8664-11a804f2fe3f.png)
 
 ### blinks
-![](http://i.imgur.com/vFnc8.png)
+![blinks](https://cloud.githubusercontent.com/assets/2618447/6316715/519c8e56-ba00-11e4-9792-a4b3d1d3775a.png)
 
 Additional setup: Set up [Solarized](http://ethanschoonover.com/solarized).
 
 ### bureau
-![](https://f.cloud.github.com/assets/529247/1503497/dc461f1c-48ab-11e3-922d-9897ee4f9cd2.png)
+![bureau](https://cloud.githubusercontent.com/assets/2618447/6316720/51a54ba4-ba00-11e4-82d2-f2af8cc18869.png)
 
 To use: In the right prompt you see git status and (if you use nvm) the Node.js version. (I’m using the [Solarized](http://ethanschoonover.com/solarized) color scheme in this screenshot.)
 
@@ -69,39 +69,39 @@ To use: In the right prompt you see git status and (if you use nvm) the Node.js 
 ![](http://i.imgur.com/gDbxsff.png)
 
 ### clean
-![](http://i.imgur.com/cgBRE.png)
+![clean](https://cloud.githubusercontent.com/assets/2618447/6316721/51af13a0-ba00-11e4-87ea-cf83f32010f0.png)
 
 ### cloud
-![](http://f.cl.ly/items/14f5807e8871122d9fe0/cloud.png)
+![cloud](https://cloud.githubusercontent.com/assets/2618447/6316723/51b24944-ba00-11e4-8dcb-cb09a198523e.png)
 
 ### crunch
-![](https://img.skitch.com/20111010-ep1hhf185gku7k13tmdxxw6d6d.png)
+![crunch](https://cloud.githubusercontent.com/assets/2618447/6316722/51b1f4b2-ba00-11e4-9ebf-1359aa272fbd.png)
 
 ### cypher
 ![](http://img.skitch.com/20091228-r19yxykxhdxkkqqp6687w5pgf4.jpg)
 
 ### dallas
-![](http://i.imgur.com/Xgcu9NS.png)
+![dallas](https://cloud.githubusercontent.com/assets/2618447/6316725/51b39b28-ba00-11e4-942e-600c704a8180.png)
 
 ### darkblood
 ![](http://img.skitch.com/20091228-811f9n5j1gxb2bjk5bh5f32ds3.jpg)
 
 ### daveverwer
-![](http://i.imgur.com/gfaEy.png)
+![daveverwer](https://cloud.githubusercontent.com/assets/2618447/6316726/51b3fc8a-ba00-11e4-8378-a18d1be9cee3.png)
 
 ### dieter
-![](http://dieter.plaetinck.be/files/oh-my-zsh-theme-dieter.png)
+![dieter](https://cloud.githubusercontent.com/assets/2618447/6316724/51b2886e-ba00-11e4-805f-c622567608e3.png)
 
 Additional setup: Get this small [[fix|https://github.com/Dieterbe/oh-my-zsh/commit/7ca0afd6861fe0c9e6903a08f0e469746df627e0]] if you don’t have it yet. (Fix was [[pulled|https://github.com/robbyrussell/oh-my-zsh/commit/8294cf44d1d348fd1590ee28b5be8483fb012153]] into robbyrussell/oh-my-zsh on 2011-01-08.)
 
 ### dogenpunk
-![](http://i.imgur.com/3E3gU.png)
+![dogenpunk](https://cloud.githubusercontent.com/assets/2618447/6316727/51b8067c-ba00-11e4-8e59-722a79ec60c2.png)
 
 ### dpoggi
-![](http://i.imgur.com/9uotC.png)
+![dpoggi](https://cloud.githubusercontent.com/assets/2618447/6316730/51bca236-ba00-11e4-810d-ab3e9365c56b.png)
 
 ### eastwood
-![](http://i49.tinypic.com/2je2rb.png)
+![eastwood](https://cloud.githubusercontent.com/assets/2618447/6316728/51ba0026-ba00-11e4-9d83-435c3c4513cf.png)
 
 ### evan
 *a skinny, topless prompt*
@@ -115,10 +115,10 @@ The fish shell prompt with git support
 
 ### flazz
 Has git and vi-command mode support (when enabled)
-![](http://i.imgur.com/5hg16.png)
+![flazz](https://cloud.githubusercontent.com/assets/2618447/6316729/51bc9fac-ba00-11e4-9e4b-cb0612d5f440.png)
 
 ### frisk
-![](http://i.imgur.com/q02ng.png)
+![frisk](https://cloud.githubusercontent.com/assets/2618447/6316732/51bdd21e-ba00-11e4-97ac-0fdda49fe3c2.png)
 
 ### funky
 it’s funky…
@@ -128,37 +128,37 @@ it’s funky…
 ![](http://img.skitch.com/20091113-qqtd3j8xinysujg5ugrsbr7x1y.jpg)
 
 ### gallois
-![](http://i.imgur.com/GTZX4.png)
+![gallois](https://cloud.githubusercontent.com/assets/2618447/6316731/51bd3b88-ba00-11e4-9c58-e09a3965e0f0.png)
 
 ### garyblessington
 ![](http://img.skitch.com/20091228-b5psxcshiq9f3iqgremchrwxxr.jpg)
 
 ### gentoo
-![](http://i51.tinypic.com/2preioo.png)
+![gentoo](https://cloud.githubusercontent.com/assets/2618447/6316733/51c0f390-ba00-11e4-876d-70a95b5d629b.png)
 
 ### geoffgarside
 ![geoffgarside](https://cloud.githubusercontent.com/assets/1441704/6315385/701d32e0-ba00-11e4-8c31-ab30a0fd6324.png)
 
 ### gianu
-![](http://i.imgur.com/XWlUj0J.png)
+![gianu](https://cloud.githubusercontent.com/assets/2618447/6316736/51c6a6c8-ba00-11e4-8b5f-b45795d98907.png)
 
 ### gnzh
-![](http://dl.dropbox.com/u/4109351/pics/gnzh-zsh-theme.png)
+![gnzh](https://cloud.githubusercontent.com/assets/2618447/6316735/51c62b1c-ba00-11e4-8107-fb532db89c7d.png)
 
 ### imajes
 ![](http://img.skitch.com/20091228-kq8qwqpsqdyh7jyeyuxmyptkma.jpg)
 
 ### jnrowe
-![](http://jnrowe.github.com/_static/jnrowe-2009-12-30.png)
+![jnrowe](https://cloud.githubusercontent.com/assets/2618447/6316737/51c7104a-ba00-11e4-9875-ca6652e45fb5.png)
 
 ### jreese
-![](http://dl.dropbox.com/u/7859496/Screenshots/2010-04-08-oh-my-zsh.png)
+![jreese](https://cloud.githubusercontent.com/assets/2618447/6316734/51c54d82-ba00-11e4-882e-695dd5570528.png)
 
 ### jtriley
-![](http://i.imgur.com/bw9G6.png)
+![jtriley](https://cloud.githubusercontent.com/assets/2618447/6316738/51c836c8-ba00-11e4-87a9-667ccbcbbd30.png)
 
 ### juanghurtado
-![](http://dl.dropbox.com/u/682947/juanghurtado-zsh-theme.png)
+![juanghurtado](https://cloud.githubusercontent.com/assets/2618447/6316739/51cc2814-ba00-11e4-9d4a-1dca9961d906.png)
 
 ### junkfood
 ([more info](http://www.tylercipriani.com/2012/12/18/zsh-prompt-customization.html))
@@ -166,30 +166,30 @@ it’s funky…
 ![](http://i.imgur.com/3bgU1UW.png)
 
 ### kafeitu
-![](http://www.kafeitu.me/files/2012/03/zsh-theme-kafeitu-git.png) 
+![kafeitu](https://cloud.githubusercontent.com/assets/2618447/6316741/51cec254-ba00-11e4-8433-a3c2524086c1.png)
 
 ### kardan
-![](http://zshthem.es/screenshots/kardan.png)
+![kardan](https://cloud.githubusercontent.com/assets/2618447/6316740/51ce9356-ba00-11e4-80c1-79e0b489cd32.png)
 
 ### kennethreitz
-![](http://i.imgur.com/Cv3Ba.png)
+![kennethreitz](https://cloud.githubusercontent.com/assets/2618447/6316742/51cfb3e4-ba00-11e4-8e8e-720bab641edd.png)
 
 ### kolo
-![](http://i.imgur.com/bPZhd.png)
+![kolo](https://cloud.githubusercontent.com/assets/2618447/6316743/51d066ea-ba00-11e4-850c-6527b01d8ef5.png)
 
 ### kphoen
 ![](http://i.imgur.com/hIE3v.png.)
 
 ### lambda
-![](http://f.cl.ly/items/0X3x2A0V0B2F3A0D2H0n/Screen%20shot%202011-01-14%20at%209.22.41%20PM.png)
+![lambda](https://cloud.githubusercontent.com/assets/2618447/6316744/51d09ba6-ba00-11e4-9e41-e942ee626bae.png)
 
 ### linuxonly
-![](http://i.imgur.com/H3zfT.png)
+![linuxonly](https://cloud.githubusercontent.com/assets/2618447/6316745/51dab9ba-ba00-11e4-853b-7ea8ab5ced35.png)
 
 (As the name states, this only works on linux.)
 
 ### lukerandall
-![](http://i.imgur.com/hRByS.png)
+![lukerandall](https://cloud.githubusercontent.com/assets/2618447/6316747/51db7bca-ba00-11e4-8018-6838f2bec7da.png)
 
 ### macovsky
 ![](http://i.imgur.com/fsedfuT.png)
@@ -198,42 +198,42 @@ it’s funky…
 ![maran](https://cloud.githubusercontent.com/assets/1441704/6315389/7df9c496-ba00-11e4-8386-027d324255c4.png)
 
 ### mh
-![](https://img.skitch.com/20111226-ki31rh8ytx7pnj3wwa3w71y6wg.png)
+![mh](https://cloud.githubusercontent.com/assets/2618447/6316746/51db6d92-ba00-11e4-988c-6c89eb581c8c.png)
 
 ### miloshadzic
-![](http://i.imgur.com/9fcZg.png)
+![miloshadzic](https://cloud.githubusercontent.com/assets/2618447/6316748/51dc1eae-ba00-11e4-843d-379183044762.png)
 
 ### minimal
-![](http://i.imgur.com/EAdeT.png)
+![minimal](https://cloud.githubusercontent.com/assets/2618447/6316749/51de4ad0-ba00-11e4-8b4e-42e7000bad53.png)
 
 ### mortalscumbag
 also tells you when logged in over ssh
 
-![](http://i.imgur.com/VsuGM.png)
+![mortalscumbag](https://cloud.githubusercontent.com/assets/2618447/6316750/51dee102-ba00-11e4-8ede-27627cd495f9.png)
 
 ### mrtazz
 ![](http://farm5.static.flickr.com/4101/4910363151_f8170b691d.jpg)
 
 ### muse
-![](http://i.imgur.com/6Si4w.png)
+![muse](https://cloud.githubusercontent.com/assets/2618447/6316752/51e211a6-ba00-11e4-8f57-e82fcc4a453f.png)
 
 ### nanotech
-![](http://nanotech.nanotechcorp.net/downloads/nanotech.zsh-theme.png)
+![nanotech](https://cloud.githubusercontent.com/assets/2618447/6316751/51e187c2-ba00-11e4-8a7e-1a45e4df00bf.png)
 
 ### nebirhos
-![](http://i.imgur.com/CzMMw.png)
+![nebirhos](https://cloud.githubusercontent.com/assets/2618447/6316754/51e4a182-ba00-11e4-8cf1-65ff1511da34.png)
 
 ### nicoulaj
-![](http://i.imgur.com/ypGBP.png)
+![nicoulaj](https://cloud.githubusercontent.com/assets/2618447/6316755/51e4b0c8-ba00-11e4-85ef-3e7faeeb0e0b.png)
 
 ### norm
-![](http://i.imgur.com/XjpUR.png)
+![norm](https://cloud.githubusercontent.com/assets/2618447/6316753/51e440c0-ba00-11e4-87ed-400fe2b0dd39.png)
 
 ### philips
 ![](http://farm5.static.flickr.com/4124/5065882407_11d06f4e45.jpg)
 
 ### pygmalion
-![](http://i.imgur.com/E3KKx.png)
+![pygmalion](https://cloud.githubusercontent.com/assets/2618447/6316756/51e859ee-ba00-11e4-8b58-2f086c491926.png)
 
 (Shown with [Solarized Dark colorscheme](http://ethanschoonover.com/solarized).)
 
@@ -241,30 +241,30 @@ also tells you when logged in over ssh
 ![risto](https://cloud.githubusercontent.com/assets/1441704/6315405/18aa274c-ba01-11e4-8bb7-0ba9ca166974.png)
 
 ### rixius
-![](http://dl.dropbox.com/u/6673910/zshTheme.png)
+![rixius](https://cloud.githubusercontent.com/assets/2618447/6316760/51efdeb2-ba00-11e4-8da6-a839f192a207.png)
 
 ### rkj-repos
-![](http://i.imgur.com/Vc2gL.png)
+![rkj-repos](https://cloud.githubusercontent.com/assets/2618447/6316757/51ee9e12-ba00-11e4-86d4-1d59a182f688.png)
 
 ![](http://i.imgur.com/vWJuk.png)
 
 ### sammy
-![](http://f.cl.ly/items/2H2U332P381G202Z3E0B/sammy_preview.png)
+![sammy](https://cloud.githubusercontent.com/assets/2618447/6316759/51ef7a44-ba00-11e4-9c76-e9bb6e75f5ce.png)
 
 ### simple
-![](http://i.imgur.com/TfRRe.png)
+![simple](https://cloud.githubusercontent.com/assets/2618447/6316758/51ef3480-ba00-11e4-840c-a9ebec42f4b6.png)
 
 ### smt
-![](http://i.imgur.com/0HQmc.png)
+![smt](https://cloud.githubusercontent.com/assets/2618447/6316761/51f0052c-ba00-11e4-990f-cdf7fc5610e6.png)
 
 ### sorin
-![](http://i.imgur.com/aipDQ.png)
+![sorin](https://cloud.githubusercontent.com/assets/2618447/6316762/51f34624-ba00-11e4-948a-6ac65a49f8c5.png)
 
 ### sporty_256
-![](http://farm4.static.flickr.com/3024/4556482563_5b0de521be_o.png)
+![sporty_256](https://cloud.githubusercontent.com/assets/2618447/6316763/51f8f2e0-ba00-11e4-82fe-40c9a5a81569.png)
 
 ### steeef
-![](http://i.imgur.com/Brkm0.png)
+![steeef](https://cloud.githubusercontent.com/assets/2618447/6316764/51f98994-ba00-11e4-9083-ecec290a8dcb.png)
 
 ### sunaku
 exit status if nonzero, status & branch if git, `pwd` always
@@ -273,12 +273,12 @@ exit status if nonzero, status & branch if git, `pwd` always
 ### sunrise
 Lightweight prompt with exit status and `git status` consistent mode line
 
-![](http://dl.dropbox.com/u/420934/Permanent/sunrise.png)
+![sunrise](https://cloud.githubusercontent.com/assets/2618447/6316766/51fbf062-ba00-11e4-9b66-2b0da5a0dbbc.png)
 
 ### superjarin
 git status, git branch, and RVM, all in a no muss, no fuss prompt! Screenshot uses 14 pt Inconsolata (antialiased).
 
-![](http://i.imgur.com/5P4D6.png)
+![superjarin](https://cloud.githubusercontent.com/assets/2618447/6316765/51fac93a-ba00-11e4-95bc-e2eea4e98c8b.png)
 
 ### suvash
 username, host, directory, git branch and rvm gemset
@@ -288,7 +288,7 @@ username, host, directory, git branch and rvm gemset
 ### terminalparty
 There is a party every day.
 
-![](http://f.cl.ly/items/0z3I4612443J1x2p2v0A/Screen%20Shot%202011-08-01%20at%2013.50.07.png)
+![terminalparty](https://cloud.githubusercontent.com/assets/2618447/6316767/51fc28fc-ba00-11e4-9129-953048acce0a.png)
 
 ### theunraveler
 Minimal, informative when it needs to be.
@@ -297,7 +297,7 @@ Minimal, informative when it needs to be.
 ### tjkirch
 Based on dst, plus a lightning bolt and return codes.
 
-![](http://i.imgur.com/muCve.png)
+![tjkirch](https://cloud.githubusercontent.com/assets/2618447/6316768/520565e8-ba00-11e4-98ad-4665f72882ac.png)
 
 ### tonotdo
 ![](http://img.skitch.com/20091228-1mm8nuyik55iych3mpn1qjm4a7.jpg)
@@ -306,7 +306,7 @@ Based on dst, plus a lightning bolt and return codes.
 ![](http://i.imgur.com/qLSIo3x.png)
 
 ### wedisagree
-![](http://i.imgur.com/0qE2m.png)
+![wedisagree](https://cloud.githubusercontent.com/assets/2618447/6316769/5205cc54-ba00-11e4-9d2b-e7b632f74997.png)
 
 Instructions to further customize the theme are available as comments in the theme file.
 
@@ -314,7 +314,7 @@ Instructions to further customize the theme are available as comments in the the
 ![wezm](https://cloud.githubusercontent.com/assets/1441704/6315419/915f6ca6-ba01-11e4-95b3-2c98114b5e5c.png)
 
 ### wuffers
-![](http://i.imgur.com/cFqth.png)
+![wuffers](https://cloud.githubusercontent.com/assets/2618447/6316770/52071794-ba00-11e4-9122-c7194f5188f4.png)
 
 ### xiong-chiamiov
 ![xiong-chiamiov](https://cloud.githubusercontent.com/assets/1441704/6315428/ded1e6ee-ba01-11e4-8b9d-a67485476e9f.png)
@@ -328,7 +328,7 @@ Clean, simple, compatible and meaningful. ([more info](http://blog.ysmood.org/my
 [![How it looks like on Mac.](https://f.cloud.github.com/assets/1415488/252783/25a3055e-8bb4-11e2-9b9f-95c0d6f870fb.jpg)](http://ysmood.org/wp/2013/03/my-ys-terminal-theme/)
 
 ### zhann
-![](http://i.imgur.com/f6shl.png)
+![zhann](https://cloud.githubusercontent.com/assets/2618447/6316771/520a5170-ba00-11e4-9561-78f0c76e996c.png)
 
 ## Theme Description Format
 
