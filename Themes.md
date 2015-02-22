@@ -325,7 +325,7 @@ Instructions to further customize the theme are available as comments in the the
 ### ys
 Clean, simple, compatible and meaningful. ([more info](http://blog.ysmood.org/my-ys-terminal-theme/))
 
-[![How it looks like on Mac.](https://f.cloud.github.com/assets/1415488/252783/25a3055e-8bb4-11e2-9b9f-95c0d6f870fb.jpg)](http://ysmood.org/wp/2013/03/my-ys-terminal-theme/)
+[![How it looks like on Mac.](https://f.cloud.github.com/assets/1415488/252783/25a3055e-8bb4-11e2-9b9f-95c0d6f870fb.jpg)](https://f.cloud.github.com/assets/1415488/252783/25a3055e-8bb4-11e2-9b9f-95c0d6f870fb.jpg)
 
 ### zhann
 ![zhann](https://cloud.githubusercontent.com/assets/2618447/6316771/520a5170-ba00-11e4-9561-78f0c76e996c.png)
