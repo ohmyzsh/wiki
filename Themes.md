@@ -35,7 +35,8 @@ Additional setup:
 - *Optionally* set `DEFAULT_USER` in `~/.zshrc` to your regular username to hide the “user@hostname” info when you’re logged in as yourself on your local machine.
 
 ### alanpeabody
-![](http://dl.dropbox.com/u/3952084/alanpeabody_zsh_theme.png)
+![alanpeabody](https://cloud.githubusercontent.com/assets/2618447/6316714/5190b8ba-ba00-11e4-8fa9-9f22160be9e4.png)
+
 
 ### amuse
 ![](https://github-camo.global.ssl.fastly.net/dbe28e6d07f700a96149a36fe48ff9c065aae14f/687474703a2f2f64687275766173616761722e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031332f30332f416d7573652e706e67)
