@@ -87,7 +87,7 @@ To use: In the right prompt you see git status and (if you use nvm) the Node.js 
 [![darkblood](https://cloud.githubusercontent.com/assets/2618447/6316865/70fa9006-ba03-11e4-81c4-593d9ae34a9c.jpg)](https://cloud.githubusercontent.com/assets/2618447/6316865/70fa9006-ba03-11e4-81c4-593d9ae34a9c.jpg)
 
 ### daveverwer
-[![daveverwer](https://cloud.githubusercontent.com/assets/2618447/6316726/51b3fc8a-ba00-11e4-8378-a18d1be9cee3.png)](https://cloud.githubusercontent.com/assets/2618447/6316726/51b3fc8a-ba00-11e4-8378-a18d1be9cee3.png)
+[![daveverwer](https://cloud.githubusercontent.com/assets/2618447/6317506/faa0ca2a-ba24-11e4-9c34-ffa83f0cca23.png)](https://cloud.githubusercontent.com/assets/2618447/6317506/faa0ca2a-ba24-11e4-9c34-ffa83f0cca23.png)
 
 ### dieter
 [![dieter](https://cloud.githubusercontent.com/assets/2618447/6316724/51b2886e-ba00-11e4-805f-c622567608e3.png)](https://cloud.githubusercontent.com/assets/2618447/6316724/51b2886e-ba00-11e4-805f-c622567608e3.png)
