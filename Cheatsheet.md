@@ -130,7 +130,7 @@ Systemd
 shortcut for systemctl command utility
 --------------------------------------
 
-- `sc-status NAME`  - `show the status of the NAME process'
+- `sc-status NAME`  - `show the status of the NAME process`
 - `sc-show NAME`    - `show the NAME systemd .service file`
 - `sc-start NAME`   - `start the NAME process`
 - `sc-stop NAME`    - `stop the NAME process`
