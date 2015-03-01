@@ -1,49 +1,338 @@
-Variables
----------
+##General Code-Style##
+
+While you should follow the code-style that's already there for files that you're modifying, the following are required for any new code.
+
+###Indentation###
+
+Indent 2 spaces. No tabs.
+
+Use blank lines between blocks to improve readability. Indentation is two spaces. Whatever you do, don't use tabs. For existing files, stay faithful to the existing indentation.
+
+###Line Length and Long Strings###
+
+Maximum line length is 80 characters.
+
+If you have to write strings that are longer than 80 characters, this should be done with a here document or an embedded newline if possible. Literal strings that have to be longer than 80 chars and can't sensibly be split are ok, but it's strongly preferred to find a way to make it shorter.
+
+```
+# Bad: 
+long_string_1="I am an exceptionalllllllllllly looooooooooooooooooooooooooooooooooooooooong string."
+
+# Good:
+cat <<END;
+I am an exceptionalllllllllllly 
+looooooooooooooooooooooooooooooooooooooooong string.
+END
+
+# Good:
+long_string_2="I am an exceptionalllllllllllly 
+ looooooooooooooooooooooooooooooooooooooooong string."
+```
+
+###Pipelines###
+
+Pipelines should be split one per line if they don't all fit on one line. 
+
+If a pipeline all fits on one line, it should be on one line.
+
+If not, it should be split at one pipe segment per line with the pipe on the newline and a 2 space indent for the next section of the pipe. This applies to a chain of commands combined using '|' as well as to logical compounds using '||' and '&&'.
+
+```
+# Bad: Long commands
+command1 | command2 | command3 | command4 | command5 | command6 | command7
+
+# Good: Long commands
+command1 \
+  | command2 \
+  | command3 \
+  | command4
+
+# Good: All fits on one line
+command1 | command2
+```
+
+When possible, use environment variables instead of forking a command.
+
+```
+# Bad:
+$(pwd)
+
+# Good:
+$PWD
+```
+
+TODO: add a list of all environment variables you can use ...
+
+###If / Loop###
+
+Put "; do" and "; then" on the same line as the while, for or if.
+
+```
+for dir in ${dirs_to_cleanup}; do
+  if [[ -d "${dir}/${ORACLE_SID}" ]]; then
+    log_date "Cleaning up old files in ${dir}/${ORACLE_SID}"
+    rm "${dir}/${ORACLE_SID}/"*
+    if [[ "$?" -ne 0 ]]; then
+      error_message
+    fi
+  else
+    mkdir -p "${dir}/${ORACLE_SID}"
+    if [[ "$?" -ne 0 ]]; then
+      error_message
+    fi
+  fi
+done
+```
+
+##Variables##
+
+###Naming Conventions###
 
 Meaningful self documenting names should be used, if the variable name does not make it reasonably obvious as to the meaning, appropriate comments should be added.
 
-Preferred naming convention is to use `snake_case` names, and not `CamelCase` or `somethingElse`.
+```
+# Bad:
+local CamelCase=""
+local somethingElse=""
 
-`ALL_CAPS` is reserved for globals, any local variables should be in `snake_case`
+# Good
+local snake_case=""
+```
+
+Uppercase strings are reserved for global variables (WARNING: in functions only `local foo=""` is really local)
+
+```
+# Bad:
+local UPPERCASE=""
+
+# Good
+UPPERCASE=""
+```
 
 Variables name should not clobber command names, such as `dir`, `pwd`
 
-Functions
----------
+```
+# Bad:
+local pwd=""
 
-Braces should be on the same line as the function name:
+# Good
+local pwd_read_in=""
+```
 
-```bash
-function helpful() {
+Variables names for loops should be similarly named for any variable you're looping through.
+
+```
+for zone in ${zones}; do
+  something_with "${zone}"
+done
+```
+
+###Use local variables###
+
+Ensure that local variables are only seen inside a function and its children by using local when declaring them. This avoids polluting the global name space and inadvertently setting variables that may have significance outside the function.
+
+```
+# Bad:
+func_bad()
+{
+  global_var=37  #  Visible only within the function block
+                 #  before the function has been called. 
+}
+
+echo "global_var = $global_var"  # Function "func" has not yet been called,
+                                 # so $global_var is not visible here.
+
+func_bad
+echo "global_var = $global_var"  # global_var = 37
+                                 # Has been set by function call.
+```
+
+```
+# Good:
+func_good()
+{
+  local local_var=""
+
+  local_var=37
+
+  echo $local_var
+}
+
+echo "local_var = $local_var" # local
+
+func_good
+echo "local_var = $local_var" # still local
+
+global_var=$(func_good)
+echo "global_var = $global_var" # move function result to global scope
+```
+
+###Constants and Environment Variable Names###
+
+All caps, separated with underscores, declared at the top of the file.
+Constants and anything exported to the environment should be capitalized.
+
+// Constant
+readonly PATH_TO_FILES='/some/path'
+
+// Both constant and environment
+declare -xr ORACLE_SID='PROD'
+
+Some things become constant at their first setting (for example, via getopts). Thus, it's OK to set a constant in getopts or based on a condition, but it should be made readonly immediately afterwards. Note that declare doesn't operate on global variables within functions, so readonly or export is recommended instead.
+
+```
+VERBOSE='false'
+while getopts 'v' flag; do
+  case "${flag}" in
+    v) VERBOSE='true' ;;
+  esac
+done
+readonly VERBOSE
+```
+
+###Read-only Variables###
+
+Use `readonly` or `declare -r` to ensure they're read only.
+As globals are widely used in shell, it's important to catch errors when working with them. When you declare a variable that is meant to be read-only, make this explicit.
+
+```
+zip_version="$(dpkg --status zip | grep Version: | cut -d ' ' -f 2)"
+if [[ -z "${zip_version}" ]]; then
+  error_message
+else
+  readonly zip_version
+fi
+```
+
+##Functions##
+
+###Naming Conventions###
+
+Lower-case, with underscores to separate words. Separate libraries with "::". Parentheses are required after the function name. The keyword function is optional, but must be used consistently throughout a project.
+
+If you're writing single functions, use lowercase and separate words with underscore. If you're writing a package, separate package names with "::".
+
+The "function" keyword is extraneous when "()" is present after the function name, but enhances quick identification of functions, so please use add it!
+
+```
+# Bad:
+function my_bad_func 
+{
+  ...
+}
+
+# Good:
+my_good_func() 
+{
+  ...
+}
+
+# Good:
+mypackage::my_func() 
+{
   ...
 }
 ```
 
 Private or utility functions should be prefixed with an underscore:
 
-```bash
-function _helper-util() {
+```
+# Good:
+_helper-util() 
+{
   ...
 }
 ```
 
-General
--------
+###Use return values###
 
-Indenting should be done with 2 spaces.
+After a script / function terminates, a `$?` from the command-line gives the exit status of the script, that is, the last command executed in the script, which is, by convention, 0 on success or an integer in the range 1 - 255 on error.
 
-When possible, use environment variables instead of forking a command.
+```
+# Bad:
+my_bad_func() 
+{
+  # didn't work with zsh / bash is ok
+  #read lowerPort upperPort < /proc/sys/net/ipv4/ip_local_port_range
 
-```bash
-$(pwd) # don't use, forks a new process
-$PWD   # do use
+  for port in $(seq 32768 61000); do
+    for i in $(netstat_used_local_ports); do
+      if [[ $used_port -eq $port ]]; then
+        continue
+      else
+        echo $port
+      fi
+    done
+  done
+}
+
+# Good:
+my_good_func() 
+{
+  # didn't work with zsh / bash is ok
+  #read lowerPort upperPort < /proc/sys/net/ipv4/ip_local_port_range
+
+  for port in $(seq 32768 61000); do
+    for i in $(netstat_used_local_ports); do
+      if [[ $used_port -eq $port ]]; then
+        continue
+      else
+        echo $port
+        return 0
+      fi
+    done
+  done
+
+  return 1
+}
 ```
 
-`if-then` statements should be on one line:
+###Check return values###
 
-```bash
-if [[ -f $1 ]]; then
-  ...
+Always check return values and give informative return values.
+
+For unpiped commands, use $? or check directly via an if statement to keep it simple.
+
+```
+# Bad:
+mv "${file_list}" "${dest_dir}/"
+
+# Good:
+if ! mv "${file_list}" "${dest_dir}/"; then
+  echo "Unable to move ${file_list} to ${dest_dir}" >&2
+  exit "${E_BAD_MOVE}"
+fi
+
+# Good: use "$?" to get the last return value
+mv "${file_list}" "${dest_dir}/"
+if [[ "$?" -ne 0 ]]; then
+  echo "Unable to move ${file_list} to ${dest_dir}" >&2
+  exit "${E_BAD_MOVE}"
 fi
 ```
+
+##Features and Bugs##
+
+###Command Substitution###
+
+Use $(command) instead of backticks.
+
+Nested backticks require escaping the inner ones with \. The $(command) format doesn't change when nested and is easier to read.
+
+```
+# Bad:
+var="`command \`command1\``"
+
+# Good:
+var="$(command "$(command1)")"
+```
+
+###Eval###
+
+Eval is evil! Eval munges the input when used for assignment to variables and can set variables without making it possible to check what those variables were.
+
+##Sources##
+
+- [Shell Style Guide](https://google-styleguide.googlecode.com/svn/trunk/shell.xml)
+- [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+- [Linux kernel coding style](https://www.kernel.org/doc/Documentation/CodingStyle)
