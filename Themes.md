@@ -276,7 +276,7 @@ Lightweight prompt with exit status and `git status` consistent mode line
 [![sunrise](https://cloud.githubusercontent.com/assets/2618447/6316766/51fbf062-ba00-11e4-9b66-2b0da5a0dbbc.png)](https://cloud.githubusercontent.com/assets/2618447/6316766/51fbf062-ba00-11e4-9b66-2b0da5a0dbbc.png)
 
 ### superjarin
-git status, git branch, and RVM, all in a no muss, no fuss prompt! Screenshot uses 14 pt Inconsolata (antialiased).
+git status, git branch, and ruby, all in a no muss, no fuss prompt! Works with RVM, chruby, and rbenv (just activate the corresponding plugin).
 
 [![superjarin](https://cloud.githubusercontent.com/assets/2618447/6316765/51fac93a-ba00-11e4-95bc-e2eea4e98c8b.png)](https://cloud.githubusercontent.com/assets/2618447/6316765/51fac93a-ba00-11e4-95bc-e2eea4e98c8b.png)
 
