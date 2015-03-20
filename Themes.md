@@ -340,9 +340,9 @@ We have enough themes for the time being. Please fork the project and add on in 
 The theme descriptions in this page should contain:
 * The name of the theme
 * A screenshot
-** (Preferably in PNG format, and hosted on a GitHub issue)
+  * (Preferably in PNG format, and hosted on a GitHub issue)
 * Instructions for any configuration besides setting `ZSH_THEME` in `~/.zshrc`
-** For example, font installation, terminal color scheme configuration, or optional environment variables that affect the theme
+  * For example, font installation, terminal color scheme configuration, or optional environment variables that affect the theme
 * Any dependencies outside Oh My Zsh
 
 We use manually-constructed screenshots because some of the themes require additional terminal configuration to look their best, and so the code in example shell sessions can showcase the theme's features. There is also a separate collection of automatically-generated screenshots linked [at the bottom of this page](#screenshots-of-each-theme).
