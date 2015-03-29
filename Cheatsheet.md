@@ -116,7 +116,7 @@ Editors
 -------
 
 - `stt` - `open current directory in Sublime Text 2/3`
-- `v` - *When using `vi-mode` plugin:* Open current shell line in Vim
+- `v` - *When using `vi-mode` plugin:* Edit current command line in Vim
 
 Symfony2
 --------
