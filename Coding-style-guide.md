@@ -1,6 +1,6 @@
-##General Code-Style##
+##General Code Style##
 
-While you should follow the code-style that's already there for files that you're modifying, the following are required for any new code.
+While you should follow the code style that's already there for files that you're modifying, the following are required for any new code.
 
 ###Indentation###
 
@@ -12,7 +12,7 @@ Use blank lines between blocks to improve readability. Indentation is two spaces
 
 Maximum line length is 80 characters.
 
-If you have to write strings that are longer than 80 characters, this should be done with a here document or an embedded newline if possible. Literal strings that have to be longer than 80 chars and can't sensibly be split are ok, but it's strongly preferred to find a way to make it shorter.
+If you have to write strings that are longer than 80 characters, this should be done with a "here document" or an embedded newline if possible. Literal strings that have to be longer than 80 chars and can't sensibly be split are okay, but it's strongly preferred to find a way to make it shorter.
 
 ```
 # Bad: 
@@ -61,11 +61,11 @@ $(pwd)
 $PWD
 ```
 
-TODO: add a list of all environment variables you can use ...
+TODO: Add a list of all environment variables you can use.
 
 ###If / Loop###
 
-Put "; do" and "; then" on the same line as the while, for or if.
+Put `; do` and `; then` on the same line as the `while`, `for` or `if`.
 
 ```
 for dir in ${dirs_to_cleanup}; do
@@ -88,7 +88,7 @@ done
 
 ###Naming Conventions###
 
-Meaningful self documenting names should be used, if the variable name does not make it reasonably obvious as to the meaning, appropriate comments should be added.
+Meaningful self-documenting names should be used. If the variable name does not make it reasonably obvious as to the meaning of the variable, appropriate comments should be added.
 
 ```
 # Bad:
@@ -99,7 +99,7 @@ local somethingElse=""
 local snake_case=""
 ```
 
-Uppercase strings are reserved for global variables (WARNING: in functions only `local foo=""` is really local)
+Uppercase strings are reserved for global variables. (WARNING: In functions, only variables explicitly declared as local like `local foo=""` are really local.)
 
 ```
 # Bad:
@@ -109,7 +109,7 @@ local UPPERCASE=""
 UPPERCASE=""
 ```
 
-Variables name should not clobber command names, such as `dir`, `pwd`
+Variables name should not clobber command names, such as `dir` or `pwd`.
 
 ```
 # Bad:
@@ -119,7 +119,7 @@ local pwd=""
 local pwd_read_in=""
 ```
 
-Variables names for loops should be similarly named for any variable you're looping through.
+Variables names for loop indexes should be named similarly to any variable you're looping through.
 
 ```
 for zone in ${zones}; do
@@ -129,7 +129,7 @@ done
 
 ###Use local variables###
 
-Ensure that local variables are only seen inside a function and its children by using local when declaring them. This avoids polluting the global name space and inadvertently setting variables that may have significance outside the function.
+Ensure that local variables are only seen inside a function and its children by using `local` when declaring them. This avoids polluting the global name space and inadvertently setting or interacting with variables that may have significance outside the function.
 
 ```
 # Bad:
@@ -139,7 +139,7 @@ func_bad()
                  #  before the function has been called. 
 }
 
-echo "global_var = $global_var"  # Function "func" has not yet been called,
+echo "global_var = $global_var"  # Function "func_bad" has not yet been called,
                                  # so $global_var is not visible here.
 
 func_bad
@@ -167,7 +167,7 @@ global_var=$(func_good)
 echo "global_var = $global_var" # move function result to global scope
 ```
 
-In the next example, lots of global variables are used over and over again, but the script "unfortunately" works anyway. The "parse_json()"-function not even return a return value and the two functions shares their variables. You could also write all this without any function, this would have the same effect.
+In the next example, lots of global variables are used over and over again, but the script "unfortunately" works anyway. The `parse_json()` function does not even return a value and the two functions shares their variables. You could also write all this without any function; this would have the same effect.
 
 Bad-Example: with global variables
 ```
@@ -213,11 +213,11 @@ parse_ubuntuusers_json
 echo "foobar: $counter - $i"
 ```
 
-In shell scripts, it is less common that you really want to re-use the functionality, but the code is much easier to read if you write small functions with appropriate return values and parameters.
+In shell scripts, it is less common that you really want to reuse the functionality, but the code is much easier to read if you write small functions with appropriate return values and parameters.
 
 Better-Example: with local variables
 ```
-#!/bin/bash
+#!/bin/zsh
 
 parse_json()
 {
@@ -270,13 +270,15 @@ echo "foobar: $counter - $i"
 All caps, separated with underscores, declared at the top of the file.
 Constants and anything exported to the environment should be capitalized.
 
-// Constant
+```
+# Constant
 readonly PATH_TO_FILES='/some/path'
 
-// Both constant and environment
+# Both constant and environment
 declare -xr ORACLE_SID='PROD'
+```
 
-Some things become constant at their first setting (for example, via getopts). Thus, it's OK to set a constant in getopts or based on a condition, but it should be made readonly immediately afterwards. Note that declare doesn't operate on global variables within functions, so readonly or export is recommended instead.
+Some things become constant at their first setting (for example, via `getopts`). Thus, it's okay to set a constant in `getopts` or based on a condition, but it should be made `readonly` immediately afterwards. Note that `declare` doesn't operate on global variables within functions, so `readonly` or `export` is recommended instead.
 
 ```
 VERBOSE='false'
@@ -306,11 +308,11 @@ fi
 
 ###Naming Conventions###
 
-Lower-case, with underscores to separate words. Separate libraries with "::". Parentheses are required after the function name. The keyword function is optional, but must be used consistently throughout a project.
+Lower-case, with underscores to separate words. Separate libraries with "::". Parentheses are required after the function name. The keyword `function` is optional, but must be used consistently throughout a project.
 
-If you're writing single functions, use lowercase and separate words with underscore. If you're writing a package, separate package names with "::".
+If you're writing single functions, use lowercase and separate words with underscores. If you're writing a package, separate package names with "::".
 
-The "function" keyword is extraneous when "()" is present after the function name, but enhances quick identification of functions, so please use add it!
+The `function` keyword is extraneous when `()` is present after the function name, but enhances quick identification of functions, so please use it!
 
 ```
 # Bad:
@@ -344,7 +346,7 @@ _helper-util()
 
 ###Use return values###
 
-After a script / function terminates, a `$?` from the command-line gives the exit status of the script, that is, the last command executed in the script, which is, by convention, 0 on success or an integer in the range 1 - 255 on error.
+After a script or function terminates, a `$?` from the command-line gives the exit status of the script, that is, the last command executed in the script, which is, by convention, 0 on success or an integer in the range 1 - 255 on error.
 
 ```
 # Bad:
@@ -389,7 +391,7 @@ my_good_func()
 
 Always check return values and give informative return values.
 
-For unpiped commands, use $? or check directly via an if statement to keep it simple.
+For unpiped commands, use `$?` or check directly via an if statement to keep it simple.
 
 ```
 # Bad:
@@ -413,9 +415,9 @@ fi
 
 ###Command Substitution###
 
-Use $(command) instead of backticks.
+Use `$(command)` instead of backticks.
 
-Nested backticks require escaping the inner ones with \. The $(command) format doesn't change when nested and is easier to read.
+Nested backticks require escaping the inner ones with `\`. The `$(command)` format doesn't change when nested and is easier to read.
 
 ```
 # Bad:
