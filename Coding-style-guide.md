@@ -167,6 +167,104 @@ global_var=$(func_good)
 echo "global_var = $global_var" # move function result to global scope
 ```
 
+In the next example, lots of global variables are used over and over again, but the script "unfortunately" works anyway. The "parse_json()"-function not even return a return value and the two functions shares their variables. You could also write all this without any function, this would have the same effect.
+
+Bad-Example: with global variables
+```
+#!/bin/bash
+
+parse_json()
+{
+  parent_prop=$1
+  prop=$2
+
+  # "'TODO: fix this hack' is the Snooze button of development" - @iamdevloper
+  result=`echo $json \
+    | sed 's/\\\\\//\//g' \
+    | sed 's/^[\ ]*//g' \
+    | sed 's/[{}]//g' \
+    | awk -v k="$parent_prop" '{n=split($0,a,"\","); for (i=1; i<=n; i++) print a[i]}' \
+    | sed 's/\"\:\"/\|/g' \
+    | sed 's/"[\,]/ /g' \
+    | sed 's/\"//g' \
+    | grep "$prop|" \
+    | sed "s/^$prop|//g"`
+}
+
+parse_ubuntuusers_json()
+{
+  json=`curl -s -X GET 'http://suckup.de/planet-ubuntuusers-json/json.php?callback='`
+
+  parse_json "posts" "title"
+  mapfile -t titles_array <<< "$result"
+
+  parse_json "posts" "date"
+  mapfile -t dates_array <<< "$result"
+
+  counter=0
+  for i in "${titles_array[@]}"; do
+    echo "${titles_array[$counter]} | ${dates_array[$counter]}"
+    let counter+=1
+  done
+}
+
+parse_ubuntuusers_json
+
+echo "foobar: $counter - $i"
+```
+
+In shell scripts, it is less common that you really want to re-use the functionality, but the code is much easier to read if you write small functions with appropriate return values and parameters.
+
+Better-Example: with local variables
+```
+#!/bin/bash
+
+parse_json()
+{
+  local json=`cat $1`
+  local parent_prop=$2
+  local prop=$3
+
+  # "'TODO: this hack' is the Snooze button of development" - @iamdevloper
+  echo $json \
+    | sed 's/\\\\\//\//g' \
+    | sed 's/^[\ ]*//g' \
+    | sed 's/[{}]//g' \
+    | awk -v k="$parent_prop" '{n=split($0,a,"\","); for (i=1; i<=n; i++) print a[i]}' \
+    | sed 's/\"\:\"/\|/g' \
+    | sed 's/"[\,]/ /g' \
+    | sed 's/\"//g' \
+    | grep "$prop|" \
+    | sed "s/^$prop|//g"
+}
+
+parse_ubuntuusers_json()
+{
+  local temp_file=`mktemp`
+  local json=`curl -s -X GET 'http://suckup.de/planet-ubuntuusers-json/json.php?callback=' -o $temp_file`
+
+  local titles=`parse_json "$temp_file" "posts" "title"`
+  local titles_array
+  mapfile -t titles_array <<< "$titles"
+
+  local dates=`parse_json "$temp_file" "posts" "date"`
+  local dates_array
+  mapfile -t dates_array <<< "$dates"
+
+  local counter=0 i
+  for i in "${titles_array[@]}"; do
+    echo "${titles_array[$counter]} | ${dates_array[$counter]}"
+    let counter+=1
+  done
+
+  rm $temp_file
+}
+
+parse_ubuntuusers_json
+
+echo "foobar: $counter - $i"
+```
+
 ###Constants and Environment Variable Names###
 
 All caps, separated with underscores, declared at the top of the file.
