@@ -1226,7 +1226,9 @@ vi-mode
 
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
-- vi-mode
+** Read the plugin README file **
+
+- Increase zsh `vi-like` functionality
 
 virtualenvwrapper
 -----------------
