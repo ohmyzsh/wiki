@@ -17,11 +17,10 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 
 - `alias` lists all aliases
 - `..` aliases `cd ..`
-- `cd..` aliases `cd ..`
-- `cd...` aliases `cd ../..`
-- `cd....` aliases `cd ../../..`
-- `cd.....` aliases `cd ../../../..`
-- `cd/` aliases `cd /`
+- `...` aliases `cd ../..`
+- `....` aliases `cd ../../..`
+- `.....` aliases `cd ../../../..`
+- `/` aliases `cd /`
 - `cd +n` to switch to directory number `n`
 - `1` aliases `cd -`
 - `2` aliases `cd +2`
@@ -121,13 +120,18 @@ Editors
 Symfony2
 --------
 
-- `sf` - `php app/console`
+- `sf` - `php ./app/console`
 - `sfcl` - `php app/console cache:clear`
-- `sfroute` - `php app/console router:debug`
-- `sfgb` - `php app/console generate:bundle`
+- `sfcontainer` - `sf container:debug`
+- `sfcw` - `sf cache:warmup`
+- `sfgb` - `sf generate:bundle`
+- `sfroute` - `sf router:debug`
+- `sfsr` - `sf server:run -vvv`
+
 
 Systemd
-===
+=======
+
 shortcut for systemctl command utility
 --------------------------------------
 
