@@ -10,7 +10,7 @@ plugins=(rails git ruby)
 brew in
 ```
 
-.. and then hit tab, the *brew*-plugin will enable autocompletion to *brew install*. Completion plugins are not documented further on this page as they only provide better introspection for zsh into the original command. *man* is your friend.
+.. and then hit tab, the *brew* plugin will enable autocompletion to *brew install*. Completion plugins are not documented further on this page as they only provide better introspection for zsh into the original command. *man* is your friend.
 
 You should always read the source for the plugin before using it to avoid surprises. Plugins are located in ~/.oh-my-zsh/plugins.
 
