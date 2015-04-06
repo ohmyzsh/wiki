@@ -4,6 +4,7 @@ Welcome to the oh-my-zsh wiki!
 - Don't forget to [follow us on twitter](http://twitter.com/ohmyzsh)
 - Brief overview of included plugins [[Plugins Overview]]
 - Learn about [[Customization]]
+- Learn about the [[Design]] of oh-my-zsh
 
 Help Wanted!
 ============
