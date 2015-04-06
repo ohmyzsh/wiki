@@ -1,4 +1,6 @@
-This page is a description of the current architecture and design of oh-my-zsh. It is a work in progress: we don't think there's anything outright wrong in it, but much may still be left out.
+This page is a description of the current architecture and design of oh-my-zsh. 
+
+This is a work in progress: we don't think there's anything outright wrong in it, but much may still be left out.
 
 This page is not authoritative or normative: it was put together by oh-my-zsh users based on the current oh-my-zsh code; it's not a design document from the original oh-my-zsh authors. But it should serve as a useful guide to users and developers who want to get familiar with the oh-my-zsh codebase.
 
