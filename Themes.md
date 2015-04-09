@@ -31,7 +31,7 @@ The rest of the themes, in alphabetical order:
 
 Additional setup:
 
-- Install one of the [patched fonts from Vim-Powerline](https://github.com/powerline/fonts) or patch your own for the special characters.
+- Install one of the [patched fonts from Vim-Powerline](https://github.com/powerline/fonts) or [patch your own](https://github.com/powerline/fontpatcher) for the special characters.
 - *Optionally* set `DEFAULT_USER` in `~/.zshrc` to your regular username to hide the “user@hostname” info when you’re logged in as yourself on your local machine.
 
 ### alanpeabody
