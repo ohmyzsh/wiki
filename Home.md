@@ -4,14 +4,13 @@ Welcome to the oh-my-zsh wiki!
 - Don't forget to [follow us on twitter](http://twitter.com/ohmyzsh)
 - Brief overview of included plugins [[Plugins Overview]]
 - Learn about [[Customization]]
-- Learn about the [[Design]] of oh-my-zsh
 
 Help Wanted!
 ============
 
 - Help us build the [[Cheatsheet]]
 - Give us your feedback on [[Themes]] and [[Plugins]]
-- Want to contribute? Check out our [[Coding Style Guide]] and get started hacking!
+- Want to contribute? Check out our [[Coding Style Guide]] and [[Design]] guidelines and start hacking away!
 - [[Articles]] Have you written a blog post/article that mentions Oh My Zsh?
 
 Want to help manage the project?
