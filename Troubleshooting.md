@@ -25,8 +25,11 @@ Two main things could go wrong:
 
 ### Completion problems
 
-*...to be filled...*
+Many completion problems, including the infamous `command not found: compdef`, can be solved by resetting the completion system.
 
+1. First, try to remove your completion cache with `rm ~/.zcompdump*`, close and reopen your shells.
+
+2. If you still have problems, try fully resetting the completion system, as explained by [**@dragon788**](https://github.com/robbyrussell/oh-my-zsh/issues/630#issuecomment-70291622).
 
 ### Everything else
 
