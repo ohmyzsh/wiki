@@ -684,6 +684,13 @@ Adds tab-completion of Grails script names to the command line use of grails. Lo
 - `./scripts`
 - `./plugins/*/scripts`
 
+httpie
+----
+
+**Maintainer:** [lululau](https://github.com/lululau)
+
+Adds completion for [HTTPie](http://httpie.org), which is a command line HTTP client, a user-friendly cURL replacement.
+
 jira
 ----
 
