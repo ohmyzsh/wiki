@@ -17,4 +17,4 @@ If you need to, follow the following step to make it work:
 2. Make sure it installed by running `zsh --version`
 3. Make it your default shell: `chsh -s  $(chsh -l | grep "zsh" -m 1)`
   * Note that this will not work if Zsh is not in your authorized shells list (`/etc/shells`)
-4. Re-open all terminals and make sure it worked by running `echo $SHELL`.
+4. Re-open all terminals and make sure it worked by running `echo $SHELL`
