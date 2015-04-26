@@ -12,7 +12,7 @@ Oh-My-Zsh is a framework for [Zsh](http://www.zsh.org), the Z shell.
 If you need to, follow the following step to make it work:
 
 1. Install Zsh
-  * with your package manager of choice (ie: `sudo apt-get install zsh`)
+  * with your package manager of choice (_ie_: `sudo apt-get install zsh`)
   * from [source](http://zsh.sourceforge.net/Arc/source.html), following [instructions from the Zsh FAQ](http://zsh.sourceforge.net/FAQ/zshfaq01.html#l7)
 2. Make sure it installed by running `zsh --version`
 3. Make it your default shell: `chsh -s  $(chsh -l | grep "zsh" -m 1)`
