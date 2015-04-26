@@ -1,5 +1,6 @@
 Welcome to the oh-my-zsh wiki!
 
+- If you haven't already, [[Install Zsh]]
 - Read our user [[Testimonials]]
 - Don't forget to [follow us on twitter](http://twitter.com/ohmyzsh)
 - Brief overview of included plugins [[Plugins Overview]]
