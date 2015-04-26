@@ -140,6 +140,20 @@ List all disowned files in your system
 pacdisowned | less +F
 ```
 
+atom
+----
+
+**Maintainer:** [aforty](https://github.com/aforty)
+
+Adds commands for opening files and folders in the Atom editor.
+
+### Aliases
+
+- `at`: Launch Atom
+- `at $folder`: `cd` to the specified folder open it in Atom
+- `at $file`: Open the specified file in Atom
+- `att`: equivalent to `at .`, opens the current folder in Atom
+
 autojump
 --------
 
