@@ -705,6 +705,19 @@ httpie
 
 Adds completion for [HTTPie](http://httpie.org), which is a command line HTTP client, a user-friendly cURL replacement.
 
+history
+----
+
+**Maintainer:** [r-darwish](https://github.com/r-darwish)
+
+Provides a couple of convenient aliases for using the `history` command to examine your command line history.
+
+### Aliases
+
+- `h`: List your command history. Equivalent to using `history`
+- `hsi $SearchText`: performs a **case insensitive** `grep` search on your command history, looking for commands that match the argument provided
+- `hsi`: When called without an argument you will get help on `grep` arguments 
+
 jira
 ----
 
