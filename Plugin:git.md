@@ -1,8 +1,8 @@
 # The `git` plugin
 
-The `git` [plugin](Plugins#git) provides many [aliases](#Aliases) and a few useful [functions](Functions).
+The [`git` plugin](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git) provides many [aliases](#Aliases) and a few useful [functions](#Functions).
 
-Enable it by adding `git` to the [`plugins` array](https://github.com/robbyrussell/oh-my-zsh/blob/master/templates/zshrc.zsh-template#L51) before sourcing OMZ.
+Enable it by adding `git` to the [`plugins` array](https://github.com/robbyrussell/oh-my-zsh/blob/master/templates/zshrc.zsh-template#L48) before sourcing OMZ (see [[Plugins]]).
 
 ## Aliases
 
@@ -106,4 +106,3 @@ These features allow to pause a branch development and switch to another one (_"
 
 * `gunwip`
 > Uncommit wip branch
-
