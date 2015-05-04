@@ -33,4 +33,9 @@ Many completion problems, including the infamous `command not found: compdef`, c
 
 ### Everything else
 
-*...to be filled...*
+As a last resort, if you're getting weird behavior and can't find the culprit, run the following command to enable debug mode:
+```sh
+zsh -xv 2> >(tee ~/omz-debug.log &>/dev/null)
+```
+Afterwards, reproduce the behavior (_i.e._ if it's a particular command, run it), and when you're done, run `exit` to stop the debugging session.
+This will create a `omz-debug.log` file on your home directory, which you can upload to [gist.github.com](https://gist.github.com/) and link to it on the issue you'll open next.
