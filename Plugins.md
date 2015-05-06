@@ -805,7 +805,7 @@ macports
 mercurial
 ---------
 
-**Maintainer:** [ptrv](https://github.com/ptrv)
+**Maintainers:** [ptrv](https://github.com/ptrv), [oshybystyi](https://github.com/oshybystyi)
 
 - `hgc - hg commit`
 - `hgb - hg branch`
@@ -817,6 +817,10 @@ mercurial
 - `hgp - hg push`
 - `hgs - hg status`
 - `hgca - hg qimport -r tip ; hg qrefresh -e ; hg qfinish tip`, this is the 'git commit --amend' equivalent
+
+Plus it adds mercurial repo info into zsh prompt.
+
+See detailed instructions in [plugin README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/mercurial)
 
 meteor
 ------
