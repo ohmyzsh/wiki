@@ -7,8 +7,8 @@ _Work in progress..._
 
 ***
 
-- [How do I install OMZ and Zsh?](how-do-i-install-omz-and-zsh)
-- [How do I uninstall OMZ and Zsh?](how-do-i-uninstall-omz-and-zsh)
+- [How do I install OMZ and Zsh?](#how-do-i-install-omz-and-zsh)
+- [How do I uninstall OMZ and Zsh?](#how-do-i-uninstall-omz-and-zsh)
 
 #### How do I install OMZ and Zsh?
 
