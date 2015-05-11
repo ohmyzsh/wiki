@@ -25,7 +25,7 @@ You will need to add `export ZSH=/my/custom/directory` and `source $ZSH/oh-my-zs
 #### How do I uninstall OMZ and Zsh?
 
 Run `$ZSH/tools/uninstall.sh` to remove OMZ. This will backup your `~/.zshrc` and remove your OMZ install entirely. Then:
-* if you have `~/.zshrc.pre-oh-my-zsh`, it is assumed that you had Zsh in use prior to installing OMZ
+* if you have `~/.zshrc.pre-oh-my-zsh`, it is assumed that you had Zsh in use prior to installing OMZ, so your `~/.zshrc.pre-oh-my-zsh` is simply restored
 * otherwise it is assumed that you were using Bash, so the default shell will be set to `/bin/bash` and `/etc/profile` will be sourced
 
 Then simply reopen your shells. You must have OMZ installed in the default directory (_ie_ `~/.oh-my-zsh`) for this to work.
