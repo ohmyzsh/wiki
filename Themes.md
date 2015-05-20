@@ -330,10 +330,14 @@ Clean, simple, compatible and meaningful. ([more info](http://blog.ysmood.org/my
 ### zhann
 [![zhann](https://cloud.githubusercontent.com/assets/2618447/6316771/520a5170-ba00-11e4-9561-78f0c76e996c.png)](https://cloud.githubusercontent.com/assets/2618447/6316771/520a5170-ba00-11e4-9561-78f0c76e996c.png)
 
+## More themes
+You can find more themes [here](https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes).
+
 ##  (Don’t) Send us your theme! (for now)
 
 We have enough themes for the time being. Please fork the project and add on in there, you can let people know how to grab it from there.
 
+Or put it gist and list it in https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes .
 
 ## Theme Description Format
 
