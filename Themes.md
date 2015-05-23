@@ -201,7 +201,7 @@ it’s funky…
 [![mh](https://cloud.githubusercontent.com/assets/2618447/6316746/51db6d92-ba00-11e4-988c-6c89eb581c8c.png)](https://cloud.githubusercontent.com/assets/2618447/6316746/51db6d92-ba00-11e4-988c-6c89eb581c8c.png)
 
 ### michelebologna
-[![michelebologna](https://cloud.githubusercontent.com/assets/530992/7785021/34c45cea-017d-11e5-964f-10f99d4a5d37.png)][https://cloud.githubusercontent.com/assets/530992/7785021/34c45cea-017d-11e5-964f-10f99d4a5d37.png]
+[![michelebologna](https://cloud.githubusercontent.com/assets/530992/7785021/34c45cea-017d-11e5-964f-10f99d4a5d37.png)](https://cloud.githubusercontent.com/assets/530992/7785021/34c45cea-017d-11e5-964f-10f99d4a5d37.png)
 
 ### miloshadzic
 [![miloshadzic](https://cloud.githubusercontent.com/assets/2618447/6316748/51dc1eae-ba00-11e4-843d-379183044762.png)](https://cloud.githubusercontent.com/assets/2618447/6316748/51dc1eae-ba00-11e4-843d-379183044762.png)
