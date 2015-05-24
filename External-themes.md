@@ -15,3 +15,13 @@ It should be clear by reading https://github.com/robbyrussell/oh-my-zsh/wiki/Cus
 See [Gist](https://gist.github.com/oshybystyi/2c30543cd48b2c9ecab0) for source.
 
 author: [@audy](https://github.com/audy), maintainer: [@oshybystyi](https://github.com/oshybystyi)
+
+#### powerlevel9k
+
+<a href="https://github.com/bhilburn/powerlevel9k" alt="powerlevel9k theme" /><img src="https://camo.githubusercontent.com/bf2fb16475ebcd1e33b3cc3f9cc7c82e0d41b637/687474703a2f2f6268696c6275726e2e6f72672f636f6e74656e742f696d616765732f323031342f31322f706f7765726c6576656c396b2e706e67" alt="powerlevel9k theme" /></a>
+
+A theme based on agnoster, but with a lot more features (like flexible segments, multiline-prompt, light color scheme, etc.). Have a look at the [repo](https://github.com/bhilburn/powerlevel9k) for documentation.
+
+See [Repo](https://github.com/bhilburn/powerlevel9k) for source
+
+author: [@bhilburn](https://github.com/bhilburn)
