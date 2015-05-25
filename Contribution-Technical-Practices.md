@@ -112,7 +112,7 @@ conflicts, and then `git push --force <name> my-new-pr`, in order to keep your P
 **More setups:** on another machine, simply `git checkout <name>/my-new-pr` and
 `git checkout -b my-new-pr` to continue working on a pending PR.
 
-### Maintained fork PRs
+#### Maintained fork PRs
 
 * **1.** Any new PR must start from a clean upstream tree
 ```zsh
