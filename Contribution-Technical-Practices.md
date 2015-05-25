@@ -25,13 +25,13 @@ _This supposes that you have Oh-My-Zsh installed already in `$ZSH` (default:_
 `~/.oh-my-zsh`_) with the origin remote pointing to the original repository._
 
 * **2.** Now make the choice: either we keep it easy and simple, need-to-know basis, or you
-take the red pill, and you stay in Wonderland _etc_. Here follows a manichaean dichotomy:
-  * **Blue pill:** auto-upgrade works, and you can send clean PRs; but your fork is not
+want a fully maintained fork with your own changes. Here follows a binary dichotomy:
+  * **Simple contribution:** auto-upgrade works, and you can send clean PRs; but your fork is not
   maintained and you are not using your own master branch
-  * **Red pill:** you can send clean PRs, maintain your own fork with changes, use and
+  * **Maintained fork:** you can send clean PRs, maintain your own fork with changes, use and
   share your master branch; but auto-upgrade will not work
 
-#### Blue pill setup
+#### Simple contribution setup
 
 _All the following uses_ `<name>` _for the remote name, but you can use something else._
 
@@ -48,9 +48,9 @@ still points to the original repository), auto-upgrade should work fine.
 copy your [startup files](http://zsh.sourceforge.net/Intro/intro_3.html); you will be
 able to get upgrades, and to work on your pending PRs.
 
-[**Sending PRs**](#blue-pill-prs)
+[**Sending PRs**](#simple-contribution-prs)
 
-#### Red pill setup
+#### Maintained fork setup
 
 * **3.** Go to your local install directory and rename the origin remote to "upstream"
 ```zsh
@@ -78,7 +78,7 @@ changes of course; when you are satisfied with the update you can
 copy your [startup files](http://zsh.sourceforge.net/Intro/intro_3.html); you will be
 able to get upgrades, and to work on your pending PRs.
 
-[**Sending PRs**](#red-pill-prs)
+[**Sending PRs**](#maintained-fork-prs)
 
 ### Pull Requests
 
@@ -88,7 +88,7 @@ _These are technical instructions, please read the_
 
 _The following uses_ `my-new-pr` _for the branch name, but you can use something else._
 
-#### Blue pill PRs
+#### Simple contribution PRs
 
 * **1.** Any new PR must start from a clean upstream tree
 ```zsh
@@ -112,7 +112,7 @@ conflicts, and then `git push --force <name> my-new-pr`, in order to keep your P
 **More setups:** on another machine, simply `git checkout <name>/my-new-pr` and
 `git checkout -b my-new-pr` to continue working on a pending PR.
 
-### Red pill PRs
+### Maintained fork PRs
 
 * **1.** Any new PR must start from a clean upstream tree
 ```zsh
