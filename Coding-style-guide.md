@@ -51,7 +51,7 @@ command1 \
 command1 | command2
 ```
 
-When possible, use environment variables instead of forking a command.
+When possible, use environment variables instead of shelling out to a command.
 
 ```
 # Bad:
@@ -92,10 +92,10 @@ Meaningful self-documenting names should be used. If the variable name does not 
 
 ```
 # Bad:
-local CamelCase=""
-local somethingElse=""
+local TitleCase=""
+local camelCase=""
 
-# Good
+# Good:
 local snake_case=""
 ```
 
@@ -105,7 +105,7 @@ Uppercase strings are reserved for global variables. (WARNING: In functions, onl
 # Bad:
 local UPPERCASE=""
 
-# Good
+# Good:
 UPPERCASE=""
 ```
 
@@ -119,7 +119,7 @@ local pwd=""
 local pwd_read_in=""
 ```
 
-Variables names for loop indexes should be named similarly to any variable you're looping through.
+Variable names for loop indexes should be named similarly to any variable you're looping through.
 
 ```
 for zone in ${zones}; do
@@ -129,12 +129,11 @@ done
 
 ###Use local variables###
 
-Ensure that local variables are only seen inside a function and its children by using `local` when declaring them. This avoids polluting the global name space and inadvertently setting or interacting with variables that may have significance outside the function.
+Ensure that local variables are only seen inside a function and its children by using `local` or other `typeset` variants when declaring them. This avoids polluting the global name space and inadvertently setting or interacting with variables that may have significance outside the function.
 
 ```
 # Bad:
-func_bad()
-{
+function func_bad() {
   global_var=37  #  Visible only within the function block
                  #  before the function has been called. 
 }
@@ -149,8 +148,7 @@ echo "global_var = $global_var"  # global_var = 37
 
 ```
 # Good:
-func_good()
-{
+function func_good() {
   local local_var=""
 
   local_var=37
@@ -173,8 +171,7 @@ Bad-Example: with global variables
 ```
 #!/bin/bash
 
-parse_json()
-{
+function parse_json() {
   parent_prop=$1
   prop=$2
 
@@ -191,8 +188,7 @@ parse_json()
     | sed "s/^$prop|//g"`
 }
 
-parse_ubuntuusers_json()
-{
+function parse_ubuntuusers_json() {
   json=`curl -s -X GET 'http://suckup.de/planet-ubuntuusers-json/json.php?callback='`
 
   parse_json "posts" "title"
@@ -219,8 +215,7 @@ Better-Example: with local variables
 ```
 #!/bin/zsh
 
-parse_json()
-{
+function parse_json() {
   local json=`cat $1`
   local parent_prop=$2
   local prop=$3
@@ -238,8 +233,7 @@ parse_json()
     | sed "s/^$prop|//g"
 }
 
-parse_ubuntuusers_json()
-{
+function parse_ubuntuusers_json() {
   local temp_file=`mktemp`
   local json=`curl -s -X GET 'http://suckup.de/planet-ubuntuusers-json/json.php?callback=' -o $temp_file`
 
@@ -292,7 +286,7 @@ readonly VERBOSE
 
 ###Read-only Variables###
 
-Use `readonly` or `declare -r` to ensure they're read only.
+Use `readonly` or `declare -r` to ensure they're read-only.
 As globals are widely used in shell, it's important to catch errors when working with them. When you declare a variable that is meant to be read-only, make this explicit.
 
 ```
@@ -308,38 +302,33 @@ fi
 
 ###Naming Conventions###
 
-Lower-case, with underscores to separate words. Separate libraries with "::". Parentheses are required after the function name. The keyword `function` is optional, but must be used consistently throughout a project.
+Lower-case, with underscores to separate words. Parentheses are required after the function name. The `function` keyword is optional when `()` is present after the function name, but it aids readability and prevents [conflicts with alias declarations](http://zsh.sourceforge.net/Doc/Release/Shell-Grammar.html#Aliasing), so please use it!
 
-If you're writing single functions, use lowercase and separate words with underscores. If you're writing a package, separate package names with "::".
-
-The `function` keyword is extraneous when `()` is present after the function name, but enhances quick identification of functions, so please use it!
+The opening brace should appear on the same line as the function name.
 
 ```
 # Bad:
-function my_bad_func 
-{
+function my_bad_func {
+  ...
+}
+
+# Bad:
+my_bad_func() {
   ...
 }
 
 # Good:
-my_good_func() 
-{
+function my_good_func() {
   ...
 }
 
-# Good:
-mypackage::my_func() 
-{
-  ...
-}
 ```
 
 Private or utility functions should be prefixed with an underscore:
 
 ```
 # Good:
-_helper-util() 
-{
+function _helper_util() {
   ...
 }
 ```
@@ -350,8 +339,7 @@ After a script or function terminates, a `$?` from the command-line gives the ex
 
 ```
 # Bad:
-my_bad_func() 
-{
+function my_bad_func() {
   # didn't work with zsh / bash is ok
   #read lowerPort upperPort < /proc/sys/net/ipv4/ip_local_port_range
 
@@ -367,8 +355,7 @@ my_bad_func()
 }
 
 # Good:
-my_good_func() 
-{
+function my_good_func() {
   # didn't work with zsh / bash is ok
   #read lowerPort upperPort < /proc/sys/net/ipv4/ip_local_port_range
 
@@ -429,7 +416,7 @@ var="$(command "$(command1)")"
 
 ###Eval###
 
-Eval is evil! Eval munges the input when used for assignment to variables and can set variables without making it possible to check what those variables were.
+Eval is evil! Eval munges the input when used for assignment to variables and can set variables without making it possible to check what those variables were. Avoid `eval` if possible.
 
 ##Sources##
 
