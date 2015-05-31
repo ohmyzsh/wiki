@@ -6,13 +6,12 @@ Initially `$ZSH_CUSTOM` points to oh-my-zsh's `custom` directory. Whatever you p
 
 Let's say you created your own plugin `foobar` and want to add it to your configuration.
 
-```bash
-# Your .zshrc
+##### _~/.zshrc_
+```shell
 plugins=(git bundler foobar)
 ```
 
 Then, create a `foobar` directory inside the `plugins` folder and an initialization script to launch your plugin. This script has to follow a naming convention, as all plugin files must have an ending of `.plugin.zsh`. Your file tree should look like this:
-
 
 ```
 zsh_custom
@@ -39,7 +38,7 @@ zsh_custom
 
 and within your .zshrc,
 
-```bash
+```shell
 ZSH_THEME="my_awesome_theme"
 ```
 
@@ -53,8 +52,8 @@ Hint: Using a random theme with `$ZSH_THEME="random"` will not look into your cu
 
 oh-my-zsh's internals are defined in its `lib` directory. To change them just create a file inside the `custom` directory (its name doesn't matter, as long as it has a `.zsh` ending) and start customizing whatever you want. Unsatisfied with the way `git_prompt_info()` works? Write your own implementation!
 
-```bash
-# custom/my_patches.zsh
+##### _$ZSH_CUSTOM/my_patches.zsh_
+```shell
 function git_prompt_info() {
   # prove that you can do better
 }
@@ -62,13 +61,12 @@ function git_prompt_info() {
 
 Such customization files will always be the last thing that oh-my-zsh sources before handing over control to your terminal. Also use this approach if you want to override specific details of built-in plugins.
 
-
 ## Using another customization directory
 
 If you don't want to use the built-in `custom` directory itself, just change the path of `$ZSH_CUSTOM` inside your `.zshrc` to a directory of your own liking. Everything will be fine as long as you adhere to the conventional file hierarchy.
 
-```bash
-# your .zshrc
+##### _~/.zshrc_
+```shell
 ZSH_CUSTOM=$HOME/my_customizations
 ```
 
