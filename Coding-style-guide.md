@@ -1,35 +1,39 @@
-##  General Code Style  ##
+## General Code Style
 
 While you should follow the code style that's already there for files that you're modifying, the following are required for any new code.
 
-###  Indentation  ###
+### Indentation
 
 Indent 2 spaces. No tabs.
 
 Use blank lines between blocks to improve readability. Indentation is two spaces. Whatever you do, don't use tabs. For existing files, stay faithful to the existing indentation.
 
-###  Line Length and Long Strings  ###
+### Line Length and Long Strings
 
 Maximum line length is 80 characters.
 
 If you have to write strings that are longer than 80 characters, this should be done with a "here document" or an embedded newline if possible. Literal strings that have to be longer than 80 chars and can't sensibly be split are okay, but it's strongly preferred to find a way to make it shorter.
 
-```
-# Bad: 
+##### _Bad:_
+```shell
 long_string_1="I am an exceptionalllllllllllly looooooooooooooooooooooooooooooooooooooooong string."
+```
 
-# Good:
+##### _Good:_
+```shell
 cat <<END;
 I am an exceptionalllllllllllly 
 looooooooooooooooooooooooooooooooooooooooong string.
 END
+```
 
-# Good:
+##### _Good:_
+```shell
 long_string_2="I am an exceptionalllllllllllly 
  looooooooooooooooooooooooooooooooooooooooong string."
 ```
 
-###  Pipelines  ###
+### Pipelines
 
 Pipelines should be split one per line if they don't all fit on one line. 
 
@@ -37,37 +41,44 @@ If a pipeline all fits on one line, it should be on one line.
 
 If not, it should be split at one pipe segment per line with the pipe on the newline and a 2 space indent for the next section of the pipe. This applies to a chain of commands combined using '|' as well as to logical compounds using '||' and '&&'.
 
-```
-# Bad: Long commands
+##### _Bad:_
+```shell
 command1 | command2 | command3 | command4 | command5 | command6 | command7
+```
 
-# Good: Long commands
+##### _Good:_
+```shell
 command1 \
   | command2 \
   | command3 \
   | command4
+```
 
-# Good: All fits on one line
+##### _Good:_ All fits on one line
+```shell
 command1 | command2
 ```
 
 When possible, use environment variables instead of shelling out to a command.
 
-```
-# Bad:
+##### _Bad:_
+```shell
 $(pwd)
+```
 
-# Good:
+##### _Good:_
+```shell
 $PWD
 ```
 
 TODO: Add a list of all environment variables you can use.
 
-###  If / For / While  ###
+###  If / For / While
 
 Put `; do` and `; then` on the same line as the `while`, `for` or `if`.
 
-```
+##### _Good:_
+```shell
 for dir in ${dirs_to_cleanup}; do
   if [[ -d "${dir}/${ORACLE_SID}" ]]; then
     log_date "Cleaning up old files in ${dir}/${ORACLE_SID}"
@@ -84,55 +95,62 @@ for dir in ${dirs_to_cleanup}; do
 done
 ```
 
-##  Variables  ##
+## Variables
 
-###  Naming Conventions  ###
+### Naming Conventions
 
 Meaningful self-documenting names should be used. If the variable name does not make it reasonably obvious as to the meaning of the variable, appropriate comments should be added.
 
-```
-# Bad:
+##### _Bad:_
+```shell
 local TitleCase=""
 local camelCase=""
+```
 
-# Good:
+##### _Good:_
+```shell
 local snake_case=""
 ```
 
 Uppercase strings are reserved for global variables. (WARNING: In functions, only variables explicitly declared as local like `local foo=""` are really local.)
 
-```
-# Bad:
+##### _Bad:_
+```shell
 local UPPERCASE=""
+```
 
-# Good:
+##### _Good:_
+```shell
 UPPERCASE=""
 ```
 
 Variable names should not clobber command names, such as `dir` or `pwd`.
 
-```
-# Bad:
+##### _Bad:_
+```shell
 local pwd=""
+```
 
-# Good
+##### _Good:_
+```shell
 local pwd_read_in=""
 ```
 
 Variable names for loop indexes should be named similarly to any variable you're looping through.
 
-```
+##### _Good:_
+```shell
 for zone in ${zones}; do
   something_with "${zone}"
 done
 ```
 
-###  Use local variables  ###
+### Use local variables
 
 Ensure that local variables are only seen inside a function and its children by using `local` or other `typeset` variants when declaring them. This avoids polluting the global name space and inadvertently setting or interacting with variables that may have significance outside the function.
 
-```
-# Bad:
+##### _Bad:_
+```shell
 function func_bad() {
   global_var=37  #  Visible only within the function block
                  #  before the function has been called. 
@@ -146,8 +164,8 @@ echo "global_var = $global_var"  # global_var = 37
                                  # Has been set by function call.
 ```
 
-```
-# Good:
+##### _Good:_
+```shell
 function func_good() {
   local local_var=""
   local_var=37
@@ -163,10 +181,10 @@ global_var=$(func_good)
 echo "global_var = $global_var" # move function result to global scope
 ```
 
-In the next example, lots of global variables are used over and over again, but the script "unfortunately" works anyway. The `parse_json()` function does not even return a value and the two functions share their variables. You could also write all this without any function; this would have the same effect.
+In the next example, lots of global variables are used over and over again, but the script "unfortunately" works anyway. The `parse_json()` function does not even return a value and the two functions shares their variables. You could also write all this without any function; this would have the same effect.
 
-Bad-Example: with global variables
-```
+##### _Bad:_ with global variables
+```shell
 #!/bin/bash
 
 function parse_json() {
@@ -209,8 +227,8 @@ echo "foobar: $counter - $i"
 
 In shell scripts, it is less common that you really want to reuse the functionality, but the code is much easier to read if you write small functions with appropriate return values and parameters.
 
-Better-Example: with local variables
-```
+##### _Good:_ with local variables
+```shell
 #!/bin/zsh
 
 function parse_json() {
@@ -257,22 +275,23 @@ parse_ubuntuusers_json
 echo "foobar: $counter - $i"
 ```
 
-###  Constants and Environment Variable Names  ###
+### Constants and Environment Variable Names
 
-All caps, separated with underscores, declared at the top of the file.
-Constants and anything exported to the environment should be capitalized.
+All caps, separated with underscores, declared at the top of the file. Constants and anything exported to the environment should be capitalized.
 
-```
-# Constant
+##### _Constant:_
+```shell
 readonly PATH_TO_FILES='/some/path'
+```
 
-# Both constant and exported
+##### _Constant and environment:_
+```shell
 declare -xr ORACLE_SID='PROD'
 ```
 
 Some things become constant at their first setting (for example, via `getopts`). Thus, it's okay to set a constant in `getopts` or based on a condition, but it should be made `readonly` immediately afterwards. Note that `declare` doesn't operate on global variables within functions, so `readonly` or `export` is recommended instead.
 
-```
+```shell
 VERBOSE='false'
 while getopts 'v' flag; do
   case "${flag}" in
@@ -282,12 +301,11 @@ done
 readonly VERBOSE
 ```
 
-###  Read-only Variables  ###
+### Read-only Variables
 
-Use `readonly` or `declare -r` to ensure they're read-only.
-As globals are widely used in shell, it's important to catch errors when working with them. When you declare a variable that is meant to be read-only, make this explicit.
+Use `readonly` or `declare -r` to ensure they're read only. As globals are widely used in shell, it's important to catch errors when working with them. When you declare a variable that is meant to be read-only, make this explicit.
 
-```
+```shell
 zip_version="$(dpkg --status zip | grep Version: | cut -d ' ' -f 2)"
 if [[ -z "${zip_version}" ]]; then
   error_message
@@ -296,26 +314,23 @@ else
 fi
 ```
 
-##  Functions  ##
+## Functions
 
-###  Naming Conventions  ###
+### Naming Conventions
 
 Lower-case, with underscores to separate words. Parentheses are required after the function name. The `function` keyword is optional when `()` is present after the function name, but it aids readability and prevents [conflicts with alias declarations](http://zsh.sourceforge.net/Doc/Release/Shell-Grammar.html#Aliasing), so please use it!
 
 The opening brace should appear on the same line as the function name.
 
-```
-# Bad:
+##### _Bad:_
+```shell
 function my_bad_func {
   ...
 }
+```
 
-# Bad:
-my_bad_func() {
-  ...
-}
-
-# Good:
+##### _Good:_
+```shell
 function my_good_func() {
   ...
 }
@@ -324,19 +339,19 @@ function my_good_func() {
 
 Private or utility functions should be prefixed with an underscore:
 
-```
-# Good:
-function _helper_util() {
+##### _Good:_
+```shell
+function _helper-util()  {
   ...
 }
 ```
 
-###  Use return values  ###
+### Use and check return values
 
-After a script or function terminates, a `$?` from the command-line gives the exit status of the script, that is, the last command executed in the script, which is, by convention, 0 on success or an integer in the range 1 - 255 on error.
+After a script or function terminates, a `$?` from the command line gives the exit status of the script, that is, the exit status of the last command executed in the script, which is, by convention, 0 on success or an integer in the range 1 - 255 on error.
 
-```
-# Bad:
+##### _Bad:_
+```shell
 function my_bad_func() {
   # didn't work with zsh / bash is ok
   #read lowerPort upperPort < /proc/sys/net/ipv4/ip_local_port_range
@@ -351,8 +366,10 @@ function my_bad_func() {
     done
   done
 }
+```
 
-# Good:
+##### _Good:_
+```shell
 function my_good_func() {
   # didn't work with zsh / bash is ok
   #read lowerPort upperPort < /proc/sys/net/ipv4/ip_local_port_range
@@ -372,24 +389,30 @@ function my_good_func() {
 }
 ```
 
-###  Return values  ###
+### Check return values
 
 Always check return values and give informative error messages. For unpiped commands, use `$?` or check directly via an if statement to keep it simple. Use nonzero return values to indicate errors.
 
-```
-# Bad:
+##### _Bad:_
+```shell
 mv "${file_list}" "${dest_dir}/"
+```
 
-# Good:
+##### _Good:_
+```shell
 mv "${file_list}" "${dest_dir}/" || exit 1
+```
 
-# Good:
+##### _Good:_
+```shell
 if ! mv "${file_list}" "${dest_dir}/"; then
   echo "Unable to move ${file_list} to ${dest_dir}" >&2
   exit 1
 fi
+```
 
-# Good: use "$?" to get the last return value
+##### _Good:_ use "$?" to get the last return value
+```shell
 mv "${file_list}" "${dest_dir}/"
 if [[ "$?" -ne 0 ]]; then
   echo "Unable to move ${file_list} to ${dest_dir}" >&2
@@ -397,27 +420,29 @@ if [[ "$?" -ne 0 ]]; then
 fi
 ```
 
-##  Features and Bugs  ##
+## Features and Bugs
 
-###  Command Substitution  ###
+### Command Substitution
 
 Use `$(command)` instead of backticks.
 
 Nested backticks require escaping the inner ones with `\`. The `$(command)` format doesn't change when nested and is easier to read.
 
-```
-# Bad:
+##### _Bad:_
+```shell
 var="`command \`command1\``"
+```
 
-# Good:
+##### _Good:_
+```shell
 var="$(command \"$(command1)\")"
 ```
 
-###  Eval  ###
+### Eval
 
 Eval is evil! Eval munges the input when used for assignment to variables and can set variables without making it possible to check what those variables were. Avoid `eval` if possible.
 
-##  References  ##
+## References
 
 - [Shell Style Guide](https://google-styleguide.googlecode.com/svn/trunk/shell.xml)
 - [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
