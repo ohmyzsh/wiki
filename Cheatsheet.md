@@ -1,146 +1,174 @@
 To try it out if you have just cloned it (to your home directory):
 
-- `source ~/.oh-my-zsh/templates/zshrc.zsh-template`
+```shell
+source ~/.oh-my-zsh/templates/zshrc.zsh-template
+```
 
-Commands
-========
+---
 
-- `tab` - Create a new tab in the current directory (OS X - req enabling access for assistive devices under sys prefs)
-- `take` - Create a new directory and change to it, will create intermediate directories as required.
-- `x`/`extract` - Extract an archive (supported types: tar.{bz2,gz,xz,lzma}, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z).
-- `zsh_stats` - Get a list of the top 20 commands and how many times they have been run
-- `uninstall_oh_my_zsh` - Uninstall Oh-my-zsh
-- `upgrade_oh_my_zsh` - Upgrade Oh-my-zsh
+## Commands
+
+| Command               | Description                                                                                                   |
+|:----------------------|:--------------------------------------------------------------------------------------------------------------|
+| _tab_                 | Create a new tab in the current directory (OS X - req enabling access for assistive devices under sys prefs). |
+| _take_                | Create a new directory and change to it, will create intermediate directories as required.                    |
+| _x_ / _extract_       | Extract an archive (supported types: tar.{bz2,gz,xz,lzma}, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z).         |
+| _zsh_stats_           | Get a list of the top 20 commands and how many times they have been run.                                      |
+| _uninstall_oh_my_zsh_ | Uninstall Oh-my-zsh.                                                                                          |
+| _upgrade_oh_my_zsh_   | Upgrade Oh-my-zsh.                                                                                            |
+
+---
+
+| Alias   | Command                               |
+|:--------|:--------------------------------------|
+| _alias_ | list all aliases                      |
+| ..      | cd ..                                 |
+| ...     | cd ../..                              |
+| ....    | cd ../../..                           |
+| .....   | cd ../../../..                        |
+| /       | cd /                                  |
+| _cd +n_ | switch to directory number `n`        |
+| _1_     | cd -                                  |
+| _2_     | cd +2                                 |
+| _3_     | cd +3                                 |
+| _4_     | cd +4                                 |
+| _5_     | cd +5                                 |
+| _6_     | cd +6                                 |
+| _7_     | cd +7                                 |
+| _8_     | cd +8                                 |
+| _9_     | cd +9                                 |
+| _md_    | mkdir -p                              |
+| _fd_    | rmdir                                 |
+| _d_     | dirs -v (lists last used directories) |
 
 See `~/.oh-my-zsh/lib/directories.zsh`
---------------------------------------
 
-- `alias` lists all aliases
-- `..` aliases `cd ..`
-- `...` aliases `cd ../..`
-- `....` aliases `cd ../../..`
-- `.....` aliases `cd ../../../..`
-- `/` aliases `cd /`
-- `cd +n` to switch to directory number `n`
-- `1` aliases `cd -`
-- `2` aliases `cd +2`
-- `3` aliases `cd +3`
-- `4` aliases `cd +4`
-- `5` aliases `cd +5`
-- `6` aliases `cd +6`
-- `7` aliases `cd +7`
-- `8` aliases `cd +8`
-- `9` aliases `cd +9`
-- `md` aliases `mkdir -p`
-- `rd` aliases `rmdir`
-- `d` aliases `dirs -v`, lists last used directories
+## Tab-completion
 
-Tab-completion
-==============
+| For options and helpful text of what they do |
+|:--------------------------------------------:|
+| _ls -(tab)_                                  |
+| _cap (tab)_                                  |
+| _rake (tab)_                                 |
+| _ssh (tab)_                                  |
+| _sudo umount (tab)_                          |
+| _kill (tab)_                                 |
+| _unrar (tab)_                                |
 
-- `ls -(tab)` - For options and helpful text of what they do
-- `cap (tab)`
-- `rake (tab)`
-- `ssh (tab)`
-- `sudo umount (tab)`
-- `kill (tab)`
-- `unrar (tab)`
+## Git
 
-Git
-===
+| Dynamic access to current branch name with the current_branch function |
+|:----------------------------------------------------------------------:|
+| git pull origin $(current_branch)                                      |
+| grb publish $(current_branch) origin                                   |
 
-Dynamic access to current branch name with the current_branch function
-----------------------------------------------------------------------
-
-- `git pull origin $(current_branch)`
-- `grb publish $(current_branch) origin`
-
-Helpful aliases for common git tasks
-------------------------------------
-
-- `g` - `git`
-- `gst` - `git status`
-- `gl` - `git pull`
-- `gup` - `git pull --rebase`
-- `gp` - `git push`
-- `gd` - `git diff`
-- `gdc` - `git diff --cached`
-- `gdv` - `git diff -w "$@" | view -`
-- `gc` - `git commit -v`
-- `gc!` - `git commit -v --amend`
-- `gca` - `git commit -v -a`
-- `gca!` - `git commit -v -a --amend`
-- `gcmsg` - `git commit -m`
-- `gco` - `git checkout`
-- `gcm` - `git checkout master`
-- `gr` - `git remote`
-- `grv` - `git remote -v`
-- `grmv` - `git remote rename`
-- `grrm` - `git remote remove`
-- `gsetr` - `git remote set-url`
-- `grup` - `git remote update`
-- `grbi` - `git rebase -i`
-- `grbc` - `git rebase --continue`
-- `grba` - `git rebase --abort`
-- `gb` - `git branch`
-- `gba` - `git branch -a`
-- `gcount` - `git shortlog -sn`
-- `gcl` - `git config --list`
-- `gcp` - `git cherry-pick`
-- `glg` - `git log --stat --max-count=10`
-- `glgg` - `git log --graph --max-count=10`
-- `glgga` - `git log --graph --decorate --all`
-- `glo` - `git log --oneline --decorate --color`
-- `glog` - `git log --oneline --decorate --color --graph`
-- `gss` - `git status -s`
-- `ga` - `git add`
-- `gm` - `git merge`
-- `grh` - `git reset HEAD`
-- `grhh` - `git reset HEAD --hard`
-- `gclean` - `git reset --hard && git clean -dfx`
-- `gwc` - `git whatchanged -p --abbrev-commit --pretty=medium`
-- `gsts` - `git stash show --text`
-- `gsta` - `git stash`
-- `gstp` - `git stash pop`
-- `gstd` - `git stash drop`
-- `ggpull` - `git pull origin $(current_branch)`
-- `ggpur` - `git pull --rebase origin $(current_branch)`
-- `ggpush` - `git push origin $(current_branch)`
-- `ggpnp` - `git pull origin $(current_branch) && git push origin $(current_branch)`
-- `glp` - `_git_log_prettily`
+| Alias                  | Command                                                                           |
+|:-----------------------|:----------------------------------------------------------------------------------|
+| _g_                    | git                                                                               |
+| _ga_                   | git add                                                                           |
+| _gaa_                  | git add --all                                                                     |
+| _gap_                  | git add --patch                                                                   |
+| _gb_                   | git branch                                                                        |
+| _gba_                  | git branch -a                                                                     |
+| _gbr_                  | git branch --remote                                                               |
+| _gc_                   | git commit -v                                                                     |
+| _gc!_                  | git commit -v --amend                                                             |
+| _gca_                  | git commit -v -a                                                                  |
+| _gca!_                 | git commit -v -a --amend                                                          |
+| _gcl_                  | git config --list                                                                 |
+| _gclean_               | git reset --hard && git clean -dfx                                                |
+| _gcm_                  | git checkout master                                                               |
+| _gcmsg_                | git commit -m                                                                     |
+| _gco_                  | git checkout                                                                      |
+| _gcount_               | git shortlog -sn                                                                  |
+| _gcp_                  | git cherry-pick                                                                   |
+| _gcs_                  | git commit -S                                                                     |
+| _gd_                   | git diff                                                                          |
+| _gd_                   | git diff                                                                          |
+| _gdc_                  | git diff --cached                                                                 |
+| _gdt_                  | git diff-tree --no-commit-id --name-only -r                                       |
+| _gdt_                  | git difftool                                                                      |
+| _gg_                   | git gui citool                                                                    |
+| _gga_                  | git gui citool --amend                                                            |
+| _ggpnp_                | git pull origin $(current_branch) && git push origin $(current_branch)            |
+| _ggpull_               | git pull origin $(current_branch)                                                 |
+| _ggpur_                | git pull --rebase origin $(current_branch)                                        |
+| _ggpush_               | git push origin $(current_branch)                                                 |
+| _gignore_              | git update-index --assume-unchanged                                               |
+| _gignored_             | git ls-files -v | grep "^[[:lower:]]"                                             |
+| _git-svn-dcommit-push_ | git svn dcommit && git push github master:svntrunk                                |
+| _gk_                   | gitk --all --branches                                                             |
+| _gl_                   | git pull                                                                          |
+| _glg_                  | git log --stat --max-count = 10                                                   |
+| _glgg_                 | git log --graph --max-count = 10                                                  |
+| _glgga_                | git log --graph --decorate --all                                                  |
+| _glo_                  | git log --oneline --decorate --color                                              |
+| _glog_                 | git log --oneline --decorate --color --graph                                      |
+| _glp_                  | _git_log_prettily (git log --pretty=$1)                                           |
+| _gm_                   | git merge                                                                         |
+| _gmt_                  | git mergetool --no-prompt                                                         |
+| _gp_                   | git push                                                                          |
+| _gpoat_                | git push origin --all && git push origin --tags                                   |
+| _gr_                   | git remote                                                                        |
+| _grba_                 | git rebase --abort                                                                |
+| _grbc_                 | git rebase --continue                                                             |
+| _grbi_                 | git rebase -i                                                                     |
+| _grh_                  | git reset HEAD                                                                    |
+| _grhh_                 | git reset HEAD --hard                                                             |
+| _grmv_                 | git remote rename                                                                 |
+| _grrm_                 | git remote remove                                                                 |
+| _grset_                | git remote set-url                                                                |
+| _grt_                  | cd $(git rev-parse --show-toplevel || echo ".")                                   |
+| _grup_                 | git remote update                                                                 |
+| _grv_                  | git remote -v                                                                     |
+| _gsd_                  | git svn dcommit                                                                   |
+| _gsps_                 | git show --pretty = short --show-signature                                        |
+| _gsr_                  | git svn rebase                                                                    |
+| _gss_                  | git status -s                                                                     |
+| _gst_                  | git status                                                                        |
+| _gsta_                 | git stash                                                                         |
+| _gstd_                 | git stash drop                                                                    |
+| _gstp_                 | git stash pop                                                                     |
+| _gsts_                 | git stash show --text                                                             |
+| _gts_                  | git tag -s                                                                        |
+| _gunignore_            | git update-index --no-assume-unchanged                                            |
+| _gunwip_               | git log -n 1 | grep -q -c "\-\-wip\-\-" && git reset HEAD~1                       |
+| _gup_                  | git pull --rebase                                                                 |
+| _gvt_                  | git verify-tag                                                                    |
+| _gwc_                  | git whatchanged -p --abbrev-commit --pretty = medium                              |
+| _gwip_                 | git add -A; git ls-files --deleted -z | xargs -r0 git rm; git commit -m "--wip--" |
 
 You also find these commands in Dash as a Cheat-sheet.
 
-Editors
--------
+## Editors
 
-- `stt` - `open current directory in Sublime Text 2/3`
-- `v` - *When using `vi-mode` plugin:* Edit current command line in Vim
+| Alias | Command                                                        |
+|:------|:---------------------------------------------------------------|
+| _stt_ | open current directory in Sublime Text 2/3`                    |
+| _v_   | (When using `vi-mode` plugin) Edit current command line in Vim |
 
-Symfony2
---------
+## Symfony2
 
-- `sf` - `php ./app/console`
-- `sfcl` - `php app/console cache:clear`
-- `sfcontainer` - `sf container:debug`
-- `sfcw` - `sf cache:warmup`
-- `sfgb` - `sf generate:bundle`
-- `sfroute` - `sf router:debug`
-- `sfsr` - `sf server:run -vvv`
+| Alias        | Command                     |
+|:-------------|:----------------------------|
+| _sf_         | php ./app/console           |
+| _sfcl_       | php app/console cache:clear |
+| _sfcontainer | sf container:debug          |
+| _sfcw_       | sf cache:warmup             |
+| _sfgb_       | sf generate:bundle          |
+| _sfroute_    | sf router:debug             |
+| _sfsr        | sf server:run -vvv          |
 
+## Systemd
 
-Systemd
-=======
+### systemctl
 
-shortcut for systemctl command utility
---------------------------------------
-
-- `sc-status NAME`  - `show the status of the NAME process`
-- `sc-show NAME`    - `show the NAME systemd .service file`
-- `sc-start NAME`   - `start the NAME process`
-- `sc-stop NAME`    - `stop the NAME process`
-- `sc-restart NAME` - `restart the NAME process`
-- `sc-enable NAME`  - `enable the NAME process to start at boot`
-- `sc-disable NAME` - `disable the NAME process at boot`
-
-
+| Command           | Description                              |
+|:------------------|:-----------------------------------------|
+| _sc-status NAME_  | show the status of the NAME process      |
+| _sc-show NAME_    | show the NAME systemd .service file      |
+| _sc-start NAME_   | start the NAME process                   |
+| _sc-stop NAME_    | stop the NAME process                    |
+| _sc-restart NAME_ | restart the NAME process                 |
+| _sc-enable NAME_  | enable the NAME process to start at boot |
+| _sc-disable NAME_ | disable the NAME process at boot         |
