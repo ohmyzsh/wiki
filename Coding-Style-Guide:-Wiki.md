@@ -11,7 +11,7 @@ Following these guidelines while making the readme for your plugin/theme would b
 | GFM Element | HTML Header Tag Equivalent |                                      Use                                       |
 | ----------- | -------------------------- | ------------------------------------------------------------------------------ |
 | #           | `<h1>`                     | This will not be used, as Github wiki pages uses the filename as h1             |
-| ##          | `<h2>`                     | Main section divider (as in this page _Headers, Syntax Highlighting_, etc are) |
+| ##          | `<h2>`                     | Main section divider (as in this page _Headers_, _Syntax Highlighting_, etc are) |
 | ### - ####  | `<h3>` - `<h4>`            | For use in subsections                                                         |
 | #####       | `<h5>`                     | Please try to use this just for labeling _Example_ in fenced code blocks       |
 | ######      | `<h6>`                     | For descriptors in example fenced code blocks                                  |
@@ -30,11 +30,11 @@ ___
 
 ## Tables
 
-Tables are pretty and easy to read, please use them whenever possible for listing aliases, functions, and anything else that could possibly be made into a table.
+Tables are pretty and easy to read; please use them whenever possible for listing aliases, functions, and anything else that could possibly be made into a table.
 
 ## Syntax Highlighting
 
-We use _shell_ to highlight code blocks. GFM does support highlighting zsh defined code blocks. However, some text editors do not, so this just makes the experience more consistent across the board.
+We use _shell_ to highlight code blocks. GitHub-Flavor Markdown (GFM) does support highlighting `zsh` defined code blocks. However, some text editors do not, so this just makes the experience more consistent across the board.
 
 ## Line Wrapping
 
@@ -42,19 +42,19 @@ Do not hard wrap lines.
 
 ## Italics
 
-Use underscores to define italics and not asterisk's. (This makes it easier to differentiate from bold words/characters at glance in when editing.)
+Use underscores, not askerisks, to define italics. (This makes it easier to differentiate them from bold words/characters at glance in when editing.)
 
 ## Bold
 
-Use asterisk's to define bold characters/words, not underscores. (This makes it easier to differentiate from bold words/characters at glance in when editing.)
+Use double asterisks, not double underscores, to define bold characters or words. (This makes it easier to differentiate them from bold words/characters at glance in when editing.)
 
 ## Unnumbered lists
 
-Use dashes `-` for defining unnumbered lists and sublists apposed to asterisks.
+Use hyphens `-` for defining unnumbered lists and sublists, as opposed to asterisks.
 
 ## Images
 
-Use Markdown formatting for images, **not html**
+Use Markdown formatting for images, **not HTML**.
 
 ###### _Example:_
 ```markdown
@@ -63,7 +63,7 @@ Use Markdown formatting for images, **not html**
 
 ## Line Endings
 
-Please use Unix line ending codes and not Windows (MacOS 10+ uses Unix by default).
+Please use Unix line ending codes and not Windows (Mac OS X uses Unix by default).
 
 ### EOF
 
