@@ -10,7 +10,7 @@ Following these guidelines while making the readme for your plugin/theme would b
 
 | GFM Element | HTML Header Tag Equivalent |                                      Use                                       |
 | ----------- | -------------------------- | ------------------------------------------------------------------------------ |
-| #           | `<h1>`                     | This will not be used as Github wiki pages uses the filename as h1             |
+| #           | `<h1>`                     | This will not be used, as Github wiki pages uses the filename as h1             |
 | ##          | `<h2>`                     | Main section divider (as in this page _Headers, Syntax Highlighting_, etc are) |
 | ### - ####  | `<h3>` - `<h4>`            | For use in subsections                                                         |
 | #####       | `<h5>`                     | Please try to use this just for labeling _Example_ in fenced code blocks       |
