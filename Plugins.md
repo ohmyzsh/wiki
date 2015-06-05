@@ -983,27 +983,34 @@ Completion for the python interpreter
 
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
-- rails - rails 2.3 commands (mostly) for running scripts
+#### rails aliases:
+| Alias | Command                  |
+|:------|:-------------------------|
+| _rc_  | rails console            |
+| _rd_  | rails destroy            |
+| _rdb_ | rails dbconsole          |
+| _rg_  | rails generate           |
+| _rgm_ | rails generate migration |
+| _rp_  | rails plugin             |
+| _ru_  | rails runner             |
+| _rs_  | rails server             |
+| _rsd_ | rails server --debugger  |
 
----
-
-## rails3
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
-| Alias  | Command                       |
-|:-------|:------------------------------|
-| _rc_   | rails console                 |
-| _rd_   | rails destroy                 |
-| _rdb_  | rails dbconsole               |
-| _rdbm_ | rake db:migrate db:test:clone |
-| _rg_   | rails generate                |
-| _rgm_  | rails generate migration      |
-| _rdm_  | rake db:migrate               |
-| _rdr_  | rake db:rollback              |
-| _rp_   | rails plugin                  |
-| _rs_   | rails server                  |
-| _rsd_  | rails server --debugger       |
+#### rake aliases:
+| Alias   | Command                       |
+|:--------|:------------------------------|
+| _rdm_   | rake db:migrate               |
+| _rdms_  | rake db:migrate:status        |
+| _rdr_   | rake db:rollback              |
+| _rdc_   | rake db:create                |
+| _rds_   | rake db:seed                  |
+| _rdd_   | rake db:drop                  |
+| _rdtc_  | rake db:test:clone            |
+| _rdtp_  | rake db:test:prepare          |
+| _rdmtc_ | rake db:migrate db:test:clone |
+| _rlc_   | rake log:clear                |
+| _rn_    | rake notes                    |
+| _rr_    | rake routes                   |
 
 ---
 
