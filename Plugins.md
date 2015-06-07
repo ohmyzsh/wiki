@@ -516,7 +516,7 @@ $ decode64 c29tZV9zdHJpbmc=
 
 **Maintainers:** [@Stibbons](https://github.com/Stibbons), [@ncanceill](https://github.com/ncanceill)
 
-Adds a lot of git aliases and functions for pulling for dealing with the current branch. See the dedicated Wiki page](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git), or a list of some of the aliases introduced [here *(OUTDATED)*](http://jasonm23.github.com/oh-my-git-aliases.html).
+Adds a lot of git aliases and functions for pulling for dealing with the current branch. See the dedicated [Wiki page](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git), or a list of some of the aliases introduced [here *(OUTDATED)*](http://jasonm23.github.com/oh-my-git-aliases.html).
 
 ---
 
