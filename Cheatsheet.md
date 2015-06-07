@@ -142,10 +142,10 @@ You also find these commands in Dash as a Cheat-sheet.
 
 ## Editors
 
-| Alias | Command                                                        |
-|:------|:---------------------------------------------------------------|
-| _stt_ | open current directory in Sublime Text 2/3`                    |
-| _v_   | (When using `vi-mode` plugin) Edit current command line in Vim |
+| Alias | Command                                                                  |
+|:------|:-------------------------------------------------------------------------|
+| _stt_ | (When using `sublime` plugin) Open current directory in Sublime Text 2/3 |
+| _v_   | (When using `vi-mode` plugin) Edit current command line in Vim           |
 
 ## Symfony2
 
