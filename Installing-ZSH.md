@@ -7,7 +7,7 @@ Oh-My-Zsh is a framework for [Zsh](http://www.zsh.org), the Z shell.
 - Additionally, Zsh should be set as your default shell.
   - Please run `echo $SHELL` from a new terminal to confirm.
 
-## Installing oh-my-zsh
+## Installing Zsh
 
 If you need to, follow the following step to make it work:
 
