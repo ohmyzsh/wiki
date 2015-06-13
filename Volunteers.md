@@ -1,4 +1,4 @@
-We're having a discussion on the need to have [a few moderators](https://github.com/robbyrussell/oh-my-zsh/issues/2771) as well as having some [general guidelines for new collaborators](https://github.com/robbyrussell/oh-my-zsh/issues/2766) in the project, whether they want to submit a patch, report a bug or just ask a question. Feel free to write your opinion!
+We're having a discussion on the need to have [a few moderators](https://github.com/robbyrussell/oh-my-zsh/issues/2771) as well as having some [general guidelines](https://github.com/robbyrussell/oh-my-zsh/issues/3770) and [help](https://github.com/robbyrussell/oh-my-zsh/wiki/Contribution-Technical-Practices) for new collaborators in the project, whether they want to submit a patch, report a bug or just ask a question. Feel free to write your opinion!
 
 ***
 
