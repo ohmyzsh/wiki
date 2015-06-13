@@ -136,7 +136,10 @@ bi jq<TAB>
 
 [[Homebrew|http://mxcl.github.com/homebrew/]] is an OS X package manager
 
-This plugin :* creates a `brews` alias to list installed brews (= `brew list -1`)* adds completion for the `brew` command.
+This plugin:
+
+* creates a `brews` alias to list installed brews (= `brew list -1`)
+* adds completion for the `brew` command.
 
 ---
 
