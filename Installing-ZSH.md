@@ -16,6 +16,6 @@ If you need to, follow the following step to make it work:
   - from [source](http://zsh.sourceforge.net/Arc/source.html), following 
         [instructions from the Zsh FAQ](http://zsh.sourceforge.net/FAQ/zshfaq01.html#l7)
 2. Make sure it installed by running `zsh --version`
-3. Make it your default shell: `chsh -s  $(chsh -l | grep "zsh" -m 1)`
+3. Make it your default shell: `chsh -s  /usr/bin/zsh`
   - Note that this will not work if Zsh is not in your authorized shells list (`/etc/shells`)
 4. Re-open all terminals and make sure it worked by running `echo $SHELL`
