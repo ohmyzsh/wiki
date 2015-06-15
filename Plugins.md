@@ -1301,6 +1301,14 @@ Completions for [tmuxinator](https://github.com/aziz/tmuxinator). To enable comp
 
 ---
 
+## tugboat
+
+**Maintainer:** [DimitriSteyaert](https://github.com/DimitriSteyaert)
+
+- tugboat - autocompletion for Tugboat commands, the CLI tool to manage your Digital Ocean configuration and droplets.
+
+---
+
 ## urltools
 
 Adds command line utilities for URL manipulation.
