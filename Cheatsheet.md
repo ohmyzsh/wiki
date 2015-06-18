@@ -83,8 +83,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gcount_               | git shortlog -sn                                                                  |
 | _gcp_                  | git cherry-pick                                                                   |
 | _gcs_                  | git commit -S                                                                     |
-| _gd_                   | git diff                                                                          |
-| _gd_                   | git diff                                                                          |
+| _gd_                   | git diff                                                                                                                                                   |
 | _gdca_                 | git diff --cached                                                                 |
 | _gdt_                  | git diff-tree --no-commit-id --name-only -r                                       |
 | _gdt_                  | git difftool                                                                      |
