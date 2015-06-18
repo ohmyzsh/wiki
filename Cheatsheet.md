@@ -67,7 +67,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _g_                    | git                                                                               |
 | _ga_                   | git add                                                                           |
 | _gaa_                  | git add --all                                                                     |
-| _gap_                  | git add --patch                                                                   |
+| _gapa_                 | git add --patch                                                                   |
 | _gb_                   | git branch                                                                        |
 | _gba_                  | git branch -a                                                                     |
 | _gbr_                  | git branch --remote                                                               |
@@ -85,7 +85,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gcs_                  | git commit -S                                                                     |
 | _gd_                   | git diff                                                                          |
 | _gd_                   | git diff                                                                          |
-| _gdc_                  | git diff --cached                                                                 |
+| _gdca_                 | git diff --cached                                                                 |
 | _gdt_                  | git diff-tree --no-commit-id --name-only -r                                       |
 | _gdt_                  | git difftool                                                                      |
 | _gg_                   | git gui citool                                                                    |
