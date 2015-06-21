@@ -882,7 +882,6 @@ Enhances the [Nanoc](http://nanoc.stoneship.org/) static site generator with ali
 | _pushdf_      | pushd to the current Finder directory          |
 | _quick-look_  | quick Look a specified file                    |
 | _man-preview_ | open a specified man page in Preview           |
-| _trash_       | move a specified file to the Trash             |
 
 ---
 
