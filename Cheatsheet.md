@@ -38,7 +38,7 @@ source ~/.oh-my-zsh/templates/zshrc.zsh-template
 | _8_     | cd +8                                 |
 | _9_     | cd +9                                 |
 | _md_    | mkdir -p                              |
-| _fd_    | rmdir                                 |
+| _rd_    | rmdir                                 |
 | _d_     | dirs -v (lists last used directories) |
 
 See `~/.oh-my-zsh/lib/directories.zsh`
