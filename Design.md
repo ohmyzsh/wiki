@@ -89,14 +89,14 @@ Leaks:
 
 Oh-my-zsh is initialized for the current `zsh` session by sourcing `$ZSH/oh-my-zsh.sh`. This is typically done from `.zshrc`, and the oh-my-zsh installation process modifies the user's `.zshrc` to do so.
 
-The basic steps of the oh-my-zsh initialization process are:
+The basic steps of the oh-my-zsh initialization process are as follows. Note that the order of steps is subject to change.
 
 - Check for updates
 - Path defaulting
 - Load libs
+- Load custom user code
 - Initialize completion system
 - Load plugins
-- Load custom user code
 - Load theme
 
 The initialization steps in detail:
@@ -108,16 +108,16 @@ The initialization steps in detail:
  - (even though they don't exist in the current codebase)
 - Set `$ZSH_CUSTOM` and `$ZSH_CACHE_DIR`
 - Load lib ("config") files
- - Discovers and sources all lib files, respecting custom overrides
+ - Discovers and sources all lib files, in alphabetical order, respecting custom overrides
+- Load custom user code
+ - Source each `$ZSH_CUSTOM/*.zsh` file, in alphabetical order
 - Pre-load plugins  (add to `$fpath`, but don't source)
 - Set `$SHORT_HOST`
 - Initialize Completion support
  - Set `$ZSH_COMPDUMP`
  - Run `compinit`, using dump file
 - Load plugins
- - Source each plugin specified in `$plugins`
-- Load custom user code
- - Source each `$ZSH_CUSTOM/*.zsh` file
+ - Source each plugin specified in `$plugins`, in the order specified
 - Load theme
 
 ## Customization
@@ -129,11 +129,14 @@ Overriding internals can be done by adding `*.zsh` files to the `$ZSH_CUSTOM` ro
 It's not documented in the _Customization_ page, but `$ZSH_CUSTOM/lib/*.zsh` do override the corresponding internals lib files. If a custom one is present, it is sourced instead of the one in the distribution.
 
 So, you can:
+- Override lib/* files on a per-file basis (loaded instead of the base file of the same name)
+- Add arbitrary customization code that runs later and can redefine any function or variable from the core
 - Override plugins and themes on a per-plugin/theme basis (loaded instead of base)
-- Override lib/* files on a per-file basis (loaded instead of equiv base file)
-- Add arbitrary customization code that runs later and can redefine any function or variable
+- Override parts of plugins by defining an additional "patch" plugin and including it in `$plugins` *after* the base plugin
 
 `$ZSH_CUSTOM` controls where the custom override files are found; defaults to `$ZSH/custom` (under the main OMZ installation).
+
+As of June 2015, user "custom" files are loaded before plugins are loaded, so they cannot be used to modify plugins. To customize a plugin by replacing selected functions or variables, you need to define an additional custom plugin and load that after the base plugin you wish to customize.
 
 The [Customization](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization) wiki page doesn't discuss which functions/APIs are stable. It mostly talks about overriding on a per-file basis.
 
