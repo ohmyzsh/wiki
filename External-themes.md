@@ -46,3 +46,11 @@ It currently shows:
 See [Repo](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) for source
 
 author: [@caiogondim](https://github.com/caiogondim)
+
+#### Gitster
+
+![gitster theme](http://recordit.co/1Y5XxMkXFl.gif)
+
+See my dotfiles [repo](https://github.com/shashankmehta/dotfiles/blob/master/thesetup/zsh/.oh-my-zsh/custom/themes/sm.zsh-theme) for source.
+
+author: [shashankmehta](https://github.com/shashankmehta)/[@leostatic](https://twitter.com/@leostatic)
