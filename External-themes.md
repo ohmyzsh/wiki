@@ -9,6 +9,14 @@ Instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization
 ### The Themes
 
 ---
+#### xxf
+
+![xxf](http://oi58.tinypic.com/ddmbsy.jpg)
+- Show Current commit shorten hash and message
+See [Gist](https://gist.github.com/wuxxf/18fd7c24360c68bab884) for source.
+
+author: [@wuxxf](https://github.com/wuxxf)
+
 #### Random Emoji Theme
 
 ![emoji theme](https://camo.githubusercontent.com/cef821db4ca342faa6a721a408a111d7ad91bb60/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f662e636c2e6c792f6974656d732f30633057327930573138335332543042337a30612f53637265656e2532305265636f7264696e67253230323031352d30352d30352532306174253230313525334131392e676966)
