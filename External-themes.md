@@ -68,7 +68,7 @@ author: [shashankmehta](https://github.com/shashankmehta)/[@leostatic](https://t
 
 #### Chi
 
-![Chi theme](https://www.dropbox.com/s/l0k9rau6wyf2ifq/Screen%20Shot%202015-07-03%20at%2001.13.41.png?dl=0)
+![Chi theme](https://drive.google.com/file/d/0BzM5XGOkOFvETnR6NE1fRXBDS0E/view?usp=sharing)
 ![Chi theme](https://www.dropbox.com/s/bk388n3zrxyy9wi/Screen%20Shot%202015-07-03%20at%2001.14.40.png?dl=0)
 
 It currently shows:
@@ -81,4 +81,6 @@ It currently shows:
 - `git:master` **color: White** committed files
 
 See [Repo](https://github.com/andela-abankole/chi) for source
+
+
 author: [Akinjide Bankole](https://github.com/andela-abankole)/[@JideBhanks](https://twitter.com/JideBhanks)
