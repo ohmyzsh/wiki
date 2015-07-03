@@ -68,8 +68,8 @@ author: [shashankmehta](https://github.com/shashankmehta)/[@leostatic](https://t
 
 #### Chi
 
-![Chi theme](https://drive.google.com/file/d/0BzM5XGOkOFvETnR6NE1fRXBDS0E/view?usp=sharing)
-![Chi theme](https://www.dropbox.com/s/bk388n3zrxyy9wi/Screen%20Shot%202015-07-03%20at%2001.14.40.png?dl=0)
+![Chi theme](https://lh3.googleusercontent.com/-5nLmYSQHp44/VZZdUgxRMBI/AAAAAAAAA84/uVLAZlqvdIc/s457/Screen%252520Shot%2525202015-07-03%252520at%25252001.13.41.png)
+![Chi theme](https://lh3.googleusercontent.com/-DyW0haE8Mao/VZZdUjdyLoI/AAAAAAAAA88/tW20k23uem8/s458/Screen%252520Shot%2525202015-07-03%252520at%25252001.14.40.png)
 
 It currently shows:
 
