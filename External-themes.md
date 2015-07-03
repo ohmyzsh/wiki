@@ -65,3 +65,20 @@ When not in a git repo, it shows from home, `~`.
 See my dotfiles [repo](https://github.com/shashankmehta/dotfiles/blob/master/thesetup/zsh/.oh-my-zsh/custom/themes/gitster.zsh-theme) for source.
 
 author: [shashankmehta](https://github.com/shashankmehta)/[@leostatic](https://twitter.com/@leostatic)
+
+#### Chi
+
+![Chi theme](https://www.dropbox.com/s/l0k9rau6wyf2ifq/Screen%20Shot%202015-07-03%20at%2001.13.41.png?dl=0)
+![Chi theme](https://www.dropbox.com/s/bk388n3zrxyy9wi/Screen%20Shot%202015-07-03%20at%2001.14.40.png?dl=0)
+
+It currently shows:
+
+- Git status
+-  🕕 Time
+- `~/Desktop` Working directory
+- > where you type your cmds
+- `✹git:master` **color : Red** unstaged commit
+- `git:master` **color: White** committed files
+
+See [Repo](https://github.com/andela-abankole/chi) for source
+author: [Akinjide Bankole](https://github.com/andela-abankole)/[@JideBhanks](https://twitter.com/JideBhanks)
