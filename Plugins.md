@@ -239,7 +239,7 @@ Simple build definition completion is also provided for [ruby-build](https://git
 
 ## chucknorris
 
-**Maintainer** [maff](https://github.com/maff)
+**Maintainers** [apjanke](https://github.com/apjanke) [maff](https://github.com/maff)
 
 Adds Chuck Norris fortune file from http://www.k-lug.org/~kessler/projects.html. Depends on fortune (and cowsay if using `chuck_cow`) being installed (available via homebrew, apt, ...). Perfectly suitable as MOTD.
 
