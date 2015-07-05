@@ -84,3 +84,9 @@ See [Repo](https://github.com/andela-abankole/chi) for source
 
 
 author: [Akinjide Bankole](https://github.com/andela-abankole)/[@JideBhanks](https://twitter.com/JideBhanks)
+
+#### Haribo theme
+
+![haribo theme](https://fooo.biz/images/haribo_omz_theme.png)
+
+See [Repo](https://github.com/haribo/omz-haribo-theme) for source
