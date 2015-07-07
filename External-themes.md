@@ -79,6 +79,7 @@ It currently shows:
 - > where you type your cmds
 - `✹git:master` **color : Red** unstaged commit
 - `git:master` **color: White** committed files
+- `○` shows if current directory is a git folder || git branch
 
 See [Repo](https://github.com/andela-abankole/chi) for source
 
