@@ -88,6 +88,6 @@ author: [Akinjide Bankole](https://github.com/andela-abankole)/[@JideBhanks](htt
 
 #### Haribo theme
 
-![haribo theme](https://fooo.biz/images/haribo_omz_theme.png)
+![haribotheme](http://fooo.biz/images/haribo_omz_theme.png)
 
 See [Repo](https://github.com/haribo/omz-haribo-theme) for source
