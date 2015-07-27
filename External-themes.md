@@ -28,9 +28,9 @@ author: [@audy](https://github.com/audy), maintainer: [@oshybystyi](https://gith
 #### powerlevel9k
 
 ![powerlevel9k theme](https://camo.githubusercontent.com/bf2fb16475ebcd1e33b3cc3f9cc7c82e0d41b637/687474703a2f2f6268696c6275726e2e6f72672f636f6e74656e742f696d616765732f323031342f31322f706f7765726c6576656c396b2e706e67)
-A theme based on agnoster, but with a lot more features (like flexible segments, multiline-prompt, light color scheme, etc.). Have a look at the [repo](https://github.com/bhilburn/powerlevel9k) for documentation.
+A Powerline theme for ZSH that was written from scratch to fix some of the speed issues in other feature-heavy themes. It has a lot of tunable style features (e.g., multi or single line prompts, color schemes), and also provides a lot of useful prompt segments for everything from Python virtualenv to your AWS instance.
 
-See [Repo](https://github.com/bhilburn/powerlevel9k) for source
+See [Repo](https://github.com/bhilburn/powerlevel9k) for source & documentation.
 
 author: [@bhilburn](https://github.com/bhilburn)
 
