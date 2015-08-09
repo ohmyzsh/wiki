@@ -41,7 +41,7 @@ Additional setup:
 ### amuse
 [![amuse](https://cloud.githubusercontent.com/assets/2618447/6316861/70f3c4ce-ba03-11e4-88a5-0b423dd5a2ce.png)](https://cloud.githubusercontent.com/assets/2618447/6316861/70f3c4ce-ba03-11e4-88a5-0b423dd5a2ce.png)
 
-To use: You might need to install one of the [patched powerline fonts](https://github.com/Lokaltog/powerline-fonts) for it to look the same.
+Shown in the screenshot with tmux and the [powerline plugin](https://github.com/powerline/powerline) (you might need to install one of the [patched powerline fonts](https://github.com/powerline/fonts) for it to look the same).
 
 ### arrow
 [![arrow](https://cloud.githubusercontent.com/assets/2618447/6316717/51a09e7e-ba00-11e4-8120-45ca128b9bf6.png)](https://cloud.githubusercontent.com/assets/2618447/6316717/51a09e7e-ba00-11e4-8120-45ca128b9bf6.png)
