@@ -49,6 +49,7 @@ Enabled [aliases](https://wiki.archlinux.org/index.php/Pacman_Tips) for `pacman`
 | _pacloc_  | Display information about a given package in the local database                           |
 | _paclocs_ | Search for package(s) in the local database                                               |
 | _pacupd_  | Update and refresh the local package and ABS databases against repositories               |
+| _pacupg_  | Update the local database and upgrade packages                                            |
 | _pacinsd_ | Install given package(s) as dependencies of another package                               |
 | _pacmir_  | Force refresh of all package lists after updating /etc/pacman.d/mirrorlist                |
 
