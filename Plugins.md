@@ -346,7 +346,7 @@ Collection of useful zsh aliases, not enabled by default since they may change s
 | _T_   | \| tail                   |
 | _G_   | \| grep                   |
 | _L_   | \| less                   |
-| _M_   | \| more                   |
+| _M_   | \| most                   |
 | _LL_  | 2>&1 \| less              |
 | _CA_  | 2>&1 \| cat -A            |
 | _NE_  | 2> /dev/null              |
