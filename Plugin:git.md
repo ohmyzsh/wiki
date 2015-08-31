@@ -26,8 +26,7 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gc                   | git commit -v                                                                                                                           |
 | gc!                  | git commit -v --amend                                                                                                                   |
 | gca                  | git commit -v -a
-|
-| gcam                 | git commit -a -m                                                                                                                        |
+| gcam                 | git commit -a -m                                                                                                                         |
 | gca!                 | git commit -v -a --amend                                                                                                                |
 | gcan!                | git commit -v -a -s --no-edit --amend                                                                                                   |
 | gcb                  | git checkout -b                                                                                                                         |
