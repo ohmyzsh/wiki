@@ -12,10 +12,11 @@ Oh-My-Zsh is a framework for [Zsh](http://www.zsh.org), the Z shell.
 If you need to, follow the following step to make it work:
 
 1. Install Zsh
-  - with your package manager of choice (_ie_: `sudo apt-get install zsh`)
+  - with your package manager of choice (_e.g._ `sudo apt-get install zsh`)
   - from [source](http://zsh.sourceforge.net/Arc/source.html), following 
         [instructions from the Zsh FAQ](http://zsh.sourceforge.net/FAQ/zshfaq01.html#l7)
 2. Make sure it installed by running `zsh --version`
-3. Make it your default shell: `chsh -s  /bin/zsh`
+3. Make it your default shell: `chsh -s $(which zsh)`
   - Note that this will not work if Zsh is not in your authorized shells list (`/etc/shells`)
-4. Re-open all terminals and make sure it worked by running `echo $SHELL`
+    or if you don't have permission to use `chsh`. If that's the case [you'll need to use a different procedure](https://www.google.com/search?q=zsh+default+without+chsh).
+4. Log out and login back again to use your new default shell, and test that it worked with `echo $SHELL`.
