@@ -115,6 +115,7 @@ The fish shell prompt with git support
 
 ### flazz
 Has git and vi-command mode support (when enabled)
+
 [![flazz](https://cloud.githubusercontent.com/assets/2618447/6316729/51bc9fac-ba00-11e4-9e4b-cb0612d5f440.png)](https://cloud.githubusercontent.com/assets/2618447/6316729/51bc9fac-ba00-11e4-9e4b-cb0612d5f440.png)
 
 ### frisk
@@ -161,9 +162,12 @@ it’s funky…
 [![juanghurtado](https://cloud.githubusercontent.com/assets/2618447/6316739/51cc2814-ba00-11e4-9d4a-1dca9961d906.png)](https://cloud.githubusercontent.com/assets/2618447/6316739/51cc2814-ba00-11e4-9d4a-1dca9961d906.png)
 
 ### junkfood
-([more info](http://www.tylercipriani.com/2012/12/18/zsh-prompt-customization.html))
 
-[![junkfood](https://cloud.githubusercontent.com/assets/2618447/6316869/710182e4-ba03-11e4-84ec-b0e05eec8e4c.png)](https://cloud.githubusercontent.com/assets/2618447/6316869/710182e4-ba03-11e4-84ec-b0e05eec8e4c.png)
+> Totally ripped off Dallas theme
+
+[![junkfood](https://cloud.githubusercontent.com/assets/1441704/9643381/e9cc48b6-51c1-11e5-99ee-e8cfbbf60d99.png)](https://cloud.githubusercontent.com/assets/1441704/9643381/e9cc48b6-51c1-11e5-99ee-e8cfbbf60d99.png)
+
+[+info](http://www.tylercipriani.com/2012/12/18/zsh-prompt-customization.html)
 
 ### kafeitu
 [![kafeitu](https://cloud.githubusercontent.com/assets/2618447/6316741/51cec254-ba00-11e4-8433-a3c2524086c1.png)](https://cloud.githubusercontent.com/assets/2618447/6316741/51cec254-ba00-11e4-8433-a3c2524086c1.png)
