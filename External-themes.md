@@ -91,3 +91,11 @@ author: [Akinjide Bankole](https://github.com/andela-abankole)/[@JideBhanks](htt
 ![haribotheme](http://fooo.biz/images/haribo_omz_theme.png)
 
 See [Repo](https://github.com/haribo/omz-haribo-theme) for source
+
+#### Schminitz theme
+
+![schminitztheme](http://g.recordit.co/krsXnCfF0W.gif)
+
+This theme allow to see if vim is running on background when using the ':sh' command.
+
+See [Gist](https://gist.github.com/schminitz/9931af23bbb59e772eec) for source.
