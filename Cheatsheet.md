@@ -95,6 +95,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _ggpur_                | git pull --rebase origin $(current_branch)                                        |
 | _ggpush_               | git push origin $(current_branch)                                                 |
 | _ggp_                  | git push origin $(current_branch)                                                 |
+| _ggsup_                | git branch --set-upstream-to=origin/$(current_branch)                             |
 | _gignore_              | git update-index --assume-unchanged                                               |
 | _gignored_             | git ls-files -v | grep "^[[:lower:]]"                                             |
 | _git-svn-dcommit-push_ | git svn dcommit && git push github master:svntrunk                                |
