@@ -108,4 +108,4 @@ author: [Schminitz](https://github.com/schminitz)/[@Schminitz](https://twitter.c
 - Git focused development
 See [odin](https://github.com/tylerreckart/odin) for source.
 
-author: [@xfanwu](https://github.com/xfanwu)
+author: [@tylerreckart](https://github.com/tylerreckart)
