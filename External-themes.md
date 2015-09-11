@@ -101,3 +101,11 @@ This theme allow to see if vim is running on background when using the ':sh' com
 See [Gist](https://gist.github.com/schminitz/9931af23bbb59e772eec) for source.
 
 author: [Schminitz](https://github.com/schminitz)/[@Schminitz](https://twitter.com/Schminitz)
+
+#### Odin theme
+
+![odin](https://github.com/tylerreckart/odin/raw/master/theme-info.png)
+- Git focused development
+See [odin](https://github.com/tylerreckart/odin) for source.
+
+author: [@xfanwu](https://github.com/xfanwu)
