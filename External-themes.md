@@ -104,7 +104,7 @@ author: [Schminitz](https://github.com/schminitz)/[@Schminitz](https://twitter.c
 
 #### Odin theme
 
-![odin](https://github.com/tylerreckart/odin/raw/master/theme-info.png)
+![odin](https://github.com/tylerreckart/odin/raw/master/theme-info.gif)
 - Git focused development
 See [odin](https://github.com/tylerreckart/odin) for source.
 
