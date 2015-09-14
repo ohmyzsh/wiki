@@ -10,7 +10,7 @@ If you know of any that are missing, feel free to contribute! :-)
 - [[Zsh!|http://blog.secondplanetanimation.com/2011/05/31/zsh]]
 - [[Intridea’s blog post about Zsh & Oh my zsh.|http://intridea.com/posts/its-not-enough-to-bash-in-heads-youve-got-to-bash-in-minds-with-zsh]](2011-05-18)
 - [[Customize your zsh prompt|http://www.yellowmatter.com/2011/03/quickies-ill-want-to-find-these-again.html]]
-- [[Oh my Zsh! Una Terminal Alternativa | https://medium.com/@LudaCasanova/oh-my-zsh-una-terminal-alternativa-48f8e8836a03]]
+- [[Oh my Zsh! Una Terminal Alternativa | https://medium.com/@LudaCasanova/oh-my-zsh-una-terminal-alternativa-48f8e8836a03]] - in Spanish
 - [[Tips, tricks and examples for the Z shell|http://grml.org/zsh/zsh-lovers.html]](2010-07-28)
 - [[oh-my-zsh on OpenBSD 5.0| http://blog.bsdguy.net/?p=112]](2011-11-12)
 - [[zsh: The Powerful Shell|http://nerdrug.org/blog/zsh-the-powerful-shell/]](2011-10-02) - in italian
