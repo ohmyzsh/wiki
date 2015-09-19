@@ -128,7 +128,7 @@ Last review date: 20-Nov-13
 | Name                                                                               | Description                                                                   |
 | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | [composer](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/composer) | PHP dependency manager http://getcomposer.org                                 |
-| [laravel](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/laravel)   | PHP deployment tool artisan completion http://laravel.com/docs/4.2/artisan    |
+| [laravel](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/laravel)   | PHP deployment tool artisan completion http://laravel.com/docs/master/artisan    |
 | [phing](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/phing)       | Ant-like build system for PHP http://phing.info                               |
 | [symfony](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/symfony)   | PHP webframework http://symfony.com                                           |
 | [symfony2](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/symfony2) | PHP webframework http://symfony.com                                           |
