@@ -33,3 +33,5 @@ Please share your thoughts on Oh My Zsh... they might help influence others to u
 ".i mi noi lojbo cu prami la'o gy oh-my-zsh gy i'esai" --[[DavidMikeSimon|https://github/DavidMikeSimon]]
 
 "This is the one for me." --[[SysVoid|https://github.com/SysVoid]]
+
+"As a shell newbie, oh-my-zsh is my lighthouse. As I drown in the shell-sea at least I know where the mainland is!" --[[V-J-P|https://github.com/V-J-P]]
