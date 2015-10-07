@@ -76,14 +76,15 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gca_                  | git commit -v -a                                                                  |
 | _gca!_                 | git commit -v -a --amend                                                          |
 | _gcl_                  | git config --list                                                                 |
-| _gclean_               | git reset --hard && git clean -dfx                                                |
+| _gclean_               | git clean -fd                                                                     |
+| _gpristine_            | git reset --hard && git clean -dfx                                                |
 | _gcm_                  | git checkout master                                                               |
 | _gcmsg_                | git commit -m                                                                     |
 | _gco_                  | git checkout                                                                      |
 | _gcount_               | git shortlog -sn                                                                  |
 | _gcp_                  | git cherry-pick                                                                   |
 | _gcs_                  | git commit -S                                                                     |
-| _gd_                   | git diff                                                                                                                                                   |
+| _gd_                   | git diff                                                                          |
 | _gdca_                 | git diff --cached                                                                 |
 | _gdt_                  | git diff-tree --no-commit-id --name-only -r                                       |
 | _gdt_                  | git difftool                                                                      |
