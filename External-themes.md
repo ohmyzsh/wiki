@@ -105,7 +105,7 @@ author: [Schminitz](https://github.com/schminitz)/[@Schminitz](https://twitter.c
 #### Odin theme
 
 ![odin](https://github.com/tylerreckart/odin/raw/master/theme-info.gif)
-- Git focused development
+- Git focused development.
 See [odin](https://github.com/tylerreckart/odin) for source.
 
 author: [@tylerreckart](https://github.com/tylerreckart)
@@ -113,7 +113,7 @@ author: [@tylerreckart](https://github.com/tylerreckart)
 #### Lambda (Mod) theme
 
 ![Screenshot](https://raw.githubusercontent.com/halfo/lambda-mod-zsh-theme/master/screenshot.png)
-- A simple yet elegant theme with git focused development
+* A simple yet elegant theme with git focused development.
 See [lambda-mod](https://github.com/halfo/lambda-mod-zsh-theme/) for source.
 
 author: [@halfo](https://github.com/halfo)
