@@ -93,7 +93,10 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _ggpnp_                | git pull origin $(current_branch) && git push origin $(current_branch)            |
 | _ggpull_               | git pull origin $(current_branch)                                                 |
 | _ggl_                  | git pull origin $(current_branch)                                                 |
-| _ggpur_                | git pull --rebase origin $(current_branch)                                        |
+| _ggpur_                | git pull --rebase origin $(current_branch)                                        
+|
+| _glum_                 | git pull upstream master                                    
+|
 | _ggpush_               | git push origin $(current_branch)                                                 |
 | _ggp_                  | git push origin $(current_branch)                                                 |
 | _ggsup_                | git branch --set-upstream-to=origin/$(current_branch)                             |
