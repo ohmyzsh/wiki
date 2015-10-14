@@ -178,7 +178,7 @@ Commands for [Cake](http://jashkenas.github.com/coffee-script/#cake), the coffee
 
 ---
 
-## cap
+## capistrano
 
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
