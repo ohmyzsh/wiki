@@ -104,8 +104,9 @@ author: [Schminitz](https://github.com/schminitz)/[@Schminitz](https://twitter.c
 
 #### Odin theme
 
-![odin](https://github.com/tylerreckart/odin/raw/master/theme-info.gif)
+![odin](https://github.com/tylerreckart/odin/raw/master/theme-info.png)
 - Git focused development.
+- A clean and distraction free programming environment.
 See [odin](https://github.com/tylerreckart/odin) for source.
 
 author: [@tylerreckart](https://github.com/tylerreckart)
