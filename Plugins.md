@@ -62,21 +62,6 @@ Enabled [aliases](https://wiki.archlinux.org/index.php/Pacman_Tips) for `pacman`
 
 ---
 
-## atom
-
-**Maintainer:** [aforty](https://github.com/aforty)
-
-Adds commands for opening files and folders in the Atom editor.
-
-| Alias        | Description                                             |
-|:-------------|:--------------------------------------------------------|
-| _at_         |Launch Atom                                              |
-| _at $folder_ | `cd` to the specified folder open it in Atom            |
-| _at $file_   | Open the specified file in Atom                         |
-| _att_        | Opens the current folder in Atom (equivalent to _at ._) |
-
----
-
 ## autojump
 
 Enables [autojump](https://github.com/joelthelion/autojump/wiki/) if installed with homebrew, macports or debian/ubuntu package.
