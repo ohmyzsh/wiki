@@ -88,6 +88,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gdca_                 | git diff --cached                                                                 |
 | _gdt_                  | git diff-tree --no-commit-id --name-only -r                                       |
 | _gdt_                  | git difftool                                                                      |
+| _gfa_                  | git fetch --all --prune                                                                      |
 | _gg_                   | git gui citool                                                                    |
 | _gga_                  | git gui citool --amend                                                            |
 | _ggpnp_                | git pull origin $(current_branch) && git push origin $(current_branch)            |
