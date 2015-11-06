@@ -318,7 +318,7 @@ fi
 
 ### Naming Conventions
 
-Lower-case, with underscores to separate words. Parentheses are required after the function name. The `function` keyword is optional when `()` is present after the function name, but it aids readability and prevents [conflicts with alias declarations](http://zsh.sourceforge.net/Doc/Release/Shell-Grammar.html#Aliasing), so please use it!
+Lower-case, with underscores to separate words. Parentheses are required after the function name. The `function` keyword is optional when `()` is present after the function name, but it aids readability and prevents [conflicts with alias declarations](http://zsh.sourceforge.net/Doc/Release/Shell-Grammar.html#Aliasing). But the POSIX specification says "`fname() compound-command[io-redirect ...]`", so we prefer the default from the specification!
 
 The opening brace should appear on the same line as the function name.
 
