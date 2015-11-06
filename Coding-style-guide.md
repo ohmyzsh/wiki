@@ -166,7 +166,7 @@ echo "global_var = $global_var"  # global_var = 37
 
 ##### _Good:_
 ```shell
-function func_good() {
+func_good() {
   local local_var=""
   local_var=37
   echo $local_var
@@ -187,7 +187,7 @@ In the next example, lots of global variables are used over and over again, but 
 ```shell
 #!/bin/bash
 
-function parse_json() {
+parse_json() {
   parent_prop=$1
   prop=$2
 
@@ -204,7 +204,7 @@ function parse_json() {
     | sed "s/^$prop|//g"`
 }
 
-function parse_ubuntuusers_json() {
+parse_ubuntuusers_json() {
   json=`curl -s -X GET 'http://suckup.de/planet-ubuntuusers-json/json.php?callback='`
 
   parse_json "posts" "title"
@@ -231,7 +231,7 @@ In shell scripts, it is less common that you really want to reuse the functional
 ```shell
 #!/bin/zsh
 
-function parse_json() {
+parse_json() {
   local json=`cat $1`
   local parent_prop=$2
   local prop=$3
@@ -249,7 +249,7 @@ function parse_json() {
     | sed "s/^$prop|//g"
 }
 
-function parse_ubuntuusers_json() {
+parse_ubuntuusers_json() {
   local temp_file=`mktemp`
   local json=`curl -s -X GET 'http://suckup.de/planet-ubuntuusers-json/json.php?callback=' -o $temp_file`
 
@@ -331,7 +331,7 @@ function my_bad_func {
 
 ##### _Good:_
 ```shell
-function my_good_func() {
+my_good_func() {
   ...
 }
 
@@ -341,7 +341,7 @@ Private or utility functions should be prefixed with an underscore:
 
 ##### _Good:_
 ```shell
-function _helper-util()  {
+_helper-util()  {
   ...
 }
 ```
@@ -352,7 +352,7 @@ After a script or function terminates, a `$?` from the command line gives the ex
 
 ##### _Bad:_
 ```shell
-function my_bad_func() {
+my_bad_func() {
   # didn't work with zsh / bash is ok
   #read lowerPort upperPort < /proc/sys/net/ipv4/ip_local_port_range
 
@@ -370,7 +370,7 @@ function my_bad_func() {
 
 ##### _Good:_
 ```shell
-function my_good_func() {
+my_good_func() {
   # didn't work with zsh / bash is ok
   #read lowerPort upperPort < /proc/sys/net/ipv4/ip_local_port_range
 
