@@ -126,3 +126,10 @@ author: [@halfo](https://github.com/halfo)
 
 source: [here](https://gist.github.com/hedgehog1029/dfbb7e66511e2c399157)
 author: [@hedgehog1029](http://github.com/hedgehog1029)
+
+#### Node theme
+
+![node](https://raw.githubusercontent.com/skuridin/oh-my-zsh-node-theme/master/screenshot.png)
+
+source: [here](https://github.com/skuridin/oh-my-zsh-node-theme)
+author: [@skuridin](https://github.com/skuridin)
