@@ -1,4 +1,4 @@
--## Merchandise
+-## Merchandiseinggg
 -![Shirts!](http://cdn.shopify.com/s/files/1/0101/8752/products/IMG_7672_medium.jpg)
 -
 -[Get a t-shirt](http://shop.planetargon.com/products/ohmyzsh-t-shirts)
