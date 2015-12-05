@@ -92,6 +92,7 @@ author: [Akinjide Bankole](https://github.com/andela-abankole)/[@JideBhanks](htt
 - Works with most console fonts
 - simple git status
 - timestamp
+
 See [Repo](https://github.com/haribo/omz-haribo-theme) for source
 
 #### Schminitz theme
