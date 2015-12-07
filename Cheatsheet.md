@@ -142,7 +142,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gunwip_               | git log -n 1 | grep -q -c "\-\-wip\-\-" && git reset HEAD~1                       |
 | _gup_                  | git pull --rebase                                                                 |
 | _gvt_                  | git verify-tag                                                                    |
-| _gwc_                  | git whatchanged -p --abbrev-commit --pretty = medium                              |
+| _gwch_                  | git whatchanged -p --abbrev-commit --pretty = medium                              |
 | _gwip_                 | git add -A; git ls-files --deleted -z | xargs -r0 git rm; git commit -m "--wip--" |
 
 You also find these commands in Dash as a Cheat-sheet.
