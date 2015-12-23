@@ -6,6 +6,7 @@ Oh-My-Zsh is a framework for [Zsh](http://www.zsh.org), the Z shell.
   - Please run `zsh --version` to confirm.
 - Additionally, Zsh should be set as your default shell.
   - Please run `echo $SHELL` from a new terminal to confirm.
+  - Expected result: `/bin/zsh`
 
 ## Installing Zsh
 
@@ -20,3 +21,4 @@ If you need to, follow the following step to make it work:
   - Note that this will not work if Zsh is not in your authorized shells list (`/etc/shells`)
     or if you don't have permission to use `chsh`. If that's the case [you'll need to use a different procedure](https://www.google.com/search?q=zsh+default+without+chsh).
 4. Log out and login back again to use your new default shell, and test that it worked with `echo $SHELL`.
+5. Expected result: `/bin/zsh`
