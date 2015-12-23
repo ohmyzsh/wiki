@@ -26,7 +26,7 @@ The rest of the themes, in alphabetical order:
 ([more info](https://gist.github.com/3712874))
 
 [![agnoster](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)
-
+https://cloud.githubusercontent.com/assets/1441704/11986491/65c9c702-a9d0-11e5-8393-ce262988ab09.png
 (Shown with [Solarized Dark colorscheme](http://ethanschoonover.com/solarized) and Powerline-patched Menlo 14pt in [iTerm 2](http://www.iterm2.com/))
 
 Additional setup:
@@ -246,7 +246,7 @@ also tells you when logged in over ssh
 [![nicoulaj](https://cloud.githubusercontent.com/assets/2618447/6316755/51e4b0c8-ba00-11e4-85ef-3e7faeeb0e0b.png)](https://cloud.githubusercontent.com/assets/2618447/6316755/51e4b0c8-ba00-11e4-85ef-3e7faeeb0e0b.png)
 
 ### norm
-[![norm](https://cloud.githubusercontent.com/assets/2618447/6316753/51e440c0-ba00-11e4-87ed-400fe2b0dd39.png)](https://cloud.githubusercontent.com/assets/2618447/6316753/51e440c0-ba00-11e4-87ed-400fe2b0dd39.png)
+[![norm](https://cloud.githubusercontent.com/assets/1441704/11986491/65c9c702-a9d0-11e5-8393-ce262988ab09.png)](https://cloud.githubusercontent.com/assets/1441704/11986491/65c9c702-a9d0-11e5-8393-ce262988ab09.png)
 
 ### philips
 [![philips](https://cloud.githubusercontent.com/assets/2618447/6316874/710a1e22-ba03-11e4-91c4-30f195e3fa2f.jpg)](https://cloud.githubusercontent.com/assets/2618447/6316874/710a1e22-ba03-11e4-91c4-30f195e3fa2f.jpg)
