@@ -319,7 +319,7 @@ Collection of useful zsh aliases, not enabled by default since they may change s
 | _lS_    | ls -1FSsh                    |
 | _lart_  | ls -1Fcart                   |
 | _lrt_   | ls -1Fcrt                    |
-| _zshrc_ | vim ~/.zshrc                 |
+| _zshrc_ | $EDITOR ~/.zshrc             |
 | _h_     | history                      |
 | _j_     | jobs                         |
 | _p_     | (processes for current user) |
