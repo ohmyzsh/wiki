@@ -31,8 +31,9 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gcan!                | git commit -v -a -s --no-edit --amend                                                                                                   |
 | gcb                  | git checkout -b                                                                                                                         |
 | gcf                  | git config --list                                                                                                                       |
-| gcl                  | git clone --recursive                                                                                                                   |
-| gclean               | git reset --hard && git clean -dfx                                                                                                      |
+| gcl                  | git clone --recursive                                                                                                                                                                                                                        |
+| gclean               | git clean -df 
+|
 | gcm                  | git checkout master                                                                                                                     |
 | gcmsg                | git commit -m                                                                                                                           |
 | gco                  | git checkout                                                                                                                            |
@@ -75,7 +76,10 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gmum                 | git merge upstream/master                                                                                                               |
 | gp                   | git push                                                                                                                                |
 | gpd                  | git push --dry-run                                                                                                                      |
-| gpoat                | git push origin --all && git push origin --tags                                                                                         |
+| gpoat                | git push origin --all && git push origin --tags 
+|
+| gpristine            | git reset --hard && git clean -dfx 
+|                                                                                        |
 | gpu                  | git push upstream                                                                                                                       |
 | gpv                  | git push -v                                                                                                                             |
 | gr                   | git remote                                                                                                                              |
