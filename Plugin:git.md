@@ -32,9 +32,9 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gcb                  | git checkout -b                                                                                                                         |
 | gcf                  | git config --list                                                                                                                       |
 | gcl                  | git clone --recursive                                                                                                                                                                                                                        |
-| gclean               | git clean -df 
+| gclean               | git clean -df                            
 |
-| gcm                  | git checkout master                                                                                                                     |
+| gcm                  | git checkout master                                                                                                                       |
 | gcmsg                | git commit -m                                                                                                                           |
 | gco                  | git checkout                                                                                                                            |
 | gcount               | git shortlog -sn                                                                                                                        |
