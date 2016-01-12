@@ -25,6 +25,8 @@ See [Gist](https://gist.github.com/oshybystyi/2c30543cd48b2c9ecab0) for source.
 
 author: [@audy](https://github.com/audy), maintainer: [@oshybystyi](https://github.com/oshybystyi)
 
+fun fork: [emojiparty](https://gist.github.com/brennan-v-/3e9a26308948f11d651f)
+
 #### powerlevel9k
 
 ![powerlevel9k theme](https://camo.githubusercontent.com/bf2fb16475ebcd1e33b3cc3f9cc7c82e0d41b637/687474703a2f2f6268696c6275726e2e6f72672f636f6e74656e742f696d616765732f323031342f31322f706f7765726c6576656c396b2e706e67)
