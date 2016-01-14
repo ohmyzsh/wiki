@@ -78,7 +78,7 @@
 | [cake](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/cake)                   | CoffeeScript build tool                                                                     |
 | [coffee](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/coffee)               | CoffeeScript completion                                                                     |
 | [cpanm](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/cpanm)                 | cpanminus get, unpack, build, install Perl modules https://github.com/miyagawa/cpanminus/   |
-| [docker](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/docker)               | application shipment tool https://github.com/dotbutt/docker                                 |
+| [docker](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/docker)               | application shipment tool https://github.com/dotcloud/docker                                 |
 | [gas](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/gas)                     | small utility used to manage Git authors. https://github.com/walle/gas                      |
 | [git](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git)                     | extras: git-extras gitfast git-flow git-flow-avh git-hubflow git-remote-branch              |
 | [github](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/github)               | cli access, url shortener                                                                   |
@@ -180,7 +180,7 @@
 | [apache2-macports](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/apache2-macports) | apache management functions                                      |
 | [brew](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/brew)                         | package manger http://brew.sh/                                   |
 | [bwana](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/bwana)                       | allows to open manpages in browser http://www.bruji.com/bwana/   |
-| [buttapp](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/buttapp)                   | completion for buttapp http://getbuttapp.com/                    |
+| [cloudapp](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/cloudapp)                   | completion for cloudapp http://getcloudapp.com/                    |
 | [forklift](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/forklift)                 | MacOS file browser                                               |
 | [macports](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/macports)                 | macport autocompletion                                           |
 | [mysql-macports](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/mysql-macports)     | same as apache-macport for MySQL                                 |
