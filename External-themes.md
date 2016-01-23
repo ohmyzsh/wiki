@@ -29,8 +29,8 @@ fun fork: [emojiparty](https://gist.github.com/brennan-v-/3e9a26308948f11d651f)
 
 #### powerlevel9k
 
-![powerlevel9k theme](https://camo.githubusercontent.com/bf2fb16475ebcd1e33b3cc3f9cc7c82e0d41b637/687474703a2f2f6268696c6275726e2e6f72672f636f6e74656e742f696d616765732f323031342f31322f706f7765726c6576656c396b2e706e67)
-A Powerline theme for ZSH that was written from scratch to fix some of the speed issues in other feature-heavy themes. It has a lot of tunable style features (e.g., multi or single line prompts, color schemes), and also provides a lot of useful prompt segments for everything from Python virtualenv to your AWS instance.
+![powerlevel9k theme](https://camo.githubusercontent.com/80ec23fda88d2f445906a3502690f22827336736/687474703a2f2f692e696d6775722e636f6d2f777942565a51792e676966)
+A Powerline theme for ZSH that was written from scratch to address some of the speed issues in other feature-heavy themes. It comes with a great default setup, but is also highly configurable and can be heavily customized with built-in options. It also offers a large array of useful segments that you can add to your prompt, covering everything from Ruby versions to your AWS instance.
 
 See [Repo](https://github.com/bhilburn/powerlevel9k) for source & documentation.
 
