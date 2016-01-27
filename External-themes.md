@@ -138,3 +138,11 @@ author: [@hedgehog1029](http://github.com/hedgehog1029)
 
 source: [here](https://github.com/skuridin/oh-my-zsh-node-theme)
 author: [@skuridin](https://github.com/skuridin)
+
+#### classyTouch Theme
+
+![classyTouch](https://raw.githubusercontent.com/pr0tocol/classyTouch_oh-my-zsh/master/classyTouch.png)
+* A very minimal, clean theme with git support.
+
+source: [here](https://github.com/pr0tocol/classyTouch_oh-my-zsh)
+author: [@pr0tocol](https://github.com/pr0tocol)
