@@ -88,16 +88,14 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gdca_                 | git diff --cached                                                                 |
 | _gdt_                  | git diff-tree --no-commit-id --name-only -r                                       |
 | _gdt_                  | git difftool                                                                      |
-| _gfa_                  | git fetch --all --prune                                                                      |
+| _gfa_                  | git fetch --all --prune                                                           |
 | _gg_                   | git gui citool                                                                    |
 | _gga_                  | git gui citool --amend                                                            |
 | _ggpnp_                | git pull origin $(current_branch) && git push origin $(current_branch)            |
 | _ggpull_               | git pull origin $(current_branch)                                                 |
 | _ggl_                  | git pull origin $(current_branch)                                                 |
-| _ggpur_                | git pull --rebase origin $(current_branch)                                        
-|
-| _glum_                 | git pull upstream master                                    
-|
+| _ggpur_                | git pull --rebase origin $(current_branch)                                        |
+| _glum_                 | git pull upstream master                                                          |
 | _ggpush_               | git push origin $(current_branch)                                                 |
 | _ggp_                  | git push origin $(current_branch)                                                 |
 | _ggsup_                | git branch --set-upstream-to=origin/$(current_branch)                             |
@@ -142,7 +140,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gunwip_               | git log -n 1 | grep -q -c "\-\-wip\-\-" && git reset HEAD~1                       |
 | _gup_                  | git pull --rebase                                                                 |
 | _gvt_                  | git verify-tag                                                                    |
-| _gwch_                  | git whatchanged -p --abbrev-commit --pretty = medium                              |
+| _gwch_                 | git whatchanged -p --abbrev-commit --pretty = medium                              |
 | _gwip_                 | git add -A; git ls-files --deleted -z | xargs -r0 git rm; git commit -m "--wip--" |
 
 You also find these commands in Dash as a Cheat-sheet.
