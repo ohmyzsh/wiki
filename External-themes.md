@@ -146,3 +146,29 @@ author: [@skuridin](https://github.com/skuridin)
 
 source: [here](https://github.com/pr0tocol/classyTouch_oh-my-zsh)
 author: [@pr0tocol](https://github.com/pr0tocol)
+
+#### Spaceship
+
+![Spaceship](https://github.com/denysdovhan/spaceship-zsh-theme/raw/master/preview.png)
+
+Spaceship is an minimalistic and powerful theme. It combines everything you may need for convenient work, like a real spaceship.
+
+Currently it shows:
+
+* Current git branch.
+* Git repo status:
+  * `+` — uncommitted changes in the index;
+  * `!` — unstaged changes;
+  * `?` — untracked changes;
+  * `$` — stashed changes;
+  * `⇣` — unpulled commits;
+  * `⇡` — unpushed commits.
+* Prompt character turns red if the last command exits with non-zero code.
+* Hostname only displayed when in an SSH session.
+* Username displayed only when it isn't `$LOGNAME`.
+* Username turns red when root.
+* Current Node.js version, through NVM.
+* Current Python virtualenv.
+
+source: [here](https://github.com/denysdovhan/spaceship-zsh-theme)
+author: [@denysdovhan](https://github.com/denysdovhan)
