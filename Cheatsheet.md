@@ -123,7 +123,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _grmv_                 | git remote rename                                                                 |
 | _grrm_                 | git remote remove                                                                 |
 | _grset_                | git remote set-url                                                                |
-| _grt_                  | cd $(git rev-parse --show-toplevel || echo ".")                                   |
+| _grt_                  | cd $(git rev-parse --show-toplevel \|\| echo ".")                                   |
 | _grup_                 | git remote update                                                                 |
 | _grv_                  | git remote -v                                                                     |
 | _gsd_                  | git svn dcommit                                                                   |
