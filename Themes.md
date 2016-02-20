@@ -347,7 +347,7 @@ It is recommended to use with a dark background.
 
 ([more info](http://blog.ysmood.org/my-ys-terminal-theme/))
 
-![ys zsh-theme](https://cloud.githubusercontent.com/assets/1415488/13198182/53a2bd4a-d83d-11e5-950c-52d0c03651b5.jpg)
+![ys-zsh-theme](https://cloud.githubusercontent.com/assets/1415488/13198576/6d97dba4-d847-11e5-9a76-15c8c4a33bde.jpg)
 
 
 ### zhann
