@@ -1512,5 +1512,5 @@ wd show
 ```
 ###### _List all warp points (stored in `~/.warprc`):_
 ```
-wd ls
+wd list
 ```
