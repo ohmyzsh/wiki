@@ -33,7 +33,7 @@ Many completion problems, including the infamous `command not found: compdef`, c
 2. If you still have problems, try fully resetting the completion system, as explained by
     [**@dragon788**](https://github.com/robbyrussell/oh-my-zsh/issues/630#issuecomment-70291622).
 
-### Everything else
+### Other problems
 
 As a last resort, if you're getting weird behavior and can't find the culprit, run the following command to enable debug mode:
 ```shell
