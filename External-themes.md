@@ -196,3 +196,14 @@ It currently shows:
 See [Repo](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) for source
 
 author: [@zakaziko99](https://github.com/zakaziko99)
+
+#### Nodeys
+
+![Nodeys theme](https://raw.githubusercontent.com/marszall87/nodeys-zsh-theme/master/screenshot.png)
+
+Nodeys is a theme based on fantastic ys theme, with added NodeJS version (from NVM plugin).
+
+source: [Repo](https://github.com/marszall87/nodeys-zsh-theme) for source
+
+author: [@marszall87](https://github.com/marszall87)
+
