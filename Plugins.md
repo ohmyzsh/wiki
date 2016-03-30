@@ -43,7 +43,7 @@ Enabled [aliases](https://wiki.archlinux.org/index.php/Pacman_Tips) for `pacman`
 | _pacin_   | Install specific package(s) from the repositories                                         |
 | _pacins_  | Install specific package not from the repositories but from a file                        |
 | _pacre_   | Remove the specified package(s), retaining its configuration(s) and required dependencies |
-| _pacrem_   | Remove the specified package(s), its configuration(s) and unneeded dependencies           |
+| _pacrem_  | Remove the specified package(s), its configuration(s) and unneeded dependencies           |
 | _pacrep_  | Display information about a given package in the repositories                             |
 | _pacreps_ | Search for package(s) in the repositories                                                 |
 | _pacloc_  | Display information about a given package in the local database                           |
@@ -59,6 +59,15 @@ Enabled [aliases](https://wiki.archlinux.org/index.php/Pacman_Tips) for `pacman`
 | _paclsorphans_           | List all orphaned packages                                                                                         | 
 | _pacrmorphans_           | Delete all orphaned packages                                                                                       |
 | _pacdisowned \| less +F_ | List all disowned files in your system                                                                             |
+
+---
+
+## asdf
+
+A plugin for the _extendable version manager_ [asdf](https://github.com/asdf-vm/asdf).
+See the [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/asdf) for usage information.
+
+**Maintainer:** [RobLoach](https://github.com/RobLoach)
 
 ---
 
