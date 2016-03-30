@@ -507,6 +507,14 @@ $ decode64 c29tZV9zdHJpbmc=
 
 ---
 
+## geeknote 
+
+**Maintainer:** [Ján Koščo](https://github.com/s7anley)
+
+See the [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/geeknote) for more info.
+
+---
+
 ## gem
 
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
