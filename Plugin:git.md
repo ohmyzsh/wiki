@@ -53,7 +53,7 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | ggpush               | ggp                                                                                                                                     |
 | ggsup                | git branch --set-upstream-to = origin/$(current_branch)                                                                                 |
 | gignore              | git update-index --assume-unchanged                                                                                                     |
-| gignored             | git ls-files -v \| grep "^[[:lower:]]"                                                                                                  |
+| gignored             | `git ls-files -v \| grep "^[[:lower:]]"`                                                                                                  |
 | git-svn-dcommit-push | git svn dcommit && git push github master:svntrunk                                                                                      |
 | gk                   | \gitk --all --branches                                                                                                                  |
 | gke                  | \gitk --all $(git log -g --pretty = format:%h)                                                                                          |
