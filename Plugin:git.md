@@ -1,6 +1,6 @@
 ## The git Plugin
 
-The [git](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git) plugin provides many [aliases](#Aliases) and a few useful [functions](#Functions).
+The [git](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git) plugin provides many [aliases](#aliases) and a few useful [functions](#functions).
 
 Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrussell/oh-my-zsh/blob/master/templates/zshrc.zsh-template#L48) before sourcing OMZ (see [[Plugins]]).
 
