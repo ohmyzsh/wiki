@@ -84,7 +84,7 @@ It currently shows:
 See [Repo](https://github.com/andela-abankole/chi) for source
 
 
-author: [Akinjide Bankole](https://github.com/andela-abankole)/[@JideBhanks](https://twitter.com/JideBhanks)
+author: [Akinjide Bankole](https://github.com/andela-abankole)/[@_akinjide](https://twitter.com/_akinjide)
 
 #### Haribo theme
 
