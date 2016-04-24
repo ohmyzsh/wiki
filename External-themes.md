@@ -248,3 +248,22 @@ A clean, distraction free and git focused development theme.
 See [Repo](https://github.com/lenguyenthanh/nt9-oh-my-zsh-theme) for source.
 
 author: [@lenguyenthanh](https://github.com/lenguyenthanh)
+
+#### geometry
+
+![geometry](https://raw.githubusercontent.com/frmendes/geometry/master/screenshots/geometry.png)
+
+A minimal theme based on Avit & Pure.
+
+##### What it does:
+
+* display current git branch
+* display state (clean/dirty) of the repo
+* display coloured time since last commit (similar to Avit)
+* display arrows indicating if you need to pull, push or if you are mid-rebase
+* set the terminal title to current command and directory (similar to Pure)
+* change marker based on last command state (similar to Pure)
+
+See [repo](https://github.com/frmendes/geometry) for source.
+
+author: [@frmendes](https://github.com/frmendes)
