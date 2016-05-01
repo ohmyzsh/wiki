@@ -160,6 +160,7 @@
 | [fabric](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/fabric)                       | remote deployment tool http://docs.fabfile.org/en/1.8/           |
 | [pip](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/pip)                             | Python package manager http://www.pip-installer.org/en/latest/   |
 | [python](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/python)                       | python aliases (pyfind, pyclean, pygrep)                         |
+| [pyenv](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/pyenv)                         | python version management                                        |
 | [virtualenv](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/virtualenv)               | https://pypi.python.org/pypi/virtualenv isolated Python envs     |
 | [virtualenvwrapper](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/virtualenvwrapper) | https://pypi.python.org/pypi/virtualenv isolated Python envs     |
 
