@@ -117,6 +117,7 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gunwip               | git log -n 1 \| grep -q -c "\-\-wip\-\-" && git reset HEAD~1                                                                            |
 | gup                  | git pull --rebase                                                                                                                       |
 | gupv                 | git pull --rebase -v                                                                                                                    |
+| glum                 | git pull upstream master                                                                                                                    |
 | gvt                  | git verify-tag                                                                                                                          |
 | gwch                 | git whatchanged -p --abbrev-commit --pretty = medium                                                                                    |
 | gwip                 | git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit -m "--wip--"                                                      |
