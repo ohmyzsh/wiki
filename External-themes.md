@@ -176,10 +176,10 @@ author: [@denysdovhan](https://github.com/denysdovhan)
 
 #### Zeta Theme
 
-![zeta theme](https://raw.githubusercontent.com/rydmonlee/zeta-zsh-theme/master/screenshot.png)
+![zeta theme](https://raw.githubusercontent.com/skylerlee/zeta-zsh-theme/master/screenshot.png)
 
-source: [here](https://github.com/rydmonlee/zeta-zsh-theme)
-author: [@rydmonlee](https://github.com/rydmonlee)
+source: [here](https://github.com/skylerlee/zeta-zsh-theme)
+author: [@skylerlee](https://github.com/skylerlee)
 
 #### AgnosterZak
 
