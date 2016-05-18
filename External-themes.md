@@ -151,7 +151,7 @@ author: [@pr0tocol](https://github.com/pr0tocol)
 
 ![Spaceship](https://github.com/denysdovhan/spaceship-zsh-theme/raw/master/preview.png)
 
-Spaceship is an minimalistic and powerful theme. It combines everything you may need for convenient work, like a real spaceship.
+Spaceship is an minimalistic and powerful theme. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship. 
 
 Currently it shows:
 
