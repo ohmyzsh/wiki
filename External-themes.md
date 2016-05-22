@@ -1,12 +1,8 @@
-## A list of Themes that don't come bundled with oh-my-zsh
-
-Due to necessity to come up with better way to import themes into oh my zsh (according to [this](https://github.com/robbyrussell/oh-my-zsh/pull/1899#issuecomment-29688978)) the pull requests with new themes are not accepted ([source](https://github.com/robbyrussell/oh-my-zsh/#do-not-send-us-themes)).
+Due to the massive amount of themes bundled with OMZ, [new themes are not accepted](https://github.com/robbyrussell/oh-my-zsh/#do-not-send-us-themes). This is a list of other themes that are compatible with Oh My Zsh that live in their own separate repository.
 
 ### Installation
 
-Instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-and-adding-themes)
-
-### The Themes
+Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
 #### xxf
