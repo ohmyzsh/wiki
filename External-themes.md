@@ -263,3 +263,13 @@ A minimal theme based on Avit & Pure.
 See [repo](https://github.com/frmendes/geometry) for source.
 
 author: [@frmendes](https://github.com/frmendes)
+
+#### avit-da2k
+
+![avit-da2k](https://raw.githubusercontent.com/fdaciuk/avit-da2k/master/dots.png)
+
+A theme based on Avit, with small changes.
+
+See [repo](https://github.com/fdaciuk/avit-da2k) for source.
+
+author: [@fdaciuk](https://github.com/fdaciuk)
