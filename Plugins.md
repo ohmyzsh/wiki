@@ -330,7 +330,6 @@ Collection of useful zsh aliases, not enabled by default since they may change s
 | _lrt_   | ls -1Fcrt                    |
 | _zshrc_ | $EDITOR ~/.zshrc             |
 | _h_     | history                      |
-| _j_     | jobs                         |
 | _p_     | (processes for current user) |
 
 ##### _Alias to place at the end of command:_
