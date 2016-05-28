@@ -77,13 +77,6 @@ To use: In the right prompt you see git status and (if you use nvm) the Node.js 
 ### crunch
 [![crunch](https://cloud.githubusercontent.com/assets/2618447/6316722/51b1f4b2-ba00-11e4-9ebf-1359aa272fbd.png)](https://cloud.githubusercontent.com/assets/2618447/6316722/51b1f4b2-ba00-11e4-9ebf-1359aa272fbd.png)
 
-### cordial
-[![cordial](https://raw.githubusercontent.com/stevelacy/cordial-zsh-theme/master/screenshot.png)](https://raw.githubusercontent.com/stevelacy/cordial-zsh-theme/master/screenshot.png)
-
-Additional setup:
-- install [node.js](https://nodejs.org/) to parse `package.json` files
-- [github repository](https://github.com/stevelacy/cordial-zsh-theme)
-
 ### cypher
 [![cypher](https://cloud.githubusercontent.com/assets/2618447/6316864/70f5c09e-ba03-11e4-90c3-c539e09c6cc9.jpg)](https://cloud.githubusercontent.com/assets/2618447/6316864/70f5c09e-ba03-11e4-90c3-c539e09c6cc9.jpg)
 
