@@ -100,7 +100,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _ggp_                  | git push origin $(current_branch)                                                 |
 | _ggsup_                | git branch --set-upstream-to=origin/$(current_branch)                             |
 | _gignore_              | git update-index --assume-unchanged                                               |
-| _gignored_             | git ls-files -v | grep "^[[:lower:]]"                                             |
+| _gignored_             | git ls-files -v &#124; grep "^[[:lower:]]"                                        |
 | _git-svn-dcommit-push_ | git svn dcommit && git push github master:svntrunk                                |
 | _gk_                   | gitk --all --branches                                                             |
 | _gl_                   | git pull                                                                          |
@@ -123,7 +123,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _grmv_                 | git remote rename                                                                 |
 | _grrm_                 | git remote remove                                                                 |
 | _grset_                | git remote set-url                                                                |
-| _grt_                  | cd $(git rev-parse --show-toplevel \|\| echo ".")                                   |
+| _grt_                  | cd $(git rev-parse --show-toplevel &#124;&#124; echo ".")                         |
 | _grup_                 | git remote update                                                                 |
 | _grv_                  | git remote -v                                                                     |
 | _gsd_                  | git svn dcommit                                                                   |
@@ -137,11 +137,11 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gsts_                 | git stash show --text                                                             |
 | _gts_                  | git tag -s                                                                        |
 | _gunignore_            | git update-index --no-assume-unchanged                                            |
-| _gunwip_               | git log -n 1 | grep -q -c "\-\-wip\-\-" && git reset HEAD~1                       |
+| _gunwip_               | git log -n 1 &#124; grep -q -c "\-\-wip\-\-" && git reset HEAD~1                  |
 | _gup_                  | git pull --rebase                                                                 |
 | _gvt_                  | git verify-tag                                                                    |
 | _gwch_                 | git whatchanged -p --abbrev-commit --pretty = medium                              |
-| _gwip_                 | git add -A; git ls-files --deleted -z | xargs -r0 git rm; git commit -m "--wip--" |
+| _gwip_                 | git add -A; git ls-files --deleted -z &#124; xargs -r0 git rm; git commit -m "--wip--" |
 
 You also find these commands in Dash as a Cheat-sheet.
 
@@ -177,3 +177,4 @@ You also find these commands in Dash as a Cheat-sheet.
 | _sc-restart NAME_ | restart the NAME process                 |
 | _sc-enable NAME_  | enable the NAME process to start at boot |
 | _sc-disable NAME_ | disable the NAME process at boot         |
+
