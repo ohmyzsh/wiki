@@ -95,7 +95,7 @@ Activates the ZSH completion plugin shipped together with the [aws command-line 
 
 | Alias | Description                                                                                                                                                                 |
 |:------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| asp   | Choose the current AWS credentials profile from those defined in .aws/config, with auto-completion support. Also makes the currently set plugin to be shown in the RPROMPT. |
+| asp   | Choose the current AWS credentials profile from those defined in .aws/config, with auto-completion support. Also makes the currently set profile to be shown in the RPROMPT. |
 | agp   | Print the currently set AWS credentials profile.                                                                                                                            |
 
 ---
