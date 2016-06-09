@@ -131,8 +131,10 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gsr_                  | git svn rebase                                                                    |
 | _gss_                  | git status -s                                                                     |
 | _gst_                  | git status                                                                        |
-| _gsta_                 | git stash                                                                         |
+| _gsta_                 | git stash save                                                                    |
+| _gstaa_                | git stash apply                                                                   |
 | _gstd_                 | git stash drop                                                                    |
+| _gstl_                 | git stash list                                                                    |
 | _gstp_                 | git stash pop                                                                     |
 | _gsts_                 | git stash show --text                                                             |
 | _gts_                  | git tag -s                                                                        |
