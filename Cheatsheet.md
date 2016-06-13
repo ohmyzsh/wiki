@@ -160,10 +160,10 @@ You also find these commands in Dash as a Cheat-sheet.
 |:-------------|:----------------------------|
 | _sf_         | php ./app/console           |
 | _sfcl_       | php app/console cache:clear |
-| _sfcontainer | sf container:debug          |
+| _sfcontainer | sf debug:container          |
 | _sfcw_       | sf cache:warmup             |
 | _sfgb_       | sf generate:bundle          |
-| _sfroute_    | sf router:debug             |
+| _sfroute_    | sf debug:router             |
 | _sfsr        | sf server:run -vvv          |
 
 ## Systemd
