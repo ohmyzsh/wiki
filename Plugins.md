@@ -902,6 +902,7 @@ Enhances the [Nanoc](http://nanoc.stoneship.org/) static site generator with ali
 | Command       | Description                                    |
 |:--------------|:-----------------------------------------------|
 | _tab_         | open the current directory in a new tab        |
+| _ofd_         | open the current directory in a Finder window  |
 | _pfd_         | return the path of the frontmost Finder window |
 | _pfs_         | return the current Finder selection            |
 | _cdf_         | cd to the current Finder directory             |
