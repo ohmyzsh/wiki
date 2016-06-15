@@ -897,18 +897,20 @@ Enhances the [Nanoc](http://nanoc.stoneship.org/) static site generator with ali
 
 ## osx
 
-**Maintainers:** [robbyrussell](https://github.com/robbyrussell) [sorin-ionescu](https://github.com/sorin-ionescu)
-
 | Command       | Description                                    |
 |:--------------|:-----------------------------------------------|
-| _tab_         | open the current directory in a new tab        |
-| _ofd_         | open the current directory in a Finder window  |
-| _pfd_         | return the path of the frontmost Finder window |
-| _pfs_         | return the current Finder selection            |
-| _cdf_         | cd to the current Finder directory             |
-| _pushdf_      | pushd to the current Finder directory          |
-| _quick-look_  | quick Look a specified file                    |
-| _man-preview_ | open a specified man page in Preview           |
+| `tab`         | Open the current directory in a new tab        |
+| `ofd`         | Open the current directory in a Finder window  |
+| `pfd`         | Return the path of the frontmost Finder window |
+| `pfs`         | Return the current Finder selection            |
+| `cdf`         | `cd` to the current Finder directory           |
+| `pushdf`      | `pushd` to the current Finder directory        |
+| `quick-look`  | Quick-Look a specified file                    |
+| `man-preview` | Open a specified man page in Preview app       |
+
+See the [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/osx) for more information.
+
+**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
 ---
 
