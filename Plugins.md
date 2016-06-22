@@ -875,7 +875,7 @@ Enhances the [Nanoc](http://nanoc.stoneship.org/) static site generator with ali
 
 | Command               | Description                                                                                                 |
 |:----------------------|:------------------------------------------------------------------------------------------------------------|
-| _node-docs_ [SECTION] | open the [node api](http://nodejs.org/docs/v0.4.8/api/all.html), for your current version, in your browser. |
+| _node-docs_ [SECTION] | open the [node api](https://nodejs.org/docs/v6.2.2/api/all.html), for your current version, in your browser. |
 
 ---
 
