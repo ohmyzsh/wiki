@@ -180,3 +180,9 @@ You also find these commands in Dash as a Cheat-sheet.
 | _sc-enable NAME_  | enable the NAME process to start at boot |
 | _sc-disable NAME_ | disable the NAME process at boot         |
 
+## Upgrade
+To upgrade .oh-my-zsh, run:
+``` bash
+upgrade_oh_my_zsh
+```
+(Solution from [this answer on Stack Overflow](http://stackoverflow.com/a/19726329/2145103).)
