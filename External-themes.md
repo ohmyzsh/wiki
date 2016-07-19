@@ -299,6 +299,6 @@ author: [@kimwz](https://github.com/kimwz)
 
 Simple and clean, visualizing return code.
 
-See [hub23/oh-my-zsh-theme-hub](https://github.com/hub23/oh-my-zsh-theme-hub) for source.
+See [repo](https://github.com/hub23/oh-my-zsh-theme-hub) for source.
 
 author: [@hub23](https://github.com/hub23)
