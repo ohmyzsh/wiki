@@ -297,7 +297,7 @@ author: [@kimwz](https://github.com/kimwz)
 
 ![hub animated preview](https://raw.githubusercontent.com/hub23/oh-my-zsh-theme-hub/master/preview.gif)
 
-* Simple and clean, visualizing return code.
+Simple and clean, visualizing return code.
 
 See [hub23/oh-my-zsh-theme-hub](https://github.com/hub23/oh-my-zsh-theme-hub) for source.
 
