@@ -120,6 +120,19 @@ See [odin](https://github.com/tylerreckart/odin) for source.
 
 author: [@tylerreckart](https://github.com/tylerreckart)
 
+#### HYPERZSH theme
+
+![hyperzsh](https://raw.githubusercontent.com/tylerreckart/hyperzsh/master/screenshot.gif)
+- Git status
+- Timestamp
+- Current directory
+- Background jobs
+- Exit code of last command
+
+See [hyperzsh](https://github.com/tylerreckart/hyperzsh) for source.
+
+author: [@tylerreckart](https://github.com/tylerreckart)
+
 #### Lambda (Mod) theme
 
 ![Screenshot](https://raw.githubusercontent.com/halfo/lambda-mod-zsh-theme/master/screenshot.png)
