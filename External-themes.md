@@ -315,3 +315,20 @@ Simple and clean, visualizing return code.
 See [gist](https://gist.github.com/hub23/c226b1c77446e099f7684b0d21c6b22a) for source.
 
 author: [@hub23](https://github.com/hub23)
+
+#### Punctual
+
+![Screenshot of Punctual in action](https://raw.githubusercontent.com/dannynimmo/punctual-zsh-theme/master/screenshot.png)
+
+A simple, informative prompt built with Solarized colours in mind.
+
+##### Features
+
+* Customisable colours & output
+* Git branch & status display
+* Username turns red when root
+* Prompt turns red if the last command finishes with non-zero exit code
+
+See [repo](https://github.com/dannynimmo/punctual-zsh-theme) for installation.
+
+By [Danny](https://github.com/dannynimmo).
