@@ -161,8 +161,8 @@ author: [@skuridin](https://github.com/skuridin)
 ![classyTouch](https://raw.githubusercontent.com/pr0tocol/classyTouch_oh-my-zsh/master/classyTouch.png)
 * A very minimal, clean theme with git support.
 
-source: [here](https://github.com/pr0tocol/classyTouch_oh-my-zsh)
-author: [@pr0tocol](https://github.com/pr0tocol)
+source: [here](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh)
+author: [@pr0tocol](https://github.com/yarisgutierrez)
 
 #### Spaceship
 
