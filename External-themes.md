@@ -162,7 +162,7 @@ author: [@skuridin](https://github.com/skuridin)
 * A very minimal, clean theme with git support.
 
 source: [here](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh)
-author: [@pr0tocol](https://github.com/yarisgutierrez)
+author: [@yarisgutierrez](https://github.com/yarisgutierrez)
 
 #### Spaceship
 
