@@ -52,6 +52,7 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | ggpur                | ggu                                                                                                                                     |
 | ggpush               | ggp                                                                                                                                     |
 | ggsup                | git branch --set-upstream-to = origin/$(current_branch)                                                                                 |
+| gpsup                | git push --set-upstream origin $(current_branch)                                                                                 |
 | gignore              | git update-index --assume-unchanged                                                                                                     |
 | gignored             | `git ls-files -v \| grep "^[[:lower:]]"`                                                                                                  |
 | git-svn-dcommit-push | git svn dcommit && git push github master:svntrunk                                                                                      |
