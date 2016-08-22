@@ -6,8 +6,8 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 
 ## Aliases
 
-| Alias                | Command                                                                                                                                   |
-|:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
+| Alias                | Command                                                                                                                                 |
+|:---------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
 | g                    | git                                                                                                                                     |
 | ga                   | git add                                                                                                                                 |
 | gaa                  | git add --all                                                                                                                           |
@@ -25,19 +25,22 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gbss                 | git bisect start                                                                                                                        |
 | gc                   | git commit -v                                                                                                                           |
 | gc!                  | git commit -v --amend                                                                                                                   |
-| gca                  | git commit -v -a
-| gcam                 | git commit -a -m                                                                                                                         |
+| gca                  | git commit -v -a                                                                                                                        |
+| gcam                 | git commit -a -m                                                                                                                        |
 | gca!                 | git commit -v -a --amend                                                                                                                |
 | gcan!                | git commit -v -a -s --no-edit --amend                                                                                                   |
 | gcb                  | git checkout -b                                                                                                                         |
 | gcf                  | git config --list                                                                                                                       |
-| gcl                  | git clone --recursive                                                                                                                                                                                                                        |
-| gclean               | git clean -df                                                                                                                                                                                                                       |
-| gcm                  | git checkout master                                                                                                                       |
+| gcl                  | git clone --recursive                                                                                                                   |
+| gclean               | git clean -df                                                                                                                           |
+| gcm                  | git checkout master                                                                                                                     |
+| gcd                  | git checkout develop                                                                                                                    |
 | gcmsg                | git commit -m                                                                                                                           |
 | gco                  | git checkout                                                                                                                            |
 | gcount               | git shortlog -sn                                                                                                                        |
 | gcp                  | git cherry-pick                                                                                                                         |
+| gcpa                 | git cherry-pick --abort                                                                                                                 |
+| gcpc                 | git cherry-pick --continue                                                                                                              |
 | gcs                  | git commit -S                                                                                                                           |
 | gd                   | git diff                                                                                                                                |
 | gdca                 | git diff --cached                                                                                                                       |
@@ -48,13 +51,14 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gfo                  | git fetch origin                                                                                                                        |
 | gg                   | git gui citool                                                                                                                          |
 | gga                  | git gui citool --amend                                                                                                                  |
+| ghh                  | git help                                                                                                                                |
 | ggpull               | ggl                                                                                                                                     |
 | ggpur                | ggu                                                                                                                                     |
 | ggpush               | ggp                                                                                                                                     |
 | ggsup                | git branch --set-upstream-to = origin/$(current_branch)                                                                                 |
-| gpsup                | git push --set-upstream origin $(current_branch)                                                                                 |
+| gpsup                | git push --set-upstream origin $(current_branch)                                                                                        |
 | gignore              | git update-index --assume-unchanged                                                                                                     |
-| gignored             | `git ls-files -v \| grep "^[[:lower:]]"`                                                                                                  |
+| gignored             | git ls-files -v \| grep "^[[:lower:]]"                                                                                                  |
 | git-svn-dcommit-push | git svn dcommit && git push github master:svntrunk                                                                                      |
 | gk                   | \gitk --all --branches                                                                                                                  |
 | gke                  | \gitk --all $(git log -g --pretty = format:%h)                                                                                          |
@@ -76,10 +80,8 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gmum                 | git merge upstream/master                                                                                                               |
 | gp                   | git push                                                                                                                                |
 | gpd                  | git push --dry-run                                                                                                                      |
-| gpoat                | git push origin --all && git push origin --tags 
-|
-| gpristine            | git reset --hard && git clean -dfx 
-|                                                                                        |
+| gpoat                | git push origin --all && git push origin --tags                                                                                         |
+| gpristine            | git reset --hard && git clean -dfx                                                                                                      |
 | gpu                  | git push upstream                                                                                                                       |
 | gpv                  | git push -v                                                                                                                             |
 | gr                   | git remote                                                                                                                              |
@@ -111,6 +113,7 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gstd                 | git stash drop                                                                                                                          |
 | gstl                 | git stash list                                                                                                                          |
 | gstp                 | git stash pop                                                                                                                           |
+| gstc                 | git stash clear                                                                                                                         |
 | gsts                 | git stash show --text                                                                                                                   |
 | gsu                  | git submodule update                                                                                                                    |
 | gts                  | git tag -s                                                                                                                              |
@@ -118,7 +121,7 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gunwip               | git log -n 1 \| grep -q -c "\-\-wip\-\-" && git reset HEAD~1                                                                            |
 | gup                  | git pull --rebase                                                                                                                       |
 | gupv                 | git pull --rebase -v                                                                                                                    |
-| glum                 | git pull upstream master                                                                                                                    |
+| glum                 | git pull upstream master                                                                                                                |
 | gvt                  | git verify-tag                                                                                                                          |
 | gwch                 | git whatchanged -p --abbrev-commit --pretty = medium                                                                                    |
 | gwip                 | git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit -m "--wip--"                                                      |
