@@ -121,6 +121,7 @@ Below is a list of bundled plugins
 - [terminalapp](#terminalapp)
 - [terminitor](#terminitor)
 - [textmate](#textmate)
+- [tig](#tig)
 - [thor](#thor)
 - [tmux](#tmux)
 - [tmuxinator](#tmuxinator)
@@ -1412,6 +1413,12 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 | _etts_           | mate app config lib db public script spec test vendor/plugins vendor/gems Rakefile Capfile Todo |
 | _mr_             | mate CHANGELOG app config db lib public script spec test                                        |
 | _tm_ [directory] | changes to specified directory and executes `mate .`                                            |
+
+---
+
+## tig
+
+Adds aliases for `tig`. See [the README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/tig) for more information.
 
 ---
 
