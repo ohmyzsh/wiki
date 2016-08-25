@@ -30,6 +30,7 @@ Below is a list of bundled plugins
 - [cabal](#cabal)
 - [cake](#cake)
 - [capistrano](#capistrano)
+- [cask](#cask)
 - [catimg](#catimg)
 - [celery](#celery)
 - [chruby](#chruby)
@@ -298,6 +299,17 @@ Commands for [Cake](http://jashkenas.github.com/coffee-script/#cake), the coffee
 Commands for [Capistrano](https://github.com/capistrano/capistrano/wiki), a deployment tool built in Ruby.
 
 - cap -- a few commands for Capistrano, a deployment tool built in Ruby
+
+---
+
+## cask
+
+**Maintainer:** [mcornella](https://github.com/mcornella)
+
+Loads completion from non-standard locations for [`cask`, a project management tool
+for Emacs](https://github.com/cask/cask).
+
+For more information see [the README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/cask).
 
 ---
 
