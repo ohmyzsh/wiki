@@ -170,12 +170,12 @@ You also find these commands in Dash as a Cheat-sheet.
 
 | Alias | Command             |
 |:------|:--------------------|
-| ta    | tmux attach -t      |
-| tad   | tmux attach -d -t   |
-| ts    | tmux new-session -s |
-| tl    | tmux list-sessions  |
-| tksv  | tmux kill-server    |
-| tkss  | tmux kill-session -t|
+| _ta_    | tmux attach -t      |
+| _tad_   | tmux attach -d -t   |
+| _ts_    | tmux new-session -s |
+| _tl_    | tmux list-sessions  |
+| _tksv_  | tmux kill-server    |
+| _tkss_  | tmux kill-session -t|
 
 ## Systemd
 
