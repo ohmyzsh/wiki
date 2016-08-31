@@ -164,7 +164,7 @@ You also find these commands in Dash as a Cheat-sheet.
 | _sfcw_       | sf cache:warmup             |
 | _sfgb_       | sf generate:bundle          |
 | _sfroute_    | sf debug:router             |
-| _sfsr-       | sf server:run -vvv          |
+| _sfsr_       | sf server:run -vvv          |
 
 ## tmux
 
