@@ -90,6 +90,7 @@ Below is a list of bundled plugins
 - [pass](#pass)
 - [per-directory-history](#per-directory-history)
 - [perl](#perl)
+- [perms](#perms)
 - [pep8](#pep8)
 - [phing](#phing)
 - [pip](#pip)
@@ -1066,6 +1067,14 @@ per-directory-history - tracks previous command history both per current directo
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
 - perl - useful shortcuts for perlbrew, perldoc, and perl one-liners
+
+---
+
+## perms
+
+**Maintainer:** [Rory Hardy](https://github.com/gneatgeek)
+
+Plugin to handle some unix filesystem permissions quickly
 
 ---
 
