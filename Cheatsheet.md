@@ -160,22 +160,22 @@ You also find these commands in Dash as a Cheat-sheet.
 |:-------------|:----------------------------|
 | _sf_         | php ./app/console           |
 | _sfcl_       | php app/console cache:clear |
-| _sfcontainer | sf debug:container          |
+| _sfcontainer_| sf debug:container          |
 | _sfcw_       | sf cache:warmup             |
 | _sfgb_       | sf generate:bundle          |
 | _sfroute_    | sf debug:router             |
-| _sfsr        | sf server:run -vvv          |
+| _sfsr-       | sf server:run -vvv          |
 
 ## tmux
 
 | Alias | Command             |
 |:------|:--------------------|
-| _ta_    | tmux attach -t      |
-| _tad_   | tmux attach -d -t   |
-| _ts_    | tmux new-session -s |
-| _tl_    | tmux list-sessions  |
-| _tksv_  | tmux kill-server    |
-| _tkss_  | tmux kill-session -t|
+| _ta_  | tmux attach -t      |
+| _tad_ | tmux attach -d -t   |
+| _ts_  | tmux new-session -s |
+| _tl_  | tmux list-sessions  |
+| _tksv_| tmux kill-server    |
+| _tkss_| tmux kill-session -t|
 
 ## Systemd
 
