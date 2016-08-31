@@ -166,6 +166,17 @@ You also find these commands in Dash as a Cheat-sheet.
 | _sfroute_    | sf debug:router             |
 | _sfsr        | sf server:run -vvv          |
 
+## tmux
+
+| Alias | Command             |
+|:------|:--------------------|
+| ta    | tmux attach -t      |
+| tad   | tmux attach -d -t   |
+| ts    | tmux new-session -s |
+| tl    | tmux list-sessions  |
+| tksv  | tmux kill-server    |
+| tkss  | tmux kill-session -t|
+
 ## Systemd
 
 ### systemctl
