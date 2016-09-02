@@ -52,6 +52,10 @@ Shown in the screenshot with tmux and the [powerline plugin](https://github.com/
 ### avit
 [![avit](https://cloud.githubusercontent.com/assets/2618447/6316718/51a2fd9a-ba00-11e4-845a-24bed6ae9210.png)](https://cloud.githubusercontent.com/assets/2618447/6316718/51a2fd9a-ba00-11e4-845a-24bed6ae9210.png)
 
+### awesomepanda
+[![awesomepanda](https://cloud.githubusercontent.com/assets/760855/18191406/2cb2e21e-70f4-11e6-83f0-42096ff33cfd.png)](https://cloud.githubusercontent.com/assets/760855/18191406/2cb2e21e-70f4-11e6-83f0-42096ff33cfd.png)
+
+
 ### bira
 [![bira](https://cloud.githubusercontent.com/assets/2618447/6316716/51a0708e-ba00-11e4-8664-11a804f2fe3f.png)](https://cloud.githubusercontent.com/assets/2618447/6316716/51a0708e-ba00-11e4-8664-11a804f2fe3f.png)
 
