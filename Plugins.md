@@ -46,6 +46,7 @@ Below is a list of bundled plugins
 - [dircycle](#dircycle)
 - [dirhistory](#dirhistory)
 - [dirpersist](#dirpersist)
+- [django](#django)
 - [dnf](#dnf)
 - [docker](#docker)
 - [encode64](#encode64)
@@ -551,6 +552,15 @@ Currently the max history size is 100. The navigation should work for xterm, PuT
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
 - dirpersist
+
+---
+
+## dirpersist
+
+**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+
+Adds completion for [django and `manage.py`](https://www.djangoproject.com/).
+[See for more info](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/django).
 
 ---
 
