@@ -555,7 +555,7 @@ Currently the max history size is 100. The navigation should work for xterm, PuT
 
 ---
 
-## dirpersist
+## django
 
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
