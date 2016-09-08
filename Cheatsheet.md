@@ -43,6 +43,26 @@ source ~/.oh-my-zsh/templates/zshrc.zsh-template
 
 See `~/.oh-my-zsh/lib/directories.zsh`
 
+### Alias
+example: 
+
+```bash
+alias -s rb=vim #opens ruby files in vim
+# $ foo.rb 
+# vim => foo.rb
+alias -g gp='| grep -i' #creates a global alias for grep
+# $ ps ax gp ruby
+# (all ruby process will be displayed)
+```
+
+| Flag  | Description                                     |
+|:------|:------------------------------------------------|
+| L     | print each alias in the form of calls to alias  |
+| g     | list or define global aliases                   |
+| m     | print aliases matching specified pattern        |
+| r     | list or define regular aliases                  |
+| s     | list or define suffix aliases                   |
+
 ## Tab-completion
 
 | For options and helpful text of what they do |
