@@ -150,11 +150,6 @@ it’s funky…
 ### gnzh
 [![gnzh](https://cloud.githubusercontent.com/assets/2618447/6316735/51c62b1c-ba00-11e4-8107-fb532db89c7d.png)](https://cloud.githubusercontent.com/assets/2618447/6316735/51c62b1c-ba00-11e4-8107-fb532db89c7d.png)
 
-### Honukai
-[![Honukai](https://cloud.githubusercontent.com/assets/34213/11912137/aa0d81be-a62f-11e5-90ab-bf9bfc7a56f0.png)](https://cloud.githubusercontent.com/assets/34213/11912137/aa0d81be-a62f-11e5-90ab-bf9bfc7a56f0.png)
-
-Additional eye-candy in the **[source repo](https://github.com/oskarkrawczyk/honukai-iterm-zsh)**.
-
 ### imajes
 [![imajes](https://cloud.githubusercontent.com/assets/2618447/6316870/710289f0-ba03-11e4-9482-25742645379d.jpg)](https://cloud.githubusercontent.com/assets/2618447/6316870/710289f0-ba03-11e4-9482-25742645379d.jpg)
 
