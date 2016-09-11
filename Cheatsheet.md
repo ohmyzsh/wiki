@@ -120,7 +120,7 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _ggp_                  | git push origin $(current_branch)                                                 |
 | _ggsup_                | git branch --set-upstream-to=origin/$(current_branch)                             |
 | _gignore_              | git update-index --assume-unchanged                                               |
-| _gignored_             | git ls-files -v &#124; grep "^[[:lower:]]"                                        |
+| _gignored_             | git ls-files -v &#124; grep "^\[\[:lower:\]\]"                                    |
 | _git-svn-dcommit-push_ | git svn dcommit && git push github master:svntrunk                                |
 | _gk_                   | gitk --all --branches                                                             |
 | _gl_                   | git pull                                                                          |
