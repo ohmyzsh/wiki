@@ -444,6 +444,6 @@ Eval is evil! Eval munges the input when used for assignment to variables and ca
 
 ## References
 
-- [Shell Style Guide](https://google-styleguide.googlecode.com/svn/trunk/shell.xml)
+- [Shell Style Guide](https://google.github.io/styleguide/shell.xml)
 - [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
 - [Linux kernel coding style](https://www.kernel.org/doc/Documentation/CodingStyle)
