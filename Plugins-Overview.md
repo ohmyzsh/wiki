@@ -90,8 +90,8 @@
 | [grails](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/grails)               | funcs for grails script management http://grails.org/                                       |
 | [heroku](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/heroku)               | cli access https://www.heroku.com/                                                          |
 | [jira](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/jira)                   | JIRA cli access                                                                             |
-| [knife](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/knife)                 | knife autocompletion http://docs.opscode.com/knife.html                                     |
-| [knife_ssh](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/knife_ssh)         | knife autocompletion http://docs.opscode.com/knife.html                                     |
+| [knife](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/knife)                 | knife autocompletion                                    |
+| [knife_ssh](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/knife_ssh)         | knife autocompletion                                    |
 | [lein](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/lein)                   | leiningen autocompletion http://leiningen.org                                               |
 | [lighthouse](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/lighthouse)       | CLI access to issue tracker Lighthouse, http://lighthouseapp.com/                           |
 | [mercurial](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/mercurial)         | hg autocompletion                                                                           |
