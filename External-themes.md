@@ -332,3 +332,12 @@ A simple, informative prompt built with Solarized colours in mind.
 See [repo](https://github.com/dannynimmo/punctual-zsh-theme) for installation.
 
 By [Danny](https://github.com/dannynimmo).
+
+#### Staples
+![Screenshot of Staples] (https://github.com/dersam/staples/blob/master/sample.png?raw=true)
+
+A modified version of the Bureau theme with context-sensitive tags, ssh status, and last exit code coloring.
+
+See [repo](https://github.com/dersam/staples) for source.
+
+Author: [@dersam](https://github.com/dersam)
