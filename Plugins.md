@@ -84,6 +84,7 @@ Below is a list of bundled plugins
 - [mvn](#mvn)
 - [mysql-macports](#mysql-macports)
 - [nanoc](#nanoc)
+- [ng](#ng)
 - [node](#node)
 - [npm](#npm)
 - [nyan](#nyan)
@@ -1010,6 +1011,15 @@ Enhances the [Nanoc](http://nanoc.stoneship.org/) static site generator with ali
 | _nd_           | deploys a site.                                                                                      |
 | _nv_           | starts the `adsf` server for the current site.                                                       |
 | _nw_           | starts the watcher.                                                                                  |
+
+---
+
+## ng
+
+Adds completion for `angular-cli` (also called `ng`).
+See [the README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/ng) for more information.
+
+**Maintainer:** [@catull](https://github.com/catull)
 
 ---
 
