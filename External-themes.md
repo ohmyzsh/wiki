@@ -341,3 +341,12 @@ A modified version of the Bureau theme with context-sensitive tags, ssh status, 
 See [repo](https://github.com/dersam/staples) for source.
 
 Author: [@dersam](https://github.com/dersam)
+
+#### Bunnyruni
+![Screenshot of Bunnyruni] (https://raw.githubusercontent.com/jopcode/oh-my-zsh-bunnyruni-theme/master/bunnyruni.gif)
+
+Simple, clean, and beautiful theme inspired in my fovorite themes, functions and colors.
+
+See [repo](https://github.com/jopcode/oh-my-zsh-bunnyruni-theme) for source.
+
+Author: [@jopcode](https://github.com/jopcode)
