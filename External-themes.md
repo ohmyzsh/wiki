@@ -1,4 +1,4 @@
-Due to the massive amount of themes bundled with OMZ, [new themes are not accepted](https://github.com/robbyrussell/oh-my-zsh/#do-not-send-us-themes). This is a list of other themes that are compatible with Oh My Zsh that live in their own separate repository.
+Due to the massive amount of themes bundled with OMZ, [new themes are not accepted](https://github.com/robbyrussell/oh-my-zsh/#do-not-send-us-themes). This is a list of other themes that are compatible with Oh My Zsh that live in their own separate repositories. More themes are listed in the [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) list.
 
 ### Installation
 
