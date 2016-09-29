@@ -46,6 +46,8 @@ prompt_svn() {
 }
 ```
 
+override the agnoster build_prompt() function:
+
 ```shell
 build_prompt() {
     RETVAL=$?
