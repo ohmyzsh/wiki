@@ -1,8 +1,8 @@
 # `svn` plugin
 
+This plugin adds some utility functions to display additional information regarding your current svn reositiory. See http://subversion.apache.org/ for the full svn documentation
 
 ## Functions
-
 
 | Command                | Description                             |
 |:-----------------------|:----------------------------------------|
@@ -10,10 +10,16 @@
 |in_svn                  | within svn directory                    |
 |svn_get_repo_name       |                                         |
 |svn_get_branch_name     | branch name (bug: returns the first path element if branches not used) |
+|svn_get_rev_nr          | revision number                         |
 |svn_dirty               | changes in this subversion repo         |
 
-##Usage
-###Agnoster theme git-like prompt
+## Caveats
+
+The plugin expects the first directory to be the current branch / tag / trunk.
+
+## Usage
+
+### Agnoster theme git-like prompt
 
 Enable the svn plugin and add the followind lines to your ```~/.zshrc```
 
