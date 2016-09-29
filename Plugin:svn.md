@@ -19,6 +19,11 @@ The plugin expects the first directory to be the current branch / tag / trunk.
 
 ## Usage
 
+To use it, add `svn` to your plugins array:
+```sh
+plugins=(... svn)
+```
+
 ### Agnoster theme git-like prompt
 
 Enable the svn plugin and add the followind lines to your ```~/.zshrc```
