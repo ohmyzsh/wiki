@@ -1,4 +1,18 @@
+# `svn` plugin
 
+
+## Functions
+
+
+| Command                | Description                             |
+|:-----------------------|:----------------------------------------|
+|svn_prompt_info         | prompt for some themes                  |
+|in_svn                  | within svn directory                    |
+|svn_get_repo_name       |                                         |
+|svn_get_branch_name     | branch name (bug: returns the first path element if branches not used) |
+|svn_dirty               | changes in this subversion repo         |
+
+##Usage
 ###Agnoster theme git-like prompt
 
 Enable the svn plugin and add the followind lines to your ```~/.zshrc```
@@ -32,14 +46,3 @@ build_prompt() {
     prompt_end
 }
 ```
-
-## Functions
-
-
-| Command                | Description                             |
-|:-----------------------|:----------------------------------------|
-|svn_prompt_info         | prompt for some themes                  |
-|in_svn                  | within svn directory                    |
-|svn_get_repo_name       |                                         |
-|svn_get_branch_name     | branch name (bug: returns the first path element if branches not used) |
-|svn_dirty               | changes in this subversion repo         |
