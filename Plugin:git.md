@@ -108,7 +108,7 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gsr                  | git svn rebase                                                                                                                          |
 | gss                  | git status -s                                                                                                                           |
 | gst                  | git status                                                                                                                              |
-| gsta                 | git stash                                                                                                                               |
+| gsta                 | git stash save                                                                                                                              |
 | gstaa                | git stash apply                                                                                                                         |
 | gstd                 | git stash drop                                                                                                                          |
 | gstl                 | git stash list                                                                                                                          |
