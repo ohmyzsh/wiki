@@ -359,3 +359,4 @@ Single-line boring/traditional prompt without distracting colours, providing ext
 
 See [repo](https://github.com/xfxf/zsh-theme-traditional-plus) for source.
 Author: [@xfxf](https://github.com/xfxf)
+
