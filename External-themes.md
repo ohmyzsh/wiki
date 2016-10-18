@@ -369,3 +369,13 @@ Just another funky theme.
 
 See [repo](https://gist.github.com/kaushik94/a54e128869c0c82bdbed31d56c710daa) for source.
 Author: [@kaushik94](https://gist.github.com/kaushik94)
+
+
+#### rafiki-zsh
+
+![](https://www.dropbox.com/s/u08c2zofducjvh9/rafiki-zsh-2.png?raw=1)
+
+A zsh friend to watch over you.
+
+See [repo](https://github.com/akabiru/rafiki-zsh) for source and instructions.
+Author: [@akabiru](https://github.com/akabiru)
