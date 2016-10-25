@@ -1,5 +1,8 @@
 Due to the massive amount of themes bundled with OMZ, [new themes are not accepted](https://github.com/robbyrussell/oh-my-zsh/#do-not-send-us-themes). This is a list of other themes that are compatible with Oh My Zsh that live in their own separate repositories. More themes are listed in the [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) list.
 
+You can also use Github's search to find `*.zsh-theme` files:
+[Gist zsh themes search](https://gist.github.com/search?l=Shell&q=extension%3Azsh-theme&ref=searchresults&utf8=%E2%9C%93), [GitHub zsh themes search](https://github.com/search?l=Shell&q=extension%3Azsh-theme+PS1+%7C%7C+PROMPT+&ref=searchresults&type=Code&utf8=%E2%9C%93).
+
 ### Installation
 
 Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-and-adding-themes).
