@@ -10,7 +10,7 @@ source ~/.oh-my-zsh/templates/zshrc.zsh-template
 
 | Command               | Description                                                                                                   |
 |:----------------------|:--------------------------------------------------------------------------------------------------------------|
-| _tabs_                 | Create a new tab in the current directory (OS X - req enabling access for assistive devices under sys prefs). |
+| _tabs_                 | Create a new tab in the current directory (macOS - requires enabling access for assistive devices under System Preferences). |
 | _take_                | Create a new directory and change to it, will create intermediate directories as required.                    |
 | _x_ / _extract_       | Extract an archive (supported types: tar.{bz2,gz,xz,lzma}, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z).         |
 | _zsh_stats_           | Get a list of the top 20 commands and how many times they have been run.                                      |
