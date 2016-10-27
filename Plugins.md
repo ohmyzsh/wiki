@@ -876,7 +876,7 @@ handy command line tools for dealing with json data.
 
 **Maintainer:** [franklouwers](https://github.com/franklouwers)
 
-- knife - adds autocompletion to [knife](http://wiki.opscode.com/display/chef/Knife)
+- knife - adds autocompletion to [knife](https://docs.chef.io/knife.html)
 
 ---
 
