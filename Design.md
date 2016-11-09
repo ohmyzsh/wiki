@@ -157,7 +157,7 @@ The plugins live in `plugins/` in the oh-my-zsh source tree. Even though their s
 
 ## Themes
 
-Themes control the appearance of the `zsh` prompt, the appearnce of certain other programs, and some other behaviors, such as tab and window titles in terminal emulators.
+Themes control the appearance of the `zsh` prompt, the appearance of certain other programs, and some other behaviors, such as tab and window titles in terminal emulators.
 
 OMZ turns on the `prompt_subst` shell option, and OMZ themes assume it is enabled.
 
