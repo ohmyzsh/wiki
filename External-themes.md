@@ -382,3 +382,13 @@ A zsh friend to watch over you.
 
 See [repo](https://github.com/akabiru/rafiki-zsh) for source and instructions.
 Author: [@akabiru](https://github.com/akabiru)
+
+#### λ Pure
+
+![lambda-pure theme](https://raw.githubusercontent.com/marszall87/lambda-pure/master/screenshot.png)
+
+A minimal zsh theme, based on Pure, with added NodeJS version (async!)
+
+source: [Repo](https://github.com/marszall87/lambda-pure) for source
+
+author: [@marszall87](https://github.com/marszall87)
