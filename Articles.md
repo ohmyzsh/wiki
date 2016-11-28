@@ -15,7 +15,6 @@ If you know of any that are missing, feel free to contribute! :-)
 - [[oh-my-zsh on OpenBSD 5.0| http://blog.bsdguy.net/?p=112]](2011-11-12)
 - [[zsh: The Powerful Shell|http://nerdrug.org/blog/zsh-the-powerful-shell/]](2011-10-02) - in italian
 - [[zsh on Mac OSX|http://www.mooduino.co.uk/2012/06/z-shell-on-mac-os-x.html]](2012-06-13)
-- [[Oh my zsh!|http://blog.vishaltelangre.com/15-12-2012-oh-my-zsh.html]](2012-12-15) - w/ customized Powerline theme screenshot!
 - [[Oh My ZSH! Build Podcast|http://build-podcast.com/oh-my-zsh/]](2013-01-13) - Screencast
 - [[Budspencer theme|https://vimeo.com/96424888]](2014-05-25) - Screencast showing how to cope with vi modes
 
