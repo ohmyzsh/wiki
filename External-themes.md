@@ -392,3 +392,14 @@ A minimal zsh theme, based on Pure, with added NodeJS version (async!)
 source: [Repo](https://github.com/marszall87/lambda-pure) for source
 
 author: [@marszall87](https://github.com/marszall87)
+
+
+#### Imperium / Imperium Root
+
+![imperium theme](https://raw.githubusercontent.com/LinuxGogley/Linux-Mods/master/Shell-Themes/Screenshot_2016-11-28_17-48-18.png)
+
+An zsh theme based on theme mortalscumbag theme, it's modification no longer has the hostname next to the terminal prompt and has a better differentiation of colors by highlighting the user, working directory, and shell sign.
+
+source: [Repo](https://github.com/LinuxGogley/Linux-Mods/master/Shell-Themes) for source
+
+author: [@LinuxGogley](https://github.com/LinuxGogley)
