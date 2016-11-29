@@ -400,6 +400,6 @@ author: [@marszall87](https://github.com/marszall87)
 
 An advanced zsh prompt based on theme mortalscumbag theme, it's modification no longer has the hostname next to the terminal prompt and has a better differentiation of colors by highlighting the user, working directory, and shell sign.
 
-source: [Repo](https://github.com/LinuxGogley/Linux-Mods/master/Shell-Themes) for source
+source: [Repo](https://github.com/LinuxGogley/Linux-Mods/tree/master/Shell-Themes) for source
 
 author: [@LinuxGogley](https://github.com/LinuxGogley)
