@@ -175,6 +175,7 @@ Spaceship is an minimalistic and powerful theme. It combines everything you may 
 
 Currently it shows:
 
+
 * Current git branch.
 * Git repo status:
   * `+` — uncommitted changes in the index;
@@ -189,10 +190,12 @@ Currently it shows:
 * Username turns red when root.
 * Current Node.js version, through NVM (`⬢`).
 * Current Ruby version, through RVM/RBENV/CHRUBY (`💎`).
+* Current Swift version, through swiftenv (`🐦`).
+* Current Xcode version, through xenv (`🛠`).
 * Current Python virtualenv.
-* Current Vi-mode (`[I]` — insert, `[N]` — normal)
+* Current Vi-mode mode.
 
-source: [here](https://github.com/denysdovhan/spaceship-zsh-theme)
+source: [denysdovhan/spaceship-zsh-theme](https://github.com/denysdovhan/spaceship-zsh-theme)
 author: [@denysdovhan](https://github.com/denysdovhan)
 
 #### Zeta Theme
