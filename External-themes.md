@@ -277,18 +277,25 @@ author: [@lenguyenthanh](https://github.com/lenguyenthanh)
 
 ![geometry](https://raw.githubusercontent.com/frmendes/geometry/master/screenshots/geometry.png)
 
-A minimal theme based on Avit & Pure.
+geometry is a minimalistic, fully customizable zsh prompt theme.
 
 ##### What it does:
 
-* display current git branch
-* display state (clean/dirty) of the repo
-* display coloured time since last commit (similar to Avit)
-* display arrows indicating if you need to pull, push or if you are mid-rebase
-* set the terminal title to current command and directory (similar to Pure)
-* change marker based on last command state (similar to Pure)
+- work asynchronously to speed up the prompt
+- display current git branch
+- display git state of the repo and time since last commit
+- tell you whether you need to pull, push or if you're mid-rebase
+- display the number of conflicting files and total number of conflicts
+- display the running time of long running commands
+- optionally display random colors based on your hostname
+- give you a custom, colorizable prompt symbol
+- change the prompt symbol color depending on the last command exit status
+- show virtualenv and docker machine data
+- set the terminal title to current command and directory
+- fully customizable, allowing you to change anything through environment variables
+- make you the coolest hacker in the whole Starbucks
 
-See [repo](https://github.com/frmendes/geometry) for source.
+See [repo](https://github.com/frmendes/geometry) for source. We welcome any contributions!
 
 author: [@frmendes](https://github.com/frmendes)
 
