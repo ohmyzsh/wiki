@@ -1,6 +1,6 @@
 # `svn` plugin
 
-This plugin adds some utility functions to display additional information regarding your current svn reositiory. See http://subversion.apache.org/ for the full svn documentation
+This plugin adds some utility functions to display additional information regarding your current svn repository. See http://subversion.apache.org/ for the full svn documentation.
 
 ## Functions
 
@@ -26,7 +26,7 @@ plugins=(... svn)
 
 ### Agnoster theme git-like prompt
 
-Enable the svn plugin and add the followind lines to your ```~/.zshrc```
+Enable the svn plugin and add the following lines to your ```~/.zshrc```
 
 ```shell
 prompt_svn() {
