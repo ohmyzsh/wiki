@@ -88,7 +88,7 @@ It currently shows:
 - `git:master` **color: White** committed files
 - `○` shows if current directory is a git folder || git branch
 
-See [Repo](https://github.com/andela-abankole/chi) for source
+See [Repo](https://github.com/akinjide/chi) for source
 
 
 author: [Akinjide Bankole](https://github.com/andela-abankole)/[@_akinjide](https://twitter.com/_akinjide)
