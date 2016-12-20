@@ -413,3 +413,13 @@ An adaptation of the mortalscumbag theme.  Its modification no longer has the ho
 source: [Repo](https://github.com/LinuxGogley/Linux-Mods/tree/master/Shell-Themes) for source
 
 author: [@LinuxGogley](https://github.com/LinuxGogley)
+
+#### Oh-My-VIA
+
+![oh-my-via theme](https://cloud.githubusercontent.com/assets/19719047/21297526/3658ab04-c582-11e6-811d-f316d26996b3.png "Oh-My-VIA theme preview")
+
+A theme for ZSH that is heavily inspired by the historical theme used on [VIA Centrale Réseaux](https://via.ecp.fr/) servers. It is designed to be as simple as possible, but still complete enough to be used on production servers and highly configurable to suit any of your desire.
+
+See [Repo](https://github.com/badouralix/oh-my-via) for source & documentation.
+
+author: [@badouralix](https://github.com/badouralix)
