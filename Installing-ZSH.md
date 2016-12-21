@@ -45,10 +45,10 @@ apt install zsh
 ```
 
 If you don't have `apt`, the recommended package manager for end users
-[[1]](http://askubuntu.com/a/446484)
-[[2]](http://askubuntu.com/a/775264)
-[[3]](https://help.ubuntu.com/lts/serverguide/apt.html)
-[[4]](http://www.howtogeek.com/234583/simplify-command-line-package-management-with-apt-instead-of-apt-get/)
+[ [1] ](http://askubuntu.com/a/446484)
+[ [2] ](http://askubuntu.com/a/775264)
+[ [3] ](https://help.ubuntu.com/lts/serverguide/apt.html)
+[ [4] ](http://www.howtogeek.com/234583/simplify-command-line-package-management-with-apt-instead-of-apt-get/)
 , you can try `apt-get` or `aptitude`.
 
 [Other distributions that apply](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Debian-based) include:
