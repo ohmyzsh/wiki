@@ -36,7 +36,7 @@ Assuming you have [Homebrew](http://brew.sh/) installed. If not, most versions o
 **macOS** ship zsh by default, but it's normally an older version.
 
 **Try `zsh --version` before installing it from Homebrew. If it's newer than 4.3.9
-you _might_ be OK. Preferably newer than or equal to 5.0 **
+you _might_ be OK. Preferably newer than or equal to `5.0`.**
 
 ### Ubuntu, Debian & derivatives
 
