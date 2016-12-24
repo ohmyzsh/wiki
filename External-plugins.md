@@ -21,4 +21,10 @@ You can get it from [here](https://gist.github.com/oshybystyi/475ee7768efc03727f
 
 If names of your Git branches contain Jira issue code, this modification of standard `jira` plugin is for you. It gets an issue code from current branch name and opens related issue.
 
-You can get it from [here](https://github.com/igoradamenko/jira.plugin.zsh). 
+You can get it from [here](https://github.com/igoradamenko/jira.plugin.zsh).
+
+### History sync
+
+GPG encrypted, Internet synchronized Zsh history using Git.
+
+You can get it from [here](https://github.com/wulfgarpro/history-sync). 
