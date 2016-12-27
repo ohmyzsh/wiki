@@ -67,14 +67,20 @@ pacman -S zsh
 ```
 
 ### FreeBSD
-To install the port: 
-```sh
-cd /usr/ports/shells/zsh/ && make install clean
-```
 To install the package:
 ```sh
 pkg install zsh
 ```
+To install the port: 
+```sh
+cd /usr/ports/shells/zsh/ && make install clean
+```
+To improve zsh performance optionally enable zsh-mem options with
+![](https://i.imgur.com/UuoJt0a.png)
+```sh
+make config
+```
+before running "make install".
 
 ### Add yours
 
