@@ -66,6 +66,16 @@ zypper install zsh
 pacman -S zsh
 ```
 
+### FreeBSD
+To install the port: 
+```sh
+cd /usr/ports/shells/zsh/ && make install clean
+```
+To install the package:
+```sh
+pkg install zsh
+```
+
 ### Add yours
 
 If you know a platform that is not covered, edit this page and add it!
