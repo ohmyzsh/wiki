@@ -423,3 +423,11 @@ A theme for ZSH that is heavily inspired by the historical theme used on [VIA Ce
 See [Repo](https://github.com/badouralix/oh-my-via) for source & documentation.
 
 author: [@badouralix](https://github.com/badouralix)
+
+#### alien
+
+![alien theme](https://github.com/eendroroy/alien/raw/images/images/alien-mac.png "alien theme preview")
+
+See [Repo](https://github.com/eendroroy/alien) for source & documentation.
+
+author: [@eendroroy](https://github.com/eendroroy)
