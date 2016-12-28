@@ -431,3 +431,12 @@ author: [@badouralix](https://github.com/badouralix)
 See [Repo](https://github.com/eendroroy/alien) for source & documentation.
 
 author: [@eendroroy](https://github.com/eendroroy)
+
+
+#### alien-minimal
+
+![alien theme](https://github.com/eendroroy/alien-minimal/raw/images/images/alien-minimal-mac.png "alien-minimal theme preview")
+
+See [Repo](https://github.com/eendroroy/alien-minimal) for source & documentation.
+
+author: [@eendroroy](https://github.com/eendroroy)
