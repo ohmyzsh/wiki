@@ -171,10 +171,9 @@ author: [@yarisgutierrez](https://github.com/yarisgutierrez)
 
 ![Spaceship](https://github.com/denysdovhan/spaceship-zsh-theme/raw/master/preview.png)
 
-Spaceship is an minimalistic and powerful theme. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship. 
+Spaceship is a minimalistic, powerful and extremely customizable [“Oh My ZSH!”](http://ohmyz.sh/) theme. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship.
 
 Currently it shows:
-
 
 * Current git branch.
 * Git repo status:
@@ -193,6 +192,7 @@ Currently it shows:
 * Current Swift version, through swiftenv (`🐦`).
 * Current Xcode version, through xenv (`🛠`).
 * Current Python virtualenv.
+* Current Python pyenv (`🐍`).
 * Current Vi-mode mode.
 
 source: [denysdovhan/spaceship-zsh-theme](https://github.com/denysdovhan/spaceship-zsh-theme)
