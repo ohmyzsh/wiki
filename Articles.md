@@ -5,7 +5,7 @@ If you know of any that are missing, feel free to contribute! :-)
 - [[Unix ZSHell Reloaded|http://cwoebker.com/posts/unix-zshell-reloaded/]](2012-01-05)
 - [[Changelog - Episode 0.6.1 - Oh my zsh! with Robby Russell|http://thechangelog.com/post/5875746546/episode-0-6-1-oh-my-zsh-with-robby-russell]] -- podcast!
 - [[My Extravagant Zsh Prompt|http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/]]
-- [[Hooray! Oh My Zsh has been updated.|http://thechangelog.com/post/5452652236/hooray-oh-my-zsh-has-been-updated]]
+- [[Hooray! Oh My Zsh has been updated.|https://changelog.com/posts/hooray-oh-my-zsh-has-been-updated]]
 - [[Improving oh-my-zsh startup time|http://blog.santosvelasco.com/2011/04/22/improving-oh-my-zsh-startup-time/]]
 - [[Zsh!|http://blog.secondplanetanimation.com/2011/05/31/zsh]]
 - [[Intridea’s blog post about Zsh & Oh my zsh.|http://intridea.com/posts/its-not-enough-to-bash-in-heads-youve-got-to-bash-in-minds-with-zsh]](2011-05-18)
