@@ -185,7 +185,7 @@
 | [forklift](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/forklift)                 | MacOS file browser                                               |
 | [macports](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/macports)                 | macport autocompletion                                           |
 | [mysql-macports](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/mysql-macports)     | same as apache-macport for MySQL                                 |
-| [osx](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/osx)                           | MacOS completions and iTunes control                                                |
+| [osx](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/osx)                           | MacOS completions and iTunes & Spotify control                                             |
 | [pod](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/pod)                           | http://cocoapods.org library dependency manager for Xcode        |
 | [terminalapp](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/terminalapp)           | Apple Terminal enhancer                                          |
 | [textmate](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/textmate)                 | aliases                                                          |
