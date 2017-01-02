@@ -1059,6 +1059,10 @@ See [the README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/n
 | `pushdf`      | `pushd` to the current Finder directory        |
 | `quick-look`  | Quick-Look a specified file                    |
 | `man-preview` | Open a specified man page in Preview app       |
+| `showfiles`     | Show hidden files                                |
+| `hidefiles`     | Hide the hidden files                            |
+| `itunes`        | Control iTunes. User `itunes -h` for usage details |
+| `spotify`       | Control Spotify and search by artist, album, track and etc.|
 
 See the [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/osx) for more information.
 
