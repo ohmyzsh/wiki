@@ -428,6 +428,15 @@ author: [@badouralix](https://github.com/badouralix)
 
 ![alien theme](https://github.com/eendroroy/alien/raw/images/images/alien-mac.png "alien theme preview")
 
+##### Features
+
+* Time
+* Battery percentage (with charging direction, - discharging, + charging, ● full-charge)
+* Username
+* Working directory
+* Version control - branch (git, mercurial), revision number (svn)
+* Supports both mac and linux
+
 See [Repo](https://github.com/eendroroy/alien) for source & documentation.
 
 author: [@eendroroy](https://github.com/eendroroy)
@@ -436,6 +445,13 @@ author: [@eendroroy](https://github.com/eendroroy)
 #### alien-minimal
 
 ![alien theme](https://github.com/eendroroy/alien-minimal/raw/images/images/alien-minimal-mac.png "alien-minimal theme preview")
+
+##### Features
+
+* Working directory
+* Previous command exit status
+* Version control - branch, commit hash (git, mercurial), revision number (svn) on right prompt
+* Supports both mac and linux
 
 See [Repo](https://github.com/eendroroy/alien-minimal) for source & documentation.
 
