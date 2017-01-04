@@ -66,6 +66,12 @@ zypper install zsh
 pacman -S zsh
 ```
 
+### Void Linux
+
+```sh
+xbps-install zsh
+```
+
 ### FreeBSD
 To install the package:
 ```sh
