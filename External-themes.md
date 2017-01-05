@@ -169,7 +169,7 @@ author: [@yarisgutierrez](https://github.com/yarisgutierrez)
 
 #### Spaceship
 
-![Spaceship](https://github.com/denysdovhan/spaceship-zsh-theme/raw/master/preview.png)
+![Spaceship](https://github.com/denysdovhan/spaceship-zsh-theme/raw/master/preview.gif)
 
 Spaceship is a minimalistic, powerful and extremely customizable [“Oh My ZSH!”](http://ohmyz.sh/) theme. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship.
 
