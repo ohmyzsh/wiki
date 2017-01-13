@@ -17,7 +17,7 @@ Here is a collection of screenshots and descriptions of themes that have been co
 The rest of the themes, in alphabetical order:
 
 ### af-magic
-[![af-magic](https://cloud.githubusercontent.com/assets/124808/21915123/26cbb6c4-d97b-11e6-9808-672a126468f8.png)](https://cloud.githubusercontent.com/assets/124808/21915123/26cbb6c4-d97b-11e6-9808-672a126468f8.png)
+[![af-magic](https://cloud.githubusercontent.com/assets/124808/21915191/89dffcac-d97b-11e6-8b46-ea5fbddde02a.png)](https://cloud.githubusercontent.com/assets/124808/21915191/89dffcac-d97b-11e6-8b46-ea5fbddde02a.png)
 
 ### afowler
 [![afowler](https://cloud.githubusercontent.com/assets/2618447/6316859/70f1cb06-ba03-11e4-865f-209473ddd5c8.png)](https://cloud.githubusercontent.com/assets/2618447/6316859/70f1cb06-ba03-11e4-865f-209473ddd5c8.png)
