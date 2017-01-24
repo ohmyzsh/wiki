@@ -456,3 +456,13 @@ author: [@eendroroy](https://github.com/eendroroy)
 See [Repo](https://github.com/eendroroy/alien-minimal) for source & documentation.
 
 author: [@eendroroy](https://github.com/eendroroy)
+
+
+#### Imp
+![Screenshot of Imp] (https://raw.githubusercontent.com/igormp/Imp/master/imp.png)
+
+Simple theme based on [Zork](https://github.com/Bash-it/bash-it/wiki/Themes#zork).
+
+See [repo](https://github.com/igormp/Imp) for source and install instructions.
+
+Author: [@igormp](https://github.com/igormp)
