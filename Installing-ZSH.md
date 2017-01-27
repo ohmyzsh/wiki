@@ -72,6 +72,12 @@ pacman -S zsh
 xbps-install zsh
 ```
 
+### Fedora
+
+```sh
+dnf install zsh
+```
+
 ### FreeBSD
 To install the package:
 ```sh
