@@ -466,3 +466,13 @@ Simple theme based on [Zork](https://github.com/Bash-it/bash-it/wiki/Themes#zork
 See [repo](https://github.com/igormp/Imp) for source and install instructions.
 
 Author: [@igormp](https://github.com/igormp)
+
+
+#### Omega
+![Screenshot of Omega Minimal] (https://raw.githubusercontent.com/Section214/zsh-omega/master/screenshots/minimal.png)
+
+A clean, minimal theme.
+
+See [repo](https://github.com/Section214/zsh-omega) for source and install instructions.
+
+Author: [@igormp](https://github.com/igormp)
