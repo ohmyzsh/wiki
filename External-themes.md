@@ -191,6 +191,7 @@ Currently it shows:
 * Current Ruby version, through RVM/RBENV/CHRUBY (`💎`).
 * Current Swift version, through swiftenv (`🐦`).
 * Current Xcode version, through xenv (`🛠`).
+* Current Go version (`🐹`).
 * Current Python virtualenv.
 * Current Python pyenv (`🐍`).
 * Current Vi-mode mode.
