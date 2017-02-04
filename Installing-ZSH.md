@@ -87,7 +87,7 @@ To install the port:
 ```sh
 cd /usr/ports/shells/zsh/ && make install clean
 ```
-To improve zsh performance, optionally enable zsh-mem options with
+To reduce memory usage, optionally enable zsh-mem options with
 ![](https://i.imgur.com/l4id6Ek.png)
 ```sh
 make config
