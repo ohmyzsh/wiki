@@ -195,6 +195,7 @@ Currently it shows:
 * Current Python virtualenv.
 * Current Python pyenv (`🐍`).
 * Current Vi-mode mode.
+* Time stamps (optional).
 
 source: [denysdovhan/spaceship-zsh-theme](https://github.com/denysdovhan/spaceship-zsh-theme)
 author: [@denysdovhan](https://github.com/denysdovhan)
