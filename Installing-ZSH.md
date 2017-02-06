@@ -94,6 +94,10 @@ make config
 ```
 before running "make install".
 
+### Centos/RHEL
+```sh
+sudo yum update && sudo yum -y install zsh
+```
 ### Add yours
 
 If you know a platform that is not covered, edit this page and add it!
