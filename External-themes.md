@@ -194,8 +194,8 @@ Currently it shows:
 * Current Go version (`🐹`).
 * Current Python virtualenv.
 * Current Python pyenv (`🐍`).
-* Current Vi-mode mode.
-* Time stamps (optional).
+* Current Vi-mode mode (with handy aliases for temporarily enabling).
+* Optional time stamps in 12/24hr format.
 
 source: [denysdovhan/spaceship-zsh-theme](https://github.com/denysdovhan/spaceship-zsh-theme)
 author: [@denysdovhan](https://github.com/denysdovhan)
