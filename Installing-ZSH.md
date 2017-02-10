@@ -52,7 +52,7 @@ If you don't have `apt`, the recommended package manager for end users
 , you can try `apt-get` or `aptitude`.
 
 [Other distributions that apply](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Debian-based) include:
-Linux Mint, elementary OS, Zorin OS.
+Linux Mint, elementary OS, Zorin OS, Raspbian.
 
 ### OpenSUSE
 
