@@ -494,7 +494,7 @@ Author: [@dpdornseifer](https://github.com/dpdornseifer)
 
 #### Vero
 
-A theme designed for simplicity, neatness and availability of information. Originally based on the 'bureau' theme. Vero offers:
+A theme designed for simplicity, neatness and availability of information, adapted from the 'bureau' theme. Vero offers:
 
 * Time-stamp
 * Current Node.js version
