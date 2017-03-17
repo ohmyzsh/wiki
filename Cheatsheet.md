@@ -219,4 +219,3 @@ To upgrade .oh-my-zsh, run:
 ``` bash
 upgrade_oh_my_zsh
 ```
-(Solution from [this answer on Stack Overflow](http://stackoverflow.com/a/19726329/2145103).)
