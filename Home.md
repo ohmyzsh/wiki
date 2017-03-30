@@ -12,8 +12,7 @@
 
 - Help us build the [[Cheatsheet]]
 - Want to contribute? Check out our [[Coding Style Guide]] and [[Design]] guidelines and start hacking away!
+- We need [[Volunteers]]
+
+## 
 - [[Articles]] Have you written a blog post/article that mentions Oh My Zsh?
-
-## Want to help manage the project?
-
-We need [[Volunteers]].
