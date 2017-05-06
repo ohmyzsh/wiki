@@ -125,7 +125,7 @@ author: [@tylerreckart](https://github.com/tylerreckart)
 
 #### HYPERZSH theme
 
-![hyperzsh](https://raw.githubusercontent.com/tylerreckart/hyperzsh/master/screenshot.gif)
+![hyperzsh](https://raw.githubusercontent.com/tylerreckart/hyperzsh/master/screenshots/demo.gif)
 - Git status
 - Timestamp
 - Current directory
