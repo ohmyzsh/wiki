@@ -350,7 +350,7 @@ See [repo](https://github.com/dannynimmo/punctual-zsh-theme) for installation.
 By [Danny](https://github.com/dannynimmo).
 
 #### Staples
-![Screenshot of Staples] (https://github.com/dersam/staples/blob/master/sample.png?raw=true)
+![Screenshot of Staples](https://github.com/dersam/staples/blob/master/sample.png?raw=true)
 
 A modified version of the Bureau theme with context-sensitive tags, ssh status, and last exit code coloring.
 
@@ -359,7 +359,7 @@ See [repo](https://github.com/dersam/staples) for source.
 Author: [@dersam](https://github.com/dersam)
 
 #### Bunnyruni
-![Screenshot of Bunnyruni] (https://raw.githubusercontent.com/jopcode/oh-my-zsh-bunnyruni-theme/master/bunnyruni.gif)
+![Screenshot of Bunnyruni](https://raw.githubusercontent.com/jopcode/oh-my-zsh-bunnyruni-theme/master/bunnyruni.gif)
 
 Simple, clean, and beautiful theme inspired in my fovorite themes, functions and colors.
 
@@ -462,7 +462,7 @@ author: [@eendroroy](https://github.com/eendroroy)
 
 
 #### Imp
-![Screenshot of Imp] (https://raw.githubusercontent.com/igormp/Imp/master/imp.png)
+![Screenshot of Imp](https://raw.githubusercontent.com/igormp/Imp/master/imp.png)
 
 Simple theme based on [Zork](https://github.com/Bash-it/bash-it/wiki/Themes#zork).
 
@@ -472,7 +472,7 @@ Author: [@igormp](https://github.com/igormp)
 
 
 #### Omega
-![Screenshot of Omega Minimal] (https://raw.githubusercontent.com/Section214/zsh-omega/master/screenshots/minimal.png)
+![Screenshot of Omega Minimal](https://raw.githubusercontent.com/Section214/zsh-omega/master/screenshots/minimal.png)
 
 A clean, minimal theme.
 
