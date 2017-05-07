@@ -171,35 +171,39 @@ author: [@yarisgutierrez](https://github.com/yarisgutierrez)
 
 ![Spaceship](https://github.com/denysdovhan/spaceship-zsh-theme/raw/master/preview.gif)
 
-Spaceship is a minimalistic, powerful and extremely customizable [“Oh My ZSH!”](http://ohmyz.sh/) theme. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship.
+Spaceship is a minimalistic, powerful and extremely customizable [“Oh My ZSH!”][oh-my-zsh] theme. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship.
 
 Currently it shows:
 
 * Current git branch.
 * Git repo status:
+  * `?` — untracked changes;
   * `+` — uncommitted changes in the index;
   * `!` — unstaged changes;
-  * `?` — untracked changes;
+  * `»` — renamed files;
+  * `✘` — deleted files;
   * `$` — stashed changes;
-  * `⇣` — unpulled commits;
-  * `⇡` — unpushed commits.
+  * `=` — unmerged changes;
+  * `⇡` — ahead of remote branch;
+  * `⇣` — behind of remote branch;
+  * `⇕` — diverged chages.
 * Prompt character turns red if the last command exits with non-zero code.
 * Hostname only displayed when in an SSH session.
 * Username displayed only when it isn't `$LOGNAME`.
 * Username turns red when root.
-* Current Node.js version, through NVM (`⬢`).
-* Current Ruby version, through RVM/RBENV/CHRUBY (`💎`).
+* Current Node.js version, through nvm or n (`⬢`).
+* Current Ruby version, through rvm/rbenv/chruby (`💎`).
 * Current Swift version, through swiftenv (`🐦`).
 * Current Xcode version, through xenv (`🛠`).
 * Current Go version (`🐹`).
 * Current Docker version and connected machine (`🐳`).
 * Current Python virtualenv.
 * Current Python pyenv (`🐍`).
-* Current Vi-mode mode ([with handy aliases for temporarily enabling](#vi-mode)).
-* Optional time stamps 12/24hr in format ([how to enable](#time)).
+* Current Vi-mode mode (with handy aliases for temporarily enabling).
+* Optional time stamps 12/24hr in format.
 
 source: [denysdovhan/spaceship-zsh-theme](https://github.com/denysdovhan/spaceship-zsh-theme)
-author: [@denysdovhan](https://github.com/denysdovhan)
+author: [@denysdovhan](https://twitter.com/denysdovhan)
 
 #### Zeta Theme
 
