@@ -196,10 +196,12 @@ Currently it shows:
 * Current Swift version, through swiftenv (`🐦`).
 * Current Xcode version, through xenv (`🛠`).
 * Current Go version (`🐹`).
+* Current PHP version (`🐘`).
+* Current Rust version (`𝗥`)
 * Current Docker version and connected machine (`🐳`).
 * Current Python virtualenv.
 * Current Python pyenv (`🐍`).
-* Current Vi-mode mode (with handy aliases for temporarily enabling).
+* Current Vi-mode mode.
 * Optional time stamps 12/24hr in format.
 
 source: [denysdovhan/spaceship-zsh-theme](https://github.com/denysdovhan/spaceship-zsh-theme)
