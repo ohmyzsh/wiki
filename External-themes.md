@@ -171,7 +171,7 @@ author: [@yarisgutierrez](https://github.com/yarisgutierrez)
 
 ![Spaceship](https://github.com/denysdovhan/spaceship-zsh-theme/raw/master/preview.gif)
 
-Spaceship is a minimalistic, powerful and extremely customizable [“Oh My ZSH!”][oh-my-zsh] theme. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship.
+Spaceship is a minimalistic, powerful and extremely customizable [“Oh My ZSH!”](ohmyz.sh) theme. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship.
 
 Currently it shows:
 
