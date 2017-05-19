@@ -443,8 +443,9 @@ author: [@badouralix](https://github.com/badouralix)
 * Battery percentage (with charging direction, - discharging, + charging, ● full-charge)
 * Username
 * Working directory
-* Version control - branch (git, mercurial), revision number (svn)
+* Version control - branch, commit hash, dirty status, ahead/behind status
 * Supports both mac and linux
+* Asynchronously update prompt
 
 See [Repo](https://github.com/eendroroy/alien) for source & documentation.
 
@@ -459,8 +460,9 @@ author: [@eendroroy](https://github.com/eendroroy)
 
 * Working directory
 * Previous command exit status
-* Version control - branch, commit hash (git, mercurial), revision number (svn) on right prompt
+* Version control - branch, commit hash, dirty status, ahead/behind status
 * Supports both mac and linux
+* Asynchronously update prompt
 
 See [Repo](https://github.com/eendroroy/alien-minimal) for source & documentation.
 
