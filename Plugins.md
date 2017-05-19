@@ -840,7 +840,7 @@ Provides a couple of convenient aliases for using the `history` command to exami
 
 - Open Jira issues using the command *open_jira_issue*
 
-#####_Examples:_
+##### _Examples:_
 ###### _Open new issue form in browser_
 ```shell
 jira
@@ -1557,7 +1557,7 @@ Adds several commands to do web search.
 | yahoo      |
 | duckduckgo |
 
-#####_Examples:_
+##### _Examples:_
 ###### _Search for oh-my-zsh on Google:_
 ```shell
 google oh-my-zsh
@@ -1678,7 +1678,7 @@ wd add test
 
 If a warp point with the same name exists, use `add!` to overwrite it.
 
-#####_Examples:_
+##### _Examples:_
 ###### _From an other directory, warp to test with:_
 ```
 wd test
