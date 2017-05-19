@@ -514,3 +514,19 @@ A theme designed for simplicity, neatness and availability of information, adapt
 See [repo](https://github.com/Raindeer44/vero) for source and documentation
 
 Author: [@raindeer44](https://github.com/raindeer44)
+
+#### theta
+
+![theta theme](https://github.com/eendroroy/theta/raw/images/images/theta-mac.png "theta theme preview")
+
+##### Features
+
+* Working directory
+* Version control - branch, commit hash, dirty status, ahead/behind status
+* java, pyenv, rbenv. nodenv versions 
+* Supports both mac and linux
+* Asynchronously update prompt
+
+See [Repo](https://github.com/eendroroy/theta) for source & documentation.
+
+author: [@eendroroy](https://github.com/eendroroy)
