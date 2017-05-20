@@ -435,7 +435,7 @@ author: [@badouralix](https://github.com/badouralix)
 
 #### alien
 
-![alien theme](https://github.com/eendroroy/alien/raw/images/images/alien-mac.png "alien theme preview")
+[![asciicast](https://asciinema.org/a/121489.png)](https://asciinema.org/a/121489)
 
 ##### Features
 
