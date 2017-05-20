@@ -454,7 +454,7 @@ author: [@eendroroy](https://github.com/eendroroy)
 
 #### alien-minimal
 
-![alien theme](https://github.com/eendroroy/alien-minimal/raw/images/images/alien-minimal-mac.png "alien-minimal theme preview")
+[![asciicast](https://asciinema.org/a/121488.png)](https://asciinema.org/a/121488)
 
 ##### Features
 
