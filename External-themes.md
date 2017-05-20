@@ -519,7 +519,7 @@ Author: [@raindeer44](https://github.com/raindeer44)
 
 #### theta
 
-![theta theme](https://github.com/eendroroy/theta/raw/images/images/theta-mac.png "theta theme preview")
+[![asciicast](https://asciinema.org/a/121490.png)](https://asciinema.org/a/121490)
 
 ##### Features
 
