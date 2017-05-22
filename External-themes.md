@@ -525,7 +525,7 @@ Author: [@raindeer44](https://github.com/raindeer44)
 
 * Working directory
 * Version control - branch, commit hash, dirty status, ahead/behind status
-* java, pyenv, rbenv. nodenv versions 
+* java, python, ruby. node versions 
 * Supports both mac and linux
 * Asynchronously update prompt
 
