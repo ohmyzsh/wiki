@@ -532,3 +532,20 @@ Author: [@raindeer44](https://github.com/raindeer44)
 See [Repo](https://github.com/eendroroy/theta) for source & documentation.
 
 author: [@eendroroy](https://github.com/eendroroy)
+
+#### enlightenment
+
+![enlightenment](http://w33tmaricich.com/images/enlightenment.png)
+
+##### Features
+
+* Current working directory.
+* Clojure, python, and node version numbers, only when you need them.
+* Number of seconds the previous command took to run.
+* Git branch, dirty & clean.
+* Color visuals for vi-mode.
+* Clojure, python, and node version numbers, only when you need them.
+
+See [repository](https://github.com/w33tmaricich/enlightenment) for source & documentation.
+
+Author: [@w33tmaricich](http://w33tmaricich.com)
