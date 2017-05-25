@@ -51,8 +51,7 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gfo                  | git fetch origin                                                                                                                        |
 | gg                   | git gui citool                                                                                                                          |
 | gga                  | git gui citool --amend                                                                                                                  |
-| ggf                  | git push --force origin $(current_branch)
-|
+| ggf                  | git push --force origin $(current_branch)                                                                                                                  |
 | ghh                  | git help                                                                                                                                |
 | ggpull               | ggl                                                                                                                                     |
 | ggpur                | ggu                                                                                                                                     |
