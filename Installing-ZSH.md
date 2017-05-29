@@ -98,6 +98,9 @@ before running "make install".
 ```sh
 sudo yum update && sudo yum -y install zsh
 ```
+### Cygwin
+Install the zsh package using the installer. Unfortunately Cygwin doesn't have a standard command line interface.
+
 ### Add yours
 
 If you know a platform that is not covered, edit this page and add it!
