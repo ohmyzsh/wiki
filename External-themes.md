@@ -8,6 +8,13 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
+#### sobole
+
+[![sobole](https://github.com/sobolevn/sobole-zsh-theme/blob/master/showcases/ls-colors.png?raw=true)](https://sobolevn.github.io/sobole-zsh-theme/)
+Github: https://github.com/sobolevn/sobole-zsh-theme
+
+author: [@sobolevn](https://github.com/sobolevn)
+
 #### xxf
 
 ![xxf](http://oi58.tinypic.com/24oble1.jpg)
