@@ -103,6 +103,19 @@ Install the zsh package using the installer. Unfortunately Cygwin doesn't have a
 
 The easiest way to change the default shell is to set your SHELL user environment variable. Search for "Edit Environment variables for your account" to bring up the environment variables window, create a new variable named "SHELL" and give it the value "/usr/bin/zsh/".
 
+*Alternatively:*
+Open Cygwin (in BASH) then type: 
+```sh
+sudo nano ~/.bashrc
+```
+Once the .bashrc file is open, add this line to the very top:
+```sh
+exec zsh
+```
+Close and save the file. 
+Close and reopen Cygwin. 
+It will execute the command every time you load the terminal and run your zsh shell.
+
 ### Add yours
 
 If you know a platform that is not covered, edit this page and add it!
