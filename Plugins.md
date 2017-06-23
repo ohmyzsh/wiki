@@ -1530,7 +1530,7 @@ Adds command line utilities for URL manipulation.
 
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
-** Read the plugin README file **
+** Read the plugin [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode) file **
 
 - Increase zsh `vi-like` functionality
 
