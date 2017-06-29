@@ -194,22 +194,36 @@ Currently it shows:
   * `⇡` — ahead of remote branch;
   * `⇣` — behind of remote branch;
   * `⇕` — diverged chages.
+* Mercurial repo status:
+  * `?` — untracked changes;
+  * `+` — uncommitted changes in the index;
+  * `!` — unstaged changes;
+  * `✘` — deleted files;
 * Prompt character turns red if the last command exits with non-zero code.
 * Hostname only displayed when in an SSH session.
 * Username displayed only when it isn't `$LOGNAME`.
 * Username turns red when root.
-* Current Node.js version, through nvm or n (`⬢`).
+* If repo is a package, shows its version through npm (`📦`).
+* Current Node.js version, through nvm/nodenv/n (`⬢`).
 * Current Ruby version, through rvm/rbenv/chruby (`💎`).
+* Current Elixir version, through kiex/exenv/elixir (`💧`).
 * Current Swift version, through swiftenv (`🐦`).
 * Current Xcode version, through xenv (`🛠`).
 * Current Go version (`🐹`).
 * Current PHP version (`🐘`).
 * Current Rust version (`𝗥`)
+* Current version of Haskell Tool Stack (`λ`)
+* Current Julia version (`ஃ`)
 * Current Docker version and connected machine (`🐳`).
 * Current Python virtualenv.
 * Current Python pyenv (`🐍`).
-* Current Vi-mode mode.
-* Optional time stamps 12/24hr in format.
+* Current .NET SDK version, through dotnet-cli (`.NET`).
+* Current Ember.js version, through ember-cli (`🐹`).
+* Current Vi-mode mode ([with handy aliases for temporarily enabling](#vi-mode-vi_mode)).
+* Indicator for jobs in the background (`✦`).
+* Optional exit-code of last command ([how to enable](#exit-code-exit_code)).
+* Optional time stamps 12/24hr in format ([how to enable](#time-time)).
+* Execution time of the last command if it exceeds the set threshold.
 
 source: [denysdovhan/spaceship-zsh-theme](https://github.com/denysdovhan/spaceship-zsh-theme)
 author: [@denysdovhan](https://twitter.com/denysdovhan)
