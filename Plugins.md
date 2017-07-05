@@ -1658,7 +1658,7 @@ Enables aliases for [Yum](http://yum.baseurl.org), the popular front-end to the 
 
 **Maintainer:** [johnjohndoe](https://github.com/johnjohndoe)
 
-Completion plugin for [zeus](https://github.com/burke/zeus). The describing texts are inspired by the texts given in the [documenation of Rails command line tools](http://guides.rubyonrails.org/command_line.html).*[Source](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/zeus/_zeus)
+Completion plugin for [zeus](https://github.com/burke/zeus). The describing texts are inspired by the texts given in the [documentation of Rails command line tools](http://guides.rubyonrails.org/command_line.html).*[Source](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/zeus/_zeus)
 
 ---
 
