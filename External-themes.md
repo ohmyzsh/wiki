@@ -8,6 +8,14 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
+
+#### Windows CMD
+![windows cmd](https://raw.githubusercontent.com/juliavallina/windows-zsh-theme/master/screenshot.gif)
+
+See [repository](https://github.com/juliavallina/windows-zsh-theme) for source.
+
+Author: [@juliavallina](https://github.com/juliavallina)
+
 #### frog
 ![frog](https://raw.githubusercontent.com/qwartz2/dotfiles/master/custom_oh-my-zsh/themes/screenshot/frog.png)
 
