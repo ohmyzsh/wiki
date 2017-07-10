@@ -135,6 +135,7 @@ Below is a list of bundled plugins
 - [vi-mode](#vi-mode)
 - [virtualenvwrapper](#virtualenvwrapper)
 - [web-search](#web-search)
+- [yarn](#yarn)
 - [yii](#yii)
 - [yii2](#yii2)
 - [yum](#yum)
@@ -1570,6 +1571,13 @@ bing what is github
 ```shell
 ddg foo bar
 ```
+---
+
+## yarn
+
+**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
+
+[Yarn](https://yarnpkg.com/en/) autocompletion plugin.
 
 ---
 
