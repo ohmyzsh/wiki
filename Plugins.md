@@ -1433,7 +1433,7 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 
 **Maintainer:** [OutPunk](https://github.com/OutPunk)
 
-- terminalapp - automatically sets the Terminal.app resume directory, so when restoring windows with OS X Lion's "Resume" feature it will restore the directory too. **Note**: This plugin is deprecated and the functionality has been folded into core lib/termsupport.zsh which is loaded for all users. If you have a current version of Oh My Zsh, remove this from your $plugins list.
+- terminalapp - automatically sets the Terminal.app resume directory, so when restoring windows with OS X Lion's "Resume" feature it will restore the directory too. **Note**: This plugin is deprecated and the functionality has been folded into core `lib/termsupport.zsh` which is loaded for all users. If you have a current version of Oh My Zsh, remove this from your `$plugins` list.
 
 ---
 
