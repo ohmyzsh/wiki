@@ -16,12 +16,12 @@ See [repository](https://github.com/juliavallina/windows-zsh-theme) for source.
 
 Author: [@juliavallina](https://github.com/juliavallina)
 
-#### frog
-![frog](https://raw.githubusercontent.com/qwartz2/dotfiles/master/custom_oh-my-zsh/themes/screenshot/frog.png)
+#### Frog
+![frog](https://raw.githubusercontent.com/qwartz2/dotfiles/master/custom_oh-my-zsh/themes/screenshot/frog.gif)
 
-See [Repo](https://github.com/qwartz2/dotfiles/tree/master/custom_oh-my-zsh/themes) for source.
+See [repository](https://github.com/qwartz2/dotfiles/tree/master/custom_oh-my-zsh/themes) for source.
 
-author: [@qwartz2](https://github.com/qwartz2)
+author: [@qwartz](https://github.com/qwartz)
 
 #### sobole
 
