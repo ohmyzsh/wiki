@@ -510,15 +510,41 @@ Completion plugin for [cpanminus](https://github.com/miyagawa/cpanminus/)
 
 A set of aliases to work with the Debian Advanced Packaging Tool, apt.
 
-| Alias                      | Description         |
-|:---------------------------|:--------------------|
-| _as_ [search term]         | Search for packages |
-| _ad_                       | Update packages     |
-| _ai_ [packages to install] | Install package(s)  |
-| _ar_ [package to remove]   | Remove package      |
-| _app_                      | Apt policy          |
-| _acs_ [search term]        | Search packages     |
-| _ac_                       | Clean apt cache     |
+This plugin use aptitude if installed, or apt-get if not.
+You can just set `apt_pref='apt-get'` to override it.
+
+| Alias                      | Description                                                       |
+|:---------------------------|:------------------------------------------------------------------|
+| _as_ [search term]         | Search for packages                                               |
+| _ad_                       | Update packages                                                   |
+| _adg_                      | Updgrade packages                                                 |
+| _ai_ [packages to install] | Install package(s)                                                |
+| _ar_ [package to remove]   | Remove package                                                    |
+| _app_                      | Apt policy                                                        |
+| _acs_ [search term]        | Search packages in cache                                          |
+| _ac_                       | Clean apt cache                                                   |
+| _age_ [parameters]         | apt-get [parameters]                                              |
+| _api_ [parameters]         | aptitude [parameters]                                             |
+| _aps_ [search term]        | Search with aptitude                                              |
+| _afs_ [search term]        | Search files in packages                                          |
+| _asrc_ [parameters]        | apt-get source [parameters]                                       |
+| _aac_   			         | Autoclean                                                         |
+| _abd_   			         | Build dependencies                                                |
+| _adu_   			         | Update & (safe)upgrade                                            |
+| _afu_   			         | Update & full-upgrade                                             |
+| _ag_   			         | Upgrade (safe)                                                    |
+| _ail_ [list of packages]   | Install all packages in list                                      |
+| _ap_   			         | Purge                                                             |
+| _ads_   			         | Dselect upgrade                                                   |
+| _dia_   			         | Install all ./*.deb                                               |
+| _di_ [glob]  			     | Install all glob                                                  |
+| _kclean_   		         | Remove unused kernel images                                       |
+| _allpkgs_   		         | Print all installed packages                                      |
+| _mydeb_   		         | Create .deb package                                               |
+| _apt-list-packages_        | List packages by size                                             |
+| _kerndeb_ 		         | Kernel-package building shortcut                                  |
+| _apt-copy_ 		         | Creates script to install all current packages on other machine   |
+| _apt-history_ 	         | Prints apt history                                                |
 
 ---
 
