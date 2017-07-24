@@ -29,7 +29,7 @@ source ~/.oh-my-zsh/templates/zshrc.zsh-template
 | ....    | cd ../../..                           |
 | .....   | cd ../../../..                        |
 | /       | cd /                                  |
-| ~       | cd ~                                      |
+| ~       | cd ~                                  |
 | _cd +n_ | switch to directory number `n`        |
 | _1_     | cd -                                  |
 | _2_     | cd +2                                 |
@@ -93,7 +93,16 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _gapa_                 | git add --patch                                                                   |
 | _gb_                   | git branch                                                                        |
 | _gba_                  | git branch -a                                                                     |
+| _gbd_                  | git branch -d                                                                     |
 | _gbr_                  | git branch --remote                                                               |
+| _gbl_                  | git blame -b -w                                                                   |
+| _gbnm_                 | git branch --no-merged                                                            |
+| _gbr_                  | git branch --remote                                                               |
+| _gbs_                  | git bisect                                                                        |
+| _gbsb_                 | git bisect bad                                                                    |
+| _gbsg_                 | git bisect good                                                                   |
+| _gbsr_                 | git bisect reset                                                                  |
+| _gbss_                 | git bisect start                                                                  |
 | _gc_                   | git commit -v                                                                     |
 | _gc!_                  | git commit -v --amend                                                             |
 | _gca_                  | git commit -v -a                                                                  |
