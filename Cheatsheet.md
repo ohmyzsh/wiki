@@ -10,7 +10,7 @@ source ~/.oh-my-zsh/templates/zshrc.zsh-template
 
 | Command               | Description                                                                                                   |
 |:----------------------|:--------------------------------------------------------------------------------------------------------------|
-| _tabs_                 | Create a new tab in the current directory (macOS - requires enabling access for assistive devices under System Preferences). |
+| _tabs_                | Create a new tab in the current directory (macOS - requires enabling access for assistive devices under System Preferences). |
 | _take_                | Create a new directory and change to it, will create intermediate directories as required.                    |
 | _x_ / _extract_       | Extract an archive (supported types: tar.{bz2,gz,xz,lzma}, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z).         |
 | _zsh_stats_           | Get a list of the top 20 commands and how many times they have been run.                                      |
@@ -107,20 +107,33 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _gc!_                  | git commit -v --amend                                                             |
 | _gca_                  | git commit -v -a                                                                  |
 | _gca!_                 | git commit -v -a --amend                                                          |
-| _gcl_                  | git config --list                                                                 |
+| _gcan!_                | git commit -v -a --no-edit --amend                                                |
+| _gcans!_               | git commit -v -a -s --no-edit --amend                                             |
+| _gcam_                 | git commit -a -m                                                                  |
+| _gcsm_                 | git commit -s -m                                                                  |
+| _gcb_                  | git checkout -b                                                                   |
+| _gcf_                  | git config --list                                                                 |
+| _gcl_                  | git clone --recursive                                                             |
 | _gclean_               | git clean -fd                                                                     |
 | _gpristine_            | git reset --hard && git clean -dfx                                                |
 | _gcm_                  | git checkout master                                                               |
+| _gcd_                  | git checkout develop                                                              |
 | _gcmsg_                | git commit -m                                                                     |
 | _gco_                  | git checkout                                                                      |
 | _gcount_               | git shortlog -sn                                                                  |
 | _gcp_                  | git cherry-pick                                                                   |
+| _gcpa_                 | git cherry-pick --abort                                                           |
+| _gcpc_                 | git cherry-pick --continue                                                        |
 | _gcs_                  | git commit -S                                                                     |
 | _gd_                   | git diff                                                                          |
 | _gdca_                 | git diff --cached                                                                 |
 | _gdt_                  | git diff-tree --no-commit-id --name-only -r                                       |
-| _gdt_                  | git difftool                                                                      |
+| _gdct_                 | git describe --tags `git rev-list --tags --max-count=1`                           |
+| _gdt_                  | git diff-tree --no-commit-id --name-only -r                                       |
+| _gdw_                  | git diff --word-diff                                                              |
+| _gf_                   | git fetch                                                                         |
 | _gfa_                  | git fetch --all --prune                                                           |
+| _gfo_                  | git fetch origin                                                                  |
 | _gg_                   | git gui citool                                                                    |
 | _gga_                  | git gui citool --amend                                                            |
 | _ggpnp_                | git pull origin $(current_branch) && git push origin $(current_branch)            |
@@ -149,7 +162,7 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _gr_                   | git remote                                                                        |
 | _grba_                 | git rebase --abort                                                                |
 | _grbc_                 | git rebase --continue                                                             |
-| _grbs_                 | git rebase --skip                                                             |
+| _grbs_                 | git rebase --skip                                                                 |
 | _grbi_                 | git rebase -i                                                                     |
 | _grh_                  | git reset HEAD                                                                    |
 | _grhh_                 | git reset HEAD --hard                                                             |
