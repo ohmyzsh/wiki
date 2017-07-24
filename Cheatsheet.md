@@ -94,8 +94,6 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _gb_                   | git branch                                                                        |
 | _gba_                  | git branch -a                                                                     |
 | _gbd_                  | git branch -d                                                                     |
-| _gbda_                  | git branch --no-color --merged | command grep -vE "^(\\*&#124;\\s*(master&#124;develop&#124;dev)\\s*$)" &#124; command xargs -n 1 git branch -d                                                                     |
-| _gbr_                  | git branch --remote                                                               |
 | _gbl_                  | git blame -b -w                                                                   |
 | _gbnm_                 | git branch --no-merged                                                            |
 | _gbr_                  | git branch --remote                                                               |
