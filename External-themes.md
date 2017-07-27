@@ -16,10 +16,10 @@ See [repository](https://github.com/juliavallina/windows-zsh-theme) for source.
 
 Author: [@juliavallina](https://github.com/juliavallina)
 
-#### Frog
-![frog](https://raw.githubusercontent.com/qwartz2/dotfiles/master/custom_oh-my-zsh/themes/screenshot/frog.gif)
+#### Simple
+![simple](https://github.com/qwartz/dotfiles/blob/master/oh-my-zsh.c/themes/screenshot/simple.png)
 
-See [repository](https://github.com/qwartz2/dotfiles/tree/master/custom_oh-my-zsh/themes) for source.
+See [repository](https://github.com/qwartz/dotfiles/tree/master/oh-my-zsh.c/themes) for source.
 
 author: [@qwartz](https://github.com/qwartz)
 
