@@ -16,8 +16,8 @@ See [repository](https://github.com/juliavallina/windows-zsh-theme) for source.
 
 Author: [@juliavallina](https://github.com/juliavallina)
 
-#### Simple
-![simple](https://github.com/qwartz/dotfiles/blob/master/oh-my-zsh.c/themes/screenshot/simple.png)
+#### ssimple
+![simple](https://github.com/qwartz/dotfiles/blob/master/oh-my-zsh.c/themes/screenshot/ssimple.png)
 
 See [repository](https://github.com/qwartz/dotfiles/tree/master/oh-my-zsh.c/themes) for source.
 
