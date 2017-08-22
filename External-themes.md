@@ -230,14 +230,20 @@ Currently it shows:
 * Current version of Haskell Tool Stack (`λ`)
 * Current Julia version (`ஃ`)
 * Current Docker version and connected machine (`🐳`).
+* Current Amazon Web Services (AWS) profile (`☁️`) ([Using named profiles](http://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html))
 * Current Python virtualenv.
+* Current Conda virtualenv (`🅒 `).
 * Current Python pyenv (`🐍`).
 * Current .NET SDK version, through dotnet-cli (`.NET`).
 * Current Ember.js version, through ember-cli (`🐹`).
-* Current Vi-mode mode ([with handy aliases for temporarily enabling](#vi-mode-vi_mode)).
+* Current battery level and status:
+  * `⇡` - charging;
+  * `⇣` - discharging;
+  * `•` - fully charged;
+* Current Vi-mode mode.
 * Indicator for jobs in the background (`✦`).
-* Optional exit-code of last command ([how to enable](#exit-code-exit_code)).
-* Optional time stamps 12/24hr in format ([how to enable](#time-time)).
+* Optional exit-code of last command.
+* Optional time stamps 12/24hr in format.
 * Execution time of the last command if it exceeds the set threshold.
 
 source: [denysdovhan/spaceship-zsh-theme](https://github.com/denysdovhan/spaceship-zsh-theme)
