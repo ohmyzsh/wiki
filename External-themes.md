@@ -95,6 +95,16 @@ See my dotfiles [repo](https://github.com/shashankmehta/dotfiles/blob/master/the
 
 author: [shashankmehta](https://github.com/shashankmehta)/[@leostatic](https://twitter.com/@leostatic)
 
+#### Lambda-Gitster
+
+![lambda-gitster theme](https://raw.githubusercontent.com/ergenekonyigit/lambda-gitster/master/demo.gif)
+
+Fork of gitster theme
+
+source: [lambda-gitster](https://github.com/ergenekonyigit/lambda-gitster)
+
+author: [ergenekonyigit](https://github.com/ergenekonyigit)/[@ergenekonyigit](https://twitter.com/ergenekonyigit)
+
 #### Chi
 
 ![Chi theme](https://lh3.googleusercontent.com/-5nLmYSQHp44/VZZdUgxRMBI/AAAAAAAAA84/uVLAZlqvdIc/s457/Screen%252520Shot%2525202015-07-03%252520at%25252001.13.41.png)
