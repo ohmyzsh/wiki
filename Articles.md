@@ -16,5 +16,6 @@ If you know of any that are missing, feel free to contribute! :-)
 - [[zsh on Mac OSX|http://www.mooduino.co.uk/2012/06/z-shell-on-mac-os-x.html]](2012-06-13)
 - [[Oh My ZSH! Build Podcast|http://build-podcast.com/oh-my-zsh/]](2013-01-13) - Screencast
 - [[Budspencer theme|https://vimeo.com/96424888]](2014-05-25) - Screencast showing how to cope with vi modes
+- [[Instant 100% command line productivity boost|https://dev.to/sobolevn/instant-100-command-line-productivity-boost]](2017-08-29)
 
 Also checkout [Oh My Zsh on Hacker Notes](http://thehackernotes.com/robbyrussell/oh-my-zsh)
