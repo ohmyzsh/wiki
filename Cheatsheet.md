@@ -126,7 +126,6 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _gcs_                  | git commit -S                                                                     |
 | _gd_                   | git diff                                                                          |
 | _gdca_                 | git diff --cached                                                                 |
-| _gdt_                  | git diff-tree --no-commit-id --name-only -r                                       |
 | _gdct_                 | git describe --tags &#96;git rev-list --tags --max-count=1&#96;                   |
 | _gdt_                  | git diff-tree --no-commit-id --name-only -r                                       |
 | _gdw_                  | git diff --word-diff                                                              |
