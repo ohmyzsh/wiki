@@ -263,6 +263,23 @@ author: [@denysdovhan](https://twitter.com/denysdovhan)
 
 ![zeta theme](https://raw.githubusercontent.com/skylerlee/zeta-zsh-theme/master/screenshot.png)
 
+Currently it shows:
+
+* User name
+* Machine name
+* Current working directory
+* Git branch
+* Git status
+    * `✔` —— Clean branch
+    * `✘` —— Dirty branch
+    * `+` —— Added files
+    * `-` —— Deleted files
+    * `*` —— Modified files
+    * `>` —— Renamed files
+    * `=` —— Unmerged changes
+    * `?` —— Untracked changes
+* Prompt indicator turns red if the last run fails
+
 source: [here](https://github.com/skylerlee/zeta-zsh-theme)
 author: [@skylerlee](https://github.com/skylerlee)
 
