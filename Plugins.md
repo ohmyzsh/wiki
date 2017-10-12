@@ -281,6 +281,10 @@ This plugin:
 * creates a `brews` alias to list installed brews (= `brew list -1`)
 * adds completion for the `brew` command.
 
+_Note: With the advent of their 1.0 release, Homebrew has decided to bundle
+  the zsh completion as part of the brew installation, so we no longer
+  ship it with the brew plugin; now it only has brew aliases._
+
 ---
 
 ## bundler
