@@ -16,13 +16,6 @@ See [repository](https://github.com/juliavallina/windows-zsh-theme) for source.
 
 Author: [@juliavallina](https://github.com/juliavallina)
 
-#### ssimple
-![simple](https://github.com/qwartz/dotfiles/blob/master/oh-my-zsh.c/themes/screenshot/ssimple.png)
-
-See [repository](https://github.com/qwartz/dotfiles/tree/master/oh-my-zsh.c/themes) for source.
-
-author: [@qwartz](https://github.com/qwartz)
-
 #### sobole
 
 [![sobole](https://github.com/sobolevn/sobole-zsh-theme/blob/master/showcases/ls-colors.png?raw=true)](https://sobolevn.github.io/sobole-zsh-theme/)
