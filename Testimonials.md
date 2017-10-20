@@ -12,6 +12,8 @@ Please share your thoughts on Oh My Zsh... they might help influence others to u
 
 "oh-my-zsh is probably one of the most fun open source projects to yell the name out loud." -- [[secondplanet|https://github.com/secondplanet]]
 
+"oh-my-zsh makes me 300 milliseconds more efficient per command... I like it!" -- [[michielmulders|https://github.com/michielmulders]]
+
 "oh-my-zsh is now mandatory on all my dev servers, it makes bash look boring!" -- [[digital006|https://github.com/digital006]]
 
 "today i installed @ohmyzsh on my machine. after 10 minutes of use, i decided that there is no way back to bash =)" -- [[patbaumgartner|https://twitter.com/patbaumgartner/status/95954168531001344]]
