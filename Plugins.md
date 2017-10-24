@@ -159,7 +159,7 @@ Enables aliases to control a local Apache2 installed via [Macports](http://www.m
 
 ## archlinux
 
-**Maintainer:** [Benjamin Boudreau](https://github.com/dreur)
+**Maintainer:** [Benjamin Boudreau](https://github.com/seriousben)
 
 Enabled [aliases](https://wiki.archlinux.org/index.php/Pacman_Tips) for `pacman` (replace `pac` by `ya` for `yaourt`)
 
