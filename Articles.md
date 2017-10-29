@@ -3,6 +3,7 @@ Here are a collection of blog posts and articles that mention Oh My Zsh.
 If you know of any that are missing, feel free to contribute! :-)
 
 - [[Oh-my-zsh 2017 Tutorial|https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb]]
+- [[Badassify your terminal and shell|http://jilles.me/badassify-your-terminal-and-shell/]]
 - [[Unix ZSHell Reloaded|http://cwoebker.com/posts/unix-zshell-reloaded/]](2012-01-05)
 - [[Changelog - Episode 0.6.1 - Oh my zsh! with Robby Russell|http://thechangelog.com/post/5875746546/episode-0-6-1-oh-my-zsh-with-robby-russell]] -- podcast!
 - [[My Extravagant Zsh Prompt|http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/]]
