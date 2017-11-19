@@ -655,3 +655,17 @@ Features:
 See [repository](https://github.com/channprj/dotfiles-macOS/blob/master/custom-zsh-theme/dpoggi-timestamp.zsh-theme) for source.
 
 Author: [@channprj](https://github.com/channprj)
+
+
+#### nothing
+
+![nothing](https://raw.githubusercontent.com/eendroroy/nothing/master/nothing.png)
+
+##### Features
+
+* Current sessions history count
+* Exit code in right prompt on error
+
+See [Repo](https://github.com/eendroroy/nothing) for source & documentation.
+
+author: [@eendroroy](https://github.com/eendroroy)
