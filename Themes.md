@@ -28,7 +28,7 @@ The rest of the themes, in alphabetical order:
 
 [![agnoster](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)
 
-Shown with [Solarized Dark colorscheme](http://ethanschoonover.com/solarized) and Powerline-patched Menlo 14pt in [iTerm 2](http://www.iterm2.com/).
+Shown with [Solarized Dark colorscheme](http://ethanschoonover.com/solarized) and Powerline-patched Meslo 14pt in [iTerm 2](http://www.iterm2.com/).
 
 Additional setup:
 
