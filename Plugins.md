@@ -1529,7 +1529,7 @@ Completions for `thor`
 
 **Maintainer:** [jmatth](http://github.com/jmatth)
 
-Adds several options for effecting the startup behavior of [tmux](https://tmux.github.io). Each of the options are set by changing the environment variables below in the **TOP** of your `tmux.plugin.zsh` file:
+Adds several options for effecting the startup behavior of [tmux](https://tmux.github.io). Each of the options are set by changing the environment variables below in the **TOP** of your `~/.zshrc` file:
 
 1. `ZSH_TMUX_AUTOSTART`: Automatically start a tmux session upon logging in. Set to `false` by default.
 2. `ZSH_TMUX_AUTOSTART_ONCE`: Only attempt to autostart tmux once. If this is disabled when the previous option is enabled, then tmux will be autostarted every time you source your zsh config files. Set to `true` by default.
