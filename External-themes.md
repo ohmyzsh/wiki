@@ -517,7 +517,7 @@ author: [@eendroroy](https://github.com/eendroroy)
 
 #### alien-minimal
 
-[![asciicast](https://asciinema.org/a/121488.png)](https://asciinema.org/a/121488)
+[![asciicast](http://asciinema.org/a/152668.png)](https://asciinema.org/a/152668)
 
 ##### Features
 
@@ -526,6 +526,8 @@ author: [@eendroroy](https://github.com/eendroroy)
 * Version control - branch, commit hash, dirty status, ahead/behind status
 * Supports both mac and linux
 * Asynchronously update prompt
+* Lots of configuration options
+* **AND MANY MORE**
 
 See [Repo](https://github.com/eendroroy/alien-minimal) for source & documentation.
 
