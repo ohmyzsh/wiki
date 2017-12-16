@@ -17,7 +17,6 @@ source ~/.oh-my-zsh/templates/zshrc.zsh-template
 | _uninstall_oh_my_zsh_ | Uninstall Oh-my-zsh.                                                                                          |
 | _upgrade_oh_my_zsh_   | Upgrade Oh-my-zsh.                                                                                            |
 | source ~/.zshrc       | Uptake new changes
-|
 
 ---
 
