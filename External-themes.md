@@ -695,3 +695,11 @@ Based on the built-in gnzh theme with added current Python virtualenv display.
 See [repo](https://github.com/KorvinSilver/blokkzh) for source.
 
 Author: [@KorvinSilver](https://github.com/KorvinSilver)
+
+#### bender
+
+Fancy two-line prompt with git integration.
+
+Repo: https://github.com/specious/bender
+
+![bender-zsh-theme](https://raw.githubusercontent.com/specious/bender/master/screenshot.png)
