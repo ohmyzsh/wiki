@@ -116,6 +116,12 @@ Close and save the file.
 Close and reopen Cygwin. 
 It will execute the command every time you load the terminal and run your zsh shell.
 
+### Solus
+
+```sh
+eopkg it zsh
+```
+
 ### Add yours
 
 If you know a platform that is not covered, edit this page and add it!
