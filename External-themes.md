@@ -703,3 +703,13 @@ Fancy two-line prompt with git integration.
 Repo: https://github.com/specious/bender
 
 ![bender-zsh-theme](https://raw.githubusercontent.com/specious/bender/master/screenshot.png)
+
+#### agkozak
+
+Uses two asynchronous methods to keep the ZSH prompt swift while displaying color, ASCII-only indicators of Git branch and changes, SSH connection or lack thereof, exit codes, and vi mode status, along with a customizable, abbreviated, PROMPT_DIRTRIM-style path.
+
+![agkozak](https://raw.githubusercontent.com/agkozak/agkozak-zsh-theme/master/img/demo.gif)
+
+Repo: [https://github.com/agkozak/agkozak-zsh-theme](https://github.com/agkozak/agkozak-zsh-theme)
+
+Author: [@agkozak](https://github.com/agkozak)
