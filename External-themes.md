@@ -192,16 +192,17 @@ author: [@skuridin](https://github.com/skuridin)
 source: [here](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh)
 author: [@yarisgutierrez](https://github.com/yarisgutierrez)
 
-#### Spaceship
+#### Spaceship ZSH
 
 ![Spaceship](https://github.com/denysdovhan/spaceship-zsh-theme/raw/master/preview.gif)
 
-Spaceship is a minimalistic, powerful and extremely customizable [“Oh My ZSH!”](ohmyz.sh) theme. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship.
+Spaceship is a minimalistic, powerful and extremely customizable Zsh prompt. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship.
 
 Currently it shows:
 
-* Current git branch.
-* Git repo status:
+* Clever hostname and username displaying.
+* Prompt character turns red if the last command exits with non-zero code.
+* Current Git branch and rich repo status:
   * `?` — untracked changes;
   * `+` — uncommitted changes in the index;
   * `!` — unstaged changes;
@@ -212,16 +213,12 @@ Currently it shows:
   * `⇡` — ahead of remote branch;
   * `⇣` — behind of remote branch;
   * `⇕` — diverged chages.
-* Mercurial repo status:
+* Current Mercurial branch and rich repo status:
   * `?` — untracked changes;
   * `+` — uncommitted changes in the index;
   * `!` — unstaged changes;
   * `✘` — deleted files;
-* Prompt character turns red if the last command exits with non-zero code.
-* Hostname only displayed when in an SSH session.
-* Username displayed only when it isn't `$LOGNAME`.
-* Username turns red when root.
-* If repo is a package, shows its version through npm (`📦`).
+* Indicator for jobs in the background (`✦`).
 * Current Node.js version, through nvm/nodenv/n (`⬢`).
 * Current Ruby version, through rvm/rbenv/chruby (`💎`).
 * Current Elixir version, through kiex/exenv/elixir (`💧`).
@@ -229,27 +226,29 @@ Currently it shows:
 * Current Xcode version, through xenv (`🛠`).
 * Current Go version (`🐹`).
 * Current PHP version (`🐘`).
-* Current Rust version (`𝗥`)
-* Current version of Haskell Tool Stack (`λ`)
-* Current Julia version (`ஃ`)
+* Current Rust version (`𝗥`).
+* Current version of Haskell Tool Stack (`λ`).
+* Current Julia version (`ஃ`).
 * Current Docker version and connected machine (`🐳`).
-* Current Amazon Web Services (AWS) profile (`☁️`) ([Using named profiles](http://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html))
+* Current Amazon Web Services (AWS) profile (`☁️`) ([Using named profiles](http://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)).
 * Current Python virtualenv.
-* Current Conda virtualenv (`🅒 `).
+* Current Conda virtualenv (`🅒`).
 * Current Python pyenv (`🐍`).
 * Current .NET SDK version, through dotnet-cli (`.NET`).
 * Current Ember.js version, through ember-cli (`🐹`).
+* Current Kubectl context (`☸️`).
+* Package version, if there's is a package in current directory (`📦`).
 * Current battery level and status:
   * `⇡` - charging;
   * `⇣` - discharging;
-  * `•` - fully charged;
-* Current Vi-mode mode.
-* Indicator for jobs in the background (`✦`).
+  * `•` - fully charged.
+* Current Vi-mode mode (with handy aliases for temporarily enabling).
 * Optional exit-code of last command.
 * Optional time stamps 12/24hr in format.
 * Execution time of the last command if it exceeds the set threshold.
 
-source: [denysdovhan/spaceship-zsh-theme](https://github.com/denysdovhan/spaceship-zsh-theme)
+source: [denysdovhan/spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt)  
+docs: [denysdovhan.com/spaceship-prompt](https://denysdovhan.com/spaceship-prompt)  
 author: [@denysdovhan](https://twitter.com/denysdovhan)
 
 #### Zeta Theme
