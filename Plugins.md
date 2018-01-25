@@ -583,7 +583,7 @@ This is a small zle trick that lets you cycle your directory stack left or right
 
 **Maintainer:** [jeffwilliams](https://github.com/jeffwilliams)
 
-This plugin allows you to navigate the history of previous current-working-directories using ALT-LEFT and ALT-RIGHT. ALT-LEFT moves back to directories that the user has changed to in the past, and ALT-RIGHT undoes ALT-LEFT.
+This plugin allows you to navigate the history of previous current-working-directories using ALT-LEFT and ALT-RIGHT. ALT-LEFT moves back to directories that the user has changed to in the past, and ALT-RIGHT undoes ALT-LEFT. MAC users may alternately use OPT-LEFT and OPT-RIGHT.
 
 For example, if the shell was started, and the following commands were entered:
 
@@ -596,7 +596,7 @@ cd doc
 
 Then entering ALT-LEFT at the prompt would change directory from /usr/share/doc to /usr/share, then if pressed again to /usr/, then ~. If ALT-RIGHT were pressed the directory would be changed to /usr/ again.
 
-Currently the max history size is 100. The navigation should work for xterm, PuTTY xterm mode, and GNU screen.
+Currently the max history size is 30. The navigation should work for xterm, PuTTY xterm mode, GNU screen, and on MAC with alternate keys as mentioned above.
 
 ---
 
