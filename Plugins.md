@@ -581,7 +581,7 @@ This is a small zle trick that lets you cycle your directory stack left or right
 
 ## dirhistory
 
-**Maintainer:** [jeffwilliams][jeffwilliams]
+**Maintainer:** [jeffwilliams](https://github.com/jeffwilliams)
 
 This plugin allows you to navigate the history of previous current-working-directories using ALT-LEFT and ALT-RIGHT. ALT-LEFT moves back to directories that the user has changed to in the past, and ALT-RIGHT undoes ALT-LEFT.
 
