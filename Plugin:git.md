@@ -11,7 +11,9 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | g                    | git                                                                                                                                     |
 | ga                   | git add                                                                                                                                 |
 | gaa                  | git add --all                                                                                                                           |
-| gapa                 | git add --patch                                                                                                                         |
+| gapa                 | git add --patch     
+|
+| gau                  | git add --update                                                                                                                      |
 | gb                   | git branch                                                                                                                              |
 | gba                  | git branch -a                                                                                                                           |
 | gbda                 | git branch --merged \| command grep -vE "^(\*\|\s*master\s*$)" \| command xargs -n 1 git branch -d                                      |
