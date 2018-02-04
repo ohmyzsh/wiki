@@ -36,7 +36,12 @@ brew install zsh zsh-completions
 ```
 
 Assuming you have [Homebrew](http://brew.sh/) installed. If not, most versions of
-**macOS** ship zsh by default, but it's normally an older version.
+**macOS** ship zsh by default, but it's normally an older version.  Alternatively, you may
+also use [MacPorts](https://www.macports.org/)
+
+```sh
+sudo port install zsh zsh-completions
+```
 
 ### Ubuntu, Debian & derivatives
 
