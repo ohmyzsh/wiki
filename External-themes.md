@@ -497,7 +497,13 @@ author: [@badouralix](https://github.com/badouralix)
 
 #### alien
 
-[![asciicast](https://asciinema.org/a/121489.png)](https://asciinema.org/a/121489)
+[![asciicast](http://asciinema.org/a/154047.png)](https://asciinema.org/a/154047)
+
+Themes:
+![blue](https://raw.githubusercontent.com/eendroroy/alien/master/screenshots/blue.png)
+![green](https://raw.githubusercontent.com/eendroroy/alien/master/screenshots/green.png)
+![red](https://raw.githubusercontent.com/eendroroy/alien/master/screenshots/red.png)
+![soft](https://raw.githubusercontent.com/eendroroy/alien/master/screenshots/soft.png)
 
 ##### Features
 
