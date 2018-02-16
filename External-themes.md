@@ -9,6 +9,13 @@ Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki
 
 ---
 
+#### Oxide
+![oxide zsh](http://dotshare.it/public/images/uploads/8266.png)
+
+See [repository](https://github.com/dikiaap/dotfiles) for source.
+
+Author: [@dikiaap](https://github.com/dikiaap)
+
 #### Windows CMD
 ![windows cmd](https://raw.githubusercontent.com/juliavallina/windows-zsh-theme/master/screenshot.gif)
 
