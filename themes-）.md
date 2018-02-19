@@ -1,1 +1,0 @@
-ZSH_THEME="candy" 
