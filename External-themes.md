@@ -122,8 +122,7 @@ It currently shows:
 
 See [Repo](https://github.com/akinjide/chi) for source
 
-
-author: [Akinjide Bankole](https://github.com/andela-abankole)/[@_akinjide](https://twitter.com/_akinjide)
+author: [Akinjide Bankole](https://github.com/akinjide)/[@_akinjide](https://twitter.com/_akinjide)
 
 #### Haribo theme
 
