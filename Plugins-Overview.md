@@ -170,9 +170,8 @@
 | ------------------------------------------------------------------------------------ | ----------------------------------------- |
 | [archlinux](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/archlinux) | aliases for yaourt and pacman             |
 | [debian](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/debian)       | aliases for apt* utils               |
-| [dnf](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/dnf)             | aliases for `dnf`
-|
-| [suse](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/suse)           | aliases for SUSE Linux (zypper aliases)   |
+| [dnf](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/dnf)             | aliases for `dnf`             |
+| [suse](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/suse)           | aliases for SUSE Linux (zypper aliases) |
 | [systemd](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/systemd)     | aliases                                   |
 | [yum](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/yum)             | aliases                                   |
 
