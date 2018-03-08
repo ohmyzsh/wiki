@@ -9,6 +9,12 @@ Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki
 
 ---
 
+#### Fishy2
+![fishy2 zsh](https://github.com/akinjide/fishy2/raw/master/images/Screen%20Shot%202017-04-20%20at%2010.46.49%20AM.png)
+
+See [repository](https://github.com/akinjide/fishy2) for source.
+
+Author: [@akinjide](https://github.com/akinjide)
 #### Oxide
 ![oxide zsh](http://dotshare.it/public/images/uploads/8266.png)
 
