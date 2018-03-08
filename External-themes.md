@@ -107,7 +107,7 @@ author: [ergenekonyigit](https://github.com/ergenekonyigit)/[@ergenekonyigit](ht
 
 #### Chi
 
-![Chi theme](https://lh3.googleusercontent.com/-5nLmYSQHp44/VZZdUgxRMBI/AAAAAAAAA84/uVLAZlqvdIc/s457/Screen%252520Shot%2525202015-07-03%252520at%25252001.13.41.png)
+![Chi theme](https://www.facebook.com/photo.php?fbid=1876174609074032&l=e92e00ac88)
 ![Chi theme](https://lh3.googleusercontent.com/-DyW0haE8Mao/VZZdUjdyLoI/AAAAAAAAA88/tW20k23uem8/s458/Screen%252520Shot%2525202015-07-03%252520at%25252001.14.40.png)
 
 It currently shows:
