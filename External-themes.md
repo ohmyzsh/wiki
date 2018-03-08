@@ -15,6 +15,7 @@ Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki
 See [repository](https://github.com/akinjide/fishy2) for source.
 
 Author: [@akinjide](https://github.com/akinjide)
+
 #### Oxide
 ![oxide zsh](http://dotshare.it/public/images/uploads/8266.png)
 
@@ -126,9 +127,9 @@ It currently shows:
 - `git:master` **color: White** committed files
 - `○` shows if current directory is a git folder || git branch
 
-See [Repo](https://github.com/akinjide/chi) for source
+See [repository](https://github.com/akinjide/chi) for source.
 
-author: [Akinjide Bankole](https://github.com/akinjide)/[@_akinjide](https://twitter.com/_akinjide)
+Author: [@akinjide](https://github.com/akinjide)
 
 #### Haribo theme
 
