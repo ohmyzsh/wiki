@@ -9,6 +9,16 @@ Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki
 
 ---
 
+#### Aphrodite Theme
+![Aphrodite Theme for ZSH](https://user-images.githubusercontent.com/11278181/30273006-cd4f5b44-96ff-11e7-9519-de71cae726e6.png)
+
+Minimalistic Aphrodite theme does not have any visual noise. Displays only the necessary information: current user, hostname, working directory, git branch if exists. Looks great both with dark and white terminals.
+
+See [repository](https://github.com/win0err/aphrodite-terminal-theme) for source and installation instructions.
+Author: [@win0err](https://github.com/win0err)
+
+---
+
 #### Fishy2
 ![fishy2 zsh](https://github.com/akinjide/fishy2/raw/master/images/Screen%20Shot%202017-04-20%20at%2010.46.49%20AM.png)
 
