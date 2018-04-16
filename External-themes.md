@@ -26,6 +26,18 @@ See [repository](https://github.com/akinjide/fishy2) for source.
 
 Author: [@akinjide](https://github.com/akinjide)
 
+***
+
+
+#### abaykan
+![abaykan](https://abaykan.com/server/abaykan.zsh-theme~.png)<br>
+See [repository](https://github.com/abaykan/Mine/blob/master/abaykan.zsh-theme) for source.
+
+Author: [@abaykan](https://github.com/abaykan)
+
+***
+
+
 #### Oxide
 ![oxide zsh](http://dotshare.it/public/images/uploads/8266.png)
 
