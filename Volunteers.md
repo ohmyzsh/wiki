@@ -14,7 +14,7 @@ If you're feeling fairly savvy with Oh My Zsh have sent in pull requests/helped 
 
 Additionally, if you're just wanting to help out... I could use a few people to assist with organizing new Issues. I'd like all the Issues to be properly labeled and assigned to people that can help those items move forward. For example, if a bug comes in for a plugin reaching out to the original plugin author to ask if they can help out would be great. (Basically... poking people and trying to help issues get resolved and/or closed.) 
 
-Get in touch with [@robbyrussell](https://github.com/robbyrussell) on github.
+Get in touch with [@robbyrussell](https://github.com/robbyrussell) and [@mcornella](https://github.com/mcornella).
 
 ***
 
