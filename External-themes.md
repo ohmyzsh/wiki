@@ -753,3 +753,10 @@ Uses two asynchronous methods to keep the ZSH prompt swift while displaying colo
 Repo: [https://github.com/agkozak/agkozak-zsh-theme](https://github.com/agkozak/agkozak-zsh-theme)
 
 Author: [@agkozak](https://github.com/agkozak)
+
+#### rainbow-theme
+![rainbow-theme](https://github.com/nivaca/rainbow-theme/blob/master/screenshot.png)
+
+Repo: [https://github.com/nivaca/rainbow-theme](https://github.com/nivaca/rainbow-theme)
+
+Author: [@nivaca](https://github.com/nivaca)
