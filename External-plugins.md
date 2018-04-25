@@ -11,7 +11,7 @@ It should be clear from [this](https://github.com/robbyrussell/oh-my-zsh/wiki/Cu
 #### Git auto status
 
 If you found yourself constantly typing `git status` after bunch of commands like
-`git commit` and you want to avoid that, than this plugin is for you.
+`git commit` and you want to avoid that, then this plugin is for you.
 
 This plugin is a nice addition to **git_prompt_status**.
 
