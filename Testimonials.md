@@ -39,3 +39,5 @@ Please share your thoughts on Oh My Zsh... they might help influence others to u
 "As a shell newbie, oh-my-zsh is my lighthouse. As I drown in the shell-sea at least I know where the mainland is!" --[[V-J-P|https://github.com/V-J-P]]
 
 "My mouth dropped the first time I saw my new terminal with oh-my-zsh. I teach web development to students at a bootcamp. When students are struggling with the terminal, I tell them to install oh-my-zsh and struggling students start understanding it better. Its amazing themes can tell the students what directory they are in right way and what branch too" --[[besteman|https://github.com/besteman]]
+
+"J'utilise OMZ depuis que j'ai commence a developper en C et ca m'a sauve la vie bien des fois ! Il est pour moi impensable d'utilser un shell sans OMZ! --[[Seluj78|https://github.com/seluj78]]
