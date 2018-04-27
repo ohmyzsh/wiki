@@ -64,6 +64,7 @@
 | _ggpush_               | git push origin $(current_branch)                                                 |
 | _ggp_                  | git push origin $(current_branch)                                                 |
 | _ggsup_                | git branch --set-upstream-to=origin/$(current_branch)                             |
+| _gpsup_                | git push --set-upstream origin $(current_branch)                                  |
 | _gignore_              | git update-index --assume-unchanged                                               |
 | _gignored_             | git ls-files -v &#124; grep "^\[\[:lower:\]\]"                                    |
 | _git-svn-dcommit-push_ | git svn dcommit && git push github master:svntrunk                                |
