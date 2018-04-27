@@ -19,3 +19,4 @@ If you know of any that are missing, feel free to contribute! :-)
 - [[Oh My ZSH! Build Podcast|http://build-podcast.com/oh-my-zsh/]] - Screencast
 - [[Budspencer theme|https://vimeo.com/96424888]] - Screencast showing how to cope with vi modes
 - [[Instant 100% command line productivity boost|https://dev.to/sobolevn/instant-100-command-line-productivity-boost]]
+- [[Quick Setup of Oh My ZSH! terminal on Ubuntu|https://www.giftegwuenu.com/2018/04/27/quick-setup-of-oh-my-zsh-terminal-on-ubuntu]]
