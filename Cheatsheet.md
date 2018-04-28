@@ -1,4 +1,81 @@
+To try it out if you have just cloned it (to your home directory):
 
+```shell
+source ~/.oh-my-zsh/templates/zshrc.zsh-template
+```
+
+---
+
+## Commands
+
+| Command               | Description                                                                                                   |
+|:----------------------|:--------------------------------------------------------------------------------------------------------------|
+| _tabs_                | Create a new tab in the current directory (macOS - requires enabling access for assistive devices under System Preferences). |
+| _take_                | Create a new directory and change to it, will create intermediate directories as required.                    |
+| _x_ / _extract_       | Extract an archive (supported types: tar.{bz2,gz,xz,lzma}, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z).         |
+| _zsh_stats_           | Get a list of the top 20 commands and how many times they have been run.                                      |
+| _uninstall_oh_my_zsh_ | Uninstall Oh-my-zsh.                                                                                          |
+| _upgrade_oh_my_zsh_   | Upgrade Oh-my-zsh.                                                                                            |
+| source ~/.zshrc       | Uptake new changes
+
+---
+
+| Alias   | Command                               |
+|:--------|:--------------------------------------|
+| _alias_ | list all aliases                      |
+| ..      | cd ..                                 |
+| ...     | cd ../..                              |
+| ....    | cd ../../..                           |
+| .....   | cd ../../../..                        |
+| /       | cd /                                  |
+| ~       | cd ~                                  |
+| _cd +n_ | switch to directory number `n`        |
+| _1_     | cd -                                  |
+| _2_     | cd +2                                 |
+| _3_     | cd +3                                 |
+| _4_     | cd +4                                 |
+| _5_     | cd +5                                 |
+| _6_     | cd +6                                 |
+| _7_     | cd +7                                 |
+| _8_     | cd +8                                 |
+| _9_     | cd +9                                 |
+| _md_    | mkdir -p                              |
+| _rd_    | rmdir                                 |
+| _d_     | dirs -v (lists last used directories) |
+
+See `~/.oh-my-zsh/lib/directories.zsh`
+
+### Alias
+example: 
+
+```bash
+alias -s rb=vim #opens ruby files in vim
+# $ foo.rb 
+# vim => foo.rb
+alias -g gp='| grep -i' #creates a global alias for grep
+# $ ps ax gp ruby
+# (all ruby process will be displayed)
+```
+
+| Flag  | Description                                     |
+|:------|:------------------------------------------------|
+| L     | print each alias in the form of calls to alias  |
+| g     | list or define global aliases                   |
+| m     | print aliases matching specified pattern        |
+| r     | list or define regular aliases                  |
+| s     | list or define suffix aliases                   |
+
+## Tab-completion
+
+| For options and helpful text of what they do |
+|:--------------------------------------------:|
+| _ls -(tab)_                                  |
+| _cap (tab)_                                  |
+| _rake (tab)_                                 |
+| _ssh (tab)_                                  |
+| _sudo umount (tab)_                          |
+| _kill (tab)_                                 |
+| _unrar (tab)_                                |
 
 ## Git
 
@@ -114,3 +191,52 @@
 
 You also find these commands in Dash as a Cheat-sheet.
 
+## Editors
+
+| Alias | Command                                                                  |
+|:------|:-------------------------------------------------------------------------|
+| _stt_ | (When using `sublime` plugin) Open current directory in Sublime Text 2/3 |
+| _v_   | (When using `vi-mode` plugin) Edit current command line in Vim           |
+
+## Symfony2
+
+| Alias        | Command                     |
+|:-------------|:----------------------------|
+| _sf_         | php ./app/console           |
+| _sfcl_       | php app/console cache:clear |
+| _sfcontainer_| sf debug:container          |
+| _sfcw_       | sf cache:warmup             |
+| _sfgb_       | sf generate:bundle          |
+| _sfroute_    | sf debug:router             |
+| _sfsr_       | sf server:run -vvv          |
+
+## tmux
+
+| Alias | Command             |
+|:------|:--------------------|
+| _ta_  | tmux attach -t      |
+| _tad_ | tmux attach -d -t   |
+| _ts_  | tmux new-session -s |
+| _tl_  | tmux list-sessions  |
+| _tksv_| tmux kill-server    |
+| _tkss_| tmux kill-session -t|
+
+## Systemd
+
+### systemctl
+
+| Command           | Description                              |
+|:------------------|:-----------------------------------------|
+| _sc-status NAME_  | show the status of the NAME process      |
+| _sc-show NAME_    | show the NAME systemd .service file      |
+| _sc-start NAME_   | start the NAME process                   |
+| _sc-stop NAME_    | stop the NAME process                    |
+| _sc-restart NAME_ | restart the NAME process                 |
+| _sc-enable NAME_  | enable the NAME process to start at boot |
+| _sc-disable NAME_ | disable the NAME process at boot         |
+
+## Upgrade
+To upgrade .oh-my-zsh, run:
+``` bash
+upgrade_oh_my_zsh
+```
