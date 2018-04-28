@@ -128,6 +128,12 @@ It will execute the command every time you load the terminal and run your zsh sh
 eopkg it zsh
 ```
 
+### Funtoo/Gentoo
+```sh
+emerge app-shells/zsh
+```
+
+
 ### Add yours
 
 If you know a platform that is not covered, edit this page and add it!
