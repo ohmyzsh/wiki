@@ -83,7 +83,11 @@ xbps-install zsh
 ```sh
 dnf install zsh
 ```
-
+### OpenBSD
+To install the package:
+```sh
+pkg_add zsh
+```
 ### FreeBSD
 To install the package:
 ```sh
