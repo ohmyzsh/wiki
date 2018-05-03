@@ -379,6 +379,24 @@ See [Repo](https://github.com/lenguyenthanh/nt9-oh-my-zsh-theme) for source.
 
 author: [@lenguyenthanh](https://github.com/lenguyenthanh)
 
+#### jovial
+![jovial theme](https://github.com/zthxxx/jovial/raw/master/docs/jovial-preview.png)
+
+pretty face, feel more jovial with this theme.
+
+##### It currently shows:
+* Show Host and User
+* Show current path
+* Show development environment segment
+* Show git branch, git actions
+* Show python venv
+* Show time at the line end
+* Show exit code at the previous line end
+
+See [Repo](https://github.com/zthxxx/jovial) for source.
+
+author: [@zthxxx](https://github.com/zthxxx)
+
 #### geometry
 
 ![geometry](https://raw.githubusercontent.com/frmendes/geometry/master/screenshots/geometry.png)
