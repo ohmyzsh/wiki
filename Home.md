@@ -1,7 +1,6 @@
 ## Welcome to the oh-my-zsh wiki!
 
 - If you don't have zsh installed, see [[Installing Zsh]].
-- Full Linux installation [[Guide|https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb]] with plugins.
 - Take a look at our [[Themes]] and [[Plugins]] (here's a brief overview: [[Plugins Overview]]).
 - You can find more at [[External themes]] and [[External plugins]].
 - Learn about [[Customization]].
