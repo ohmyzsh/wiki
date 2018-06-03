@@ -8,7 +8,16 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
+#### kmac theme
+![kmac theme for ZSH](https://github.com/koreymacdougall/config_files/blob/master/deprecated_files/kmac-zsh-theme-ss.png)
 
+Simple theme that cleanly shows: 
+username@host:pwd $ 
+
+See [repository](https://github.com/koreymacdougall/config_files/blob/master/deprecated_files/kmac.oh-my-zsh-theme) for source.
+Author: [@koreymacdougall](https://github.com/koreymacdougall)
+
+---
 #### Aphrodite Theme
 ![Aphrodite Theme for ZSH](https://user-images.githubusercontent.com/11278181/30273006-cd4f5b44-96ff-11e7-9519-de71cae726e6.png)
 
