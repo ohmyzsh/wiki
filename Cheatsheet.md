@@ -140,6 +140,7 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _glum_                 | git pull upstream master                                                          |
 | _ggpush_               | git push origin $(current_branch)                                                 |
 | _ggp_                  | git push origin $(current_branch)                                                 |
+| _ggfl_                 | git push --force-with-lease origin <your_argument>/$(current_branch)              |
 | _ggsup_                | git branch --set-upstream-to=origin/$(current_branch)                             |
 | _gpsup_                | git push --set-upstream origin $(current_branch)                                  |
 | _gignore_              | git update-index --assume-unchanged                                               |
