@@ -603,7 +603,7 @@ After that, ALT-DOWN will probably go to /usr/bin (depends on your /usr structur
 
 Currently the max history size is 30. The navigation should work for xterm, PuTTY xterm mode, GNU screen, and on MAC with alternate keys as mentioned above.
 
-**See also**: [dircycle](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#dircycle) enables more efficient back/forward navigation by using the built-in directory stack, but lacks the ability to traverse up/down directories (although this is simple to add with a keybinding with `cd ..`).
+**See also**: [dircycle](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#dircycle) enables more efficient back/forward navigation by using the built-in directory stack, but lacks the ability to traverse up/down directories (although this is simple to add with a keybinding to `cd ..`).
 
 ---
 
