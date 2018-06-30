@@ -182,6 +182,7 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _gstl_                 | git stash list                                                                    |
 | _gstp_                 | git stash pop                                                                     |
 | _gsts_                 | git stash show --text                                                             |
+| _gsu_                  | git submodule update                                                              |
 | _gts_                  | git tag -s                                                                        |
 | _gunignore_            | git update-index --no-assume-unchanged                                            |
 | _gunwip_               | git log -n 1 &#124; grep -q -c "\-\-wip\-\-" && git reset HEAD~1                  |
