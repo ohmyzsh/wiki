@@ -31,14 +31,14 @@ source ~/.oh-my-zsh/templates/zshrc.zsh-template
 | ~       | cd ~                                  |
 | _cd +n_ | switch to directory number `n`        |
 | _1_     | cd -                                  |
-| _2_     | cd +2                                 |
-| _3_     | cd +3                                 |
-| _4_     | cd +4                                 |
-| _5_     | cd +5                                 |
-| _6_     | cd +6                                 |
-| _7_     | cd +7                                 |
-| _8_     | cd +8                                 |
-| _9_     | cd +9                                 |
+| _2_     | cd -2                                |
+| _3_     | cd -3                                 |
+| _4_     | cd -4                                 |
+| _5_     | cd -5                                 |
+| _6_     | cd -6                                 |
+| _7_     | cd -7                                 |
+| _8_     | cd -8                                 |
+| _9_     | cd -9                                 |
 | _md_    | mkdir -p                              |
 | _rd_    | rmdir                                 |
 | _d_     | dirs -v (lists last used directories) |
