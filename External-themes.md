@@ -238,7 +238,7 @@ author: [@yarisgutierrez](https://github.com/yarisgutierrez)
 
 #### Spaceship ZSH
 
-![Spaceship](https://github.com/denysdovhan/spaceship-zsh-theme/raw/master/preview.gif)
+![Spaceship](https://user-images.githubusercontent.com/10276208/36086434-5de52ace-0ff2-11e8-8299-c67f9ab4e9bd.gif)
 
 Spaceship is a minimalistic, powerful and extremely customizable Zsh prompt. It combines everything you may need for convenient work, without unnecessary complications, like a real spaceship.
 
