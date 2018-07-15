@@ -787,3 +787,14 @@ Author: [@agkozak](https://github.com/agkozak)
 Repo: [https://github.com/nivaca/rainbow-theme](https://github.com/nivaca/rainbow-theme)
 
 Author: [@nivaca](https://github.com/nivaca)
+
+---
+# Zeroastro Theme
+
+![Zeroastro ZSH Theme](https://github.com/zeroastro/zeroastro-zsh-theme/raw/master/zeroastro-zsh-theme.png)
+
+Simple, minimalistic theme for Oh My ZSH.
+
+Repo: [https://github.com/zeroastro/zeroastro-zsh-theme](https://github.com/zeroastro/zeroastro-zsh-theme)
+
+Author: [@zeroastro](https://github.com/zeroastro)
