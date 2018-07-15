@@ -789,7 +789,7 @@ Repo: [https://github.com/nivaca/rainbow-theme](https://github.com/nivaca/rainbo
 Author: [@nivaca](https://github.com/nivaca)
 
 ---
-# Zeroastro Theme
+#### Zeroastro Theme
 
 ![Zeroastro ZSH Theme](https://github.com/zeroastro/zeroastro-zsh-theme/raw/master/zeroastro-zsh-theme.png)
 
