@@ -8,6 +8,13 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
+### Minimal Improved theme
+![Minimal Improved theme for ZSH](https://raw.githubusercontent.com/gdsrosa/minimal_improved/master/minimal_improved_theme.png)
+
+See [repo](https://github.com/gdsrosa/minimal_improved)
+Author: [@gdsrosa](https://github.com/gdsrosa)
+
+---
 #### kmac theme
 ![kmac theme for ZSH](https://github.com/koreymacdougall/config_files/blob/master/deprecated_files/kmac-zsh-theme-ss.png)
 
