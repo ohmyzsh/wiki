@@ -782,9 +782,9 @@ Repo: https://github.com/specious/bender
 
 Uses two asynchronous methods to keep the ZSH prompt swift while displaying color, ASCII-only indicators of Git branch and changes, SSH connection or lack thereof, exit codes, and vi mode status, along with a customizable, abbreviated, PROMPT_DIRTRIM-style path.
 
-![agkozak](https://raw.githubusercontent.com/agkozak/agkozak-zsh-theme/master/img/demo.gif)
+![agkozak](https://raw.githubusercontent.com/agkozak/agkozak-zsh-prompt/master/img/demo.gif)
 
-Repo: [https://github.com/agkozak/agkozak-zsh-theme](https://github.com/agkozak/agkozak-zsh-theme)
+Repo: [https://github.com/agkozak/agkozak-zsh-prompt](https://github.com/agkozak/agkozak-zsh-prompt)
 
 Author: [@agkozak](https://github.com/agkozak)
 
