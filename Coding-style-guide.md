@@ -435,7 +435,7 @@ var="`command \`command1\``"
 
 ##### _Good:_
 ```shell
-var="$(command \"$(command1)\")"
+var="$(command "$(command1)")"
 ```
 
 ### Eval
