@@ -1,1 +1,1 @@
-fuck sidebars!
+sidebars suck!
