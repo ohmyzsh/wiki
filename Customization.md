@@ -51,6 +51,17 @@ zsh_custom
 
 Then edit your .zshrc to use that theme.
 
+Optionally you can use the following script for an easier installation: [oh-my-zsh theme installer](https://gist.github.com/tmjoseantonio/dfa6b84818051f1c5b95dbcb0a47a118)
+
+```
+# some_folder
+# └──install.sh
+# └──my_awesome_theme.zsh-theme
+```
+```shell
+$ sh install.sh my_awesome_theme
+```
+
 ```shell
 ZSH_THEME="my_awesome_theme"
 ```
