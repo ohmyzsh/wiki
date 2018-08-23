@@ -88,7 +88,6 @@ Below is a list of bundled plugins
 - [ng](#ng)
 - [node](#node)
 - [npm](#npm)
-- [nyan](#nyan)
 - [osx](#osx)
 - [pass](#pass)
 - [per-directory-history](#per-directory-history)
@@ -1096,14 +1095,6 @@ See [the README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/n
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
 - npm - adds autocompletion to [npm](https://npmjs.org)
-
----
-
-## nyan
-
-**Maintainer:** [robbyrussell](https://github.com/robbyrussell)
-
-- nyan - nyan cat goodness in your shell
 
 ---
 
