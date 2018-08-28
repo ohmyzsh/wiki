@@ -1204,7 +1204,7 @@ A simple [powify](https://github.com/sethvargo/powify) autocomplete plugin. It i
 
 **Maintainer:** [ssm](https://github.com/ssm)
 
-- Completion for the [pyenv](https://github.com/yyuu/pyenv) command, which maintains local python installations.
+- Completion for the [pyenv](https://github.com/pyenv/pyenv) command, which maintains local python installations.
 - Exports a "pyenv_prompt_info()" function for your custom prompt.
 
 ---
