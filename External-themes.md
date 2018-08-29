@@ -805,3 +805,11 @@ Simple, minimalistic theme for Oh My ZSH.
 Repo: [https://github.com/zeroastro/zeroastro-zsh-theme](https://github.com/zeroastro/zeroastro-zsh-theme)
 
 Author: [@zeroastro](https://github.com/zeroastro)
+
+---
+### Kayid Theme
+
+![Kayid Theme for ZSH](https://raw.githubusercontent.com/AmrMKayid/KayidmacOS/master/Kayid-Theme.png)
+
+See [repo](https://github.com/AmrMKayid/KayidmacOS/blob/master/kayid.zsh-theme)
+Author: [@AmrMKayid](https://github.com/AmrMKayid)
