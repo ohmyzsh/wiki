@@ -137,6 +137,10 @@ eopkg it zsh
 emerge app-shells/zsh
 ```
 
+### Alpine Linux
+```sh
+apk add zsh
+```
 
 ### Add yours
 
