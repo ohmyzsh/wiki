@@ -189,10 +189,10 @@ Enabled [aliases](https://wiki.archlinux.org/index.php/Pacman_Tips) for `pacman`
 
 ## asdf
 
+**Maintainer:** [RobLoach](https://github.com/RobLoach)
+
 A plugin for the _extendable version manager_ [asdf](https://github.com/asdf-vm/asdf).
 See the [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/asdf) for usage information.
-
-**Maintainer:** [RobLoach](https://github.com/RobLoach)
 
 ---
 
@@ -200,16 +200,16 @@ See the [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/a
 
 **Maintainer:** [guiferpa](https://github.com/guiferpa)
 
-## Description
+### Description
 This plugin show platforms version
 
-## Support
+### Support
 [Nodejs](https://nodejs.org), [NPM](https://www.npmjs.com), [Docker](https://www.docker.com), [Go](https://golang.org), [Python](https://www.python.org), [Elixir](https://elixir-lang.org) and [Ruby](https://www.ruby-lang.org)
 
-## Demo
+### Demo
 ![Demo](https://raw.githubusercontent.com/guiferpa/aterminal/master/images/demo.gif)
 
-## Install
+### Install
 1. You need to install [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
 2. Clone plugin: `git clone https://github.com/guiferpa/aterminal.git`
 3. Move to plugins directory: `mv aterminal $HOME/.oh-my-zsh/plugins/`
@@ -217,6 +217,8 @@ This plugin show platforms version
 ---
 
 ## autojump
+
+**Maintainer:** [wting](https://github.com/wting)
 
 Enables [autojump](https://github.com/joelthelion/autojump/wiki/) if installed with homebrew, macports or debian/ubuntu package.
 
@@ -587,7 +589,6 @@ This plugin allows you to navigate the history of previous current-working-direc
 
 Also, navigate directory **hierarchy** using ALT-UP and ALT-DOWN. (mac keybindings not yet implemented). ALT-UP moves to higher hierarchy (shortcut for 'cd ..'). ALT-DOWN moves into the first directory found in alphabetical order (useful to navigate long empty directories e.g. java packages)
 
-
 For example, if the shell was started, and the following commands were entered:
 
 ```shell
@@ -712,6 +713,8 @@ $ decode64 c29tZV9zdHJpbmc=
 ---
 
 ## gas
+
+**Maintainer:** [walle](https://github.com/walle)
 
 - gas - completion plugin for the [gas](https://github.com/walle/gas) gem
 
