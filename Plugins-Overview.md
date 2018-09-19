@@ -199,5 +199,5 @@
 | [emoji-clock](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/emoji-clock) | fancy shell clocks                                                                 |
 | [lol](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/lol)                 | dowant                                                                             |
 | [nyan](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/nyan)               | Nyan Cat in terminal 
-| [rand-quote](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/rand-quote)   | quote function for random quotes from http://www.quotationspage.com/random.php3    |
+| [rand-quote](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/rand-quote)   | quote function for random quotes from http://www.quotationspage.com/random.php    |
 | [themes](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/themes)           | ZSH theme switcher                                                                 |
