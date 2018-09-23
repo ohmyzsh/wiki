@@ -819,5 +819,8 @@ Author: [@AmrMKayid](https://github.com/AmrMKayid)
 
 ![Shayan ZSH Theme](https://raw.githubusercontent.com/shayanh/shayan-zsh-theme/master/shayan-zsh-theme.png)
 
-See [repo](https://github.com/shayanh/shayan-zsh-theme)
+Simple.
+
+Repo: [https://github.com/shayanh/shayan-zsh-theme](https://github.com/shayanh/shayan-zsh-theme)
+
 Author: [@shayanh](https://github.com/shayanh)
