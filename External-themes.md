@@ -813,3 +813,11 @@ Author: [@zeroastro](https://github.com/zeroastro)
 
 See [repo](https://github.com/AmrMKayid/KayidmacOS/blob/master/kayid.zsh-theme)
 Author: [@AmrMKayid](https://github.com/AmrMKayid)
+
+---
+### Shayan ZSH Theme
+
+![Shayan ZSH Theme](https://raw.githubusercontent.com/shayanh/shayan-zsh-theme/master/shayan-zsh-theme.png)
+
+See [repo](https://github.com/shayanh/shayan-zsh-theme)
+Author: [@shayanh](https://github.com/shayanh)
