@@ -114,9 +114,7 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gstaa                | git stash apply                                                                                                                         |
 | gstd                 | git stash drop                                                                                                                          |
 | gstl                 | git stash list                                                                                                                          |
-| gstpp                | git stash pop                                                                                                                           
-|
-| gstp                 | git stash push                                                                                                                           |
+| gstp                 | git stash pop                                                                                                                           |
 | gstc                 | git stash clear                                                                                                                         |
 | gsts                 | git stash show --text                                                                                                                   |
 | gsu                  | git submodule update                                                                                                                    |
