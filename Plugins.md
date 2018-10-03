@@ -82,6 +82,7 @@ Below is a list of bundled plugins
 - [macports](#macports)
 - [mercurial](#mercurial)
 - [meteor](#meteor)
+- [mix](#mix)
 - [mvn](#mvn)
 - [mysql-macports](#mysql-macports)
 - [nanoc](#nanoc)
@@ -1037,6 +1038,12 @@ $ cd some_random_meteor_project
 $ meteor add [tab] # Will list all the available packages
 $ meteor remove [tab] # Will all the installed packages
 ```
+
+---
+
+## mix
+
+Completion for the Elixir build tool Mix
 
 ---
 
