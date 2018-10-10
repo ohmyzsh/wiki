@@ -39,7 +39,7 @@ Below is a list of bundled plugins
 - [command-not-found](#command-not-found)
 - [Composer](#composer)
 - [cloudapp](#cloudapp)
-- [cloudfoundry] (#cloudfoundry)
+- [cloudfoundry](#cloudfoundry)
 - [coffee](#coffee)
 - [common-aliases](#common-aliases)
 - [compleat](#compleat)
