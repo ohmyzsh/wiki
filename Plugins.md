@@ -469,7 +469,7 @@ Uploads files and piped contents to the [Cloudapp](http://getcloudapp.com/) serv
 
 **Maintainer:** [benwilcock](http://github.com/benwilcock)
 
-This plugin is intended to offer a few simple aliases for regular users of the [Cloud Foundry Cli][1]. Most are just simple aliases that will save a bit of typing. Others include mini functions and or accept parameters. Take a look at the table below for details.
+This plugin offers a few simplified aliases for regular users of the [Cloud Foundry Cli](https://docs.cloudfoundry.org/cf-cli/). Mostly this plugin just adds some simple aliases to save on typing but it also includes a couple of mini functions. Take a look at the table below for details.
 
 | Alias    | Command                     | Description                                                              |
 |----------|-----------------------------|--------------------------------------------------------------------------|
