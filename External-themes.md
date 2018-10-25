@@ -835,7 +835,7 @@ Author: [@shayanh](https://github.com/shayanh)
 ---
 ### FunkyBerlin Theme
 
-
+![FunkyBerlin](https://raw.githubusercontent.com/Ottootto2010/funkyberlin-zsh-theme/master/showcase.png)
 
 A colorfull two-line theme with support for GIT and SVN. 
 
