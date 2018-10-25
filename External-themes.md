@@ -831,3 +831,14 @@ Simple.
 Repo: [https://github.com/shayanh/shayan-zsh-theme](https://github.com/shayanh/shayan-zsh-theme)
 
 Author: [@shayanh](https://github.com/shayanh)
+
+---
+### FunkyBerlin Theme
+
+
+
+A colorfull two-line theme with support for GIT and SVN. 
+
+Repo: [https://github.com/Ottootto2010/funkyberlin-zsh-theme](https://github.com/Ottootto2010/funkyberlin-zsh-theme)
+
+Author: [@Ottootto2010](https://github.com/Ottootto2010/funkyberlin-zsh-theme)
