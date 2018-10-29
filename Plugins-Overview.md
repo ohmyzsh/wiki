@@ -84,8 +84,7 @@
 | [github](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/github)               | cli access, url shortener                                                                   |
 | [gitignore](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/gitignore)         | gi alias to fetch default .gitignore files from http://gitignore.io/                        |
 | [gnu-utils](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/gnu-utils)         | GNU coreutils wrappers to override shell builtins                                           |
-| [go](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/go)                       | Go build tool http://golang.org/cmd/go/                                                     |
-| [golang](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/golang)               | **[DUPLICATE]** identical to 'go'. Should be removed?                                       |
+| [golang](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/golang)               | Go build tool http://golang.org/cmd/go/                                                     |                                     
 | [gradle](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/gradle)               | build automation tool http://www.gradle.org/                                                |
 | [grails](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/grails)               | funcs for grails script management http://grails.org/                                       |
 | [heroku](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/heroku)               | cli access https://www.heroku.com/                                                          |
