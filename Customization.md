@@ -72,7 +72,7 @@ function git_prompt_info() {
 }
 ```
 
-Such customization files will be loaded after the built-in `lib/*.zsh` internals, but before plugins are loaded.
+Such customization files will be loaded the last, after the built-in `lib/*.zsh` internals and plugins.
 
 You can also fully override an existing `lib/*.zsh` file by providing a `$ZSH_CUSTOM/lib/<name>.zsh` file of the same name. It will be loaded instead of the corresponding base lib file. Note that files in this directory that do not have a corresponding base lib file of the same name will be ignored.
 
