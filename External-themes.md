@@ -8,11 +8,13 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-and-adding-themes).
 ---
 ### Zero theme
-![zero](https://i.imgur.com/2evKTi6.gif)
+![img](https://i.imgur.com/QYgI3gz.gif)
 
-See [repo](https://github.com/qqwaszx/dotfiles/blob/master/zsh-custom/themes/zero.zsh-theme) for source.
-
-Author: [@qqwaszx](https://github.com/qqwaszx)
+Download:
+```
+curl -o zero.zsh-theme https://gitlab.com/snippets/1778883/raw
+```
+Author: [Sergio SA](https://gitlab.com/qqwaszx) (qqwaszx)
 
 ---
 ### Minimal Improved theme
