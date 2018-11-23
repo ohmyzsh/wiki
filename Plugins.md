@@ -52,7 +52,7 @@ Below is a list of bundled plugins
 - [dnf](#dnf)
 - [docker](#docker)
 - [encode64](#encode64)
-- [extract] (#extract)
+- [extract](#extract)
 - [fabric](#fabric)
 - [fbterm](#fbterm)
 - [Forklift](#forklift)
@@ -726,11 +726,12 @@ $ decode64 c29tZV9zdHJpbmc=
 ```
 
 ---
-## extract any archive file
+## extract
+** Extract any archive file **
 ```
 extract abc.tar.gz
 ```
-## Extract and remove original archive file
+** Extract and remove original archive file **
 ```
 extract -r abc.zip
 ```
