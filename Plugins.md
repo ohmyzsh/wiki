@@ -145,6 +145,7 @@ Below is a list of bundled plugins
 - [yum](#yum)
 - [zeus](#zeus)
 - [wd](#wd)
+- [z](#z)
 
 ## apache2-macports
 
@@ -1879,3 +1880,14 @@ wd show
 ```
 wd list
 ```
+##z
+Change directory based on history
+for example if you previously used
+```
+cd ~/.oh-my-zsh/plugins
+```
+Then using
+```
+z plug
+```
+Will move you to ~/.oh-my-zsh/plugins directory
