@@ -1880,7 +1880,7 @@ wd show
 ```
 wd list
 ```
-##z
+## z
 Change directory based on history
 for example if you previously used
 ```
