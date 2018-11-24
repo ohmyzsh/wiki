@@ -579,7 +579,6 @@ Copies content of a file into clipboard
 
 ```
 copyfile index.php 
-
 ```
 
 ---
