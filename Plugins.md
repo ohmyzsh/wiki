@@ -146,6 +146,7 @@ Below is a list of bundled plugins
 - [yum](#yum)
 - [zeus](#zeus)
 - [wd](#wd)
+- [web-search](#web-search)
 - [z](#z)
 
 ## apache2-macports
@@ -1892,6 +1893,19 @@ wd show
 ```
 wd list
 ```
+## web-search
+
+Search using terminal and it will show in default browser.
+
+```
+google Hello
+```
+Or search in github
+```
+github oh-myzsh
+```
+
+
 ## z
 Change directory based on history
 for example if you previously used
