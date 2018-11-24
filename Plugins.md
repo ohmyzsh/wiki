@@ -43,6 +43,7 @@ Below is a list of bundled plugins
 - [coffee](#coffee)
 - [common-aliases](#common-aliases)
 - [compleat](#compleat)
+- [copyfile](#copyfile)
 - [cpanm](#cpanm)
 - [debian](#debian)
 - [dircycle](#dircycle)
@@ -568,6 +569,17 @@ Collection of useful zsh aliases, not enabled by default since they may change s
 Completion for human beings. **Further documentation needed**
 
 See this [blog post about compleat](http://limpet.net/mbrubeck/2009/10/30/compleat.html)
+
+---
+
+## copyfile
+
+Copies content of a file into clipboard
+
+```
+copyfile index.php 
+
+```
 
 ---
 
