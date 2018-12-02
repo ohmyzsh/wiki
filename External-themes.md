@@ -10,10 +10,8 @@ Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki
 ### Zero theme
 ![img](https://i.imgur.com/QYgI3gz.gif)
 
-Download:
-```
-curl -o zero.zsh-theme https://gitlab.com/snippets/1778883/raw
-```
+See [repo](https://gist.github.com/qqwaszx/b97c3168a33e401dd9356249a1db9281) for source.
+
 Author: [Sergio SA](https://gitlab.com/qqwaszx) (qqwaszx)
 
 ---
