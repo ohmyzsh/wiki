@@ -88,6 +88,7 @@ alias -g gp='| grep -i' #creates a global alias for grep
 |:-----------------------|:----------------------------------------------------------------------------------|
 | _g_                    | git                                                                               |
 | _ga_                   | git add                                                                           |
+| _gau_                  | git add -u                                                                        |
 | _gaa_                  | git add --all                                                                     |
 | _gapa_                 | git add --patch                                                                   |
 | _gb_                   | git branch                                                                        |
