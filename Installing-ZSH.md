@@ -14,7 +14,7 @@ Oh-My-Zsh is a framework for [Zsh](http://www.zsh.org), the Z shell.
 If necessary, follow these steps to install Zsh:
 
 1. There are two main ways to install Zsh
-  - with the package manager of your choice, _e.g._ `sudo apt-get install zsh` (see [below for more examples](#how-to-install-zsh-in-many-platforms))
+  - with the package manager of your choice, _e.g._ `sudo apt install zsh` (see [below for more examples](#how-to-install-zsh-in-many-platforms))
   - from [source](http://zsh.sourceforge.net/Arc/source.html), following
         [instructions from the Zsh FAQ](http://zsh.sourceforge.net/FAQ/zshfaq01.html#l7)
 2. Verify installation by running `zsh --version`. Expected result: `zsh 5.1.1` or more recent.
