@@ -42,7 +42,6 @@ In oh-my-zsh.sh:
 - `ENABLE_CORRECTION`
 - `ZSH_CACHE_DIR`
 - `ZSH_COMPDUMP`
-- `ZSH_THEME`
 - `ZSH_VERSION`
 - `ZDOTDIR`
 - Standard Unix environment variables
