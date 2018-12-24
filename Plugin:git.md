@@ -11,7 +11,7 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | g                    | git                                                                                                                                     |
 | ga                   | git add                                                                                                                                 |
 | gaa                  | git add --all                                                                                                                           |
-| gapa                 | git add --patch                                                                                                                                    |
+| gapa                 | git add --patch                                                                                                                         |
 | gau                  | git add --update                                                                                                                        |
 | gb                   | git branch                                                                                                                              |
 | gba                  | git branch -a                                                                                                                           |
@@ -52,7 +52,7 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gfo                  | git fetch origin                                                                                                                        |
 | gg                   | git gui citool                                                                                                                          |
 | gga                  | git gui citool --amend                                                                                                                  |
-| ggf                  | git push --force origin $(current_branch)                                                                                                                  |
+| ggf                  | git push --force origin $(current_branch)                                                                                               |
 | ghh                  | git help                                                                                                                                |
 | ggpull               | ggl                                                                                                                                     |
 | ggpur                | ggu                                                                                                                                     |
@@ -110,7 +110,7 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gsr                  | git svn rebase                                                                                                                          |
 | gss                  | git status -s                                                                                                                           |
 | gst                  | git status                                                                                                                              |
-| gsta                 | git stash save                                                                                                                              |
+| gsta                 | git stash save                                                                                                                          |
 | gstaa                | git stash apply                                                                                                                         |
 | gstd                 | git stash drop                                                                                                                          |
 | gstl                 | git stash list                                                                                                                          |
@@ -122,12 +122,10 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gunignore            | git update-index --no-assume-unchanged                                                                                                  |
 | gunwip               | git log -n 1 \| grep -q -c "\-\-wip\-\-" && git reset HEAD~1                                                                            |
 | gup                  | git pull --rebase                                                                                                                       |
-| gupv                 | git pull --rebase -v
-|
-| gupa                 | git pull --rebase --autostash
-|
-| gupav                | git pull --rebase --autostash -v
-|
+| gupv                 | git pull --rebase -v                                                                                                                    |
+| gupa                 | git pull --rebase --autostash                                                                                                           |
+| gupav                | git pull --rebase --autostash -v                                                                                                        |
+| gunignore            | git update-index --no-assume-unchanged                                                                                                  |
 | glum                 | git pull upstream master                                                                                                                |
 | gvt                  | git verify-tag                                                                                                                          |
 | gwch                 | git whatchanged -p --abbrev-commit --pretty = medium                                                                                    |
