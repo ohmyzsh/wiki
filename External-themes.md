@@ -9,7 +9,7 @@ Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki
 
 ---
 ### Philthy Theme
-![img](https://imgur.com/LJ6wfPD.png)
+![img](https://imgur.com/am1MIxH.gif)
 
 See [repo](https://gist.github.com/philFernandez/56f8953722285834cc9000ffcfe103f4#file-philthy-zsh-theme) for source.
 
