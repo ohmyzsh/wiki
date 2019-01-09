@@ -35,17 +35,16 @@ you _might_ be OK. Preferably newer than or equal to `5.0`.**
 ```sh
 brew install zsh zsh-completions
 ```
-
+To set zsh as your default shell, execute the following for **macOS High Sierra**
+```
+chsh -s /bin/zsh
+```
 Assuming you have [Homebrew](http://brew.sh/) installed. If not, most versions of
 **macOS** ship zsh by default, but it's normally an older version.  Alternatively, you may
 also use [MacPorts](https://www.macports.org/)
 
 ```sh
 sudo port install zsh zsh-completions
-```
-To set zsh as your default shell, execute the following for **macOS High Sierra**
-```
-chsh -s /bin/zsh
 ```
 
 ### Ubuntu, Debian & derivatives
