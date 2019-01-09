@@ -43,6 +43,10 @@ also use [MacPorts](https://www.macports.org/)
 ```sh
 sudo port install zsh zsh-completions
 ```
+To set zsh as your default shell, execute the following for **macOS High Sierra**
+```
+chsh -s /bin/zsh
+```
 
 ### Ubuntu, Debian & derivatives
 
