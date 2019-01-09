@@ -160,9 +160,10 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _gp_                   | git push                                                                          |
 | _gpoat_                | git push origin --all && git push origin --tags                                   |
 | _gr_                   | git remote                                                                        |
-| _grb_                  | git rebase                                                                |
+| _grb_                  | git rebase                                                                        |
 | _grba_                 | git rebase --abort                                                                |
 | _grbc_                 | git rebase --continue                                                             |
+| _grbm_                 | git rebase master                                                                 |
 | _grbs_                 | git rebase --skip                                                                 |
 | _grbi_                 | git rebase -i                                                                     |
 | _grh_                  | git reset HEAD                                                                    |
