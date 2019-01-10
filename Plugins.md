@@ -146,7 +146,6 @@ Below is a list of bundled plugins
 - [yum](#yum)
 - [zeus](#zeus)
 - [wd](#wd)
-- [web-search](#web-search)
 - [z](#z)
 
 ## apache2-macports
