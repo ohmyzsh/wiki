@@ -156,6 +156,7 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _glog_                 | git log --oneline --decorate --color --graph                                      |
 | _glp_                  | _git_log_prettily (git log --pretty=$1)                                           |
 | _gm_                   | git merge                                                                         |
+| _gma_                  | git merge --abort                                                                 |
 | _gmt_                  | git mergetool --no-prompt                                                         |
 | _gp_                   | git push                                                                          |
 | _gpoat_                | git push origin --all && git push origin --tags                                   |
