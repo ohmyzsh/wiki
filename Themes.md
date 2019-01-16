@@ -47,9 +47,6 @@ Shown in the screenshot with tmux and the [powerline plugin](https://github.com/
 ### arrow
 [![arrow](https://cloud.githubusercontent.com/assets/2618447/6316717/51a09e7e-ba00-11e4-8120-45ca128b9bf6.png)](https://cloud.githubusercontent.com/assets/2618447/6316717/51a09e7e-ba00-11e4-8120-45ca128b9bf6.png)
 
-### astm
-[![arrow](https://image.ibb.co/kG6Tv0/Screen-Shot-2018-10-30-at-3-52-19-PM.png)](https://image.ibb.co/kG6Tv0/Screen-Shot-2018-10-30-at-3-52-19-PM.png)
-
 ### aussiegeek
 [![aussiegeek](https://cloud.githubusercontent.com/assets/2618447/6316719/51a34962-ba00-11e4-9577-882124c30b4e.png)](https://cloud.githubusercontent.com/assets/2618447/6316719/51a34962-ba00-11e4-9577-882124c30b4e.png)
 
