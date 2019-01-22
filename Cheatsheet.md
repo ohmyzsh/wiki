@@ -164,6 +164,7 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _grb_                  | git rebase                                                                        |
 | _grba_                 | git rebase --abort                                                                |
 | _grbc_                 | git rebase --continue                                                             |
+| _grbd_                 | git rebase develop                                                                |
 | _grbm_                 | git rebase master                                                                 |
 | _grbs_                 | git rebase --skip                                                                 |
 | _grbi_                 | git rebase -i                                                                     |
