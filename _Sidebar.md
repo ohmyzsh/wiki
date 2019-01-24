@@ -5,4 +5,4 @@
 
 ![alt_text](https://cdn.shopify.com/s/files/1/0101/8752/products/2013-09-25_11.35.14_medium.jpg)
 
-[Get stickers](https://shop.planetargon.com/collections/everything/products/ohmyzsh-stickers-set-of-3-stickers)
+[Get stickers!](https://shop.planetargon.com/collections/everything/products/ohmyzsh-stickers-set-of-3-stickers)
