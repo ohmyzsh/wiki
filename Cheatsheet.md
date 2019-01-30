@@ -242,6 +242,35 @@ You also find these commands in Dash as a Cheat-sheet.
 | _sc-enable NAME_  | enable the NAME process to start at boot |
 | _sc-disable NAME_ | disable the NAME process at boot         |
 
+
+## Rails
+
+### Rails Aliases
+
+| Alias    | Command                       |
+| :------- | :---------------------------- |
+| _rc_     | rails console                 |
+| _rcs_    | rails console --sandbox       |
+| _rd_     | rails destroy                 |
+| _rdb_    | rails dbconsole               |
+| _rg_     | rails generate                |
+| _rgm_    | rails generate migration      |
+| _rp_     | rails plugin                  |
+| _ru_     | rails runner                  |
+| _rs_     | rails server                  |
+| _rsd_    | rails server --debugger       |
+| _rsp_    | rails server --port           |
+
+
+### RAILS_ENV Aliases
+
+| Alias    | Command                       |
+| :------- | :---------------------------- |
+| _RED_    | RAILS_ENV=development         |
+| _REP_    | RAILS_ENV=production          |
+| _RET_    | RAILS_ENV=test                |
+
+
 ## Upgrade
 To upgrade .oh-my-zsh, run:
 ``` bash
