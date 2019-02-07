@@ -865,7 +865,7 @@ Author: [@Ottootto2010](https://github.com/Ottootto2010/funkyberlin-zsh-theme)
 
 ![img](https://raw.githubusercontent.com/ecbrodie/robbyrussell-WIP-theme/master/images/screenshot.png)
 
-The same RobbyRussell theme that everyone loves, decorated with a WIP!! message when the latest commit of your git repo is a WIP commit.
+The same RobbyRussell theme that everyone loves, decorated with a `WIP!!` message when the latest commit of your git repo is a WIP commit.
 
 Repo: https://github.com/ecbrodie/robbyrussell-WIP-theme
 
