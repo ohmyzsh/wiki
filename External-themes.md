@@ -71,7 +71,7 @@ Author: [@abaykan](https://github.com/abaykan)
 
 
 #### Oxide
-![oxide zsh](http://dotshare.it/public/images/uploads/8266.png)
+![oxide zsh](https://files.dikiaap.id/img/dotfiles/zsh.png)
 
 See [repository](https://github.com/dikiaap/dotfiles) for source.
 
