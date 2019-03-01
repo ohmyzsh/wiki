@@ -77,6 +77,7 @@ Below is a list of bundled plugins
 - [jira](#jira)
 - [jsontools](#jsontools)
 - [knife](#knife)
+- [kubectl](#kubectl) 
 - [laravel4](#laravel4)
 - [last-working-dir](#last-working-dir)
 - [lein](#lein)
@@ -1006,6 +1007,12 @@ handy command line tools for dealing with json data.
 **Maintainer:** [franklouwers](https://github.com/franklouwers)
 
 - knife - adds autocompletion to [knife](https://docs.chef.io/knife.html)
+
+---
+
+## kubectl
+
+Adds `kubectl` autocompletion and aliases. Usage documentation can be found in the [plugin README](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/kubectl/README.md).
 
 ---
 
