@@ -166,6 +166,16 @@ source: [lambda-gitster](https://github.com/ergenekonyigit/lambda-gitster)
 
 author: [ergenekonyigit](https://github.com/ergenekonyigit)/[@ergenekonyigit](https://twitter.com/ergenekonyigit)
 
+#### Pi
+
+![pi theme](https://raw.githubusercontent.com/tobyjamesthomas/pi/master/demo.gif)
+
+Version of gitster and lambda-gitster.
+
+See [repository](https://github.com/tobyjamesthomas/pi) for source.
+
+author: [tobyjamesthomas](https://github.com/tobyjamesthomas)
+
 #### Chi
 
 ![Chi theme](https://github.com/akinjide/chi/raw/master/images/Screen%20Shot%202015-07-03%20at%2001.13.41.png)
