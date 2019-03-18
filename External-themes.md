@@ -176,6 +176,16 @@ See [repository](https://github.com/tobyjamesthomas/pi) for source.
 
 author: [tobyjamesthomas](https://github.com/tobyjamesthomas)
 
+#### Elessar
+
+![Elessar theme](https://github.com/fjpalacios/elessar-theme/raw/master/elessar.gif)
+
+Based on Gitster theme with a few improvements.
+
+See [repo](https://github.com/fjpalacios/elessar-theme) for source.
+
+Author: [@fjpalacios](https://github.com/fjpalacios)
+
 #### Chi
 
 ![Chi theme](https://github.com/akinjide/chi/raw/master/images/Screen%20Shot%202015-07-03%20at%2001.13.41.png)
