@@ -116,6 +116,15 @@ See [Repo](https://github.com/bhilburn/powerlevel9k) for source & documentation.
 
 author: [@bhilburn](https://github.com/bhilburn)
 
+#### powerlevel10k
+
+![powerlevel10k theme](https://camo.githubusercontent.com/80ec23fda88d2f445906a3502690f22827336736/687474703a2f2f692e696d6775722e636f6d2f777942565a51792e676966)
+Powerlevel10k is a backward-compatible reimplementation of the popular Powerlevel9k theme (see above) with 10-100 times better performance. If you like the looks of Powerlevel9k but feeling frustrated by its slow prompt, simply replace your powerlevel9k theme with powerlevel10k and enjoy responsive shell like it's 80's again! Powerlevel10k uses the same configuration options as Powerlevel9k and produces the same results. It's simply faster.
+
+See [Repo](https://github.com/romkatv/powerlevel10k) for source & documentation.
+
+author: [@romkatv](https://github.com/romkatv)
+
 #### Bullet train
 
 ![powerlevel9k theme](https://camo.githubusercontent.com/c5b0c78df1c3ca27bb2c5577114a92018bbdbee0/687474703a2f2f7261772e6769746875622e636f6d2f6361696f676f6e64696d2f62756c6c65742d747261696e2d6f682d6d792d7a73682d7468656d652f6d61737465722f696d672f707265766965772e676966)
