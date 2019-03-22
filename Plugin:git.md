@@ -124,8 +124,7 @@ Enable it by adding _git_ to the [_plugins array_](https://github.com/robbyrusse
 | gup                  | git pull --rebase                                                                                                                       |
 | gupv                 | git pull --rebase -v                                                                                                                    |
 | gupa                 | git pull --rebase --autostash                                                                                                           |
-| gupav                | git pull --rebase --autostash -v                                                                                                        |
-| gunignore            | git update-index --no-assume-unchanged                                                                                                  |
+| gupav                | git pull --rebase --autostash -v                                                                                               |
 | glum                 | git pull upstream master                                                                                                                |
 | gvt                  | git verify-tag                                                                                                                          |
 | gwch                 | git whatchanged -p --abbrev-commit --pretty = medium                                                                                    |
