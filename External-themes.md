@@ -19,7 +19,7 @@ Author: [Phil Fernandez](https://github.com/philFernandez) (philFernandez)
 #### Pure Power
 
 ![Pure Power](https://raw.githubusercontent.com/romkatv/dotfiles-public/master/dotfiles/purepower.png)
-[Pure Power](https://github.com/romkatv/dotfiles-public/blob/master/.purepower) is a configuration for [Powerlevel10k](https://github.com/romkatv/powerlevel10k) that will make your prompt look like Pure but with lower latency. With Pure Power you get the best of all world:
+[Pure Power](https://github.com/romkatv/dotfiles-public/blob/master/.purepower) is a configuration for [Powerlevel10k](https://github.com/romkatv/powerlevel10k) that will make your prompt look like Pure -- lightweight and slick -- while retaining the blazing speed of Powerlevel10k. With Pure Power you get the best of all world:
 
   * Stylish and uncluttered look of Pure.
   * Unmatched speed of Powerlevel10k -- the fastest theme around, in no small part thanks to its leveraging of [gitstatus](https://github.com/romkatv/gitstatus) and adaptive async rendering.
