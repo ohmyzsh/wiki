@@ -913,3 +913,14 @@ The same RobbyRussell theme that everyone loves, decorated with a `WIP!!` messag
 Repo: https://github.com/ecbrodie/robbyrussell-WIP-theme
 
 Author: [@ecbrodie](https://github.com/ecbrodie)
+
+---
+### McQuen Theme
+
+![McQuen](https://user-images.githubusercontent.com/772937/54210241-5d27ff00-449c-11e9-81b3-64efe0a13f6c.png)
+
+A minimalist two line theme with Git support and a Lambda (λ) shell. 
+
+Repo: [https://gist.github.com/ryanpcmcquen/150cf9a66bca2463e5660cafed3e1000](https://gist.github.com/ryanpcmcquen/150cf9a66bca2463e5660cafed3e1000)
+
+Author: [@ryanpcmcquen](https://github.com/ryanpcmcquen)
