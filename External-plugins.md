@@ -28,3 +28,13 @@ You can get it from [here](https://github.com/igoradamenko/jira.plugin.zsh).
 GPG encrypted, Internet synchronized Zsh history using Git.
 
 You can get it from [here](https://github.com/wulfgarpro/history-sync). 
+
+#### Doge Say
+
+Get a doge to repeat every command you put in!
+
+See it in action:
+
+![Alt Text](https://raw.githubusercontent.com/txstc55/dogesay/master/dogesay.gif)
+
+And get your doge [here](https://github.com/txstc55/dogesay/blob/master/dogesay.plugin.zsh).
