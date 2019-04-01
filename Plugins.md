@@ -37,7 +37,7 @@ Below is a list of bundled plugins
 - [chruby](#chruby)
 - [chucknorris](#chucknorris)
 - [command-not-found](#command-not-found)
-- [Composer](#composer)
+- [composer](#composer)
 - [cloudapp](#cloudapp)
 - [cloudfoundry](#cloudfoundry)
 - [coffee](#coffee)
@@ -444,7 +444,7 @@ The plugin uses the command-not-found package zsh support.
 
 ---
 
-## Composer
+## composer
 
 **Maintainer:** [danielcsgomes](https://github.com/danielcsgomes)
 
