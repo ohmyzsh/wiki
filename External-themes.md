@@ -14,6 +14,7 @@ Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki
 See [repo](https://github.com/Intika-Linux-Apps/Oh-My-Zsh-Intika/blob/master/themes/intika.zsh-theme) for source.
 
 Author: [Intika](https://github.com/intika)
+
 ---
 ### Philthy Theme
 ![img](https://imgur.com/am1MIxH.gif)
