@@ -154,9 +154,6 @@ it’s funky…
 ### imajes
 [![imajes](https://cloud.githubusercontent.com/assets/2618447/6316870/710289f0-ba03-11e4-9482-25742645379d.jpg)](https://cloud.githubusercontent.com/assets/2618447/6316870/710289f0-ba03-11e4-9482-25742645379d.jpg)
 
-### intika
-[![intika](https://github.com/Intika-Linux-Apps/Oh-My-Zsh-Intika/raw/master/capture.png)](https://github.com/Intika-Linux-Apps/Oh-My-Zsh-Intika/raw/master/capture.png)
-
 ### jnrowe
 [![jnrowe](https://cloud.githubusercontent.com/assets/2618447/6316737/51c7104a-ba00-11e4-9875-ca6652e45fb5.png)](https://cloud.githubusercontent.com/assets/2618447/6316737/51c7104a-ba00-11e4-9875-ca6652e45fb5.png)
 
