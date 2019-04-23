@@ -38,14 +38,6 @@ See [documentation and installation instructions](https://github.com/romkatv/dot
 author: [@romkatv](https://github.com/romkatv)
 
 ---
-### Zero theme
-![img](https://i.imgur.com/QYgI3gz.gif)
-
-See [repo](https://gist.github.com/qqwaszxxx/b97c3168a33e401dd9356249a1db9281) for source.
-
-Author: [Sergio SΛ](https://github.com/qqwaszxxx) (qqwaszxxx)
-
----
 ### Minimal Improved theme
 ![Minimal Improved theme for ZSH](https://raw.githubusercontent.com/gdsrosa/minimal_improved/master/minimal_improved_theme.png)
 
