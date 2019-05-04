@@ -371,7 +371,7 @@ author: [@denysdovhan](https://twitter.com/denysdovhan)
 
 #### Zeta Theme
 
-![zeta theme](https://raw.githubusercontent.com/skylerlee/zeta-zsh-theme/master/screenshot.png)
+![zeta theme](https://user-images.githubusercontent.com/6789491/57182938-68197180-6ed8-11e9-9171-74b4618be62f.jpg)
 
 Currently it shows:
 
