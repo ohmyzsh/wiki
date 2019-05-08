@@ -101,6 +101,7 @@ Below is a list of bundled plugins
 - [pep8](#pep8)
 - [phing](#phing)
 - [pip](#pip)
+- [please](#please)
 - [pod](#pod)
 - [pow](#pow)
 - [powify](#powify)
@@ -1258,6 +1259,14 @@ Completion for the pep8 python coding style (PEP8) check tool
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
 - pip - completion plugin for the pip command
+
+---
+
+## please
+
+**Maintainer:** [chpeer](https://github.com/chpeer)
+
+Completion and aliases for [Please](https://please.build/)
 
 ---
 
