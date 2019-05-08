@@ -116,6 +116,7 @@ Below is a list of bundled plugins
 - [sbt](#sbt)
 - [scala](#scala)
 - [screen](#screen)
+- [sdk](#sdk)
 - [sprunge](#sprunge)
 - [ssh-agent](#ssh-agent)
 - [sublime](#sublime)
@@ -1437,6 +1438,14 @@ After `rvm-update` (alias for `rvm get head; rvm reload`), run `rvm-link-complet
 **Maintainer:** [fred-o](https://github.com/fred-o)
 
 - screen - automatic setting of window titles and status for [GNU Screen](http://www.gnu.org/software/screen/)
+
+---
+
+## sdk
+
+**Maintainer:** [rahulsom](https://github.com/rahulsom)
+
+- sdk - Type completions for [SDKMan](https://sdkman.io/)
 
 ---
 
