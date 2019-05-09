@@ -38,3 +38,11 @@ See it in action:
 ![Alt Text](https://raw.githubusercontent.com/txstc55/dogesay/master/dogesay.gif)
 
 And get your doge [here](https://github.com/txstc55/dogesay/blob/master/dogesay.plugin.zsh).
+
+#### fz
+
+Give tab-completions to `z`.
+
+[![](https://github.com/changyuheng/fz/blob/master/fz-demo.gif)](https://github.com/changyuheng/fz/blob/master/fz-demo.gif)
+
+Get it [here](https://github.com/changyuheng/fz).
