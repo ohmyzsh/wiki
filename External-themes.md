@@ -925,9 +925,11 @@ Repo: [https://gist.github.com/ryanpcmcquen/150cf9a66bca2463e5660cafed3e1000](ht
 
 Author: [@ryanpcmcquen](https://github.com/ryanpcmcquen)
 
+----
+
 #### sm
 
-![sm-theme](https://raw.githubusercontent.com/marszall87/lambda-pure/master/screenshot.png)
+![sm-theme](https://raw.githubusercontent.com/blyndusk/sm-theme/master/docs/sm-theme.png)
 
 A minimal zsh theme, based on Pure, with added NodeJS version (async!)
 
