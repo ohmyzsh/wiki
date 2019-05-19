@@ -924,3 +924,13 @@ A minimalist two line theme with Git support and a Lambda (λ) shell.
 Repo: [https://gist.github.com/ryanpcmcquen/150cf9a66bca2463e5660cafed3e1000](https://gist.github.com/ryanpcmcquen/150cf9a66bca2463e5660cafed3e1000)
 
 Author: [@ryanpcmcquen](https://github.com/ryanpcmcquen)
+
+#### sm
+
+![sm-theme](https://raw.githubusercontent.com/marszall87/lambda-pure/master/screenshot.png)
+
+A minimal zsh theme, based on Pure, with added NodeJS version (async!)
+
+source: [Repo](https://github.com/blyndusk/sm-theme) for source
+
+author: [@blyndusk](https://github.com/blyndusk)
