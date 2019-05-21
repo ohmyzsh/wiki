@@ -1,4 +1,4 @@
-Enable the plugins you want by editing your 
+Enable the plugins you want by editing your
 [*~/.zshrc*](https://github.com/robbyrussell/oh-my-zsh/blob/master/templates/zshrc.zsh-template#L48) file.
 
 ##### _Example:_
@@ -59,7 +59,7 @@ Below is a list of bundled plugins
 - [Forklift](#forklift)
 - [fasd](#fasd)
 - [gas](#gas)
-- [geeknote](#geeknote) 
+- [geeknote](#geeknote)
 - [gem](#gem)
 - [gpg-agent](#gpg-agent)
 - [git](#git)
@@ -77,7 +77,7 @@ Below is a list of bundled plugins
 - [jira](#jira)
 - [jsontools](#jsontools)
 - [knife](#knife)
-- [kubectl](#kubectl) 
+- [kubectl](#kubectl)
 - [laravel4](#laravel4)
 - [last-working-dir](#last-working-dir)
 - [lein](#lein)
@@ -189,7 +189,7 @@ Enabled [aliases](https://wiki.archlinux.org/index.php/Pacman_Tips) for `pacman`
 | Function                 | Description                                                                                                        |
 |:-------------------------|:-------------------------------------------------------------------------------------------------------------------|
 | _paclist_                |  List all installed packages with a short description - [Source](https://bbs.archlinux.org/viewtopic.php?id=93683) |
-| _paclsorphans_           | List all orphaned packages                                                                                         | 
+| _paclsorphans_           | List all orphaned packages                                                                                         |
 | _pacrmorphans_           | Delete all orphaned packages                                                                                       |
 | _pacdisowned \| less +F_ | List all disowned files in your system                                                                             |
 
@@ -580,7 +580,7 @@ See this [blog post about compleat](http://limpet.net/mbrubeck/2009/10/30/comple
 Copies content of a file into clipboard
 
 ```
-copyfile index.php 
+copyfile index.php
 ```
 
 ---
@@ -790,7 +790,7 @@ extract -r abc.zip
 
 ---
 
-## geeknote 
+## geeknote
 
 **Maintainer:** [Ján Koščo](https://github.com/s7anley)
 
@@ -820,7 +820,8 @@ See the [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/g
 
 **Maintainers:** [@Stibbons](https://github.com/Stibbons), [@ncanceill](https://github.com/ncanceill)
 
-Adds a lot of git aliases and functions for pulling for dealing with the current branch. See the dedicated [Wiki page](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git), or a list of some of the aliases introduced [here *(OUTDATED)*](http://jasonm23.github.com/oh-my-git-aliases.html).
+Adds a lot of git aliases and functions for day-to-day git operations. See the
+[README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git/) for a list.
 
 ---
 
@@ -1637,7 +1638,7 @@ Adds several options for effecting the startup behavior of [tmux](https://tmux.g
 4. `ZSH_TMUX_AUTOQUIT`: Close the terminal session when tmux exits. Set to the value of `ZSH_TMUX_AUTOSTART` by default.
 5. `ZSH_TMUX_FIXTERM`: When running tmux, the variable `$TERM` is supposed to be set to `screen` or one of its derivatives. This option will set the `default-terminal` option of tmux to `screen-256color` if 256 color terminal support is detected, and `screen` otherwise. The term values it uses can be overridden by changing the `ZSH_TMUX_FIXTERM_WITH_256COLOR` and `ZSH_TMUX_FIXTERM_WITHOUT_256COLOR` variables respectively. Set to `true` by default.
 
-If the user specifies any arguments for `tmux` then the command is just executed as it was typed it without any 
+If the user specifies any arguments for `tmux` then the command is just executed as it was typed it without any
 modification.
 
 ### aliases
@@ -1816,7 +1817,7 @@ Enables aliases for [Yum](http://yum.baseurl.org), the popular front-end to the 
 |:------|:-------------------------------:|:------------------------------|
 | _ys_  | yum search                      | Search package                |
 | _yp_  | yum info                        | Show package info             |
-| _yl_  | yum list                        | List packages                 | 
+| _yl_  | yum list                        | List packages                 |
 | _ygl_ | yum grouplist                   | List package groups           |
 | _yli_ | yum list installed              | Print all installed packages  |
 | _ymc_ | yum makecache                   | Rebuilds the yum package list |
