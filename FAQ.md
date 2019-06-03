@@ -1,12 +1,3 @@
-_Work in progress..._
-
-**TODO**
-
-- [ ] Put instructions on how to migrate from `.bash_profile` / `.bashrc` configurations (see [#3807](https://github.com/robbyrussell/oh-my-zsh/issues/3807)).
-- [ ] Fill this up.
-
----
-
 - [How do I install OMZ and Zsh?](#how-do-i-install-omz-and-zsh)
 - [How do I uninstall OMZ and Zsh?](#how-do-i-uninstall-omz-and-zsh)
 
@@ -26,7 +17,7 @@ You will need to add `export ZSH=/my/custom/directory` and `source $ZSH/oh-my-zs
 
 ## How do I uninstall OMZ and Zsh?
 
-Run `$ZSH/tools/uninstall.sh` to remove OMZ. This will backup your `~/.zshrc` and remove your OMZ install entirely. Then:
+Run `uninstall_oh_my_zsh` to remove OMZ. This will backup your `~/.zshrc` and remove your OMZ install entirely. Then:
 - if you have `~/.zshrc.pre-oh-my-zsh`, it is assumed that you had Zsh in use prior to installing OMZ, so your `~/.zshrc.pre-oh-my-zsh` is simply restored
 - otherwise it is assumed that you were using Bash, so the default shell will be set to `/bin/bash` and `/etc/profile` will be sourced
 
