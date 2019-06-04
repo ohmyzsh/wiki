@@ -9,6 +9,14 @@ Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki
 
 ---
 
+#### Nox Theme
+![Nox Terminal Theme](https://imgur.com/9PNPnJx.png)
+
+See [repository](https://github.com/decoxviii/dotfiles/tree/master/data/zsh/custom/themes) for source.
+
+Author: [@decoxviii](https://github.com/decoxviii)
+
+---
 #### Aphrodite Theme
 ![Aphrodite Terminal Theme](https://user-images.githubusercontent.com/11278181/56094804-29972500-5edf-11e9-90a4-ffafdc58d3d7.png)
 
