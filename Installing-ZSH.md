@@ -49,7 +49,7 @@ also use [MacPorts](https://www.macports.org/)
 sudo port install zsh zsh-completions
 ```
 
-### Ubuntu, Debian & derivatives
+### Ubuntu, Debian & derivatives (Windows 10 WSL | Native Linux kernel with Windows 10 build 1903)
 
 ```sh
 apt install zsh
