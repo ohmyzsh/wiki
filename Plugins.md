@@ -73,8 +73,6 @@ Below is a list of bundled plugins
 - [dnf](#dnf)
 - [dnote](#dnote)
 - [docker](#docker)
-- [docker-compose](#docker-compose)
-- [docker-machine](#docker-machine)
 - [doctl](#doctl)
 - [dotenv](#dotenv)
 - [droplr](#droplr)
