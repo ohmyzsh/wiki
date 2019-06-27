@@ -46,3 +46,16 @@ Give tab-completions to `z`.
 [![](https://github.com/changyuheng/fz/blob/master/fz-demo.gif)](https://github.com/changyuheng/fz/blob/master/fz-demo.gif)
 
 Get it [here](https://github.com/changyuheng/fz).
+
+#### aterminal
+
+**Maintainer:** [guiferpa](https://github.com/guiferpa)
+
+##### Description
+This plugin show platforms version
+
+##### Support
+[Nodejs](https://nodejs.org), [NPM](https://www.npmjs.com), [Docker](https://www.docker.com), [Go](https://golang.org), [Python](https://www.python.org), [Elixir](https://elixir-lang.org) and [Ruby](https://www.ruby-lang.org)
+
+##### Demo
+![Demo](https://raw.githubusercontent.com/guiferpa/aterminal/master/images/demo.gif)
