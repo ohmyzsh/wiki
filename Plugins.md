@@ -111,7 +111,7 @@ Below is a list of bundled plugins
 - [github](#github)
 - [git-hubflow](#git-hubflow)
 - [gitignore](#gitignore)
-- [git-prompt](#git-prompt)
+- [git-prompt](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/git-prompt/README.md)
 - [git-remote-branch](#git-remote-branch)
 - [glassfish](#glassfish)
 - [globalias](#globalias)
@@ -337,26 +337,6 @@ Enabled [aliases](https://wiki.archlinux.org/index.php/Pacman_Tips) for `pacman`
 A plugin for the _extendable version manager_ [asdf](https://github.com/asdf-vm/asdf).
 See the [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/asdf) for usage information.
 
----
-
-## aterminal
-
-**Maintainer:** [guiferpa](https://github.com/guiferpa)
-
-### Description
-This plugin show platforms version
-
-### Support
-[Nodejs](https://nodejs.org), [NPM](https://www.npmjs.com), [Docker](https://www.docker.com), [Go](https://golang.org), [Python](https://www.python.org), [Elixir](https://elixir-lang.org) and [Ruby](https://www.ruby-lang.org)
-
-### Demo
-![Demo](https://raw.githubusercontent.com/guiferpa/aterminal/master/images/demo.gif)
-
-### Install
-1. You need to install [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
-2. Clone plugin: `git clone https://github.com/guiferpa/aterminal.git`
-3. Move to plugins directory: `mv aterminal $HOME/.oh-my-zsh/plugins/`
-4. Add plugin in `nano $HOME/.zshrc`
 ---
 
 ## autojump
