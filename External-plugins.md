@@ -49,6 +49,7 @@ Get it [here](https://github.com/changyuheng/fz).
 
 #### aterminal
 
+**Homepage:** https://github.com/guiferpa/aterminal
 **Maintainer:** [guiferpa](https://github.com/guiferpa)
 
 ##### Description
