@@ -422,11 +422,11 @@ Enables aliases to [Bundler](http://gembundler.com/).
 |:------|:------------------------------------------------------------|
 | bcn   | Bundle clean                                                |
 | be    | Bundle exec, execute a command in the context of the bundle |
-| bi    | Bundle install                                              |
+| bi    | Bundle install --jobs=<cpu core count>                      |
 | bl    | Bundle list                                                 |
 | bo    | Bundle open                                                 |
 | bout  | Bundle outdated                                             |
-| bp    | Bundle package                                                 |
+| bp    | Bundle package                                              |
 | bu    | Bundle update                                               |
 
 Also creates shell aliases so you don't have to type "bundle exec" before most common ruby commands when you are in a directory with a Gemfile. Here is a [list of commands](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/bundler/bundler.plugin.zsh#L9) it does this for: `annotate cap capify cucumber ey foreman guard heroku middleman nanoc rackup rainbows rails rake rspec ruby shotgun spec spork thin thor unicorn unicorn_rails`
