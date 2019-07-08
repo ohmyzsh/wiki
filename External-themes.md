@@ -950,7 +950,7 @@ author: [@blyndusk](https://github.com/blyndusk)
 
 #### minimal2
 
-![minimal2](https://github.com/girishrau/oh-my-zsh-customizations/blob/master/images/gitClean.jpg)
+![minimal2](https://github.com/girishrau/oh-my-zsh-customizations/blob/master/images/minimal2.jpg)
 
 A minimalist two line theme with Git support. 
 
