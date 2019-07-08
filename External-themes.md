@@ -945,3 +945,15 @@ Author: [@ryanpcmcquen](https://github.com/ryanpcmcquen)
 source: [Repo](https://github.com/blyndusk/sm-theme) for source.
 
 author: [@blyndusk](https://github.com/blyndusk)
+
+----
+
+#### minimal2
+
+![minimal2](https://github.com/girishrau/oh-my-zsh-customizations/blob/master/images/gitClean.jpg)
+
+A minimalist two line theme with Git support. 
+
+Repo: [https://github.com/girishrau/oh-my-zsh-customizations](https://github.com/girishrau/oh-my-zsh-customizations)
+
+Author: [@girishrau](https://github.com/girishrau)
