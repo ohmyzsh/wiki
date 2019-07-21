@@ -957,3 +957,15 @@ A minimalist two line theme with Git support.
 Repo: [https://github.com/girishrau/oh-my-zsh-customizations](https://github.com/girishrau/oh-my-zsh-customizations)
 
 Author: [@girishrau](https://github.com/girishrau)
+
+---
+
+#### drofloh
+
+![screenshot](https://raw.githubusercontent.com/drofloh/oh-my-zsh-custom/master/screenshot.png)
+
+Custom theme...
+
+Source: [drofloh.zsh-theme](https://github.com/drofloh/oh-my-zsh-custom)
+
+Author: [@drofloh](https://github.com/drofloh)
