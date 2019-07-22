@@ -37,7 +37,6 @@ Below is a list of bundled plugins
 - [branch](#branch)
 - [brew](#brew)
 - [bundler](#bundler)
-- [bwana](#bwana)
 - [cabal](#cabal)
 - [cake](#cake)
 - [cakephp3](#cakephp3)
