@@ -82,7 +82,7 @@
 | [gas](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/gas)                     | small utility used to manage Git authors. https://github.com/walle/gas                      |
 | [git](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git)                     | extras: git-extras gitfast git-flow git-flow-avh git-hubflow git-remote-branch              |
 | [github](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/github)               | cli access, url shortener                                                                   |
-| [gitignore](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/gitignore)         | gi alias to fetch default .gitignore files from http://gitignore.io/                        |
+| [gitignore](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/gitignore)         | git alias to fetch default .gitignore files from http://gitignore.io/                        |
 | [gnu-utils](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/gnu-utils)         | GNU coreutils wrappers to override shell builtins                                           |
 | [golang](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/golang)               | Go build tool http://golang.org/cmd/go/                                                     |                                     
 | [gradle](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/gradle)               | build automation tool http://www.gradle.org/                                                |
@@ -144,7 +144,7 @@
 | [rails](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/rails)           | rails aliases for rails 2, rails 3, and rails 4 all in one clean plugin    |
 | [rake](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/rake)             | Ruby build tool                                                            |
 | [rbenv](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/rbenv)           | Ruby version switcher                                                      |
-| [rbfu](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/rbfu)             | **[OBSOLETE]** anther Ruby version manager https://github.com/hmans/rbfu   |
+| [rbfu](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/rbfu)             | **[OBSOLETE]** another Ruby version manager https://github.com/hmans/rbfu   |
 | [ruby](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/ruby)             | aliases                                                                    |
 | [rvm](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/rvm)               | another RubyVersionManager                                                 |
 | [thor](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/thor)             | Ruby doc tool https://github.com/erikhuda/thor                             |
@@ -179,7 +179,7 @@
 | Name                                                                                               | Description                                                      |
 | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | [apache2-macports](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/apache2-macports) | apache management functions                                      |
-| [brew](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/brew)                         | package manger http://brew.sh/                                   |
+| [brew](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/brew)                         | package manager http://brew.sh/                                   |
 | [bwana](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/bwana)                       | allows to open manpages in browser http://www.bruji.com/bwana/   |
 | [cloudapp](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/cloudapp)                   | completion for cloudapp http://getcloudapp.com/                    |
 | [forklift](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/forklift)                 | MacOS file browser                                               |
