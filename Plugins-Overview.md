@@ -180,7 +180,6 @@
 | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | [apache2-macports](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/apache2-macports) | apache management functions                                      |
 | [brew](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/brew)                         | package manager http://brew.sh/                                   |
-| [bwana](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/bwana)                       | allows to open manpages in browser http://www.bruji.com/bwana/   |
 | [cloudapp](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/cloudapp)                   | completion for cloudapp http://getcloudapp.com/                    |
 | [forklift](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/forklift)                 | MacOS file browser                                               |
 | [macports](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/macports)                 | macport autocompletion                                           |
