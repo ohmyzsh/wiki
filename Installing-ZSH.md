@@ -147,6 +147,11 @@ emerge app-shells/zsh
 apk add zsh
 ```
 
+### MSYS2
+```sh
+pacman -S zsh
+```
+
 ### Add yours
 
 If you know a platform that is not covered, edit this page and add it!
