@@ -969,3 +969,15 @@ Custom theme...
 Source: [drofloh.zsh-theme](https://github.com/drofloh/oh-my-zsh-custom)
 
 Author: [@drofloh](https://github.com/drofloh)
+
+---
+
+#### lambdav
+
+![screenshot](https://raw.githubusercontent.com/vkaracic/lambdav-zsh-theme/master/screenshot.png)
+
+Two-line prompt that includes system clock timestamps, username, current working directory, git branch, git prompt info.
+
+Source: [lambdav.zsh-theme](https://github.com/vkaracic/lambdav-zsh-theme)
+
+Author: [@vkaracic](https://github.com/vkaracic)
