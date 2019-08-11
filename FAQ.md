@@ -113,6 +113,7 @@ export LANG=en_US.utf8
 Some themes like Agnoster require a special font to render certain characters. First, make sure you have read the theme's instructions written in the [[Themes]] section. Most of the time this issue is solved by installing a [Powerline font](https://github.com/powerline/fonts). After installing it, you need to enable the font in the settings of your terminal emulator.
 
 It might look like this in iTerm2:
+
 ![Example problem in iTerm2](https://camo.githubusercontent.com/12b3877f95cf1d22ba9b005f1d029e6eb8121449/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3439373337322f3639373135302f64623330306332342d646366382d313165322d393233372d6536306535623965646437312e706e67)
 
 
