@@ -14,6 +14,8 @@
   - [Completion issues](#completion-issues)
     - [I have enabled a completion plugin but the completion doesn't work](#i-have-enabled-a-completion-plugin-but-the-completion-doesnt-work)
     - [I see duplicate typed characters after I complete a command](#i-see-duplicate-typed-characters-after-i-complete-a-command)
+  - [Zsh errors](#zsh-errors)
+    - [zsh: no matches found](#zsh-no-matches-found)
 
 
 ## DEFINITIONS
@@ -136,3 +138,39 @@ If this doesn't solve the problem you might have found a bug in the plugin. Sear
 #### I see duplicate typed characters after I complete a command
 
 This normally happens because your theme uses UTF-8 characters but your `locale` is not set up to handle them. Make sure that you're running a `locale` ending in `.UTF-8` or `.utf8`. See [How do I change my locale](#how-do-i-change-my-locale) for instructions.
+
+### Zsh errors
+
+#### zsh: no matches found
+
+This error happens when you used a wildcard character (also called [glob operators](http://zsh.sourceforge.net/Doc/Release/Expansion.html#Glob-Operators) or globbing characters), which indicate to the zsh interpreter to look for files matching that wildcard pattern (see [Filename generation](http://zsh.sourceforge.net/Doc/Release/Expansion.html#Filename-Generation) for the full documentation). The most common examples of these are `*` (star) and `?` (question mark), when used in anything from `apt`, `git` or even `curl` commands (`?` is usually part of a URL).
+
+There are many solutions, some temporary, some permanent:
+
+1. Temporary: wrap the arguments containing wildcards in **quotes** (double quotes or single quotes, both are OK). For example:
+   ```zsh
+   $ apt install linux-*
+   zsh: no matches found: linux-*
+   $ apt install 'linux-*'
+   # the command continues successfully 
+   ```
+2. Temporary: prepend **`noglob`** to the command, such that any wildcards will be ignored.
+   ```zsh
+   $ noglob apt install linux-*
+   # has the same effect as
+   $ apt install 'linux-*'
+   ```
+3. Permanent: disable globbing at all, using **[`unsetopt glob`](http://zsh.sourceforge.net/Doc/Release/Options.html#index-GLOB)**.
+   Put it somewhere in your zshrc file **after** Oh My Zsh is sourced so that it's applied on every zsh session.
+   NOTE: this will mean that you won't be able to use wildcards anywhere in your zsh session.
+   ```zsh
+   $ unsetopt glob
+   $ ls -d .* #
+   ls: cannot access '.*': No such file or directory
+   ```
+4. Permanent: another option is using the solution in (2) but making it stick with **an alias** so that you don't need to do this every time you run that particular command. This is much more fine-grained than (3) because you can still use wildcards in other commands.
+   ```zsh
+   $ alias apt='noglob apt'
+   $ apt install linux-*
+   # the command continues successfully
+   ```
