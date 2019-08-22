@@ -1,4 +1,4 @@
-## Welcome to the oh-my-zsh wiki!
+## Welcome to the oh-my-zsh wiki!!
 
 - If you don't have zsh installed, see [[Installing Zsh]].
 - Take a look at our [[Themes]] and [[Plugins]] (here's a brief overview: [[Plugins Overview]]).
