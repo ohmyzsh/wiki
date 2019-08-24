@@ -667,7 +667,7 @@ author: [@eendroroy](https://github.com/eendroroy)
 
 #### alien-minimal
 
-[![asciicast](http://asciinema.org/a/152668.png)](https://asciinema.org/a/152668)
+[![asciicast](http://asciinema.org/a/264037.svg)](https://asciinema.org/a/264037)
 
 ##### Features
 
