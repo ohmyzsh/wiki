@@ -22,3 +22,4 @@ If you know of any that are missing, feel free to contribute! :-)
 - [[Quick Setup of Oh My ZSH! terminal on Ubuntu|https://www.giftegwuenu.com/2018/04/27/quick-setup-of-oh-my-zsh-terminal-on-ubuntu]]
 - [[ZSH dicas para o dia-a-dia|https://medium.com/@kelvinmorais/zsh-dicas-para-o-dia-a-dia-1b16616ac235]] - in portuguese
 - [May the 'command line' be with you](https://rachelcarmena.github.io/2019/05/26/may-the-command-line-be-with-you.html)
+- [My Terminal Setup + Zsh](https://dev.to/aspittel/my-terminal-setup-iterm2--zsh--30lm)
