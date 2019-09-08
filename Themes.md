@@ -109,7 +109,7 @@ Additional setup: Get this small [[fix|https://github.com/Dieterbe/oh-my-zsh/com
 [![eastwood](https://cloud.githubusercontent.com/assets/2618447/6316728/51ba0026-ba00-11e4-9d83-435c3c4513cf.png)](https://cloud.githubusercontent.com/assets/2618447/6316728/51ba0026-ba00-11e4-9d83-435c3c4513cf.png)
 
 ### evan
-*a skinny, topless prompt*
+*a minimal prompt*
 
 [![evan](https://cloud.githubusercontent.com/assets/2618447/6316867/70fc6e44-ba03-11e4-8537-9a77378e6c48.jpg)](https://cloud.githubusercontent.com/assets/2618447/6316867/70fc6e44-ba03-11e4-8537-9a77378e6c48.jpg)
 
