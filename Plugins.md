@@ -1330,7 +1330,7 @@ See the [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/o
 
 **Maintainer:** [sanbor](https://github.com/sanbor)
 
-Completion plugin for [pass](http://zx2c4.com/projects/password-store/). [Source](http://git.zx2c4.com/password-store/tree/contrib/pass.zsh-completion)
+Completion plugin for [pass](http://zx2c4.com/projects/password-store/). [Source](https://git.zx2c4.com/password-store/tree/src/completion/pass.zsh-completion)
 
 ---
 
