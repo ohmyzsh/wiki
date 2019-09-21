@@ -27,7 +27,7 @@ If necessary, follow these steps to install Zsh:
 5. Test that it worked with `echo $SHELL`. Expected result: `/bin/zsh` or similar.
 6. Test with `$SHELL --version`. Expected result: 'zsh 5.1.1' or similar
 
-## How to install zsh in many platforms
+## How to install zsh on many platforms
 
 ### macOS
 
