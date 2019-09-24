@@ -42,20 +42,6 @@ See [repo](https://gist.github.com/philFernandez/56f8953722285834cc9000ffcfe103f
 Author: [Phil Fernandez](https://github.com/philFernandez) (philFernandez)
 
 ---
-#### Pure Power
-
-![Pure Power](https://raw.githubusercontent.com/romkatv/dotfiles-public/master/dotfiles/purepower.png)
-[Pure Power](https://github.com/romkatv/dotfiles-public/blob/master/.purepower) is a configuration for [Powerlevel10k](https://github.com/romkatv/powerlevel10k) that will make your prompt look like Pure -- lightweight and slick -- while retaining the blazing speed of Powerlevel10k. With Pure Power you get the best of all world:
-
-  * Stylish and uncluttered look of Pure.
-  * Unmatched speed of Powerlevel10k -- the fastest theme around, in no small part thanks to its leveraging of [gitstatus](https://github.com/romkatv/gitstatus) and adaptive async rendering.
-  * Flexibility of Powerlevel9k.
-
-See [documentation and installation instructions](https://github.com/romkatv/dotfiles-public/blob/master/.purepower).
-
-author: [@romkatv](https://github.com/romkatv)
-
----
 ### Minimal Improved theme
 ![Minimal Improved theme for ZSH](https://raw.githubusercontent.com/gdsrosa/minimal_improved/master/minimal_improved_theme.png)
 
@@ -140,11 +126,13 @@ See [Repo](https://github.com/bhilburn/powerlevel9k) for source & documentation.
 author: [@bhilburn](https://github.com/bhilburn)
 
 #### powerlevel10k
-
 ![powerlevel10k theme](https://camo.githubusercontent.com/80ec23fda88d2f445906a3502690f22827336736/687474703a2f2f692e696d6775722e636f6d2f777942565a51792e676966)
-Powerlevel10k is a backward-compatible reimplementation of the popular Powerlevel9k theme (see above) with 10-100 times better performance. If you like the looks of Powerlevel9k but feeling frustrated by its slow prompt, simply replace your powerlevel9k theme with powerlevel10k and enjoy responsive shell like it's 80's again! Powerlevel10k uses the same configuration options as Powerlevel9k and produces the same results. It's simply faster.
+Powerlevel10k is a backward-compatible reimplementation of the popular Powerlevel9k theme (see above) with 10-100 times better performance. When given the same configuration options it will generate the same prompt.
 
-See [Repo](https://github.com/romkatv/powerlevel10k) for source & documentation.
+Powerlevel10k comes with an interactive configuration wizard that offers a wide range of prompt styles.
+![powerlevel10k styles](https://raw.githubusercontent.com/romkatv/powerlevel10k/master/powerlevel10k.png)
+
+See [repo](https://github.com/romkatv/powerlevel10k) for documentation.
 
 author: [@romkatv](https://github.com/romkatv)
 
