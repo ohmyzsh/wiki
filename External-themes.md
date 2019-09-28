@@ -969,3 +969,15 @@ Two-line prompt that includes system clock timestamps, username, current working
 Source: [lambda-v.zsh-theme](https://github.com/vkaracic/lambdav-zsh-theme)
 
 Author: [@vkaracic](https://github.com/vkaracic)
+
+---
+
+#### Halil
+
+![Halil Theme](https://raw.githubusercontent.com/5m0k3r/zsh-themes/master/zsh-theme-halil-thumb.gif)
+
+Simple prompt with system clock, current working directory, git prompt info and nice user prompt.
+
+Source: [halil.zsh-theme](https://github.com/5m0k3r/zsh-themes)
+
+Author:  [@5m0k3r](https://github.com/5m0k3r)
