@@ -926,9 +926,9 @@ Author: [@ryanpcmcquen](https://github.com/ryanpcmcquen)
 
 #### sm
 
-![sm-theme](https://raw.githubusercontent.com/blyndusk/sm-theme/master/docs/sm-theme.png)
+![sm-theme](https://raw.githubusercontent.com/blyndusk/sm-theme/master/docs/sm-theme.gif)
 
-⛓ a **Simplist** & **Minimalist** theme for your **favorite** terminal
+⛓ a **Simplistic** & **Minimalist** theme for **`ZSH`** prompts.
 
 source: [Repo](https://github.com/blyndusk/sm-theme) for source.
 
