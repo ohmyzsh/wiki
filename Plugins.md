@@ -173,7 +173,6 @@ Below is a list of bundled plugins
 - [npm](#npm)
 - [npx](#npx)
 - [nvm](#nvm)
-- [nyan](#nyan)
 - [oc](#oc)
 - [osx](#osx)
 - [otp](#otp)
