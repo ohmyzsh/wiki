@@ -1016,11 +1016,11 @@ Pressing tab after the various commands should autofill authors, branches and ta
 
 ---
 
-## git_remote_branch
+## git-remote-branch
 
 **Maintainer:** [webmat](https://github.com/webmat)
 
-- git_remote_branch - Support for [grb](https://github.com/webmat/git_remote_branch) completion
+- git-remote-branch - Support for [grb](https://github.com/webmat/git_remote_branch) completion
 
 | Commands                                     |
 |:--------------------------------------------:|
