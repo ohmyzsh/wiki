@@ -1,7 +1,7 @@
 # Merchandise
 ![alt_text](https://cdn.shopify.com/s/files/1/0101/8752/products/IMG_7672_medium.jpg)
 
-[Get a t-shirt!](https://shop.planetargon.com/products/ohmyzsh-t-shirts)
+[Get a t-shirt!](https://shop.planetargon.com/products/ohmyzsh-t-shirtsqq)
 
 ![alt_text](https://cdn.shopify.com/s/files/1/0101/8752/products/2013-09-25_11.35.14_medium.jpg)
 
