@@ -179,6 +179,7 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _gsd_                  | git svn dcommit                                                                   |
 | _gsps_                 | git show --pretty = short --show-signature                                        |
 | _gsr_                  | git svn rebase                                                                    |
+| _gs_                   | git status                                                                        |
 | _gss_                  | git status -s                                                                     |
 | _gst_                  | git status                                                                        |
 | _gsta_                 | git stash save                                                                    |
