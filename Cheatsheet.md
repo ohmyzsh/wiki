@@ -170,6 +170,7 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _grbi_                 | git rebase -i                                                                     |
 | _grh_                  | git reset HEAD                                                                    |
 | _grhh_                 | git reset HEAD --hard                                                             |
+| _grs_                  | git restore                                                                    |
 | _grmv_                 | git remote rename                                                                 |
 | _grrm_                 | git remote remove                                                                 |
 | _grset_                | git remote set-url                                                                |
