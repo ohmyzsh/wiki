@@ -1644,7 +1644,7 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 
 | Alias | Command                  |
 |:------|:-------------------------|
-| _zi_  | sudo zypper install      |
+| _zin_  | sudo zypper install      |
 | _zrf_ | sudo zypper refresh      |
 | _zs_  | zypper search            |
 | _zup_ | sudo zypper dist-upgrade |
