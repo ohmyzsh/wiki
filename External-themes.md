@@ -9,6 +9,15 @@ Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki
 
 ---
 
+#### Reggae Theme
+![Reggae Terminal Theme](https://i.imgur.com/lQaaWvX.png)
+
+See [repository](https://gist.github.com/mgimenez/ae1cde0b637e844da885cb093a916126) for source.
+
+Author: [@mgimenez](https://github.com/mgimenez/)
+
+---
+
 #### Nox Theme
 ![Nox Terminal Theme](https://imgur.com/9PNPnJx.png)
 
