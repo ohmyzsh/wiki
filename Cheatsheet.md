@@ -1,4 +1,4 @@
-tTo try it out if you have just cloned it (to your home directory):
+To try it out if you have just cloned it (to your home directory):
 
 ```shell
 source ~/.oh-my-zsh/templates/zshrc.zsh-template
