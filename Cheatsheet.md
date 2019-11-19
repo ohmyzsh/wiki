@@ -16,7 +16,7 @@ source ~/.oh-my-zsh/templates/zshrc.zsh-template
 | _zsh_stats_           | Get a list of the top 20 commands and how many times they have been run.                                      |
 | _uninstall_oh_my_zsh_ | Uninstall Oh-my-zsh.                                                                                          |
 | _upgrade_oh_my_zsh_   | Upgrade Oh-my-zsh.                                                                                            |
-| source ~/.zshrc       | Uptake new changes
+| `exec zsh`            | Apply changes made to zshrc
 
 ---
 
