@@ -30,8 +30,9 @@ source ~/.oh-my-zsh/templates/zshrc.zsh-template
 | /       | cd /                                  |
 | ~       | cd ~                                  |
 | _cd +n_ | switch to directory number `n`        |
+| _-_     | cd -                                  |
 | _1_     | cd -                                  |
-| _2_     | cd -2                                |
+| _2_     | cd -2                                 |
 | _3_     | cd -3                                 |
 | _4_     | cd -4                                 |
 | _5_     | cd -5                                 |
