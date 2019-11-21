@@ -137,7 +137,7 @@ So, you can:
 
 As of June 2015, user "custom" files are loaded before plugins are loaded, so they cannot be used to modify plugins. To customize a plugin by replacing selected functions or variables, you need to define an additional custom plugin and load that after the base plugin you wish to customize.
 
-The [Customization](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization) wiki page doesn't discuss which functions/APIs are stable. It mostly talks about overriding on a per-file basis.
+The [Customization](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization) wiki page doesn't discuss which functions/APIs are stable. It mostly talks about overriding on a per-file basis.
 
 ## Plugins
 

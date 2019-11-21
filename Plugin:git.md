@@ -1,1 +1,1 @@
-https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git/
+https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git/

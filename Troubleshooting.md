@@ -31,7 +31,7 @@ Many completion problems, including the infamous `command not found: compdef`, c
 1. First, try to remove your completion cache with `rm ~/.zcompdump*`, close and reopen your shells.
 
 2. If you still have problems, try fully resetting the completion system, as explained by
-    [**@dragon788**](https://github.com/robbyrussell/oh-my-zsh/issues/630#issuecomment-70291622):
+    [**@dragon788**](https://github.com/ohmyzsh/ohmyzsh/issues/630#issuecomment-70291622):
 
    ```zsh
    compaudit | xargs chmod g-w,o-w

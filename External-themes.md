@@ -1,11 +1,11 @@
-Due to the massive amount of themes bundled with OMZ, [new themes are not accepted](https://github.com/robbyrussell/oh-my-zsh/#do-not-send-us-themes). This is a list of other themes that are compatible with Oh My Zsh that live in their own separate repositories. More themes are listed in the [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) list.
+Due to the massive amount of themes bundled with OMZ, [new themes are not accepted](https://github.com/ohmyzsh/ohmyzsh/#do-not-send-us-themes). This is a list of other themes that are compatible with Oh My Zsh that live in their own separate repositories. More themes are listed in the [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) list.
 
 You can also use Github's search to find `*.zsh-theme` files:
 [Gist zsh themes search](https://gist.github.com/search?l=Shell&q=extension%3Azsh-theme&ref=searchresults&utf8=%E2%9C%93), [GitHub zsh themes search](https://github.com/search?l=Shell&q=extension%3Azsh-theme+PS1+%7C%7C+PROMPT+&ref=searchresults&type=Code&utf8=%E2%9C%93).
 
 ### Installation
 
-Check out the instructions [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Customization#overriding-and-adding-themes).
+Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
 
@@ -804,7 +804,7 @@ Author: [@cemsbr](https://github.com/cemsbr)
 
 #### dpoggi-newline-timestamp
 
-Timestamp and new line based on [dpoggi](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#dpoggi) theme.
+Timestamp and new line based on [dpoggi](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#dpoggi) theme.
 
 <img width="651" alt="2017-09-08 18 03 32" src="https://user-images.githubusercontent.com/1831308/30204562-dd033128-94c0-11e7-944c-19d7b0c18196.png">
 
@@ -833,7 +833,7 @@ author: [@eendroroy](https://github.com/eendroroy)
 
 #### kinda-fishy
 
-A theme based on [fishy](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#fishy) with two differences:
+A theme based on [fishy](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#fishy) with two differences:
 
 * The full path is shown instead of abbreviated directory names.
 * ```$USER@$HOST``` is not shown for the local machine, only for SSH sessions and

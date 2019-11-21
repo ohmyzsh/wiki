@@ -1,5 +1,5 @@
 Enable the plugins you want by editing your
-[*~/.zshrc*](https://github.com/robbyrussell/oh-my-zsh/blob/master/templates/zshrc.zsh-template#L48) file.
+[*~/.zshrc*](https://github.com/ohmyzsh/ohmyzsh/blob/master/templates/zshrc.zsh-template#L48) file.
 
 ##### _Example:_
 ```shell
@@ -110,7 +110,7 @@ Below is a list of bundled plugins
 - [github](#github)
 - [git-hubflow](#git-hubflow)
 - [gitignore](#gitignore)
-- [git-prompt](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/git-prompt/README.md)
+- [git-prompt](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git-prompt/README.md)
 - [git-remote-branch](#git-remote-branch)
 - [glassfish](#glassfish)
 - [globalias](#globalias)
@@ -333,7 +333,7 @@ Enabled [aliases](https://wiki.archlinux.org/index.php/Pacman_Tips) for `pacman`
 **Maintainer:** [RobLoach](https://github.com/RobLoach)
 
 A plugin for the _extendable version manager_ [asdf](https://github.com/asdf-vm/asdf).
-See the [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/asdf) for usage information.
+See the [README](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf) for usage information.
 
 ---
 
@@ -427,7 +427,7 @@ Enables aliases to [Bundler](http://gembundler.com/).
 | bp    | Bundle package                                              |
 | bu    | Bundle update                                               |
 
-Also creates shell aliases so you don't have to type "bundle exec" before most common ruby commands when you are in a directory with a Gemfile. Here is a [list of commands](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/bundler/bundler.plugin.zsh#L9) it does this for: `annotate cap capify cucumber ey foreman guard heroku middleman nanoc rackup rainbows rails rake rspec ruby shotgun spec spork thin thor unicorn unicorn_rails`
+Also creates shell aliases so you don't have to type "bundle exec" before most common ruby commands when you are in a directory with a Gemfile. Here is a [list of commands](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/bundler/bundler.plugin.zsh#L9) it does this for: `annotate cap capify cucumber ey foreman guard heroku middleman nanoc rackup rainbows rails rake rspec ruby shotgun spec spork thin thor unicorn unicorn_rails`
 
 ---
 
@@ -466,7 +466,7 @@ Commands for [Capistrano](https://github.com/capistrano/capistrano/wiki), a depl
 Loads completion from non-standard locations for [`cask`, a project management tool
 for Emacs](https://github.com/cask/cask).
 
-For more information see [the README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/cask).
+For more information see [the README](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cask).
 
 ---
 
@@ -784,7 +784,7 @@ After that, ALT-DOWN will probably go to /usr/bin (depends on your /usr structur
 
 Currently the max history size is 30. The navigation should work for xterm, PuTTY xterm mode, GNU screen, and on MAC with alternate keys as mentioned above.
 
-**See also**: [dircycle](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#dircycle) enables more efficient back/forward navigation by using the built-in directory stack, but lacks the ability to traverse up/down directories (although this is simple to add with a keybinding to `cd ..`).
+**See also**: [dircycle](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins#dircycle) enables more efficient back/forward navigation by using the built-in directory stack, but lacks the ability to traverse up/down directories (although this is simple to add with a keybinding to `cd ..`).
 
 ---
 
@@ -801,7 +801,7 @@ Currently the max history size is 30. The navigation should work for xterm, PuTT
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
 Adds completion for [django and `manage.py`](https://www.djangoproject.com/).
-[See for more info](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/django).
+[See for more info](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/django).
 
 ---
 
@@ -825,7 +825,7 @@ Adds completion for [django and `manage.py`](https://www.djangoproject.com/).
 | dnfgr | `sudo dnf groupremove`  | Remove package group     |
 | dnfc  | `sudo dnf clean all`    | Clean cache              |
 
-See the [README](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/dnf/) for more information.
+See the [README](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/dnf/) for more information.
 
 ---
 
@@ -912,7 +912,7 @@ extract -r abc.zip
 
 **Maintainer:** [Ján Koščo](https://github.com/s7anley)
 
-See the [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/geeknote) for more info.
+See the [README](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/geeknote) for more info.
 
 ---
 
@@ -939,7 +939,7 @@ See the [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/g
 **Maintainers:** [@Stibbons](https://github.com/Stibbons), [@ncanceill](https://github.com/ncanceill)
 
 Adds a lot of git aliases and functions for day-to-day git operations. See the
-[README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git/) for a list.
+[README](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git/) for a list.
 
 ---
 
@@ -1133,7 +1133,7 @@ handy command line tools for dealing with json data.
 
 ## kubectl
 
-Adds `kubectl` autocompletion and aliases. Usage documentation can be found in the [plugin README](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/kubectl/README.md).
+Adds `kubectl` autocompletion and aliases. Usage documentation can be found in the [plugin README](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/kubectl/README.md).
 
 ---
 
@@ -1215,7 +1215,7 @@ Keeps track of the last used directory and automatically jumps to it for new she
 
 Plus it adds mercurial repo info into zsh prompt.
 
-See detailed instructions in [plugin README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/mercurial)
+See detailed instructions in [plugin README](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/mercurial)
 
 ---
 
@@ -1280,7 +1280,7 @@ Enhances the [Nanoc](http://nanoc.stoneship.org/) static site generator with ali
 ## ng
 
 Adds completion for `angular-cli` (also called `ng`).
-See [the README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/ng) for more information.
+See [the README](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ng) for more information.
 
 **Maintainer:** [@catull](https://github.com/catull)
 
@@ -1319,7 +1319,7 @@ See [the README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/n
 | `itunes`        | Control iTunes. User `itunes -h` for usage details |
 | `spotify`       | Control Spotify and search by artist, album, track and etc.|
 
-See the [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/osx) for more information.
+See the [README](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx) for more information.
 
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
@@ -1734,7 +1734,7 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 
 ## tig
 
-Adds aliases for `tig`. See [the README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/tig) for more information.
+Adds aliases for `tig`. See [the README](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tig) for more information.
 
 ---
 
@@ -1814,7 +1814,7 @@ Adds command line utilities for URL manipulation.
 
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
-** Read the plugin [README](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode) file **
+** Read the plugin [README](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vi-mode) file **
 
 - Increase zsh `vi-like` functionality
 
@@ -1990,7 +1990,7 @@ Enables aliases for [Yum](http://yum.baseurl.org), the popular front-end to the 
 
 **Maintainer:** [johnjohndoe](https://github.com/johnjohndoe)
 
-Completion plugin for [zeus](https://github.com/burke/zeus). The describing texts are inspired by the texts given in the [documentation of Rails command line tools](http://guides.rubyonrails.org/command_line.html).*[Source](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/zeus/_zeus)
+Completion plugin for [zeus](https://github.com/burke/zeus). The describing texts are inspired by the texts given in the [documentation of Rails command line tools](http://guides.rubyonrails.org/command_line.html).*[Source](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/zeus/_zeus)
 
 ---
 

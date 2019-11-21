@@ -59,7 +59,7 @@ Remember that customizations always take precedence over built-ins. If you happe
 
 If you don't change its filename, your `.zshrc` file can stay the same: `ZSH_THEME="agnoster"` will be perfect and still take your changes into account. You might also want to consider this before filing a new issue or pull request that just changes a trivial detail inside of a built-in theme.
 
-Note: Using a random theme with `$ZSH_THEME="random"` will not look into your custom themes directory. Only built-in themes will be used. (Until PR [#3743](https://github.com/robbyrussell/oh-my-zsh/pull/3743) is merged, which makes `random` include custom themes.)
+Note: Using a random theme with `$ZSH_THEME="random"` will not look into your custom themes directory. Only built-in themes will be used. (Until PR [#3743](https://github.com/ohmyzsh/ohmyzsh/pull/3743) is merged, which makes `random` include custom themes.)
 
 ## Overriding internals
 

@@ -1,4 +1,4 @@
-All the current themes can be found in the `themes/` directory in the oh-my-zsh distribution. [See list here.](http://github.com/robbyrussell/oh-my-zsh/tree/master/themes/)
+All the current themes can be found in the `themes/` directory in the oh-my-zsh distribution. [See list here.](http://github.com/ohmyzsh/ohmyzsh/tree/master/themes/)
 
 In order to enable a theme, set `ZSH_THEME` to the name of the theme in your `~/.zshrc`, before sourcing Oh My Zsh; for example: `ZSH_THEME=robbyrussell`  
 If you do not want any theme enabled, just set `ZSH_THEME` to blank: `ZSH_THEME=""`
@@ -97,7 +97,7 @@ To use: In the right prompt you see git status and (if you use nvm) the Node.js 
 ### dieter
 [![dieter](https://cloud.githubusercontent.com/assets/2618447/6316724/51b2886e-ba00-11e4-805f-c622567608e3.png)](https://cloud.githubusercontent.com/assets/2618447/6316724/51b2886e-ba00-11e4-805f-c622567608e3.png)
 
-Additional setup: Get this small [[fix|https://github.com/Dieterbe/oh-my-zsh/commit/7ca0afd6861fe0c9e6903a08f0e469746df627e0]] if you don’t have it yet. (Fix was [[pulled|https://github.com/robbyrussell/oh-my-zsh/commit/8294cf44d1d348fd1590ee28b5be8483fb012153]] into robbyrussell/oh-my-zsh on 2011-01-08.)
+Additional setup: Get this small [[fix|https://github.com/Dieterbe/oh-my-zsh/commit/7ca0afd6861fe0c9e6903a08f0e469746df627e0]] if you don’t have it yet. (Fix was [[pulled|https://github.com/ohmyzsh/ohmyzsh/commit/8294cf44d1d348fd1590ee28b5be8483fb012153]] into ohmyzsh/ohmyzsh on 2011-01-08.)
 
 ### dogenpunk
 [![dogenpunk](https://cloud.githubusercontent.com/assets/2618447/6316727/51b8067c-ba00-11e4-8e59-722a79ec60c2.png)](https://cloud.githubusercontent.com/assets/2618447/6316727/51b8067c-ba00-11e4-8e59-722a79ec60c2.png)
@@ -347,13 +347,13 @@ It is recommended to use with a dark background.
 [![zhann](https://cloud.githubusercontent.com/assets/2618447/6316771/520a5170-ba00-11e4-9561-78f0c76e996c.png)](https://cloud.githubusercontent.com/assets/2618447/6316771/520a5170-ba00-11e4-9561-78f0c76e996c.png)
 
 ## More themes
-You can find more themes [here](https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes).
+You can find more themes [here](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes).
 
 ##  (Don’t) Send us your theme! (for now)
 
 We have enough themes for the time being. Please fork the project and add on in there, you can let people know how to grab it from there.
 
-Or put it gist and list it in https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes .
+Or put it gist and list it in https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes .
 
 ## Theme Description Format
 

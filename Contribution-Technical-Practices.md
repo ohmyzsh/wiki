@@ -12,7 +12,7 @@ The following section explains how to set up your local Oh-My-Zsh install with t
 
 _From this point on,_ `<name>` _stands for your GitHub username._
 
-- **1.** Fork the original repository (button at the top of [the repo's page](https://github.com/robbyrussell/oh-my-zsh)).
+- **1.** Fork the original repository (button at the top of [the repo's page](https://github.com/ohmyzsh/ohmyzsh)).
 
 _This supposes that you have Oh-My-Zsh installed already in `$ZSH` (default:_ `~/.oh-my-zsh`_) with the origin remote pointing to the original repository._
 
@@ -54,14 +54,14 @@ git remote add origin git@github.com:<name>/oh-my-zsh.git
 - **Origin:** when you want to get the latest upgrades from your own fork (_aka_ origin), simply `git pull --rebase origin master`; you may have to solve conflicts with your local changes of course; when you are satisfied with the update you can `git push --force origin master`.
 
 **More setups:** on a new machine, simply
-`git clone git@github.com:<name>/oh-my-zsh.git ~/.oh-my-zsh` and `git remote add upstream git@github.com:robbyrussell/oh-my-zsh.git`, and of course copy your [startup files](http://zsh.sourceforge.net/Intro/intro_3.html); you will be able to get upgrades, and to work on your pending PRs.
+`git clone git@github.com:<name>/oh-my-zsh.git ~/.oh-my-zsh` and `git remote add upstream git@github.com:ohmyzsh/ohmyzsh.git`, and of course copy your [startup files](http://zsh.sourceforge.net/Intro/intro_3.html); you will be able to get upgrades, and to work on your pending PRs.
 
 [**Sending PRs**](#maintained-fork-prs)
 
 ## Pull Requests
 
 _These are technical instructions, please read the_
-[contributing guidelines (project)](https://github.com/robbyrussell/oh-my-zsh/pull/3770) _before sending PRs._
+[contributing guidelines (project)](https://github.com/ohmyzsh/ohmyzsh/pull/3770) _before sending PRs._
 
 _The following uses_ `my-new-pr` _for the branch name, but you can use something else._
 

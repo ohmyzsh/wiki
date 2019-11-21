@@ -47,7 +47,7 @@ Check first that you have it installed: run `zsh`. If you really don't have it i
 
 #### How do I install Oh My Zsh?
 
-Please follow the project's README instructions for a [basic installation](https://github.com/robbyrussell/oh-my-zsh#basic-installation), or the [advanced instructions](https://github.com/robbyrussell/oh-my-zsh#advanced-installation) if you need to automate the installation or change some of the settings of the installer.
+Please follow the project's README instructions for a [basic installation](https://github.com/ohmyzsh/ohmyzsh#basic-installation), or the [advanced instructions](https://github.com/ohmyzsh/ohmyzsh#advanced-installation) if you need to automate the installation or change some of the settings of the installer.
 
 #### How do I uninstall Oh My Zsh?
 
