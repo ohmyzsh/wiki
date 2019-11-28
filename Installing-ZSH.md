@@ -35,7 +35,7 @@ If necessary, follow these steps to install Zsh:
 you _might_ be OK. Preferably newer than or equal to `5.0`.**
 
 ```sh
-brew install zsh zsh-completions
+brew install zsh
 ```
 To set zsh as your default shell, execute the following for **macOS High Sierra**
 ```
