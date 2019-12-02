@@ -114,7 +114,7 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _gcb_                  | git checkout -b                                                                   |
 | _gcf_                  | git config --list                                                                 |
 | _gcl_                  | git clone --recursive                                                             |
-| _gclean_               | git clean -fd                                                                     |
+| _gclean_               | git clean -id                                                                     |
 | _gpristine_            | git reset --hard && git clean -dfx                                                |
 | _gcm_                  | git checkout master                                                               |
 | _gcd_                  | git checkout develop                                                              |
