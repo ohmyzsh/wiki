@@ -947,7 +947,7 @@ Adds a lot of git aliases and functions for day-to-day git operations. See the
 
 **Maintainer:** [felipec](https://github.com/felipec)
 
-Enables the zsh completion from git.git folks, which is much faster than the official one from zsh. A lot of zsh-specific features are not supported, like descriptions for every argument, but everything the bash completion has, this one does too (as it is using it behind the scenes). Not only is it faster, it should be more robust, and updated regularly to the latest git upstream version.
+Enables the zsh completion from git.git folks, which is much faster than the official one from zsh. A lot of zsh-specific features are not supported, like descriptions for every argument, but everything the bash completion has, this one does too (as it is using it behind the scenes). Not only it is faster, it should be more robust, and updated regularly to the latest git upstream version.
 
 ---
 
