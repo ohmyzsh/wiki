@@ -90,7 +90,6 @@ Below is a list of bundled plugins
 - [fastfile](#fastfile)
 - [fbterm](#fbterm)
 - [fd](#fd)
-- [fedora](#fedora)
 - [firewalld](#firewalld)
 - [forklift](#forklift)
 - [fossil](#fossil)
@@ -283,6 +282,8 @@ Below is a list of bundled plugins
 - [zeus](#zeus)
 - [zsh-navigation-tools](#zsh-navigation-tools)
 - [zsh_reload](#zsh_reload)
+Deprecated:
+- [fedora](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fedora)
 
 ## apache2-macports
 
