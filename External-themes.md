@@ -1030,3 +1030,13 @@ Simple is better
 Source: [maza.zsh-theme](https://github.com/eamazaj/maza-theme)
 
 Author:  [@eamazaj](https://github.com/eamazaj)
+
+#### Chill
+
+![Chill Theme](https://raw.githubusercontent.com/PsychoPatate/chill.zsh-theme/master/chill.png)
+
+Clean and simple look with return status, git status and full path.
+
+Source: [chill.zsh-theme](https://github.com/PsychoPatate/chill.zsh-theme)
+
+Author:  [@PsychoPatate](https://github.com/PsychoPatate)
