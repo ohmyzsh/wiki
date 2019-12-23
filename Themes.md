@@ -33,7 +33,7 @@ Shown with [Solarized Dark colorscheme](http://ethanschoonover.com/solarized) an
 Additional setup:
 
 - Install one of the [patched fonts from Vim-Powerline](https://github.com/powerline/fonts) or [patch your own](https://github.com/powerline/fontpatcher) for the special characters.
-- *Optionally* set `DEFAULT_USER` to your regular username followed by prompt_context(){} in `~/.zshrc` to hide the “user@hostname” info when you’re logged in as yourself on your local machine.
+- *Optionally* to hide the “user@hostname” info when you’re logged in as yourself on your local machine, add `prompt_context(){}` at the bottom of your `~/.zshrc`. See [here](https://github.com/agnoster/agnoster-zsh-theme/issues/39#issuecomment-307338817) to learn how to only show your username instead.
 
 ### alanpeabody
 [![alanpeabody](https://cloud.githubusercontent.com/assets/2618447/6316714/5190b8ba-ba00-11e4-8fa9-9f22160be9e4.png)](https://cloud.githubusercontent.com/assets/2618447/6316714/5190b8ba-ba00-11e4-8fa9-9f22160be9e4.png)
