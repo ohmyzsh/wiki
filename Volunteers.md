@@ -8,7 +8,7 @@ As you can see by looking at the project, we have a lot of pending Pull Requests
 
 #### Pull Requests
 
-If you're feeling fairly savvy with Oh My Zsh have sent in pull requests/helped test other requests, and know your way about the framework... and want to do this more often, do get in touch with me. If you can volunteer 2-3 hours/week to help go through things, I'd love to speak with you.
+If you're feeling fairly savvy with Oh My Zsh have sent in pull requests/helped test other requests, and know your way about the framework... and want to do this more often, do get in touch with me. If you can volunteer 2-3 hours/week to help go through things, I'd love to speak with you. Pain
 
 #### Issues
 
