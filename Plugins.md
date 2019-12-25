@@ -1317,7 +1317,7 @@ See [the README](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ng) for 
 | `man-preview` | Open a specified man page in Preview app       |
 | `showfiles`     | Show hidden files                                |
 | `hidefiles`     | Hide the hidden files                            |
-| `itunes`        | Control iTunes. User `itunes -h` for usage details |
+| `music`        | Control the Music app. Use `music -h` for usage details |
 | `spotify`       | Control Spotify and search by artist, album, track and etc.|
 
 See the [README](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx) for more information.
