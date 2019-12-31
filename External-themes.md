@@ -1040,3 +1040,13 @@ Clean and simple look with return status, git status and full path.
 Source: [chill.zsh-theme](https://github.com/PsychoPatate/chill.zsh-theme)
 
 Author:  [@PsychoPatate](https://github.com/PsychoPatate)
+
+#### typewritten
+
+![typewritten](https://raw.githubusercontent.com/reobin/typewritten/master/media/demo.gif)
+
+Minimal. Informative.
+
+Source: [typewritten.zsh-theme](https://github.com/reobin/typewritten)
+
+Author:  [@reobin](https://github.com/reobin)
