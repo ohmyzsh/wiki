@@ -9,6 +9,32 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
+#### typewritten
+
+![typewritten](https://raw.githubusercontent.com/reobin/typewritten/master/media/demo.gif)
+
+Minimal. Informative.
+
+**Features**
+- Current directory
+- Current git branch
+- Git status indicators:
+  - ``?``     &nbsp; — untracked change(s);
+  - ``+``     &nbsp; — staged change(s);
+  - ``!``     &nbsp; — file(s) modified in the repo;
+  - ``»``     &nbsp; — renamed file(s);
+  - ``—``     &nbsp; — deleted file(s);
+  - ``$``     &nbsp; — stashed change(s);
+  - ``#``     &nbsp; — unmerged change(s);
+  - ``•|``    — behind of remote branch;
+  - ``|•``    — ahead of remote branch;
+
+Source: [typewritten.zsh-theme](https://github.com/reobin/typewritten)
+
+Author:  [@reobin](https://github.com/reobin)
+
+---
+
 #### Ducula
 
 ![Ducula Theme](https://raw.githubusercontent.com/janjoswig/Ducula/master/ducula_showcase.png)
@@ -1040,13 +1066,3 @@ Clean and simple look with return status, git status and full path.
 Source: [chill.zsh-theme](https://github.com/PsychoPatate/chill.zsh-theme)
 
 Author:  [@PsychoPatate](https://github.com/PsychoPatate)
-
-#### typewritten
-
-![typewritten](https://raw.githubusercontent.com/reobin/typewritten/master/media/demo.gif)
-
-Minimal. Informative.
-
-Source: [typewritten.zsh-theme](https://github.com/reobin/typewritten)
-
-Author:  [@reobin](https://github.com/reobin)
