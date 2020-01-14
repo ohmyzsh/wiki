@@ -135,7 +135,6 @@ Below is a list of bundled plugins
 - [jira](#jira)
 - [jruby](#jruby)
 - [jsontools](#jsontools)
-- [jump](#jump)
 - [kate](#kate)
 - [keychain](#keychain)
 - [kitchen](#kitchen)
