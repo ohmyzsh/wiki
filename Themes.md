@@ -17,7 +17,7 @@ Here is a collection of screenshots and descriptions of themes that have been co
 The rest of the themes, in alphabetical order:
 
 ### af-magic
-[![af-magic](https://cloud.githubusercontent.com/assets/124808/21915191/89dffcac-d97b-11e6-8b46-ea5fbddde02a.png)](https://cloud.githubusercontent.com/assets/124808/21915191/89dffcac-d97b-11e6-8b46-ea5fbddde02a.png)
+[![af-magic](https://user-images.githubusercontent.com/145113/73003386-8f500000-3dd3-11ea-8710-657fac00d4ad.png)](https://user-images.githubusercontent.com/145113/73003386-8f500000-3dd3-11ea-8710-657fac00d4ad.png)
 
 ### afowler
 [![afowler](https://cloud.githubusercontent.com/assets/2618447/6316859/70f1cb06-ba03-11e4-865f-209473ddd5c8.png)](https://cloud.githubusercontent.com/assets/2618447/6316859/70f1cb06-ba03-11e4-865f-209473ddd5c8.png)
@@ -371,7 +371,7 @@ We use manually-constructed screenshots because some of the themes require addit
 
 We host all the screenshot images on GitHub itself, to avoid external dependencies on other hosting services or URLs that might break. We use issue attachments which will get them in to githubusercontent.com. (It's also possible to store image files in a GitHub wiki itself, but this requires you to have Contributor permissions for the repo whose Wiki you're editing. The issue-attachment method can be done by anybody.)
 
-To upload an image to GitHub, just drag and drop it into the text area on an issue you're editing. You can use issue #3619 for this to avoid spamming people with notifications about new issues. The uploaded image will turn in to a link in Markdown format. Edit that to use the special `[![name](image-url)](image-url)` syntax to make the image link to itself, so people can open the image in a new tab to view it full size. (Images inside a wiki page may be displayed scaled down.)
+To upload an image to GitHub, just drag and drop it into the text area on an issue you're editing. You can use [issue #3619](https://github.com/ohmyzsh/ohmyzsh/issues/3619) for this to avoid spamming people with notifications about new issues. The uploaded image will turn in to a link in Markdown format. Edit that to use the special `[![name](image-url)](image-url)` syntax to make the image link to itself, so people can open the image in a new tab to view it full size. (Images inside a wiki page may be displayed scaled down.)
 
 For example:
 
