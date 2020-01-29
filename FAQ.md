@@ -139,6 +139,8 @@ If this doesn't solve the problem you might have found a bug in the plugin. Sear
 
 This normally happens because your theme uses UTF-8 characters but your `locale` is not set up to handle them. Make sure that you're running a `locale` ending in `.UTF-8` or `.utf8`. See [How do I change my locale](#how-do-i-change-my-locale) for instructions.
 
+Similar issues: [#6985](https://github.com/ohmyzsh/ohmyzsh/issues/6985#issuecomment-412055789), [#3932](https://github.com/ohmyzsh/ohmyzsh/pull/3932), [#4529](https://github.com/ohmyzsh/ohmyzsh/issues/4529), [#4632](https://github.com/ohmyzsh/ohmyzsh/issues/4632).
+
 ### Zsh errors
 
 #### zsh: no matches found
