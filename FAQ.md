@@ -1,3 +1,5 @@
+_If you don't find what you're looking for, and you think it should be covered by the FAQ, please [open a new issue](https://github.com/ohmyzsh/ohmyzsh/issues/new?title=FAQ:%20) with what you think should be here._
+
 - [DEFINITIONS](#definitions)
   - [What is Oh My Zsh and what does it have to do with zsh?](#what-is-oh-my-zsh-and-what-does-it-have-to-do-with-zsh)
   - [What is a zsh plugin?](#what-is-a-zsh-plugin)
@@ -8,6 +10,8 @@
   - [How do I install Oh My Zsh?](#how-do-i-install-oh-my-zsh)
   - [How do I uninstall Oh My Zsh?](#how-do-i-uninstall-oh-my-zsh)
   - [How do I change my locale?](#how-do-i-change-my-locale)
+  - [How do I reload the zshrc file?](#how-do-i-reload-the-zshrc-file)
+  - [How do I reset the completion cache?](#how-do-i-reset-the-completion-cache)
 - [COMMON PROBLEMS](#common-problems)
   - [Font issues](#font-issues)
     - [I have a weird character in my prompt](#i-have-a-weird-character-in-my-prompt)
@@ -65,7 +69,7 @@ Alternatively, to manually remove OMZ do `rm -rf $ZSH` — you will also have to
 
 #### How do I change my locale?
 
-The `locale` is used in a shell environment to define which language and character encoding (i.e. UTF-8) to use. This will change the language used by commands, as well as the encoding of the characters. Normally, you'll have set the language to use in the settings of your particular system. But sometimes you need to change the encoding used in the shell, most frequently to set it to use UTF-8.
+The `locale` is used in a shell environment to define which language and character encoding (i.e. UTF-8) to use. This will change the language used by commands, as well as the encoding of the characters. Usually, you'll have set the language to use in the settings of your particular system. But sometimes you need to change the encoding used in the shell, most frequently to set it to use UTF-8.
 
 First, to verify what locale you're using, run `locale`. You'll get something like this:
 ```zsh
@@ -105,6 +109,32 @@ Once we have selected a suitable locale (tip: always use a UTF-8 locale), we can
 export LANG=en_US.utf8
 ```
 
+#### How do I reload the zshrc file?
+
+You may have seen somewhere that when you make a change to your zshrc file, you need to reload it. The common **wrong** suggestion is to use "source ~/.zshrc". This may cause trouble because some things that are already in the zsh session haven't been removed (variables, functions, hooks...). It's also possible that you're repeatedly running an init script and causing more and more processes to start.
+
+To properly reload the zshrc file, you need to restart the zsh session. You can either:
+
+* Restart the terminal.
+
+or
+
+* Restart the zsh process by running: `exec zsh`.
+
+#### How do I reset the completion cache?
+
+The completion cache file (also known as zcompdump file) is a cache of the completion functions found when starting the zsh session. This file is written when calling `compinit`, and it is done automatically by Oh My Zsh when starting. It can be found at `$ZSH_COMPDUMP`, usually in your home directory and named `.zcompdump-<host>-<zsh-version>`.
+
+**If there is already a file at that location, `compinit` will read it, instead of recreating it, for better performance.** This causes problems sometimes when some completion settings where changed but the completion cache wasn't, like when a plugin is enabled. That's why most completion problems are solved by resetting the cache and restarting the zsh session.
+
+To reset it, you have to delete it and restart your zsh session so that it is recreated again:
+
+```zsh
+# Delete the completion cache
+rm ~/.zcompdump*
+# Restart the zsh session
+exec zsh
+```
 
 ## COMMON PROBLEMS
 
@@ -119,29 +149,19 @@ It might look like this in iTerm2:
 ![Example problem in iTerm2](https://camo.githubusercontent.com/12b3877f95cf1d22ba9b005f1d029e6eb8121449/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3439373337322f3639373135302f64623330306332342d646366382d313165322d393233372d6536306535623965646437312e706e67)
 
 
-
 ### Completion issues
 
-Most completion issues are due to an old completion cache file (also called zcompdump file). This file is at `$ZSH_COMPDUMP` or in your home directory, named `.zcompdump-<host>-<zsh-version>`. To reset it, you have to delete it and restart your zsh session so that it is recreated again:
-
-```zsh
-# Delete the completion cache
-rm ~/.zcompdump*
-# Restart the zsh session
-exec zsh
-```
-
-If that doesn't make the completion work, look at the other completion issue sections.
+Most completion issues are due to an old completion cache file (also called zcompdump file). Before attempting anything else, try to reset it following [the instructions above](#how-do-i-reset-the-completion-cache). If that doesn't make the completion work, look at the other completion issue sections.
 
 #### I have enabled a completion plugin but the completion doesn't work
 
-As of right now, after enabling or disabling a plugin that provides completion, you have to reset the cached completion file. Follow the instructions above to delete the completion file.
+As of right now, after enabling or disabling a plugin that provides completion, you have to reset the cached completion file. Follow [the instructions above to delete the completion file](#how-do-i-reset-the-completion-cache).
 
-If this doesn't solve the problem you might have found a bug in the plugin. Search for issues with the plugin in question, and if there isn't one already (open or closed), open a new bug report.
+If this doesn't solve the problem, you might have found a bug in the plugin. Search for issues with the plugin in question, and if there isn't one already (open or closed), open a new bug report.
 
 #### I see duplicate typed characters after I complete a command
 
-This normally happens because your theme uses UTF-8 characters but your `locale` is not set up to handle them. Make sure that you're running a `locale` ending in `.UTF-8` or `.utf8`. See [How do I change my locale](#how-do-i-change-my-locale) for instructions.
+This usually happens because your theme uses UTF-8 characters but your `locale` is not set up to handle them. Make sure that you're running a `locale` ending in `.UTF-8` or `.utf8`. See [How do I change my locale](#how-do-i-change-my-locale) for instructions.
 
 Similar issues: [#6985](https://github.com/ohmyzsh/ohmyzsh/issues/6985#issuecomment-412055789), [#3932](https://github.com/ohmyzsh/ohmyzsh/pull/3932), [#4529](https://github.com/ohmyzsh/ohmyzsh/issues/4529), [#4632](https://github.com/ohmyzsh/ohmyzsh/issues/4632).
 
