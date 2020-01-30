@@ -122,9 +122,7 @@ It might look like this in iTerm2:
 
 ### Completion issues
 
-#### I have enabled a completion plugin but the completion doesn't work
-
-As of right now, after enabling or disabling a plugin that provides completion, you have to reset the cached completion file. This file is at `$ZSH_COMPDUMP` or in your home directory, named `.zcompdump-<host>-<zsh-version>`. To reset it, you have to delete it and restart your zsh session so that it is recreated again:
+Most completion issues are due to an old completion cache file (also called zcompdump file). This file is at `$ZSH_COMPDUMP` or in your home directory, named `.zcompdump-<host>-<zsh-version>`. To reset it, you have to delete it and restart your zsh session so that it is recreated again:
 
 ```zsh
 # Delete the completion cache
@@ -132,6 +130,12 @@ rm ~/.zcompdump*
 # Restart the zsh session
 exec zsh
 ```
+
+If that doesn't make the completion work, look at the other completion issue sections.
+
+#### I have enabled a completion plugin but the completion doesn't work
+
+As of right now, after enabling or disabling a plugin that provides completion, you have to reset the cached completion file. Follow the instructions above to delete the completion file.
 
 If this doesn't solve the problem you might have found a bug in the plugin. Search for issues with the plugin in question, and if there isn't one already (open or closed), open a new bug report.
 
