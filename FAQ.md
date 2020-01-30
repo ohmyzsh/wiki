@@ -131,7 +131,7 @@ To reset it, you have to delete it and restart your zsh session so that it is re
 
 ```zsh
 # Delete the completion cache
-rm ~/.zcompdump*
+rm "$ZSH_COMPDUMP"
 # Restart the zsh session
 exec zsh
 ```
