@@ -40,7 +40,7 @@ A zsh theme is a zsh script that changes the **prompt**. The prompt is the line 
 
 #### What is the .zshrc file?
 
-The `.zshrc` file (or just `zshrc` file) is a file that zsh reads when it starts. It can be found in your home directory, which will change depending on the system and platform you're using. On a terminal, it can be found by running `echo $HOME`.
+The `.zshrc` file (or just `zshrc` file) is a file that zsh reads when it starts. It can be found in your home directory, which will change depending on the system and platform you're using. On a terminal, the path to the home directory can be found by running `echo $HOME`.
 
 
 ## HOW DO I...?
