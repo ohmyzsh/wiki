@@ -186,7 +186,7 @@ There are many solutions, some temporary, some permanent:
    # has the same effect as
    $ apt install 'linux-*'
    ```
-3. Permanent: disable globbing at all, using **[`unsetopt glob`](http://zsh.sourceforge.net/Doc/Release/Options.html#index-GLOB)**.
+3. Permanent: disable globbing (_aka_ wildcard expansion) at all, using **[`unsetopt glob`](http://zsh.sourceforge.net/Doc/Release/Options.html#index-GLOB)**.
    Put it somewhere in your zshrc file **after** Oh My Zsh is sourced so that it's applied on every zsh session.
    NOTE: this will mean that you won't be able to use wildcards anywhere in your zsh session.
    ```zsh
