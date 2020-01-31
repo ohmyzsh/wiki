@@ -1,12 +1,13 @@
 * **[[Home]]**
 * **[[FAQ]]**
+* **[[Plugins Overview]]**
 * **Documentation**
-  + [[Cheatsheet]]
-  + [[Customization]]
   + [[Installing ZSH]]
   + [[Plugins]]
-  + [[Plugins Overview]]
   + [[Themes]]
+  + [[Cheatsheet]]
+  + [[Design]]
+  + [[Customization]]
   + [[Troubleshooting]]
 * **Community**
   + [[Articles]]
@@ -17,7 +18,6 @@
   + [[Coding style guide]]
   + [[Coding Style Guide: Wiki]]
   + [[Contribution Technical Practices]]
-  + [[Design]]
   + [[Volunteers]]
 
 ------------------
