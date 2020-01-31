@@ -15,10 +15,10 @@
   + [[External themes]]
   + [[Testimonials]]
 * **Contributing**
-  + [[Coding style guide]]
-  + [[Coding Style Guide: Wiki]]
-  + [[Contribution Technical Practices]]
   + [[Volunteers]]
+  + [[Code Style Guide]]
+  + [[Wiki Style Guide]]
+  + [[Contribution Technical Practices]]
 
 ------------------
 
