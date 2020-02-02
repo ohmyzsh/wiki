@@ -20,7 +20,7 @@ If necessary, follow these steps to install Zsh:
   - from [source](http://zsh.sourceforge.net/Arc/source.html), following
         [instructions from the Zsh FAQ](http://zsh.sourceforge.net/FAQ/zshfaq01.html#l7)
 2. Verify installation by running `zsh --version`. Expected result: `zsh 5.1.1` or more recent.
-3. Make it your default shell: `chsh -s $(which zsh)`
+3. Make it your default shell: `chsh -s $(which zsh)` NOTE: "which zsh" is a command returning zsh location /usr/bin/zsh
   - Note that this will not work if Zsh is not in your authorized shells list (`/etc/shells`)
     or if you don't have permission to use `chsh`. If that's the case [you'll need to use a different procedure](https://www.google.com/search?q=zsh+default+without+chsh).
 4. Log out and login back again to use your new default shell.
