@@ -845,6 +845,12 @@ See the [README](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/dnf/) fo
 - Auto complete arguments and options for all docker commands.
 - Show containerIDs and Images for tab completion where applicable ([screenshots](https://github.com/AeonAxan/oh-my-zsh/blob/master/plugins/docker/README.md))
 
+## docker-compose
+
+Maintainer:
+
+docker-compose - Support for docker-compose completion. [Command list](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-compose).
+
 ---
 
 ## encode64
