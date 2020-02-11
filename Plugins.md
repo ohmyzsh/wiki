@@ -1138,6 +1138,14 @@ handy command line tools for dealing with json data.
 
 ---
 
+## jump
+
+**Maintainer:** [mcornella](https://github.com/mcornella)
+
+[Link to README](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/jump).
+
+---
+
 ## knife
 
 **Maintainer:** [franklouwers](https://github.com/franklouwers)
