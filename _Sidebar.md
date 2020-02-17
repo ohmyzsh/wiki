@@ -6,7 +6,6 @@
   + [[Plugins]]
   + [[Themes]]
   + [[Cheatsheet]]
-  + [[Design]]
   + [[Customization]]
   + [[Troubleshooting]]
 * **Community**
@@ -16,6 +15,7 @@
   + [[Testimonials]]
 * **Contributing**
   + [[Volunteers]]
+  + [[Design]]
   + [[Code Style Guide]]
   + [[Wiki Style Guide]]
   + [[Contribution Technical Practices]]
