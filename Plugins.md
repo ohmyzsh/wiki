@@ -293,6 +293,13 @@ Below is a list of bundled plugins
 Deprecated:
 - [fedora](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fedora)
 
+
+## ansible
+
+Adds `ansible` autocompletion and aliases. Usage documentation can be found in the [plugin README](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/ansible/README.md).
+
+---
+
 ## apache2-macports
 
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
