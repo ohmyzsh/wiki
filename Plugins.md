@@ -1,22 +1,18 @@
-Enable the plugins you want by editing your
-[*~/.zshrc*](https://github.com/ohmyzsh/ohmyzsh/blob/master/templates/zshrc.zsh-template#L48) file.
+## Instructions
 
-##### _Example:_
+Oh My Zsh plugins allow you add varied functionality to your shell just by enabling them. They are documented in
+the README.md file in their respective `plugins/` folder.
+
+Enable a plugin by adding its name to the `plugins` array in your `.zshrc` file (found in the `$HOME` directory).
+For example, this enables the `rails`, `git` and `ruby` plugins, **in that order**:
+
 ```shell
 plugins=(rails git ruby)
 ```
 
-_Completion plugins_ will let zsh know which arguments the package has so it can autocomplete. For instance, if you have the Homebrew plugin installed and type:
+_NOTE: elements in zsh arrays are separated by spaces. DO NOT use commas._
 
-```
-brew in
-```
-
-.. and then hit tab, the *brew* plugin will enable autocompletion to *brew install*. Completion plugins are not documented further on this page as they only provide better introspection for zsh into the original command. *man* is your friend.
-
-You should always read the source for the plugin before using it to avoid surprises. Plugins are located in ~/.oh-my-zsh/plugins.
-
-Below is a list of bundled plugins
+## Plugins
 
 - [adb](#adb)
 - [alias-finder](#alias-finder)
@@ -1638,6 +1634,14 @@ Note that if a filename is misspelled or doesn't have the necessary path descrip
 **Maintainer:** [robbyrussell](https://github.com/robbyrussell)
 
 - ssh-agent - cygwin ssh-agent plugin for starting agent (see - http://www.cygwin.com/ml/cygwin/2001-06/msg00537.html )
+
+---
+
+## stack
+
+**Maintainer:** [mcornella](https://github.com/mcornella)
+
+Provides autocompletion for [Haskell's Stack](https://docs.haskellstack.org/en/stable/README/).
 
 ---
 
