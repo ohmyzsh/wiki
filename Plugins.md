@@ -108,7 +108,6 @@ _NOTE: elements in zsh arrays are separated by spaces. DO NOT use commas._
 - [git-flow-avh](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-flow-avh)
 - [git-hubflow](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-hubflow)
 - [git-prompt](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-prompt)
-- [git-remote-branch](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-remote-branch)
 - [gitfast](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gitfast)
 - [github](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/github)
 - [gitignore](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gitignore)
@@ -292,3 +291,4 @@ _NOTE: elements in zsh arrays are separated by spaces. DO NOT use commas._
 ### Deprecated
 
 - [fedora](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fedora)
+- [git-remote-branch](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-remote-branch)
