@@ -114,7 +114,7 @@ _NOTE: elements in zsh arrays are separated by spaces. DO NOT use commas._
 - [glassfish](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/glassfish)
 - [globalias](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/globalias)
 - [gnu-utils](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gnu-utils)
-- [go](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/go)
+- [go](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/go) (deprecated; use `golang` instead)
 - [golang](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/golang)
 - [gpg-agent](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gpg-agent)
 - [gradle](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gradle)
