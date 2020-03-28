@@ -1066,3 +1066,13 @@ Clean and simple look with return status, git status and full path.
 Source: [chill.zsh-theme](https://github.com/PsychoPatate/chill.zsh-theme)
 
 Author:  [@PsychoPatate](https://github.com/PsychoPatate)
+
+#### Daivasmara
+
+![Daivasmara Theme](https://raw.githubusercontent.com/Daivasmara/daivasmara.zsh-theme/master/media/Screenshot%20from%202020-03-28%2017-12-41.png)
+
+Chill zsh-theme, personal take on smt
+
+Source: [daivasmara.zsh-theme](https://github.com/Daivasmara/daivasmara.zsh-theme)
+
+Author:  [@Daivasmara](https://github.com/Daivasmara)
