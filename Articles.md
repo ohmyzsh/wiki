@@ -1,7 +1,7 @@
 Here are a collection of blog posts and articles that mention Oh My Zsh.
 
 If you know of any that are missing, feel free to contribute! :-)
-
+- [[Setup your Mac with Zsh for Web development|https://medium.com/@vdeantoni/setting-up-your-mac-for-web-development-in-2020-659f5588b883]]
 - [[Oh-my-zsh install 2018 Tutorial|https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb]]
 - [[Badassify your terminal and shell|http://jilles.me/badassify-your-terminal-and-shell/]]
 - [[Unix ZSHell Reloaded|http://cwoebker.com/posts/unix-zshell-reloaded/]]
