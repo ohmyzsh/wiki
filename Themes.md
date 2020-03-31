@@ -335,7 +335,7 @@ Instructions to further customize the theme are available as comments in the the
 [![xiong-chiamiov-plus](https://cloud.githubusercontent.com/assets/1441704/6315427/d02464d2-ba01-11e4-8546-9c8dc984be79.png)](https://cloud.githubusercontent.com/assets/1441704/6315427/d02464d2-ba01-11e4-8546-9c8dc984be79.png)
 
 ### ys
-Clean, simple, compatible and meaningful.Tested on Linux, Unix and Windows under ANSI colors.
+Clean, simple, compatible and meaningful. Tested on Linux, Unix and Windows under ANSI colors.
 It is recommended to use with a dark background.
 
 ([more info](http://blog.ysmood.org/my-ys-terminal-theme/))
