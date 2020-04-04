@@ -114,7 +114,11 @@ before running "make install".
 sudo yum update && sudo yum -y install zsh
 ```
 ### Cygwin
-Install the zsh package using the installer. Unfortunately Cygwin doesn't have a standard command line interface.
+Install the zsh package using the installer. Unfortunately Cygwin doesn't have a standard command line interface. You could, however, setup [apt-cyg](https://github.com/kou1okada/apt-cyg) and install zsh as follows:
+
+```sh
+apt-cyg install zsh
+```
 
 The easiest way to change the default shell is to set your SHELL user environment variable. Search for "Edit Environment variables for your account" to bring up the environment variables window, create a new variable named "SHELL" and give it the value "/usr/bin/zsh/".
 
