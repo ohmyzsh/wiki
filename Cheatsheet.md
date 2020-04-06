@@ -89,12 +89,13 @@ alias -g gp='| grep -i' #creates a global alias for grep
 |:-----------------------|:----------------------------------------------------------------------------------|
 | _g_                    | git                                                                               |
 | _ga_                   | git add                                                                           |
-| _gau_                  | git add -u                                                                        |
+| _gau_                  | git add --update (Also: "git add -u")                                             |
 | _gaa_                  | git add --all                                                                     |
 | _gapa_                 | git add --patch                                                                   |
 | _gb_                   | git branch                                                                        |
 | _gba_                  | git branch -a                                                                     |
 | _gbd_                  | git branch -d                                                                     |
+| _gbda_                 | git branch --no-color --merged \| command grep -vE "^(\\+\|\\\*\|\\s\*(master\|develop\|dev)\\s*$)" \| command xargs -n 1 git branch -d |
 | _gbl_                  | git blame -b -w                                                                   |
 | _gbnm_                 | git branch --no-merged                                                            |
 | _gbr_                  | git branch --remote                                                               |
@@ -113,9 +114,9 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _gcsm_                 | git commit -s -m                                                                  |
 | _gcb_                  | git checkout -b                                                                   |
 | _gcf_                  | git config --list                                                                 |
-| _gcl_                  | git clone --recursive                                                             |
+| _gcl_                  | git clone --recurse-submodules                                                    |
 | _gclean_               | git clean -id                                                                     |
-| _gpristine_            | git reset --hard && git clean -dfx                                                |
+| _gpristine_            | git reset --hard && git clean -dffx                                               |
 | _gcm_                  | git checkout master                                                               |
 | _gcd_                  | git checkout develop                                                              |
 | _gcmsg_                | git commit -m                                                                     |
@@ -140,47 +141,64 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _ggpull_               | git pull origin $(current_branch)                                                 |
 | _ggl_                  | git pull origin $(current_branch)                                                 |
 | _ggpur_                | git pull --rebase origin $(current_branch)                                        |
+| _ggu_                  | git pull --rebase origin $(current_branch)                                        |
 | _glum_                 | git pull upstream master                                                          |
 | _ggpush_               | git push origin $(current_branch)                                                 |
 | _ggp_                  | git push origin $(current_branch)                                                 |
 | _ggfl_                 | git push --force-with-lease origin <your_argument>/$(current_branch)              |
 | _ggsup_                | git branch --set-upstream-to=origin/$(current_branch)                             |
 | _gpsup_                | git push --set-upstream origin $(current_branch)                                  |
+| _ghh_                  | git help                                                                          |
 | _gignore_              | git update-index --assume-unchanged                                               |
-| _gignored_             | git ls-files -v &#124; grep "^\[\[:lower:\]\]"                                    |
+| _gignored_             | git ls-files -v | grep "^[[:lower:]]"                                             |
 | _git-svn-dcommit-push_ | git svn dcommit && git push github master:svntrunk                                |
-| _gk_                   | gitk --all --branches                                                             |
+| _gk_                   | \gitk --all --branches                                                            |
+| _gke_                  | \gitk --all $(git log -g --pretty=%h)                                             |
 | _gl_                   | git pull                                                                          |
-| _glg_                  | git log --stat --max-count = 10                                                   |
-| _glgg_                 | git log --graph --max-count = 10                                                  |
+| _glg_                  | git log --stat                                                                    |
+| _glgg_                 | git log --graph                                                                   |
 | _glgga_                | git log --graph --decorate --all                                                  |
-| _glo_                  | git log --oneline --decorate --color                                              |
-| _glog_                 | git log --oneline --decorate --color --graph                                      |
-| _glp_                  | _git_log_prettily (git log --pretty=$1)                                           |
+| _glgm_                 | git log --graph --max-count=10                                                    |
+| _glgp_                 | git log --stat -p                                                                 |
+| _glo_                  | git log --oneline --decorate                                                      |
+| _glog_                 | git log --oneline --decorate --graph                                              |
+| _glol_                 | git log --graph --pretty=\\'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\\' |
+| _glola_                | git log --graph --pretty=\\'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\\' --all |
+| _glp_                  | _git_log_prettily (Also: "git log --pretty=$1")                                   |
 | _gm_                   | git merge                                                                         |
 | _gma_                  | git merge --abort                                                                 |
+| _gmom_                 | git merge origin/master                                                           |
 | _gmt_                  | git mergetool --no-prompt                                                         |
+| _gmtvim_               | git mergetool --no-prompt --tool=vimdiff                                          |
+| _gmum_                 | git merge upstream/master                                                         |
 | _gp_                   | git push                                                                          |
+| _gpd_                  | git push --dry-run                                                                |
 | _gpoat_                | git push origin --all && git push origin --tags                                   |
+| _gpu_                  | git push upstream                                                                 |
+| _gpv_                  | git push -v                                                                       |
 | _gr_                   | git remote                                                                        |
+| _gra_                  | git remote add                                                                    |
 | _grb_                  | git rebase                                                                        |
 | _grba_                 | git rebase --abort                                                                |
 | _grbc_                 | git rebase --continue                                                             |
 | _grbd_                 | git rebase develop                                                                |
+| _grbi_                 | git rebase -i                                                                     |
 | _grbm_                 | git rebase master                                                                 |
 | _grbs_                 | git rebase --skip                                                                 |
-| _grbi_                 | git rebase -i                                                                     |
-| _grh_                  | git reset HEAD                                                                    |
-| _grhh_                 | git reset HEAD --hard                                                             |
+| _grh_                  | git reset (Also: "git reset HEAD")                                                |
+| _grhh_                 | git reset --hard (Also: "git reset HEAD --hard")                                  |
 | _grmv_                 | git remote rename                                                                 |
 | _grrm_                 | git remote remove                                                                 |
 | _grs_                  | git restore                                                                       |
 | _grset_                | git remote set-url                                                                |
 | _grt_                  | cd $(git rev-parse --show-toplevel &#124;&#124; echo ".")                         |
+| _gru_                  | git reset --                                                                      |
 | _grup_                 | git remote update                                                                 |
 | _grv_                  | git remote -v                                                                     |
+| _gsb_                  | git status -sb                                                                    |
 | _gsd_                  | git svn dcommit                                                                   |
-| _gsps_                 | git show --pretty = short --show-signature                                        |
+| _gsi_                  | git submodule init                                                                |
+| _gsps_                 | git show --pretty=short --show-signature                                          |
 | _gsr_                  | git svn rebase                                                                    |
 | _gss_                  | git status -s                                                                     |
 | _gst_                  | git status                                                                        |
@@ -189,15 +207,17 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _gstd_                 | git stash drop                                                                    |
 | _gstl_                 | git stash list                                                                    |
 | _gstp_                 | git stash pop                                                                     |
+| _gstc_                 | git stash clear                                                                   |
 | _gsts_                 | git stash show --text                                                             |
 | _gsu_                  | git submodule update                                                              |
 | _gts_                  | git tag -s                                                                        |
 | _gunignore_            | git update-index --no-assume-unchanged                                            |
 | _gunwip_               | git log -n 1 &#124; grep -q -c "\-\-wip\-\-" && git reset HEAD~1                  |
 | _gup_                  | git pull --rebase                                                                 |
+| _gupv_                 | git pull --rebase -v                                                              |
 | _gvt_                  | git verify-tag                                                                    |
-| _gwch_                 | git whatchanged -p --abbrev-commit --pretty = medium                              |
-| _gwip_                 | git add -A; git ls-files --deleted -z &#124; xargs -r0 git rm; git commit -m "--wip--" |
+| _gwch_                 | git whatchanged -p --abbrev-commit --pretty=medium                                |
+| _gwip_                 | git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify --no-gpg-sign -m "--wip-- \[skip ci\]" |
 
 You also find these commands in Dash as a Cheat-sheet.
 
