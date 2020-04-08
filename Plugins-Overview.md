@@ -75,7 +75,7 @@
 | [ant](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ant)                     | Java build tool http://ant.apache.org/                                                      |
 | [bower](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bower)                 | Front-end package manager https://github.com/bower/bower                                    |
 | [cabal](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cabal)                 | Haskell package manager http://www.haskell.org/cabal/                                       |
-| [cake](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cake)                   | CoffeeScript build tool                                                                     |
+| [cake](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cake)                   | Cake build tool                                                                     |
 | [coffee](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/coffee)               | CoffeeScript completion                                                                     |
 | [cpanm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cpanm)                 | cpanminus get, unpack, build, install Perl modules https://github.com/miyagawa/cpanminus/   |
 | [docker](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker)               | application shipment tool https://github.com/dotcloud/docker                                 |
