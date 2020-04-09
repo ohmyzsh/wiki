@@ -61,6 +61,7 @@ _NOTE: elements in zsh arrays are separated by spaces. DO NOT use commas._
 - [dash](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dash)
 - [debian](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/debian)
 - [dircycle](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dircycle)
+- [direnv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/direnv)
 - [dirhistory](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dirhistory)
 - [dirpersist](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dirpersist)
 - [django](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/django)
