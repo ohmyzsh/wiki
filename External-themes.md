@@ -19,7 +19,7 @@ Influenced heavily by agnoster's theme and jeremyFreeAgent's theme
 Author: [@maverick9000](https://github.com/maverick9000)
 #### Daivasmara
 
-![Daivasmara Theme](https://raw.githubusercontent.com/Daivasmara/daivasmara.zsh-theme/master/media/Screenshot%20from%202020-03-28%2017-12-41.png)
+![Daivasmara Theme](https://raw.githubusercontent.com/Daivasmara/daivasmara.zsh-theme/master/media/Screenshot%20from%202020-04-15%2010-41-27.png)
 
 Chill zsh-theme, personal take on smt
 
