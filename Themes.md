@@ -367,7 +367,7 @@ The theme descriptions in this page should contain:
 
 We use manually-constructed screenshots because some of the themes require additional terminal configuration to look their best, and so the code in example shell sessions can showcase the theme's features. There is also a separate collection of automatically-generated screenshots linked [at the bottom of this page](#screenshots-of-each-theme).
 
-###  Uploading screenshots to GitHub
+## Uploading screenshots to GitHub
 
 We host all the screenshot images on GitHub itself, to avoid external dependencies on other hosting services or URLs that might break. We use issue attachments which will get them in to githubusercontent.com. (It's also possible to store image files in a GitHub wiki itself, but this requires you to have Contributor permissions for the repo whose Wiki you're editing. The issue-attachment method can be done by anybody.)
 
@@ -383,6 +383,6 @@ If you have several uploaded screenshot links you need to convert to that self-l
 
     sed 's/^!\[[a-zA-Z0-9 -]*\](\([^)]*\)) *$/[&](\1)/'
 
-##  Screenshots of Each Theme
+## Screenshots of Each Theme
 
 [Screenshots of each theme](https://www.dropbox.com/sh/u532agyv1hyash1/LS9yNESRlQ?lst) (as of 2013-04-10), in OS X Terminal.app using Consolas 13pt and Pro color scheme, inside a folder containing both a git and a mercurial repo. Each screenshot displays the output of the `pwd` command. It has shortcomings (plugins for some themes might be missing), but it offers a convenient and uniform overview of each theme. Plugins used were battery, rvm, hg prompt, among others.
