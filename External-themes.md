@@ -1085,3 +1085,9 @@ Simple theme was based on Bira, and influenced by the default Bash PS1 from Solu
 Source: [solus.zsh-theme](https://gist.github.com/cloudnull/4cc7890acaae6cb809e811e09e9eaade#file-solus-zsh-theme)
 
 Author:  [@cloudnull](https://github.com/cloudnull)
+
+#### gitstatus
+
+[Official repository](https://github.com/kimyvgy/gitstatus-zsh-theme)
+
+[![gitstatus](https://raw.githubusercontent.com/kimyvgy/gitstatus-zsh-theme/master/gitstatus.png)](https://cloud.githubusercontent.com/assets/2618447/6316736/51c6a6c8-ba00-11e4-8b5f-b45795d98907.png)

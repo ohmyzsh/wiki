@@ -148,11 +148,6 @@ it’s funky…
 ### gianu
 [![gianu](https://cloud.githubusercontent.com/assets/2618447/6316736/51c6a6c8-ba00-11e4-8b5f-b45795d98907.png)](https://cloud.githubusercontent.com/assets/2618447/6316736/51c6a6c8-ba00-11e4-8b5f-b45795d98907.png)
 
-### gitstatus
-[Official repository](https://github.com/kimyvgy/gitstatus-zsh-theme)
-
-[![gitstatus](https://raw.githubusercontent.com/kimyvgy/gitstatus-zsh-theme/master/gitstatus.png)](https://cloud.githubusercontent.com/assets/2618447/6316736/51c6a6c8-ba00-11e4-8b5f-b45795d98907.png)
-
 ### gnzh
 [![gnzh](https://cloud.githubusercontent.com/assets/2618447/6316735/51c62b1c-ba00-11e4-8107-fb532db89c7d.png)](https://cloud.githubusercontent.com/assets/2618447/6316735/51c62b1c-ba00-11e4-8107-fb532db89c7d.png)
 
