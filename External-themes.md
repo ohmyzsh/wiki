@@ -8,6 +8,20 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
+#### fishy 2.0
+
+![fishy2 theme](https://raw.githubusercontent.com/blessxjalil/dotfiles/master/custom-oh-my-zsh/themes/img/Screenshot-200421.png)
+
+get the theme with `curl`: 
+```bash
+curl -Ls https://git.io/JfkGJ -o fishy2.zsh-theme
+```
+or see [repository](https://github.com/blessxjalil/dotfiles/blob/master/custom-oh-my-zsh/themes/fishy2.zsh-theme) for source.
+
+
+author: [@blessxjalil](https://github.com/blessxjalil)
+
+---
 #### zsh2000
 
 ![zsh2000 theme](https://raw.githubusercontent.com/maverick9000/zsh2000/master/demo.png)
