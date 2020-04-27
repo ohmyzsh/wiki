@@ -1117,3 +1117,13 @@ Author:  [@cloudnull](https://github.com/cloudnull)
 [Official repository](https://github.com/kimyvgy/gitstatus-zsh-theme)
 
 [![gitstatus](https://raw.githubusercontent.com/kimyvgy/gitstatus-zsh-theme/master/gitstatus.png)](https://cloud.githubusercontent.com/assets/2618447/6316736/51c6a6c8-ba00-11e4-8b5f-b45795d98907.png)
+
+#### Antsy
+
+![Antsy](https://raw.githubusercontent.com/jeffmhubbard/antsy-zsh-theme/assets/demo.png)
+
+Multiline oh-my-zsh theme with git info, virtualenv, vi-mode indicator, current history, jobs count, and exit status.
+
+Source: [antsy.zsh-theme](https://github.com/jeffmhubbard/antsy-zsh-theme)
+
+Author:  [@jeffmhubbard](https://github.com/jeffmhubbard)
