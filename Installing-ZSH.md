@@ -71,7 +71,7 @@ Linux Mint, elementary OS, Zorin OS, Raspbian, MX Linux, Deepin.
 zypper install zsh
 ```
 
-### Arch Linux
+### Arch Linux or Manjaro
 
 ```sh
 pacman -S zsh
