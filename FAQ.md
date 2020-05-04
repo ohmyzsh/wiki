@@ -155,6 +155,8 @@ Most completion issues are due to an old completion cache file (also called zcom
 
 #### I have enabled a completion plugin but the completion doesn't work
 
+> **NOTE: a recent update checks whether the plugin list has changed (more accurately, `$fpath`) and resets the zcompdump file, so the solution below isn't needed anymore. If you don't have that yet, update Oh My Zsh with `upgrade_oh_my_zsh`.**
+
 As of right now, after enabling or disabling a plugin that provides completion, you have to reset the cached completion file. Follow [the instructions above to delete the completion file](#how-do-i-reset-the-completion-cache).
 
 If this doesn't solve the problem, you might have found a bug in the plugin. Search for issues with the plugin in question, and if there isn't one already (open or closed), open a new bug report.
