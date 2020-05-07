@@ -10,6 +10,7 @@ source ~/.oh-my-zsh/templates/zshrc.zsh-template
 
 | Command               | Description                                                                                                   |
 |:----------------------|:--------------------------------------------------------------------------------------------------------------|
+| _alias_               | list all aliases                                                                          |
 | _tabs_                | Create a new tab in the current directory (macOS - requires enabling access for assistive devices under System Preferences). |
 | _take_                | Create a new directory and change to it, will create intermediate directories as required.                    |
 | _x_ / _extract_       | Extract an archive (supported types: tar.{bz2,gz,xz,lzma}, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z).         |
@@ -20,9 +21,32 @@ source ~/.oh-my-zsh/templates/zshrc.zsh-template
 
 ---
 
+### Alias
+
+| Flag  | Description                                     |
+|:------|:------------------------------------------------|
+| L     | print each alias in the form of calls to alias  |
+| g     | list or define global aliases                   |
+| m     | print aliases matching specified pattern        |
+| r     | list or define regular aliases                  |
+| s     | list or define suffix aliases                   |
+
+## Tab-completion
+
+| For options and helpful text of what they do |
+|:--------------------------------------------:|
+| _ls -(tab)_                                  |
+| _cap (tab)_                                  |
+| _rake (tab)_                                 |
+| _ssh (tab)_                                  |
+| _sudo umount (tab)_                          |
+| _kill (tab)_                                 |
+| _unrar (tab)_                                |
+
+## Directory
+
 | Alias   | Command                               |
 |:--------|:--------------------------------------|
-| _alias_ | list all aliases                      |
 | ..      | cd ..                                 |
 | ...     | cd ../..                              |
 | ....    | cd ../../..                           |
@@ -46,44 +70,7 @@ source ~/.oh-my-zsh/templates/zshrc.zsh-template
 
 See `~/.oh-my-zsh/lib/directories.zsh`
 
-### Alias
-example: 
-
-```bash
-alias -s rb=vim #opens ruby files in vim
-# $ foo.rb 
-# vim => foo.rb
-alias -g gp='| grep -i' #creates a global alias for grep
-# $ ps ax gp ruby
-# (all ruby process will be displayed)
-```
-
-| Flag  | Description                                     |
-|:------|:------------------------------------------------|
-| L     | print each alias in the form of calls to alias  |
-| g     | list or define global aliases                   |
-| m     | print aliases matching specified pattern        |
-| r     | list or define regular aliases                  |
-| s     | list or define suffix aliases                   |
-
-## Tab-completion
-
-| For options and helpful text of what they do |
-|:--------------------------------------------:|
-| _ls -(tab)_                                  |
-| _cap (tab)_                                  |
-| _rake (tab)_                                 |
-| _ssh (tab)_                                  |
-| _sudo umount (tab)_                          |
-| _kill (tab)_                                 |
-| _unrar (tab)_                                |
-
 ## Git
-
-| Dynamic access to current branch name with the current_branch function |
-|:----------------------------------------------------------------------:|
-| git pull origin $(current_branch)                                      |
-| grb publish $(current_branch) origin                                   |
 
 | Alias                  | Command                                                                           |
 |:-----------------------|:----------------------------------------------------------------------------------|
@@ -219,6 +206,11 @@ alias -g gp='| grep -i' #creates a global alias for grep
 | _gwch_                 | git whatchanged -p --abbrev-commit --pretty=medium                                |
 | _gwip_                 | git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify --no-gpg-sign -m "--wip-- \[skip ci\]" |
 
+| Dynamic access to current branch name with the current_branch function |
+|:----------------------------------------------------------------------:|
+| git pull origin $(current_branch)                                      |
+| grb publish $(current_branch) origin                                   |
+
 You also find these commands in Dash as a Cheat-sheet.
 
 ## Editors
@@ -292,10 +284,3 @@ You also find these commands in Dash as a Cheat-sheet.
 | _RED_    | RAILS_ENV=development         |
 | _REP_    | RAILS_ENV=production          |
 | _RET_    | RAILS_ENV=test                |
-
-
-## Upgrade
-To upgrade .oh-my-zsh, run:
-``` bash
-upgrade_oh_my_zsh
-```
