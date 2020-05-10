@@ -177,7 +177,6 @@ _NOTE: elements in zsh arrays are separated by spaces. DO NOT use commas._
 - [npm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npm)
 - [npx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npx)
 - [nvm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm)
-- [nyan](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nyan)
 - [oc](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/oc)
 - [osx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx)
 - [otp](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/otp)
@@ -293,3 +292,4 @@ _NOTE: elements in zsh arrays are separated by spaces. DO NOT use commas._
 
 - [fedora](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fedora)
 - [git-remote-branch](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-remote-branch)
+- [nyan](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nyan)
