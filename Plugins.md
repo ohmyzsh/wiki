@@ -291,5 +291,5 @@ _NOTE: elements in zsh arrays are separated by spaces. DO NOT use commas._
 
 - [fedora](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fedora)
 - [git-remote-branch](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-remote-branch)
-- [nyan](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nyan)
 - [go](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/go) (use `golang` instead)
+- [nyan](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nyan)
