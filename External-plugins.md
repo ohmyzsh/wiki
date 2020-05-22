@@ -60,3 +60,6 @@ This plugin show platforms version
 
 ##### Demo
 ![Demo](https://raw.githubusercontent.com/guiferpa/aterminal/master/images/demo.gif)
+
+#### [xxh](https://github.com/xxh/xxh) - bring Oh My Zsh wherever you go through the SSH 
+Some users may want to use Oh My Zsh during the SSH connections. There is [xxh project](https://github.com/xxh/xxh) that allows bring Zsh with Oh My Zsh framework to the remote host without any installations, root access or affection on the host.
