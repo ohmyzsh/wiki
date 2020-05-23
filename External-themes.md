@@ -8,6 +8,38 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
+#### typewritten
+
+A minimal, lightweight, informative zsh prompt theme
+
+![typewritten](https://github.com/reobin/typewritten/blob/master/media/typewritten-demo.gif?raw=true)
+
+**Features**
+- Current directory
+- Current git branch
+- Return code
+- Various customization options
+  - Prompt layout
+  - Prompt symbol
+  - Constant display of git home directory
+  - Cursor
+  - Prefix on right prompt
+- git status indicators
+  - ``?``     &nbsp; — untracked change(s);
+  - ``+``     &nbsp; — staged change(s);
+  - ``!``     &nbsp; — file(s) modified in the repo;
+  - ``»``     &nbsp; — renamed file(s);
+  - ``—``     &nbsp; — deleted file(s);
+  - ``$``     &nbsp; — stashed change(s);
+  - ``#``     &nbsp; — unmerged change(s);
+  - ``•|``    — behind of remote branch;
+  - ``|•``    — ahead of remote branch;
+
+Source: [typewritten.zsh-theme](https://github.com/reobin/typewritten)
+
+Author:  [@reobin](https://github.com/reobin)
+
+---
 #### passion
 
 ![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
@@ -53,29 +85,6 @@ Source: [daivasmara.zsh-theme](https://github.com/Daivasmara/daivasmara.zsh-them
 
 Author:  [@Daivasmara](https://github.com/Daivasmara)
 
-#### typewritten
-
-![typewritten](https://raw.githubusercontent.com/reobin/typewritten/master/media/demo.gif)
-
-Minimal. Informative.
-
-**Features**
-- Current directory
-- Current git branch
-- Git status indicators:
-  - ``?``     &nbsp; — untracked change(s);
-  - ``+``     &nbsp; — staged change(s);
-  - ``!``     &nbsp; — file(s) modified in the repo;
-  - ``»``     &nbsp; — renamed file(s);
-  - ``—``     &nbsp; — deleted file(s);
-  - ``$``     &nbsp; — stashed change(s);
-  - ``#``     &nbsp; — unmerged change(s);
-  - ``•|``    — behind of remote branch;
-  - ``|•``    — ahead of remote branch;
-
-Source: [typewritten.zsh-theme](https://github.com/reobin/typewritten)
-
-Author:  [@reobin](https://github.com/reobin)
 
 ---
 
