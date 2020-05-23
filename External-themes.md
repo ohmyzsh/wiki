@@ -52,15 +52,14 @@ source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
 author: [@chesteryue](https://github.com/ChesterYue)
 
 ---
-#### fishy 2.0
-
+#### Finox
 ![fishy2 theme](https://raw.githubusercontent.com/blessxjalil/dotfiles/master/custom-oh-my-zsh/themes/img/Screenshot-200421.png)
 
 get the theme with `curl`: 
 ```bash
-curl -Ls https://git.io/JfkGJ -o fishy2.zsh-theme
+curl -Ls https://git.io/JfagO -o finox.zsh-theme
 ```
-or see [repository](https://github.com/blessxjalil/dotfiles/blob/master/custom-oh-my-zsh/themes/fishy2.zsh-theme) for source.
+or see [repository](https://github.com/blessxjalil/dotfiles/blob/master/custom-oh-my-zsh/themes) for source.
 
 
 author: [@blessxjalil](https://github.com/blessxjalil)
