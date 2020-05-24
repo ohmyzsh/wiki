@@ -230,6 +230,7 @@ _NOTE: elements in zsh arrays are separated by spaces. DO NOT use commas._
 - [sdk](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sdk)
 - [sfdx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sfdx)
 - [sfffe](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sfffe)
+- [shell-proxy](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/shell-proxy)
 - [shrink-path](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/shrink-path)
 - [singlechar](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/singlechar)
 - [spring](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/spring)
