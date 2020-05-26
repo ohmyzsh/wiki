@@ -1,5 +1,5 @@
-Oh My Zsh plugins allow you to add varied functionality to your shell just by enabling them. They are
-each documented in the README.md file in their respective `plugins/` folder.
+Oh My Zsh plugins allow you to add functionality of many sorts to your shell just by enabling them. They are
+each documented in the README file in their respective `plugins/` folder.
 
 Enable a plugin by adding its name to the `plugins` array in your `.zshrc` file (found in the `$HOME`
 directory). For example, this enables the `rails`, `git` and `ruby` plugins, **in that order**:
@@ -8,7 +8,7 @@ directory). For example, this enables the `rails`, `git` and `ruby` plugins, **i
 plugins=(rails git ruby)
 ```
 
-_NOTE: elements in zsh arrays are separated by spaces. DO NOT use commas._
+**_NOTE: elements in zsh arrays are separated by spaces. DO NOT use commas._**
 
 ## Plugins
 
@@ -294,7 +294,7 @@ _NOTE: elements in zsh arrays are separated by spaces. DO NOT use commas._
 
 ### Deprecated
 
-- [fedora](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fedora)
-- [git-remote-branch](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-remote-branch)
-- [go](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/go) (use `golang` instead)
-- [nyan](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nyan)
+- [fedora](https://github.com/ohmyzsh/ohmyzsh/commits/master/plugins/fedora) (use `dnf` instead)
+- [git-remote-branch](https://github.com/ohmyzsh/ohmyzsh/commits/master/plugins/git-remote-branch) (not actively maintained)
+- [go](https://github.com/ohmyzsh/ohmyzsh/commits/master/plugins/go) (use `golang` instead)
+- [nyan](https://github.com/ohmyzsh/ohmyzsh/commits/master/plugins/nyan) (service not available)
