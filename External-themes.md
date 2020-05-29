@@ -900,7 +900,7 @@ Features:
 - Timestamp
 - New line for command
 
-See [repository](https://github.com/channprj/dotfiles-macOS/blob/master/custom-zsh-theme/dpoggi-timestamp.zsh-theme) for source.
+See [repository](https://github.com/channprj/dotfiles-macOS) for [source](https://github.com/channprj/dotfiles-macOS/blob/master/sh/zsh/custom-zsh-theme/dpoggi-timestamp.zsh-theme).
 
 Author: [@channprj](https://github.com/channprj)
 
