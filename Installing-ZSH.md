@@ -37,9 +37,9 @@ you _might_ be OK. Preferably newer than or equal to `5.0`.**
 ```sh
 brew install zsh
 ```
-To set zsh as your default shell, execute the following for **macOS High Sierra**
+To set zsh as your default shell, execute the following assuming a default install of Homebrew
 ```
-chsh -s /bin/zsh
+chsh -s /usr/local/bin/zsh
 ```
 Assuming you have [Homebrew](http://brew.sh/) installed. If not, most versions of
 **macOS** ship zsh by default, but it's normally an older version.  Alternatively, you may
