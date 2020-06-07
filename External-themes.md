@@ -1135,3 +1135,15 @@ Multiline oh-my-zsh theme with git info, virtualenv, vi-mode indicator, current 
 Source: [antsy.zsh-theme](https://github.com/jeffmhubbard/antsy-zsh-theme)
 
 Author:  [@jeffmhubbard](https://github.com/jeffmhubbard)
+
+
+#### None Theme
+
+![none-theme](https://user-images.githubusercontent.com/43632885/83956911-a1c55600-a817-11ea-97d1-65c32238fb23.png)
+
+Absolutely no prompt. Useful if you want a super minimal prompt (but still want oh-my-zsh for other plugins), or if you're replacing your prompt (i.e. with [Starship](https://starship.rs))
+
+Source: File `none.zsh-theme` containing only the line `PROMPT=""`.
+
+Author: [@catleeball](https://github.com/catleeball)
+
