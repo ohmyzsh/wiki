@@ -43,7 +43,6 @@ plugins=(rails git ruby)
 - [celery](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/celery)
 - [chruby](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/chruby)
 - [chucknorris](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/chucknorris)
-- [cloudapp](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cloudapp)
 - [cloudfoundry](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cloudfoundry)
 - [codeclimate](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/codeclimate)
 - [coffee](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/coffee)
@@ -294,6 +293,7 @@ plugins=(rails git ruby)
 
 ### Deprecated
 
+- [cloudapp](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cloudapp) (deprecated API)
 - [fedora](https://github.com/ohmyzsh/ohmyzsh/commits/master/plugins/fedora) (use `dnf` instead)
 - [git-remote-branch](https://github.com/ohmyzsh/ohmyzsh/commits/master/plugins/git-remote-branch) (not actively maintained)
 - [go](https://github.com/ohmyzsh/ohmyzsh/commits/master/plugins/go) (use `golang` instead)
