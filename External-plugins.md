@@ -8,6 +8,11 @@ It should be clear from [this](https://github.com/ohmyzsh/ohmyzsh/wiki/Customiza
 
 ### The plugins
 
+#### Custom git plugin
+Fixes some inconsistencies in the default plugin that make the aliases more intuitive, while adding some other useful functions.
+
+You can get it from [here](https://github.com/davidde/git).
+
 #### Git auto status
 
 If you found yourself constantly typing `git status` after bunch of commands like
