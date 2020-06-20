@@ -8,6 +8,20 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
+
+#### passion
+
+![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
+
+* time prompt will update once you finish inputting.
+* time cost will show after command running.
+
+source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
+
+author: [@chesteryue](https://github.com/ChesterYue)
+
+---
+
 #### typewritten
 
 A minimal, lightweight, informative zsh prompt theme
@@ -40,18 +54,7 @@ Source: [typewritten.zsh-theme](https://github.com/reobin/typewritten)
 Author:  [@reobin](https://github.com/reobin)
 
 ---
-#### passion
 
-![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
-
-* time prompt will update once you finish inputting.
-* time cost will show after command running.
-
-source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
-
-author: [@chesteryue](https://github.com/ChesterYue)
-
----
 #### Finox
 ![fishy2 theme](https://raw.githubusercontent.com/blessxjalil/dotfiles/master/custom-oh-my-zsh/themes/img/Screenshot-200421.png)
 
