@@ -9,6 +9,30 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
+#### [typewritten](https://github.com/reobin/typewritten)
+
+A minimal, lightweight, informative zsh prompt theme
+
+![typewritten](https://github.com/reobin/typewritten/blob/master/media/typewritten.gif?raw=true)
+
+**Features**
+- Current directory
+- Current git branch
+- [git status indicators](https://github.com/reobin/typewritten#git-status-indicators)
+- [Return code](https://github.com/reobin/typewritten#return-code)
+- [Various customization options](https://github.com/reobin/typewritten#customization-options)
+  - [Prompt layout](https://github.com/reobin/typewritten#typewritten_prompt_layout)
+  - [Prompt symbol](https://github.com/reobin/typewritten#typewritten_symbol)
+  - [Constant display of git home directory](https://github.com/reobin/typewritten#typewritten_git_relative_path)
+  - [Cursor](https://github.com/reobin/typewritten#typewritten_cursor)
+  - [Prefix on right prompt](https://github.com/reobin/typewritten#typewritten_right_prompt_prefix)
+
+Source: [typewritten.zsh](https://github.com/reobin/typewritten)
+
+Author:  [@reobin](https://github.com/reobin)
+
+---
+
 #### passion
 
 ![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
@@ -19,39 +43,6 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
 
 author: [@chesteryue](https://github.com/ChesterYue)
-
----
-
-#### typewritten
-
-A minimal, lightweight, informative zsh prompt theme
-
-![typewritten](https://github.com/reobin/typewritten/blob/master/media/typewritten-demo.gif?raw=true)
-
-**Features**
-- Current directory
-- Current git branch
-- Return code
-- Various customization options
-  - Prompt layout
-  - Prompt symbol
-  - Constant display of git home directory
-  - Cursor
-  - Prefix on right prompt
-- git status indicators
-  - ``?``     &nbsp; — untracked change(s);
-  - ``+``     &nbsp; — staged change(s);
-  - ``!``     &nbsp; — file(s) modified in the repo;
-  - ``»``     &nbsp; — renamed file(s);
-  - ``—``     &nbsp; — deleted file(s);
-  - ``$``     &nbsp; — stashed change(s);
-  - ``#``     &nbsp; — unmerged change(s);
-  - ``•|``    — behind of remote branch;
-  - ``|•``    — ahead of remote branch;
-
-Source: [typewritten.zsh-theme](https://github.com/reobin/typewritten)
-
-Author:  [@reobin](https://github.com/reobin)
 
 ---
 
