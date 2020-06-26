@@ -1155,6 +1155,6 @@ Author: [@catleeball](https://github.com/catleeball)
   * time
   * new line after every command
 
-![Fishbone++](https://github.com/EYH0602/Fishbonepp/blob/master/pics/defaultlook.png)
-Source: [Fishbone++](https://github.com/EYH0602/Fishbonepp)
-Author: [@EYH0602](https://github.com/EYH0602)
+![Fishbone++](https://github.com/EYH0602/Fishbonepp/blob/master/pics/defaultlook.png)  
+Source: [Fishbone++](https://github.com/EYH0602/Fishbonepp)  
+Author: [@EYH0602](https://github.com/EYH0602)  
