@@ -13,7 +13,10 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 A minimal, lightweight, informative zsh prompt theme
 
-![typewritten singleline](https://raw.githubusercontent.com/reobin/typewritten/master/media/layouts/singleline.png)
+<img src="https://raw.githubusercontent.com/reobin/typewritten/master/media/layouts/singleline.png" width="600" />
+<img src="https://raw.githubusercontent.com/reobin/typewritten/master/media/layouts/half_pure.png" width="600" />
+<img src="https://raw.githubusercontent.com/reobin/typewritten/master/media/layouts/pure.png" width="600" />
+<img src="https://github.com/reobin/typewritten/raw/master/media/layouts/multiline.png" width="600" />
 
 **Features**
 - Current directory
