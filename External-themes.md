@@ -9,6 +9,30 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
+#### [typewritten](https://github.com/reobin/typewritten)
+
+A minimal, lightweight, informative zsh prompt theme
+
+![typewritten singleline](https://raw.githubusercontent.com/reobin/typewritten/master/media/layouts/singleline.png)
+
+**Features**
+- Current directory
+- Current git branch
+- [git status indicators](https://github.com/reobin/typewritten#git-status-indicators)
+- [Return code](https://github.com/reobin/typewritten#return-code)
+- [Various customization options](https://github.com/reobin/typewritten#customization-options)
+  - [Prompt layout](https://github.com/reobin/typewritten#typewritten_prompt_layout)
+  - [Prompt symbol](https://github.com/reobin/typewritten#typewritten_symbol)
+  - [Constant display of git home directory](https://github.com/reobin/typewritten#typewritten_git_relative_path)
+  - [Cursor](https://github.com/reobin/typewritten#typewritten_cursor)
+  - [Prefix on right prompt](https://github.com/reobin/typewritten#typewritten_right_prompt_prefix)
+
+Source: [typewritten.zsh](https://github.com/reobin/typewritten)
+
+Author:  [@reobin](https://github.com/reobin)
+
+---
+
 #### passion
 
 ![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
@@ -72,30 +96,6 @@ Features:
 Source: [Repository](https://github.com/nikhilkmr300/omz-themes) (also contains other themes you might be interested in)
 
 Author: [@nikhilkmr300](https://github.com/nikhilkmr300)
-
----
-
-#### [typewritten](https://github.com/reobin/typewritten)
-
-A minimal, lightweight, informative zsh prompt theme
-
-![typewritten](https://github.com/reobin/typewritten/blob/master/media/typewritten.gif?raw=true)
-
-**Features**
-- Current directory
-- Current git branch
-- [git status indicators](https://github.com/reobin/typewritten#git-status-indicators)
-- [Return code](https://github.com/reobin/typewritten#return-code)
-- [Various customization options](https://github.com/reobin/typewritten#customization-options)
-  - [Prompt layout](https://github.com/reobin/typewritten#typewritten_prompt_layout)
-  - [Prompt symbol](https://github.com/reobin/typewritten#typewritten_symbol)
-  - [Constant display of git home directory](https://github.com/reobin/typewritten#typewritten_git_relative_path)
-  - [Cursor](https://github.com/reobin/typewritten#typewritten_cursor)
-  - [Prefix on right prompt](https://github.com/reobin/typewritten#typewritten_right_prompt_prefix)
-
-Source: [typewritten.zsh](https://github.com/reobin/typewritten)
-
-Author:  [@reobin](https://github.com/reobin)
 
 ---
 
