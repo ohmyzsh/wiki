@@ -68,3 +68,6 @@ This plugin show platforms version
 
 #### [xxh](https://github.com/xxh/xxh) - bring Oh My Zsh wherever you go through the SSH 
 Some users may want to use Oh My Zsh during the SSH connections. There is [xxh project](https://github.com/xxh/xxh) that allows bring Zsh with Oh My Zsh framework to the remote host without any installations, root access or affection on the host.
+
+### [zshnotes](https://github.com/jameshgrn/zshnotes)
+A small, tidy, lightweight notes app that creates a daily text file and timestamps every line of added text
