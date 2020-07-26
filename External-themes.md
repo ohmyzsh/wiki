@@ -9,19 +9,6 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
-#### passion
-
-![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
-
-* time prompt will update once you finish inputting.
-* time cost will show after command running.
-
-source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
-
-author: [@chesteryue](https://github.com/ChesterYue)
-
----
-
 #### [typewritten](https://github.com/reobin/typewritten)
 
 A minimal, lightweight, informative zsh prompt theme
@@ -34,7 +21,14 @@ A minimal, lightweight, informative zsh prompt theme
 <img src="https://raw.githubusercontent.com/reobin/typewritten/master/media/layouts/pure.png" width="400" />
 </p>
 
+
+**Quick start**
+```bash
+npm install -g typewritten
+```
+
 **Features**
+- Asynchronous git info
 - Current directory
 - Current git branch
 - [git status indicators](https://github.com/reobin/typewritten#git-status-indicators)
@@ -49,6 +43,19 @@ A minimal, lightweight, informative zsh prompt theme
 Source: [typewritten.zsh](https://github.com/reobin/typewritten)
 
 Author:  [@reobin](https://github.com/reobin)
+
+---
+
+#### passion
+
+![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
+
+* time prompt will update once you finish inputting.
+* time cost will show after command running.
+
+source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
+
+author: [@chesteryue](https://github.com/ChesterYue)
 
 ---
 
