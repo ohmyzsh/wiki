@@ -25,20 +25,23 @@ A minimal, lightweight, informative zsh prompt theme
 **Quick start**
 ```bash
 npm install -g typewritten
+# then reload zsh
 ```
 
 **Features**
 - Asynchronous git info
+- Color options for all prompt sections
+- Actively maintained
 - Current directory
 - Current git branch
-- [git status indicators](https://github.com/reobin/typewritten#git-status-indicators)
-- [Return code](https://github.com/reobin/typewritten#return-code)
-- [Various customization options](https://github.com/reobin/typewritten#customization-options)
-  - [Prompt layout](https://github.com/reobin/typewritten#typewritten_prompt_layout)
-  - [Prompt symbol](https://github.com/reobin/typewritten#typewritten_symbol)
-  - [Constant display of git home directory](https://github.com/reobin/typewritten#typewritten_git_relative_path)
-  - [Cursor](https://github.com/reobin/typewritten#typewritten_cursor)
-  - [Prefix on right prompt](https://github.com/reobin/typewritten#typewritten_right_prompt_prefix)
+- git status indicators
+- Return code
+- Various customization options
+  - Prompt layout
+  - Prompt symbol
+  - Constant display of git home directory
+  - Cursor
+  - Prefix on right prompt
 
 Source: [typewritten.zsh](https://github.com/reobin/typewritten)
 
