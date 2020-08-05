@@ -9,6 +9,15 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
+#### Aphrodite Theme
+![Aphrodite Terminal Theme](https://user-images.githubusercontent.com/11278181/56094804-29972500-5edf-11e9-90a4-ffafdc58d3d7.png)
+
+Minimalistic Aphrodite theme does not have any visual noise. Displays only the necessary information: current user, hostname, working directory, git branch if exists. Looks great both with dark and white terminals.
+
+See [repository](https://github.com/win0err/aphrodite-terminal-theme) for source and installation instructions.
+Author: [@win0err](https://github.com/win0err)
+
+---
 #### [typewritten](https://github.com/reobin/typewritten)
 
 A minimal, lightweight, informative zsh prompt theme
@@ -187,15 +196,6 @@ Author: [@rafaelsq](https://github.com/rafaelsq/)
 See [gist](https://gist.github.com/mgimenez/ae1cde0b637e844da885cb093a916126) for source.
 
 Author: [@mgimenez](https://github.com/mgimenez/)
-
----
-#### Aphrodite Theme
-![Aphrodite Terminal Theme](https://user-images.githubusercontent.com/11278181/56094804-29972500-5edf-11e9-90a4-ffafdc58d3d7.png)
-
-Minimalistic Aphrodite theme does not have any visual noise. Displays only the necessary information: current user, hostname, working directory, git branch if exists. Looks great both with dark and white terminals.
-
-See [repository](https://github.com/win0err/aphrodite-terminal-theme) for source and installation instructions.
-Author: [@win0err](https://github.com/win0err)
 
 ---
 ### Intika Theme
