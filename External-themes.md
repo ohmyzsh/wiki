@@ -9,6 +9,19 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
+#### passion
+
+![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
+
+* time prompt will update once you finish inputting.
+* time cost will show after command running.
+
+source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
+
+author: [@chesteryue](https://github.com/ChesterYue)
+
+---
+
 #### Aphrodite Theme
 ![Aphrodite Terminal Theme](https://user-images.githubusercontent.com/11278181/56094804-29972500-5edf-11e9-90a4-ffafdc58d3d7.png)
 
@@ -55,19 +68,6 @@ npm install -g typewritten
 Source: [typewritten.zsh](https://github.com/reobin/typewritten)
 
 Author:  [@reobin](https://github.com/reobin)
-
----
-
-#### passion
-
-![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
-
-* time prompt will update once you finish inputting.
-* time cost will show after command running.
-
-source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
-
-author: [@chesteryue](https://github.com/ChesterYue)
 
 ---
 
