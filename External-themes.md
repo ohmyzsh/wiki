@@ -9,6 +9,42 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
+#### [typewritten](https://github.com/reobin/typewritten)
+
+A minimal, lightweight, informative zsh prompt theme
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/reobin/typewritten/master/media/layouts/singleline.png" width="800" />
+</p>
+<p align="center">
+<img src="https://github.com/reobin/typewritten/raw/master/media/configuration_examples/pure.png" width="400" />
+<img src="https://github.com/reobin/typewritten/raw/master/media/configuration_examples/half_pure.png" width="400" />
+</p>
+
+
+**Quick start**
+```bash
+npm install -g typewritten
+# then reload zsh
+```
+
+**Features**
+- Asynchronous git info
+- Color options for all prompt sections
+- Actively maintained
+- Various customization options
+  - Prompt layout
+  - Prompt symbol
+  - Constant display of git home directory
+  - Cursor
+  - Prefix on right prompt
+
+Source: [typewritten.zsh](https://github.com/reobin/typewritten)
+
+Author:  [@reobin](https://github.com/reobin)
+
+---
+
 #### passion
 
 ![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
@@ -29,45 +65,6 @@ Minimalistic Aphrodite theme does not have any visual noise. Displays only the n
 
 See [repository](https://github.com/win0err/aphrodite-terminal-theme) for source and installation instructions.
 Author: [@win0err](https://github.com/win0err)
-
----
-#### [typewritten](https://github.com/reobin/typewritten)
-
-A minimal, lightweight, informative zsh prompt theme
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/reobin/typewritten/master/media/layouts/singleline.png" width="800" />
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/reobin/typewritten/master/media/layouts/half_pure.png" width="400" />
-<img src="https://raw.githubusercontent.com/reobin/typewritten/master/media/layouts/pure.png" width="400" />
-</p>
-
-
-**Quick start**
-```bash
-npm install -g typewritten
-# then reload zsh
-```
-
-**Features**
-- Asynchronous git info
-- Color options for all prompt sections
-- Actively maintained
-- Current directory
-- Current git branch
-- git status indicators
-- Return code
-- Various customization options
-  - Prompt layout
-  - Prompt symbol
-  - Constant display of git home directory
-  - Cursor
-  - Prefix on right prompt
-
-Source: [typewritten.zsh](https://github.com/reobin/typewritten)
-
-Author:  [@reobin](https://github.com/reobin)
 
 ---
 
