@@ -14,11 +14,11 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 A minimal, lightweight, informative zsh prompt theme
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/reobin/typewritten/master/media/layouts/singleline.png" width="800" />
+<img src="https://raw.githubusercontent.com/reobin/typewritten/master/docs/_media/layouts/singleline.png" width="800" />
 </p>
 <p align="center">
-<img src="https://github.com/reobin/typewritten/raw/master/media/configuration_examples/pure.png" width="400" />
-<img src="https://github.com/reobin/typewritten/raw/master/media/configuration_examples/half_pure.png" width="400" />
+<img src="https://github.com/reobin/typewritten/raw/master/docs/_media/configuration_examples/pure.png" width="400" />
+<img src="https://github.com/reobin/typewritten/raw/master/docs/_media/configuration_examples/half_pure.png" width="400" />
 </p>
 
 
