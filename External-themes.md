@@ -8,18 +8,16 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
-<a href="https://github.com/reobin/typewritten">
-<p align="center">
+
+<a href="https://github.com/reobin/typewritten"><p align="center">
   <img src="https://raw.githubusercontent.com/reobin/typewritten/master/docs/_media/logo.svg" alt="typewritten" />
-</p>
-<h3 align="center">typewritten</h3>
+</p></a>
+<h3 align="center"><a href="https://github.com/reobin/typewritten">typewritten</a></h3>
 <p align="center">A minimal zsh prompt</p>
 <br />
-<p align="center">
+<a href="https://github.com/reobin/typewritten"><p align="center">
   <img src="https://raw.githubusercontent.com/reobin/typewritten/master/docs/_media/typewritten.gif" width="800" />
-</p>
-</a>
-
+</p></a>
 
 **Quick start**
 ```shell
