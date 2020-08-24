@@ -8,6 +8,39 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
+<a href="https://github.com/reobin/typewritten">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/reobin/typewritten/master/docs/_media/logo.svg" alt="typewritten" />
+</p>
+<h3 align="center">typewritten</h3>
+<p align="center">A minimal zsh prompt</p>
+<br />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/reobin/typewritten/master/docs/_media/typewritten.gif" width="800" />
+</p>
+</a>
+
+
+**Quick start**
+```shell
+npm install -g typewritten
+# then reload zsh
+```
+
+**Features**
+- Asynchronous git info
+- 100% customizable
+- Actively maintained
+- [Thorough documentation](https://typewritten.dev)
+
+
+Repository: [typewritten.zsh](https://github.com/reobin/typewritten)
+
+Documentation: [typewritten.dev](https://typewritten.dev)
+
+Author:  [@reobin](https://github.com/reobin)
+
+---
 
 #### passion
 
@@ -19,42 +52,6 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
 
 author: [@chesteryue](https://github.com/ChesterYue)
-
----
-
-#### [typewritten](https://github.com/reobin/typewritten)
-
-A minimal, lightweight, informative zsh prompt theme
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/reobin/typewritten/master/docs/_media/layouts/singleline.png" width="800" />
-</p>
-<p align="center">
-<img src="https://github.com/reobin/typewritten/raw/master/docs/_media/configuration_examples/pure.png" width="400" />
-<img src="https://github.com/reobin/typewritten/raw/master/docs/_media/configuration_examples/half_pure.png" width="400" />
-</p>
-
-
-**Quick start**
-```bash
-npm install -g typewritten
-# then reload zsh
-```
-
-**Features**
-- Asynchronous git info
-- Color options for all prompt sections
-- Actively maintained
-- Various customization options
-  - Prompt layout
-  - Prompt symbol
-  - Constant display of git home directory
-  - Cursor
-  - Prefix on right prompt
-
-Source: [typewritten.zsh](https://github.com/reobin/typewritten)
-
-Author:  [@reobin](https://github.com/reobin)
 
 ---
 
