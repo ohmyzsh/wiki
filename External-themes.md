@@ -15,6 +15,28 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 <h3 align="center"><a href="https://github.com/reobin/typewritten">typewritten</a></h3>
 <p align="center">A minimal zsh prompt</p>
 <br />
+<p align="center">
+  <a href="https://github.com/reobin/typewritten/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/reobin/typewritten?style=flat-square" />
+  </a>
+  <a href="https://github.com/reobin/typewritten/releases">
+    <img src="https://img.shields.io/github/v/release/reobin/typewritten?style=flat-square" />
+  </a>
+  <a href="https://npmjs.com/package/typewritten">
+    <img src="https://img.shields.io/npm/dm/typewritten?style=flat-square&logo=npm" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/reobin/typewritten/stargazers">
+    <img src="https://img.shields.io/github/stars/reobin/typewritten?style=flat-square&logo=github" />
+  </a>
+  <a href="https://github.com/reobin/typewritten/network/members">
+    <img src="https://img.shields.io/github/forks/reobin/typewritten?style=flat-square&logo=github" />
+  </a>
+  <a href="https://github.com/reobin/typewritten/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/reobin/typewritten?style=flat-square&logo=github" />
+  </a>
+</p>
 <a href="https://github.com/reobin/typewritten"><p align="center">
   <img src="https://raw.githubusercontent.com/reobin/typewritten/master/docs/_media/typewritten.gif" width="800" />
 </p></a>
