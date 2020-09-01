@@ -16,7 +16,7 @@ source ~/.oh-my-zsh/templates/zshrc.zsh-template
 | _x_ / _extract_       | Extract an archive (supported types: tar.{bz2,gz,xz,lzma}, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z).         |
 | _zsh_stats_           | Get a list of the top 20 commands and how many times they have been run.                                      |
 | _uninstall_oh_my_zsh_ | Uninstall Oh-my-zsh.                                                                                          |
-| _upgrade_oh_my_zsh_   | Upgrade Oh-my-zsh.                                                                                            |
+| _omz update_          | Upgrade Oh-my-zsh.                                                                                            |
 | `exec zsh`            | Apply changes made to zshrc
 
 ---
