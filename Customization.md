@@ -17,7 +17,7 @@ plugins=(git bundler foobar)
 Then, create a `foobar` directory inside the `plugins` folder and an initialization script to launch your plugin. This script has to follow a naming convention, as all plugin files must have an ending of `.plugin.zsh`. Your file tree should look like this:
 
 ```
-zsh_custom
+$ZSH_CUSTOM
 └── plugins
     └── foobar
         └── foobar.plugin.zsh
@@ -44,7 +44,7 @@ Adding and customizing your own themes pretty much works the same as with plugin
 Themes are located in a `themes` folder and must end with `.zsh-theme`. The basename of the file is the name of the theme.
 
 ```
-zsh_custom
+$ZSH_CUSTOM
 └── themes
     └── my_awesome_theme.zsh-theme
 ```
