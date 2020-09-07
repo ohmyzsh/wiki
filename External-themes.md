@@ -9,19 +9,6 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
-#### passion
-
-![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
-
-* time prompt will update once you finish inputting.
-* time cost will show after command running.
-
-source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
-
-author: [@chesteryue](https://github.com/ChesterYue)
-
----
-
 <a href="https://github.com/reobin/typewritten"><p align="center">
   <img src="https://raw.githubusercontent.com/reobin/typewritten/master/docs/_media/logo.svg" alt="typewritten" />
 </p></a>
@@ -46,8 +33,10 @@ author: [@chesteryue](https://github.com/ChesterYue)
   <a href="https://github.com/reobin/typewritten/network/members">
     <img src="https://img.shields.io/github/forks/reobin/typewritten?style=flat-square&logo=github" />
   </a>
-  <a href="https://github.com/reobin/typewritten/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/reobin/typewritten?style=flat-square&logo=github" />
+  <a href="#contributors">
+    <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+    <img src="https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square" alt="All contributors" />
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
   </a>
 </p>
 <a href="https://github.com/reobin/typewritten"><p align="center">
@@ -72,6 +61,19 @@ Repository: [typewritten.zsh](https://github.com/reobin/typewritten)
 Documentation: [typewritten.dev](https://typewritten.dev)
 
 Author:  [@reobin](https://github.com/reobin)
+
+---
+
+#### passion
+
+![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
+
+* time prompt will update once you finish inputting.
+* time cost will show after command running.
+
+source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
+
+author: [@chesteryue](https://github.com/ChesterYue)
 
 ---
 
