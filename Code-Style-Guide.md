@@ -59,6 +59,7 @@ command1 \
 command1 | command2
 ```
 
+### Use environment variables
 When possible, use environment variables instead of shelling out to a command.
 
 ##### _Bad:_
