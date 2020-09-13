@@ -39,7 +39,7 @@ brew install zsh
 ```
 To set zsh as your default shell, execute the following assuming a default install of Homebrew
 ```
-chsh -s /usr/local/bin/zsh
+chsh -s /bin/zsh
 ```
 Assuming you have [Homebrew](http://brew.sh/) installed. If not, most versions of
 **macOS** ship zsh by default, but it's normally an older version.  Alternatively, you may
