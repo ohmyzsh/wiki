@@ -12,7 +12,7 @@
 - Help us build the [[Cheatsheet]]
 - Want to contribute? Check out our [[Code Style Guide]] and [[Design]] guidelines and start hacking away!
 - We need [[Volunteers]]
-Mohamamd Owais
+
 ## Community
 
 - Read our user [[Testimonials]].
