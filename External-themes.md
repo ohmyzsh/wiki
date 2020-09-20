@@ -10,13 +10,13 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 ---
 
 <a href="https://github.com/reobin/typewritten"><p align="center">
-  <img src="https://raw.githubusercontent.com/reobin/typewritten/master/docs/_media/logo.svg" alt="typewritten" />
+  <img src="https://raw.githubusercontent.com/reobin/typewritten/main/docs/_media/logo.svg" alt="typewritten" />
 </p></a>
 <h3 align="center"><a href="https://github.com/reobin/typewritten">typewritten</a></h3>
 <p align="center">A minimal zsh prompt</p>
 <br />
 <p align="center">
-  <a href="https://github.com/reobin/typewritten/blob/master/LICENSE">
+  <a href="https://github.com/reobin/typewritten/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/reobin/typewritten?style=flat-square" />
   </a>
   <a href="https://github.com/reobin/typewritten/releases">
@@ -35,12 +35,12 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
   </a>
   <a href="#contributors">
     <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-    <img src="https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square" alt="All contributors" />
+    <img src="https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square" alt="All contributors" />
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
   </a>
 </p>
 <a href="https://github.com/reobin/typewritten"><p align="center">
-  <img src="https://raw.githubusercontent.com/reobin/typewritten/master/docs/_media/typewritten.gif" width="800" />
+  <img src="https://raw.githubusercontent.com/reobin/typewritten/main/docs/_media/typewritten.gif" width="800" />
 </p></a>
 
 **Quick start**
