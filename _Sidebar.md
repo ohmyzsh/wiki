@@ -3,6 +3,7 @@
 * **[[Plugins Overview]]**
 * **Documentation**
   + [[Installing ZSH]]
+  + [[Settings]]
   + [[Plugins]]
   + [[Themes]]
   + [[Cheatsheet]]
