@@ -2,7 +2,7 @@
 
 ## Main settings
 
-These are the main variables which control Oh My Zsh. Some are required and some are optional, this is specified next to the setting name. **NOTE:** these variables need to be declared **before** Oh My Zsh is sourced in your `.zshrc` file.
+These are the main variables which control Oh My Zsh. Some are required and some are optional, this is specified next to the setting name. **NOTE: these variables need to be declared _before_ Oh My Zsh is sourced in your `.zshrc` file.**
 
 ### `ZSH`
 
@@ -12,7 +12,7 @@ These are the main variables which control Oh My Zsh. Some are required and some
 export ZSH="$HOME/.oh-my-zsh"
 ```
 
-If this variable is not set the behavior of Oh My Zsh is undefined, meaning there may be things that break without a warning, so it's always best to set it.
+It's important that this variable is set, but if it isn't, Oh My Zsh will try to determine its value when loading Oh My Zsh to the directory where the init script (`oh-my-zsh.sh`) is located.
 
 ### `ZSH_THEME`
 
@@ -37,6 +37,58 @@ plugins=(git dircycle autojump)
 The order of the plugins in the array controls the order in which they'll be loaded. In the example above, the `git` plugin will be loaded first, then the `dircycle` plugin and then the `autojump` plugin.
 
 **NOTE:** as it happens with themes, if there's a custom plugin of the same name as a built-in one, the custom plugin will be loaded instead.
+
+### `ZSH_CUSTOM`
+
+(_Optional_) Path to the custom folder. _By default_, this variable points to `$ZSH/custom`. This variable is useful to, for instance, put the custom folder on another location so as to manage it with a version control system. For example:
+
+```zsh
+ZSH_CUSTOM=~/code/ohmyzsh-custom
+```
+
+### `ZSH_CACHE_DIR`
+
+(_Optional_) Path to the cache folder. This folder is used to store and cache all sorts of data used by plugins and completion scripts. _By default_, this variable points to `$ZSH/cache`, but you can put it wherever else you see fit. For example:
+
+```zsh
+ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/ohmyzsh"
+```
+
+### `ZSH_COMPDUMP`
+
+(_Optional_) Path to the completion cache file. _By default_, the name of the cache file is computed using the `$SHORT_HOST` (hostname) and `$ZSH_VERSION` variables, and put in either `$ZDOTDIR` or `$HOME`. You can change it to avoid cluttering your home directory. For example:
+
+```zsh
+# If $ZSH_CACHE_DIR is already defined
+ZSH_COMPDUMP="$ZSH_CACHE_DIR/.zcompdump"
+```
+
+As explained in the [[FAQ]], you can reset the completion cache file by `rm`-ing it and restarting the zsh session:
+
+```zsh
+rm "$ZSH_COMPDUMP"
+exec zsh
+```
+
+### `ZSH_DISABLE_COMPFIX`
+
+(_Optional_) Zsh automatically detects directories in `$fpath` that might have insecure permissions. These are directories that are checked when loading completion functions or other functions, so if a directory has insecure permissions, it could mean that you end up running code that a malicious actor put there.
+
+**You only need to use this setting when** the directories detected by Zsh have secure permissions but you still get the warning message. By setting this variable to `true`, you won't get the warning anymore. For example:
+
+If you get this warning in macOS:
+
+```console
+[oh-my-zsh] Insecure completion-dependent directories detected:
+drwxr-xr-x  3 john  admin   96 Jul 25 23:13 /usr/local/share/zsh
+drwxr-xr-x  4 john  admin  128 Jul 26 03:38 /usr/local/share/zsh/site-functions
+```
+
+you can safely ignore it if you control the `john` user, which has write permissions in both those directories. To do that, set the `ZSH_DISABLE_COMPFIX` variable, **before** Oh My Zsh is sourced in your `.zshrc` file:
+
+```zsh
+ZSH_DISABLE_COMPFIX=true
+```
 
 ## Random theme
 
