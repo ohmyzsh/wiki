@@ -141,20 +141,6 @@ Author: [@nikhilkmr300](https://github.com/nikhilkmr300)
 
 ---
 
-#### Finox
-
-![Finox](https://raw.githubusercontent.com/jxlil/dotfiles/master/custom-oh-my-zsh/themes/img/screenshot.png)
-
-Get the theme with `curl`: 
-```bash
-curl -Ls https://git.io/JfhcF -o finox.zsh-theme
-```
-or see [repository](https://github.com/jxlil/dotfiles/blob/master/custom-oh-my-zsh/themes) for source.
-
-Author: [@jxlil](https://github.com/jxlil)
-
----
-
 #### zsh2000
 
 ![zsh2000 theme](https://raw.githubusercontent.com/maverick9000/zsh2000/master/demo.png)
