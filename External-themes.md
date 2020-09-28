@@ -1203,6 +1203,18 @@ Source: [antsy.zsh-theme](https://github.com/jeffmhubbard/antsy-zsh-theme)
 
 Author:  [@jeffmhubbard](https://github.com/jeffmhubbard)
 
+#### thm
+
+![thm](https://raw.githubusercontent.com/sudo-HackerMan/thm-zshtheme/master/screenshot.png)
+
+Modified 'The Poncho' theme.
+
+Source: [thm.zsh-theme](https://github.com/sudo-HackerMan/thm-zshtheme)
+
+Author: [@sudo-HackerMan](https://github.com/sudo-HackerMan)
+
+Original: [@RainyDayMedia](https://github.com/RainyDayMedia/oh-my-zsh-poncho)
+
 
 #### None Theme
 
