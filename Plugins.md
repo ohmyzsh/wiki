@@ -8,7 +8,7 @@ directory). For example, this enables the `rails`, `git` and `ruby` plugins, **i
 plugins=(rails git ruby)
 ```
 
-**_NOTE: elements in zsh arrays are separated by spaces. DO NOT use commas._**
+**_NOTE: elements in zsh arrays are separated by spaces and/or new lines. DO NOT use commas._**
 
 ## Plugins
 
