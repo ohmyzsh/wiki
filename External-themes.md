@@ -14,7 +14,7 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 </p></a>
 <h3 align="center"><a href="https://github.com/HeroGlaucoP/cool-simple-zsh-theme">cool-simple-zsh-theme</a></h3>
 <p align="center">cool and simple zsh theme</p>
-![cool](https://raw.githubusercontent.com/HeroGlaucoP/cool-simple-zsh-theme/master/aaaa.png)
+  <img src="https://raw.githubusercontent.com/HeroGlaucoP/cool-simple-zsh-theme/master/aaaa.png" alt="cool" />
 
 <a href="https://github.com/reobin/typewritten"><p align="center">
   <img src="https://raw.githubusercontent.com/reobin/typewritten/main/docs/_media/logo.svg" alt="typewritten" />
