@@ -9,6 +9,9 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
+<a href="https://github.com/HeroGlaucoP/cool-simple-zsh-theme"><p align="center">
+  <img src="https://raw.githubusercontent.com/HeroGlaucoP/cool-simple-zsh-theme/preview.png" alt="cool-simple-zsh-theme" />
+</p></a>
 <a href="https://github.com/reobin/typewritten"><p align="center">
   <img src="https://raw.githubusercontent.com/reobin/typewritten/main/docs/_media/logo.svg" alt="typewritten" />
 </p></a>
