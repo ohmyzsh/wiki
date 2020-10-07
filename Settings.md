@@ -1,5 +1,24 @@
 # Settings
 
+<!-- TOC depthFrom:2 -->
+
+- [Main settings](#main-settings)
+  - [`ZSH`](#zsh)
+  - [`ZSH_THEME`](#zsh_theme)
+  - [`plugins`](#plugins)
+  - [`ZSH_CUSTOM`](#zsh_custom)
+  - [`ZSH_CACHE_DIR`](#zsh_cache_dir)
+- [Completion settings](#completion-settings)
+  - [`ZSH_COMPDUMP`](#zsh_compdump)
+  - [`ZSH_DISABLE_COMPFIX`](#zsh_disable_compfix)
+- [Library settings](#library-settings)
+- [Random theme](#random-theme)
+  - [`ZSH_THEME_RANDOM_CANDIDATES`](#zsh_theme_random_candidates)
+  - [`ZSH_THEME_RANDOM_IGNORED`](#zsh_theme_random_ignored)
+  - [`ZSH_THEME_RANDOM_QUIET`](#zsh_theme_random_quiet)
+
+<!-- /TOC -->
+
 ## Main settings
 
 These are the main variables which control Oh My Zsh. Some are required and some are optional, this is specified next to the setting name. **NOTE: these variables need to be declared _before_ Oh My Zsh is sourced in your `.zshrc` file.**
@@ -54,6 +73,8 @@ ZSH_CUSTOM=~/code/ohmyzsh-custom
 ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/ohmyzsh"
 ```
 
+## Completion settings
+
 ### `ZSH_COMPDUMP`
 
 (_Optional_) Path to the completion cache file. _By default_, the name of the cache file is computed using the `$SHORT_HOST` (hostname) and `$ZSH_VERSION` variables, and put in either `$ZDOTDIR` or `$HOME`. You can change it to avoid cluttering your home directory. For example:
@@ -76,7 +97,7 @@ exec zsh
 
 **You only need to use this setting when** the directories detected by Zsh have secure permissions but you still get the warning message. By setting this variable to `true`, you won't get the warning anymore. For example:
 
-If you get this warning in macOS:
+If you get this or a similar warning in macOS:
 
 ```console
 [oh-my-zsh] Insecure completion-dependent directories detected:
@@ -84,7 +105,7 @@ drwxr-xr-x  3 john  admin   96 Jul 25 23:13 /usr/local/share/zsh
 drwxr-xr-x  4 john  admin  128 Jul 26 03:38 /usr/local/share/zsh/site-functions
 ```
 
-you can safely ignore it if you control the `john` user, which has write permissions in both those directories. To do that, set the `ZSH_DISABLE_COMPFIX` variable, **before** Oh My Zsh is sourced in your `.zshrc` file:
+you can safely ignore it as long as you control the `john` user, which has write permissions in both those directories. To do that, set the `ZSH_DISABLE_COMPFIX` variable, **before** Oh My Zsh is sourced in your `.zshrc` file:
 
 ```zsh
 ZSH_DISABLE_COMPFIX=true
