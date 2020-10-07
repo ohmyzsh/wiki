@@ -3,17 +3,17 @@ _If you don't find what you're looking for, and you think it should be covered b
 <!-- TOC depthFrom:2 -->
 
 - [DEFINITIONS](#definitions)
-  - [What is Oh My Zsh and what does it have to do with zsh?](#what-is-oh-my-zsh-and-what-does-it-have-to-do-with-zsh)
-  - [What is a zsh plugin?](#what-is-a-zsh-plugin)
-  - [What is a zsh theme?](#what-is-a-zsh-theme)
-  - [What is the .zshrc file?](#what-is-the-zshrc-file)
+    - [What is Oh My Zsh and what does it have to do with zsh?](#what-is-oh-my-zsh-and-what-does-it-have-to-do-with-zsh)
+    - [What is a zsh plugin?](#what-is-a-zsh-plugin)
+    - [What is a zsh theme?](#what-is-a-zsh-theme)
+    - [What is the .zshrc file?](#what-is-the-zshrc-file)
 - [HOW DO I...?](#how-do-i)
-  - [How do I install Zsh?](#how-do-i-install-zsh)
-  - [How do I install Oh My Zsh?](#how-do-i-install-oh-my-zsh)
-  - [How do I uninstall Oh My Zsh?](#how-do-i-uninstall-oh-my-zsh)
-  - [How do I change my locale?](#how-do-i-change-my-locale)
-  - [How do I reload the zshrc file?](#how-do-i-reload-the-zshrc-file)
-  - [How do I reset the completion cache?](#how-do-i-reset-the-completion-cache)
+    - [How do I install Zsh?](#how-do-i-install-zsh)
+    - [How do I install Oh My Zsh?](#how-do-i-install-oh-my-zsh)
+    - [How do I uninstall Oh My Zsh?](#how-do-i-uninstall-oh-my-zsh)
+    - [How do I change my locale?](#how-do-i-change-my-locale)
+    - [How do I reload the zshrc file?](#how-do-i-reload-the-zshrc-file)
+    - [How do I reset the completion cache?](#how-do-i-reset-the-completion-cache)
 - [COMMON PROBLEMS](#common-problems)
   - [Font issues](#font-issues)
     - [I have a weird character in my prompt](#i-have-a-weird-character-in-my-prompt)
@@ -22,6 +22,8 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [I see duplicate typed characters after I complete a command](#i-see-duplicate-typed-characters-after-i-complete-a-command)
   - [Zsh errors](#zsh-errors)
     - [zsh: no matches found](#zsh-no-matches-found)
+- [OTHER PROBLEMS](#other-problems)
+    - [`kill-word` or `backward-kill-word` do / don't delete a symbol (`WORDCHARS`)](#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars)
 
 <!-- /TOC -->
 
@@ -213,3 +215,51 @@ There are many solutions, some temporary, some permanent:
    $ apt install linux-*
    # the command continues successfully
    ```
+
+## OTHER PROBLEMS
+
+#### `kill-word` or `backward-kill-word` do / don't delete a symbol (`WORDCHARS`)
+
+Since the beginning of Oh My Zsh and up until commit [50dc4ab](https://github.com/ohmyzsh/ohmyzsh/commit/50dc4ab3574f4e265dff816d8d9a0195cd260152) (Sept. 4, 2020), the framework set `WORDCHARS` to empty string. Afterwards, **`WORDCHARS` is set to `_-`**.
+
+[This variable tells zsh which non-alphanumeric characters are part of a **word**](http://zsh.sourceforge.net/Doc/Release/Parameters.html#index-WORDCHARS). This means that any characters in this string will be included in what constitutes a word. If `WORDCHARS` is `''`, that means that only alphanumeric characters are part of a word. Let these examples explain it better (the `|` represents the cursor):
+
+```console
+$ command arg1 arg2-with_symbols|
+```
+
+Let's imagine we press <kbd>CTRL</kbd>-<kbd>Backspace</kbd> which, as of recently, runs `backward-kill-word`, so it deletes a word to the left of the cursor. If `WORDCHARS` is empty string (`''`), only the alphanumeric characters are interpreted to be part of the word. So only characters up until the last underscore will be deleted:
+
+```console
+$ command arg1 arg2-with_|
+```
+
+If instead, as Oh My Zsh does now, `WORDCHARS='_-'`, hyphens and underscores are also part of a word. So when we press <kbd>CTRL</kbd>-<kbd>Backspace</kbd>, the whole arg2 will be deleted, since all of it constitutes a word:
+
+```console
+$ command arg1 |
+```
+
+This becomes more helpful _when trying to delete dash arguments_. For instance, after deleting the word to the left, this:
+
+```console
+$ git commit --all --dry-run|
+```
+
+becomes this:
+
+```console
+$ git commit --all |
+```
+
+**The default Zsh value of `WORDCHARS` is, as of version 5.7.1:**
+
+```zsh
+WORDCHARS='*?_-.[]~=/&;!#$%^(){}<>'
+```
+
+If you want this behavior to change, make set the `WORDCHARS` variable in your zshrc file, **after Oh My Zsh is sourced**. So if you'd wanted a star (`*`) to also be a part of a word, as well as the current ones (hyphen and underscore), you'd set the following:
+
+```zsh
+WORDCHARS='_-*'
+```
