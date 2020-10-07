@@ -59,8 +59,6 @@ Remember that customizations always take precedence over built-ins. If you happe
 
 If you don't change its filename, your `.zshrc` file can stay the same: `ZSH_THEME="agnoster"` will be perfect and still take your changes into account. You might also want to consider this before filing a new issue or pull request that just changes a trivial detail inside of a built-in theme.
 
-Note: Using a random theme with `$ZSH_THEME="random"` will not look into your custom themes directory. Only built-in themes will be used. (Until PR [#3743](https://github.com/ohmyzsh/ohmyzsh/pull/3743) is merged, which makes `random` include custom themes.)
-
 ## Overriding internals
 
 oh-my-zsh's internals are defined in its `lib` directory. To change them, just create a file inside the `custom` directory (its name doesn't matter, as long as it has a `.zsh` ending) and start customizing whatever you want. Unsatisfied with the way `git_prompt_info()` works? Write your own implementation!
