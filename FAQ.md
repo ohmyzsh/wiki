@@ -1,5 +1,7 @@
 _If you don't find what you're looking for, and you think it should be covered by the FAQ, please [open a new issue](https://github.com/ohmyzsh/ohmyzsh/issues/new?title=FAQ:%20) with what you think should be here._
 
+<!-- TOC depthFrom:2 -->
+
 - [DEFINITIONS](#definitions)
   - [What is Oh My Zsh and what does it have to do with zsh?](#what-is-oh-my-zsh-and-what-does-it-have-to-do-with-zsh)
   - [What is a zsh plugin?](#what-is-a-zsh-plugin)
@@ -21,6 +23,7 @@ _If you don't find what you're looking for, and you think it should be covered b
   - [Zsh errors](#zsh-errors)
     - [zsh: no matches found](#zsh-no-matches-found)
 
+<!-- /TOC -->
 
 ## DEFINITIONS
 
@@ -41,7 +44,6 @@ A zsh theme is a zsh script that changes the **prompt**. The prompt is the line 
 #### What is the .zshrc file?
 
 The `.zshrc` file (or just `zshrc` file) is a file that zsh reads when it starts. It can be found in your home directory, which will change depending on the system and platform you're using. On a terminal, the path to the home directory can be found by running `echo $HOME`.
-
 
 ## HOW DO I...?
 
@@ -72,6 +74,7 @@ Alternatively, to manually remove OMZ do `rm -rf $ZSH` — you will also have to
 The `locale` is used in a shell environment to define which language and character encoding (i.e. UTF-8) to use. This will change the language used by commands, as well as the encoding of the characters. Usually, you'll have set the language to use in the settings of your particular system. But sometimes you need to change the encoding used in the shell, most frequently to set it to use UTF-8.
 
 First, to verify what locale you're using, run `locale`. You'll get something like this:
+
 ```zsh
 $ locale
 LANG=en_US.utf8
@@ -96,6 +99,7 @@ These are environment variables that each change one particular part of the mess
 `LC_ALL` defines the locale for all the rest of the locale environment variables. If it's not set, then `LANG` takes precedence. In the case above, it is set to use the `English (United States)` language, and a `UTF-8` encoding.
 
 If we need to change these, we need to see what available locales are installed, and we do that by running `locale -a` (locales ending in `.UTF-8` or `.utf8` all use UTF-8 as their encoding):
+
 ```zsh
 $ locale -a
 C
@@ -105,6 +109,7 @@ POSIX
 ```
 
 Once we have selected a suitable locale (tip: always use a UTF-8 locale), we can set it in our zshrc file, preferably at the top:
+
 ```zsh
 export LANG=en_US.utf8
 ```
@@ -115,11 +120,11 @@ You may have seen somewhere that when you make a change to your zshrc file, you 
 
 To properly reload the zshrc file, you need to restart the zsh session. You can either:
 
-* Restart the terminal.
+- Restart the terminal.
 
 or
 
-* Restart the zsh process by running: `exec zsh`.
+- Restart the zsh process by running: `exec zsh`.
 
 #### How do I reset the completion cache?
 
@@ -148,7 +153,6 @@ It might look like this in iTerm2:
 
 ![Example problem in iTerm2](https://camo.githubusercontent.com/12b3877f95cf1d22ba9b005f1d029e6eb8121449/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3439373337322f3639373135302f64623330306332342d646366382d313165322d393233372d6536306535623965646437312e706e67)
 
-
 ### Completion issues
 
 Most completion issues are due to an old completion cache file (also called zcompdump file). Before attempting anything else, try to reset it following [the instructions above](#how-do-i-reset-the-completion-cache). If that doesn't make the completion work, look at the other completion issue sections.
@@ -176,27 +180,34 @@ This error happens when you used a wildcard character (also called [glob operato
 There are many solutions, some temporary, some permanent:
 
 1. Temporary: wrap the arguments containing wildcards in **quotes** (double quotes or single quotes, both are OK). For example:
+
    ```zsh
    $ apt install linux-*
    zsh: no matches found: linux-*
    $ apt install 'linux-*'
-   # the command continues successfully 
+   # the command continues successfully
    ```
+
 2. Temporary: prepend **`noglob`** to the command, such that any wildcards will be ignored.
+
    ```zsh
    $ noglob apt install linux-*
    # has the same effect as
    $ apt install 'linux-*'
    ```
+
 3. Permanent: disable globbing (_aka_ wildcard expansion) at all, using **[`unsetopt glob`](http://zsh.sourceforge.net/Doc/Release/Options.html#index-GLOB)**.
    Put it somewhere in your zshrc file **after** Oh My Zsh is sourced so that it's applied on every zsh session.
    NOTE: this will mean that you won't be able to use wildcards anywhere in your zsh session.
+
    ```zsh
    $ unsetopt glob
    $ ls -d .* #
    ls: cannot access '.*': No such file or directory
    ```
+
 4. Permanent: another option is using the solution in (2) but making it stick with **an alias** so that you don't need to do this every time you run that particular command. This is much more fine-grained than (3) because you can still use wildcards in other commands.
+
    ```zsh
    $ alias apt='noglob apt'
    $ apt install linux-*
