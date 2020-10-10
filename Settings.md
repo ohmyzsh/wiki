@@ -8,16 +8,34 @@
   - [`plugins`](#plugins)
   - [`ZSH_CUSTOM`](#zsh_custom)
   - [`ZSH_CACHE_DIR`](#zsh_cache_dir)
+- [Update settings](#update-settings)
+  - [`DISABLE_AUTO_UPDATE`](#disable_auto_update)
+  - [`DISABLE_UPDATE_PROMPT`](#disable_update_prompt)
+  - [`UPDATE_ZSH_DAYS`](#update_zsh_days)
 - [Completion settings](#completion-settings)
   - [`ZSH_COMPDUMP`](#zsh_compdump)
   - [`ZSH_DISABLE_COMPFIX`](#zsh_disable_compfix)
 - [Library settings](#library-settings)
+  - [`CASE_SENSITIVE`](#case_sensitive)
+  - [`HYPHEN_INSENSITIVE`](#hyphen_insensitive)
+  - [`DISABLE_MAGIC_FUNCTIONS`](#disable_magic_functions)
+  - [`DISABLE_LS_COLORS`](#disable_ls_colors)
+  - [`DISABLE_AUTO_TITLE`](#disable_auto_title)
+  - [`ENABLE_CORRECTION`](#enable_correction)
+  - [`COMPLETION_WAITING_DOTS`](#completion_waiting_dots)
+  - [`DISABLE_UNTRACKED_FILES_DIRTY`](#disable_untracked_files_dirty)
+  - [`HIST_STAMPS`](#hist_stamps)
 - [Random theme](#random-theme)
   - [`ZSH_THEME_RANDOM_CANDIDATES`](#zsh_theme_random_candidates)
   - [`ZSH_THEME_RANDOM_IGNORED`](#zsh_theme_random_ignored)
   - [`ZSH_THEME_RANDOM_QUIET`](#zsh_theme_random_quiet)
 
 <!-- /TOC -->
+
+For other settings:
+
+- For a plugin, look up the plugin README.
+- For a theme, look up the `<theme_name>.zsh-theme` file.
 
 ## Main settings
 
@@ -73,6 +91,37 @@ ZSH_CUSTOM=~/code/ohmyzsh-custom
 ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/ohmyzsh"
 ```
 
+## Update settings
+
+### `DISABLE_AUTO_UPDATE`
+
+If this option is set, Oh My Zsh will not try to update regularly and you'll
+have to update it manually, whenever you want, by running `omz update`.
+
+```zsh
+DISABLE_AUTO_UPDATE=true
+```
+
+### `DISABLE_UPDATE_PROMPT`
+
+If [automatic updates aren't disabled](#disable_auto_update), the confirmation prompt
+will not appear, and instead Oh My Zsh will update without asking whenever the automatic
+update expires.
+
+```zsh
+DISABLE_UPDATE_PROMPT=true
+```
+
+### `UPDATE_ZSH_DAYS`
+
+This setting tells Oh My Zsh how often should automatic updates happen (in days). This
+setting doesn't have any effect if [automatic updates are disabled](#disable_auto_update).
+
+```zsh
+# The default are 13 days
+UPDATE_ZSH_DAYS=13
+```
+
 ## Completion settings
 
 ### `ZSH_COMPDUMP`
@@ -109,6 +158,128 @@ you can safely ignore it as long as you control the `john` user, which has write
 
 ```zsh
 ZSH_DISABLE_COMPFIX=true
+```
+
+## Library settings
+
+These settings control the behavior of the library parts of Oh My Zsh. These libraries are located in the `lib/` folder of the project. **Again, these settings need to be set before Oh My Zsh is sourced**.
+
+### `CASE_SENSITIVE`
+
+Set to `true` to force case-sensitive completion. Otherwise, case-insensitive matching will be
+applied on filenames. For example, if there are two files beginning with `file`, one lowercase
+(`file-one`), one uppercase (`FILE-TWO`), the completion system will offer both as entries when
+trying to complete `file`, unless `CASE_SENSITIVE=true` is applied.
+
+By default, both `file-one` and `FILE-TWO` will match:
+
+```console
+$ cat file<TAB>
+file-one FILE-TWO
+```
+
+With `CASE_SENSITIVE=true`, only `file-one` will match:
+
+```console
+$ cat file<TAB>
+$ cat file-one
+```
+
+### `HYPHEN_INSENSITIVE`
+
+[Case-sensitive completion](#case_sensitive) must be off. Underscores (`_`) and
+hyphens (`-`) will be interchangeable, if `HYPHEN_INSENSITIVE=true`.
+
+```console
+$ cat file-<TAB>
+file-one file_two
+```
+
+### `DISABLE_MAGIC_FUNCTIONS`
+
+`bracketed-paste-magic` and `url-quote-magic` are two Zsh utilities that are known
+buggy in some Zsh versions or user setups. If you're having problems when pasting
+URLs or pasting anything at all, use this setting to disable them.
+
+```zsh
+DISABLE_MAGIC_FUNCTIONS=true
+```
+
+### `DISABLE_LS_COLORS`
+
+Use this setting to disable the Oh My Zsh logic to automatically set `ls` color output
+based on the system you're running and which `ls` commands are available.
+
+```zsh
+DISABLE_LS_COLORS=true
+```
+
+### `DISABLE_AUTO_TITLE`
+
+Oh My Zsh automatically sets the title of your terminal and tabs when running a command
+or printing the prompt. Use this setting if you want to disable that.
+
+```zsh
+DISABLE_AUTO_TITLE=true
+```
+
+### `ENABLE_CORRECTION`
+
+If you use this setting, Oh My Zsh will use `setopt correct_all`, which tells Zsh to
+try to correct command names and filenames passed as arguments. Only the following
+commands will be prevented to have filename correction: `cp`, `ebuild`, `gist`,
+`heroku`, `hpodder`, `man`, `mkdir`, `mv`, `mysql`, `sudo`.
+
+```zsh
+ENABLE_CORRECTION=true
+```
+
+### `COMPLETION_WAITING_DOTS`
+
+If you enable this setting, Oh My Zsh will print a red ellipsis to indicate that
+Zsh is still processing a completion request, and will disappear when the
+completion finishes. This is useful for example when completing a command that
+requires a lot of processing before offering completion entries.
+
+```zsh
+COMPLETION_WAITING_DOTS=true
+```
+
+NOTE: this setting has been known to cause issues with multiline prompt themes.
+
+### `DISABLE_UNTRACKED_FILES_DIRTY`
+
+Use this setting if you want to disable marking untracked files under VCS as dirty.
+This makes repository status checks for large repositories much, much faster.
+
+```zsh
+DISABLE_UNTRACKED_FILES_DIRTY=true
+```
+
+NOTE: this setting only takes effect if your theme calls the `git_prompt_info`
+or `parse_git_dirty` git prompt functions in `lib/git.zsh`.
+
+### `HIST_STAMPS`
+
+Oh My Zsh provides a wrapper for the `history` command. You can use this setting
+to decide whether to show a timestamp for each command in the history output.
+
+Available values are:
+
+- `"mm/dd/yyyy"`: for `<month>/<day>/<year>` (12/31/2020).
+- `"dd.mm.yyyy"`: for `<day>.<month>.<year>` (31.12.2020).
+- `"yyyy-mm-dd"`: for `<year>-<month>-<day>` (2020-12-31).
+- Custom value: you can specify another format using the [strftime format](https://man7.org/linux/man-pages/man3/strftime.3.html) (for example, `"%d/%m/%Y"` for `31/12/2020`).
+
+Example, if `HIST_STAMPS="dd.mm.yyyy"`:
+
+```console
+$ history -5
+10001  10.10.2020 13:29  gd
+10002  10.10.2020 13:29  z oh
+10003  10.10.2020 13:29  gd
+10004  10.10.2020 13:54  vsc /home/marc/code/ohmyzsh/wiki
+10005  10.10.2020 14:36  history -5
 ```
 
 ## Random theme
