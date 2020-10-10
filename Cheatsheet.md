@@ -98,6 +98,8 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gcan!_                | git commit -v -a --no-edit --amend                                                |
 | _gcans!_               | git commit -v -a -s --no-edit --amend                                             |
 | _gcam_                 | git commit -a -m                                                                  |
+| _gc1d_                 | git commit --date="1 day ago" -m                                                  |
+| _gc1h_                 | git commit --date="1 hour ago" -m                                                 |
 | _gcsm_                 | git commit -s -m                                                                  |
 | _gcb_                  | git checkout -b                                                                   |
 | _gcf_                  | git config --list                                                                 |
