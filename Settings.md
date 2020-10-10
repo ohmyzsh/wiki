@@ -264,12 +264,13 @@ or `parse_git_dirty` git prompt functions in `lib/git.zsh`.
 Oh My Zsh provides a wrapper for the `history` command. You can use this setting
 to decide whether to show a timestamp for each command in the history output.
 
-Available values are:
+Valid values are:
 
 - `"mm/dd/yyyy"`: for `<month>/<day>/<year>` (12/31/2020).
 - `"dd.mm.yyyy"`: for `<day>.<month>.<year>` (31.12.2020).
 - `"yyyy-mm-dd"`: for `<year>-<month>-<day>` (2020-12-31).
-- Custom value: you can specify another format using the [strftime format](https://man7.org/linux/man-pages/man3/strftime.3.html) (for example, `"%d/%m/%Y"` for `31/12/2020`).
+- Custom value: you can specify another format using the [strftime format](https://man7.org/linux/man-pages/man3/strftime.3.html)
+  (for example, `"%d/%m/%Y"` for `31/12/2020`).
 
 Example, if `HIST_STAMPS="dd.mm.yyyy"`:
 
