@@ -220,7 +220,11 @@ There are many solutions, some temporary, some permanent:
 
 #### `kill-word` or `backward-kill-word` do / don't delete a symbol (`WORDCHARS`)
 
-Since the beginning of Oh My Zsh and up until commit [50dc4ab](https://github.com/ohmyzsh/ohmyzsh/commit/50dc4ab3574f4e265dff816d8d9a0195cd260152) (Sept. 4, 2020), the framework set `WORDCHARS` to empty string. Afterwards, **`WORDCHARS` is set to `_-`**.
+**History:**
+
+Since the beginning of Oh My Zsh and up until commit [50dc4ab](https://github.com/ohmyzsh/ohmyzsh/commit/50dc4ab3574f4e265dff816d8d9a0195cd260152) (Sept. 4, 2020), the framework set `WORDCHARS` to empty string. Afterwards, **`WORDCHARS` was set to `_-`**. Days after that, [there was ample support](https://github.com/ohmyzsh/ohmyzsh/issues/9367) for going back to the previous behavior, so commit [3f42700c](https://github.com/ohmyzsh/ohmyzsh/commit/3f42700c0d65cf26470d1e165b8ed80dfff9efca) reverted the change.
+
+**What does this do?**
 
 [This variable tells zsh which non-alphanumeric characters are part of a **word**](http://zsh.sourceforge.net/Doc/Release/Parameters.html#index-WORDCHARS). This means that any characters in this string will be included in what constitutes a word. If `WORDCHARS` is `''`, that means that only alphanumeric characters are part of a word. Let these examples explain it better (the `|` represents the cursor):
 
@@ -258,7 +262,7 @@ $ git commit --all |
 WORDCHARS='*?_-.[]~=/&;!#$%^(){}<>'
 ```
 
-If you want this behavior to change, make set the `WORDCHARS` variable in your zshrc file, **after Oh My Zsh is sourced**. So if you'd wanted a star (`*`) to also be a part of a word, as well as the current ones (hyphen and underscore), you'd set the following:
+If you want this behavior to change, set the `WORDCHARS` variable in your zshrc file, **after Oh My Zsh is sourced**. So if you'd wanted a star (`*`) to also be a part of a word, as well as the old ones (hyphen and underscore), you'd set the following:
 
 ```zsh
 WORDCHARS='_-*'
