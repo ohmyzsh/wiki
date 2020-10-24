@@ -1254,5 +1254,5 @@ Author: [@EYH0602](https://github.com/EYH0602)
 * Simple
 * kinda easy to customize
 * time mark
-![zsh-ohio2 repo](https://github.com/Ohio2/zsh-ohio2)
-![Ohio2](https://github.com/Ohio2)
+Theme:[zsh-ohio2 repo](https://github.com/Ohio2/zsh-ohio2)
+![zsh-ohio2](https://i.imgur.com/yUa8VAH.png)
