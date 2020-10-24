@@ -1249,3 +1249,10 @@ Author: [@catleeball](https://github.com/catleeball)
 ![fishbone++](https://github.com/EYH0602/Fishbonepp/blob/master/pics/defaultlook.png)  
 Source: [fishbone++](https://github.com/EYH0602/Fishbonepp)  
 Author: [@EYH0602](https://github.com/EYH0602)  
+#### zsh-ohio2
+##### Features:
+* Simple
+* kinda easy to customize
+* time mark
+![zsh-ohio2 repo](https://github.com/Ohio2/zsh-ohio2)
+![Ohio2](https://github.com/Ohio2)
