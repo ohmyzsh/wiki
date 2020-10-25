@@ -1257,4 +1257,4 @@ Author: [@EYH0602](https://github.com/EYH0602)
 * Light but isn't as light as minimal2 or none.
 
 Theme:[zsh-ohio2 repo](https://github.com/Ohio2/zsh-ohio2)
-![zsh-ohio2](https://i.imgur.com/yUa8VAH.png)
+![zsh-ohio2](https://i.imgur.com/EJFeVQM.jpg)
