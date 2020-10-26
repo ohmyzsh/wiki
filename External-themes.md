@@ -1256,5 +1256,6 @@ Author: [@EYH0602](https://github.com/EYH0602)
 * Easy to customize
 * Time marker
 * Git marker.
+
 Theme:[zsh-ohio2 repo](https://github.com/Ohio2/zsh-ohio2)
 ![zsh-ohio2](https://i.imgur.com/tKc6B1P.png)
