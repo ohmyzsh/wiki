@@ -1251,6 +1251,7 @@ Source: [fishbone++](https://github.com/EYH0602/Fishbonepp)
 Author: [@EYH0602](https://github.com/EYH0602)  
 #### zsh-ohio2
 ##### Features:
+##NOT SUPPORTED ANYMORE!
 * Simple
  * a dallas ripoff. (Well it's not... Colorscheme wise it is)
 * kinda easy to customize
