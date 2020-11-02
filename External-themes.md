@@ -8,6 +8,16 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
+#### guezwhoz
+
+![guezwhoz](https://github.com/guesswhozzz/guezwhoz-zshell/raw/main/demos/theme-demo-5.18.01.png?raw=true)
+
+* vscode git resources icons 
+
+
+source: [repo](https://github.com/guesswhozzz/guezwhoz-zshell)
+
+author: [@guesswhozzz](https://github.com/guesswhozzz)
 
 #### passion
 
