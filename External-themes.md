@@ -10,7 +10,7 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 ---
 #### guezwhoz
 
-![guezwhoz](https://github.com/guesswhozzz/guezwhoz-zshell/raw/main/demos/theme-demo-5.18.01.png?raw=true)
+![guezwhoz](https://github.com/guesswhozzz/guezwhoz-scheme/blob/main/demos/zsh-theme-demo-min.png?raw=true)
 
 * vscode git resources icons 
 
