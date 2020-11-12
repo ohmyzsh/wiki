@@ -118,7 +118,7 @@ This setting tells Oh My Zsh how often should automatic updates happen (in days)
 setting doesn't have any effect if [automatic updates are disabled](#disable_auto_update).
 
 ```zsh
-# The default are 13 days
+# The default is 13 days
 UPDATE_ZSH_DAYS=13
 ```
 
