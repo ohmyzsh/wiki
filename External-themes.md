@@ -1263,3 +1263,23 @@ Author: [@EYH0602](https://github.com/EYH0602)
 
 Theme:[zsh-ohio2 repo](https://github.com/Ohio2/zsh-ohio2)
 ![zsh-ohio2](https://i.imgur.com/tKc6B1P.png)
+
+***
+
+<br/>
+<h3 align="center"><a href="https://github.com/ice-bear-forever/bubblegum-zsh">bubblegum</a></h3>
+<p align="center">a deliciously minimalist light pink theme</p>
+<br/>
+<a href="https://github.com/ice-bear-forever/bubblegum-zsh"><p align="center">
+  <img src="https://github.com/ice-bear-forever/bubblegum-zsh/blob/main/screenshot.png"/>
+</p></a>
+
+##### features:
+* a triangular glyph and your working directory, nothing more
+* a [matching theme](https://github.com/ice-bear-forever/hyper-bubblegum) for [Hyper](http://hyper.is) terminal
+
+repository: [bubblegum-zsh](https://github.com/ice-bear-forever/bubblegum-zsh/)
+
+author: [@ice-bear-forever](https://github.com/ice-bear-forever/)
+
+
