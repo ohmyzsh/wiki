@@ -8,30 +8,6 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
-#### guezwhoz
-
-![guezwhoz](https://github.com/guesswhozzz/guezwhoz-scheme/blob/main/demos/completer-zsh-demo.gif?raw=true)
-
-- Single git status marker for Visual Studio Code and Git cli
-- Interactive `Tab` completer
-
-
-source: [repo](https://github.com/guesswhozzz/guezwhoz-zshell)
-
-author: [@guesswhozzz](https://github.com/guesswhozzz)
-
-#### passion
-
-![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
-
-* time prompt will update once you finish inputting.
-* time cost will show after command running.
-
-source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
-
-author: [@chesteryue](https://github.com/ChesterYue)
-
----
 
 <a href="https://github.com/reobin/typewritten"><p align="center">
   <img src="https://raw.githubusercontent.com/reobin/typewritten/main/docs/_media/logo.svg" alt="typewritten" />
@@ -59,7 +35,7 @@ author: [@chesteryue](https://github.com/ChesterYue)
   </a>
   <a href="#contributors">
     <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-    <img src="https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square" alt="All contributors" />
+    <img src="https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square" alt="All contributors" />
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
   </a>
 </p>
@@ -85,6 +61,31 @@ Repository: [typewritten.zsh](https://github.com/reobin/typewritten)
 Documentation: [typewritten.dev](https://typewritten.dev)
 
 Author:  [@reobin](https://github.com/reobin)
+
+---
+#### guezwhoz
+
+![guezwhoz](https://github.com/guesswhozzz/guezwhoz-scheme/blob/main/demos/completer-zsh-demo.gif?raw=true)
+
+- Single git status marker for Visual Studio Code and Git cli
+- Interactive `Tab` completer
+
+
+source: [repo](https://github.com/guesswhozzz/guezwhoz-zshell)
+
+author: [@guesswhozzz](https://github.com/guesswhozzz)
+
+#### passion
+
+![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
+
+* time prompt will update once you finish inputting.
+* time cost will show after command running.
+
+source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
+
+author: [@chesteryue](https://github.com/ChesterYue)
+
 
 ---
 
