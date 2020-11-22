@@ -169,7 +169,7 @@ To install the package, run this command:
 ```sh
 pkg install zsh
 ```
-The command looks like FreeBSD package manger (`pkg`). Or you can run this command:
+The command looks like FreeBSD package manager (`pkg`). Or you can run this command:
 ```sh
 apt update && apt upgrade
 apt install zsh
