@@ -1254,15 +1254,16 @@ Author: [@catleeball](https://github.com/catleeball)
 ![fishbone++](https://github.com/EYH0602/Fishbonepp/blob/master/pics/defaultlook.png)  
 Source: [fishbone++](https://github.com/EYH0602/Fishbonepp)  
 Author: [@EYH0602](https://github.com/EYH0602)  
-#### zsh-ohio2
+#### Ohio2's themes!
 ##### Features:
 * Simple
- * Based on dallas
+ * One based on dallas
+ * a whole collection. 
 * Easy to customize
-* Time marker
+* Time marker (ohio2, not ybl)
 * Git marker.
 
-Theme:[zsh-ohio2 repo](https://github.com/Ohio2/zsh-ohio2)
+Themes:[Ohio2's themes repo](https://github.com/Ohio2/dotfiles-ohio2/tree/master/.oh-my-zsh/themes)
 ![zsh-ohio2](https://i.imgur.com/tKc6B1P.png)
 
 ***
