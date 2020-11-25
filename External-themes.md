@@ -121,7 +121,14 @@ The minimal MacOS terminal brought to ZSH
 <img src="https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/Preview2.png" />
 </a>
 
+**Features**
+
+* Git Branch at right
+* Last Login message
+* Same format as MacOS
+
 ---
+
 **How to have it**
 
 * [Installation](https://github.com/alejandromume/macos-zsh-theme/#installation)
