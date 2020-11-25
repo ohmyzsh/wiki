@@ -101,7 +101,7 @@ Author: [@win0err](https://github.com/win0err)
 ---
 #### MacOS Terminal
 This theme adapts your console to the MacOS, a clean and minimalist terminal.
-![macos-zsh](https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/ezgif-1-00d628ce950f.gif)
+![macos-zsh](https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/ezgif-1-d25fc7015a19.gif)
 
 source: [here](https://github.com/alejandromume/macos-zsh-theme)
 
