@@ -101,11 +101,11 @@ Author: [@win0err](https://github.com/win0err)
 ---
 #### MacOS Terminal
 This theme adapts your console theme to the MacOS one, a clean and minimalist terminal.
-![macos-zsh](https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/ezgif-1-d25fc7015a19.gif)
+<img src="https://raw.githubusercontent.com/alejandromume/macos-zsh-theme" />
 
 Preview with *Last Login* message
 ---
-![macos-preview](https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/Preview2.png)
+<img src="https://raw.githubusercontent.com/alejandromume/macos-zsh-theme" />
 ---
 Source Code: [here](https://github.com/alejandromume/macos-zsh-theme)
 
