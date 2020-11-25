@@ -99,7 +99,13 @@ See [repository](https://github.com/win0err/aphrodite-terminal-theme) for source
 Author: [@win0err](https://github.com/win0err)
 
 ---
+#### MacOS Terminal
+This theme adapts your console to the MacOS, a clean and minimalist terminal.
+![macos-zsh](https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/ezgif-1-00d628ce950f.gif)
 
+source: [here](https://github.com/alejandromume/macos-zsh-theme)
+
+---
 #### short
 
 <img src=https://github.com/nikhilkmr300/omz-themes/blob/master/images/short.png width=640>
@@ -485,12 +491,6 @@ author: [@hedgehog1029](http://github.com/hedgehog1029)
 
 source: [here](https://github.com/skuridin/oh-my-zsh-node-theme)
 author: [@skuridin](https://github.com/skuridin)
-
-#### MacOS Terminal
-This theme adapts your console to the MacOS, a clean and minimalist terminal.
-![macos-zsh](https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/ezgif-1-00d628ce950f.gif)
-
-source: [here](https://github.com/alejandromume/macos-zsh-theme)
 
 #### classyTouch Theme
 
