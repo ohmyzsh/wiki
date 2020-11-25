@@ -486,6 +486,12 @@ author: [@hedgehog1029](http://github.com/hedgehog1029)
 source: [here](https://github.com/skuridin/oh-my-zsh-node-theme)
 author: [@skuridin](https://github.com/skuridin)
 
+#### MacOS Terminal
+This theme adapts your console to the MacOS, a clean and minimalist terminal.
+![macos-zsh](https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/ezgif-1-00d628ce950f.gif)
+
+source: [here](https://github.com/alejandromume/macos-zsh-theme)
+
 #### classyTouch Theme
 
 ![classyTouch](https://raw.githubusercontent.com/pr0tocol/classyTouch_oh-my-zsh/master/classyTouch.png)
