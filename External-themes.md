@@ -114,6 +114,7 @@ Preview with *Last Login* message
 <img src="https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/Preview2.png" />
 </a>
 ---
+
 Source Code: [here](https://github.com/alejandromume/macos-zsh-theme)
 
 ---
