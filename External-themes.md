@@ -112,6 +112,7 @@ Tested OS's: `Ubuntu 20.04` and `Windows 10 WSL`
 ---
 
 [Installation](https://github.com/alejandromume/macos-zsh-theme/#installation)
+
 [Source Code](https://github.com/alejandromume/macos-zsh-theme)
 
 ---
