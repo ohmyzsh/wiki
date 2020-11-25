@@ -106,18 +106,13 @@ This theme adapts your console theme to the MacOS one, a clean and minimalist te
 Tested OS's: `Ubuntu 20.04` and `Windows 10 WSL`
 
 <a href="https://github.com/alejandromume/macos-zsh-theme">
-<img src="https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/ezgif-1-d25fc7015a19.gif" />
-</a>
-
-Preview with *Last Login* message
----
-<a href="https://github.com/alejandromume/macos-zsh-theme">
 <img src="https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/Preview2.png" />
 </a>
 
 ---
 
-Source Code: [here](https://github.com/alejandromume/macos-zsh-theme)
+[Installation](https://github.com/alejandromume/macos-zsh-theme/#installation)
+[Source Code](https://github.com/alejandromume/macos-zsh-theme)
 
 ---
 #### short
