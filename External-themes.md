@@ -100,12 +100,14 @@ Author: [@win0err](https://github.com/win0err)
 
 ---
 #### MacOS Terminal
-<center>
 <h3 align="center"><a href="https://github.com/alejandromume/macos-zsh-theme">MacOS Terminal</a></h3>
-<a href="https://github.com/alejandromume/macos-zsh-theme/blob/master/LICENSE">
+
+<p align="center">
+  <a href="https://github.com/alejandromume/macos-zsh-theme/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/alejandromume/macos-zsh-theme?style=flat-square" />
   </a>
-</center>
+</p>
+
 <br>
 
 The minimal MacOS terminal brought to ZSH
