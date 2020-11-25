@@ -106,6 +106,9 @@ Author: [@win0err](https://github.com/win0err)
   <a href="https://github.com/alejandromume/macos-zsh-theme/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/alejandromume/macos-zsh-theme?style=flat-square" />
   </a>
+<a href="https://github.com/alejandromume/macos-zsh-theme/stargazers">
+    <img src="https://img.shields.io/github/stars/alejandromume/macos-zsh-theme?style=flat-square&logo=github" />
+  </a>
 </p>
 
 <br>
