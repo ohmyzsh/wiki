@@ -122,7 +122,7 @@ The minimal MacOS terminal brought to ZSH
 </a>
 
 ---
-
+**How to have it**
 [Installation](https://github.com/alejandromume/macos-zsh-theme/#installation)
 
 [Source Code](https://github.com/alejandromume/macos-zsh-theme)
