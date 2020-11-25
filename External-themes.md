@@ -123,18 +123,19 @@ The minimal MacOS terminal brought to ZSH
 
 ---
 
-#### **Features**
+**Features**
 
 * Git Branch at right
 * Last Login message
 * Same format as MacOS
 
----
-
-**How to have it**
+**Code**
 
 * [Installation](https://github.com/alejandromume/macos-zsh-theme/#installation)
 * [Source Code](https://github.com/alejandromume/macos-zsh-theme)
+
+**Credits**
+
 * Author: [@alejandromume](https://github.com/alejandromume)
 
 ---
