@@ -101,6 +101,9 @@ Author: [@win0err](https://github.com/win0err)
 ---
 #### MacOS Terminal
 This theme adapts your console theme to the MacOS one, a clean and minimalist terminal.
+
+Tested OS's: `Ubuntu 20.04` and `Windows 10 WSL`
+
 <a href="https://github.com/alejandromume/macos-zsh-theme">
 <img src="https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/ezgif-1-d25fc7015a19.gif" />
 </a>
