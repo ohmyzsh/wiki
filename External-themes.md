@@ -125,10 +125,8 @@ The minimal MacOS terminal brought to ZSH
 **How to have it**
 
 * [Installation](https://github.com/alejandromume/macos-zsh-theme/#installation)
-
 * [Source Code](https://github.com/alejandromume/macos-zsh-theme)
-
-* [Author](https://github.com/alejandromume)
+* Author: [@alejandromume](https://github.com/alejandromume)
 
 ---
 #### short
