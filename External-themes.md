@@ -105,7 +105,7 @@ This theme adapts your console to the MacOS, a clean and minimalist terminal.
 
 Preview with *Last Login* message
 ---
-![macos-preview](https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/Preview1.png)
+![macos-preview](https://raw.githubusercontent.com/alejandromume/macos-zsh-theme-media/main/Preview2.png)
 ---
 Source Code: [here](https://github.com/alejandromume/macos-zsh-theme)
 
