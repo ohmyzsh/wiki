@@ -1323,4 +1323,26 @@ repository: [bubblegum-zsh](https://github.com/ice-bear-forever/bubblegum-zsh/)
 
 author: [@ice-bear-forever](https://github.com/ice-bear-forever/)
 
+***
+
+<br/>
+<h3 align="center"><a href="https://github.com/tigerjz32/kube-zsh-theme">kube</a></h3>
+<p align="center">a colorful and informative theme</p>
+<br/>
+<a href="https://github.com/tigerjz32/kube-zsh-theme"><p align="center">
+  <img src="https://github.com/tigerjz32/kube-zsh-theme/blob/main/assets/image1.jpg"/>
+</p></a>
+
+##### features:
+- shows the current time
+- shows current kubectl context
+- shows current dir
+- shows current Git branch
+- shows an arrow to differentiate input vs prompt
+- uses different colors for readability
+
+repository: [kube-zsh-theme](https://github.com/tigerjz32/kube-zsh-theme/)
+
+author: [@tigerjz32](https://github.com/tigerjz32)
+
 
