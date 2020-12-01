@@ -104,7 +104,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gcl_                  | git clone --recurse-submodules                                                    |
 | _gclean_               | git clean -id                                                                     |
 | _gpristine_            | git reset --hard && git clean -dffx                                               |
-| _gcm_                  | git checkout master                                                               |
+| _gcm_                  | git checkout $(git_main_branch)                                                               |
 | _gcd_                  | git checkout develop                                                              |
 | _gcmsg_                | git commit -m                                                                     |
 | _gco_                  | git checkout                                                                      |
@@ -129,7 +129,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _ggl_                  | git pull origin $(current_branch)                                                 |
 | _ggpur_                | git pull --rebase origin $(current_branch)                                        |
 | _ggu_                  | git pull --rebase origin $(current_branch)                                        |
-| _glum_                 | git pull upstream master                                                          |
+| _glum_                 | git pull upstream $(git_main_branch)                                                          |
 | _ggpush_               | git push origin $(current_branch)                                                 |
 | _ggp_                  | git push origin $(current_branch)                                                 |
 | _ggfl_                 | git push --force-with-lease origin <your_argument>/$(current_branch)              |
@@ -154,10 +154,10 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _glp_                  | _git_log_prettily (Also: "git log --pretty=$1")                                   |
 | _gm_                   | git merge                                                                         |
 | _gma_                  | git merge --abort                                                                 |
-| _gmom_                 | git merge origin/master                                                           |
+| _gmom_                 | git merge origin/$(git_main_branch)                                                           |
 | _gmt_                  | git mergetool --no-prompt                                                         |
 | _gmtvim_               | git mergetool --no-prompt --tool=vimdiff                                          |
-| _gmum_                 | git merge upstream/master                                                         |
+| _gmum_                 | git merge upstream/$(git_main_branch)                                                         |
 | _gp_                   | git push                                                                          |
 | _gpd_                  | git push --dry-run                                                                |
 | _gpoat_                | git push origin --all && git push origin --tags                                   |
@@ -170,7 +170,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _grbc_                 | git rebase --continue                                                             |
 | _grbd_                 | git rebase develop                                                                |
 | _grbi_                 | git rebase -i                                                                     |
-| _grbm_                 | git rebase master                                                                 |
+| _grbm_                 | git rebase $(git_main_branch)                                                                 |
 | _grbs_                 | git rebase --skip                                                                 |
 | _grh_                  | git reset (Also: "git reset HEAD")                                                |
 | _grhh_                 | git reset --hard (Also: "git reset HEAD --hard")                                  |
