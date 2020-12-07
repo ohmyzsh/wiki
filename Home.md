@@ -1,4 +1,4 @@
-## Welcome to the Oh My Zsh wiki	[<img src="https://i.imgur.com/fnWaPff.png">](https://discord.gg/pYQ4Ezn7Ad)
+## Welcome to the Oh My Zsh wiki	
 
  - If you don't have zsh installed, see [[Installing Zsh]].	
 - Once you have zsh, you can install Oh My Zsh, by simply running the command line:    	
