@@ -1,10 +1,14 @@
 ## Welcome to the Oh My Zsh wiki	
 
- - If you don't have zsh installed, see [[Installing Zsh]].	
-- Once you have zsh, you can install Oh My Zsh, by simply running the command line:    	
-`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`    	
-Or using wget:    	
-`sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`    	
+- If you don't have zsh installed, see [[Installing Zsh]].	
+- Once you have zsh, you can install Oh My Zsh, by simply running one of these commands:
+
+  | Method    | Command                                                                                           |
+  |:----------|:--------------------------------------------------------------------------------------------------|
+  | **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+  | **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
+  | **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+
 - Once installed, take a look at our [[Themes]] and [[Plugins]] (here's a brief overview: [[Plugins Overview]]).	
 - You can find more at [[External themes]] and [[External plugins]].	
 - Learn about [[Customization]].	
