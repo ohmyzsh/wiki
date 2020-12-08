@@ -1,1 +1,4 @@
-https://discord.gg/pYQ4Ezn7Ad
+[Homepage](https://github.com/ohmyzsh/ohmyzsh)
+— [Website](https://ohmyz.sh)
+— [Twitter](https://twitter.com/ohmyzsh)
+— [Merchandise](https://shop.planetargon.com/collections/oh-my-zsh?utm_source=github)
