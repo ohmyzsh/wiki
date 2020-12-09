@@ -1,4 +1,4 @@
-## Welcome to the Oh My Zsh wiki.
+## Welcome to the Oh My Zsh wiki
 
 - If you don't have zsh installed, see [[Installing Zsh]].	
 - Once you have zsh, you can install Oh My Zsh, by simply running one of these commands:
