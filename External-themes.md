@@ -9,7 +9,7 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
-# bigpath
+#### bigpath
 ![](https://preview.redd.it/ie39emm3bl461.png?width=1230&format=png&auto=webp&s=418d6c1a143bd4506bb3c161264606375ed5050e)
 
 ***
