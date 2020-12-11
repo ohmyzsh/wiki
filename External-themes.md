@@ -16,7 +16,6 @@ This theme can show your username, your current directory + the one before, git 
 Pink dot means unstaged, purple dot means uncommited.
 
 Author: [@Tesohh](https://github.com/Tesohh)
-[Gist](https://gist.github.com/Tesohh/fc09ca3e39b0414cd59da4a19e32ba6a),
 [Repo](https://github.com/Tesohh/omzbigpath)
 
 ---
