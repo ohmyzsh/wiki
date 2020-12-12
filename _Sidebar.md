@@ -25,7 +25,7 @@
 
 **[Get a t-shirt!](https://shop.planetargon.com/products/ohmyzsh-t-shirts)**
 
-[![Black Oh My Zsh t-shirt](https://cdn.shopify.com/s/files/1/0101/8752/products/IMG_7672_medium.jpg)](https://shop.planetargon.com/products/ohmyzsh-t-shirts)
+<a href="https://shop.planetargon.com/products/ohmyzsh-t-shirts"><img width="100%" alt="Black Oh My Zsh t-shirt" src="https://cdn.shopify.com/s/files/1/0101/8752/products/IMG_7672_medium.jpg"></a>
 
 **[Get stickers!](https://shop.planetargon.com/collections/everything/products/ohmyzsh-stickers-set-of-3-stickers)**
 
