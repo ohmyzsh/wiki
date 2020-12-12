@@ -1,5 +1,4 @@
  Oh My Zsh plugins allow you to add functionality of many sorts to your shell just by enabling them. They are
-Hi there!
 each documented in the README file in their respective `plugins/` folder.
 
 Enable a plugin by adding its name to the `plugins` array in your `.zshrc` file (found in the `$HOME`
