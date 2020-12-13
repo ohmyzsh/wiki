@@ -14,6 +14,7 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [How do I change my locale?](#how-do-i-change-my-locale)
     - [How do I reload the zshrc file?](#how-do-i-reload-the-zshrc-file)
     - [How do I reset the completion cache?](#how-do-i-reset-the-completion-cache)
+    - [How do I manually update Oh My Zsh from a script?](#how-do-i-manually-update-oh-my-zsh-from-a-script)
 - [COMMON PROBLEMS](#common-problems)
   - [Font issues](#font-issues)
     - [I have a weird character in my prompt](#i-have-a-weird-character-in-my-prompt)
@@ -142,6 +143,16 @@ rm "$ZSH_COMPDUMP"
 # Restart the zsh session
 exec zsh
 ```
+
+#### How do I manually update Oh My Zsh from a script?
+
+The best way to do that is to call the `upgrade.sh` script directly. If `$ZSH` is defined (it should point to where OMZ is installed), then you can call it like so:
+
+```sh
+"$ZSH/tools/upgrade.sh"
+```
+
+Another option is to use the `omz` CLI. The `omz update` command triggers an update, but it also shows the changelog and restarts the zsh session (which _might_ cause a restart loop). To avoid that, run it with the `--unattended` flag, like so: `omz update --unattended`. But again, it's better to call the `upgrade.sh` script directly.
 
 ## COMMON PROBLEMS
 
