@@ -15,13 +15,13 @@
 - Having problems? Check out the [[FAQ]] for common problems, or the [[Troubleshooting]] page for instructions on how to diagnose the issue.	
 - And don't forget to [follow us on twitter](http://twitter.com/ohmyzsh)!	
 
- ## Help Wanted	
+## Help Wanted	
 
- - Help us build the [[Cheatsheet]]	
+- Help us build the [[Cheatsheet]]	
 - Want to contribute? Check out our [[Code Style Guide]] and [[Design]] guidelines and start hacking away!	
 - We need [[Volunteers]]	
 
- ## Community	
+## Community	
 
- - Read our user [[Testimonials]].	
+- Read our user [[Testimonials]].	
 - [[Articles]] Have you written a blog post/article that mentions Oh My Zsh?
