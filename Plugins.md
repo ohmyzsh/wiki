@@ -1,4 +1,4 @@
- Oh My Zsh plugins allow you to add functionality of many sorts to your shell just by enabling them. They are
+Oh My Zsh comes bundled with plugins, which allow you to take advantage of functionality of many sorts to your shell just by enabling them. They are
 each documented in the README file in their respective `plugins/` folder.
 
 Enable a plugin by adding its name to the `plugins` array in your `.zshrc` file (found in the `$HOME`
@@ -8,7 +8,7 @@ directory). For example, this enables the `rails`, `git` and `ruby` plugins, **i
 plugins=(rails git ruby)
 ```
 
-**_NOTE: elements in zsh arrays are separated by whitespace (spaces, tabs, new lines...). DO NOT use commas._**
+**_NOTE: elements in zsh arrays are separated by whitespace (spaces, tabs, newlines...). DO NOT use commas._**
 
 ## Plugins
 
