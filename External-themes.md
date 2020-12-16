@@ -12,8 +12,8 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 #### bigpath
 ![](https://preview.redd.it/ie39emm3bl461.png?width=1230&format=png&auto=webp&s=418d6c1a143bd4506bb3c161264606375ed5050e)
 
-This theme can show your username, your current directory + the one before, git information (branch and unstaged/uncommited changes) and the current time.
-Pink dot means unstaged, purple dot means uncommited.
+This theme can show your username, your current directory + the one before, git information (branch and unstaged/uncommited changes), and the current time.
+Pink dot means unstaged, purple dot means uncommitted.
 
 Author: [@Tesohh](https://github.com/Tesohh)
 [Repo](https://github.com/Tesohh/omzbigpath)
@@ -21,7 +21,7 @@ Author: [@Tesohh](https://github.com/Tesohh)
 ---
 #### ✏️✅ emoji
 
-emoji theme for [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/). simplified *robbyrussell* and replaced git prompt symbol with emoji for better clarity.
+emoji theme for [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/). simplified *robbyrussell* and replaced git prompt symbol with emoji for better clarity. Works fine on Macs.
 
 ![Alt text](https://raw.githubusercontent.com/masaakifuruki/emoji.zsh-theme/main/emoji_theme_ohmyzsh.png "emoji oh my zsh theme preview")
 
@@ -37,6 +37,9 @@ Activate a new theme with  ```$ source ~/.zshrc```.
 - ```➜ current_dir (git_branch) <emoji indicator>```
 - ✏️ Git prompt is dirty (uncommitted files)
 - ✅ Git prompt is clean (committed)
+
+##### Issues
+- ✏️ emoji is breaking cursor potion to the right hover on the first character on Crostini terminal
 
 source: [repo](https://github.com/masaakifuruki/emoji.zsh-theme)
 
