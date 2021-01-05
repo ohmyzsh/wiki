@@ -9,6 +9,20 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
+
+#### passion
+
+![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
+
+* time prompt will update once you finish inputting.
+* time cost will show after command running.
+
+source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
+
+author: [@chesteryue](https://github.com/ChesterYue)
+
+---
+
 #### bigpath
 ![](https://preview.redd.it/ie39emm3bl461.png?width=1230&format=png&auto=webp&s=418d6c1a143bd4506bb3c161264606375ed5050e)
 
@@ -44,19 +58,6 @@ Activate a new theme with  ```$ source ~/.zshrc```.
 source: [repo](https://github.com/masaakifuruki/emoji.zsh-theme)
 
 author: [@masaakifuruki](https://github.com/masaakifuruki)
-
----
-
-#### passion
-
-![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
-
-* time prompt will update once you finish inputting.
-* time cost will show after command running.
-
-source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
-
-author: [@chesteryue](https://github.com/ChesterYue)
 
 ---
 
