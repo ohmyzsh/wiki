@@ -1,5 +1,7 @@
 # Settings
 
+> **NOTE: unless specified otherwise, these variables need to be declared _before_ Oh My Zsh is sourced in your `.zshrc` file.**
+
 <!-- TOC depthFrom:2 -->
 
 - [Main settings](#main-settings)
@@ -39,7 +41,7 @@ For other settings:
 
 ## Main settings
 
-These are the main variables which control Oh My Zsh. Some are required and some are optional, this is specified next to the setting name. **NOTE: these variables need to be declared _before_ Oh My Zsh is sourced in your `.zshrc` file.**
+These are the main variables which control Oh My Zsh. Some are required and some are optional; that is specified for each setting.
 
 ### `ZSH`
 
