@@ -245,7 +245,7 @@ requires a lot of processing before offering completion entries.
 COMPLETION_WAITING_DOTS=true
 ```
 
-NOTE: this setting has been known to cause issues with multiline prompt themes.
+NOTE: this setting has been found to cause issues with [multiline prompt themes](https://github.com/ohmyzsh/ohmyzsh/issues/5765) ([zsh 5.7.1 and newer seem to work](https://github.com/ohmyzsh/ohmyzsh/issues/5765#issuecomment-569432346)).
 
 ### `DISABLE_UNTRACKED_FILES_DIRTY`
 
