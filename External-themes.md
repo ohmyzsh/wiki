@@ -1384,4 +1384,11 @@ repository: [kube-zsh-theme](https://github.com/tigerjz32/kube-zsh-theme/)
 
 author: [@tigerjz32](https://github.com/tigerjz32)
 
+#### shini
+![shini](https://raw.github.com/bashelled/shini/master/screenshot.png)
 
+A simple zsh theme. With your average time, exit status, user@host, directory and git branch, you can just install and relax.
+
+See [repository](https://github.com/bashelled/shini) for installation.
+
+Author: [@bashelled](https://github.com/bashelled)
