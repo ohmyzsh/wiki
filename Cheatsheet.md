@@ -82,7 +82,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gb_                   | git branch                                                                        |
 | _gba_                  | git branch -a                                                                     |
 | _gbd_                  | git branch -d                                                                     |
-| _gbda_                 | git branch --no-color --merged \| command grep -vE "^(\\+\|\\\*\|\\s\*(master\|develop\|dev)\\s*$)" \| command xargs -n 1 git branch -d |
+| _gbda_                 | git branch --no-color --merged \| command grep -vE "^(\+\|\*\|\s*($(git_main_branch)\|development\|develop\|devel\|dev)\s*$)" \| command xargs -n 1 git branch -d |
 | _gbl_                  | git blame -b -w                                                                   |
 | _gbnm_                 | git branch --no-merged                                                            |
 | _gbr_                  | git branch --remote                                                               |
