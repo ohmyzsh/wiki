@@ -10,7 +10,7 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 ---
 #### ubunly
 
-The  **new Kali Linux**  console adapted to Ubuntu!
+The  **new Kali Linux**  console adapted to Ubuntu (and maybe any distro)!
 
 ```
 To install it, it is as easy as running the single INSTALLER.sh file
