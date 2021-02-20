@@ -8,7 +8,21 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
+#### ubunly
 
+The  **new Kali Linux**  console adapted to Ubuntu!
+
+```
+To install it, it is as easy as running the single INSTALLER.sh file
+```
+
+![](https://camo.githubusercontent.com/55706d89bdbb484c6a54b7476311c7ccf218bcc96752caa0a11eb1664983c03b/68747470733a2f2f63646e2e636c697070792e67672f636c697070792f37663265303964322d653238302d343434302d623464392d3665346438383730313939332f633138353166362e676966)
+
+* Install: [how to intall](https://github.com/alejandromume/ubunly-zsh-theme#install)
+* Source: [here](https://github.com/alejandromume/ubunly-zsh-theme)
+* Author [@alejandromume](https://github.com/alejandromume)
+
+---
 
 #### passion
 
