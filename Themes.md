@@ -418,7 +418,7 @@ Also tells you when logged in over ssh
 ![strug](https://user-images.githubusercontent.com/49100982/108255755-b828fd00-716d-11eb-8dee-2d981777a2b3.jpg)
 
 ### sunaku
-![sunaku](https://user-images.githubusercontent.com/49100982/108255759-b828fd00-716d-11eb-8951-0af2c0ac1297.jpgg)
+![sunaku](https://user-images.githubusercontent.com/49100982/108255759-b828fd00-716d-11eb-8951-0af2c0ac1297.jpg)
 
 Exit status if nonzero, status & branch if git, `pwd` always.
 
