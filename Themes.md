@@ -142,118 +142,118 @@ To use: In the right prompt you see git status and (if you use nvm) the Node.js 
 
 ## F
 ### fino-time
-![fino-time](https://user-images.githubusercontent.com/1816101/62961370-eb623180-bdfc-11e9-87c7-cd557f08cbe3.jpg)
+![fino-time](https://user-images.githubusercontent.com/49100982/108254806-82cfdf80-716c-11eb-9bbc-2d9648109b31.jpg)
 
 ### fino
-![fino](https://user-images.githubusercontent.com/1816101/62961371-ebfac800-bdfc-11e9-9c37-64aa5117259c.jpg)
+![fino](https://user-images.githubusercontent.com/49100982/108254809-82cfdf80-716c-11eb-8d66-027fe4ecfd55.jpg)
 
 ### fishy
-![fishy](https://user-images.githubusercontent.com/1816101/62961373-ebfac800-bdfc-11e9-93fd-77b12b608953.jpg)
+![fishy](https://user-images.githubusercontent.com/49100982/108254811-83687600-716c-11eb-88df-2d1fb721a62b.jpg)
 
 The fish shell prompt with git support
 
 ### flazz
-![flazz](https://user-images.githubusercontent.com/1816101/62961375-ebfac800-bdfc-11e9-81ab-9c87c1c629ad.jpg)
+![flazz](https://user-images.githubusercontent.com/49100982/108254813-83687600-716c-11eb-98dc-083a14aae6e1.jpg)
 
 Has git and vi-command mode support (when enabled)
 
 ### fletcherm
-![fletcherm](https://user-images.githubusercontent.com/1816101/62961376-ebfac800-bdfc-11e9-8629-801812f3cef3.jpg)
+![fletcherm](https://user-images.githubusercontent.com/49100982/108254817-84010c80-716c-11eb-8d56-81bc95a46ef5.jpg)
 
 ### fox
-![fox](https://user-images.githubusercontent.com/1816101/62961377-ebfac800-bdfc-11e9-9e6e-ddf4fa38699f.jpg)
+![fox](https://user-images.githubusercontent.com/49100982/108254819-8499a300-716c-11eb-9c13-c6fd49d72a6c.jpg)
 
 ### frisk
-![frisk](https://user-images.githubusercontent.com/1816101/62961379-ec935e80-bdfc-11e9-9a8c-c605ccf0f281.jpg)
+![frisk](https://user-images.githubusercontent.com/49100982/108254820-8499a300-716c-11eb-922d-5cc6ffa08fc1.jpg)
 
 ### frontcube
-![frontcube](https://user-images.githubusercontent.com/1816101/62961380-ec935e80-bdfc-11e9-8f80-d77e8adc42d6.jpg)
+![frontcube](https://user-images.githubusercontent.com/49100982/108254821-85323980-716c-11eb-90b9-fc0b4b014f36.jpg)
 
 ### funky
-![funky](https://user-images.githubusercontent.com/1816101/62961381-ec935e80-bdfc-11e9-92fb-b8bb9e6078b8.jpg)
+![funky](https://user-images.githubusercontent.com/49100982/108254822-85323980-716c-11eb-8422-69480dce0f62.jpg)
 
 It’s funky…
 
 ### fwalch
-![fwalch](https://user-images.githubusercontent.com/1816101/62961382-ec935e80-bdfc-11e9-84e4-0785ea308284.jpg)
+![fwalch](https://user-images.githubusercontent.com/49100982/108254824-85cad000-716c-11eb-9b7a-fe9e24131df7.jpg)
 
 
 # G
 ### gallifrey
-![gallifrey](https://user-images.githubusercontent.com/1816101/62961508-2f553680-bdfd-11e9-98f9-898b8d418ea2.jpg)
+![gallifrey](https://user-images.githubusercontent.com/49100982/108254827-86636680-716c-11eb-94e2-64318cb21f3b.jpg)
 
 ### gallois
-![gallois](https://user-images.githubusercontent.com/1816101/62961509-2f553680-bdfd-11e9-8abc-9faaefebe0f7.jpg)
+![gallois](https://user-images.githubusercontent.com/49100982/108254828-86636680-716c-11eb-8d3a-146431df149f.jpg)
 
 ### garyblessington
-![garyblessington](https://user-images.githubusercontent.com/1816101/62961510-2f553680-bdfd-11e9-961c-e126714e2bed.jpg)
+![garyblessington](https://user-images.githubusercontent.com/49100982/108254830-86fbfd00-716c-11eb-8e9e-57cb190cd35b.jpg)
 
 ### gentoo
-![gentoo](https://user-images.githubusercontent.com/1816101/62961511-2f553680-bdfd-11e9-944f-18b9a65d8c28.jpg)
+![gentoo](https://user-images.githubusercontent.com/49100982/108254832-86fbfd00-716c-11eb-8bbf-7840e84b4c44.jpg)
 
 ### geoffgarside
-![geoffgarside](https://user-images.githubusercontent.com/1816101/62961512-2fedcd00-bdfd-11e9-8e44-f4ad6be47ce2.jpg)
+![geoffgarside](https://user-images.githubusercontent.com/49100982/108254834-87949380-716c-11eb-8ff7-9a494c650852.jpg)
 
 ### gianu
-![gianu](https://user-images.githubusercontent.com/1816101/62961514-2fedcd00-bdfd-11e9-8433-9d0fb5eaa5e8.jpg)
+![gianu](https://user-images.githubusercontent.com/49100982/108254836-87949380-716c-11eb-8d5b-a4b24ea53f67.jpg)
 
 ### gnzh
-![gnzh](https://user-images.githubusercontent.com/1816101/62961515-2fedcd00-bdfd-11e9-995b-59b42041c8f0.jpg)
+![gnzh](https://user-images.githubusercontent.com/49100982/108254837-882d2a00-716c-11eb-9f49-3b5e6e62eb52.jpg)
 
 ### gozilla
-![gozilla](https://user-images.githubusercontent.com/1816101/62961517-2fedcd00-bdfd-11e9-8ba6-1d508c8460c8.jpg)
+![gozilla](https://user-images.githubusercontent.com/49100982/108254838-88c5c080-716c-11eb-9bd9-4d88b870f04f.jpg)
 
 
 ## H
 ### half-life
-![half-life](https://user-images.githubusercontent.com/1816101/62961593-5a3f8a80-bdfd-11e9-912f-ca3e2a4aa9e5.jpg)
+![half-life](https://user-images.githubusercontent.com/49100982/108254840-88c5c080-716c-11eb-9971-f2cfbf54f91a.jpg)
 
 ### humza
-![humza](https://user-images.githubusercontent.com/1816101/62961595-5a3f8a80-bdfd-11e9-9526-20eeccc3b3f2.jpg)
+![humza](https://user-images.githubusercontent.com/49100982/108254841-895e5700-716c-11eb-9984-ab8ec70ad92e.jpg)
 
 
 # I
 ### imajes
-![imajes](https://user-images.githubusercontent.com/1816101/62961597-5ad82100-bdfd-11e9-8459-ca1fd31dd43c.jpg)
+![imajes](https://user-images.githubusercontent.com/49100982/108254845-895e5700-716c-11eb-807f-0ecb0aa4db00.jpg)
 
 ### intheloop
-![intheloop](https://user-images.githubusercontent.com/1816101/62961599-5ad82100-bdfd-11e9-810a-2349233ca712.jpg)
+![intheloop](https://user-images.githubusercontent.com/49100982/108254849-89f6ed80-716c-11eb-8e92-dcf5e576df64.jpg)
 
 ### itchy
-![itchy](https://user-images.githubusercontent.com/1816101/62961600-5ad82100-bdfd-11e9-969a-43e034065c1c.jpg)
+![itchy](https://user-images.githubusercontent.com/49100982/108254851-89f6ed80-716c-11eb-9922-185b952b24db.jpg)
 
 
 # J
 ### jaischeema
-![jaischeema](https://user-images.githubusercontent.com/1816101/62961660-79d6b300-bdfd-11e9-8d69-2ea44ed22bac.jpg)
+![jaischeema](https://user-images.githubusercontent.com/49100982/108254853-8a8f8400-716c-11eb-9775-780e00c3f680.jpg)
 
 ### jbergantine
-![jbergantine](https://user-images.githubusercontent.com/1816101/62961661-79d6b300-bdfd-11e9-872e-b51a40bb3c7d.jpg)
+![jbergantine](https://user-images.githubusercontent.com/49100982/108254855-8b281a80-716c-11eb-960d-2f2cf8e5153f.jpg)
 
 ### jispwoso
-![jispwoso](https://user-images.githubusercontent.com/1816101/62961663-79d6b300-bdfd-11e9-96ad-76bf2c061ab2.jpg)
+![jispwoso](https://user-images.githubusercontent.com/49100982/108254857-8bc0b100-716c-11eb-808f-d0b6f1a16774.jpg)
 
 ### jnrowe
-![jnrowe](https://user-images.githubusercontent.com/1816101/62961664-7a6f4980-bdfd-11e9-8933-7d3e3d2a5ded.jpg)
+![jnrowe](https://user-images.githubusercontent.com/49100982/108254859-8bc0b100-716c-11eb-998b-4ee8bb6c1f3f.jpg)
 
 ### jonathan
-![jonathan](https://user-images.githubusercontent.com/1816101/62961665-7a6f4980-bdfd-11e9-8b93-b9c41b11cd8e.jpg)
+![jonathan](https://user-images.githubusercontent.com/49100982/108254860-8c594780-716c-11eb-8f8b-be04d4943216.jpg)
 
 ### josh
-![josh](https://user-images.githubusercontent.com/1816101/62961666-7a6f4980-bdfd-11e9-8fa5-394d4319ad2f.jpg)
+![josh](https://user-images.githubusercontent.com/49100982/108254862-8cf1de00-716c-11eb-8bfe-f2e46376a10f.jpg)
 
 ### jreese
-![jreese](https://user-images.githubusercontent.com/1816101/62961667-7a6f4980-bdfd-11e9-9866-7094a8988f72.jpg)
+![jreese](https://user-images.githubusercontent.com/49100982/108254863-8cf1de00-716c-11eb-935f-87cc85ef6ed7.jpg)
 
 ### jtriley
-![jtriley](https://user-images.githubusercontent.com/1816101/62961668-7a6f4980-bdfd-11e9-8da6-644379f1c18a.jpg)
+![jtriley](https://user-images.githubusercontent.com/49100982/108254869-8d8a7480-716c-11eb-8857-ee82b1fe4023.jpg)
 
 ### juanghurtado
-![juanghurtado](https://user-images.githubusercontent.com/1816101/62961669-7a6f4980-bdfd-11e9-99fe-09f2559f153a.jpg)
+![juanghurtado](https://user-images.githubusercontent.com/49100982/108254872-8d8a7480-716c-11eb-9782-4a37a851ce1f.jpg)
 
 ### junkfood
 
-![junkfood](https://user-images.githubusercontent.com/1816101/62961670-7b07e000-bdfd-11e9-9aef-87128aa769c3.jpg)
+![junkfood](https://user-images.githubusercontent.com/49100982/108254874-8e230b00-716c-11eb-90ea-e4f66c9a3dd6.jpg)
 
 > Totally ripped off Dallas theme
 
@@ -262,235 +262,235 @@ It’s funky…
 
 ## K
 ### kafeitu
-![kafeitu](https://user-images.githubusercontent.com/1816101/62965888-36cd0d80-be06-11e9-83c6-836228a04a48.jpg)
+![kafeitu](https://user-images.githubusercontent.com/49100982/108254876-8e230b00-716c-11eb-9adb-50d695796563.jpg)
 
 ### kardan
-![kardan](https://user-images.githubusercontent.com/1816101/62965889-36cd0d80-be06-11e9-8ab1-a9d56aae78a7.jpg)
+![kardan](https://user-images.githubusercontent.com/49100982/108254877-8ebba180-716c-11eb-9fb5-9b0437433305.jpg)
 
 ### kennethreitz
-![kennethreitz](https://user-images.githubusercontent.com/1816101/62965891-36cd0d80-be06-11e9-9ad2-ed2e9fb3f345.jpg)
+![kennethreitz](https://user-images.githubusercontent.com/49100982/108254878-8f543800-716c-11eb-9373-a3e4e19b58ae.jpg)
 
 ### kolo
-![kolo](https://user-images.githubusercontent.com/1816101/62965893-36cd0d80-be06-11e9-8c24-e5d21a03b9a7.jpg)
+![kolo](https://user-images.githubusercontent.com/49100982/108254881-8f543800-716c-11eb-8115-2232727264d6.jpg)
 
 ### kphoen
-![kphoen](https://user-images.githubusercontent.com/1816101/62965895-3765a400-be06-11e9-9f8f-53cd2ee8224b.jpg)
+![kphoen](https://user-images.githubusercontent.com/49100982/108254883-8fecce80-716c-11eb-9a4d-ad5c465af835.jpg)
 
 
 # L
 ### lambda
-![lambda](https://user-images.githubusercontent.com/1816101/62965896-3765a400-be06-11e9-9eb8-e5e04f772ae7.jpg)
+![lambda](https://user-images.githubusercontent.com/49100982/108254885-8fecce80-716c-11eb-8012-aabac630c475.jpg)
 
 ### linuxonly
-![linuxonly](https://user-images.githubusercontent.com/1816101/62965897-3765a400-be06-11e9-94a8-e8ee994b72e7.jpg)
+![linuxonly](https://user-images.githubusercontent.com/49100982/108254886-90856500-716c-11eb-81e8-8ba2b7ea922f.jpg)
 
 (As the name states, this only works on Linux)
 
 ### lukerandall
-![lukerandall](https://user-images.githubusercontent.com/1816101/62965898-37fe3a80-be06-11e9-8872-a5dc726d3693.jpg)
+![lukerandall](https://user-images.githubusercontent.com/49100982/108254887-911dfb80-716c-11eb-99a0-275b35afd9ce.jpg)
 
 
 ## M
 ### macovsky
-![macovsky](https://user-images.githubusercontent.com/1816101/62965990-62e88e80-be06-11e9-8fb7-d219b0042f0f.jpg)
+![macovsky](https://user-images.githubusercontent.com/49100982/108254888-911dfb80-716c-11eb-9595-b08415fb1c17.jpg)
 
 ### maran
-![maran](https://user-images.githubusercontent.com/1816101/62965991-62e88e80-be06-11e9-989c-3c8fdc2f0b3f.jpg)
+![maran](https://user-images.githubusercontent.com/49100982/108254890-91b69200-716c-11eb-8fa3-108c8692087c.jpg)
 
 ### mgutz
-![mgutz](https://user-images.githubusercontent.com/1816101/62965992-62e88e80-be06-11e9-8c0c-7654e97f6b37.jpg)
+![mgutz](https://user-images.githubusercontent.com/49100982/108254893-91b69200-716c-11eb-9f6c-221967f1adc6.jpg)
 
 ### mh
-![mh](https://user-images.githubusercontent.com/1816101/62965993-63812500-be06-11e9-99f3-c5b44934fab0.jpg)
+![mh](https://user-images.githubusercontent.com/49100982/108254896-924f2880-716c-11eb-83fe-be8f732f46da.jpg)
 
 ### michelebologna
-![michelebologna](https://user-images.githubusercontent.com/1816101/62965994-63812500-be06-11e9-9f6f-3d36e3cc4fa3.jpg)
+![michelebologna](https://user-images.githubusercontent.com/49100982/108254897-92e7bf00-716c-11eb-86b8-bf00a43d6a43.jpg)
 
 ### mikeh
-![mikeh](https://user-images.githubusercontent.com/1816101/62965995-63812500-be06-11e9-9739-5877d641a269.jpg)
+![mikeh](https://user-images.githubusercontent.com/49100982/108254900-93805580-716c-11eb-9e39-5e8dda6c2308.jpg)
 
 ### miloshadzic
-![miloshadzic](https://user-images.githubusercontent.com/1816101/62965997-63812500-be06-11e9-904d-352b78cd4408.jpg)
+![miloshadzic](https://user-images.githubusercontent.com/49100982/108254899-93805580-716c-11eb-84d6-822e33ad5ffb.jpg)
 
 ### minimal
-![minimal](https://user-images.githubusercontent.com/1816101/62965998-63812500-be06-11e9-97a0-34cac4e5b0df.jpg)
+![minimal](https://user-images.githubusercontent.com/49100982/108254900-93805580-716c-11eb-9e39-5e8dda6c2308.jpg)
 
 ### mortalscumbag
-![mortalscumbag](https://user-images.githubusercontent.com/1816101/62966000-63812500-be06-11e9-8ba7-0d8f7fbea464.jpg)
+![mortalscumbag](https://user-images.githubusercontent.com/49100982/108254901-9418ec00-716c-11eb-9439-6dd4621e6784.jpg)
 
 Also tells you when logged in over ssh
 
 ### mrtazz
-![mrtazz](https://user-images.githubusercontent.com/1816101/62966001-6419bb80-be06-11e9-9d41-b2632295e445.jpg)
+![mrtazz](https://user-images.githubusercontent.com/49100982/108254902-9418ec00-716c-11eb-9001-6a5abecf0aa1.jpg)
 
 ### murilasso
 ![murilasso](https://user-images.githubusercontent.com/1816101/62966002-6419bb80-be06-11e9-90f0-7ef55042e6e9.jpg)
 
 ### muse
-![muse](https://user-images.githubusercontent.com/1816101/62966003-6419bb80-be06-11e9-9d0a-db4f1eb096e8.jpg)
+![muse](https://user-images.githubusercontent.com/49100982/108254905-954a1900-716c-11eb-820c-15814dd13a7d.jpg)
 
 
 ## N
 ### nanotech
-![nanotech](https://user-images.githubusercontent.com/1816101/62966128-b22ebf00-be06-11e9-928b-0c0e86142eef.jpg)
+![nanotech](https://user-images.githubusercontent.com/49100982/108254907-954a1900-716c-11eb-8be4-d8accb5a2a44.jpg)
 
 ### nebirhos
-![nebirhos](https://user-images.githubusercontent.com/1816101/62966129-b22ebf00-be06-11e9-8b42-fd00e20e12a8.jpg)
+![nebirhos](https://user-images.githubusercontent.com/49100982/108254909-95e2af80-716c-11eb-8d16-d78875d9263a.jpg)
 
 ### nicoulaj
-![nicoulaj](https://user-images.githubusercontent.com/1816101/62966130-b22ebf00-be06-11e9-94f2-9f692d31aedf.jpg)
+![nicoulaj](https://user-images.githubusercontent.com/49100982/108254911-95e2af80-716c-11eb-811d-e8ea16f6ee0c.jpg)
 
 ### norm
-![norm](https://user-images.githubusercontent.com/1816101/62966131-b2c75580-be06-11e9-9b0c-de2100cdd437.jpg)
+![norm](https://user-images.githubusercontent.com/49100982/108254912-967b4600-716c-11eb-8e3e-eb5487570074.jpg)
 
 
 ## O
 ### obraun
-![obraun](https://user-images.githubusercontent.com/1816101/62966132-b2c75580-be06-11e9-9d58-70e9f15876a7.jpg)
+![obraun](https://user-images.githubusercontent.com/49100982/108254914-967b4600-716c-11eb-8c11-830bc97f274e.jpg)
 
 
 ## P
 ### peepcode
-![peepcode](https://user-images.githubusercontent.com/1816101/62966133-b2c75580-be06-11e9-890e-e2cd14c79e52.jpg)
+![peepcode](https://user-images.githubusercontent.com/49100982/108254917-9713dc80-716c-11eb-8f73-69c67ced32a7.jpg)
 
 ### philips
-![philips](https://user-images.githubusercontent.com/1816101/62966134-b2c75580-be06-11e9-9ee2-c56eb03f0220.jpg)
+![philips](https://user-images.githubusercontent.com/49100982/108254919-97ac7300-716c-11eb-9338-cb7009d3a5ea.jpg)
 
 ### pmcgee
-![pmcgee](https://user-images.githubusercontent.com/1816101/62966135-b35fec00-be06-11e9-8318-9ae8fdb6ca4c.jpg)
+![pmcgee](https://user-images.githubusercontent.com/49100982/108254920-97ac7300-716c-11eb-80d5-301ba10cf969.jpg)
 
 ### pygmalion
-![pygmalion](https://user-images.githubusercontent.com/1816101/62966137-b35fec00-be06-11e9-85a8-2d90d395c304.jpg)
+![pygmalion](https://user-images.githubusercontent.com/49100982/108254921-98450980-716c-11eb-9d27-18562610887f.jpg)
 
 
 ## R
 ### re5et
-![re5et](https://user-images.githubusercontent.com/1816101/62966419-4a2ca880-be07-11e9-8b32-2266fc1c09da.jpg)
+![re5et](https://user-images.githubusercontent.com/49100982/108254922-98450980-716c-11eb-88af-2e1c1ba5c5fe.jpg)
 
 ### refined
-![refined](https://user-images.githubusercontent.com/1816101/62966420-4ac53f00-be07-11e9-9b62-7816a65871bb.jpg)
+![refined](https://user-images.githubusercontent.com/49100982/108255729-b2cbb280-716d-11eb-8869-d612e2344ef5.jpg)
 
 ### rgm
-![rgm](https://user-images.githubusercontent.com/1816101/62966421-4ac53f00-be07-11e9-87de-99ea008be104.jpg)
+![rgm](https://user-images.githubusercontent.com/49100982/108255732-b2cbb280-716d-11eb-8587-f8b412c48907.jpg)
 
 ### risto
-![risto](https://user-images.githubusercontent.com/1816101/62966422-4ac53f00-be07-11e9-88cf-740f1ad2edde.jpg)
+![risto](https://user-images.githubusercontent.com/49100982/108255733-b3644900-716d-11eb-8fea-4ce136198782.jpg)
 
 ### rixius
-![rixius](https://user-images.githubusercontent.com/1816101/62966423-4ac53f00-be07-11e9-9f02-32b02c25d4a9.jpg)
+![rixius](https://user-images.githubusercontent.com/49100982/108255734-b3fcdf80-716d-11eb-8e9b-b8c7c7546e75.jpg)
 
 ### rkj-repos
-![rkj](https://user-images.githubusercontent.com/1816101/62966424-4ac53f00-be07-11e9-8b4a-3de59e7bb806.jpg)
+![rkj](https://user-images.githubusercontent.com/49100982/108255735-b3fcdf80-716d-11eb-92ee-678fd1bff92f.jpg)
 
 
 ## S
 ### sammy
-![sammy](https://user-images.githubusercontent.com/1816101/62966495-76e0c000-be07-11e9-9f16-f381afe686f5.jpg)
+![sammy](https://user-images.githubusercontent.com/49100982/108255736-b4957600-716d-11eb-848a-f4b9a83a58c7.jpg)
 
 ### simonoff
-![simonoff](https://user-images.githubusercontent.com/1816101/62966496-77795680-be07-11e9-9985-4d813573fdd6.jpg)
+![simonoff](https://user-images.githubusercontent.com/49100982/108255738-b4957600-716d-11eb-8dea-87c1764d7e35.jpg)
 
 ### simple
-![simple](https://user-images.githubusercontent.com/1816101/62966497-77795680-be07-11e9-9ffe-73b34b4b14a2.jpg)
+![simple](https://user-images.githubusercontent.com/49100982/108255740-b52e0c80-716d-11eb-8645-d1ed285204f9.jpg)
 
 ### skaro
-![skaro](https://user-images.githubusercontent.com/1816101/62966498-77795680-be07-11e9-8a25-e728a89e7981.jpg)
+![skaro](https://user-images.githubusercontent.com/49100982/108255742-b52e0c80-716d-11eb-8ea1-8a6aa361fe96.jpg)
 
 ### smt
-![smt](https://user-images.githubusercontent.com/1816101/62966499-77795680-be07-11e9-98b0-e3e9ab9cdff9.jpg)
+![smt](https://user-images.githubusercontent.com/49100982/108255743-b5c6a300-716d-11eb-9f64-185f288c1364.jpg)
 
 ### Soliah
-![Soliah](https://user-images.githubusercontent.com/1816101/62966500-77795680-be07-11e9-89af-905723509f87.jpg)
+![Soliah](https://user-images.githubusercontent.com/49100982/108255747-b65f3980-716d-11eb-8e12-1ce6cf4d009f.jpg)
 
 ### sonicradish
-![sonicradish](https://user-images.githubusercontent.com/1816101/62966501-7811ed00-be07-11e9-9a0a-37cc64cf7e54.jpg)
+![sonicradish](https://user-images.githubusercontent.com/49100982/108255750-b65f3980-716d-11eb-9dfc-620748a03844.jpg)
 
 ### sorin
-![sorin](https://user-images.githubusercontent.com/1816101/62966502-7811ed00-be07-11e9-8348-5de10312557b.jpg)
+![sorin](https://user-images.githubusercontent.com/49100982/108255752-b6f7d000-716d-11eb-8415-3d5d18839646.jpg)
 
 ### sporty_256
-![sporty_256](https://user-images.githubusercontent.com/1816101/62966503-7811ed00-be07-11e9-9d86-2f26d90155ab.jpg)
+![sporty_256](https://user-images.githubusercontent.com/49100982/108255753-b6f7d000-716d-11eb-96b7-7448b890a583.jpg)
 
 ### steeef
-![steeef](https://user-images.githubusercontent.com/1816101/62966504-7811ed00-be07-11e9-81a2-2df843640210.jpg)
+![steeef](https://user-images.githubusercontent.com/49100982/108255754-b7906680-716d-11eb-9e70-4d79fdd62a2a.jpg)
 
 ### strug
-![strug](https://user-images.githubusercontent.com/1816101/62966505-7811ed00-be07-11e9-965b-6cef987101d0.jpg)
+![strug](https://user-images.githubusercontent.com/49100982/108255755-b828fd00-716d-11eb-8dee-2d981777a2b3.jpg)
 
 ### sunaku
-![sunaku](https://user-images.githubusercontent.com/1816101/62966506-78aa8380-be07-11e9-80e2-67931ebe397a.jpg)
+![sunaku](https://user-images.githubusercontent.com/49100982/108255759-b828fd00-716d-11eb-8951-0af2c0ac1297.jpgg)
 
 Exit status if nonzero, status & branch if git, `pwd` always.
 
 ### sunrise
-![sunrise](https://user-images.githubusercontent.com/1816101/62966507-78aa8380-be07-11e9-91f5-a9ebae6bd88e.jpg)
+![sunrise](https://user-images.githubusercontent.com/49100982/108255761-b8c19380-716d-11eb-8c73-02da22b53021.jpg)
 
 Lightweight prompt with exit status and `git status` consistent mode line.
 
 ### superjarin
-![superjarin](https://user-images.githubusercontent.com/1816101/62966509-78aa8380-be07-11e9-903f-5bd3cd836d21.jpg)
+![superjarin](https://user-images.githubusercontent.com/49100982/108255762-b8c19380-716d-11eb-8ab2-de382c6dd78e.jpg)
 
 Git status, git branch, and ruby, all in a no muss, no fuss prompt! Works with RVM, chruby, and rbenv (just activate the corresponding plugin).
 
 ### suvash
-![suvash](https://user-images.githubusercontent.com/1816101/62966510-78aa8380-be07-11e9-9e27-f77fcde6bae2.jpg)
+![suvash](https://user-images.githubusercontent.com/49100982/108255766-b95a2a00-716d-11eb-905e-bad027eacc41.jpg)
 
 Username, host, directory, git branch and rvm gemset
 
 
 ## T
 ### takashiyoshida
-![takashiyoshida](https://user-images.githubusercontent.com/1816101/62967268-ec995b80-be08-11e9-9b86-bf3d728dd9fa.jpg)
+![takashiyoshida](https://user-images.githubusercontent.com/49100982/108255767-b95a2a00-716d-11eb-9750-41c3b6036529.jpg)
 
 ### terminalparty
-![terminalparty](https://user-images.githubusercontent.com/1816101/62967270-ec995b80-be08-11e9-87df-9096ba428583.jpg)
+![terminalparty](https://user-images.githubusercontent.com/49100982/108255770-b9f2c080-716d-11eb-8e79-068a5ed7ee7a.jpg)
 
 There is a party every day.
 
 ### theunraveler
-![theunraveler](https://user-images.githubusercontent.com/1816101/62967271-ec995b80-be08-11e9-9d49-efe6d6a677a8.jpg)
+![theunraveler](https://user-images.githubusercontent.com/49100982/108255772-ba8b5700-716d-11eb-99cc-53d05b5bf20c.jpg)
 
 Minimal, informative when it needs to be.
 
 ### tjkirch
-![tjkirch](https://user-images.githubusercontent.com/1816101/62967272-ec995b80-be08-11e9-9ac5-8fd135a74248.jpg)
+![tjkirch](https://user-images.githubusercontent.com/49100982/108255774-ba8b5700-716d-11eb-80f2-213a9932fb0a.jpg)
 
 Based on dst, plus a lightning bolt and return codes.
 
 ### tonotdo
-![tonotdo](https://user-images.githubusercontent.com/1816101/62967273-ec995b80-be08-11e9-9349-8d910a629227.jpg)
+![tonotdo](https://user-images.githubusercontent.com/49100982/108255775-bb23ed80-716d-11eb-9ec4-ea00690300bb.jpg)
 
 ### trapd00r
-![trapd00r](https://user-images.githubusercontent.com/1816101/62967441-3eda7c80-be09-11e9-9c4d-1cae5871e000.jpg)
+![trapd00r](https://user-images.githubusercontent.com/49100982/108255776-bb23ed80-716d-11eb-9ada-24b61a3d4afe.jpg)
 
 
 ## W
 ### wedisagree
-![wedisagree](https://user-images.githubusercontent.com/1816101/62967478-54e83d00-be09-11e9-849c-ed463ac9b0dd.jpg)
+![wedisagree](https://user-images.githubusercontent.com/49100982/108255779-bbbc8400-716d-11eb-98e9-3d0993efe2c3.jpg)
 
 Instructions to further customize the theme are available as comments in the theme file.
 
 ### wezm
-![wezm](https://user-images.githubusercontent.com/1816101/62967479-54e83d00-be09-11e9-8905-95a366fe7081.jpg)
+![wezm](https://user-images.githubusercontent.com/49100982/108255780-bbbc8400-716d-11eb-83b2-b9a4ba63bdbf.jpg)
 
 ### wezm+
-![wezm+](https://user-images.githubusercontent.com/1816101/62967480-54e83d00-be09-11e9-8968-e71024c3d03e.jpg)
+![wezm+](https://user-images.githubusercontent.com/49100982/108255782-bc551a80-716d-11eb-9347-c841028b8c1a.jpg)
 
 ### wuffers
-![wuffers](https://user-images.githubusercontent.com/1816101/62967481-54e83d00-be09-11e9-94e0-f47139d586a7.jpg)
+![wuffers](https://user-images.githubusercontent.com/49100982/108255783-bcedb100-716d-11eb-9330-e1d16aeaf994.jpg)
 
 
 ## X
 ### xiong-chiamiov
-![xiong-chiamiov](https://user-images.githubusercontent.com/1816101/62967485-54e83d00-be09-11e9-8646-fd420eba3647.jpg)
+![xiong-chiamiov](https://user-images.githubusercontent.com/49100982/108255786-bcedb100-716d-11eb-9f4d-540b75cc62c2.jpg)
 
 ### xiong-chiamiov-plus
-![xiong-chiamiov-plus](https://user-images.githubusercontent.com/1816101/62967483-54e83d00-be09-11e9-8ccd-b5f376d65b75.jpg)
+![xiong-chiamiov-plus](https://user-images.githubusercontent.com/49100982/108255788-bd864780-716d-11eb-87b1-01cab8ee3f93.jpg)
 
 
 ## Y
 ### ys
-![ys](https://user-images.githubusercontent.com/1816101/62967487-5580d380-be09-11e9-8589-f2e245f4a22e.jpg)
+![ys](https://user-images.githubusercontent.com/49100982/108255792-be1ede00-716d-11eb-8c26-f7ad7ab3c4f2.jpg)
 
 Clean, simple, compatible and meaningful.Tested on Linux, Unix and Windows under ANSI colors.
 It is recommended to use with a dark background.
@@ -500,7 +500,7 @@ It is recommended to use with a dark background.
 
 ## Z
 ### zhann
-![zhann](https://user-images.githubusercontent.com/1816101/62967488-5580d380-be09-11e9-9d71-ab15c0742b3e.jpg)
+![zhann](https://user-images.githubusercontent.com/49100982/108255796-be1ede00-716d-11eb-8b61-9a419ebe7a4a.jpg)
 
 
 ---
@@ -532,7 +532,7 @@ We use manually-constructed screenshots because some of the themes require addit
 
 ###  Uploading screenshots to GitHub
 
-We host all the screenshot images on GitHub itself, to avoid external dependencies on other hosting services or URLs that might break. We use issue attachments which will get them in to githubusercontent.com. (It's also possible to store image files in a GitHub wiki itself, but this requires you to have Contributor permissions for the repo whose Wiki you're editing. The issue-attachment method can be done by anybody.)
+We host all the screenshot images on GitHub itself, to avoid external dependencies on other hosting services or URLs that might break.Please, compress images before. We use issue attachments which will get them in to githubusercontent.com. (It's also possible to store image files in a GitHub wiki itself, but this requires you to have Contributor permissions for the repo whose Wiki you're editing. The issue-attachment method can be done by anybody.)
 
 To upload an image to GitHub, just drag and drop it into the text area on an issue you're editing. You can use issue #3619 for this to avoid spamming people with notifications about new issues. The uploaded image will turn in to an image in Markdown format. Edit that to use the special `[![name](image-url)](image-url)` syntax to make the image link to itself, so people can open the image in a new tab to view it full size. (Images inside a wiki page may be displayed scaled down.)
 
