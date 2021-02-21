@@ -63,81 +63,81 @@ Shown in the screenshot with tmux and the [powerline plugin](https://github.com/
 
 ## B
 ### bira
-![bira](https://user-images.githubusercontent.com/1816101/62960744-9ffb5380-bdfb-11e9-8167-1dc4dbf1b835.jpg)
+![bira](https://user-images.githubusercontent.com/49100982/108254762-7a77a480-716c-11eb-8665-b4f459fd8920.jpg)
 
 ### blinks
-![blinks](https://user-images.githubusercontent.com/1816101/62960747-9ffb5380-bdfb-11e9-848c-26372f7b690d.jpg)
+![blinks](https://user-images.githubusercontent.com/49100982/108254767-7b103b00-716c-11eb-9bdd-426643a53722.jpg)
 
 ### bureau
-![bureau](https://user-images.githubusercontent.com/1816101/62960748-a093ea00-bdfb-11e9-93e0-9d945d0cbe13.jpg)
+![bureau](https://user-images.githubusercontent.com/49100982/108254768-7b103b00-716c-11eb-92e1-ebd7486d6f13.jpg)
 
 To use: In the right prompt you see git status and (if you use nvm) the Node.js version.
 
 
 ## C
 ### candy
-![candy](https://user-images.githubusercontent.com/1816101/62960749-a093ea00-bdfb-11e9-9bbf-04ce2a6fd6a0.jpg)
+![candy](https://user-images.githubusercontent.com/49100982/108254770-7ba8d180-716c-11eb-965f-63b9ce0efe15.jpg)
 
 ### clean
-![clean](https://user-images.githubusercontent.com/1816101/62960752-a093ea00-bdfb-11e9-89d4-0d6ae616db94.jpg)
+![clean](https://user-images.githubusercontent.com/49100982/108254772-7ba8d180-716c-11eb-9d96-f54d13acde5b.jpg)
 
 ### cloud
-![cloud](https://user-images.githubusercontent.com/1816101/62960753-a093ea00-bdfb-11e9-9922-a72495b2b06a.jpg)
+![cloud](https://user-images.githubusercontent.com/49100982/108254774-7c416800-716c-11eb-9ea8-8f8cbac82922.jpg)
 
 ### crcandy
-![crcandy](https://user-images.githubusercontent.com/1816101/62961066-56f7cf00-bdfc-11e9-9c5b-10044d622f61.jpg)
+![crcandy](https://user-images.githubusercontent.com/49100982/108254775-7c416800-716c-11eb-8e54-fa40ccb0d519.jpg)
 
 ### crunch
-![crunch](https://user-images.githubusercontent.com/1816101/62961067-56f7cf00-bdfc-11e9-911b-0316a41b7779.jpg)
+![crunch](https://user-images.githubusercontent.com/49100982/108254776-7cd9fe80-716c-11eb-889a-84d7b26df847.jpg)
 
 ### cypher
-![cypher](https://user-images.githubusercontent.com/1816101/62961068-56f7cf00-bdfc-11e9-951e-a2e06d21ae3c.jpg)
+![cypher](https://user-images.githubusercontent.com/49100982/108254777-7d729500-716c-11eb-9ab2-232ed00e30aa.jpg)
 
 
 ## D
 ### dallas
-![dallas](https://user-images.githubusercontent.com/1816101/62961138-7e4e9c00-bdfc-11e9-8530-5e0d386ada0c.jpg)
+![dallas](https://user-images.githubusercontent.com/49100982/108254779-7d729500-716c-11eb-98b9-ef343be7a8fe.jpg)
 
 ### darkblood
-![darkblood](https://user-images.githubusercontent.com/1816101/62961141-7e4e9c00-bdfc-11e9-9a9f-d8b858ad6f8d.jpg)
+![darkblood](https://user-images.githubusercontent.com/49100982/108254782-7e0b2b80-716c-11eb-95db-b149bc1c0032.jpg)
 
 ### daveverwer
 ![daveverwer](https://user-images.githubusercontent.com/1816101/62961143-7e4e9c00-bdfc-11e9-9777-ce1f230de9d7.jpg)
 
 ### dieter
-![dieter](https://user-images.githubusercontent.com/1816101/62961144-7e4e9c00-bdfc-11e9-9693-4270c50e2031.jpg)
+![dieter](https://user-images.githubusercontent.com/49100982/108254786-7ea3c200-716c-11eb-9c33-d24d404d4e25.jpg)
 
 ### dogenpunk
-![dogenpunk](https://user-images.githubusercontent.com/1816101/62961146-7e4e9c00-bdfc-11e9-9e29-aae8d5f74b8f.jpg)
+![dogenpunk](https://user-images.githubusercontent.com/49100982/108254788-7f3c5880-716c-11eb-96e3-27cc0d6297d3.jpg)
 
 ### dpoggi
-![dpoggi](https://user-images.githubusercontent.com/1816101/62961147-7e4e9c00-bdfc-11e9-8ac3-ef4d49178357.jpg)
+![dpoggi](https://user-images.githubusercontent.com/49100982/108254790-7fd4ef00-716c-11eb-821e-d11fba0c4f10.jpg)
 
 ### dst
-![dst](https://user-images.githubusercontent.com/1816101/62961148-7ee73280-bdfc-11e9-9b12-0719b80046fb.jpg)
+![dst](https://user-images.githubusercontent.com/49100982/108254792-7fd4ef00-716c-11eb-8fa7-67d845b771be.jpg)
 
 ### dstufft
-![dstufft](https://user-images.githubusercontent.com/1816101/62961149-7ee73280-bdfc-11e9-89c5-8bcd02d0097a.jpg)
+![dstufft](https://user-images.githubusercontent.com/49100982/108254797-806d8580-716c-11eb-9ec5-ae1b23d0a7cd.jpg)
 
 ### duellj
-![duellj](https://user-images.githubusercontent.com/1816101/62961151-7ee73280-bdfc-11e9-860d-dab928179199.jpg)
+![duellj](https://user-images.githubusercontent.com/49100982/108254799-806d8580-716c-11eb-9f1e-2634dc9309d3.jpg)
 
 
 ## E
 ### eastwood
-![eastwood](https://user-images.githubusercontent.com/1816101/62961289-ca99dc00-bdfc-11e9-9965-27d49bf087c7.jpg)
+![eastwood](https://user-images.githubusercontent.com/49100982/108254800-81061c00-716c-11eb-858e-aa17d4c5e07e.jpg)
 
 ### edvardm
-![edvardm](https://user-images.githubusercontent.com/1816101/62961290-ca99dc00-bdfc-11e9-8016-93e12a40d42e.jpg)
+![edvardm](https://user-images.githubusercontent.com/49100982/108254801-819eb280-716c-11eb-9279-01b8ef95c734.jpg)
 
 ### emotty
-![emotty](https://user-images.githubusercontent.com/1816101/62961291-ca99dc00-bdfc-11e9-8998-6f50cc06c200.jpg)
+![emotty](https://user-images.githubusercontent.com/49100982/108254802-819eb280-716c-11eb-9d66-d21bb1e7196c.jpg)
 
 ### essembeh
-![essembeh](https://user-images.githubusercontent.com/1816101/62961292-ca99dc00-bdfc-11e9-8c5e-a1f356ceef07.jpg)
+![essembeh](https://user-images.githubusercontent.com/49100982/108254803-82374900-716c-11eb-9510-ef560d31e7e7.jpg)
 
 ### evan
-![evan](https://user-images.githubusercontent.com/1816101/62961293-ca99dc00-bdfc-11e9-91f1-de80272be791.jpg)
+![evan](https://user-images.githubusercontent.com/49100982/108254804-82374900-716c-11eb-9636-71abb16053df.jpg)
 
 
 ## F
