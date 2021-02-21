@@ -12,7 +12,7 @@ Here is a collection of screenshots and descriptions of themes that have been co
 ### robbyrussell
 *the (default) that Robby uses*
 
-![robbyrussell](https://user-images.githubusercontent.com/1816101/62960429-ebf9c880-bdfa-11e9-9d26-193d50ea34de.jpg)
+![robbyrussell](https://user-images.githubusercontent.com/49100982/108254738-764b8700-716c-11eb-9a59-4deb8c8c6193.jpg)
 
 ------------------------------------
 
@@ -20,14 +20,14 @@ The rest of the themes, in alphabetical order:
 
 ## A
 ### af-magic
-![af-magic](https://user-images.githubusercontent.com/1816101/62960494-09c72d80-bdfb-11e9-8f5c-1c0149ef453b.jpg)
+![af-magic](https://user-images.githubusercontent.com/49100982/108254742-76e41d80-716c-11eb-89b0-09445ce76ff0.jpg)
 
 ### afowler
-![afowler](https://user-images.githubusercontent.com/1816101/62960517-177cb300-bdfb-11e9-942f-e6f6e9383246.jpg)
+![afowler](https://user-images.githubusercontent.com/49100982/108254744-777cb400-716c-11eb-9407-1463775bbc25.jpg)
 
 ### agnoster
 
-![agnoster](https://user-images.githubusercontent.com/1816101/62960553-295e5600-bdfb-11e9-86f3-8cdfe5bbe947.jpg)
+![agnoster](https://user-images.githubusercontent.com/49100982/108254745-777cb400-716c-11eb-800a-a8cfa612253f.jpg)
 
 [Official repository](https://github.com/agnoster/agnoster-zsh-theme)
 
@@ -38,27 +38,27 @@ Additional setup:
 - *Optionally* set `DEFAULT_USER` to your regular username followed by prompt_context(){} in `~/.zshrc` to hide the “user@hostname” info when you’re logged in as yourself on your local machine.
 
 ### alanpeabody
-![alanpeabody](https://user-images.githubusercontent.com/1816101/62960555-29f6ec80-bdfb-11e9-9011-29fe69bc058a.jpg)
+![alanpeabody](https://user-images.githubusercontent.com/49100982/108254746-78154a80-716c-11eb-873a-6500b9d54219.jpg)
 
 ### amuse
-![amuse](https://user-images.githubusercontent.com/1816101/62960556-29f6ec80-bdfb-11e9-9ad7-63cd1181fc53.jpg)
+![amuse](https://user-images.githubusercontent.com/49100982/108254748-78ade100-716c-11eb-8f61-0a2bec4f671c.jpg)
 
 Shown in the screenshot with tmux and the [powerline plugin](https://github.com/powerline/powerline) (you might need to install one of the [patched powerline fonts](https://github.com/powerline/fonts) for it to look the same).
 
 ### apple
-![apple](https://user-images.githubusercontent.com/1816101/62960559-29f6ec80-bdfb-11e9-8661-3a50d911d494.jpg)
+![apple](https://user-images.githubusercontent.com/49100982/108254750-78ade100-716c-11eb-8c3b-7d529b7b4e25.jpg)
 
 ### arrow
-![arrow](https://user-images.githubusercontent.com/1816101/62960560-2a8f8300-bdfb-11e9-8367-44c397bb7a9e.jpg)
+![arrow](https://user-images.githubusercontent.com/49100982/108254751-78ade100-716c-11eb-9135-39cbffcf406e.jpg)
 
 ### aussiegeek
-![aussiegeek](https://user-images.githubusercontent.com/1816101/62960561-2a8f8300-bdfb-11e9-82ba-0bf2dfa95671.jpg)
+![aussiegeek](https://user-images.githubusercontent.com/49100982/108254752-79467780-716c-11eb-82d4-304d04bf35bf.jpg)
 
 ### avit
-![avit](https://user-images.githubusercontent.com/1816101/62960742-9ffb5380-bdfb-11e9-81d2-da12212829b0.jpg)
+![avit](https://user-images.githubusercontent.com/49100982/108254755-79df0e00-716c-11eb-9069-da947bd4a3dc.jpg)
 
 ### awesomepanda
-![awesomepanda](https://user-images.githubusercontent.com/1816101/62960743-9ffb5380-bdfb-11e9-91bc-866a9bda2106.jpg)
+![awesomepanda](https://user-images.githubusercontent.com/49100982/108254758-79df0e00-716c-11eb-8990-62f456ddd785.jpg)
 
 
 ## B
