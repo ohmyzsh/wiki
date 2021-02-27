@@ -24,3 +24,4 @@ If you know of any that are missing, feel free to contribute! :-)
 - [May the 'command line' be with you](https://rachelcarmena.github.io/2019/05/26/may-the-command-line-be-with-you.html)
 - [My Terminal Setup + Zsh](https://dev.to/aspittel/my-terminal-setup-iterm2--zsh--30lm)
 - [A Huge List of Useful Keyboard Shortcuts](https://medium.com/better-programming/a-definitive-guide-to-all-the-shortcuts-for-new-rubyists-a365a590d16e)--Oh-My-zsh at the end
+- [Powering up your terminal in Mac](https://programmerabroad.com/powering-up-your-terminal-in-mac/)
