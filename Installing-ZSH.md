@@ -182,7 +182,11 @@ Or:
 ```sh
 chsh -s $(which zsh)
 ```
-
+### KISS Linux
+To install zsh, you must add the [community](https://github.com/kiss-community/repo-community/) repo to your `$KISS_PATH`.
+```sh
+kiss b zsh && kiss i zsh
+```
 ### Add yours
 
 If you know a platform that is not covered, edit this page and add it!
