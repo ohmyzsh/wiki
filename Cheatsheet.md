@@ -189,7 +189,7 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gsr_                  | git svn rebase                                                                    |
 | _gss_                  | git status -s                                                                     |
 | _gst_                  | git status                                                                        |
-| _gsta_                 | git stash save                                                                    |
+| _gsta_                 | git stash push                                                                    |
 | _gstaa_                | git stash apply                                                                   |
 | _gstd_                 | git stash drop                                                                    |
 | _gstl_                 | git stash list                                                                    |
