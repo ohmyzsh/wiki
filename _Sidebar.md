@@ -9,15 +9,7 @@
   + [[Cheatsheet]]
   + [[Customization]]
   + [[Articles]]
-  + [[External plugins]]
-  + [[External themes]]
-  + [[Testimonials]]
-* **Contributing**
-  + [[Volunteers]]
-  + [[Design]]
-  + [[Code Style Guide]]
-  + [[Wiki Style Guide]]
-  + [[Contribution Technical Practices]]
+
 
 ------------------
 
