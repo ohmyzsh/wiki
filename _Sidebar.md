@@ -8,7 +8,6 @@
   + [[Themes]]
   + [[Cheatsheet]]
   + [[Customization]]
-  + [[Troubleshooting]]
 * **Community**
   + [[Articles]]
   + [[External plugins]]
