@@ -19,7 +19,7 @@ If necessary, follow these steps to install Zsh:
   - with the package manager of your choice, _e.g._ `sudo apt install zsh` (see [below for more examples](#how-to-install-zsh-on-many-platforms))
   - from [source](http://zsh.sourceforge.net/Arc/source.html), following
         [instructions from the Zsh FAQ](http://zsh.sourceforge.net/FAQ/zshfaq01.html#l7)
-2. Verify installation by running `zsh --version`. Expected result: `zsh 5.4.2` or more recent.
+2. Verify installation by running `zsh --version`. Expected result: `zsh 5.0.8` or more recent.
 3. Make it your default shell: `chsh -s $(which zsh)`
   - Note that this will not work if Zsh is not in your authorized shells list (`/etc/shells`)
     or if you don't have permission to use `chsh`. If that's the case [you'll need to use a different procedure](https://www.google.com/search?q=zsh+default+without+chsh).
@@ -31,8 +31,7 @@ If necessary, follow these steps to install Zsh:
 
 ### macOS
 
-**Try `zsh --version` before installing it from Homebrew. If it's newer than 4.3.9
-you _might_ be OK. Preferably newer than or equal to `5.0`.**
+**Try `zsh --version` before installing it from Homebrew. Preferably newer than or equal to `5.0.8`.**
 
 ```sh
 brew install zsh
