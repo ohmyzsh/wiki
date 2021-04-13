@@ -8,6 +8,19 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
+
+#### smoothmonkey
+
+<br/>
+<h3 align="center"><a href="https://github.com/sebastianpulido/oh-my-zsh">smooth monkey</a></h3>
+<br/>
+
+![smoothmonkey](https://user-images.githubusercontent.com/17438047/114495050-c45aa380-9c60-11eb-97be-3ae2a068d1c0.png)
+
+See [repository](https://github.com/sebastianpulido/oh-my-zsh) for source code.
+
+Author: [@sebastianpulido](https://github.com/sebastianpulido)
+
 #### ubunly
 
 The  **new Kali Linux**  console adapted to Ubuntu (and maybe any distro)!
@@ -1407,15 +1420,3 @@ A simple zsh theme. With your average time, exit status, user@host, directory an
 See [repository](https://github.com/bashelled/shini) for installation.
 
 Author: [@bashelled](https://github.com/bashelled)
-
-#### smoothmonkey
-
-<br/>
-<h3 align="center"><a href="https://github.com/sebastianpulido/oh-my-zsh">smooth monkey</a></h3>
-<br/>
-
-![smoothmonkey](https://user-images.githubusercontent.com/17438047/114493114-40eb8300-9c5d-11eb-89da-fb87e60f9325.png)
-
-See [repository](https://github.com/sebastianpulido/oh-my-zsh) for source code.
-
-Author: [@sebastianpulido](https://github.com/sebastianpulido)
