@@ -1407,3 +1407,10 @@ A simple zsh theme. With your average time, exit status, user@host, directory an
 See [repository](https://github.com/bashelled/shini) for installation.
 
 Author: [@bashelled](https://github.com/bashelled)
+
+#### smoothmonkey
+![smoothmonkey](https://user-images.githubusercontent.com/17438047/114492107-2dd7b380-9c5b-11eb-9f62-52bc8eaf8112.png)
+
+See [repository](https://github.com/sebastianpulido/oh-my-zsh) for installation.
+
+Author: [@sebastianpulido](https://github.com/sebastianpulido)
