@@ -9,11 +9,7 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
-#### smoothmonkey
-
-<br/>
 <h3 align="center"><a href="https://github.com/sebastianpulido/oh-my-zsh">smooth monkey</a></h3>
-<br/>
 
 ![smoothmonkey](https://user-images.githubusercontent.com/17438047/114495050-c45aa380-9c60-11eb-97be-3ae2a068d1c0.png)
 
