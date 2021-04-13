@@ -21,6 +21,8 @@ See [repository](https://github.com/sebastianpulido/oh-my-zsh) for source code.
 
 Author: [@sebastianpulido](https://github.com/sebastianpulido)
 
+---
+
 #### ubunly
 
 The  **new Kali Linux**  console adapted to Ubuntu (and maybe any distro)!
