@@ -1409,8 +1409,13 @@ See [repository](https://github.com/bashelled/shini) for installation.
 Author: [@bashelled](https://github.com/bashelled)
 
 #### smoothmonkey
+
+<br/>
+<h3 align="center"><a href="https://github.com/sebastianpulido/oh-my-zsh">smooth monkey</a></h3>
+<br/>
+
 ![smoothmonkey](https://user-images.githubusercontent.com/17438047/114493114-40eb8300-9c5d-11eb-89da-fb87e60f9325.png)
 
-See [repository](https://github.com/sebastianpulido/oh-my-zsh) for installation.
+See [repository](https://github.com/sebastianpulido/oh-my-zsh) for source code.
 
 Author: [@sebastianpulido](https://github.com/sebastianpulido)
