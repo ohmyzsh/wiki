@@ -9,9 +9,7 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
-<img width="1027" alt="ohmyzsh" src="https://user-images.githubusercontent.com/17438047/116856820-1a5aaf80-ac3f-11eb-9320-24b563c7b16b.png">
-
-![smoothmonkey](https://user-images.githubusercontent.com/17438047/114495050-c45aa380-9c60-11eb-97be-3ae2a068d1c0.png)
+![smoothmonkey](https://user-images.githubusercontent.com/17438047/116856820-1a5aaf80-ac3f-11eb-9320-24b563c7b16b.png)
 
 See [repository](https://github.com/sebastianpulido/oh-my-zsh) for source code.
 
