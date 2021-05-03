@@ -2,12 +2,12 @@ _If you don't find what you're looking for, and you think it should be covered b
 
 <!-- TOC depthFrom:2 -->
 
-- [DEFINITIONS](#definitions)
+- [Definitions](#definitions)
     - [What is Oh My Zsh and what does it have to do with zsh?](#what-is-oh-my-zsh-and-what-does-it-have-to-do-with-zsh)
     - [What is a zsh plugin?](#what-is-a-zsh-plugin)
     - [What is a zsh theme?](#what-is-a-zsh-theme)
     - [What is the .zshrc file?](#what-is-the-zshrc-file)
-- [HOW DO I...?](#how-do-i)
+- [How do I...?](#how-do-i)
     - [How do I install Zsh?](#how-do-i-install-zsh)
     - [How do I install Oh My Zsh?](#how-do-i-install-oh-my-zsh)
     - [How do I uninstall Oh My Zsh?](#how-do-i-uninstall-oh-my-zsh)
@@ -15,7 +15,7 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [How do I reload the zshrc file?](#how-do-i-reload-the-zshrc-file)
     - [How do I reset the completion cache?](#how-do-i-reset-the-completion-cache)
     - [How do I manually update Oh My Zsh from a script?](#how-do-i-manually-update-oh-my-zsh-from-a-script)
-- [COMMON PROBLEMS](#common-problems)
+- [Common problems](#common-problems)
   - [Font issues](#font-issues)
     - [I have a weird character in my prompt](#i-have-a-weird-character-in-my-prompt)
   - [Completion issues](#completion-issues)
@@ -23,12 +23,12 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [I see duplicate typed characters after I complete a command](#i-see-duplicate-typed-characters-after-i-complete-a-command)
   - [Zsh errors](#zsh-errors)
     - [zsh: no matches found](#zsh-no-matches-found)
-- [OTHER PROBLEMS](#other-problems)
+- [Other problems](#other-problems)
     - [`kill-word` or `backward-kill-word` do / don't delete a symbol (`WORDCHARS`)](#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars)
 
 <!-- /TOC -->
 
-## DEFINITIONS
+## Definitions
 
 #### What is Oh My Zsh and what does it have to do with zsh?
 
@@ -48,7 +48,7 @@ A zsh theme is a zsh script that changes the **prompt**. The prompt is the line 
 
 The `.zshrc` file (or just `zshrc` file) is a file that zsh reads when it starts. It can be found in your home directory, which will change depending on the system and platform you're using. On a terminal, the path to the home directory can be found by running `echo $HOME`.
 
-## HOW DO I...?
+## How do I...?
 
 #### How do I install Zsh?
 
@@ -154,17 +154,19 @@ The best way to do that is to call the `upgrade.sh` script directly. If `$ZSH` i
 
 Another option is to use the `omz` CLI. The `omz update` command triggers an update, but it also shows the changelog and restarts the zsh session (which _might_ cause a restart loop). To avoid that, run it with the `--unattended` flag, like so: `omz update --unattended`. But again, it's better to call the `upgrade.sh` script directly.
 
-## COMMON PROBLEMS
+## Common problems
 
 ### Font issues
 
 #### I have a weird character in my prompt
 
-Some themes like Agnoster require a special font to render certain characters. First, make sure you have read the theme's instructions written in the [[Themes]] section. Most of the time this issue is solved by installing a [Powerline font](https://github.com/powerline/fonts). After installing it, you need to enable the font in the settings of your terminal emulator.
-
 It might look like this in iTerm2:
 
 ![Example problem in iTerm2](https://camo.githubusercontent.com/12b3877f95cf1d22ba9b005f1d029e6eb8121449/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3439373337322f3639373135302f64623330306332342d646366382d313165322d393233372d6536306535623965646437312e706e67)
+
+Some themes like Agnoster require a special font to render certain characters. First, make sure you have read the theme's instructions written in the [[Themes]] section. Most of the time this issue is solved by installing a [Powerline font](https://github.com/powerline/fonts), or [a nerd font](https://github.com/ryanoasis/nerd-fonts). Some themes may require the use of a nerd font over a powerline font, but nerd fonts do work whereever powerline fonts work.
+
+After installing it, you need to enable the font in the settings of your terminal emulator. Just installing the font isn't enough, as the terminal doesn't know to use that font for the symbols.
 
 ### Completion issues
 
@@ -227,7 +229,7 @@ There are many solutions, some temporary, some permanent:
    # the command continues successfully
    ```
 
-## OTHER PROBLEMS
+## Other problems
 
 #### `kill-word` or `backward-kill-word` do / don't delete a symbol (`WORDCHARS`)
 
