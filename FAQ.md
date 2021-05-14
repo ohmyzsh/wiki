@@ -166,7 +166,7 @@ It might look like this in iTerm2:
 
 Some themes like Agnoster require a special font to render certain characters. First, make sure you have read the theme's instructions written in the [[Themes]] section. Most of the time this issue is solved by installing a [Powerline font](https://github.com/powerline/fonts), or [a nerd font](https://github.com/ryanoasis/nerd-fonts). Some themes may require the use of a nerd font over a powerline font, but nerd fonts do work whereever powerline fonts work.
 
-After installing it, you need to enable the font in the settings of your terminal emulator. Just installing the font isn't enough, as the terminal doesn't know to use that font for the symbols.
+After installing it, you need to enable the font in the settings of your terminal emulator. Just installing the font isn't enough, as the terminal doesn't know to use that font for the symbols. Also note that the font has to be set anywhere you display the themes - this may include editors and IDEs.
 
 ### Completion issues
 
