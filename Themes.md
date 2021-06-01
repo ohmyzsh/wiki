@@ -487,10 +487,10 @@ Instructions to further customize the theme are available as comments in the the
 
 ## X
 ### xiong-chiamiov
-![xiong-chiamiov](https://user-images.githubusercontent.com/49100982/108255786-bcedb100-716d-11eb-9f4d-540b75cc62c2.jpg)
+![xiong-chiamiov-plus](https://user-images.githubusercontent.com/49100982/108255788-bd864780-716d-11eb-87b1-01cab8ee3f93.jpg)
 
 ### xiong-chiamiov-plus
-![xiong-chiamiov-plus](https://user-images.githubusercontent.com/49100982/108255788-bd864780-716d-11eb-87b1-01cab8ee3f93.jpg)
+![xiong-chiamiov](https://user-images.githubusercontent.com/49100982/108255786-bcedb100-716d-11eb-9f4d-540b75cc62c2.jpg)
 
 
 ## Y
