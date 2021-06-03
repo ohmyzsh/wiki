@@ -596,7 +596,7 @@ author: [@skuridin](https://github.com/skuridin)
 source: [here](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh)
 author: [@yarisgutierrez](https://github.com/yarisgutierrez)
 
-#### Spaceship ZSH
+#### Spaceship
 
 ![Spaceship](https://user-images.githubusercontent.com/10276208/36086434-5de52ace-0ff2-11e8-8299-c67f9ab4e9bd.gif)
 
@@ -641,18 +641,18 @@ Currently it shows:
 * Current .NET SDK version, through dotnet-cli (`.NET`).
 * Current Ember.js version, through ember-cli (`🐹`).
 * Current Kubectl context (`☸️`).
-* Package version, if there's is a package in current directory (`📦`).
+* Package version, if there's is a package in the current directory (`📦`).
 * Current battery level and status:
   * `⇡` - charging;
   * `⇣` - discharging;
   * `•` - fully charged.
 * Current Vi-mode mode (with handy aliases for temporarily enabling).
-* Optional exit-code of last command.
+* Optional exit-code of the last command.
 * Optional time stamps 12/24hr in format.
 * Execution time of the last command if it exceeds the set threshold.
 
-source: [denysdovhan/spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt)  
-docs: [denysdovhan.com/spaceship-prompt](https://denysdovhan.com/spaceship-prompt)  
+source: [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt)  
+docs: [spaceship-prompt.sh](https://spaceship-prompt.sh)  
 author: [@denysdovhan](https://twitter.com/denysdovhan)
 
 #### Zeta Theme
