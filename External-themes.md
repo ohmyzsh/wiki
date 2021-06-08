@@ -17,6 +17,19 @@ Author: [@sebastianpulido](https://github.com/sebastianpulido)
 
 ---
 
+#### passion
+
+![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
+
+* time prompt will update once you finish inputting.
+* time cost will show after command running.
+
+source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
+
+author: [@chesteryue](https://github.com/ChesterYue)
+
+---
+
 #### ubunly
 
 The  **new Kali Linux**  console adapted to Ubuntu (and maybe any distro)!
@@ -31,19 +44,6 @@ To install it, it is as easy as running the single INSTALLER.sh file
 
 * Source: [here](https://github.com/alejandromume/ubunly-zsh-theme)
 * Author [@alejandromume](https://github.com/alejandromume)
-
----
-
-#### passion
-
-![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
-
-* time prompt will update once you finish inputting.
-* time cost will show after command running.
-
-source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
-
-author: [@chesteryue](https://github.com/ChesterYue)
 
 ---
 
