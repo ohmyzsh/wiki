@@ -9,14 +9,6 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
-![smoothmonkey](https://user-images.githubusercontent.com/17438047/116856820-1a5aaf80-ac3f-11eb-9320-24b563c7b16b.png)
-
-See [repository](https://github.com/sebastianpulido/oh-my-zsh) for source code.
-
-Author: [@sebastianpulido](https://github.com/sebastianpulido)
-
----
-
 #### passion
 
 ![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
@@ -27,6 +19,14 @@ Author: [@sebastianpulido](https://github.com/sebastianpulido)
 source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
 
 author: [@chesteryue](https://github.com/ChesterYue)
+
+---
+
+![smoothmonkey](https://user-images.githubusercontent.com/17438047/116856820-1a5aaf80-ac3f-11eb-9320-24b563c7b16b.png)
+
+See [repository](https://github.com/sebastianpulido/oh-my-zsh) for source code.
+
+Author: [@sebastianpulido](https://github.com/sebastianpulido)
 
 ---
 
