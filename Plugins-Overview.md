@@ -68,6 +68,7 @@
 | [pj](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pj)             | aliases for quick access to projects dir                      |
 | [wd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/wd)             | yet another autojump tool github.com/mfaerevaag/wd            |
 | [z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)               | yet another autojump                                          |
+| [zoxide](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zoxide)     | a blazing fast, fully featured autojumper written in Rust ([homepage](https://github.com/ajeetdsouza/zoxide)) |
 
 ### Build tools
 
