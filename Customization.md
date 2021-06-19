@@ -27,7 +27,7 @@ $ZSH_CUSTOM
 
 Also follow these steps if you want to override plugins that ship with your oh-my-zsh installation. To override a plugin with a custom version, put your custom version at `$ZSH_CUSTOM/plugins/<plugin_name>/`. For example, if it's the rvm plugin you want to override, create the directory `custom/plugins/rvm` and place a file called `rvm.plugin.zsh` inside of it. 
 
-This method will override the entire plugin: your custom plugin files will be loaded *instead* of any of the files from the original plugin.
+This method will override the entire plugin: your custom plugin files will be loaded *instead* of the files from the original plugin.
 
 ### Partially overriding an existing plugin
 
@@ -98,4 +98,4 @@ $HOME
 
 ## Version control of customizations
 
-By default git is set to ignore the custom directory, so that oh-my-zsh's update process does not interfere with your customizations. If you want to use a version control system like git for your personal changes, just initialize your own repository inside the `custom` directory (`git init`), or point `$ZSH_CUSTOM` to another directory you have under version control.
+By default, git is set to ignore the custom directory, so that oh-my-zsh's update process does not interfere with your customizations. If you want to use a version control system like git for your personal changes, just initialize your own repository inside the `custom` directory (`git init`), or point `$ZSH_CUSTOM` to another directory you have under version control.
