@@ -48,6 +48,25 @@ A zsh theme is a zsh script that changes the **prompt**. The prompt is the line 
 
 The `.zshrc` file (or just `zshrc` file) is a file that zsh reads when it starts. It can be found in your home directory, which will change depending on the system and platform you're using. On a terminal, the path to the home directory can be found by running `echo $HOME`.
 
+#### What Oh My Zsh is not
+
+- Zsh
+- A Zsh replacement
+- A plugin/theme downloader (although a lot of plugins/themes are preinstalled)
+- The app that's called "Terminal"
+- A terminal shell
+- A Zsh theme
+- A Bash theme
+- A dead project
+
+#### What Zsh is not
+
+- Oh My Zsh
+- A plugin engine
+- A reason to instantly uninstall Bash
+- Unusable without Oh My Zsh
+- The app that's called "Terminal"
+
 ## How do I...?
 
 #### How do I install Zsh?
