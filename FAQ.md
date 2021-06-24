@@ -7,6 +7,8 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [What is a zsh plugin?](#what-is-a-zsh-plugin)
     - [What is a zsh theme?](#what-is-a-zsh-theme)
     - [What is the .zshrc file?](#what-is-the-zshrc-file)
+    - [What Oh My Zsh is not](#what-oh-my-zsh-is-not)
+    - [What Zsh is not](#what-zsh-is-not)
 - [How do I...?](#how-do-i)
     - [How do I install Zsh?](#how-do-i-install-zsh)
     - [How do I install Oh My Zsh?](#how-do-i-install-oh-my-zsh)
