@@ -452,11 +452,6 @@ There is a party every day.
 
 Minimal, informative when it needs to be.
 
-### thm
-![thm](https://raw.githubusercontent.com/thm-unix/thm-zshtheme/main/screenshot.png)
-
-Another yet Oh-My-Zsh theme.
-
 ### tjkirch
 ![tjkirch](https://user-images.githubusercontent.com/49100982/108255774-ba8b5700-716d-11eb-80f2-213a9932fb0a.jpg)
 
