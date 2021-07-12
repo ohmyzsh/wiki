@@ -995,19 +995,19 @@ Author: [@dpdornseifer](https://github.com/dpdornseifer)
 
 #### Vero
 
-A theme designed for simplicity, neatness and availability of information, adapted from the 'bureau' theme. Vero offers:
+A theme designed for simplicity, neatness and availability of information. Vero offers:
 
-* Time-stamp
+* Timestamp
 * Current Node.js version
 * Current Git branch and status
 * SSH indicator
 * A fancy lambda symbol
 
-![Screenshot of Vero](https://raw.githubusercontent.com/Raindeer44/vero/master/img/preview.png)
+![Screenshot of Vero](https://gitlab.com/thornjad/vero/-/raw/main/img/preview.png)
 
-See [repo](https://github.com/Raindeer44/vero) for source and documentation
+See [repo](https://gitlab.com/thornjad/vero) for source and documentation
 
-Author: [@raindeer44](https://github.com/raindeer44)
+Author: [@thornjad](https://github.com/thornjad)
 
 #### theta
 
