@@ -197,6 +197,8 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _gstc_                 | git stash clear                                                                   |
 | _gsts_                 | git stash show --text                                                             |
 | _gsu_                  | git submodule update                                                              |
+| _gsw_                  | git switch                                                                        |
+| _gswc_                 | git switch -c                                                                     |
 | _gts_                  | git tag -s                                                                        |
 | _gunignore_            | git update-index --no-assume-unchanged                                            |
 | _gunwip_               | git log -n 1 &#124; grep -q -c "\-\-wip\-\-" && git reset HEAD~1                  |
