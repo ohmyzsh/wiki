@@ -55,6 +55,7 @@
 | [vundle](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vundle)                                         | Vim plugin manager http://github.com/gmarik/vundle                                                             |
 | [wakeonlan](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/wakeonlan)                                   | funcs for wakeonlan tool                                                                                       |
 | [web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)                                 | google from CLI                                                                                                |
+| [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload)                                 | reload the zsh session                                                                                                |
 
 \*\* (To make it work on Ubuntu do `echo DEBIAN_PREVENT_KEYBOARD_CHANGES=yes>>~/.zshenv`).
 
