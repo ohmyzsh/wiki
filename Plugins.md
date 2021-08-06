@@ -14,6 +14,7 @@ plugins=(rails git ruby)
 
 - [adb](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/adb)
 - [alias-finder](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/alias-finder)
+- [ag](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ag)
 - [ansible](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ansible)
 - [ant](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ant)
 - [apache2-macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/apache2-macports)
