@@ -183,7 +183,6 @@
 | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | [apache2-macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/apache2-macports) | apache management functions                                      |
 | [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)                         | package manager http://brew.sh/                                  |
-| [cloudapp](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cloudapp)                 | completion for cloudapp http://getcloudapp.com/                  |
 | [forklift](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/forklift)                 | MacOS file browser                                               |
 | [macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macports)                 | macport autocompletion                                           |
 | [mysql-macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/mysql-macports)     | same as apache-macport for MySQL                                 |
