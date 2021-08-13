@@ -1,1 +1,1 @@
-[See git plugin REAMDE](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git/)
+[See git plugin README](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git/)
