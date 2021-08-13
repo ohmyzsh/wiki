@@ -301,13 +301,10 @@ plugins=(rails git ruby)
 - [zsh-navigation-tools](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh-navigation-tools)
 - [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload)
 
-### Deprecated
-
-- [cloudapp](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cloudapp) (deprecated API)
-- [fedora](https://github.com/ohmyzsh/ohmyzsh/commits/master/plugins/fedora) (use `dnf` instead)
-- [go](https://github.com/ohmyzsh/ohmyzsh/commits/master/plugins/go) (use `golang` instead)
-
 ### Removed
 
+- cloudapp: removed due to [deprecated API](https://github.com/cloudapp/api#note-the-api-is-no-longer-supported).
+- fedora: use `dnf` instead.
 - git-remote-branch: not actively maintained.
+- go: use `golang` instead.
 - nyan: the service that the plugin relied on is no longer available.
