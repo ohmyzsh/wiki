@@ -25,7 +25,7 @@ If necessary, follow these steps to install Zsh:
     or if you don't have permission to use `chsh`. If that's the case [you'll need to use a different procedure](https://www.google.com/search?q=zsh+default+without+chsh).
 4. Log out and log back in again to use your new default shell.
 5. Test that it worked with `echo $SHELL`. Expected result: `/bin/zsh` or similar.
-6. Test with `$SHELL --version`. Expected result: 'zsh 5.4.2' or similar
+6. Test with `$SHELL --version`. Expected result: 'zsh 5.8' or similar
 
 ## How to install zsh on many platforms
 
