@@ -178,7 +178,7 @@ DISABLE_AUTO_TITLE=true
 
 ### `ZSH_THEME_TERM_TITLE_IDLE`
 
-**This variable needs to be set after Oh My Zsh has been sourced.**
+> **This variable needs to be set after Oh My Zsh has been sourced.**
 
 Default title for the terminal when the shell is not running a command. This is used
 just before printing the prompt.
@@ -191,7 +191,7 @@ the directory is omitted).
 
 ### `ZSH_THEME_TERM_TAB_TITLE_IDLE`
 
-**This variable needs to be set after Oh My Zsh has been sourced.**
+> **This variable needs to be set after Oh My Zsh has been sourced.**
 
 This is similar to [`ZSH_THEME_TERM_TITLE_IDLE`](#zsh_theme_term_title_idle) but it targets the
 terminal tab instead. Note that some terminals might use the terminal title and the terminal tab
