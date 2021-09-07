@@ -2,7 +2,7 @@
 
 > **NOTE: unless specified otherwise, these variables need to be declared _before_ Oh My Zsh is sourced in your `.zshrc` file.**
 
-<!-- TOC depthFrom:2 -->
+<!-- TOC depthfrom:2 -->
 
 - [Main settings](#main-settings)
   - [`ZSH`](#zsh)
@@ -17,12 +17,15 @@
 - [Completion settings](#completion-settings)
   - [`ZSH_COMPDUMP`](#zsh_compdump)
   - [`ZSH_DISABLE_COMPFIX`](#zsh_disable_compfix)
+- [Automatic title](#automatic-title)
+  - [`DISABLE_AUTO_TITLE`](#disable_auto_title)
+  - [`ZSH_THEME_TERM_TITLE_IDLE`](#zsh_theme_term_title_idle)
+  - [`ZSH_THEME_TERM_TAB_TITLE_IDLE`](#zsh_theme_term_tab_title_idle)
 - [Library settings](#library-settings)
   - [`CASE_SENSITIVE`](#case_sensitive)
   - [`HYPHEN_INSENSITIVE`](#hyphen_insensitive)
   - [`DISABLE_MAGIC_FUNCTIONS`](#disable_magic_functions)
   - [`DISABLE_LS_COLORS`](#disable_ls_colors)
-  - [`DISABLE_AUTO_TITLE`](#disable_auto_title)
   - [`ENABLE_CORRECTION`](#enable_correction)
   - [`COMPLETION_WAITING_DOTS`](#completion_waiting_dots)
   - [`DISABLE_UNTRACKED_FILES_DIRTY`](#disable_untracked_files_dirty)
@@ -162,6 +165,40 @@ you can safely ignore it as long as you control the `john` user, which has write
 ZSH_DISABLE_COMPFIX=true
 ```
 
+## Automatic title
+
+### `DISABLE_AUTO_TITLE`
+
+Oh My Zsh automatically sets the title of your terminal and tabs when running a command
+or printing the prompt. Use this setting if you want to disable that.
+
+```zsh
+DISABLE_AUTO_TITLE=true
+```
+
+### `ZSH_THEME_TERM_TITLE_IDLE`
+
+**This variable needs to be set after Oh My Zsh has been sourced.**
+
+Default title for the terminal when the shell is not running a command. This is used
+just before printing the prompt.
+
+This variable is a string with [Prompt Expansion sequences](https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html),
+so you can use any of the prompt sequences defined in that documentation page.
+
+**Default:** shows username, hostname and current directory: `%n@%m:%~` (in Terminal.app
+the directory is omitted).
+
+### `ZSH_THEME_TERM_TAB_TITLE_IDLE`
+
+**This variable needs to be set after Oh My Zsh has been sourced.**
+
+This is similar to [`ZSH_THEME_TERM_TITLE_IDLE`](#zsh_theme_term_title_idle) but it targets the
+terminal tab instead. Note that some terminals might use the terminal title and the terminal tab
+title interchangeably, so if changing one setting doesn't do it you can try changing the other.
+
+**Default:** current directory truncated to a maximum of 15 characters: `%15<..<%~%<<`.
+
 ## Library settings
 
 These settings control the behavior of the library parts of Oh My Zsh. These libraries are located in the `lib/` folder of the project. **Again, these settings need to be set before Oh My Zsh is sourced**.
@@ -214,15 +251,6 @@ based on the system you're running and which `ls` commands are available.
 
 ```zsh
 DISABLE_LS_COLORS=true
-```
-
-### `DISABLE_AUTO_TITLE`
-
-Oh My Zsh automatically sets the title of your terminal and tabs when running a command
-or printing the prompt. Use this setting if you want to disable that.
-
-```zsh
-DISABLE_AUTO_TITLE=true
 ```
 
 ### `ENABLE_CORRECTION`
