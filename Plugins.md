@@ -68,7 +68,6 @@ plugins=(rails git ruby)
 - [direnv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/direnv)
 - [dirhistory](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dirhistory)
 - [dirpersist](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dirpersist)
-- [django](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/django)
 - [dnf](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dnf)
 - [dnote](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dnote)
 - [docker](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker)
@@ -313,6 +312,10 @@ plugins=(rails git ruby)
 - [zsh-interactive-cd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh-interactive-cd)
 - [zsh-navigation-tools](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh-navigation-tools)
 - [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload)
+
+### Deprecated
+
+- [django](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/django): Zsh already provides completion for Django.
 
 ### Removed
 
