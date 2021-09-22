@@ -17,6 +17,7 @@
 - [Completion settings](#completion-settings)
   - [`ZSH_COMPDUMP`](#zsh_compdump)
   - [`ZSH_DISABLE_COMPFIX`](#zsh_disable_compfix)
+  - [`COMPLETION_WAITING_DOTS`](#completion_waiting_dots)
 - [Automatic title](#automatic-title)
   - [`DISABLE_AUTO_TITLE`](#disable_auto_title)
   - [`ZSH_THEME_TERM_TITLE_IDLE`](#zsh_theme_term_title_idle)
@@ -27,7 +28,6 @@
   - [`DISABLE_MAGIC_FUNCTIONS`](#disable_magic_functions)
   - [`DISABLE_LS_COLORS`](#disable_ls_colors)
   - [`ENABLE_CORRECTION`](#enable_correction)
-  - [`COMPLETION_WAITING_DOTS`](#completion_waiting_dots)
   - [`DISABLE_UNTRACKED_FILES_DIRTY`](#disable_untracked_files_dirty)
   - [`HIST_STAMPS`](#hist_stamps)
 - [Random theme](#random-theme)
@@ -165,6 +165,26 @@ you can safely ignore it as long as you control the `john` user, which has write
 ZSH_DISABLE_COMPFIX=true
 ```
 
+### `COMPLETION_WAITING_DOTS`
+
+If you enable this setting, Oh My Zsh will print a red ellipsis to indicate that
+Zsh is still processing a completion request, and will disappear when the
+completion finishes. This is useful for example when completing a command that
+requires a lot of processing before offering completion entries.
+
+```zsh
+COMPLETION_WAITING_DOTS=true
+```
+
+You can also set it to a string other than `false` so that it is shown instead of
+the default red ellipsis. For example:
+
+```zsh
+COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
+```
+
+**NOTE: this setting has been found to cause issues with [multiline prompt themes](https://github.com/ohmyzsh/ohmyzsh/issues/5765) ([zsh 5.7.1 and newer seem to work](https://github.com/ohmyzsh/ohmyzsh/issues/5765#issuecomment-569432346)).**
+
 ## Automatic title
 
 ### `DISABLE_AUTO_TITLE`
@@ -263,19 +283,6 @@ commands will be prevented to have filename correction: `cp`, `ebuild`, `gist`,
 ```zsh
 ENABLE_CORRECTION=true
 ```
-
-### `COMPLETION_WAITING_DOTS`
-
-If you enable this setting, Oh My Zsh will print a red ellipsis to indicate that
-Zsh is still processing a completion request, and will disappear when the
-completion finishes. This is useful for example when completing a command that
-requires a lot of processing before offering completion entries.
-
-```zsh
-COMPLETION_WAITING_DOTS=true
-```
-
-NOTE: this setting has been found to cause issues with [multiline prompt themes](https://github.com/ohmyzsh/ohmyzsh/issues/5765) ([zsh 5.7.1 and newer seem to work](https://github.com/ohmyzsh/ohmyzsh/issues/5765#issuecomment-569432346)).
 
 ### `DISABLE_UNTRACKED_FILES_DIRTY`
 
