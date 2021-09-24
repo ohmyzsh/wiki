@@ -78,9 +78,9 @@ Check first that you have it installed: run `zsh`. If you really don't have it i
 
 ##### How do I install Zsh on Windows?
 
-You can't install Zsh directly on Windows. As a consequence, can't install Oh My Zsh either.
+You can't install Zsh directly on Windows. As a reminder, Oh My Zsh needs Zsh installed to work - if you can't install Zsh, you can't install Oh My Zsh.
 
-To use Zsh on windows, you need Windows 10 2004 or 11, and one of the following:
+To use Zsh on Windows, you need Windows 10 2004 or 11, and one of the following:
 
 * [Cygwin](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#cygwin)
 * [WSL](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#ubuntu-debian--derivatives-windows-10-wsl--native-linux-kernel-with-windows-10-build-1903) (note that this requires you to first [install WSL](https://docs.microsoft.com/en-us/windows/wsl/install))
