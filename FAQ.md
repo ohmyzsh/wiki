@@ -11,7 +11,7 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [What Zsh is not](#what-zsh-is-not)
 - [How do I...?](#how-do-i)
     - [How do I install Zsh?](#how-do-i-install-zsh)
-        -[How do I install Zsh on Windows?](#how-do-i-install-zsh-on-windows)
+        - [How do I install Zsh on Windows?](#how-do-i-install-zsh-on-windows)
     - [How do I install Oh My Zsh?](#how-do-i-install-oh-my-zsh)
     - [How do I uninstall Oh My Zsh?](#how-do-i-uninstall-oh-my-zsh)
     - [How do I change my locale?](#how-do-i-change-my-locale)
