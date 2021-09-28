@@ -63,5 +63,13 @@ This plugin show platforms version
 #### [xxh](https://github.com/xxh/xxh) - bring Oh My Zsh wherever you go through the SSH 
 Some users may want to use Oh My Zsh during the SSH connections. There is [xxh project](https://github.com/xxh/xxh) that allows bring Zsh with Oh My Zsh framework to the remote host without any installations, root access or affection on the host.
 
+#### 1password (op) plugin
+
+Requires `1password-cli` and `jq` to be installed.
+
+Adds auto-completion to the `op` command of the `1password-cli`.
+
+You can get it from [here](https://github.com/sirhc/op.plugin.zsh).
+
 ### [zshnotes](https://github.com/jameshgrn/zshnotes)
 A small, tidy, lightweight notes app that creates a daily text file and timestamps every line of added text
