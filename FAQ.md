@@ -1,6 +1,6 @@
 _If you don't find what you're looking for, and you think it should be covered by the FAQ, please [open a new issue](https://github.com/ohmyzsh/ohmyzsh/issues/new?title=FAQ:%20) with what you think should be here._
 
-<!-- TOC depthFrom:2 -->
+<!-- TOC depthfrom:2 -->
 
 - [Definitions](#definitions)
     - [What is Oh My Zsh and what does it have to do with zsh?](#what-is-oh-my-zsh-and-what-does-it-have-to-do-with-zsh)
@@ -11,7 +11,7 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [What Zsh is not](#what-zsh-is-not)
 - [How do I...?](#how-do-i)
     - [How do I install Zsh?](#how-do-i-install-zsh)
-        - [How do I install Zsh on Windows?](#how-do-i-install-zsh-on-windows)
+      - [How do I install Zsh on Windows?](#how-do-i-install-zsh-on-windows)
     - [How do I install Oh My Zsh?](#how-do-i-install-oh-my-zsh)
     - [How do I uninstall Oh My Zsh?](#how-do-i-uninstall-oh-my-zsh)
     - [How do I change my locale?](#how-do-i-change-my-locale)
@@ -27,7 +27,7 @@ _If you don't find what you're looking for, and you think it should be covered b
   - [Zsh errors](#zsh-errors)
     - [zsh: no matches found](#zsh-no-matches-found)
 - [Other problems](#other-problems)
-    - [`kill-word` or `backward-kill-word` do / don't delete a symbol (`WORDCHARS`)](#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars)
+    - [kill-word or backward-kill-word do / don't delete a symbol WORDCHARS](#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars)
 
 <!-- /TOC -->
 
@@ -82,11 +82,10 @@ You can't install Zsh directly on Windows. As a reminder, Oh My Zsh needs Zsh in
 
 To use Zsh on Windows, you need Windows 10 2004 or 11, and one of the following:
 
-* [Cygwin](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#cygwin)
-* [WSL](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#ubuntu-debian--derivatives-windows-10-wsl--native-linux-kernel-with-windows-10-build-1903) (note that this requires you to first [install WSL](https://docs.microsoft.com/en-us/windows/wsl/install))
+- [Cygwin](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#cygwin)
+- [WSL](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#ubuntu-debian--derivatives-windows-10-wsl--native-linux-kernel-with-windows-10-build-1903) (note that this requires you to first [install WSL](https://docs.microsoft.com/en-us/windows/wsl/install))
 
 If you're running earlier versions of Windows, you can't install it at all. You'll need a virtual machine, or a proper Linux install.
-
 
 #### How do I install Oh My Zsh?
 

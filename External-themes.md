@@ -34,11 +34,7 @@ Author: [@sebastianpulido](https://github.com/sebastianpulido)
 
 The  **new Kali Linux**  console adapted to Ubuntu (and maybe any distro)!
 
-```
-To install it, it is as easy as running the single INSTALLER.sh file
-```
-
-![](https://camo.githubusercontent.com/55706d89bdbb484c6a54b7476311c7ccf218bcc96752caa0a11eb1664983c03b/68747470733a2f2f63646e2e636c697070792e67672f636c697070792f37663265303964322d653238302d343434302d623464392d3665346438383730313939332f633138353166362e676966)
+> To install it, it is as easy as running the single INSTALLER.sh file.
 
 * Install: [how to install](https://github.com/alejandromume/ubunly-zsh-theme#install)
 
@@ -48,7 +44,8 @@ To install it, it is as easy as running the single INSTALLER.sh file
 ---
 
 #### bigpath
-![](https://preview.redd.it/ie39emm3bl461.png?width=1230&format=png&auto=webp&s=418d6c1a143bd4506bb3c161264606375ed5050e)
+
+![bigpath screenshot](https://preview.redd.it/ie39emm3bl461.png?width=1230&format=png&auto=webp&s=418d6c1a143bd4506bb3c161264606375ed5050e)
 
 This theme can show your username, your current directory + the one before, git information (branch and unstaged/uncommited changes), and the current time.
 Pink dot means unstaged, purple dot means uncommitted.
@@ -57,6 +54,7 @@ Author: [@Tesohh](https://github.com/Tesohh)
 [Repo](https://github.com/Tesohh/omzbigpath)
 
 ---
+
 #### ✏️✅ emoji
 
 emoji theme for [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/). simplified *robbyrussell* and replaced git prompt symbol with emoji for better clarity. Works fine on Macs.
@@ -72,12 +70,15 @@ Then change current theme to emoji ```ZSH_THEME=emoji``` in your ```~/.zshrc```.
 Activate a new theme with  ```$ source ~/.zshrc```.
 
 ##### Syntax
-- ```➜ current_dir (git_branch) <emoji indicator>```
-- ✏️ Git prompt is dirty (uncommitted files)
-- ✅ Git prompt is clean (committed)
+
+* ```➜ current_dir (git_branch) <emoji indicator>```
+
+* ✏️ Git prompt is dirty (uncommitted files)
+* ✅ Git prompt is clean (committed)
 
 ##### Issues
-- ✏️ emoji is breaking cursor potion to the right hover on the first character on Crostini terminal
+
+* ✏️ emoji is breaking cursor potion to the right hover on the first character on Crostini terminal
 
 source: [repo](https://github.com/masaakifuruki/emoji.zsh-theme)
 
@@ -120,17 +121,18 @@ author: [@masaakifuruki](https://github.com/masaakifuruki)
 </p></a>
 
 **Quick start**
+
 ```shell
 npm install -g typewritten
 # then reload zsh
 ```
 
 **Features**
-- Asynchronous git info
-- 100% customizable
-- Actively maintained
-- [Thorough documentation](https://typewritten.dev)
 
+* Asynchronous git info
+* 100% customizable
+* Actively maintained
+* [Thorough documentation](https://typewritten.dev)
 
 Repository: [typewritten.zsh](https://github.com/reobin/typewritten)
 
@@ -139,13 +141,13 @@ Documentation: [typewritten.dev](https://typewritten.dev)
 Author:  [@reobin](https://github.com/reobin)
 
 ---
+
 #### guezwhoz
 
 ![guezwhoz](https://github.com/guesswhozzz/guezwhoz-scheme/blob/main/demos/completer-zsh-demo.gif?raw=true)
 
-- Single git status marker for Visual Studio Code and Git cli
-- Interactive `Tab` completer
-
+* Single git status marker for Visual Studio Code and Git cli
+* Interactive `Tab` completer
 
 source: [repo](https://github.com/guesswhozzz/guezwhoz-zshell)
 
@@ -154,6 +156,7 @@ author: [@guesswhozzz](https://github.com/guesswhozzz)
 ---
 
 #### Aphrodite Theme
+
 ![Aphrodite Terminal Theme](https://user-images.githubusercontent.com/11278181/56094804-29972500-5edf-11e9-90a4-ffafdc58d3d7.png)
 
 Minimalistic Aphrodite theme does not have any visual noise. Displays only the necessary information: current user, hostname, working directory, git branch if exists. Looks great both with dark and white terminals.
@@ -162,7 +165,9 @@ See [repository](https://github.com/win0err/aphrodite-terminal-theme) for source
 Author: [@win0err](https://github.com/win0err)
 
 ---
+
 #### MacOS Terminal
+
 <h3 align="center"><a href="https://github.com/alejandromume/macos-zsh-theme">MacOS Terminal</a></h3>
 
 <p align="center">
@@ -202,6 +207,7 @@ The minimal MacOS terminal brought to ZSH
 * Author: [@alejandromume](https://github.com/alejandromume)
 
 ---
+
 #### short
 
 <img src=https://github.com/nikhilkmr300/omz-themes/blob/master/images/short.png width=640>
@@ -210,6 +216,7 @@ If long prompts annoy you, this theme is for you!
 It does away with the long path after the username, and retains only the basename of the current working directory in the prompt.
 
 Features:
+
 * Colored input to shell to easily differentiate it from the output of commands.
 * No annoying long prompts.
 * Option to keep/hide the virtual environment name.
@@ -226,6 +233,7 @@ Author: [@nikhilkmr300](https://github.com/nikhilkmr300)
 <img src=https://github.com/nikhilkmr300/omz-themes/blob/master/images/matte-black-yellow-line.png width=640>
 
 Features:
+
 * Colored input to shell to easily differentiate it from the output of commands.
 * Current git branch being checked out indicated at the end of the prompt.
 * Option to keep/hide the virtual environment name.
@@ -243,6 +251,7 @@ Author: [@nikhilkmr300](https://github.com/nikhilkmr300)
 <img src=https://github.com/nikhilkmr300/omz-themes/blob/master/images/color-input-line.png width=640>
 
 Features:
+
 * Colored input to shell to easily differentiate it from the output of commands.
 * Current git branch being checked out indicated at the end of the prompt.
 * Option to keep/hide the virtual environment name.
@@ -264,6 +273,7 @@ Powerline looking zsh theme with rvm prompt, git status and branch, current time
 Influenced heavily by agnoster's theme and jeremyFreeAgent's theme
 
 Author: [@maverick9000](https://github.com/maverick9000)
+
 #### Daivasmara
 
 ![Daivasmara Theme](https://raw.githubusercontent.com/Daivasmara/daivasmara.zsh-theme/master/media/Screenshot%20from%202020-04-30%2016-12-27.png)
@@ -274,7 +284,6 @@ Source: [daivasmara.zsh-theme](https://github.com/Daivasmara/daivasmara.zsh-them
 
 Author:  [@Daivasmara](https://github.com/Daivasmara)
 
-
 ---
 
 #### Ducula
@@ -284,7 +293,7 @@ Author:  [@Daivasmara](https://github.com/Daivasmara)
  * Job status: Indicates if jobs are running in the background :coffee: (idea from agnoster theme)
  * Username abbreviations: Uses a different username if the corresponding mapping was set (idea from dieter theme)
  * Hostname abbreviations: Uses a different hostname if the corresponding mapping was set (idea from dieter theme)
- * Virtual environments: Shows the name of activated virtual environment via ${VIRTUAL_ENV} 
+ * Virtual environments: Shows the name of activated virtual environment via ${VIRTUAL_ENV}
  * Current path: Displays the full current working directory
  * Return status: Shows the error return code (:bat:/:duck:)
  * Git messages: Uses `git_super_status` from the git-prompt plugin
@@ -308,6 +317,7 @@ Author: [@rafaelsq](https://github.com/rafaelsq/)
 ---
 
 #### Reggae Theme
+
 ![Reggae Terminal Theme](https://i.imgur.com/lQaaWvX.png)
 
 See [gist](https://gist.github.com/mgimenez/ae1cde0b637e844da885cb093a916126) for source.
@@ -315,7 +325,9 @@ See [gist](https://gist.github.com/mgimenez/ae1cde0b637e844da885cb093a916126) fo
 Author: [@mgimenez](https://github.com/mgimenez/)
 
 ---
+
 ### Intika Theme
+
 ![img](https://github.com/Intika-Linux-Apps/Oh-My-Zsh-Intika/raw/master/capture.png)
 
 See [repo](https://github.com/Intika-Linux-Apps/Oh-My-Zsh-Intika/blob/master/themes/intika.zsh-theme) for source.
@@ -323,7 +335,9 @@ See [repo](https://github.com/Intika-Linux-Apps/Oh-My-Zsh-Intika/blob/master/the
 Author: [Intika](https://github.com/intika)
 
 ---
+
 ### Philthy Theme
+
 ![img](https://imgur.com/am1MIxH.gif)
 
 See [repo](https://gist.github.com/philFernandez/56f8953722285834cc9000ffcfe103f4#file-philthy-zsh-theme) for source.
@@ -331,18 +345,22 @@ See [repo](https://gist.github.com/philFernandez/56f8953722285834cc9000ffcfe103f
 Author: [Phil Fernandez](https://github.com/philFernandez) (philFernandez)
 
 ---
+
 ### Minimal Improved theme
+
 ![Minimal Improved theme for ZSH](https://raw.githubusercontent.com/gdsrosa/minimal_improved/master/minimal_improved_theme.png)
 
 See [repo](https://github.com/gdsrosa/minimal_improved)
 Author: [@gdsrosa](https://github.com/gdsrosa)
 
 ---
+
 #### kmac theme
+
 ![kmac theme for ZSH](https://github.com/koreymacdougall/config_files/blob/master/deprecated_files/kmac-zsh-theme-ss.png)
 
-Simple theme that cleanly shows: 
-username@host:pwd $ 
+Simple theme that cleanly shows:
+username@host:pwd $
 
 See [repository](https://github.com/koreymacdougall/config_files/blob/master/deprecated_files/kmac.oh-my-zsh-theme) for source.
 Author: [@koreymacdougall](https://github.com/koreymacdougall)
@@ -350,25 +368,26 @@ Author: [@koreymacdougall](https://github.com/koreymacdougall)
 ---
 
 #### Fishy2
+
 ![fishy2 zsh](https://github.com/akinjide/fishy2/raw/master/images/Screen%20Shot%202017-04-20%20at%2010.46.49%20AM.png)
 
 See [repository](https://github.com/akinjide/fishy2) for source.
 
 Author: [@akinjide](https://github.com/akinjide)
 
-***
-
+---
 
 #### abaykan
+
 ![abaykan](https://abaykan.com/server/abaykan.zsh-theme~.png)<br>
 See [repository](https://github.com/abaykan/Mine/blob/master/abaykan.zsh-theme) for source.
 
 Author: [@abaykan](https://github.com/abaykan)
 
-***
-
+---
 
 #### Oxide
+
 ![oxide zsh](https://files.dikiaap.id/img/dotfiles/zsh.png)
 
 See [repository](https://github.com/dikiaap/dotfiles) for source.
@@ -376,6 +395,7 @@ See [repository](https://github.com/dikiaap/dotfiles) for source.
 Author: [@dikiaap](https://github.com/dikiaap)
 
 #### Windows CMD
+
 ![windows cmd](https://raw.githubusercontent.com/juliavallina/windows-zsh-theme/master/screenshot.gif)
 
 See [repository](https://github.com/juliavallina/windows-zsh-theme) for source.
@@ -392,7 +412,8 @@ author: [@sobolevn](https://github.com/sobolevn)
 #### xxf
 
 ![xxf](https://i.ibb.co/rtGyPRs/Wechat-IMG230.png)
-- Show Current commit shorten hash and message
+
+* Show Current commit shorten hash and message
 See [Gist](https://gist.github.com/xfanwu/18fd7c24360c68bab884) for source.
 
 author: [@xfanwu](https://github.com/xfanwu)
@@ -415,6 +436,7 @@ See [Repo](https://github.com/bhilburn/powerlevel9k) for source & documentation.
 author: [@bhilburn](https://github.com/bhilburn)
 
 #### powerlevel10k
+
 ![powerlevel10k theme](https://camo.githubusercontent.com/80ec23fda88d2f445906a3502690f22827336736/687474703a2f2f692e696d6775722e636f6d2f777942565a51792e676966)
 Powerlevel10k is a backward-compatible reimplementation of the popular Powerlevel9k theme (see above) with 10-100 times better performance. When given the same configuration options it will generate the same prompt.
 
@@ -433,32 +455,34 @@ Bullet Train is a oh-my-zsh shell theme based on the Powerline Vim plugin. It ai
 
 It currently shows:
 
-- Current Python virtualenv
-- Current Ruby version and gemset, through RVM
-- Current Node.js version, through NVM
-- Git status
-- Timestamp
-- Current directory
-- Background jobs
-- Exit code of last command
+* Current Python virtualenv
+* Current Ruby version and gemset, through RVM
+* Current Node.js version, through NVM
+* Git status
+* Timestamp
+* Current directory
+* Background jobs
+* Exit code of last command
 
 See [Repo](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) for source
 
 author: [@caiogondim](https://github.com/caiogondim)
 
 #### Cordial
+
 [![cordial](https://raw.githubusercontent.com/stevelacy/cordial-zsh-theme/master/screenshot.png)](https://raw.githubusercontent.com/stevelacy/cordial-zsh-theme/master/screenshot.png)
 
 See [repository](https://github.com/stevelacy/cordial-zsh-theme) for source.
 
 Additional setup:
-- Install [node.js](https://nodejs.org/) to parse `package.json` files
+
+* Install [node.js](https://nodejs.org/) to parse `package.json` files
 
 #### Gitster
 
 ![gitster theme](http://recordit.co/1Y5XxMkXFl.gif)
 
-When in a git repo, it shows the location from the git's root folder.    
+When in a git repo, it shows the location from the git's root folder.
 When not in a git repo, it shows from home, `~`.
 
 See my dotfiles [repo](https://github.com/shashankmehta/dotfiles/blob/master/thesetup/zsh/.oh-my-zsh/custom/themes/gitster.zsh-theme) for source.
@@ -502,13 +526,13 @@ Author: [@fjpalacios](https://github.com/fjpalacios)
 
 It currently shows:
 
-- Git status
--  🕕 Time
-- `~/Desktop` Working directory
-- > where you type your cmds
-- `✹git:master` **color : Red** unstaged commit
-- `git:master` **color: White** committed files
-- `○` shows if current directory is a git folder || git branch
+* Git status
+* 🕕 Time
+* `~/Desktop` Working directory
+* > where you type your cmds
+* `✹git:master` **color : Red** unstaged commit
+* `git:master` **color: White** committed files
+* `○` shows if current directory is a git folder || git branch
 
 See [repository](https://github.com/akinjide/chi) for source.
 
@@ -517,9 +541,10 @@ Author: [@akinjide](https://github.com/akinjide)
 #### Haribo theme
 
 ![haribotheme](http://fooo.biz/images/haribo_omz_theme.png)
-- Works with most console fonts
-- simple git status
-- timestamp
+
+* Works with most console fonts
+* simple git status
+* timestamp
 
 See [Repo](https://github.com/haribo/omz-haribo-theme) for source
 
@@ -536,10 +561,11 @@ author: [Schminitz](https://github.com/schminitz)/[@Schminitz](https://twitter.c
 #### Odin theme
 
 ![odin](https://github.com/tylerreckart/odin/raw/master/images/preview.gif)
-- Git focused development.
-- A clean and distraction free programming environment.
-- Know the status of your repository throughout the development process
-- tmux and git configuration files included with the theme
+
+* Git focused development.
+* A clean and distraction free programming environment.
+* Know the status of your repository throughout the development process
+* tmux and git configuration files included with the theme
 See [odin](https://github.com/tylerreckart/odin) for source.
 
 author: [@tylerreckart](https://github.com/tylerreckart)
@@ -547,11 +573,12 @@ author: [@tylerreckart](https://github.com/tylerreckart)
 #### HYPERZSH theme
 
 ![hyperzsh](https://raw.githubusercontent.com/tylerreckart/hyperzsh/master/screenshots/demo.gif)
-- Git status
-- Timestamp
-- Current directory
-- Background jobs
-- Exit code of last command
+
+* Git status
+* Timestamp
+* Current directory
+* Background jobs
+* Exit code of last command
 
 See [hyperzsh](https://github.com/tylerreckart/hyperzsh) for source.
 
@@ -560,6 +587,7 @@ author: [@tylerreckart](https://github.com/tylerreckart)
 ### Hyper Oh-My-ZSH
 
 ![Hyper Oh-My-ZSH](https://user-images.githubusercontent.com/1252570/43366555-1a7e5eb2-9383-11e8-89d5-98b255968bdb.png)
+
 * Oh-My-ZSH theme based on hyper terminal default theme 😎
 
 source: [here](https://github.com/willmendesneto/hyper-oh-my-zsh)
@@ -568,6 +596,7 @@ author: [@willmendesneto](https://github.com/willmendesneto)
 #### Lambda (Mod) theme
 
 ![Screenshot](https://raw.githubusercontent.com/halfo/lambda-mod-zsh-theme/master/screenshot.png)
+
 * A simple yet elegant theme with git focused development.
 See [lambda-mod](https://github.com/halfo/lambda-mod-zsh-theme/) for source.
 
@@ -576,6 +605,7 @@ author: [@halfo](https://github.com/halfo)
 #### Hedgehog theme
 
 ![hedgehog](http://i.imgur.com/GTbKcj5.gif)
+
 * Simple, no-nonsense and clean, with support for git and return codes.
 
 source: [here](https://gist.github.com/hedgehog1029/dfbb7e66511e2c399157)
@@ -591,6 +621,7 @@ author: [@skuridin](https://github.com/skuridin)
 #### classyTouch Theme
 
 ![classyTouch](https://raw.githubusercontent.com/pr0tocol/classyTouch_oh-my-zsh/master/classyTouch.png)
+
 * A very minimal, clean theme with git support.
 
 source: [here](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh)
@@ -688,11 +719,11 @@ AgnosterZak is a oh-my-zsh shell theme based on the Powerline Vim plugin & Agnos
 
 It currently shows:
 
-- Battery Life (in case of the laptop is not charging)
-- Current Date & Time
-- Current directory
-- Git status
-- User & Host status
+* Battery Life (in case of the laptop is not charging)
+* Current Date & Time
+* Current directory
+* Git status
+* User & Host status
 
 See [Repo](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) for source
 
@@ -709,6 +740,7 @@ source: [Repo](https://github.com/marszall87/nodeys-zsh-theme) for source
 author: [@marszall87](https://github.com/marszall87)
 
 #### Ciacho
+
 ![Ciacho theme](https://dl.dropboxusercontent.com/u/6741388/ciacho-zsh-theme.png)
 
 Ciacho is theme based on agnoster.
@@ -717,8 +749,8 @@ See [Repo](https://github.com/Ciacho/ciacho-ohmyzsh-theme) for source.
 
 author: [@Ciacho](https://github.com/Ciacho/)
 
-
 #### igorsilva
+
 ![igorsilva theme](https://raw.githubusercontent.com/igor9silva/zsh-theme/master/igorsilva.gif)
 
 ##### What it shows
@@ -733,11 +765,13 @@ See [Repo](https://github.com/igor9silva/zsh-theme) for source.
 author: [@igor9silva](https://github.com/igor9silva/)
 
 #### nt9
+
 ![nt9 theme](https://raw.githubusercontent.com/lenguyenthanh/nt9-oh-my-zsh-theme/master/nt9.png)
 
 A clean, distraction free and git focused development theme.
 
 ##### It currently shows:
+
 * Show the location from git's root folder (when in a git repo) or show from home `~`
 * Show current sha()
 * Show current branch name
@@ -749,11 +783,13 @@ See [Repo](https://github.com/lenguyenthanh/nt9-oh-my-zsh-theme) for source.
 author: [@lenguyenthanh](https://github.com/lenguyenthanh)
 
 #### jovial
+
 ![jovial theme](https://github.com/zthxxx/jovial/raw/master/docs/jovial-preview.png)
 
 pretty face, feel more jovial with this theme.
 
-##### It currently shows:
+It currently shows:
+
 * Show Host and User
 * Show current path
 * Show development environment segment
@@ -774,19 +810,19 @@ geometry is a minimalistic, fully customizable zsh prompt theme.
 
 ##### What it does:
 
-- work asynchronously to speed up the prompt
-- display current git branch
-- display git state of the repo and time since last commit
-- tell you whether you need to pull, push or if you're mid-rebase
-- display the number of conflicting files and total number of conflicts
-- display the running time of long running commands
-- optionally display random colors based on your hostname
-- give you a custom, colorizable prompt symbol
-- change the prompt symbol color depending on the last command exit status
-- show virtualenv and docker machine data
-- set the terminal title to current command and directory
-- fully customizable, allowing you to change anything through environment variables
-- make you the coolest hacker in the whole Starbucks
+* work asynchronously to speed up the prompt
+* display current git branch
+* display git state of the repo and time since last commit
+* tell you whether you need to pull, push or if you're mid-rebase
+* display the number of conflicting files and total number of conflicts
+* display the running time of long running commands
+* optionally display random colors based on your hostname
+* give you a custom, colorizable prompt symbol
+* change the prompt symbol color depending on the last command exit status
+* show virtualenv and docker machine data
+* set the terminal title to current command and directory
+* fully customizable, allowing you to change anything through environment variables
+* make you the coolest hacker in the whole Starbucks
 
 See [repo](https://github.com/frmendes/geometry) for source. We welcome any contributions!
 
@@ -840,6 +876,7 @@ See [repo](https://github.com/dannynimmo/punctual-zsh-theme) for installation.
 By [Danny](https://github.com/dannynimmo).
 
 #### Staples
+
 ![Screenshot of Staples](https://github.com/dersam/staples/blob/master/sample.png?raw=true)
 
 A modified version of the Bureau theme with context-sensitive tags, ssh status, and last exit code coloring.
@@ -849,6 +886,7 @@ See [repo](https://github.com/dersam/staples) for source.
 Author: [@dersam](https://github.com/dersam)
 
 #### Bunnyruni
+
 ![Screenshot of Bunnyruni](https://raw.githubusercontent.com/jopcode/oh-my-zsh-bunnyruni-theme/master/bunnyruni.gif)
 
 Simple, clean, and beautiful theme inspired in my fovorite themes, functions and colors.
@@ -866,7 +904,6 @@ Single-line boring/traditional prompt without distracting colours, providing ext
 See [repo](https://github.com/xfxf/zsh-theme-traditional-plus) for source.
 Author: [@xfxf](https://github.com/xfxf)
 
-
 #### oh-wonder
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6545467/19431231/3c2bfa60-9475-11e6-98f7-312c749186cf.png)
@@ -876,10 +913,9 @@ Just another funky theme.
 See [repo](https://gist.github.com/kaushik94/a54e128869c0c82bdbed31d56c710daa) for source.
 Author: [@kaushik94](https://gist.github.com/kaushik94)
 
-
 #### rafiki-zsh
 
-![](https://www.dropbox.com/s/u08c2zofducjvh9/rafiki-zsh-2.png?raw=1)
+![screenshot](https://www.dropbox.com/s/u08c2zofducjvh9/rafiki-zsh-2.png?raw=1)
 
 A zsh friend to watch over you.
 
@@ -895,7 +931,6 @@ A minimal zsh theme, based on Pure, with added NodeJS version (async!)
 source: [Repo](https://github.com/marszall87/lambda-pure) for source
 
 author: [@marszall87](https://github.com/marszall87)
-
 
 #### Imperator / Imperator Root
 
@@ -941,7 +976,6 @@ See [Repo](https://github.com/eendroroy/alien) for source & documentation.
 
 author: [@eendroroy](https://github.com/eendroroy)
 
-
 #### alien-minimal
 
 [![asciicast](http://asciinema.org/a/264037.svg)](https://asciinema.org/a/264037)
@@ -960,8 +994,8 @@ See [Repo](https://github.com/eendroroy/alien-minimal) for source & documentatio
 
 author: [@eendroroy](https://github.com/eendroroy)
 
-
 #### Imp
+
 ![Screenshot of Imp](https://raw.githubusercontent.com/igormp/Imp/master/imp.png)
 
 Simple theme based on [Zork](https://github.com/Bash-it/bash-it/wiki/Themes#zork).
@@ -970,8 +1004,8 @@ See [repo](https://github.com/igormp/Imp) for source and install instructions.
 
 Author: [@igormp](https://github.com/igormp)
 
-
 #### Omega
+
 ![Screenshot of Omega Minimal](https://raw.githubusercontent.com/Section214/zsh-omega/master/screenshots/minimal.png)
 
 A clean, minimal theme.
@@ -980,10 +1014,11 @@ See [repo](https://github.com/Section214/zsh-omega) for source and install instr
 
 Author: [@igormp](https://github.com/igormp)
 
-#### Docker-ZSH 
+#### Docker-ZSH
+
 This theme is pretty much based on the 'bureau' theme. It has been extended by a `DOCKER_HOST` live view,
-so that in every terminal session you see immediately which docker host is configured and where the local 
-docker commands are forwarded to. 
+so that in every terminal session you see immediately which docker host is configured and where the local
+docker commands are forwarded to.
 If the `DOCKER_HOST` variable is not set in the terminal session, it's showing a green `local` text what can b
 interpreted as a personal local test environment. If a remote host is defined it will show the address in `red`.
 
@@ -1017,7 +1052,7 @@ Author: [@thornjad](https://github.com/thornjad)
 
 * Working directory
 * Version control - branch, commit hash, dirty status, ahead/behind status
-* java, python, ruby. node versions 
+* java, python, ruby. node versions
 * Supports both mac and linux
 * Asynchronously update prompt
 
@@ -1042,13 +1077,11 @@ See [repository](https://github.com/w33tmaricich/enlightenment) for source & doc
 
 Author: [@w33tmaricich](http://w33tmaricich.com)
 
-
-#### iGeek 
+#### iGeek
 
 ![iGeek](https://camo.githubusercontent.com/db9d61987431bc10c3b410e6b3bcf103240fd866/687474703a2f2f692e696d6775722e636f6d2f614154384242432e706e67)
 
 See [repository](https://github.com/Saleh7/igeek-zsh-theme) for source.
-
 
 #### ASCIIGit
 
@@ -1057,18 +1090,18 @@ ASCII-only ZSH prompt theme (using oh-my-zsh) for git users who are not fan of f
 <img src="https://github.com/cemsbr/asciigit/blob/screenshot/screenshot.png?raw=true" width="606" height="468" alt="screenshot">
 
 Features:
-- Works well in terminal or console. No need to change your font!
-- Git info:
-  - Remote url, e.g. github.com/cemsbr/asciigit;
-  - Relative path from git root dir;
-  - Branch name;
-  - Status (diverged, added, untracked, etc...).
-- Colors known to work well with solarized light (probably with other schemes, too).
+
+* Works well in terminal or console. No need to change your font!
+* Git info:
+  * Remote url, e.g. github.com/cemsbr/asciigit;
+  * Relative path from git root dir;
+  * Branch name;
+  * Status (diverged, added, untracked, etc...).
+* Colors known to work well with solarized light (probably with other schemes, too).
 
 See [repository](https://github.com/cemsbr/asciigit) for source and readme.
 
 Author: [@cemsbr](https://github.com/cemsbr)
-
 
 #### dpoggi-newline-timestamp
 
@@ -1076,15 +1109,14 @@ Timestamp and new line based on [dpoggi](https://github.com/ohmyzsh/ohmyzsh/wiki
 
 <img width="651" alt="2017-09-08 18 03 32" src="https://user-images.githubusercontent.com/1831308/30204562-dd033128-94c0-11e7-944c-19d7b0c18196.png">
 
-
 Features:
-- Timestamp
-- New line for command
+
+* Timestamp
+* New line for command
 
 See [repository](https://github.com/channprj/dotfiles-macOS) for [source](https://github.com/channprj/dotfiles-macOS/blob/master/sh/zsh/custom-zsh-theme/dpoggi-timestamp.zsh-theme).
 
 Author: [@channprj](https://github.com/channprj)
-
 
 #### nothing
 
@@ -1142,6 +1174,7 @@ Repo: [https://github.com/agkozak/agkozak-zsh-prompt](https://github.com/agkozak
 Author: [@agkozak](https://github.com/agkozak)
 
 #### rainbow-theme
+
 ![rainbow-theme](https://github.com/nivaca/rainbow-theme/blob/master/screenshot.png)
 
 Repo: [https://github.com/nivaca/rainbow-theme](https://github.com/nivaca/rainbow-theme)
@@ -1149,6 +1182,7 @@ Repo: [https://github.com/nivaca/rainbow-theme](https://github.com/nivaca/rainbo
 Author: [@nivaca](https://github.com/nivaca)
 
 ---
+
 #### Zeroastro Theme
 
 ![Zeroastro ZSH Theme](https://github.com/zeroastro/zeroastro-zsh-theme/raw/master/zeroastro-zsh-theme.png)
@@ -1160,6 +1194,7 @@ Repo: [https://github.com/zeroastro/zeroastro-zsh-theme](https://github.com/zero
 Author: [@zeroastro](https://github.com/zeroastro)
 
 ---
+
 ### Kayid Theme
 
 ![Kayid Theme for ZSH](https://raw.githubusercontent.com/AmrMKayid/KayidmacOS/master/Kayid-Theme.png)
@@ -1168,6 +1203,7 @@ See [repo](https://github.com/AmrMKayid/KayidmacOS/blob/master/kayid.zsh-theme)
 Author: [@AmrMKayid](https://github.com/AmrMKayid)
 
 ---
+
 ### Shayan ZSH Theme
 
 ![Shayan ZSH Theme](https://raw.githubusercontent.com/shayanh/shayan-zsh-theme/master/shayan-zsh-theme.png)
@@ -1179,17 +1215,19 @@ Repo: [https://github.com/shayanh/shayan-zsh-theme](https://github.com/shayanh/s
 Author: [@shayanh](https://github.com/shayanh)
 
 ---
+
 ### FunkyBerlin Theme
 
 ![FunkyBerlin](https://raw.githubusercontent.com/Ottootto2010/funkyberlin-zsh-theme/master/showcase.png)
 
-A colorfull two-line theme with support for GIT and SVN. 
+A colorfull two-line theme with support for GIT and SVN.
 
 Repo: [https://github.com/Ottootto2010/funkyberlin-zsh-theme](https://github.com/Ottootto2010/funkyberlin-zsh-theme)
 
 Author: [@Ottootto2010](https://github.com/Ottootto2010/funkyberlin-zsh-theme)
 
 ---
+
 ### RobbyRussell-WIP Theme
 
 ![img](https://raw.githubusercontent.com/ecbrodie/robbyrussell-WIP-theme/master/images/screenshot.png)
@@ -1201,17 +1239,18 @@ Repo: https://github.com/ecbrodie/robbyrussell-WIP-theme
 Author: [@ecbrodie](https://github.com/ecbrodie)
 
 ---
+
 ### McQuen Theme
 
 ![McQuen](https://user-images.githubusercontent.com/772937/54210241-5d27ff00-449c-11e9-81b3-64efe0a13f6c.png)
 
-A minimalist two line theme with Git support and a Lambda (λ) shell. 
+A minimalist two line theme with Git support and a Lambda (λ) shell.
 
 Repo: [https://gist.github.com/ryanpcmcquen/150cf9a66bca2463e5660cafed3e1000](https://gist.github.com/ryanpcmcquen/150cf9a66bca2463e5660cafed3e1000)
 
 Author: [@ryanpcmcquen](https://github.com/ryanpcmcquen)
 
-----
+---
 
 #### sm
 
@@ -1223,13 +1262,13 @@ source: [Repo](https://github.com/blyndusk/sm-theme) for source.
 
 author: [@blyndusk](https://github.com/blyndusk)
 
-----
+---
 
 #### minimal2
 
 ![minimal2](https://github.com/girishrau/oh-my-zsh-customizations/blob/master/images/minimal2.jpg)
 
-A minimalist two line theme with Git support. 
+A minimalist two line theme with Git support.
 
 Repo: [https://github.com/girishrau/oh-my-zsh-customizations](https://github.com/girishrau/oh-my-zsh-customizations)
 
@@ -1329,7 +1368,6 @@ Author: [@sudo-HackerMan](https://github.com/sudo-HackerMan)
 
 Original: [@RainyDayMedia](https://github.com/RainyDayMedia/oh-my-zsh-poncho)
 
-
 #### None Theme
 
 ![none-theme](https://user-images.githubusercontent.com/43632885/83956911-a1c55600-a817-11ea-97d1-65c32238fb23.png)
@@ -1340,11 +1378,10 @@ Source: File `none.zsh-theme` containing only the line `PROMPT=""`.
 
 Author: [@catleeball](https://github.com/catleeball)
 
-
-
-
 #### fishbone++
+
 ##### Features:
+
 * emoji git status :)
 * fault return indicator
 * various customization
@@ -1356,11 +1393,14 @@ Author: [@catleeball](https://github.com/catleeball)
 ![fishbone++](https://github.com/EYH0602/Fishbonepp/blob/master/pics/defaultlook.png)  
 Source: [fishbone++](https://github.com/EYH0602/Fishbonepp)  
 Author: [@EYH0602](https://github.com/EYH0602)  
+
 #### Ohio2's themes!
+
 ##### Features:
+
 * Simple
- * One based on dallas
- * a whole collection. 
+* One based on dallas
+* a whole collection.
 * Easy to customize
 * Time marker (ohio2, not ybl)
 * Git marker.
@@ -1368,7 +1408,7 @@ Author: [@EYH0602](https://github.com/EYH0602)
 Themes:[Ohio2's themes repo](https://github.com/Ohio2/dotfiles-ohio2/tree/master/.oh-my-zsh/themes)
 ![zsh-ohio2](https://i.imgur.com/tKc6B1P.png)
 
-***
+---
 
 <br/>
 <h3 align="center"><a href="https://github.com/ice-bear-forever/bubblegum-zsh">bubblegum</a></h3>
@@ -1379,6 +1419,7 @@ Themes:[Ohio2's themes repo](https://github.com/Ohio2/dotfiles-ohio2/tree/master
 </p></a>
 
 ##### features:
+
 * a triangular glyph and your working directory, nothing more
 * a [matching theme](https://github.com/ice-bear-forever/hyper-bubblegum) for [Hyper](http://hyper.is) terminal
 
@@ -1386,7 +1427,7 @@ repository: [bubblegum-zsh](https://github.com/ice-bear-forever/bubblegum-zsh/)
 
 author: [@ice-bear-forever](https://github.com/ice-bear-forever/)
 
-***
+---
 
 <br/>
 <h3 align="center"><a href="https://github.com/tigerjz32/kube-zsh-theme">kube</a></h3>
@@ -1397,18 +1438,21 @@ author: [@ice-bear-forever](https://github.com/ice-bear-forever/)
 </p></a>
 
 ##### features:
-- shows the current time
-- shows current kubectl context
-- shows current dir
-- shows current Git branch
-- shows an arrow to differentiate input vs prompt
-- uses different colors for readability
+
+* shows the current time
+
+* shows current kubectl context
+* shows current dir
+* shows current Git branch
+* shows an arrow to differentiate input vs prompt
+* uses different colors for readability
 
 repository: [kube-zsh-theme](https://github.com/tigerjz32/kube-zsh-theme/)
 
 author: [@tigerjz32](https://github.com/tigerjz32)
 
 #### shini
+
 ![shini](https://raw.github.com/bashelled/shini/master/screenshot.png)
 
 A simple zsh theme. With your average time, exit status, user@host, directory and git branch, you can just install and relax.

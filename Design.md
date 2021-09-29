@@ -1,5 +1,5 @@
 
-This page is a description of the current architecture and design of oh-my-zsh. 
+This page is a description of the current architecture and design of oh-my-zsh.
 
 This is a work in progress: we don't think there's anything outright wrong in it, but much may still be left out.
 
@@ -12,12 +12,12 @@ What oh-my-zsh provides:
 - Configuration of zsh itself, enabling advanced features
 - Theming
 - Extra shell functionality & terse shortcuts
- -  e.g. dir navigation
+  - e.g. dir navigation
 - Integration with third party programs and commands
- - Completion, aliases, and auxiliary functions
- - Both OS-specific stuff and applications/utilities
-- Auto-starting programs 
- - e.g. the gpg-agent plugin
+  - Completion, aliases, and auxiliary functions
+  - Both OS-specific stuff and applications/utilities
+- Auto-starting programs
+  - e.g. the gpg-agent plugin
 
 It seems that plugins can get arbitrarily powerful and do whatever they want, so the user should understand what a given plugin does before enabling it.
 
@@ -30,6 +30,7 @@ These are variables that base OMZ (excluding any plugins) uses. I've read throug
 At initialization time:
 
 In oh-my-zsh.sh:
+
 - `ZSH` - path to .oh-my-zsh (not zsh) installation
 - `plugins` - user-provided list of plugins to load
 - `ZSH_CUSTOM` – path to the oh-my-zsh (not zsh itself) customization dir
@@ -45,9 +46,9 @@ In oh-my-zsh.sh:
 - `ZSH_VERSION`
 - `ZDOTDIR`
 - Standard Unix environment variables
- - `HOME`
- - `HOST`
- - `OSTYPE`
+  - `HOME`
+  - `HOST`
+  - `OSTYPE`
 
 The only required one is `$ZSH`. The rest either have defaults, or undef is fine and has an expected behavior. (Though if $plugins is unset, the git plugin won't get loaded. Will that break stuff?) All these `ZSH_*` variables are OMZ-specific, not standard `zsh` stuff. Except for `ZSH_VERSION`, which is a standard parameter provided by `zsh`.
 
@@ -56,6 +57,7 @@ The only required one is `$ZSH`. The rest either have defaults, or undef is fine
 In oh-my-zsh.sh:
 
 At init:
+
 - `SHORT_HOST`
 - `LSCOLORS`
 - `SCREEN_NO`
@@ -68,23 +70,26 @@ At init:
 - `BG`
 
 At init (defaults if not provided):
+
 - `ZSH_CUSTOM`  - defaults to `$ZSH/custom`
 - `ZSH_CACHE_DIR` - defaults to `$ZSH/cache`
 - `ZSH_COMPDUMP`
 - `ZSH_SPECTRUM_TEXT`
 
 Modified at init:
+
 - `fpath`
 - `LC_CTYPE`
 
 Leaks:
+
 - `custom_config_file`
 
 ### Variables plugins use
 
 - `URLTOOLS_METHOD` - plugins/urltools uses it to manually select node/php/perl/python/etc
 
-##  Oh-My-Zsh Initialization ##
+## Oh-My-Zsh Initialization
 
 Oh-my-zsh is initialized for the current `zsh` session by sourcing `$ZSH/oh-my-zsh.sh`. This is typically done from `.zshrc`, and the oh-my-zsh installation process modifies the user's `.zshrc` to do so.
 
@@ -101,22 +106,22 @@ The basic steps of the oh-my-zsh initialization process are as follows. Note tha
 The initialization steps in detail:
 
 - Check for updates
- - Runs in a separate `zsh` process
- - Does not load OMZ, so it's independent and doesn't use any OMZ files
+  - Runs in a separate `zsh` process
+  - Does not load OMZ, so it's independent and doesn't use any OMZ files
 - Update `$fpath`: Add functions/ and completions/
- - (even though they don't exist in the current codebase)
+  - (even though they don't exist in the current codebase)
 - Set `$ZSH_CUSTOM` and `$ZSH_CACHE_DIR`
 - Load lib ("config") files
- - Discovers and sources all lib files, in alphabetical order, respecting custom overrides
+  - Discovers and sources all lib files, in alphabetical order, respecting custom overrides
 - Load custom user code
- - Source each `$ZSH_CUSTOM/*.zsh` file, in alphabetical order
+  - Source each `$ZSH_CUSTOM/*.zsh` file, in alphabetical order
 - Pre-load plugins  (add to `$fpath`, but don't source)
 - Set `$SHORT_HOST`
 - Initialize Completion support
- - Set `$ZSH_COMPDUMP`
- - Run `compinit`, using dump file
+  - Set `$ZSH_COMPDUMP`
+  - Run `compinit`, using dump file
 - Load plugins
- - Source each plugin specified in `$plugins`, in the order specified
+  - Source each plugin specified in `$plugins`, in the order specified
 - Load theme
 
 ## Customization
@@ -128,6 +133,7 @@ Overriding internals can be done by adding `*.zsh` files to the `$ZSH_CUSTOM` ro
 It's not documented in the _Customization_ page, but `$ZSH_CUSTOM/lib/*.zsh` do override the corresponding internals lib files. If a custom one is present, it is sourced instead of the one in the distribution.
 
 So, you can:
+
 - Override lib/* files on a per-file basis (loaded instead of the base file of the same name)
 - Add arbitrary customization code that runs later and can redefine any function or variable from the core
 - Override plugins and themes on a per-plugin/theme basis (loaded instead of base)
@@ -144,6 +150,7 @@ The [Customization](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization) wiki 
 Oh-my-zsh plugins extend the core functionality of oh-my-zsh.
 
 Plugins provide functionality in the following areas:
+
 - Completion definitions
 - Functions
 - Aliases
@@ -163,6 +170,7 @@ OMZ turns on the `prompt_subst` shell option, and OMZ themes assume it is enable
 Themes set a variety of variables to control the appearance of the zsh prompt. They may also  install hook functions. These variables are read by core OMZ functions like `git_prompt_info()` and used to modify their behavior and style their output.
 
 Things themes do:
+
 - Set `$PROMPT`, `$RPROMPT`, and related variables
 - Set `$LSCOLORS` and `$LS_COLORS`
 - Define hook functions
@@ -176,6 +184,7 @@ These variables are set by themes to control the prompt's appearance and other c
 - `ZSH_THEME_SCM_PROMPT_PREFIX`  – used in `bzr_prompt_info()` from `lib/bzr.sh`
 
 git_prompt_info():
+
 - `ZSH_THEME_GIT_PROMPT_PREFIX`
 - `ZSH_THEME_GIT_PROMPT_SUFFIX`
 - `ZSH_THEME_GIT_COMMITS_AHEAD_PREFIX`
@@ -199,15 +208,18 @@ git_prompt_info():
 - `ZSH_THEME_GIT_PROMPT_UNTRACKED`
 
 nvm_prompt_info():
+
 - `ZSH_THEME_NVM_PROMPT_PREFIX`
 - `ZSH_THEME_NVM_PROMPT_SUFFIX`
 
 rvm_prompt_info():
+
 - `ZSH_THEME_RVM_PROMPT_PREFIX`
 - `ZSH_THEME_RVM_PROMPT_SUFFIX`
 - `ZSH_THEME_RVM_PROMPT_OPTIONS`
 
 lib/termsupport.zsh:
+
 - `ZSH_THEME_TERM_TAB_TITLE_IDLE`
 - `ZSH_THEME_TERM_TITLE_IDLE`
 
@@ -221,6 +233,7 @@ Other `ZSH_THEME_*` variables may be used by different themes and plugins. The p
 Some per-theme custom variables:
 
 In bureau.zsh-theme:
+
 - `ZSH_THEME_GIT_PROMPT_STAGED`
 - `ZSH_THEME_GIT_PROMPT_UNSTAGED`
 - `ZSH_THEME_GIT_PROMPT_UNTRACKED`
@@ -245,7 +258,7 @@ Although some existing themes set `$chpwd` or `$precmd`, it's probably better fo
 
 ### Loading themes
 
-The oh-my-zsh theme mechanism is designed to load a theme once per session, during OMZ initialization. 
+The oh-my-zsh theme mechanism is designed to load a theme once per session, during OMZ initialization.
 
 The theme mechanism does not provide a way to unload themes. The values for `PROMPT`, `RPROMPT`, `ZSH_THEME_*`, and hooks do not get reset. Thus, you can hack in support for switching themes during a session, but it is not clean: when you switch themes, you can get leftover settings from previously loaded themes and end up with a combination of themes.
 

@@ -2,8 +2,9 @@ This page is meant to describe the most common problems with oh-my-zsh and what 
 
 ### Keyboard shortcut problems
 
-Example: 
-```shell
+Example:
+
+```sh
 bindkey '^L' clear-screen
 ```
 
@@ -45,13 +46,15 @@ Many completion problems, including the infamous `command not found: compdef`, c
 ### Other problems
 
 As a last resort, if you're getting weird behavior and can't find the culprit, run the following command to enable debug mode:
-```shell
+
+```sh
 zsh -xv &> >(tee ~/omz-debug.log 2>/dev/null)
 ```
 
 Afterwards, reproduce the behavior (_i.e._ if it's a particular command, run it), and when you're done, run `exit` to stop the debugging session. This will create a `omz-debug.log` file on your home directory, which you can upload to [gist.github.com](https://gist.github.com/) and link to it on the issue you'll open next.
 
 If you only need to debug the session initialization, you can do so with the command:
-```shell
+
+```sh
 zsh -xvic exit &> ~/omz-debug.log
 ```

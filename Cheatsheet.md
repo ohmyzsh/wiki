@@ -259,7 +259,6 @@ You also find these commands in Dash as a Cheat-sheet.
 | _sc-enable NAME_  | enable the NAME process to start at boot |
 | _sc-disable NAME_ | disable the NAME process at boot         |
 
-
 ## Rails
 
 ### Rails Aliases
@@ -277,7 +276,6 @@ You also find these commands in Dash as a Cheat-sheet.
 | _rs_     | rails server                  |
 | _rsd_    | rails server --debugger       |
 | _rsp_    | rails server --port           |
-
 
 ### RAILS_ENV Aliases
 
@@ -297,4 +295,4 @@ You also find these commands in Dash as a Cheat-sheet.
 | `z foo/`    | `cd` into relative path                                     |
 | `z ..`      | `cd` one level up                                           |
 | `z -`       | `cd` into previous directory                                |
-| `zi foo `   | `cd` with interactive selection (using `fzf`)               |
+| `zi foo`    | `cd` with interactive selection (using `fzf`)               |

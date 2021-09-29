@@ -1,14 +1,17 @@
 ## A list of plugins that don't come bundled with oh-my-zsh
 
 There is no restriction for adding your plugin into zsh bundle (unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes)) but the rationale for creating this page is next:
+
 * sometimes you're not really sure if your plugin will not harm (e.g. it can break something).
 
 ### Installation
+
 It should be clear from [this](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-plugins).
 
 ### The plugins
 
 #### Custom git plugin
+
 Fixes some inconsistencies in the default git plugin that make the aliases more intuitive, while adding some other useful functions.
 
 You can get it from [here](https://github.com/davidde/git).
@@ -26,7 +29,7 @@ You can get it from [here](https://gist.github.com/oshybystyi/475ee7768efc03727f
 
 GPG encrypted, Internet synchronized Zsh history using Git.
 
-You can get it from [here](https://github.com/wulfgarpro/history-sync). 
+You can get it from [here](https://github.com/wulfgarpro/history-sync).
 
 #### Doge Say
 
@@ -42,7 +45,7 @@ And get your doge [here](https://github.com/txstc55/dogesay/blob/master/dogesay.
 
 Give tab-completions to `z`.
 
-[![](https://github.com/changyuheng/fz/blob/master/fz-demo.gif)](https://github.com/changyuheng/fz/blob/master/fz-demo.gif)
+[![fz demo](https://github.com/changyuheng/fz/raw/master/fz-demo.gif)](https://github.com/changyuheng/fz/blob/master/fz-demo.gif)
 
 Get it [here](https://github.com/changyuheng/fz).
 
@@ -52,16 +55,21 @@ Get it [here](https://github.com/changyuheng/fz).
 **Maintainer:** [guiferpa](https://github.com/guiferpa)
 
 ##### Description
+
 This plugin show platforms version
 
 ##### Support
+
 [Nodejs](https://nodejs.org), [NPM](https://www.npmjs.com), [Docker](https://www.docker.com), [Go](https://golang.org), [Python](https://www.python.org), [Elixir](https://elixir-lang.org) and [Ruby](https://www.ruby-lang.org)
 
 ##### Demo
+
 ![Demo](https://raw.githubusercontent.com/guiferpa/aterminal/master/images/demo.gif)
 
-#### [xxh](https://github.com/xxh/xxh) - bring Oh My Zsh wherever you go through the SSH 
+#### [xxh](https://github.com/xxh/xxh) - bring Oh My Zsh wherever you go through the SSH
+
 Some users may want to use Oh My Zsh during the SSH connections. There is [xxh project](https://github.com/xxh/xxh) that allows bring Zsh with Oh My Zsh framework to the remote host without any installations, root access or affection on the host.
 
 #### [zshnotes](https://github.com/jameshgrn/zshnotes)
+
 A small, tidy, lightweight notes app that creates a daily text file and timestamps every line of added text

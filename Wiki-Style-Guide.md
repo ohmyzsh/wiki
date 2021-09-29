@@ -18,15 +18,19 @@ Following these guidelines while making the readme for your plugin/theme would b
 
 Below is an example of how to use each header (and will be the only use of ##/h2 in abnormal circumstances).
 
-___
+---
 
 ## This is a main subject (h2)
+
 ### This subject has several important sub-subjects (h3)
+
 #### Some sub-subjects are so vast, they require their own sub-subjects (h4)
+
 ##### _Example:_ (h5)
+
 ###### _Quick explanation of example:_ (h6)
 
-___
+---
 
 ## Tables
 
@@ -57,6 +61,7 @@ Use hyphens `-` for defining unnumbered lists and sublists, as opposed to asteri
 Use Markdown formatting for images, **not HTML**.
 
 ###### _Example:_
+
 ```markdown
 ![image description](url to image)
 ```

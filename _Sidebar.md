@@ -2,24 +2,24 @@
 * **[[FAQ]]**
 * **[[Plugins Overview]]**
 * **Documentation**
-  + [[Installing ZSH]]
-  + [[Settings]]
-  + [[Plugins]]
-  + [[Themes]]
-  + [[Cheatsheet]]
-  + [[Customization]]
-  + [[Troubleshooting]]
+  * [[Installing ZSH]]
+  * [[Settings]]
+  * [[Plugins]]
+  * [[Themes]]
+  * [[Cheatsheet]]
+  * [[Customization]]
+  * [[Troubleshooting]]
 * **Community**
-  + [[Articles]]
-  + [[External plugins]]
-  + [[External themes]]
-  + [[Testimonials]]
+  * [[Articles]]
+  * [[External plugins]]
+  * [[External themes]]
+  * [[Testimonials]]
 * **Contributing**
-  + [[Volunteers]]
-  + [[Design]]
-  + [[Code Style Guide]]
-  + [[Wiki Style Guide]]
-  + [[Contribution Technical Practices]]
+  * [[Volunteers]]
+  * [[Design]]
+  * [[Code Style Guide]]
+  * [[Wiki Style Guide]]
+  * [[Contribution Technical Practices]]
 
 ------------------
 

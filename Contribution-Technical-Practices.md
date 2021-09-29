@@ -25,6 +25,7 @@ _This supposes that you have Oh-My-Zsh installed already in `$ZSH` (default:_ `~
 _All the following uses_ `<name>` _for the remote name, but you can use something else._
 
 - **3.** Go to your local install directory and add your own repository as a remote
+
 ```shell
 cd $ZSH
 git remote add <name> git@github.com:<name>/oh-my-zsh.git
@@ -39,17 +40,20 @@ git remote add <name> git@github.com:<name>/oh-my-zsh.git
 ### Maintained fork setup
 
 - **3.** Go to your local install directory and rename the origin remote to "upstream"
+
 ```shell
 cd $ZSH
 git remote rename origin upstream
 ```
 
 - **4.** Then set your own repository as the origin remote
+
 ```shell
 git remote add origin git@github.com:<name>/oh-my-zsh.git
 ```
 
 **Upgrading:**
+
 - **Upstream:** when you want to get the latest upgrades from the original repository (_aka_ upstream), simply `git pull upstream master`; you may have to solve conflicts with your own changes of course; when you are satisfied with the update you can `git push origin master`.
 - **Origin:** when you want to get the latest upgrades from your own fork (_aka_ origin), simply `git pull --rebase origin master`; you may have to solve conflicts with your local changes of course; when you are satisfied with the update you can `git push --force origin master`.
 
@@ -68,6 +72,7 @@ _The following uses_ `my-new-pr` _for the branch name, but you can use something
 ### Simple contribution PRs
 
 - **1.** Any new PR must start from a clean upstream tree
+
 ```shell
 git checkout origin/master
 git checkout -b my-new-pr
@@ -76,6 +81,7 @@ git checkout -b my-new-pr
 You are now on your dedicated PR branch. Time to commit some changes!
 
 - **2.** Send your commits
+
 ```shell
 git push <name> my-new-pr
 ```
@@ -89,6 +95,7 @@ You can now go to GitHub and create the PR.
 ### Maintained fork PRs
 
 - **1.** Any new PR must start from a clean upstream tree
+
 ```shell
 git checkout upstream/master
 git checkout -b my-new-pr
@@ -97,6 +104,7 @@ git checkout -b my-new-pr
 You are now on your dedicated PR branch. Time to commit some changes!
 
 - **2.** Send your commits
+
 ```shell
 git push origin my-new-pr
 ```

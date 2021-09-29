@@ -8,7 +8,7 @@ Initially `$ZSH_CUSTOM` points to oh-my-zsh's `custom` directory. Whatever you p
 
 Let's say you created your own plugin `foobar` and want to add it to your configuration.
 
-##### _~/.zshrc_
+##### `~/.zshrc`
 
 ```shell
 plugins=(git bundler foobar)
@@ -16,7 +16,7 @@ plugins=(git bundler foobar)
 
 Then, create a `foobar` directory inside the `plugins` folder and an initialization script to launch your plugin. This script has to follow a naming convention, as all plugin files must have an ending of `.plugin.zsh`. Your file tree should look like this:
 
-```
+```text
 $ZSH_CUSTOM
 └── plugins
     └── foobar
@@ -25,7 +25,7 @@ $ZSH_CUSTOM
 
 ### Overriding an existing plugin
 
-Also follow these steps if you want to override plugins that ship with your oh-my-zsh installation. To override a plugin with a custom version, put your custom version at `$ZSH_CUSTOM/plugins/<plugin_name>/`. For example, if it's the rvm plugin you want to override, create the directory `custom/plugins/rvm` and place a file called `rvm.plugin.zsh` inside of it. 
+Also follow these steps if you want to override plugins that ship with your oh-my-zsh installation. To override a plugin with a custom version, put your custom version at `$ZSH_CUSTOM/plugins/<plugin_name>/`. For example, if it's the rvm plugin you want to override, create the directory `custom/plugins/rvm` and place a file called `rvm.plugin.zsh` inside of it.
 
 This method will override the entire plugin: your custom plugin files will be loaded *instead* of the files from the original plugin.
 
@@ -43,7 +43,7 @@ Adding and customizing your own themes pretty much works the same as with plugin
 
 Themes are located in a `themes` folder and must end with `.zsh-theme`. The basename of the file is the name of the theme.
 
-```
+```text
 $ZSH_CUSTOM
 └── themes
     └── my_awesome_theme.zsh-theme
@@ -63,7 +63,8 @@ If you don't change its filename, your `.zshrc` file can stay the same: `ZSH_THE
 
 oh-my-zsh's internals are defined in its `lib` directory. To change them, just create a file inside the `custom` directory (its name doesn't matter, as long as it has a `.zsh` ending) and start customizing whatever you want. Unsatisfied with the way `git_prompt_info()` works? Write your own implementation!
 
-##### _$ZSH_CUSTOM/my_patches.zsh_
+##### `$ZSH_CUSTOM/my_patches.zsh`
+
 ```shell
 function git_prompt_info() {
   # prove that you can do better
@@ -78,14 +79,15 @@ You can also fully override an existing `lib/*.zsh` file by providing a `$ZSH_CU
 
 If you don't want to use the built-in `custom` directory itself, just change the path of `$ZSH_CUSTOM` inside your `.zshrc` to a directory of your own liking. Everything will be fine as long as you adhere to the conventional file hierarchy.
 
-##### _~/.zshrc_
+##### `~/.zshrc`
+
 ```shell
 ZSH_CUSTOM=$HOME/my_customizations
 ```
 
 File tree inside of your home directory:
 
-```
+```text
 $HOME
 └── my_customizations
     ├── my_lib_patches.zsh
