@@ -311,11 +311,11 @@ plugins=(rails git ruby)
 - [zoxide](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zoxide)
 - [zsh-interactive-cd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh-interactive-cd)
 - [zsh-navigation-tools](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh-navigation-tools)
-- [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload)
 
 ### Deprecated
 
 - [django](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/django): Zsh already provides completion for Django.
+- [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload): functionality baked into the CLI with `omz reload`.
 
 ### Removed
 
