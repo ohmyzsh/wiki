@@ -11,9 +11,9 @@
   - [`ZSH_CUSTOM`](#zsh_custom)
   - [`ZSH_CACHE_DIR`](#zsh_cache_dir)
 - [Update settings](#update-settings)
-  - [`DISABLE_AUTO_UPDATE`](#disable_auto_update)
-  - [`DISABLE_UPDATE_PROMPT`](#disable_update_prompt)
-  - [`UPDATE_ZSH_DAYS`](#update_zsh_days)
+  - [`':omz:update' mode`](#omzupdate-mode)
+  - [`':omz:update' frequency`](#omzupdate-frequency)
+  - [Deprecated settings](#deprecated-settings)
 - [Completion settings](#completion-settings)
   - [`ZSH_COMPDUMP`](#zsh_compdump)
   - [`ZSH_DISABLE_COMPFIX`](#zsh_disable_compfix)
@@ -98,34 +98,71 @@ ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/ohmyzsh"
 
 ## Update settings
 
-### `DISABLE_AUTO_UPDATE`
+### `':omz:update' mode`
 
-If this option is set, Oh My Zsh will not try to update regularly and you'll
-have to update it manually, whenever you want, by running `omz update`.
+This setting controls which automatic update mode to use. These are the available modes:
+
+1. `disabled`: disables all automatic updates.
+
+   ```zsh
+   zstyle ':omz:update' mode disabled
+   ```
+
+2. `auto`: automatically updates Oh My Zsh when a new version is available, without asking for confirmation.
+
+   ```zsh
+   zstyle ':omz:update' mode auto
+   ```
+
+3. `reminder`: only checks if there are updates available and shows a reminder to update Oh My Zsh.
+
+   ```zsh
+   zstyle ':omz:update' mode reminder
+   ```
+
+4. `prompt`: it asks for confirmation before updating Oh My Zsh. This is the default mode, **so you don't need to set it** (just delete the zstyle setting if you've changed it before).
+
+### `':omz:update' frequency`
+
+This setting tells Oh My Zsh how often should automatic updates happen (**in days**). This
+setting only takes effect when automatic updates are enabled. **The default are 13 days.**
 
 ```zsh
-DISABLE_AUTO_UPDATE=true
+# Check for updates every 7 days
+zstyle ':omz:update' frequency 7
 ```
 
-### `DISABLE_UPDATE_PROMPT`
+### Deprecated settings
 
-If [automatic updates aren't disabled](#disable_auto_update), the confirmation prompt
-will not appear, and instead Oh My Zsh will update without asking whenever the automatic
-update expires.
+These settings are still supported but will be removed in a future version of Oh My Zsh.
+Migrate to the `zstyle` settings while you still can.
 
-```zsh
-DISABLE_UPDATE_PROMPT=true
-```
+<a name="disable_auto_update"></a>
 
-### `UPDATE_ZSH_DAYS`
+- `DISABLE_AUTO_UPDATE=true`: if set, it has the same effect as setting
+[**`disabled` mode** in the new zstyle format](#omzupdate-mode). Instead, use:
 
-This setting tells Oh My Zsh how often should automatic updates happen (in days). This
-setting doesn't have any effect if [automatic updates are disabled](#disable_auto_update).
+  ```zsh
+  zstyle ':omz:update' mode disabled
+  ```
 
-```zsh
-# The default is 13 days
-UPDATE_ZSH_DAYS=13
-```
+<a name="disable_update_prompt"></a>
+
+- `DISABLE_UPDATE_PROMPT=true`: if set, it has the same effect as setting
+[**`auto` mode** in the new zstyle format](#omzupdate-mode). Instead, use:
+
+  ```zsh
+  zstyle ':omz:update' mode auto
+  ```
+
+<a name="update_zsh_days"></a>
+
+- `UPDATE_ZSH_DAYS=<days>`: if set, it has the same effect as setting
+[**`frequency <days>`** in the new zstyle format](#omzupdate-frequency). Instead, use:
+
+   ```zsh
+   zstyle ':omz:update' frequency <days>
+   ```
 
 ## Completion settings
 
