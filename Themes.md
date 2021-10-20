@@ -35,8 +35,6 @@ The rest of the themes, in alphabetical order:
 
 [Official repository](https://github.com/agnoster/agnoster-zsh-theme)
 
-Shown with [Solarized Dark colorscheme](http://ethanschoonover.com/solarized) and Powerline-patched Meslo 14pt in [iTerm 2](http://www.iterm2.com/).
-
 Additional setup:
 
 - Install one of the [patched fonts from Vim-Powerline](https://github.com/powerline/fonts) or [patch your own](https://github.com/powerline/fontpatcher) for the special characters.
@@ -50,7 +48,7 @@ Additional setup:
 
 ![amuse](https://user-images.githubusercontent.com/49100982/108254748-78ade100-716c-11eb-8f61-0a2bec4f671c.jpg)
 
-Shown in the screenshot with tmux and the [powerline plugin](https://github.com/powerline/powerline) (you might need to install one of the [patched powerline fonts](https://github.com/powerline/fonts) for it to look the same).
+(You might need to install one of the [patched powerline fonts](https://github.com/powerline/fonts) for it to look the same)
 
 ### apple
 
