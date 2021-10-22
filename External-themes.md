@@ -9,6 +9,63 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
+<a href="https://github.com/reobin/typewritten"><p align="center">
+  <img src="https://raw.githubusercontent.com/reobin/typewritten/main/docs/_media/logo.svg" alt="typewritten" />
+</p></a>
+<h3 align="center"><a href="https://github.com/reobin/typewritten">typewritten</a></h3>
+<p align="center">A minimal zsh prompt</p>
+<br />
+<p align="center">
+  <a href="https://github.com/reobin/typewritten/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/reobin/typewritten?style=flat-square" />
+  </a>
+  <a href="https://github.com/reobin/typewritten/releases">
+    <img src="https://img.shields.io/github/v/release/reobin/typewritten?style=flat-square" />
+  </a>
+  <a href="https://npmjs.com/package/typewritten">
+    <img src="https://img.shields.io/npm/dm/typewritten?style=flat-square&logo=npm" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/reobin/typewritten/stargazers">
+    <img src="https://img.shields.io/github/stars/reobin/typewritten?style=flat-square&logo=github" />
+  </a>
+  <a href="https://github.com/reobin/typewritten/network/members">
+    <img src="https://img.shields.io/github/forks/reobin/typewritten?style=flat-square&logo=github" />
+  </a>
+  <a href="#contributors">
+    <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+    <img src="https://img.shields.io/badge/all_contributors-28-orange.svg?style=flat-square" alt="All contributors" />
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+  </a>
+</p>
+<a href="https://github.com/reobin/typewritten"><p align="center">
+  <img src="https://raw.githubusercontent.com/reobin/typewritten/main/docs/_media/typewritten.gif" width="800" />
+</p></a>
+
+**Quick start**
+
+```shell
+npm install -g typewritten
+# then reload zsh
+```
+
+**Features**
+
+* Asynchronous git info
+* 100% customizable
+* Actively maintained
+* [Thorough documentation](https://typewritten.dev)
+
+Repository: [typewritten.zsh](https://github.com/reobin/typewritten)
+
+Documentation: [typewritten.dev](https://typewritten.dev)
+
+Author:  [@reobin](https://github.com/reobin)
+
+---
+
+
 #### passion
 
 ![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
@@ -86,61 +143,6 @@ author: [@masaakifuruki](https://github.com/masaakifuruki)
 
 ---
 
-<a href="https://github.com/reobin/typewritten"><p align="center">
-  <img src="https://raw.githubusercontent.com/reobin/typewritten/main/docs/_media/logo.svg" alt="typewritten" />
-</p></a>
-<h3 align="center"><a href="https://github.com/reobin/typewritten">typewritten</a></h3>
-<p align="center">A minimal zsh prompt</p>
-<br />
-<p align="center">
-  <a href="https://github.com/reobin/typewritten/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/reobin/typewritten?style=flat-square" />
-  </a>
-  <a href="https://github.com/reobin/typewritten/releases">
-    <img src="https://img.shields.io/github/v/release/reobin/typewritten?style=flat-square" />
-  </a>
-  <a href="https://npmjs.com/package/typewritten">
-    <img src="https://img.shields.io/npm/dm/typewritten?style=flat-square&logo=npm" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/reobin/typewritten/stargazers">
-    <img src="https://img.shields.io/github/stars/reobin/typewritten?style=flat-square&logo=github" />
-  </a>
-  <a href="https://github.com/reobin/typewritten/network/members">
-    <img src="https://img.shields.io/github/forks/reobin/typewritten?style=flat-square&logo=github" />
-  </a>
-  <a href="#contributors">
-    <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-    <img src="https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square" alt="All contributors" />
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-  </a>
-</p>
-<a href="https://github.com/reobin/typewritten"><p align="center">
-  <img src="https://raw.githubusercontent.com/reobin/typewritten/main/docs/_media/typewritten.gif" width="800" />
-</p></a>
-
-**Quick start**
-
-```shell
-npm install -g typewritten
-# then reload zsh
-```
-
-**Features**
-
-* Asynchronous git info
-* 100% customizable
-* Actively maintained
-* [Thorough documentation](https://typewritten.dev)
-
-Repository: [typewritten.zsh](https://github.com/reobin/typewritten)
-
-Documentation: [typewritten.dev](https://typewritten.dev)
-
-Author:  [@reobin](https://github.com/reobin)
-
----
 
 #### guezwhoz
 
