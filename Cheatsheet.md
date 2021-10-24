@@ -78,7 +78,9 @@ See `~/.oh-my-zsh/lib/directories.zsh`
 | _ga_                   | git add                                                                           |
 | _gau_                  | git add --update (Also: "git add -u")                                             |
 | _gaa_                  | git add --all                                                                     |
+| _gap_                  | git apply                                                                         |
 | _gapa_                 | git add --patch                                                                   |
+| _gapt_                 | git apply --3way                                                                  |
 | _gb_                   | git branch                                                                        |
 | _gba_                  | git branch -a                                                                     |
 | _gbd_                  | git branch -d                                                                     |
