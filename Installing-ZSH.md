@@ -153,7 +153,7 @@ apt-cyg install zsh
 
 The easiest way to change the default shell is to set your SHELL user environment variable. Search for "Edit Environment variables for your account" to bring up the environment variables window, create a new variable named "SHELL" and give it the value "/usr/bin/zsh/".
 
-*Alternatively f:*
+*Alternatively:*
 Open Cygwin (in BASH) then type:
 
 ```sh
