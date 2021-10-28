@@ -23,7 +23,7 @@
 
 ------------------
 
-<center>
+<div style="display: flex; align-items: center">
 
 <p><strong><a href="https://shop.planetargon.com/products/ohmyzsh-t-shirts">Get a t-shirt!</a></strong></p>
 
@@ -36,4 +36,4 @@
 
 <p>We have other stuff, <strong><a href="https://shop.planetargon.com/collections/oh-my-zsh?utm_source=github">have a look!</a></strong></p>
 
-</center>
+</div>
