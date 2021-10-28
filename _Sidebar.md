@@ -25,14 +25,15 @@
 
 <center>
 
-**[Get a t-shirt!](https://shop.planetargon.com/products/ohmyzsh-t-shirts)**
+<p><strong><a href="https://shop.planetargon.com/products/ohmyzsh-t-shirts">Get a t-shirt!</a></strong></p>
 
-<a href="https://shop.planetargon.com/products/ohmyzsh-t-shirts"><img width="100%" alt="Black Oh My Zsh t-shirt" src="https://cdn.shopify.com/s/files/1/0101/8752/products/IMG_7672_1024x1024.jpg"></a>
+<p><a href="https://shop.planetargon.com/products/ohmyzsh-t-shirts"><img width="100%" alt="Black Oh My Zsh t-shirt" src="https://cdn.shopify.com/s/files/1/0101/8752/products/IMG_7672_1024x1024.jpg"></a>
+</p>
 
-**[Get stickers!](https://shop.planetargon.com/collections/everything/products/ohmyzsh-stickers-set-of-3-stickers)**
+<p><strong><a href="https://shop.planetargon.com/collections/everything/products/ohmyzsh-stickers-set-of-3-stickers">Get stickers!</a></strong></p>
 
-[![Oh My Zsh stickers](https://cdn.shopify.com/s/files/1/0101/8752/products/2013-09-25_11.35.14_medium.jpg)](https://shop.planetargon.com/collections/everything/products/ohmyzsh-stickers-set-of-3-stickers)
+<p><a href="https://shop.planetargon.com/collections/everything/products/ohmyzsh-stickers-set-of-3-stickers"><img src="https://cdn.shopify.com/s/files/1/0101/8752/products/2013-09-25_11.35.14_medium.jpg" alt="Oh My Zsh stickers"></a></p>
 
-We have other stuff, **[have a look!](https://shop.planetargon.com/collections/oh-my-zsh?utm_source=github)**
+<p>We have other stuff, <strong><a href="https://shop.planetargon.com/collections/oh-my-zsh?utm_source=github">have a look!</a></strong></p>
 
 </center>
