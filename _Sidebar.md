@@ -23,7 +23,7 @@
 
 ------------------
 
-<div style="display: flex; align-items: center">
+<div style="display: flex; align-items: center; flex-direction: column">
 
 <p><strong><a href="https://shop.planetargon.com/products/ohmyzsh-t-shirts">Get a t-shirt!</a></strong></p>
 
