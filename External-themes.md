@@ -79,6 +79,27 @@ author: [@chesteryue](https://github.com/ChesterYue)
 
 ---
 
+<br/>
+<h3 align="center"><a href="https://github.com/Moarram/headline">Headline</a></h3>
+<p align="center">A theme with Git status info and a colored line</p>
+<br/>
+<a href="https://github.com/Moarram/headline"><p align="center">
+  <img src="https://raw.githubusercontent.com/moarram/headline/assets/images/demo.png" width="800"/>
+</p></a>
+
+**Features**
+
+* Color matched separator line
+* Dynamic information line
+* Git status info (including commits ahead/behind)
+* Customization variables for colors, styles, and symbols
+
+Repository: [Headline](https://github.com/moarram/headline)
+
+Author: [Moarram](https://github.com/moarram)
+
+---
+
 ![smoothmonkey](https://user-images.githubusercontent.com/17438047/116856820-1a5aaf80-ac3f-11eb-9320-24b563c7b16b.png)
 
 See [repository](https://github.com/sebastianpulido/oh-my-zsh) for source code.
