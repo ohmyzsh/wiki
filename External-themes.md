@@ -79,12 +79,11 @@ author: [@chesteryue](https://github.com/ChesterYue)
 
 ---
 
-<br/>
 <h3 align="center"><a href="https://github.com/Moarram/headline">Headline</a></h3>
 <p align="center">A theme with Git status info and a colored line</p>
 <br/>
 <a href="https://github.com/Moarram/headline"><p align="center">
-  <img src="https://raw.githubusercontent.com/moarram/headline/assets/images/demo.png" width="800"/>
+  <img src="https://raw.githubusercontent.com/moarram/headline/assets/images/demo.png" width="600"/>
 </p></a>
 
 **Features**
