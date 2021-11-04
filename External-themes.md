@@ -91,11 +91,9 @@ author: [@chesteryue](https://github.com/ChesterYue)
 * Color matched separator line
 * Dynamic information line
 * Git status info (including commits ahead/behind)
-* Customization variables for colors, styles, and symbols
+* Customizable colors, styles, and symbols
 
-Repository: [Headline](https://github.com/moarram/headline)
-
-Author: [Moarram](https://github.com/moarram)
+Author: [@Moarram](https://github.com/moarram)
 
 ---
 
