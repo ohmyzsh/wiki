@@ -315,6 +315,7 @@ plugins=(rails git ruby)
 ### Deprecated
 
 - [django](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/django): Zsh already provides completion for Django.
+- [osx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx): renamed to `macos`.
 - [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload): functionality baked into the CLI with `omz reload`.
 
 ### Removed
