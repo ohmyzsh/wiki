@@ -186,7 +186,7 @@
 | [forklift](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/forklift)                 | MacOS file browser                                               |
 | [macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macports)                 | macport autocompletion                                           |
 | [mysql-macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/mysql-macports)     | same as apache-macport for MySQL                                 |
-| [osx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx)                           | MacOS completions and iTunes & Spotify control                   |
+| [macos](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos)                           | MacOS completions and iTunes & Spotify control                   |
 | [pod](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pod)                           | http://cocoapods.org library dependency manager for Xcode        |
 | [textmate](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/textmate)                 | aliases                                                          |
 
