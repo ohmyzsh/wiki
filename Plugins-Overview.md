@@ -6,7 +6,7 @@
 - [Ruby](Plugins-Overview#ruby)
 - [Python](Plugins-Overview#python)
 - [Distro-related](Plugins-Overview#distro-related)
-- [MacOS](Plugins-Overview#macos)
+- [macOS](Plugins-Overview#macos)
 - [Misc](Plugins-Overview#misc)
 
 ### Productivity
@@ -177,16 +177,16 @@
 | [systemd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/systemd)     | aliases                                 |
 | [yum](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/yum)             | aliases                                 |
 
-### MacOS
+### macOS
 
 | Name                                                                                        | Description                                                      |
 | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | [apache2-macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/apache2-macports) | apache management functions                                      |
 | [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)                         | package manager http://brew.sh/                                  |
-| [forklift](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/forklift)                 | MacOS file browser                                               |
+| [forklift](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/forklift)                 | macOS file browser                                               |
 | [macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macports)                 | macport autocompletion                                           |
+| [macos](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos)                       | macOS completions and iTunes & Spotify control                   |
 | [mysql-macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/mysql-macports)     | same as apache-macport for MySQL                                 |
-| [macos](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos)                           | MacOS completions and iTunes & Spotify control                   |
 | [pod](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pod)                           | http://cocoapods.org library dependency manager for Xcode        |
 | [textmate](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/textmate)                 | aliases                                                          |
 
