@@ -38,7 +38,7 @@ If necessary, follow these steps to install Zsh:
 
 ### Windows
 
-- [Download](https://linkify.me/TQhS6wY) the latest version of zsh
+- [Download](https://linkify.me/kHsWvwH) the latest version of zsh
 
 - Manually start zsh by running installer
 
