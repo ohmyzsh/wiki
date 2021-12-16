@@ -30,6 +30,7 @@ Once Oh My Zsh is installed:
 
 - Having problems? Check out the [[FAQ]] for common problems, or the [[Troubleshooting]] page for instructions on how to diagnose the issue.
 - Want to change stuff about Oh My Zsh? Learn about [[Customization]].
+- If you want to learn more, check out the [[Resources]] page for more information.
 
 ## Community
 
