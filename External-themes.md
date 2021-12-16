@@ -13,8 +13,9 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
 
-* time prompt will update once you finish inputting.
-* time cost will show after command running.
+* real time prompt.
+* command running time cost prompt.
+* command running error hint.
 
 source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
 
