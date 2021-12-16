@@ -8,6 +8,7 @@
   * [[Themes]]
   * [[Cheatsheet]]
   * [[Customization]]
+  * [[Resources]]
   * [[Troubleshooting]]
 * **Community**
   * [[Articles]]
