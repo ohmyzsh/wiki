@@ -1,5 +1,5 @@
 > **If you're coming from the Internet, this section has been edited to only show main**
-> **Oh My Zsh cheatsheets. Documentation for each plugin can be found in each [[Plugins]] README.**
+> **Oh My Zsh tricks. Documentation for each plugin can be found in each [[Plugins]] README.**
 
 Quick reference:
 
