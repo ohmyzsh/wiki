@@ -18,13 +18,13 @@
 
 - [**Zsh Home**](https://zsh.sourceforge.io): contains links to many different Zsh resources.
 
-- [**FAQ**](https://zsh.sourceforge.io/FAQ/): the Zsh project also has an FAQ.
+- [**FAQ**](https://zsh.sourceforge.io/FAQ): the Zsh project also has an FAQ.
 
 - [**Guide**](https://zsh.sourceforge.io/Guide/zshguide.html): an overview of Zsh for beginners. Kind of like a Getting started guide.
 
 - [**Docs**](https://zsh.sourceforge.io/Doc/Release/zsh_toc.html): this contains more advanced information about Zsh.
 
-- [**Zsh Mailing List**](https://zsh.org/mla/): the project has a mailing list where most of the stuff happens.
+- [**Zsh Mailing List**](https://zsh.org/mla): the project has a mailing list where most of the stuff happens.
 
   **The `zsh-users` list is for asking questions as a user; the `zsh-workers` list is for asking questions as a
   developer of Zsh code**.
