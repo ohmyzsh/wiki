@@ -1,74 +1,72 @@
-- [Productivity](Plugins-Overview#productivity)
-- [FS jumping](Plugins-Overview#fs-jumping)
-- [Build tools](Plugins-Overview#build-tools)
-- [Node JS](Plugins-Overview#node-js)
-- [PHP](Plugins-Overview#php)
-- [Ruby](Plugins-Overview#ruby)
-- [Python](Plugins-Overview#python)
-- [Distro-related](Plugins-Overview#distro-related)
-- [macOS](Plugins-Overview#macos)
-- [Misc](Plugins-Overview#misc)
+- [Productivity](#productivity)
+- [FS jumping](#fs-jumping)
+- [Build tools](#build-tools)
+- [Node JS](#node-js)
+- [PHP](#php)
+- [Ruby](#ruby)
+- [Python](#python)
+- [Distro-related](#distro-related)
+- [macOS](#macos)
+- [Misc](#misc)
 
 ### Productivity
 
-| Name                                                                                                            | Description                                                                                                    |
-| --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| [autoenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autoenv)                                       | automatically execs script on changing dir (.env file)                                                         |
-| [colemak](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colemak)                                       | colemak layout support + vi-mode fixes for colemak http://en.wikipedia.org/wiki/Keyboard_layout#Colemak        |
-| [colored-man-pages](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colored-man-pages)                   | adds colors to manpages                                                                                        |
-| [colorize](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colorize)                                     | cat with syntax highlight support                                                                              |
-| [command-not-found](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/command-not-found)                   | suggests package name with relevant command                                                                    |
-| [compleat](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/compleat)                                     | reformats completion http://github.com/mbrubeck/compleat                                                       |
-| [copydir](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copydir)                                       | copies current dir full path to clipboard                                                                      |
-| [copyfile](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copyfile)                                     | copies selected file content to clipboard                                                                      |
-| [cp](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cp)                                                 | cp with progress bar (rsync)                                                                                   |
-| [dircycle](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dircycle)                                     | hotkeys for cycling directories                                                                                |
-| [dirpersist](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dirpersist)                                 | saves and restores your directory stack across shell invocations                                               |
-| [encode64](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/encode64)                                     | e64 & d64 aliases                                                                                              |
-| [extract](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/extract)                                       | 'x' alias - swiss knife for archive extracting                                                                 |
-| [fbterm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fbterm)                                         | enhanced VESA terminal https://code.google.com/p/fbterm/                                                       |
-| [genpass](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/genpass)                                       | Three distinct 128-bit password generators                                                                     |
-| [gpg-agent](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gpg-agent)                                   | gpg-agent start/stop funcs                                                                                     |
-| [history](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history)                                       | aliases: h for history, hsi for grepping history                                                               |
-| [history-substring-search\*\*](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history-substring-search) | implementation of fish history substring search                                                                |
-| [kate](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kate)                                             | Kate text editor alias http://kate-editor.org/                                                                 |
-| [last-working-dir](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/last-working-dir)                     | same as dirpersist                                                                                             |
-| [mosh](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/mosh)                                             | mobile shell with roaming (wifi, mobile networks) and local echo http://mosh.mit.edu/                          |
-| [pass](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pass)                                             | pass utility autocompletion                                                                                    |
-| [per-directory-history](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/per-directory-history)           | self-descriptive                                                                                               |
-| [profiles](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/profiles)                                     | different zsh profiles per hostname                                                                            |
-| [rsync](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rsync)                                           | aliases                                                                                                        |
-| [safe-paste](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/safe-paste)                                 | extended copy/paste in terminal                                                                                |
-| [screen](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/screen)                                         | GNU screen enhances (titles etc)                                                                               |
-| [sprunge](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sprunge)                                       | CLI pastebin service sprunge.us uploader (http://www.shellperson.net/sprunge-pastebin-script/)                 |
-| [ssh-agent](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ssh-agent)                                   | ssh-agent start script                                                                                         |
-| [sublime](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sublime)                                       | aliases for SublimeText Editor                                                                                 |
-| [supervisor](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/supervisor)                                 | autocompletion for http://supervisord.org                                                                      |
-| [taskwarrior](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/taskwarrior)                               | autocompletion for http://taskwarrior.org                                                                      |
-| [terminitor](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/terminitor)                                 | **[RENAMED to consular]** Consular automates your development workflow setup https://github.com/achiu/consular |
-| [tmux](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux)                                             | enhanced Tmux support                                                                                          |
-| [tmuxinator](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmuxinator)                                 | enhanced Tmux support                                                                                          |
-| [torrent](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/torrent)                                       | magnet2torrent converter function                                                                              |
-| [tugboat](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tugboat)                                       | Digital Ocean droplet manager                                                                                  |
-| [urltools](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/urltools)                                     | urlencode/urldecode etc                                                                                        |
-| [vi-mode](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vi-mode)                                       | self descriptive                                                                                               |
-| [vundle](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vundle)                                         | Vim plugin manager http://github.com/gmarik/vundle                                                             |
-| [wakeonlan](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/wakeonlan)                                   | funcs for wakeonlan tool                                                                                       |
-| [web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)                                 | google from CLI                                                                                                |
-| [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload)                                 | reload the zsh session                                                                                                |
-
-\*\* (To make it work on Ubuntu do `echo DEBIAN_PREVENT_KEYBOARD_CHANGES=yes>>~/.zshenv`).
+| Name                                                                                                        | Description                                                                                                    |
+| ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| [autoenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autoenv)                                   | automatically execs script on changing dir (.env file)                                                         |
+| [colemak](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colemak)                                   | colemak layout support + vi-mode fixes for colemak http://en.wikipedia.org/wiki/Keyboard_layout#Colemak        |
+| [colored-man-pages](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colored-man-pages)               | adds colors to manpages                                                                                        |
+| [colorize](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colorize)                                 | cat with syntax highlight support                                                                              |
+| [command-not-found](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/command-not-found)               | suggests package name with relevant command                                                                    |
+| [compleat](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/compleat)                                 | reformats completion http://github.com/mbrubeck/compleat                                                       |
+| [copydir](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copydir)                                   | copies current dir full path to clipboard                                                                      |
+| [copyfile](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copyfile)                                 | copies selected file content to clipboard                                                                      |
+| [cp](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cp)                                             | cp with progress bar (rsync)                                                                                   |
+| [dircycle](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dircycle)                                 | hotkeys for cycling directories                                                                                |
+| [dirpersist](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dirpersist)                             | saves and restores your directory stack across shell invocations                                               |
+| [encode64](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/encode64)                                 | e64 & d64 aliases                                                                                              |
+| [extract](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/extract)                                   | 'x' alias - swiss knife for archive extracting                                                                 |
+| [fbterm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fbterm)                                     | enhanced VESA terminal https://code.google.com/p/fbterm/                                                       |
+| [genpass](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/genpass)                                   | Three distinct 128-bit password generators                                                                     |
+| [gpg-agent](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gpg-agent)                               | gpg-agent start/stop funcs                                                                                     |
+| [history](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history)                                   | aliases: h for history, hsi for grepping history                                                               |
+| [history-substring-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history-substring-search) | implementation of fish history substring search                                                                |
+| [kate](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kate)                                         | Kate text editor alias http://kate-editor.org/                                                                 |
+| [last-working-dir](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/last-working-dir)                 | same as dirpersist                                                                                             |
+| [mosh](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/mosh)                                         | mobile shell with roaming (wifi, mobile networks) and local echo http://mosh.mit.edu/                          |
+| [pass](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pass)                                         | pass utility autocompletion                                                                                    |
+| [per-directory-history](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/per-directory-history)       | self-descriptive                                                                                               |
+| [profiles](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/profiles)                                 | different zsh profiles per hostname                                                                            |
+| [rsync](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rsync)                                       | aliases                                                                                                        |
+| [safe-paste](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/safe-paste)                             | extended copy/paste in terminal                                                                                |
+| [screen](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/screen)                                     | GNU screen enhances (titles etc)                                                                               |
+| [sprunge](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sprunge)                                   | CLI pastebin service sprunge.us uploader (http://www.shellperson.net/sprunge-pastebin-script/)                 |
+| [ssh-agent](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ssh-agent)                               | ssh-agent start script                                                                                         |
+| [sublime](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sublime)                                   | aliases for SublimeText Editor                                                                                 |
+| [supervisor](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/supervisor)                             | autocompletion for http://supervisord.org                                                                      |
+| [taskwarrior](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/taskwarrior)                           | autocompletion for http://taskwarrior.org                                                                      |
+| [terminitor](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/terminitor)                             | **[RENAMED to consular]** Consular automates your development workflow setup https://github.com/achiu/consular |
+| [tmux](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux)                                         | enhanced Tmux support                                                                                          |
+| [tmuxinator](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmuxinator)                             | enhanced Tmux support                                                                                          |
+| [torrent](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/torrent)                                   | magnet2torrent converter function                                                                              |
+| [tugboat](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tugboat)                                   | Digital Ocean droplet manager                                                                                  |
+| [urltools](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/urltools)                                 | urlencode/urldecode etc                                                                                        |
+| [vi-mode](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vi-mode)                                   | self descriptive                                                                                               |
+| [vundle](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vundle)                                     | Vim plugin manager http://github.com/gmarik/vundle                                                             |
+| [wakeonlan](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/wakeonlan)                               | funcs for wakeonlan tool                                                                                       |
+| [web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)                             | google from CLI                                                                                                |
+| [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload)                             | reload the zsh session                                                                                         |
 
 ### FS Jumping
 
-| Name                                                                        | Description                                                   |
-| --------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| [autojump](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autojump) | shell extension to jump to frequently used directories        |
-| [fasd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fasd)         | quick access to files and dirs https://github.com/clvv/fasd   |
-| [jump](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/jump)         | allows to mark dirs and jump to marks                         |
-| [pj](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pj)             | aliases for quick access to projects dir                      |
-| [wd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/wd)             | yet another autojump tool github.com/mfaerevaag/wd            |
-| [z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)               | yet another autojump                                          |
+| Name                                                                        | Description                                                                                                   |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| [autojump](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autojump) | shell extension to jump to frequently used directories                                                        |
+| [fasd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fasd)         | quick access to files and dirs https://github.com/clvv/fasd                                                   |
+| [jump](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/jump)         | allows to mark dirs and jump to marks                                                                         |
+| [pj](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pj)             | aliases for quick access to projects dir                                                                      |
+| [wd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/wd)             | yet another autojump tool github.com/mfaerevaag/wd                                                            |
+| [z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)               | yet another autojump                                                                                          |
 | [zoxide](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zoxide)     | a blazing fast, fully featured autojumper written in Rust ([homepage](https://github.com/ajeetdsouza/zoxide)) |
 
 ### Build tools
@@ -114,12 +112,12 @@
 
 ### Node JS
 
-| Name                                                                          | Description                                           |
-| ----------------------------------------------------------------------------- | ----------------------------------------------------- |
-| [jake-node](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/jake-node) | NodeJS build tool Jake https://github.com/mde/jake    |
-| [node](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/node)           | NodeJS docs easy access via CLI                       |
-| [npm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npm)             | package manager for NodeJS                            |
-| [nvm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm)             | NodeJS version manager                                |
+| Name                                                                          | Description                                        |
+| ----------------------------------------------------------------------------- | -------------------------------------------------- |
+| [jake-node](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/jake-node) | NodeJS build tool Jake https://github.com/mde/jake |
+| [node](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/node)           | NodeJS docs easy access via CLI                    |
+| [npm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npm)             | package manager for NodeJS                         |
+| [nvm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm)             | NodeJS version manager                             |
 
 ### PHP
 
@@ -135,36 +133,36 @@
 
 ### Ruby
 
-| [Name](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/Name)             | Description                                                                |
-| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [bundler](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bundler)       | package manager http://bundler.io/                                         |
-| [capistrano](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/capistrano) | remote deployment tool                                                     |
-| [gem](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gem)               | http://rubygems.org/                                                       |
-| [jruby](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/jruby)           | JRuby aliases                                                              |
-| [pow](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pow)               | rack apps restarter http://pow.cx/                                         |
-| [powder](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/powder)         | powder gem autocompletion https://github.com/Rodreegez/powder              |
-| [powify](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/powify)         | another pow manager https://github.com/sethvargo/powify                    |
-| [rails](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rails)           | rails aliases for rails 2, rails 3, and rails 4 all in one clean plugin    |
-| [rake](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rake)             | Ruby build tool                                                            |
-| [rbenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rbenv)           | Ruby version switcher                                                      |
-| [rbfu](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rbfu)             | **[OBSOLETE]** another Ruby version manager https://github.com/hmans/rbfu  |
-| [ruby](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ruby)             | aliases                                                                    |
-| [rvm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rvm)               | another RubyVersionManager                                                 |
-| [thor](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/thor)             | Ruby doc tool https://github.com/erikhuda/thor                             |
-| [zeus](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zeus)             | funcs for Zeus (Rails env preloader) https://github.com/burke/zeus         |
+| [Name](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/Name)             | Description                                                               |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| [bundler](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bundler)       | package manager http://bundler.io/                                        |
+| [capistrano](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/capistrano) | remote deployment tool                                                    |
+| [gem](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gem)               | http://rubygems.org/                                                      |
+| [jruby](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/jruby)           | JRuby aliases                                                             |
+| [pow](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pow)               | rack apps restarter http://pow.cx/                                        |
+| [powder](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/powder)         | powder gem autocompletion https://github.com/Rodreegez/powder             |
+| [powify](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/powify)         | another pow manager https://github.com/sethvargo/powify                   |
+| [rails](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rails)           | rails aliases for rails 2, rails 3, and rails 4 all in one clean plugin   |
+| [rake](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rake)             | Ruby build tool                                                           |
+| [rbenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rbenv)           | Ruby version switcher                                                     |
+| [rbfu](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rbfu)             | **[OBSOLETE]** another Ruby version manager https://github.com/hmans/rbfu |
+| [ruby](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ruby)             | aliases                                                                   |
+| [rvm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rvm)               | another RubyVersionManager                                                |
+| [thor](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/thor)             | Ruby doc tool https://github.com/erikhuda/thor                            |
+| [zeus](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zeus)             | funcs for Zeus (Rails env preloader) https://github.com/burke/zeus        |
 
 ### Python
 
-| Name                                                                                          | Description                                                      |
-| --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [celery](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/celery)                       | Python distributed task queue                                    |
-| [django](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/django)                       | https://www.djangoproject.com/                                   |
-| [fabric](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fabric)                       | remote deployment tool http://docs.fabfile.org/en/1.8/           |
-| [pip](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pip)                             | Python package manager http://www.pip-installer.org/en/latest/   |
-| [python](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/python)                       | python aliases (pyfind, pyclean, pygrep)                         |
-| [pyenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pyenv)                         | python version management                                        |
-| [virtualenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/virtualenv)               | https://pypi.python.org/pypi/virtualenv isolated Python envs     |
-| [virtualenvwrapper](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/virtualenvwrapper) | https://pypi.python.org/pypi/virtualenv isolated Python envs     |
+| Name                                                                                          | Description                                                    |
+| --------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| [celery](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/celery)                       | Python distributed task queue                                  |
+| [django](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/django)                       | https://www.djangoproject.com/                                 |
+| [fabric](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fabric)                       | remote deployment tool http://docs.fabfile.org/en/1.8/         |
+| [pip](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pip)                             | Python package manager http://www.pip-installer.org/en/latest/ |
+| [python](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/python)                       | python aliases (pyfind, pyclean, pygrep)                       |
+| [pyenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pyenv)                         | python version management                                      |
+| [virtualenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/virtualenv)               | https://pypi.python.org/pypi/virtualenv isolated Python envs   |
+| [virtualenvwrapper](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/virtualenvwrapper) | https://pypi.python.org/pypi/virtualenv isolated Python envs   |
 
 ### Distro-related
 
@@ -179,16 +177,16 @@
 
 ### macOS
 
-| Name                                                                                        | Description                                                      |
-| ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [apache2-macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/apache2-macports) | apache management functions                                      |
-| [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)                         | package manager http://brew.sh/                                  |
-| [forklift](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/forklift)                 | macOS file browser                                               |
-| [macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macports)                 | macport autocompletion                                           |
-| [macos](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos)                       | macOS completions and iTunes & Spotify control                   |
-| [mysql-macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/mysql-macports)     | same as apache-macport for MySQL                                 |
-| [pod](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pod)                           | http://cocoapods.org library dependency manager for Xcode        |
-| [textmate](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/textmate)                 | aliases                                                          |
+| Name                                                                                        | Description                                               |
+| ------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| [apache2-macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/apache2-macports) | apache management functions                               |
+| [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)                         | package manager http://brew.sh/                           |
+| [forklift](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/forklift)                 | macOS file browser                                        |
+| [macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macports)                 | macport autocompletion                                    |
+| [macos](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos)                       | macOS completions and iTunes & Spotify control            |
+| [mysql-macports](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/mysql-macports)     | same as apache-macport for MySQL                          |
+| [pod](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pod)                           | http://cocoapods.org library dependency manager for Xcode |
+| [textmate](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/textmate)                 | aliases                                                   |
 
 ### Misc
 
