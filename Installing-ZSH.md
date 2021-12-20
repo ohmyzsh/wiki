@@ -3,7 +3,7 @@
 
 ## Zsh?
 
-Oh-My-Zsh is a framework for [Zsh](http://www.zsh.org), the Z shell.
+Oh-My-Zsh is a framework for [Zsh](https://www.zsh.org), the Z shell.
 
 - In order for Oh-My-Zsh to work, Zsh must be installed.
   - Please run `zsh --version` to confirm.
@@ -19,7 +19,7 @@ If necessary, follow these steps to install Zsh:
 1. There are two main ways to install Zsh:
 
    - With the package manager of your choice, _e.g._ `sudo apt install zsh` (see [below for more examples](#how-to-install-zsh-on-many-platforms))
-   - From [source](http://zsh.sourceforge.net/Arc/source.html), following [the instructions from the Zsh FAQ](http://zsh.sourceforge.net/FAQ/zshfaq01.html#l7).
+   - From [source](https://zsh.sourceforge.net/Arc/source.html), following [the instructions from the Zsh FAQ](https://zsh.sourceforge.net/FAQ/zshfaq01.html#l7).
 
 2. Verify installation by running `zsh --version`. Expected result: `zsh 5.0.8` or more recent.
 
@@ -58,7 +58,7 @@ To set zsh as your default shell, execute the following assuming a default insta
   chsh -s /bin/zsh
   ```
 
-Assuming you have [Homebrew](http://brew.sh/) installed. If not, most versions of
+Assuming you have [Homebrew](https://brew.sh/) installed. If not, most versions of
 **macOS** ship zsh by default, but it's normally an older version.  Alternatively, you may
 also use [MacPorts](https://www.macports.org/)
 
@@ -73,10 +73,10 @@ apt install zsh
 ```
 
 If you don't have `apt`, the recommended package manager for end users
-[[1]](http://askubuntu.com/a/446484)
-[[2]](http://askubuntu.com/a/775264)
+[[1]](https://askubuntu.com/a/446484)
+[[2]](https://askubuntu.com/a/775264)
 [[3]](https://help.ubuntu.com/lts/serverguide/apt.html)
-[[4]](http://www.howtogeek.com/234583/simplify-command-line-package-management-with-apt-instead-of-apt-get/)
+[[4]](https://www.howtogeek.com/234583/simplify-command-line-package-management-with-apt-instead-of-apt-get/)
 , you can try `apt-get` or `aptitude`.
 
 [Other distributions that apply](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Debian-based) include:

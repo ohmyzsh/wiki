@@ -23,7 +23,7 @@ Two main things could go wrong:
    - **command definition:** `which insert-cycledleft`  
      will print `insert-cycledleft () { ... }`
   
-     Notice that sometimes the command is a builtin [zle widget](http://zsh.sourceforge.net/Doc/Release/Zsh-Line-Editor.html) and so the `which` command won't work. If that's the case, just post the key binding and we'll figure it out.
+     Notice that sometimes the command is a builtin [zle widget](https://zsh.sourceforge.net/Doc/Release/Zsh-Line-Editor.html) and so the `which` command won't work. If that's the case, just post the key binding and we'll figure it out.
 
 ### Completion problems
 

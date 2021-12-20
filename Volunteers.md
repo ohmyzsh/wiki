@@ -22,6 +22,4 @@ Get in touch with [@robbyrussell](https://github.com/robbyrussell) and [@mcornel
 
 ### Contributions needed
 
-* Many [plugins](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins) are still missing a proper
-ReadMe file
 * Some wiki pages ([[Plugins]], [[Plugins Overview]], _etc_) need updating

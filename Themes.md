@@ -1,6 +1,6 @@
 _This section uses new, uniform screenshots. To see the previous section, go to [[Themes (legacy)]]._
 
-All the current themes can be found in the `themes/` directory in the oh-my-zsh distribution. [See list here.](http://github.com/robbyrussell/oh-my-zsh/tree/master/themes/)
+All the current themes can be found in the `themes/` directory in the oh-my-zsh distribution. [See list here.](https://github.com/robbyrussell/oh-my-zsh/tree/master/themes/)
 
 In order to enable a theme, set `ZSH_THEME` to the name of the theme in your `~/.zshrc`, before sourcing Oh My Zsh; for example: `ZSH_THEME=robbyrussell`
 If you do not want any theme enabled, just set `ZSH_THEME` to blank: `ZSH_THEME=""`
@@ -322,7 +322,7 @@ It’s funky…
 
 > Totally ripped off Dallas theme
 
-[More Info](http://www.tylercipriani.com/2012/12/18/zsh-prompt-customization.html)
+[More Info](https://www.tylercipriani.com/2012/12/18/zsh-prompt-customization.html)
 
 ## K
 
@@ -623,7 +623,7 @@ Instructions to further customize the theme are available as comments in the the
 Clean, simple, compatible and meaningful.Tested on Linux, Unix and Windows under ANSI colors.
 It is recommended to use with a dark background.
 
-[More info](http://blog.ysmood.org/my-ys-terminal-theme/)
+[More info](https://blog.ysmood.org/my-ys-terminal-theme/)
 
 ## Z
 

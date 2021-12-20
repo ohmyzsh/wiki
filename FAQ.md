@@ -223,7 +223,7 @@ Similar issues: [#6985](https://github.com/ohmyzsh/ohmyzsh/issues/6985#issuecomm
 
 #### zsh: no matches found
 
-This error happens when you used a wildcard character (also called [glob operators](http://zsh.sourceforge.net/Doc/Release/Expansion.html#Glob-Operators) or globbing characters), which indicate to the zsh interpreter to look for files matching that wildcard pattern (see [Filename generation](http://zsh.sourceforge.net/Doc/Release/Expansion.html#Filename-Generation) for the full documentation). The most common examples of these are `*` (star) and `?` (question mark), when used in anything from `apt`, `git` or even `curl` commands (`?` is usually part of a URL).
+This error happens when you used a wildcard character (also called [glob operators](https://zsh.sourceforge.net/Doc/Release/Expansion.html#Glob-Operators) or globbing characters), which indicate to the zsh interpreter to look for files matching that wildcard pattern (see [Filename generation](https://zsh.sourceforge.net/Doc/Release/Expansion.html#Filename-Generation) for the full documentation). The most common examples of these are `*` (star) and `?` (question mark), when used in anything from `apt`, `git` or even `curl` commands (`?` is usually part of a URL).
 
 There are many solutions, some temporary, some permanent:
 
@@ -244,7 +244,7 @@ There are many solutions, some temporary, some permanent:
    $ apt install 'linux-*'
    ```
 
-3. Permanent: disable globbing (_aka_ wildcard expansion) at all, using **[`unsetopt glob`](http://zsh.sourceforge.net/Doc/Release/Options.html#index-GLOB)**.
+3. Permanent: disable globbing (_aka_ wildcard expansion) at all, using **[`unsetopt glob`](https://zsh.sourceforge.net/Doc/Release/Options.html#index-GLOB)**.
    Put it somewhere in your zshrc file **after** Oh My Zsh is sourced so that it's applied on every zsh session.
    NOTE: this will mean that you won't be able to use wildcards anywhere in your zsh session.
 
@@ -272,7 +272,7 @@ Since the beginning of Oh My Zsh and up until commit [50dc4ab](https://github.co
 
 **What does this do?**
 
-[This variable tells zsh which non-alphanumeric characters are part of a **word**](http://zsh.sourceforge.net/Doc/Release/Parameters.html#index-WORDCHARS). This means that any characters in this string will be included in what constitutes a word. If `WORDCHARS` is `''`, that means that only alphanumeric characters are part of a word. Let these examples explain it better (the `|` represents the cursor):
+[This variable tells zsh which non-alphanumeric characters are part of a **word**](https://zsh.sourceforge.net/Doc/Release/Parameters.html#index-WORDCHARS). This means that any characters in this string will be included in what constitutes a word. If `WORDCHARS` is `''`, that means that only alphanumeric characters are part of a word. Let these examples explain it better (the `|` represents the cursor):
 
 ```console
 $ command arg1 arg2-with_symbols|

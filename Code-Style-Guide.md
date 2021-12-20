@@ -226,7 +226,7 @@ parse_json() {
 }
 
 parse_ubuntuusers_json() {
-  json=`curl -s -X GET 'http://suckup.de/planet-ubuntuusers-json/json.php?callback='`
+  json=`curl -s -X GET 'https://suckup.de/planet-ubuntuusers-json/json.php?callback='`
 
   parse_json "posts" "title"
   mapfile -t titles_array <<< "$result"
@@ -273,7 +273,7 @@ parse_json() {
 
 parse_ubuntuusers_json() {
   local temp_file=`mktemp`
-  local json=`curl -s -X GET 'http://suckup.de/planet-ubuntuusers-json/json.php?callback=' -o $temp_file`
+  local json=`curl -s -X GET 'https://suckup.de/planet-ubuntuusers-json/json.php?callback=' -o $temp_file`
 
   local titles=`parse_json "$temp_file" "posts" "title"`
   local titles_array
@@ -342,7 +342,7 @@ fi
 
 ### Naming Conventions
 
-Lower-case, with underscores to separate words. Parentheses are required after the function name. The `function` keyword is optional when `()` is present after the function name, but it aids readability and prevents [conflicts with alias declarations](http://zsh.sourceforge.net/Doc/Release/Shell-Grammar.html#Aliasing). But the POSIX specification says "`fname() compound-command[io-redirect ...]`", so we prefer the default from the specification!
+Lower-case, with underscores to separate words. Parentheses are required after the function name. The `function` keyword is optional when `()` is present after the function name, but it aids readability and prevents [conflicts with alias declarations](https://zsh.sourceforge.net/Doc/Release/Shell-Grammar.html#Aliasing). But the POSIX specification says "`fname() compound-command[io-redirect ...]`", so we prefer the default from the specification!
 
 The opening brace should appear on the same line as the function name.
 
@@ -480,5 +480,5 @@ Eval is evil! Eval munges the input when used for assignment to variables and ca
 ## References
 
 - [Shell Style Guide](https://google.github.io/styleguide/shell.xml)
-- [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+- [BASH Programming - Introduction HOW-TO](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
 - [Linux kernel coding style](https://www.kernel.org/doc/Documentation/process/coding-style.rst)

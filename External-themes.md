@@ -500,7 +500,7 @@ Additional setup:
 
 #### Gitster
 
-![gitster theme](http://recordit.co/1Y5XxMkXFl.gif)
+![gitster theme](https://recordit.co/1Y5XxMkXFl.gif)
 
 When in a git repo, it shows the location from the git's root folder.
 When not in a git repo, it shows from home, `~`.
@@ -560,7 +560,7 @@ Author: [@akinjide](https://github.com/akinjide)
 
 #### Haribo theme
 
-![haribotheme](http://fooo.biz/images/haribo_omz_theme.png)
+![haribotheme](https://fooo.biz/images/haribo_omz_theme.png)
 
 * Works with most console fonts
 * simple git status
@@ -570,7 +570,7 @@ See [Repo](https://github.com/haribo/omz-haribo-theme) for source
 
 #### Schminitz theme
 
-![schminitztheme](http://g.recordit.co/krsXnCfF0W.gif)
+![schminitztheme](https://g.recordit.co/krsXnCfF0W.gif)
 
 This theme allow to see if vim is running on background when using the ':sh' command.
 
@@ -624,12 +624,12 @@ author: [@halfo](https://github.com/halfo)
 
 #### Hedgehog theme
 
-![hedgehog](http://i.imgur.com/GTbKcj5.gif)
+![hedgehog](https://i.imgur.com/GTbKcj5.gif)
 
 * Simple, no-nonsense and clean, with support for git and return codes.
 
 source: [here](https://gist.github.com/hedgehog1029/dfbb7e66511e2c399157)
-author: [@hedgehog1029](http://github.com/hedgehog1029)
+author: [@hedgehog1029](https://github.com/hedgehog1029)
 
 #### Node theme
 
@@ -685,7 +685,7 @@ Currently it shows:
 * Current version of Haskell Tool Stack (`λ`).
 * Current Julia version (`ஃ`).
 * Current Docker version and connected machine (`🐳`).
-* Current Amazon Web Services (AWS) profile (`☁️`) ([Using named profiles](http://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)).
+* Current Amazon Web Services (AWS) profile (`☁️`) ([Using named profiles](https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)).
 * Current Python virtualenv.
 * Current Conda virtualenv (`🅒`).
 * Current Python pyenv (`🐍`).
@@ -974,7 +974,7 @@ author: [@badouralix](https://github.com/badouralix)
 
 #### alien
 
-[![asciicast](http://asciinema.org/a/154047.png)](https://asciinema.org/a/154047)
+[![asciicast](https://asciinema.org/a/154047.png)](https://asciinema.org/a/154047)
 
 Themes:
 ![blue](https://raw.githubusercontent.com/eendroroy/alien/master/screenshots/blue.png)
@@ -998,7 +998,7 @@ author: [@eendroroy](https://github.com/eendroroy)
 
 #### alien-minimal
 
-[![asciicast](http://asciinema.org/a/264037.svg)](https://asciinema.org/a/264037)
+[![asciicast](https://asciinema.org/a/264037.svg)](https://asciinema.org/a/264037)
 
 ##### Features
 
@@ -1082,7 +1082,7 @@ author: [@eendroroy](https://github.com/eendroroy)
 
 #### enlightenment
 
-![enlightenment](http://w33tmaricich.com/images/enlightenment.png)
+![enlightenment](https://w33tmaricich.com/images/enlightenment.png)
 
 ##### Features
 
@@ -1095,7 +1095,7 @@ author: [@eendroroy](https://github.com/eendroroy)
 
 See [repository](https://github.com/w33tmaricich/enlightenment) for source & documentation.
 
-Author: [@w33tmaricich](http://w33tmaricich.com)
+Author: [@w33tmaricich](https://w33tmaricich.com)
 
 #### iGeek
 
@@ -1441,7 +1441,7 @@ Themes:[Ohio2's themes repo](https://github.com/Ohio2/dotfiles-ohio2/tree/master
 ##### features:
 
 * a triangular glyph and your working directory, nothing more
-* a [matching theme](https://github.com/ice-bear-forever/hyper-bubblegum) for [Hyper](http://hyper.is) terminal
+* a [matching theme](https://github.com/ice-bear-forever/hyper-bubblegum) for [Hyper](https://hyper.is) terminal
 
 repository: [bubblegum-zsh](https://github.com/ice-bear-forever/bubblegum-zsh/)
 

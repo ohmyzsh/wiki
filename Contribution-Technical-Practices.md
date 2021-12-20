@@ -33,7 +33,7 @@ git remote add <name> git@github.com:<name>/oh-my-zsh.git
 
 **Upgrading:** as long as your local master branch cleanly follows origin/master (which still points to the original repository), auto-upgrade should work fine.
 
-**More setups:** on a new machine, simply install OMZ as usual, do step 3, and of course copy your [startup files](http://zsh.sourceforge.net/Intro/intro_3.html); you will be able to get upgrades, and to work on your pending PRs.
+**More setups:** on a new machine, simply install OMZ as usual, do step 3, and of course copy your [startup files](https://zsh.sourceforge.net/Intro/intro_3.html); you will be able to get upgrades, and to work on your pending PRs.
 
 [**Sending PRs**](#simple-contribution-prs)
 
@@ -58,7 +58,7 @@ git remote add origin git@github.com:<name>/oh-my-zsh.git
 - **Origin:** when you want to get the latest upgrades from your own fork (_aka_ origin), simply `git pull --rebase origin master`; you may have to solve conflicts with your local changes of course; when you are satisfied with the update you can `git push --force origin master`.
 
 **More setups:** on a new machine, simply
-`git clone git@github.com:<name>/oh-my-zsh.git ~/.oh-my-zsh` and `git remote add upstream git@github.com:ohmyzsh/ohmyzsh.git`, and of course copy your [startup files](http://zsh.sourceforge.net/Intro/intro_3.html); you will be able to get upgrades, and to work on your pending PRs.
+`git clone git@github.com:<name>/oh-my-zsh.git ~/.oh-my-zsh` and `git remote add upstream git@github.com:ohmyzsh/ohmyzsh.git`, and of course copy your [startup files](https://zsh.sourceforge.net/Intro/intro_3.html); you will be able to get upgrades, and to work on your pending PRs.
 
 [**Sending PRs**](#maintained-fork-prs)
 

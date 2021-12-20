@@ -1,4 +1,4 @@
-All the current themes can be found in the `themes/` directory in the oh-my-zsh distribution. [See list here.](http://github.com/ohmyzsh/ohmyzsh/tree/master/themes/)
+All the current themes can be found in the `themes/` directory in the oh-my-zsh distribution. [See list here.](https://github.com/ohmyzsh/ohmyzsh/tree/master/themes/)
 
 In order to enable a theme, set `ZSH_THEME` to the name of the theme in your `~/.zshrc`, before sourcing Oh My Zsh; for example: `ZSH_THEME=robbyrussell`  
 If you do not want any theme enabled, just set `ZSH_THEME` to blank or remove the line: `ZSH_THEME=""`
@@ -28,7 +28,7 @@ The rest of the themes, in alphabetical order:
 
 [![agnoster](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)
 
-Shown with [Solarized Dark colorscheme](http://ethanschoonover.com/solarized) and Powerline-patched Meslo 14pt in [iTerm 2](http://www.iterm2.com/).
+Shown with [Solarized Dark colorscheme](https://ethanschoonover.com/solarized) and Powerline-patched Meslo 14pt in [iTerm 2](https://www.iterm2.com/).
 
 Additional setup:
 
@@ -63,12 +63,12 @@ Shown in the screenshot with tmux and the [powerline plugin](https://github.com/
 ### blinks
 [![blinks](https://cloud.githubusercontent.com/assets/2618447/6316715/519c8e56-ba00-11e4-9792-a4b3d1d3775a.png)](https://cloud.githubusercontent.com/assets/2618447/6316715/519c8e56-ba00-11e4-9792-a4b3d1d3775a.png)
 
-Additional setup: Set up [Solarized](http://ethanschoonover.com/solarized).
+Additional setup: Set up [Solarized](https://ethanschoonover.com/solarized).
 
 ### bureau
 [![bureau](https://cloud.githubusercontent.com/assets/2618447/6316720/51a54ba4-ba00-11e4-82d2-f2af8cc18869.png)](https://cloud.githubusercontent.com/assets/2618447/6316720/51a54ba4-ba00-11e4-82d2-f2af8cc18869.png)
 
-To use: In the right prompt you see git status and (if you use nvm) the Node.js version. (I’m using the [Solarized](http://ethanschoonover.com/solarized) color scheme in this screenshot.)
+To use: In the right prompt you see git status and (if you use nvm) the Node.js version. (I’m using the [Solarized](https://ethanschoonover.com/solarized) color scheme in this screenshot.)
 
 ### candy
 [![candy](https://cloud.githubusercontent.com/assets/2618447/6316863/70f5b87e-ba03-11e4-8ee5-65345537e0bf.png)](https://cloud.githubusercontent.com/assets/2618447/6316863/70f5b87e-ba03-11e4-8ee5-65345537e0bf.png)
@@ -172,7 +172,7 @@ it’s funky…
 
 [![junkfood](https://cloud.githubusercontent.com/assets/1441704/9643381/e9cc48b6-51c1-11e5-99ee-e8cfbbf60d99.png)](https://cloud.githubusercontent.com/assets/1441704/9643381/e9cc48b6-51c1-11e5-99ee-e8cfbbf60d99.png)
 
-[+info](http://www.tylercipriani.com/2012/12/18/zsh-prompt-customization.html)
+[+info](https://www.tylercipriani.com/2012/12/18/zsh-prompt-customization.html)
 
 ### kafeitu
 [![kafeitu](https://cloud.githubusercontent.com/assets/2618447/6316741/51cec254-ba00-11e4-8433-a3c2524086c1.png)](https://cloud.githubusercontent.com/assets/2618447/6316741/51cec254-ba00-11e4-8433-a3c2524086c1.png)
@@ -247,7 +247,7 @@ also tells you when logged in over ssh
 ### pygmalion
 [![pygmalion](https://cloud.githubusercontent.com/assets/2618447/6316756/51e859ee-ba00-11e4-8b58-2f086c491926.png)](https://cloud.githubusercontent.com/assets/2618447/6316756/51e859ee-ba00-11e4-8b58-2f086c491926.png)
 
-(Shown with [Solarized Dark colorscheme](http://ethanschoonover.com/solarized).)
+(Shown with [Solarized Dark colorscheme](https://ethanschoonover.com/solarized).)
 
 ### risto
 [![risto](https://cloud.githubusercontent.com/assets/1441704/6315405/18aa274c-ba01-11e4-8bb7-0ba9ca166974.png)](https://cloud.githubusercontent.com/assets/1441704/6315405/18aa274c-ba01-11e4-8bb7-0ba9ca166974.png)
@@ -338,7 +338,7 @@ Instructions to further customize the theme are available as comments in the the
 Clean, simple, compatible and meaningful. Tested on Linux, Unix and Windows under ANSI colors.
 It is recommended to use with a dark background.
 
-([more info](http://blog.ysmood.org/my-ys-terminal-theme/))
+([more info](https://blog.ysmood.org/my-ys-terminal-theme/))
 
 ![ys-zsh-theme](https://cloud.githubusercontent.com/assets/1415488/13198621/f2c1320c-d848-11e5-8f22-7fac1baeec2f.jpg)
 

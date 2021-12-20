@@ -36,7 +36,7 @@ Once Oh My Zsh is installed:
 
 - Read our user [[Testimonials]].
 - [[Articles]] Have you written a blog post/article that mentions Oh My Zsh?
-- And don't forget to [follow us on twitter](http://twitter.com/ohmyzsh)!
+- And don't forget to [follow us on twitter](https://twitter.com/ohmyzsh)!
 
 ## Help out!
 
