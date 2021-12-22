@@ -1,6 +1,6 @@
 _This section uses new, uniform screenshots. To see the previous section, go to [[Themes (legacy)]]._
 
-All the current themes can be found in the `themes/` directory in the oh-my-zsh distribution. [See list here.](https://github.com/robbyrussell/oh-my-zsh/tree/master/themes/)
+All the current themes can be found in the `themes/` directory in the Oh My Zsh distribution. [See list here.](https://github.com/robbyrussell/oh-my-zsh/tree/master/themes/)
 
 In order to enable a theme, set `ZSH_THEME` to the name of the theme in your `~/.zshrc`, before sourcing Oh My Zsh; for example: `ZSH_THEME=robbyrussell`
 If you do not want any theme enabled, just set `ZSH_THEME` to blank: `ZSH_THEME=""`
@@ -678,7 +678,7 @@ sed 's/^!\[[a-zA-Z0-9 -]*\](\([^)]*\)) *$/[&](\1)/'
 
 ### Version 2019-08
 
-The current set of theme screenshots was generated automatically by [@Kovah](https://github.com/Kovah)'s [oh-my-zsh-screenshot-generation tool](https://github.com/Kovah/oh-my-zsh-screenshot-generation), using on macOS Mojave (10.14.5) with the macOS Terminal app. The used theme is `Basic` with the default settings and colors. The font was switched to `Fira Code` at 13 pt to enable some special characters in certain themes. All terminal windows have a size of 100x31.
+The current set of theme screenshots was generated automatically by [@Kovah](https://github.com/Kovah)'s [Oh My Zsh-screenshot-generation tool](https://github.com/Kovah/oh-my-zsh-screenshot-generation), using on macOS Mojave (10.14.5) with the macOS Terminal app. The used theme is `Basic` with the default settings and colors. The font was switched to `Fira Code` at 13 pt to enable some special characters in certain themes. All terminal windows have a size of 100x31.
 
 ### Version 2013-04
 

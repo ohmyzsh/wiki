@@ -1,4 +1,4 @@
-## A list of plugins that don't come bundled with oh-my-zsh
+## A list of plugins that don't come bundled with Oh My Zsh
 
 There is no restriction for adding your plugin into zsh bundle (unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes)) but the rationale for creating this page is next:
 

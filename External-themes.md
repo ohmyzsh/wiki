@@ -132,7 +132,7 @@ Author: [@Tesohh](https://github.com/Tesohh)
 
 #### ✏️✅ emoji
 
-emoji theme for [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/). simplified *robbyrussell* and replaced git prompt symbol with emoji for better clarity. Works fine on Macs.
+emoji theme for [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh/). simplified *robbyrussell* and replaced git prompt symbol with emoji for better clarity. Works fine on Macs.
 
 ![Alt text](https://raw.githubusercontent.com/masaakifuruki/emoji.zsh-theme/main/emoji_theme_ohmyzsh.png "emoji oh my zsh theme preview")
 
@@ -471,7 +471,7 @@ author: [@romkatv](https://github.com/romkatv)
 
 ![powerlevel9k theme](https://camo.githubusercontent.com/c5b0c78df1c3ca27bb2c5577114a92018bbdbee0/687474703a2f2f7261772e6769746875622e636f6d2f6361696f676f6e64696d2f62756c6c65742d747261696e2d6f682d6d792d7a73682d7468656d652f6d61737465722f696d672f707265766965772e676966)
 
-Bullet Train is a oh-my-zsh shell theme based on the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant.
+Bullet Train is a Oh My Zsh shell theme based on the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant.
 
 It currently shows:
 
@@ -604,11 +604,11 @@ See [hyperzsh](https://github.com/tylerreckart/hyperzsh) for source.
 
 author: [@tylerreckart](https://github.com/tylerreckart)
 
-### Hyper Oh-My-ZSH
+### Hyper Oh My Zsh
 
-![Hyper Oh-My-ZSH](https://user-images.githubusercontent.com/1252570/43366555-1a7e5eb2-9383-11e8-89d5-98b255968bdb.png)
+![Hyper Oh My Zsh](https://user-images.githubusercontent.com/1252570/43366555-1a7e5eb2-9383-11e8-89d5-98b255968bdb.png)
 
-* Oh-My-ZSH theme based on hyper terminal default theme 😎
+* Oh My Zsh theme based on hyper terminal default theme 😎
 
 source: [here](https://github.com/willmendesneto/hyper-oh-my-zsh)
 author: [@willmendesneto](https://github.com/willmendesneto)
@@ -735,7 +735,7 @@ author: [@skylerlee](https://github.com/skylerlee)
 
 ![AgnosterZak theme](https://raw.githubusercontent.com/zakaziko99/agnosterzak-ohmyzsh-theme/master/images/agnosterzak-01.png)
 
-AgnosterZak is a oh-my-zsh shell theme based on the Powerline Vim plugin & Agnoster Theme.
+AgnosterZak is a Oh My Zsh shell theme based on the Powerline Vim plugin & Agnoster Theme.
 
 It currently shows:
 
@@ -1105,7 +1105,7 @@ See [repository](https://github.com/Saleh7/igeek-zsh-theme) for source.
 
 #### ASCIIGit
 
-ASCII-only ZSH prompt theme (using oh-my-zsh) for git users who are not fan of fancy glyphs.
+ASCII-only ZSH prompt theme (using Oh My Zsh) for git users who are not fan of fancy glyphs.
 
 <img src="https://github.com/cemsbr/asciigit/blob/screenshot/screenshot.png?raw=true" width="606" height="468" alt="screenshot">
 
@@ -1370,7 +1370,7 @@ Author:  [@cloudnull](https://github.com/cloudnull)
 
 ![Antsy](https://raw.githubusercontent.com/jeffmhubbard/antsy-zsh-theme/assets/demo.png)
 
-Multiline oh-my-zsh theme with git info, virtualenv, vi-mode indicator, current history, jobs count, and exit status.
+Multiline Oh My Zsh theme with git info, virtualenv, vi-mode indicator, current history, jobs count, and exit status.
 
 Source: [antsy.zsh-theme](https://github.com/jeffmhubbard/antsy-zsh-theme)
 
@@ -1392,7 +1392,7 @@ Original: [@RainyDayMedia](https://github.com/RainyDayMedia/oh-my-zsh-poncho)
 
 ![none-theme](https://user-images.githubusercontent.com/43632885/83956911-a1c55600-a817-11ea-97d1-65c32238fb23.png)
 
-Absolutely no prompt. Useful if you want a super minimal prompt (but still want oh-my-zsh for other plugins), or if you're replacing your prompt (i.e. with [Starship](https://starship.rs))
+Absolutely no prompt. Useful if you want a super minimal prompt (but still want Oh My Zsh for other plugins), or if you're replacing your prompt (i.e. with [Starship](https://starship.rs))
 
 Source: File `none.zsh-theme` containing only the line `PROMPT=""`.
 

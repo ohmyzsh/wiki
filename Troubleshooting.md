@@ -1,4 +1,4 @@
-This page is meant to describe the most common problems with oh-my-zsh and what you can do to diagnose them:
+This page is meant to describe the most common problems with Oh My Zsh and what you can do to diagnose them:
 
 ### Keyboard shortcut problems
 

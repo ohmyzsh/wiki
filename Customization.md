@@ -1,6 +1,6 @@
-oh-my-zsh is fully configurable to your needs with the help of the `$ZSH_CUSTOM` variable, whether you want to change its internals, plugins or the rich theme set – and all that **without forking**!
+Oh My Zsh is fully configurable to your needs with the help of the `$ZSH_CUSTOM` variable, whether you want to change its internals, plugins or the rich theme set – and all that **without forking**!
 
-Initially `$ZSH_CUSTOM` points to oh-my-zsh's `custom` directory. Whatever you place inside of it will take precedence over the built-in configuration.
+Initially `$ZSH_CUSTOM` points to Oh My Zsh's `custom` directory. Whatever you place inside of it will take precedence over the built-in configuration.
 
 ## Overriding and adding plugins
 
@@ -25,7 +25,7 @@ $ZSH_CUSTOM
 
 ### Overriding an existing plugin
 
-Also follow these steps if you want to override plugins that ship with your oh-my-zsh installation. To override a plugin with a custom version, put your custom version at `$ZSH_CUSTOM/plugins/<plugin_name>/`. For example, if it's the rvm plugin you want to override, create the directory `custom/plugins/rvm` and place a file called `rvm.plugin.zsh` inside of it.
+Also follow these steps if you want to override plugins that ship with your Oh My Zsh installation. To override a plugin with a custom version, put your custom version at `$ZSH_CUSTOM/plugins/<plugin_name>/`. For example, if it's the rvm plugin you want to override, create the directory `custom/plugins/rvm` and place a file called `rvm.plugin.zsh` inside of it.
 
 This method will override the entire plugin: your custom plugin files will be loaded *instead* of the files from the original plugin.
 
@@ -55,13 +55,13 @@ Then edit your .zshrc to use that theme.
 ZSH_THEME="my_awesome_theme"
 ```
 
-Remember that customizations always take precedence over built-ins. If you happen to enjoy a particular theme that comes packaged with oh-my-zsh, but would like to change just a little detail inside of it – let's say you love the `agnoster` theme, it will be the easiest to copy the `agnoster.zsh-theme` file to your `custom/themes` directory and customize it.
+Remember that customizations always take precedence over built-ins. If you happen to enjoy a particular theme that comes packaged with Oh My Zsh, but would like to change just a little detail inside of it – let's say you love the `agnoster` theme, it will be the easiest to copy the `agnoster.zsh-theme` file to your `custom/themes` directory and customize it.
 
 If you don't change its filename, your `.zshrc` file can stay the same: `ZSH_THEME="agnoster"` will be perfect and still take your changes into account. You might also want to consider this before filing a new issue or pull request that just changes a trivial detail inside of a built-in theme.
 
 ## Overriding internals
 
-oh-my-zsh's internals are defined in its `lib` directory. To change them, just create a file inside the `custom` directory (its name doesn't matter, as long as it has a `.zsh` ending) and start customizing whatever you want. Unsatisfied with the way `git_prompt_info()` works? Write your own implementation!
+Oh My Zsh's internals are defined in its `lib` directory. To change them, just create a file inside the `custom` directory (its name doesn't matter, as long as it has a `.zsh` ending) and start customizing whatever you want. Unsatisfied with the way `git_prompt_info()` works? Write your own implementation!
 
 ##### `$ZSH_CUSTOM/my_patches.zsh`
 
@@ -100,4 +100,4 @@ $HOME
 
 ## Version control of customizations
 
-By default, git is set to ignore the custom directory, so that oh-my-zsh's update process does not interfere with your customizations. If you want to use a version control system like git for your personal changes, just initialize your own repository inside the `custom` directory (`git init`), or point `$ZSH_CUSTOM` to another directory you have under version control.
+By default, git is set to ignore the custom directory, so that Oh My Zsh's update process does not interfere with your customizations. If you want to use a version control system like git for your personal changes, just initialize your own repository inside the `custom` directory (`git init`), or point `$ZSH_CUSTOM` to another directory you have under version control.

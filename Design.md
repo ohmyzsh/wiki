@@ -1,13 +1,13 @@
 
-This page is a description of the current architecture and design of oh-my-zsh.
+This page is a description of the current architecture and design of Oh My Zsh.
 
 This is a work in progress: we don't think there's anything outright wrong in it, but much may still be left out.
 
-This page is not authoritative or normative: it was put together by oh-my-zsh users based on the current oh-my-zsh code; it's not a design document from the original oh-my-zsh authors. But it should serve as a useful guide to users and developers who want to get familiar with the oh-my-zsh codebase.
+This page is not authoritative or normative: it was put together by Oh My Zsh users based on the current Oh My Zsh code; it's not a design document from the original Oh My Zsh authors. But it should serve as a useful guide to users and developers who want to get familiar with the Oh My Zsh codebase.
 
 ## Overview
 
-What oh-my-zsh provides:
+What Oh My Zsh provides:
 
 - Configuration of zsh itself, enabling advanced features
 - Theming
@@ -33,7 +33,7 @@ In oh-my-zsh.sh:
 
 - `ZSH` - path to .oh-my-zsh (not zsh) installation
 - `plugins` - user-provided list of plugins to load
-- `ZSH_CUSTOM` – path to the oh-my-zsh (not zsh itself) customization dir
+- `ZSH_CUSTOM` – path to the Oh My Zsh (not zsh itself) customization dir
 - `ZSH_THEME` – theme to load at startup
 - `CASE_SENSITIVE` – controls zsh completion matching
 - `COMPLETION_WAITING_DOTS`
@@ -89,11 +89,11 @@ Leaks:
 
 - `URLTOOLS_METHOD` - plugins/urltools uses it to manually select node/php/perl/python/etc
 
-## Oh-My-Zsh Initialization
+## Oh My Zsh Initialization
 
-Oh-my-zsh is initialized for the current `zsh` session by sourcing `$ZSH/oh-my-zsh.sh`. This is typically done from `.zshrc`, and the oh-my-zsh installation process modifies the user's `.zshrc` to do so.
+Oh My Zsh is initialized for the current `zsh` session by sourcing `$ZSH/oh-my-zsh.sh`. This is typically done from `.zshrc`, and the Oh My Zsh installation process modifies the user's `.zshrc` to do so.
 
-The basic steps of the oh-my-zsh initialization process are as follows. Note that the order of steps is subject to change.
+The basic steps of the Oh My Zsh initialization process are as follows. Note that the order of steps is subject to change.
 
 - Check for updates
 - Path defaulting
@@ -126,7 +126,7 @@ The initialization steps in detail:
 
 ## Customization
 
-In oh-my-zsh terms, _customization_ means adding or overriding zsh code, including its internals and implementation. It's not just a term for user-specified configuration.
+In Oh My Zsh terms, _customization_ means adding or overriding zsh code, including its internals and implementation. It's not just a term for user-specified configuration.
 
 Overriding internals can be done by adding `*.zsh` files to the `$ZSH_CUSTOM` root directory. All `*.zsh` files there will be sourced after OMZ loads and sources its own lib/* files. This allows you to redefine functions after the fact. (This will take place after any setup has called OMZ functions.) These are referred to as "config files" in oh-my-zsh.sh.
 
@@ -147,7 +147,7 @@ The [Customization](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization) wiki 
 
 ## Plugins
 
-Oh-my-zsh plugins extend the core functionality of oh-my-zsh.
+Oh My Zsh plugins extend the core functionality of Oh My Zsh.
 
 Plugins provide functionality in the following areas:
 
@@ -157,9 +157,9 @@ Plugins provide functionality in the following areas:
 
 A "completion plugin" is the term for a plugin that has nothing but completion system definitions. They are not handled or loaded differently from other plugins.
 
-Plugins are optional, and selected at runtime. When oh-my-zsh is initialized, only the plugins specified in the user-defined `$plugins` variable are loaded. The core oh-my-zsh code does not depend on any plugins. Themes may depend on plugins. There's no standard mechanism to express these dependencies, though themes should note their plugin dependencies in their comments.
+Plugins are optional, and selected at runtime. When Oh My Zsh is initialized, only the plugins specified in the user-defined `$plugins` variable are loaded. The core Oh My Zsh code does not depend on any plugins. Themes may depend on plugins. There's no standard mechanism to express these dependencies, though themes should note their plugin dependencies in their comments.
 
-The plugins live in `plugins/` in the oh-my-zsh source tree. Even though their source code is in the main oh-my-zsh repository, each plugin has its own maintainer. The maintainers are listed on the [Plugins] page, or in the source code of the plugin.
+The plugins live in `plugins/` in the Oh My Zsh source tree. Even though their source code is in the main Oh My Zsh repository, each plugin has its own maintainer. The maintainers are listed on the [Plugins] page, or in the source code of the plugin.
 
 ## Themes
 
@@ -248,7 +248,7 @@ These variables are mostly used in prompt info functions. To use them to customi
 
 Or use other `*_prompt_info` functions that plugns define. These `prompt_info` functions have dummy implementations (in `lib/prompt_info_functions.zsh`) so they can be used unconditionally in theme prompts and will gracefully degrade to outputting empty strings if the appropriate plugin is not actually loaded.
 
-The oh-my-zsh prompt construction functions (found inside `lib/`) send their output to `stdout`, and are designed to be called with the `$(...)` output-capturing subshell invocation.
+The Oh My Zsh prompt construction functions (found inside `lib/`) send their output to `stdout`, and are designed to be called with the `$(...)` output-capturing subshell invocation.
 
 Themes use color definitions from zsh's color definitions. (`autoload -U colors && colors`).
 
@@ -258,7 +258,7 @@ Although some existing themes set `$chpwd` or `$precmd`, it's probably better fo
 
 ### Loading themes
 
-The oh-my-zsh theme mechanism is designed to load a theme once per session, during OMZ initialization.
+The Oh My Zsh theme mechanism is designed to load a theme once per session, during OMZ initialization.
 
 The theme mechanism does not provide a way to unload themes. The values for `PROMPT`, `RPROMPT`, `ZSH_THEME_*`, and hooks do not get reset. Thus, you can hack in support for switching themes during a session, but it is not clean: when you switch themes, you can get leftover settings from previously loaded themes and end up with a combination of themes.
 

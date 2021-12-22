@@ -1,4 +1,4 @@
-Oh-My-Zsh is a community-driven project and contributions are welcome, but it all works best with a proper setup. Here follow the best practices for setting up a fork and getting started for contributing.
+Oh My Zsh is a community-driven project and contributions are welcome, but it all works best with a proper setup. Here follow the best practices for setting up a fork and getting started for contributing.
 
 ## Prerequisites
 
@@ -6,7 +6,7 @@ You will of course need Git and a UNIX terminal. You should be familiar with the
 
 You will have to make a choice, whether you simply want to properly send PRs, or if you also wish to maintain your own fork (with your own changes) as a personal alternative version of OMZ. Think about it, it will come around later on.
 
-The following section explains how to set up your local Oh-My-Zsh install with the proper [remote repositories](https://help.github.com/categories/managing-remotes/).
+The following section explains how to set up your local Oh My Zsh install with the proper [remote repositories](https://help.github.com/categories/managing-remotes/).
 
 ## Setting up
 
@@ -14,7 +14,7 @@ _From this point on,_ `<name>` _stands for your GitHub username._
 
 - **1.** Fork the original repository (button at the top of [the repo's page](https://github.com/ohmyzsh/ohmyzsh)).
 
-_This supposes that you have Oh-My-Zsh installed already in `$ZSH` (default:_ `~/.oh-my-zsh`_) with the origin remote pointing to the original repository._
+_This supposes that you have Oh My Zsh installed already in `$ZSH` (default:_ `~/.oh-my-zsh`_) with the origin remote pointing to the original repository._
 
 - **2.** Now make the choice: either we keep it easy and simple, need-to-know basis, or you want a fully maintained fork with your own changes. Here follows a binary dichotomy:
   - **Simple contribution:** auto-upgrade works, and you can send clean PRs; but your fork is not maintained and you are not using your own master branch

@@ -1,8 +1,8 @@
 ## Zsh?
 
-Oh-My-Zsh is a framework for [Zsh](https://www.zsh.org), the Z shell.
+**Oh My Zsh** is a framework for [Zsh](https://www.zsh.org), the Z shell.
 
-- In order for Oh-My-Zsh to work, Zsh must be installed.
+- In order for **Oh My Zsh** to work, **Zsh must be installed**.
   - Please run `zsh --version` to confirm.
   - Expected result: `zsh 5.0.8` or more recent
 - Additionally, Zsh should be set as your default shell.
