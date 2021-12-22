@@ -1,6 +1,3 @@
-
-***
-
 ## Zsh?
 
 Oh-My-Zsh is a framework for [Zsh](https://www.zsh.org), the Z shell.
