@@ -387,7 +387,7 @@ In this example, the random theme will remove these 3 themes from the pool of ca
 
 ### `ZSH_THEME_RANDOM_QUIET`
 
-If this variable is set to a value (`true` or `1`), the random theme will not show a startup message indicating which theme was chosen. For example:
+If this variable is set to `true`, the random theme will not show a startup message indicating which theme was chosen. For example:
 
 ```zsh
 ZSH_THEME_RANDOM_QUIET=true
