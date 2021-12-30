@@ -39,12 +39,16 @@
 - **`man` pages and `info`**: you can browse the Zsh man pages (`man zsh`) or the `info zsh` guide. These are
   equivalent to searching the Docs website, but you might be more comfortable doing it from the command line.
 
+- The [Troubleshooting](https://github.com/romkatv/powerlevel10k#troubleshooting) section of the [powerlevel10k theme](https://github.com/romkatv/powerlevel10k)'s
+  README has a lot of useful trivia about Zsh and terminals in general. The whole README is very useful, so even if it
+  doesn't apply to what you're looking for, you'll probably learn a lot.
+
 ### Social media
 
 We post announcements, polls and some other stuff on:
 
-- Twitter: https://twitter.com/ohmyzsh
-- Discord: https://discord.gg/ohmyzsh
+- Twitter: <https://twitter.com/ohmyzsh>
+- Discord: <https://discord.gg/ohmyzsh>
 
 ### Merchandising and sponsorship
 
