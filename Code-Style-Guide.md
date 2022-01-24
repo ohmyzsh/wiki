@@ -342,7 +342,7 @@ fi
 
 ### Naming Conventions
 
-Lower-case, with underscores to separate words. Parentheses are required after the function name. The `function` keyword is optional when `()` is present after the function name, but it aids readability and prevents [conflicts with alias declarations](https://zsh.sourceforge.net/Doc/Release/Shell-Grammar.html#Aliasing). But the POSIX specification says "`fname() compound-command[io-redirect ...]`", so we prefer the default from the specification!
+Lower-case, with underscores to separate words. Parentheses are required after the function name. The `function` keyword is optional when `()` is present after the function name, but it aids readability and prevents [conflicts with alias declarations](https://zsh.sourceforge.net/Doc/Release/Shell-Grammar.html#Aliasing).
 
 The opening brace should appear on the same line as the function name.
 
@@ -357,7 +357,7 @@ function my_bad_func {
 ##### _Good:_
 
 ```shell
-my_good_func() {
+function my_good_func() {
   ...
 }
 
@@ -447,7 +447,7 @@ fi
 
 ```shell
 mv "${file_list}" "${dest_dir}/"
-if [[ "$?" -ne 0 ]]; then
+if [[ $? -ne 0 ]]; then
   echo "Unable to move ${file_list} to ${dest_dir}" >&2
   exit 1
 fi
