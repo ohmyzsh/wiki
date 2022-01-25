@@ -18,13 +18,13 @@
   - [`ZSH_COMPDUMP`](#zsh_compdump)
   - [`ZSH_DISABLE_COMPFIX`](#zsh_disable_compfix)
   - [`COMPLETION_WAITING_DOTS`](#completion_waiting_dots)
+  - [`CASE_SENSITIVE`](#case_sensitive)
+  - [`HYPHEN_INSENSITIVE`](#hyphen_insensitive)
 - [Automatic title](#automatic-title)
   - [`DISABLE_AUTO_TITLE`](#disable_auto_title)
   - [`ZSH_THEME_TERM_TITLE_IDLE`](#zsh_theme_term_title_idle)
   - [`ZSH_THEME_TERM_TAB_TITLE_IDLE`](#zsh_theme_term_tab_title_idle)
 - [Library settings](#library-settings)
-  - [`CASE_SENSITIVE`](#case_sensitive)
-  - [`HYPHEN_INSENSITIVE`](#hyphen_insensitive)
   - [`DISABLE_MAGIC_FUNCTIONS`](#disable_magic_functions)
   - [`DISABLE_LS_COLORS`](#disable_ls_colors)
   - [`ENABLE_CORRECTION`](#enable_correction)
@@ -222,6 +222,37 @@ COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
 
 **NOTE: this setting has been found to cause issues with [multiline prompt themes](https://github.com/ohmyzsh/ohmyzsh/issues/5765) ([zsh 5.7.1 and newer seem to work](https://github.com/ohmyzsh/ohmyzsh/issues/5765#issuecomment-569432346)).**
 
+### `CASE_SENSITIVE`
+
+Set to `true` to force case-sensitive completion. Otherwise, case-insensitive matching will be
+applied on filenames. For example, if there are two files beginning with `file`, one lowercase
+(`file-one`), one uppercase (`FILE-TWO`), the completion system will offer both as entries when
+trying to complete `file`, unless `CASE_SENSITIVE=true` is applied.
+
+By default, both `file-one` and `FILE-TWO` will match:
+
+```console
+$ cat file<TAB>
+file-one FILE-TWO
+```
+
+With `CASE_SENSITIVE=true`, only `file-one` will match:
+
+```console
+$ cat file<TAB>
+$ cat file-one
+```
+
+### `HYPHEN_INSENSITIVE`
+
+[Case-sensitive completion](#case_sensitive) must be off. Underscores (`_`) and
+hyphens (`-`) will be interchangeable, if `HYPHEN_INSENSITIVE=true`.
+
+```console
+$ cat file-<TAB>
+file-one file_two
+```
+
 ## Automatic title
 
 ### `DISABLE_AUTO_TITLE`
@@ -259,37 +290,6 @@ title interchangeably, so if changing one setting doesn't do it you can try chan
 ## Library settings
 
 These settings control the behavior of the library parts of Oh My Zsh. These libraries are located in the `lib/` folder of the project. **Again, these settings need to be set before Oh My Zsh is sourced**.
-
-### `CASE_SENSITIVE`
-
-Set to `true` to force case-sensitive completion. Otherwise, case-insensitive matching will be
-applied on filenames. For example, if there are two files beginning with `file`, one lowercase
-(`file-one`), one uppercase (`FILE-TWO`), the completion system will offer both as entries when
-trying to complete `file`, unless `CASE_SENSITIVE=true` is applied.
-
-By default, both `file-one` and `FILE-TWO` will match:
-
-```console
-$ cat file<TAB>
-file-one FILE-TWO
-```
-
-With `CASE_SENSITIVE=true`, only `file-one` will match:
-
-```console
-$ cat file<TAB>
-$ cat file-one
-```
-
-### `HYPHEN_INSENSITIVE`
-
-[Case-sensitive completion](#case_sensitive) must be off. Underscores (`_`) and
-hyphens (`-`) will be interchangeable, if `HYPHEN_INSENSITIVE=true`.
-
-```console
-$ cat file-<TAB>
-file-one file_two
-```
 
 ### `DISABLE_MAGIC_FUNCTIONS`
 
