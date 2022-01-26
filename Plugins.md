@@ -194,7 +194,6 @@ plugins=(rails git ruby)
 - [node](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/node)
 - [nomad](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nomad)
 - [npm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npm)
-- [npx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npx)
 - [nvm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm)
 - [oc](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/oc)
 - [octozen](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/octozen)
@@ -321,6 +320,7 @@ plugins=(rails git ruby)
 
 - [cargo](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cargo): moved to the `rust` plugin.
 - [django](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/django): Zsh already provides completion for Django.
+- [npx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npx): new npm versions (>=7.0.0) do not provide the same functionality.
 - [osx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx): renamed to `macos`.
 - [rustup](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rustup): moved to the `rust` plugin.
 - [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload): functionality baked into the CLI with `omz reload`.
