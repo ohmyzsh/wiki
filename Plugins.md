@@ -322,7 +322,6 @@ plugins=(rails git ruby)
 - [npx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npx): new npm versions (>=7.0.0) do not provide the same functionality.
 - [osx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx): renamed to `macos`.
 - [rustup](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rustup): moved to the `rust` plugin.
-- [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload): functionality baked into the CLI with `omz reload`.
 
 ### Removed
 
@@ -332,3 +331,4 @@ plugins=(rails git ruby)
 - git-remote-branch: not actively maintained.
 - go: use `golang` instead.
 - nyan: the service that the plugin relied on is no longer available.
+- zsh_reload: functionality baked into the CLI with `omz reload`.
