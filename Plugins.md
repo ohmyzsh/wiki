@@ -319,7 +319,6 @@ plugins=(rails git ruby)
 ### Deprecated
 
 - [cargo](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cargo): moved to the `rust` plugin.
-- [django](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/django): Zsh already provides completion for Django.
 - [npx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npx): new npm versions (>=7.0.0) do not provide the same functionality.
 - [osx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx): renamed to `macos`.
 - [rustup](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rustup): moved to the `rust` plugin.
@@ -328,6 +327,7 @@ plugins=(rails git ruby)
 ### Removed
 
 - cloudapp: removed due to [deprecated API](https://github.com/cloudapp/api#note-the-api-is-no-longer-supported).
+- django: removed because Zsh provides a better completion for Django.
 - fedora: use `dnf` instead.
 - git-remote-branch: not actively maintained.
 - go: use `golang` instead.
