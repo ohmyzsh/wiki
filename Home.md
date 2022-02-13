@@ -1,3 +1,5 @@
+## Welcome to Oh My Zsh!
+
 - You'll need `zsh` to install **Oh My Zsh**. Run `zsh --version` to check if you have it:
 
   ```console
