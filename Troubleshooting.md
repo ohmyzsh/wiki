@@ -12,7 +12,7 @@ Two main things could go wrong:
 
 1. The key sequence (`^L` in the example) does not match the key sequence being sent to the terminal:  
 
-   You can see the exact sequence a keyboard shortcut sents by pressing `CTRL`+`V` and then the keyboard shortcut.
+   You can see the exact sequence a keyboard shortcut sends by pressing `CTRL`+`V` and then the keyboard shortcut.
    For example: `CTRL`+`V`, `CTRL`+`L` will output `^L` (`^` represents the Control key).
 
 2. The command executed (`clear-screen` in the example) has an error. In that case, post both the key binding and
