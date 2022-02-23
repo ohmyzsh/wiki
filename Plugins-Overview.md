@@ -55,7 +55,6 @@
 | [vundle](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vundle)                                     | Vim plugin manager https://github.com/gmarik/vundle                                                             |
 | [wakeonlan](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/wakeonlan)                               | funcs for wakeonlan tool                                                                                       |
 | [web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)                             | google from CLI                                                                                                |
-| [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload)                             | reload the zsh session                                                                                         |
 
 ### FS Jumping
 
@@ -156,7 +155,6 @@
 | Name                                                                                          | Description                                                    |
 | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | [celery](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/celery)                       | Python distributed task queue                                  |
-| [django](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/django)                       | https://www.djangoproject.com/                                 |
 | [fabric](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fabric)                       | remote deployment tool https://docs.fabfile.org/en/1.8/         |
 | [pip](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pip)                             | Python package manager https://www.pip-installer.org/en/latest/ |
 | [python](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/python)                       | python aliases (pyfind, pyclean, pygrep)                       |
