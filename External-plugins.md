@@ -1,3 +1,6 @@
+> _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
+> _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+
 ## A list of plugins that don't come bundled with Oh My Zsh
 
 There is no restriction for adding your plugin into zsh bundle (unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes)) but the rationale for creating this page is next:

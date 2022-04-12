@@ -1,3 +1,6 @@
+> _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
+> _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+
 Please share your thoughts on Oh My Zsh... they might help influence others to use and/or avoid it like the black plague.
 
 > **Oh My Zsh is probably the only good thing I've ever done with my life.**

@@ -1,3 +1,6 @@
+> _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
+> _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+
 This page is meant to describe the most common problems with Oh My Zsh and what you can do to diagnose them:
 
 ### Keyboard shortcut problems

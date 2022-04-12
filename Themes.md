@@ -1,3 +1,6 @@
+> _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
+> _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+
 _This section uses new, uniform screenshots. To see the previous section, go to [[Themes (legacy)]]._
 
 All the current themes can be found in the `themes/` directory in the Oh My Zsh distribution. [See list here.](https://github.com/robbyrussell/oh-my-zsh/tree/master/themes/)

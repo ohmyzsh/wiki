@@ -1,3 +1,6 @@
+> _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
+> _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+
 ## General Wiki Code Style
 
 Keeping an open wiki that everyone can edit is important to the project, and spirit of the project. However, some constancy in markdown formatting goes a long way to make the wiki look as good as it is informative.

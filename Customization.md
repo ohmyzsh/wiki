@@ -1,3 +1,6 @@
+> _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
+> _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+
 Oh My Zsh is fully configurable to your needs with the help of the `$ZSH_CUSTOM` variable, whether you want to change its internals, plugins or the rich theme set – and all that **without forking**!
 
 Initially `$ZSH_CUSTOM` points to Oh My Zsh's `custom` directory. Whatever you place inside of it will take precedence over the built-in configuration.

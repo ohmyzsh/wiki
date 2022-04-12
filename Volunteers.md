@@ -1,3 +1,6 @@
+> _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
+> _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+
 We're having a discussion on the need to have [a few moderators](https://github.com/ohmyzsh/ohmyzsh/issues/2771) as well as having some [general guidelines](https://github.com/ohmyzsh/ohmyzsh/issues/3770) and [help](https://github.com/ohmyzsh/ohmyzsh/wiki/Contribution-Technical-Practices) for new collaborators in the project, whether they want to submit a patch, report a bug or just ask a question. Feel free to write your opinion!
 
 Please read our [Code of Conduct](https://github.com/ohmyzsh/ohmyzsh/blob/master/CODE_OF_CONDUCT.md), too. 🙃
