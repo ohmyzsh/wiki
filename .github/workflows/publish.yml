@@ -1,0 +1,26 @@
+name: Publish
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set up .wiki remote
+        run: git remote add dot-wiki git@github.com:ohmyzsh/ohmyzsh.wiki.git
+      - name: Set up deploy keys to push to remote
+        run: |
+          # Write deploy key to ~/.ssh/id_ed25519. Git will automatically
+          # use ~/.ssh/id_ed25519 to log in to github.com (see `man ssh`)
+          mkdir -p ~/.ssh
+          echo "${{ secrets.WIKI_DEPLOY_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+      - name: Push commits to main wiki remote
+        run: git push --force dot-wiki HEAD:master
