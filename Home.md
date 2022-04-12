@@ -1,7 +1,16 @@
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
-
-## Welcome to Oh My Zsh!
+  
+<h2 align="left">
+  
+  Welcome to Oh My Zsh!   
+  <a href="https://github.com/ohmyzsh"> 
+    <img align="right" width="85"
+          src="https://user-images.githubusercontent.com/90007553/163018158-333baac7-9108-4a34-b9f0-869bdf24a201.png"
+    />
+  </a>
+  
+</h2>
 
 - You'll need `zsh` to install **Oh My Zsh**. Run `zsh --version` to check if you have it:
 
@@ -36,6 +45,24 @@ Once Oh My Zsh is installed:
 - If you want to learn more, check out the [[Resources]] page for more information.
 
 ## Community
+
+<a href="https://discord.gg/ohmyzsh">
+    <img align="right" alt="Discord" width="25px"
+         src="https://www.svgrepo.com/show/331368/discord-v2.svg"
+    />
+</a>
+
+<a href="https://twitter.com/ohmyzsh">
+    <img align="right" alt="Twitter" width="25px"
+         src="https://user-images.githubusercontent.com/90007553/163023758-9bbfbaf8-5780-4ba2-9027-402968b36a28.png"
+    />
+</a>
+
+<a href="https://github.com/ohmyzsh/ohmyzsh/discussions">
+    <img align="right" width="25px"
+         src="https://user-images.githubusercontent.com/90007553/163025814-f6784fbd-46eb-4f5f-8240-bd1da302d05d.png"
+    />
+</a>
 
 - Read our user [[Testimonials]].
 - [[Articles]] Have you written a blog post/article that mentions Oh My Zsh?
