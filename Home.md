@@ -39,6 +39,24 @@ Once Oh My Zsh is installed:
 
 ## Community
 
+<a href="https://discord.gg/ohmyzsh">
+    <img align="right" alt="Discord" width="25px"
+         src="https://www.svgrepo.com/show/331368/discord-v2.svg"
+    />
+</a>
+
+<a href="https://twitter.com/ohmyzsh">
+    <img align="right" alt="Twitter" width="25px"
+         src="https://user-images.githubusercontent.com/90007553/163023758-9bbfbaf8-5780-4ba2-9027-402968b36a28.png"
+    />
+</a>
+
+<a href="https://github.com/ohmyzsh/ohmyzsh/discussions">
+    <img align="right" width="25px"
+         src="https://user-images.githubusercontent.com/90007553/163025814-f6784fbd-46eb-4f5f-8240-bd1da302d05d.png"
+    />
+</a>
+
 - Read our user [[Testimonials]].
 - [[Articles]] Have you written a blog post/article that mentions Oh My Zsh?
 - And don't forget to [follow us on twitter](https://twitter.com/ohmyzsh)!
