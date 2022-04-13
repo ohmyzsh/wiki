@@ -1,16 +1,7 @@
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
   
-<h2 align="left">
-  
-  Welcome to Oh My Zsh!   
-  <a href="https://github.com/ohmyzsh"> 
-    <img align="right" width="85"
-          src="https://user-images.githubusercontent.com/90007553/163018158-333baac7-9108-4a34-b9f0-869bdf24a201.png"
-    />
-  </a>
-  
-</h2>
+## Welcome to Oh My Zsh!
 
 - You'll need `zsh` to install **Oh My Zsh**. Run `zsh --version` to check if you have it:
 
