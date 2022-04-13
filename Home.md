@@ -18,6 +18,8 @@
   | **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
   | **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
   | **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+  
+  **WARNING - the above commands clobber your existing `.zshrc`! Don't paninc though, you will find your previous `.zshrc` has been saved as `.zshrc.pre-oh-my-zsh`**
 
 ## Getting started
 
