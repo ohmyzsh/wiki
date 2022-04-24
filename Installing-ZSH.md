@@ -213,13 +213,7 @@ apt install zsh
 To set zsh as your default shell, run this command:
 
 ```sh
-chsh -s /data/data/com.termux/files/usr/bin/zsh
-```
-
-Or:
-
-```sh
-chsh -s $(which zsh)
+chsh -s zsh
 ```
 
 ### KISS Linux
