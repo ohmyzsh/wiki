@@ -35,7 +35,6 @@ plugins=(rails git ruby)
 - [bbedit](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bbedit)
 - [bedtools](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bedtools)
 - [bgnotify](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bgnotify)
-- [boot2docker](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/boot2docker)
 - [bower](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bower)
 - [branch](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/branch)
 - [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)
@@ -331,6 +330,7 @@ plugins=(rails git ruby)
 
 ### Removed
 
+- boot2docker: the boot2docker project was abandoned in 2020. 
 - cloudapp: removed due to [deprecated API](https://github.com/cloudapp/api#note-the-api-is-no-longer-supported).
 - django: removed because Zsh provides a better completion for Django.
 - fedora: use `dnf` instead.
