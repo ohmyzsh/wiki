@@ -19,7 +19,7 @@ If necessary, follow these steps to install Zsh:
 1. There are two main ways to install Zsh:
 
    - With the package manager of your choice, _e.g._ `sudo apt install zsh` (see [below for more examples](#how-to-install-zsh-on-many-platforms))
-   - From [source](https://zsh.sourceforge.net/Arc/source.html), following [the instructions from the Zsh FAQ](https://zsh.sourceforge.net/FAQ/zshfaq01.html#l7).
+   - From [source](https://zsh.sourceforge.io/Arc/source.html), following [the instructions from the Zsh FAQ](https://zsh.sourceforge.io/FAQ/zshfaq01.html#l7).
 
 2. Verify installation by running `zsh --version`. Expected result: `zsh 5.0.8` or more recent.
 
