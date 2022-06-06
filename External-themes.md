@@ -1483,3 +1483,13 @@ A simple zsh theme. With your average time, exit status, user@host, directory an
 See [repository](https://github.com/bashelled/shini) for installation.
 
 Author: [@bashelled](https://github.com/bashelled)
+
+#### ivabus
+
+![ivabus](https://github.com/ivabus/ivabus-zsh-theme/blob/master/screenshot.png)
+
+repository: [ivabus-zsh-theme](https://github.com/ivabus/ivabus-zsh-theme)
+
+author: [@ivabus](https://github.com/ivabus)
+
+original: GitHub Codespaces
