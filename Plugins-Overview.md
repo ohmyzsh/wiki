@@ -18,6 +18,7 @@
 | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | [1password](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/1password)                                   | adds integration with 1password                                                       |
 | [adb](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/adb)                                   | autocomplettion for adb                                                     |
+| [ag](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ag)                                   | autocomplettion for ag                                                     |
 | [autoenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autoenv)                                   | automatically execs script on changing dir (.env file)                                                         |
 | [colemak](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colemak)                                   | colemak layout support + vi-mode fixes for colemak https://en.wikipedia.org/wiki/Keyboard_layout#Colemak        |
 | [colored-man-pages](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colored-man-pages)               | adds colors to manpages                                                                                        |
