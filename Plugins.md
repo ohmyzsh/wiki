@@ -324,21 +324,18 @@ plugins=(rails git ruby)
 - [zsh-interactive-cd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh-interactive-cd)
 - [zsh-navigation-tools](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh-navigation-tools)
 
-### Deprecated
-
-- [cargo](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cargo): moved to the `rust` plugin.
-- [copydir](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copydir): functionality moved to the `copypath` plugin. Use [`copypath`](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copypath) instead.
-- [npx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npx): new npm versions (>=7.0.0) do not provide the same functionality.
-- [osx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx): renamed to `macos`.
-- [rustup](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rustup): moved to the `rust` plugin.
-
 ### Removed
 
-- boot2docker: the boot2docker project was abandoned in 2020. 
+- boot2docker: the boot2docker project was abandoned in 2020.
+- cargo: moved to the `rust` plugin.
 - cloudapp: removed due to [deprecated API](https://github.com/cloudapp/api#note-the-api-is-no-longer-supported).
+- copydir: functionality moved to [`copypath`](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copypath) plugin.
 - django: removed because Zsh provides a better completion for Django.
 - fedora: use `dnf` instead.
 - git-remote-branch: not actively maintained.
 - go: use `golang` instead.
+- npx: new npm versions (>=7.0.0) do not provide the same functionality.
 - nyan: the service that the plugin relied on is no longer available.
+- osx: renamed to `macos`.
+- rustup: moved to the `rust` plugin.
 - zsh_reload: functionality baked into the CLI with `omz reload`.
