@@ -33,9 +33,9 @@ Once Oh My Zsh is installed:
 
 ## Advanced topics
 
-- Having problems? Check out the [[FAQ]] for common problems, or the [[Troubleshooting]] page for instructions on how to diagnose the issue.
-- Want to change stuff about Oh My Zsh? Learn about [[Customization]].
-- If you want to learn more, check out the [[Resources]] page for more information.
+- Having problems? Check out the [FAQ](https://github.com/ohmyzsh/wiki/blob/main/FAQ.md) for common problems, or the [Troubleshooting](https://github.com/ohmyzsh/wiki/blob/main/Troubleshooting.md) page for instructions on how to diagnose the issue.
+- Want to change stuff about Oh My Zsh? Learn about [Customization](https://github.com/ohmyzsh/wiki/blob/main/Customization.md).
+- If you want to learn more, check out the [Resources](https://github.com/ohmyzsh/wiki/blob/main/Resources.md) page for more information.
 
 ## Community
 
