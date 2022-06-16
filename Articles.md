@@ -16,7 +16,6 @@ If you know of any that are missing, feel free to contribute! :-)
 - [Oh my Zsh! Una Terminal Alternativa](https://medium.com/@LudaCasanova/oh-my-zsh-una-terminal-alternativa-48f8e8836a03) - in Spanish
 - [Tips, tricks and examples for the Z shell](https://grml.org/zsh/zsh-lovers.html)
 - [zsh: The Powerful Shell](https://nerdrug.org/blog/zsh-the-powerful-shell/) - in italian
-- [zsh on Mac OSX](https://www.mooduino.co.uk/2012/06/z-shell-on-mac-os-x.html)
 - [Budspencer theme](https://vimeo.com/96424888) - Screencast showing how to cope with vi modes
 - [Instant 100% command line productivity boost](https://dev.to/sobolevn/instant-100-command-line-productivity-boost)
 - [ZSH dicas para o dia-a-dia](https://medium.com/@kelvinmorais/zsh-dicas-para-o-dia-a-dia-1b16616ac235) - in portuguese
