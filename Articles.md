@@ -12,7 +12,6 @@ If you know of any that are missing, feel free to contribute! :-)
 - [My Extravagant Zsh Prompt](https://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/)
 - [Hooray! Oh My Zsh has been updated.](https://changelog.com/posts/hooray-oh-my-zsh-has-been-updated)
 - [Improving Oh My Zsh startup time](https://blog.santosvelasco.com/2011/04/22/improving-oh-my-zsh-startup-time/)
-- [Intridea’s blog post about Zsh & Oh my zsh.](https://intridea.com/posts/its-not-enough-to-bash-in-heads-youve-got-to-bash-in-minds-with-zsh)
 - [Oh my Zsh! Una Terminal Alternativa](https://medium.com/@LudaCasanova/oh-my-zsh-una-terminal-alternativa-48f8e8836a03) - in Spanish
 - [Tips, tricks and examples for the Z shell](https://grml.org/zsh/zsh-lovers.html)
 - [zsh: The Powerful Shell](https://nerdrug.org/blog/zsh-the-powerful-shell/) - in italian
