@@ -22,3 +22,4 @@ If you know of any that are missing, feel free to contribute! :-)
 - [My Terminal Setup + Zsh](https://dev.to/aspittel/my-terminal-setup-iterm2--zsh--30lm)
 - [A Huge List of Useful Keyboard Shortcuts](https://medium.com/better-programming/a-definitive-guide-to-all-the-shortcuts-for-new-rubyists-a365a590d16e)--Oh-My-zsh at the end
 - [Powering up your terminal in Mac](https://programmerabroad.com/powering-up-your-terminal-in-mac/)
+- [How to Install oh-my-zsh and Use it with ZSH](https://linuxhint.com/install-use-oh-my-zsh/)
