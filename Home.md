@@ -10,7 +10,7 @@
   zsh 5.8 (x86_64-ubuntu-linux-gnu)
   ```
 
-- If you see `command not found` you don't have zsh installed. See [[Installing Zsh]] for instructions.
+- If you see `command not found` you don't have zsh installed. See [Installing Zsh](https://github.com/ohmyzsh/wiki/blob/main/Installing-ZSH.md) for instructions.
 - Once you have zsh, you can install Oh My Zsh by simply running one of these commands:
 
   | Method    | Command                                                                                           |
