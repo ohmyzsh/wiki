@@ -57,8 +57,8 @@ Once Oh My Zsh is installed:
     />
 </a>
 
-- Read our user [[Testimonials]].
-- [[Articles]] Have you written a blog post/article that mentions Oh My Zsh?
+- Read our user [Testimonials](https://github.com/ohmyzsh/wiki/blob/main/Testimonials.md).
+- [Articles](https://github.com/ohmyzsh/wiki/blob/main/Articles.md) Have you written a blog post/article that mentions Oh My Zsh?
 - And don't forget to [follow us on twitter](https://twitter.com/ohmyzsh)!
 
 ## Help out!
