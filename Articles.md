@@ -13,7 +13,6 @@ If you know of any that are missing, feel free to contribute! :-)
 - [Hooray! Oh My Zsh has been updated.](https://changelog.com/posts/hooray-oh-my-zsh-has-been-updated)
 - [Improving Oh My Zsh startup time](https://blog.santosvelasco.com/2011/04/22/improving-oh-my-zsh-startup-time/)
 - [Intridea’s blog post about Zsh & Oh my zsh.](https://intridea.com/posts/its-not-enough-to-bash-in-heads-youve-got-to-bash-in-minds-with-zsh)
-- [Customize your zsh prompt](https://www.yellowmatter.com/2011/03/quickies-ill-want-to-find-these-again.html)
 - [Oh my Zsh! Una Terminal Alternativa](https://medium.com/@LudaCasanova/oh-my-zsh-una-terminal-alternativa-48f8e8836a03) - in Spanish
 - [Tips, tricks and examples for the Z shell](https://grml.org/zsh/zsh-lovers.html)
 - [Oh My Zsh on OpenBSD 5.0](https://blog.bsdguy.net/?p=112)
