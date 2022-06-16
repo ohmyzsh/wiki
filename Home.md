@@ -25,7 +25,7 @@
 
 Once Oh My Zsh is installed:
 
-- Get a quick summary of the built-in plugins: [[Plugins Overview]].
+- Get a quick summary of the built-in plugins: [Plugins Overview](https://github.com/ohmyzsh/wiki/blob/main/Plugins-Overview.md).
 - Take a look at our [[Themes]] and [[Plugins]] (read the READMEs first!).
 - If you need more, you can look at [[External themes]] and [[External plugins]].
   **Take caution, we do not review these.**
