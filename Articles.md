@@ -15,7 +15,6 @@ If you know of any that are missing, feel free to contribute! :-)
 - [Intridea’s blog post about Zsh & Oh my zsh.](https://intridea.com/posts/its-not-enough-to-bash-in-heads-youve-got-to-bash-in-minds-with-zsh)
 - [Oh my Zsh! Una Terminal Alternativa](https://medium.com/@LudaCasanova/oh-my-zsh-una-terminal-alternativa-48f8e8836a03) - in Spanish
 - [Tips, tricks and examples for the Z shell](https://grml.org/zsh/zsh-lovers.html)
-- [Oh My Zsh on OpenBSD 5.0](https://blog.bsdguy.net/?p=112)
 - [zsh: The Powerful Shell](https://nerdrug.org/blog/zsh-the-powerful-shell/) - in italian
 - [zsh on Mac OSX](https://www.mooduino.co.uk/2012/06/z-shell-on-mac-os-x.html)
 - [Oh My ZSH! Build Podcast](https://build-podcast.com/oh-my-zsh/) - Screencast
