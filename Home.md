@@ -63,5 +63,5 @@ Once Oh My Zsh is installed:
 
 ## Help out!
 
-- Want to contribute? Check out our [[Code Style Guide]] and [[Design]] guidelines and start hacking away!
-- We need [[Volunteers]]. We're improving this section, stay tuned!
+- Want to contribute? Check out our [Code Style Guide](https://github.com/ohmyzsh/wiki/blob/main/Code-Style-Guide.md) and [Design](https://github.com/ohmyzsh/wiki/blob/main/Design.md) guidelines and start hacking away!
+- We need [Volunteers](https://github.com/ohmyzsh/wiki/blob/main/Volunteers.md). We're improving this section, stay tuned!
