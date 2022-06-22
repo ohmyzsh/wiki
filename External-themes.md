@@ -1486,7 +1486,7 @@ Author: [@bashelled](https://github.com/bashelled)
 
 #### ivabus
 
-![ivabus](https://github.com/ivabus/ivabus-zsh-theme/blob/master/screenshot.png)
+![ivabus](https://github.com/ivabus/ivabus-zsh-theme/blob/main/screenshot.png)
 
 repository: [ivabus-zsh-theme](https://github.com/ivabus/ivabus-zsh-theme)
 
