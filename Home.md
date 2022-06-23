@@ -10,7 +10,7 @@
   zsh 5.8 (x86_64-ubuntu-linux-gnu)
   ```
 
-- If you see `command not found` you don't have zsh installed. See [[Installing Zsh]] for instructions.
+- If you see `command not found` you don't have zsh installed. See [Installing Zsh](https://github.com/ohmyzsh/wiki/blob/main/Installing-ZSH.md) for instructions.
 - Once you have zsh, you can install Oh My Zsh by simply running one of these commands:
 
   | Method    | Command                                                                                           |
@@ -25,17 +25,17 @@
 
 Once Oh My Zsh is installed:
 
-- Get a quick summary of the built-in plugins: [[Plugins Overview]].
-- Take a look at our [[Themes]] and [[Plugins]] (read the READMEs first!).
-- If you need more, you can look at [[External themes]] and [[External plugins]].
+- Get a quick summary of the built-in plugins: [Plugins Overview](https://github.com/ohmyzsh/wiki/blob/main/Plugins-Overview.md).
+- Take a look at our [Themes](https://github.com/ohmyzsh/wiki/blob/main/Themes.md) and [Plugins](https://github.com/ohmyzsh/wiki/blob/main/Plugins.md) (read the READMEs first!).
+- If you need more, you can look at [External themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes) and [External plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/External-plugins).
   **Take caution, we do not review these.**
-- Have a look at the [[Cheatsheet]] for other Oh My Zsh tricks.
+- Have a look at the [Cheatsheet](https://github.com/ohmyzsh/wiki/blob/main/Cheatsheet.md) for other Oh My Zsh tricks.
 
 ## Advanced topics
 
-- Having problems? Check out the [[FAQ]] for common problems, or the [[Troubleshooting]] page for instructions on how to diagnose the issue.
-- Want to change stuff about Oh My Zsh? Learn about [[Customization]].
-- If you want to learn more, check out the [[Resources]] page for more information.
+- Having problems? Check out the [FAQ](https://github.com/ohmyzsh/wiki/blob/main/FAQ.md) for common problems, or the [Troubleshooting](https://github.com/ohmyzsh/wiki/blob/main/Troubleshooting.md) page for instructions on how to diagnose the issue.
+- Want to change stuff about Oh My Zsh? Learn about [Customization](https://github.com/ohmyzsh/wiki/blob/main/Customization.md).
+- If you want to learn more, check out the [Resources](https://github.com/ohmyzsh/wiki/blob/main/Resources.md) page for more information.
 
 ## Community
 
@@ -57,11 +57,11 @@ Once Oh My Zsh is installed:
     />
 </a>
 
-- Read our user [[Testimonials]].
-- [[Articles]] Have you written a blog post/article that mentions Oh My Zsh?
+- Read our user [Testimonials](https://github.com/ohmyzsh/wiki/blob/main/Testimonials.md).
+- [Articles](https://github.com/ohmyzsh/wiki/blob/main/Articles.md) Have you written a blog post/article that mentions Oh My Zsh?
 - And don't forget to [follow us on twitter](https://twitter.com/ohmyzsh)!
 
 ## Help out!
 
-- Want to contribute? Check out our [[Code Style Guide]] and [[Design]] guidelines and start hacking away!
-- We need [[Volunteers]]. We're improving this section, stay tuned!
+- Want to contribute? Check out our [Code Style Guide](https://github.com/ohmyzsh/wiki/blob/main/Code-Style-Guide.md) and [Design](https://github.com/ohmyzsh/wiki/blob/main/Design.md) guidelines and start hacking away!
+- We need [Volunteers](https://github.com/ohmyzsh/wiki/blob/main/Volunteers.md). We're improving this section, stay tuned!
