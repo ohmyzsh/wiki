@@ -18,7 +18,7 @@
   | **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
   | **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
   | **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
-  
+
   **NOTE: the installer will rename an existing `.zshrc` file to `.zshrc.pre-oh-my-zsh`.**
 
 ## Getting started
@@ -63,5 +63,8 @@ Once Oh My Zsh is installed:
 
 ## Help out!
 
-- Want to contribute? Check out our [[Code Style Guide]] and [[Design]] guidelines and start hacking away!
-- We need [[Volunteers]]. We're improving this section, stay tuned!
+Want to contribute?
+
+We are looking for [[Volunteers]] of all skill levels.
+
+Check out our [[Code Style Guide]] and [[Design]] guidelines and start hacking away!
