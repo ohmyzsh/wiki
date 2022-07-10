@@ -1,7 +1,11 @@
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
 
+<p align="center"><img src="https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png" alt="Oh My Zsh"></p>
+
 ## Welcome to Oh My Zsh!
+
+Oh My Zsh is an open source, community-driven framework for managing your [zsh](https://www.zsh.org/) configuration.
 
 - You'll need `zsh` to install **Oh My Zsh**. Run `zsh --version` to check if you have it:
 
