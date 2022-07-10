@@ -1492,4 +1492,3 @@ repository: [ivabus-zsh-theme](https://github.com/ivabus/ivabus-zsh-theme)
 
 author: [@ivabus](https://github.com/ivabus)
 
-original: GitHub Codespaces
