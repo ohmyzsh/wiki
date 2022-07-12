@@ -165,12 +165,11 @@ author: [@masaakifuruki](https://github.com/masaakifuruki)
 ---
 
 
-#### guezwhoz
+#### 201011
 
 ![guezwhoz](https://github.com/guesswhozzz/guezwhoz-scheme/blob/main/demos/completer-zsh-demo.gif?raw=true)
 
-* Single git status marker for Visual Studio Code and Git cli
-* Interactive `Tab` completer
+Theme includes prompt settings, vsc_info settings, and zsh completion settings
 
 source: [repo](https://github.com/guesswhozzz/guezwhoz-zshell)
 
