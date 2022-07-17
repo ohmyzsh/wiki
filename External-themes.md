@@ -100,7 +100,8 @@ Author: [@Moarram](https://github.com/moarram)
 
 ---
 
-![smoothmonkey](https://user-images.githubusercontent.com/17438047/116856820-1a5aaf80-ac3f-11eb-9320-24b563c7b16b.png)
+![smoothmonkey](<img width="912" alt="yeknomhtooms" src="https://user-images.githubusercontent.com/17438047/179404611-a9041b35-d691-4592-ab8f-0a7ef086322e.png">
+)
 
 See [repository](https://github.com/sebastianpulido/oh-my-zsh) for source code.
 
