@@ -100,10 +100,11 @@ Author: [@Moarram](https://github.com/moarram)
 
 ---
 
-![smoothmonkey](https://user-images.githubusercontent.com/17438047/116856820-1a5aaf80-ac3f-11eb-9320-24b563c7b16b.png)
+#### yeknomhtooms
+
+<img width="912" alt="smoothmonkey" src="https://user-images.githubusercontent.com/17438047/179404887-b1bdb0a7-9f73-46cf-bcad-a9ac6a98c4e0.png">
 
 See [repository](https://github.com/sebastianpulido/oh-my-zsh) for source code.
-
 Author: [@sebastianpulido](https://github.com/sebastianpulido)
 
 ---
