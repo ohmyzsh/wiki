@@ -105,7 +105,6 @@ plugins=(rails git ruby)
 - [fzf](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fzf)
 - [gas](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gas)
 - [gatsby](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gatsby)
-- [gb](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gb)
 - [gcloud](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gcloud)
 - [geeknote](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/geeknote)
 - [gem](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gem)
@@ -332,6 +331,7 @@ plugins=(rails git ruby)
 - copydir: functionality moved to [`copypath`](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copypath) plugin.
 - django: removed because Zsh provides a better completion for Django.
 - fedora: use `dnf` instead.
+- gb: [project archived since 2017](https://github.com/constabulary/gb).
 - git-remote-branch: not actively maintained.
 - go: use `golang` instead.
 - npx: new npm versions (>=7.0.0) do not provide the same functionality.
