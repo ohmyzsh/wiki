@@ -9,6 +9,7 @@ If you know of any that are missing, feel free to contribute! :-)
 - [Oh My Zsh install 2018 Tutorial](https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb)
 - [Badassify your terminal and shell](https://jilles.me/badassify-your-terminal-and-shell/)
 - [Unix ZSHell Reloaded](https://cwoebker.com/posts/unix-zshell-reloaded/)
+- [Changelog - Episode 0.6.1 - Oh my zsh! with Robby Russell](https://changelog.com/podcast/61) -- podcast!
 - [My Extravagant Zsh Prompt](https://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/)
 - [Hooray! Oh My Zsh has been updated.](https://changelog.com/posts/hooray-oh-my-zsh-has-been-updated)
 - [Improving Oh My Zsh startup time](https://blog.santosvelasco.com/2011/04/22/improving-oh-my-zsh-startup-time/)
