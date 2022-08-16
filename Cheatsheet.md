@@ -17,7 +17,8 @@ Quick reference:
 | Command         | Description                                                                                |
 | :-------------- | :----------------------------------------------------------------------------------------- |
 | `alias`         | List all aliases                                                                           |
-| `take` / `mkcd` | Create a new directory and change to it, will create intermediate directories as required. |
+| `mkcd` | Create a new directory and change to it, will create intermediate directories as required. |
+| `take` | Like `mkcd`, but also knows how to handle remote URLs. When given an argument that looks like a URL (something that ends in `.git` or `.tar.(gz\|bz2\|xz)`), download the remote resource and extract it (if necessary) into the current directory. Then change to the newly extracted/downloaded/cloned directory. |
 | `zsh_stats`     | Get a list of the top 20 commands and how many times they have been run.                   |
 
 ## Directory
