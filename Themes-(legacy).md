@@ -385,7 +385,3 @@ For example:
 If you have several uploaded screenshot links you need to convert to that self-linked syntax, you can use this `sed` command on the markdown file to programmatically convert them.
 
     sed 's/^!\[[a-zA-Z0-9 -]*\](\([^)]*\)) *$/[&](\1)/'
-
-## Screenshots of Each Theme
-
-[Screenshots of each theme](https://www.dropbox.com/sh/u532agyv1hyash1/LS9yNESRlQ?lst) (as of 2013-04-10), in OS X Terminal.app using Consolas 13pt and Pro color scheme, inside a folder containing both a git and a mercurial repo. Each screenshot displays the output of the `pwd` command. It has shortcomings (plugins for some themes might be missing), but it offers a convenient and uniform overview of each theme. Plugins used were battery, rvm, hg prompt, among others.

@@ -691,7 +691,3 @@ sed 's/^!\[[a-zA-Z0-9 -]*\](\([^)]*\)) *$/[&](\1)/'
 ### Version 2019-08
 
 The current set of theme screenshots was generated automatically by [@Kovah](https://github.com/Kovah)'s [Oh My Zsh-screenshot-generation tool](https://github.com/Kovah/oh-my-zsh-screenshot-generation), using on macOS Mojave (10.14.5) with the macOS Terminal app. The used theme is `Basic` with the default settings and colors. The font was switched to `Fira Code` at 13 pt to enable some special characters in certain themes. All terminal windows have a size of 100x31.
-
-### Version 2013-04
-
-[Screenshot collection](https://www.dropbox.com/sh/u532agyv1hyash1/LS9yNESRlQ?lst) (as of 2013-04-10), in OS X Terminal.app using Consolas 13pt and Pro color scheme, inside a folder containing both a git and a mercurial repo. Each screenshot displays the output of the `pwd` command. It has shortcomings (plugins for some themes might be missing), but it offers a convenient and uniform overview of each theme. Plugins used were battery, rvm, hg prompt, among others.
