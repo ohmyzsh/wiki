@@ -22,6 +22,8 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [How do I reset the completion cache?](#how-do-i-reset-the-completion-cache)
     - [How do I manually update Oh My Zsh from a script?](#how-do-i-manually-update-oh-my-zsh-from-a-script)
 - [Common problems](#common-problems)
+  - [Installation](#installation)
+    - [My .zshrc file was deleted on install](#my-zshrc-file-was-deleted-on-install)
   - [Font issues](#font-issues)
     - [I have a weird character in my prompt](#i-have-a-weird-character-in-my-prompt)
   - [Completion issues](#completion-issues)
@@ -191,6 +193,30 @@ The best way to do that is to call the `upgrade.sh` script directly. If `$ZSH` i
 Another option is to use the `omz` CLI. The `omz update` command triggers an update, but it also shows the changelog and restarts the zsh session (which _might_ cause a restart loop). To avoid that, run it with the `--unattended` flag, like so: `omz update --unattended`. But again, it's better to call the `upgrade.sh` script directly.
 
 ## Common problems
+
+### Installation
+
+#### My .zshrc file was deleted on install
+
+The installer script is designed to back up your existing `.zshrc` file, and any previous backups are also preserved.
+This is the current behavior of the installer, so you can search for the backup file and restore it manually.
+
+> NOTE: `~` is the path to the home directory.
+
+a. If a `.zshrc` file is not found, write and modify the template zshrc file to `~/.zshrc`.
+
+b. If otherwise the `.zshrc` exists, start the back up process:
+
+   1. If `~/.zshrc.pre-oh-my-zsh` exists, back it up to `~/.zshrc.pre-oh-my-zsh-<current-datetime>`, where `<current-datetime>` is in the format `YYYY-mm-dd_HH-MM-SS`. **If this destination file exists, the installer is aborted**.
+   2. After `~/.zshrc.pre-oh-my-zsh` is backed up, back up the existing `.zshrc` file to `~/.zshrc.pre-oh-my-zsh`.
+   3. **Only then write the template zshrc file to `~/.zshrc`.**
+
+As you can see, the installer is designed to never delete any existing files, even if the installer is ran multiple times.
+If you find that your `.zshrc` file was deleted, you can search for the backup file with the command below:
+
+```sh
+ls -l ~/.zshrc*
+```
 
 ### Font issues
 
