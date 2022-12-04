@@ -40,7 +40,7 @@ As a Level 2 volunteer, you can help us by:
 * Helping improve an existing plugin.
 * Testing pull-requests that other people have submitted (we usually have a lot to review!).
 * Writing a blog post about how to use a favorite plugin of yours and post about it online.
-* Recording a screencast an uploading it to places like YouTube.
+* Recording a screencast and uploading it to places like YouTube.
 
 Skills needed:
 
@@ -96,7 +96,7 @@ This is currently handled by:
 
 ## In Summary
 
-Does any of this sound like something you might like to contrbiture to? You can get started today!
+Does any of this sound like something you might like to contribute to? You can get started today!
 
 If you have any questions, don't hesitate to open up a Github Discussion and we'll follow-up with you there.
 
