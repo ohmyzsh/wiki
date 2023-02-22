@@ -23,10 +23,11 @@ If necessary, follow these steps to install Zsh:
 
 2. Verify installation by running `zsh --version`. Expected result: `zsh 5.0.8` or more recent.
 
-3. Make it your default shell: `chsh -s $(which zsh)`
+3. Make it your default shell: `chsh -s $(which zsh)` or use `sudo lchsh $USER` if you are on Fedora.
 
    - Note that this will not work if Zsh is not in your authorized shells list (`/etc/shells`)
     or if you don't have permission to use `chsh`. If that's the case [you'll need to use a different procedure](https://www.google.com/search?q=zsh+default+without+chsh).
+    - If you use `lchsh` you need to type `/bin/zsh` to make it your default shell.
 
 4. Log out and log back in again to use your new default shell.
 
