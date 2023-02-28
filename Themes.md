@@ -587,15 +587,6 @@ Based on dst, plus a lightning bolt and return codes.
 
 ![trapd00r](https://user-images.githubusercontent.com/49100982/108255776-bb23ed80-716d-11eb-9ada-24b61a3d4afe.jpg)
 
-## U
-
-## UYSAL
-
-<img width="1247" alt="Ekran Resmi 2022-09-03 22 00 00" src="https://user-images.githubusercontent.com/24881389/188575122-9cf3b176-b804-4083-a433-8379b213c2c0.png">
-
-Source code is [here](https://gist.github.com/uysalserkan/0de657d25d05225af73bbe8d31b60733)
-
-
 ## W
 
 ### wedisagree

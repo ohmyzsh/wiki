@@ -1493,3 +1493,10 @@ repository: [ivabus-zsh-theme](https://github.com/ivabus/ivabus-zsh-theme)
 
 author: [@ivabus](https://github.com/ivabus)
 
+#### uysal
+
+![uysal](https://user-images.githubusercontent.com/24881389/188575122-9cf3b176-b804-4083-a433-8379b213c2c0.png)
+
+Source code is [here](https://gist.github.com/uysalserkan/0de657d25d05225af73bbe8d31b60733)
+
+Author: [@uysalserkan](https://github.com/uysalserkan)
