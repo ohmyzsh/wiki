@@ -25,15 +25,20 @@ Author: [@win0err](https://github.com/win0err)
 
 #### passion
 
-![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.gif)
+![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/demo/demo.png)
+
+##### Feature
 
 * real time prompt.
 * command running time cost prompt.
 * command running error hint.
+* git status prompt;
 
-source: [repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
+##### Install: [Install](https://github.com/ChesterYue/ohmyzsh-theme-passion#install)
 
-author: [@chesteryue](https://github.com/ChesterYue)
+##### Source: [Repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
+
+##### Author: [@chesteryue](https://github.com/ChesterYue)
 
 ---
 
@@ -323,7 +328,7 @@ Author:  [@Daivasmara](https://github.com/Daivasmara)
  * Git messages: Uses `git_super_status` from the git-prompt plugin
  * Prompt time: Timestamp (hh:mm)
 
-See [repository](https://github.com/janjoswig/Ducula) for source.  
+See [repository](https://github.com/janjoswig/Ducula) for source.
 Author: [@janjoswig](https://github.com/janjoswig/)
 
 ---
@@ -332,10 +337,10 @@ Author: [@janjoswig](https://github.com/janjoswig/)
 
 ![Nuts Terminal Theme](https://raw.githubusercontent.com/rafaelsq/nuts.zsh-theme/master/nuts.zsh-theme.png)
 
-Branch name change color if code is modified.  
-Arrow change color if exit code is not zero.  
+Branch name change color if code is modified.
+Arrow change color if exit code is not zero.
 
-See [github.com/rafaelsq/nuts.zsh-theme](https://github.com/rafaelsq/nuts.zsh-theme) for source.  
+See [github.com/rafaelsq/nuts.zsh-theme](https://github.com/rafaelsq/nuts.zsh-theme) for source.
 Author: [@rafaelsq](https://github.com/rafaelsq/)
 
 ---
@@ -706,8 +711,8 @@ Currently it shows:
 * Optional time stamps 12/24hr in format.
 * Execution time of the last command if it exceeds the set threshold.
 
-source: [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt)  
-docs: [spaceship-prompt.sh](https://spaceship-prompt.sh)  
+source: [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt)
+docs: [spaceship-prompt.sh](https://spaceship-prompt.sh)
 author: [@denysdovhan](https://twitter.com/denysdovhan)
 
 #### Zeta Theme
@@ -1414,9 +1419,9 @@ Author: [@catleeball](https://github.com/catleeball)
   * time
   * new line after every command
 
-![fishbone++](https://github.com/EYH0602/Fishbonepp/blob/master/pics/defaultlook.png)  
-Source: [fishbone++](https://github.com/EYH0602/Fishbonepp)  
-Author: [@EYH0602](https://github.com/EYH0602)  
+![fishbone++](https://github.com/EYH0602/Fishbonepp/blob/master/pics/defaultlook.png)
+Source: [fishbone++](https://github.com/EYH0602/Fishbonepp)
+Author: [@EYH0602](https://github.com/EYH0602)
 
 #### Ohio2's themes!
 
