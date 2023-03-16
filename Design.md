@@ -248,7 +248,7 @@ These variables are mostly used in prompt info functions. To use them to customi
 - $(rvm_prompt_info)
 - $(ruby_prompt_info)
 
-Or use other `*_prompt_info` functions that plugns define. These `prompt_info` functions have dummy implementations (in `lib/prompt_info_functions.zsh`) so they can be used unconditionally in theme prompts and will gracefully degrade to outputting empty strings if the appropriate plugin is not actually loaded.
+Or use other `*_prompt_info` functions that plugins define. These `prompt_info` functions have dummy implementations (in `lib/prompt_info_functions.zsh`) so they can be used unconditionally in theme prompts and will gracefully degrade to outputting empty strings if the appropriate plugin is not actually loaded.
 
 The Oh My Zsh prompt construction functions (found inside `lib/`) send their output to `stdout`, and are designed to be called with the `$(...)` output-capturing subshell invocation.
 
@@ -262,7 +262,7 @@ Although some existing themes set `$chpwd` or `$precmd`, it's probably better fo
 
 The Oh My Zsh theme mechanism is designed to load a theme once per session, during OMZ initialization.
 
-The theme mechanism does not provide a way to unload themes. The values for `PROMPT`, `RPROMPT`, `ZSH_THEME_*`, and hooks do not get reset. Thus, you can hack in support for switching themes during a session, but it is not clean: when you switch themes, you can get leftover settings from previously loaded themes and end up with a combination of themes.
+The theme mechanism does not provide a way to unload themes. The values for `PROMPT`, `RPROMPT`, `ZSH_THEME_*`, and hooks are not reset. Thus, you can hack in support for switching themes during a session, but it is not clean: when you switch themes, you can get leftover settings from previously loaded themes and end up with a combination of themes.
 
 ## Miscellaneous Architecture Information
 
