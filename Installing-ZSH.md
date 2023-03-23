@@ -49,6 +49,14 @@ To set zsh as your default shell, execute the following assuming a default insta
 
 - Recent macOS versions:
 
+  For m1 macs:
+
+  ```sh
+  chsh -s /opt/homebrew/bin/zsh
+  ```
+  
+  For intel macs:
+
   ```sh
   chsh -s /usr/local/bin/zsh
   ```
