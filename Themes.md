@@ -47,8 +47,7 @@ Additional setup:
 
 ![alanpeabody](https://user-images.githubusercontent.com/49100982/108254746-78154a80-716c-11eb-873a-6500b9d54219.jpg)
 
-### amresh
-![amresh](https://i.imgur.com/aT6Od6S.png)
+
 ### amuse
 
 ![amuse](https://user-images.githubusercontent.com/49100982/108254748-78ade100-716c-11eb-8f61-0a2bec4f671c.jpg)
