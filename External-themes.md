@@ -12,6 +12,23 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
+### Amresh Terminal Theme
+
+![amresh-terminal-theme](https://i.imgur.com/aT6Od6S.png)
+
+**Features**
+
+- Show only necessary information.
+- Show time of last commit
+- Dynamic information line
+- Git status info (like branch name)
+- Customizable colors, styles, and symbols
+
+See [repository](https://github.com/amreshpro/zsh-theme) for source and installation instructions.
+Author: [amreshpro](https://github.com/amreshpro)
+
+---
+
 #### Aphrodite Terminal Theme
 
 ![Aphrodite Terminal Theme](https://raw.githubusercontent.com/win0err/aphrodite-terminal-theme/master/assets/screenshot.png)
