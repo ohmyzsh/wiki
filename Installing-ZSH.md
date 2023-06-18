@@ -233,6 +233,12 @@ To install zsh, you must add the [community](https://github.com/kiss-community/r
 kiss b zsh && kiss i zsh
 ```
 
+### Slackware Linux
+
+```
+slackpkg install zsh
+```
+
 ### Add yours
 
 If you know a platform that is not covered, edit this page and add it!
