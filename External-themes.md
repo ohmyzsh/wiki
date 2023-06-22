@@ -12,6 +12,24 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 
+### Heapbytes Terminal theme
+
+![heapbytes-theme](https://github.com/ohmyzsh/wiki/assets/56447720/39c2e4e0-3315-4e06-8b46-8e83514ccaca)
+
+#### Features 
+
+- Fork/update/inspiration of rkj theme.
+- Prints the tun0 IP if connected to a VPN
+- Prints the wlan0 IP if you aren't connected to any VPN. (change the module name in `.zsh-theme` according to your wifi module)
+- Easy for pentesters who needs their ip for creating rev shells.
+- Git info.
+- Doesn't require any external fonts.
+
+See [repository](https://github.com/heapbytes/oh-my-zsh-theme) for source.
+Author: [heapbytes](https://github.com/heapbytes)
+
+---
+
 ### Amresh Terminal Theme
 
 ![amresh-terminal-theme](https://i.imgur.com/aT6Od6S.png)
