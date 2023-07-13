@@ -1374,6 +1374,20 @@ Source: [halil.zsh-theme](https://github.com/5m0k3r/zsh-themes)
 
 Author:  [@5m0k3r](https://github.com/5m0k3r)
 
+---
+
+#### Lucky
+
+![lucky-zsh-theme](https://raw.githubusercontent.com/MelonBreadVR/lucky-zsh-theme/main/assets/lucky-zsh-theme-preview.png)
+
+The word 吉 carry meaning of luck, what better place to have this lucky charm on your everyday terminal.
+
+Repo: [lucky-zsh-theme](https://github.com/MelonBreadVR/lucky-zsh-theme)
+
+Author: [@MelonBreadVR](https://github.com/MelonBreadVR)
+
+---
+
 #### Maza
 
 ![Maza Theme](https://raw.githubusercontent.com/eamazaj/maza-theme/master/video.gif)
