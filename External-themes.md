@@ -1554,5 +1554,3 @@ author: [@ivabus](https://github.com/ivabus)
 Source code is [here](https://gist.github.com/uysalserkan/0de657d25d05225af73bbe8d31b60733)
 
 Author: [@uysalserkan](https://github.com/uysalserkan)
-
-
