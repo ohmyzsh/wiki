@@ -25,7 +25,7 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 - Git info.
 - Doesn't require any external fonts.
 
-See [repository](https://github.com/heapbytes/oh-my-zsh-theme) for source.
+See [repository](https://github.com/heapbytes/heapbytes-zsh) for source.
 Author: [heapbytes](https://github.com/heapbytes)
 
 ---
