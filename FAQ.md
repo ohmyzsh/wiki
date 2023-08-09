@@ -342,3 +342,13 @@ If you want this behavior to change, set the `WORDCHARS` variable in your zshrc 
 ```zsh
 WORDCHARS='_-*'
 ```
+
+## Why shouldn't I install Oh My Zsh as root?
+
+If something goes wrong with your config or Oh My Zsh, you risk breaking your system without a way to get back in, at least not without spinning up a live environment or doing a clean install. While this is rare, rare it's far more likely than with an OS stock config for the root user.
+
+In general, it's a good idea to leave the root user's config as untouched as possible, to help avoid error recovery and security problems. This includes leaving its shell as the system default (usually bash on Linux), and not installing Oh My Zsh for the root user.
+
+You _can_ still install Oh My Zsh for the root user, but it isn't a good idea.
+
+See also: [Why is it bad to log in as root?](https://askubuntu.com/a/16179/452364)
