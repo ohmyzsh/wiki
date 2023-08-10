@@ -1554,3 +1554,26 @@ author: [@ivabus](https://github.com/ivabus)
 Source code is [here](https://gist.github.com/uysalserkan/0de657d25d05225af73bbe8d31b60733)
 
 Author: [@uysalserkan](https://github.com/uysalserkan)
+
+---
+
+#### Comfyline Prompt
+
+![comfyline_prompt theme](https://gitlab.com/imnotpua/comfyline_prompt/-/raw/main/screenshots/screenshot.jpg)
+
+A highly customizable zsh theme for your terminal, which is stupidly easy to configure. Just follow the below documentation and it will guide you through.
+
+##### Features
+
+- Extensive fool-proof customization by just setting variables
+- Configurable symbols, prompt segment orders
+- Can set each and every color manually
+- Detects multiple batteries in linux 
+
+##### Installation
+- Install any powerline or nerdfonts.
+- If you have oh-my-zsh installed, just run install.sh ( with zsh not bash )
+- If you do not have oh-my-zsh, some symbols may not work but most features work, just source the theme file using the `source /path/to/comfyline.zsh-theme` command, and add it to your zshrc 
+
+[Source Code](https://gitlab.com/imnotpua/comfyline_prompt) is my gitlab
+Author: [imnotpua](https://gitlab.com/notpua)
