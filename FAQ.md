@@ -33,6 +33,7 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [zsh: no matches found](#zsh-no-matches-found)
 - [Other problems](#other-problems)
     - [kill-word or backward-kill-word do / don't delete a symbol WORDCHARS](#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars)
+- [Why shouldn't I install Oh My Zsh as root?](#why-shouldnt-i-install-oh-my-zsh-as-root)
 
 <!-- /TOC -->
 
