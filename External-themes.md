@@ -11,7 +11,18 @@ You can also use Github's search to find `*.zsh-theme` files:
 Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
+<div align="center">
+  
+### Neo Theme
+#### *Simple, intuitive, and nonclustered.*
 
+![neo](https://github.com/migoa/wiki/assets/111497717/9c641982-3d6f-4548-9e5d-92a50308bea7)
+</div>
+
+**Repo: [Gitlab ](https://gitlab.com/migoa/neo) or [Hub](https://github.com/migoa/neo)
+<br>
+Author: [Migo](https://gitlab.com/migoa)**
+---
 ### Heapbytes Terminal theme
 
 ![heapbytes-theme](https://github.com/ohmyzsh/wiki/assets/56447720/39c2e4e0-3315-4e06-8b46-8e83514ccaca)
