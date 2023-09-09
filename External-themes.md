@@ -1447,13 +1447,13 @@ Author:  [@jeffmhubbard](https://github.com/jeffmhubbard)
 
 #### thm
 
-![thm](https://raw.githubusercontent.com/sudo-HackerMan/thm-zshtheme/master/screenshot.png)
+![thm](https://raw.githubusercontent.com/thm-unix/thm-zshtheme/master/screenshot-terminator.png)
 
 Modified 'The Poncho' theme.
 
-Source: [thm.zsh-theme](https://github.com/sudo-HackerMan/thm-zshtheme)
+Source: [thm.zsh-theme](https://github.com/thm-unix/thm-zshtheme)
 
-Author: [@sudo-HackerMan](https://github.com/sudo-HackerMan)
+Author: [@thm-unix](https://github.com/thm-unix)
 
 Original: [@RainyDayMedia](https://github.com/RainyDayMedia/oh-my-zsh-poncho)
 
