@@ -12,6 +12,36 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 ---
 <div align="center">
+
+### Simplerich Theme
+
+#### *Informative Git Status, Anaconda Environment Info and Command Execution Time.*
+
+![Simplerich](https://github.com/philip82148/simplerich-zsh-theme/blob/main/reademe/demo.png)
+
+</div>
+
+#### Features
+
+You can see the followings at once:
+
+- Real Time
+- Login User
+- Working Directory
+- Anaconda's Environment Name
+- Rich Git Status
+
+After command execution, you can see also:
+
+- Command Execution Time
+- Success/Error Hint
+
+#### Install: [Install](https://github.com/philip82148/simplerich-zsh-theme#install)
+#### Source: [simplerich-zsh-theme](https://github.com/philip82148/simplerich-zsh-theme)
+#### Author: [@philip82148](https://github.com/philip82148)
+
+---
+<div align="center">
   
 ### Neo Theme
 #### *Simple, intuitive, and nonclustered.*
