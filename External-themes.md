@@ -17,7 +17,7 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 #### *Informative Git Status, Anaconda Environment Info and Command Execution Time.*
 
-![Simplerich](https://github.com/philip82148/simplerich-zsh-theme/blob/main/reademe/demo.png)
+![Simplerich](https://github.com/philip82148/simplerich-zsh-theme/blob/main/readme/demo.png)
 
 </div>
 
