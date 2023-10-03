@@ -389,7 +389,7 @@ It’s funky…
 
 ### mikeh
 
-![mikeh](https://user-images.githubusercontent.com/49100982/108254900-93805580-716c-11eb-9e39-5e8dda6c2308.jpg)
+![mikeh](https://github.com/ohmyzsh/wiki/assets/66907184/e76c66e3-0dcb-4f09-a9dd-f23591622cac)
 
 ### miloshadzic
 
