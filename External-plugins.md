@@ -28,6 +28,33 @@ This plugin is a nice addition to **git_prompt_status**.
 
 You can get it from [here](https://gist.github.com/oshybystyi/475ee7768efc03727f21).
 
+#### Mingit
+
+An alternative to the default ohmyzsh git plugin.
+
+```
+g a .                      // git add .
+g b other-branch           // git branch other-branch
+g b which                  // git branch --show-current (note this assumes git version >= 2.22)
+g c -m "made some changes" // git commit -m "made some changes"
+g co master                // git checkout master
+g d                        // git diff
+g f                        // git fetch
+g i                        // git init 
+g m hotfix                 // git merge hotfix
+g pll                      // git pull
+g psh                      // git push
+g r                        // git reset
+g rsto                     // git restore
+g s                        // git status
+
+// autocompletions
+$ g co <TAB><TAB>
+HEAD         master       second-branch   ORIG_HEAD
+```
+
+Get it [here](https://github.com/evansendra/mingit/tree/master/mingit-ohmyzsh).
+
 #### History Sync
 
 GPG encrypted, Internet synchronized Zsh history using Git.
