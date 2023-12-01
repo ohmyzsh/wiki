@@ -25,6 +25,14 @@ Oh My Zsh is an open source, community-driven framework for managing your [zsh](
 
   **NOTE: the installer will rename an existing `.zshrc` file to `.zshrc.pre-oh-my-zsh`.**
 
+- Alternatively, the installer is also mirrored outside GitHub. **Using this URL may be required if you're in a country like India or China, that blocks `raw.githubusercontent.com`**:
+
+  | Method    | Command                                          |
+  | :-------- | :----------------------------------------------- |
+  | **curl**  | `sh -c "$(curl -fsSL https://install.ohmyz.sh)"` |
+  | **wget**  | `sh -c "$(wget -O- https://install.ohmyz.sh)"`   |
+  | **fetch** | `sh -c "$(fetch -o - https://install.ohmyz.sh)"` |
+
 ## Getting started
 
 Once Oh My Zsh is installed:

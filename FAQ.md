@@ -23,6 +23,7 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [How do I manually update Oh My Zsh from a script?](#how-do-i-manually-update-oh-my-zsh-from-a-script)
 - [Common problems](#common-problems)
   - [Installation](#installation)
+    - [I can't access the installer / connection timed out](#i-cant-access-the-installer--connection-timed-out)
     - [My .zshrc file was deleted on install](#my-zshrc-file-was-deleted-on-install)
   - [Font issues](#font-issues)
     - [I have a weird character in my prompt](#i-have-a-weird-character-in-my-prompt)
@@ -32,7 +33,7 @@ _If you don't find what you're looking for, and you think it should be covered b
   - [Zsh errors](#zsh-errors)
     - [zsh: no matches found](#zsh-no-matches-found)
 - [Other problems](#other-problems)
-    - [kill-word or backward-kill-word do / don't delete a symbol WORDCHARS](#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars)
+    - [`kill-word` or `backward-kill-word` do / don't delete a symbol (`WORDCHARS`)](#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars)
 - [Why shouldn't I install Oh My Zsh as root?](#why-shouldnt-i-install-oh-my-zsh-as-root)
 
 <!-- /TOC -->
@@ -196,6 +197,36 @@ Another option is to use the `omz` CLI. The `omz update` command triggers an upd
 ## Common problems
 
 ### Installation
+
+#### I can't access the installer / connection timed out
+
+Some countries such as India and China block access to `raw.githubusercontent.com`, which is where the installer is hosted.
+
+If you can't access it, you can use our mirror at `install.ohmyz.sh` instead. Using it is as simple as replacing the URL:
+
+```sh
+# instead of this URL
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# use this URL
+sh -c "$(curl -fsSL https://install.ohmyz.sh)"
+```
+
+The same applies for the other installation methods, which are documented in [the README](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
+or in the [[Home]] page.
+
+You might need this if you see any of these errors when running the install command:
+
+```console
+failed: Connection timed out.
+curl(7): Failed to connect to raw.githubusercontent.com port 443: Connection timed out
+curl(28): Failed to connect to raw.githubusercontent.com port 443 after <time> ms: Connection timed out
+```
+
+Similar issues:
+[#11720](https://github.com/ohmyzsh/ohmyzsh/issues/11720)
+[#11818](https://github.com/ohmyzsh/ohmyzsh/issues/11818)
+[#11908](https://github.com/ohmyzsh/ohmyzsh/discussions/11908)
+
 
 #### My .zshrc file was deleted on install
 
