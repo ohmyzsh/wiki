@@ -626,7 +626,7 @@ Instructions to further customize the theme are available as comments in the the
 Clean, simple, compatible and meaningful.Tested on Linux, Unix and Windows under ANSI colors.
 It is recommended to use with a dark background.
 
-[More info](https://blog.ysmood.org/my-ys-terminal-theme/)
+[More info](https://web.archive.org/web/20211026001810/https://blog.ysmood.org/my-ys-terminal-theme/)
 
 ## Z
 
