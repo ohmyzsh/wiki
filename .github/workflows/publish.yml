@@ -2,7 +2,7 @@ name: Publish
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch: {}
 
 concurrency:
@@ -13,18 +13,18 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Authenticate as @ohmyzsh
+        id: generate_token
+        uses: ohmyzsh/github-app-token@v2
+        with:
+          app_id: ${{ secrets.OHMYZSH_APP_ID }}
+          private_key: ${{ secrets.OHMYZSH_APP_PRIVATE_KEY }}
+      - uses: actions/checkout@v4
         with:
           ref: main
+          token: ${{ steps.generate_token.outputs.token }}
           fetch-depth: 0
       - name: Set up .wiki remote
-        run: git remote add dot-wiki git@github.com:ohmyzsh/ohmyzsh.wiki.git
-      - name: Set up deploy keys to push to remote
-        run: |
-          # Write deploy key to ~/.ssh/id_ed25519. Git will automatically
-          # use ~/.ssh/id_ed25519 to log in to github.com (see `man ssh`)
-          mkdir -p ~/.ssh
-          echo "${{ secrets.WIKI_DEPLOY_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
+        run: git remote add dot-wiki https://github.com/ohmyzsh/ohmyzsh.wiki.git
       - name: Push commits to main wiki remote
         run: git push --force dot-wiki HEAD:master
