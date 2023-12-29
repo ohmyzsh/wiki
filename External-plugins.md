@@ -109,3 +109,14 @@ Some users may want to use Oh My Zsh during the SSH connections. There is [xxh p
 #### [zshnotes](https://github.com/jameshgrn/zshnotes)
 
 A small, tidy, lightweight notes app that creates a daily text file and timestamps every line of added text
+
+#### [bookmark](https://github.com/calmzhu/ohmyzsh-plugin-bookmark)
+
+Yet another ohmyzsh plugin to quick jump between cmdline directories. with an intuitiv  design 
+
+```
+Add path to bookmarks, return an ordered number.
+and use the numbers to switch between dirs finally.
+```
+
+
