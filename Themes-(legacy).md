@@ -175,7 +175,7 @@ it’s funky…
 
 [![junkfood](https://cloud.githubusercontent.com/assets/1441704/9643381/e9cc48b6-51c1-11e5-99ee-e8cfbbf60d99.png)](https://cloud.githubusercontent.com/assets/1441704/9643381/e9cc48b6-51c1-11e5-99ee-e8cfbbf60d99.png)
 
-[+info](https://www.tylercipriani.com/2012/12/18/zsh-prompt-customization.html)
+[+info](https://tylercipriani.com/2012/12/18/zsh-prompt-customization.html)
 
 ### kafeitu
 [![kafeitu](https://cloud.githubusercontent.com/assets/2618447/6316741/51cec254-ba00-11e4-8433-a3c2524086c1.png)](https://cloud.githubusercontent.com/assets/2618447/6316741/51cec254-ba00-11e4-8433-a3c2524086c1.png)
@@ -341,7 +341,7 @@ Instructions to further customize the theme are available as comments in the the
 Clean, simple, compatible and meaningful. Tested on Linux, Unix and Windows under ANSI colors.
 It is recommended to use with a dark background.
 
-([more info](https://blog.ysmood.org/my-ys-terminal-theme/))
+([more info](https://web.archive.org/web/20211026001810/https://blog.ysmood.org/my-ys-terminal-theme/))
 
 ![ys-zsh-theme](https://cloud.githubusercontent.com/assets/1415488/13198621/f2c1320c-d848-11e5-8f22-7fac1baeec2f.jpg)
 
