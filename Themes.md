@@ -325,7 +325,7 @@ It’s funky…
 
 > Totally ripped off Dallas theme
 
-[More Info](https://www.tylercipriani.com/2012/12/18/zsh-prompt-customization.html)
+[More Info](https://tylercipriani.com/2012/12/18/zsh-prompt-customization.html)
 
 ## K
 
