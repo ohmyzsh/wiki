@@ -32,6 +32,7 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [I see duplicate typed characters after I complete a command](#i-see-duplicate-typed-characters-after-i-complete-a-command)
   - [Zsh errors](#zsh-errors)
     - [zsh: no matches found](#zsh-no-matches-found)
+  - [Some commands no longer work after installing Oh My Zsh](#some-commands-no-longer-work-after-installing-oh-my-zsh)
 - [Other problems](#other-problems)
     - [`kill-word` or `backward-kill-word` do / don't delete a symbol (`WORDCHARS`)](#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars)
 - [Why shouldn't I install Oh My Zsh as root?](#why-shouldnt-i-install-oh-my-zsh-as-root)
@@ -322,6 +323,16 @@ There are many solutions, some temporary, some permanent:
    $ apt install linux-*
    # the command continues successfully
    ```
+
+#### Some commands no longer work after installing Oh My Zsh
+
+If you installed software from outside the default system package manager, and therefore made changes to the `PATH` variable to be able to use them, you need to re-add those PATH changes to `~/.zshrc` to get the commands to work. This is required as the PATH variable determines where the shell looks for binaries, and without the changes from your previous shell(s), it can't find the commands. The software this affects includes, but is not limited to, nvm, rustup, Anaconda, and many others. If it works in bash, or worked before you installed Oh My Zsh, it's probably a path issue.
+
+This applies even if you were using zsh, and not some other shell, prior to installing Oh My Zsh, as your original zshrc is not modified; it's replaced, but backed up before it's installed. If you used zsh prior to installing Oh My Zsh, you can retrieve your old zshrc from `~/.zshrc.pre-oh-my-zsh`, and copy the changes you made from there. 
+
+If you weren't using zsh before, you need to copy over any changes to the PATH from the config file for your previous shell. Note that certain programs, such as Anaconda, may have initialisation functions that are shell-dependent, and that cannot be copied directly. For these, it's recommended you try to re-initialise the config using the software's own installation/initialisation system. For example, for Anaconda, you can use `conda init zsh` to regenerate the initialisation block correctly. See the documentation for the specific software you're using for more details about your alternatives when changing shells. 
+
+However, in most cases, it's enough to look at your old config files, find any and all `export PATH="some string here"` (where "some string here" is a placeholder for actual PATH changes), and copy those back into your current `.zshrc`. 
 
 ## Other problems
 
