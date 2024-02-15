@@ -27,7 +27,7 @@ Quick reference:
 | :--------- | :----------------------------------------- |
 | `md`       | `mkdir -p`                                 |
 | `rd`       | `rmdir`                                    |
-| `cd` / `~` | `cd` to your home directory                |
+| `~`        | `cd` (change to home directory)            |
 | `..`       | `cd ..`                                    |
 | `...`      | `cd ../..`                                 |
 | `....`     | `cd ../../..`                              |
