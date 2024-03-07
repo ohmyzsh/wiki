@@ -75,6 +75,8 @@ Author: [heapbytes](https://github.com/heapbytes)
 
 ![amresh-terminal-theme](https://i.imgur.com/aT6Od6S.png)
 
+> NOTE: the swastika in the theme has long been [a symbol of good luck in some religions](https://en.wikipedia.org/wiki/Swastika), before nazism co-opted it.
+
 **Features**
 
 - Show only necessary information.
