@@ -52,7 +52,7 @@ To set zsh as your default shell, execute the following assuming a default insta
   For m1 macs:
 
   ```sh
-  chsh -s /opt/homebrew/bin/zsh
+  chsh -s $(which zsh)
   ```
   
   For intel macs:
@@ -66,6 +66,12 @@ To set zsh as your default shell, execute the following assuming a default insta
   ```sh
   chsh -s /bin/zsh
   ```
+
+If you get an error for non-stadard shell you can try running first 
+
+```sh
+sudo sh -c "echo $(which zsh) >> /etc/shells"
+```
 
 Assuming you have [Homebrew](https://brew.sh/) installed. If not, most versions of
 **macOS** ship zsh by default, but it's normally an older version.  Alternatively, you may
