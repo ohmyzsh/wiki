@@ -1,122 +1,112 @@
-> _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
-> _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+> _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page, go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
 
-## A list of plugins that don't come bundled with Oh My Zsh
+## Non-Bundled Plugins
 
-There is no restriction for adding your plugin into zsh bundle (unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes)) but the rationale for creating this page is next:
+Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there are no restrictions for integrating your plugin into the zsh bundle. However, the purpose of creating this page is to address a common concern: uncertainty about whether your plugin might inadvertently cause harm, potentially disrupting the system or its functionalities.
 
-* sometimes you're not really sure if your plugin will not harm (e.g. it can break something).
+**Installation**: Clear instructions are crucial and should adhere to these [guidelines](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-plugins).
 
-### Installation
+---
 
-It should be clear from [this](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-plugins).
+### CLI
 
-### The plugins
+- [fz](https://github.com/changyuheng/fz)
 
-#### Custom git plugin
+  Give tab-completions to `z`.
 
-Fixes some inconsistencies in the default git plugin that make the aliases more intuitive, while adding some other useful functions.
+  [![fz demo](https://github.com/changyuheng/fz/raw/master/fz-demo.gif)](https://github.com/changyuheng/fz/blob/master/fz-demo.gif)
 
-You can get it from [here](https://github.com/davidde/git).
+### FUN
 
-#### Git auto status
+- [Doge Say](https://github.com/txstc55/dogesay/blob/master/dogesay.plugin.zsh)
 
-If you found yourself constantly typing `git status` after bunch of commands like
-`git commit` and you want to avoid that, then this plugin is for you.
+  Get a doge to repeat every command you put in! See it in action:
 
-This plugin is a nice addition to **git_prompt_status**.
+  ![Alt Text](https://raw.githubusercontent.com/txstc55/dogesay/master/dogesay.gif)
 
-You can get it from [here](https://gist.github.com/oshybystyi/475ee7768efc03727f21).
+### GIT
 
-#### Mingit
+- [Auto Status](https://gist.github.com/oshybystyi/475ee7768efc03727f21)
 
-An alternative to the default ohmyzsh git plugin.
+  If you found yourself constantly typing `git status` after bunch of commands like
+  `git commit` and you want to avoid that, then this plugin is for you. This plugin is a nice addition to **git_prompt_status**.
 
-```
-g a .                      // git add .
-g b other-branch           // git branch other-branch
-g b which                  // git branch --show-current (note this assumes git version >= 2.22)
-g c -m "made some changes" // git commit -m "made some changes"
-g co master                // git checkout master
-g d                        // git diff
-g f                        // git fetch
-g i                        // git init 
-g m hotfix                 // git merge hotfix
-g pll                      // git pull
-g psh                      // git push
-g r                        // git reset
-g rsto                     // git restore
-g s                        // git status
+- [Branch](https://github.com/cpwillis/omz-git-branch)
 
-// autocompletions
-$ g co <TAB><TAB>
-HEAD         master       second-branch   ORIG_HEAD
-```
+  This plugin visually formats the current git branch name or commit hash, considering customizable variables like hiding status, maximum branch length, prefix, and suffix trimming, with an option to display git status. For example;
 
-Get it [here](https://github.com/evansendra/mingit/tree/master/mingit-ohmyzsh).
+  ```
+  abc-custom-feature-xyz-12345678       -->  custom-fe...12345678
+  user123/repo-9876/fix-bug-in-feature  -->  9876/fix...-feature
+  ```
 
-#### History Sync
+- [Custom Git](https://github.com/davidde/git)
 
-GPG encrypted, Internet synchronized Zsh history using Git.
+  A small, tidy, lightweight notes app that creates a daily text file and timestamps every line of added text
 
-You can get it from [here](https://github.com/wulfgarpro/history-sync).
+- [Mingit](https://github.com/evansendra/mingit/tree/master/mingit-ohmyzsh)
 
-#### Doge Say
+  An alternative to the default ohmyzsh git plugin.
 
-Get a doge to repeat every command you put in!
+  ```
+  g a .                      // git add .
+  g b other-branch           // git branch other-branch
+  g b which                  // git branch --show-current (note this assumes git version >= 2.22)
+  g c -m "made some changes" // git commit -m "made some changes"
+  g co master                // git checkout master
+  g d                        // git diff
+  g f                        // git fetch
+  g i                        // git init
+  g m hotfix                 // git merge hotfix
+  g pll                      // git pull
+  g psh                      // git push
+  g r                        // git reset
+  g rsto                     // git restore
+  g s                        // git status
 
-See it in action:
+  // autocompletions
+  $ g co <TAB><TAB>
+  HEAD         master       second-branch   ORIG_HEAD
+  ```
 
-![Alt Text](https://raw.githubusercontent.com/txstc55/dogesay/master/dogesay.gif)
+### GPG
 
-And get your doge [here](https://github.com/txstc55/dogesay/blob/master/dogesay.plugin.zsh).
+- [History Sync](https://github.com/wulfgarpro/history-sync)
 
-#### fz
+  GPG encrypted, Internet synchronized Zsh history using Git.
 
-Give tab-completions to `z`.
+### NOTES
 
-[![fz demo](https://github.com/changyuheng/fz/raw/master/fz-demo.gif)](https://github.com/changyuheng/fz/blob/master/fz-demo.gif)
+- [aterminal](https://github.com/guiferpa/aterminal)
 
-Get it [here](https://github.com/changyuheng/fz).
+  This plugin show platforms version.
 
-#### aterminal
+  ![Demo](https://raw.githubusercontent.com/guiferpa/aterminal/master/images/demo.gif)
 
-**Homepage:** https://github.com/guiferpa/aterminal
-**Maintainer:** [guiferpa](https://github.com/guiferpa)
+- [Bookmark](https://github.com/calmzhu/ohmyzsh-plugin-bookmark)
 
-##### Description
+  Yet another ohmyzsh plugin to quick jump between cmdline directories with an intuitive design. _Add path to bookmarks, return an ordered number and use the numbers to switch between dirs finally._
 
-This plugin show platforms version
+- [zshnotes](https://github.com/jameshgrn/zshnotes)
 
-##### Support
+  A small, tidy, lightweight notes app that creates a daily text file and timestamps every line of added text
 
-[Nodejs](https://nodejs.org), [NPM](https://www.npmjs.com), [Docker](https://www.docker.com), [Go](https://golang.org), [Python](https://www.python.org), [Elixir](https://elixir-lang.org) and [Ruby](https://www.ruby-lang.org)
+### NODE
 
-##### Demo
+- [node-bin](https://github.com/remcohaszing/zsh-node-bin)
 
-![Demo](https://raw.githubusercontent.com/guiferpa/aterminal/master/images/demo.gif)
+  Add `node_modules/.bin` directories to your `$PATH`.
 
-#### node-bin
+### SSH
 
-Add `node_modules/.bin` directories to your `$PATH`.
+- [xxh](https://github.com/xxh/xxh)
 
-You can get it from [here](https://github.com/remcohaszing/zsh-node-bin),
+  Bring Oh My Zsh wherever you go through the SSH. This allows you to bring Zsh with Oh My Zsh framework to the remote host without any installations, root access or affection on the host.
 
-#### [xxh](https://github.com/xxh/xxh) - bring Oh My Zsh wherever you go through the SSH
+---
 
-Some users may want to use Oh My Zsh during the SSH connections. There is [xxh project](https://github.com/xxh/xxh) that allows bring Zsh with Oh My Zsh framework to the remote host without any installations, root access or affection on the host.
+### UNORGANISED
 
-#### [zshnotes](https://github.com/jameshgrn/zshnotes)
+- [TEMPLATE](https://github.com/cpwillis)
 
-A small, tidy, lightweight notes app that creates a daily text file and timestamps every line of added text
-
-#### [bookmark](https://github.com/calmzhu/ohmyzsh-plugin-bookmark)
-
-Yet another ohmyzsh plugin to quick jump between cmdline directories. with an intuitiv  design 
-
-```
-Add path to bookmarks, return an ordered number.
-and use the numbers to switch between dirs finally.
-```
-
-
+  I'm a template... when adding a new plugin, please follow my structure or copypasta me. Organise your addition into the existing sub-headings **alphabetically** (or make a new one). If you're unsure, just add it below and someone will organise it for you. :)
