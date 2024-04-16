@@ -8,6 +8,22 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
 ---
 
+### CLI
+
+- [fz](https://github.com/changyuheng/fz)
+
+  Give tab-completions to `z`.
+
+  [![fz demo](https://github.com/changyuheng/fz/raw/master/fz-demo.gif)](https://github.com/changyuheng/fz/blob/master/fz-demo.gif)
+
+### FUN
+
+- [Doge Say](https://github.com/txstc55/dogesay/blob/master/dogesay.plugin.zsh)
+
+  Get a doge to repeat every command you put in! See it in action:
+
+  ![Alt Text](https://raw.githubusercontent.com/txstc55/dogesay/master/dogesay.gif)
+
 ### GIT
 
 - [Auto Status](https://gist.github.com/oshybystyi/475ee7768efc03727f21)
@@ -59,26 +75,6 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
   GPG encrypted, Internet synchronized Zsh history using Git.
 
-### NODE
-
-- [node-bin](https://github.com/remcohaszing/zsh-node-bin)
-
-  Add `node_modules/.bin` directories to your `$PATH`.
-
-### SSH
-
-- [xxh](https://github.com/xxh/xxh)
-
-  Bring Oh My Zsh wherever you go through the SSH. This allows you to bring Zsh with Oh My Zsh framework to the remote host without any installations, root access or affection on the host.
-
-### CLI
-
-- [fz](https://github.com/changyuheng/fz)
-
-  Give tab-completions to `z`.
-
-  [![fz demo](https://github.com/changyuheng/fz/raw/master/fz-demo.gif)](https://github.com/changyuheng/fz/blob/master/fz-demo.gif)
-
 ### NOTES
 
 - [aterminal](https://github.com/guiferpa/aterminal)
@@ -95,13 +91,17 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
   A small, tidy, lightweight notes app that creates a daily text file and timestamps every line of added text
 
-### FUN
+### NODE
 
-- [Doge Say](https://github.com/txstc55/dogesay/blob/master/dogesay.plugin.zsh)
+- [node-bin](https://github.com/remcohaszing/zsh-node-bin)
 
-  Get a doge to repeat every command you put in! See it in action:
+  Add `node_modules/.bin` directories to your `$PATH`.
 
-  ![Alt Text](https://raw.githubusercontent.com/txstc55/dogesay/master/dogesay.gif)
+### SSH
+
+- [xxh](https://github.com/xxh/xxh)
+
+  Bring Oh My Zsh wherever you go through the SSH. This allows you to bring Zsh with Oh My Zsh framework to the remote host without any installations, root access or affection on the host.
 
 ---
 
