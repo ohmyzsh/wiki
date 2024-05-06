@@ -1632,3 +1632,40 @@ _<div align="center"><h5>A Shrimple and concise terminal prompt theme for Oh My 
 - Easy and readable theme file so you can edit to your liking<br><br><br>
 ![term-prompt-ex](https://github.com/taksyon/oh-my-zsh-theme/assets/131212515/f7e850d0-29dd-4eb5-91f4-6e063a3ec69e)<br><br><br>
 <div align="center"><h5><a href="https://github.com/taksyon/BigShrimp-zsh-theme">🍤BigShrimp Repo🍤</a></h5></div><br>
+
+<br/>
+
+---
+
+<div align="center">
+  <div>
+    <h2>
+      <b>Antares</b>
+    </h2>
+    <br/>
+    <p>A customizable, colorful theme for the ZShell prompt</p>
+    <br/>
+    <img src="https://raw.githubusercontent.com/elB4RTO/zsh-themes/master/antares/screenshot.png" alt="antares"/>
+  </div>
+  <br/>
+  <div>
+    <h4>
+      <b>Features</b>
+    </h4>
+    <p/>
+      Customization of all the colors and symbols<br/>
+      Built-in logic for gathering git infos, which can be turned off to use <code>OhMyZsh</code>'s <code>git-prompt</code> plugin instead<br/>
+      Light git mode can be enabled to reduce performace overhead in git directories (only for built-in logic)<br/>
+      Command execution time can be turned off or displayed only when it exceeds a given threshold
+    </p>
+  </div>
+  <br/>
+  <div>
+    <a href="https://github.com/elB4RTO/zsh-themes/tree/master/antares">Repository</a>
+    <span> - </span>
+    <a href="https://github.com/elB4RTO">Author</a>
+  </div>
+  <br/>
+</div>
+
+---
