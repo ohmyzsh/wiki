@@ -16,6 +16,10 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
   [![fz demo](https://github.com/changyuheng/fz/raw/master/fz-demo.gif)](https://github.com/changyuheng/fz/blob/master/fz-demo.gif)
 
+- [tenv](https://github.com/tofuutils/zsh-tenv)
+
+  tofuutils tenv plugin providing autocompletions
+
 ### FUN
 
 - [Doge Say](https://github.com/txstc55/dogesay/blob/master/dogesay.plugin.zsh)
