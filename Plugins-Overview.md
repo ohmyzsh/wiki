@@ -87,6 +87,7 @@
 | Name                                                                                  | Description                                                                               |
 | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | [ant](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ant)                     | Java build tool https://ant.apache.org/                                                   |
+| [bazel](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bazel)                 | Completions and aliases for [Bazel build system](https://bazel.build)                     |
 | [bower](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bower)                 | Front-end package manager https://github.com/bower/bower                                  |
 | [cabal](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cabal)                 | Haskell package manager https://www.haskell.org/cabal/                                    |
 | [cake](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cake)                   | Cake build tool                                                                           |
