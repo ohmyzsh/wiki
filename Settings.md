@@ -1,10 +1,11 @@
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
 
-# Settings
+# Settings <!-- omit in toc -->
 
 > **NOTE: unless specified otherwise, these variables need to be declared _before_ Oh My Zsh is sourced in your `.zshrc` file.**
 
+<!-- TOC generated with https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one -->
 <!-- TOC depthfrom:2 -->
 
 - [Main settings](#main-settings)
@@ -16,6 +17,7 @@
 - [Update settings](#update-settings)
   - [`':omz:update' mode`](#omzupdate-mode)
   - [`':omz:update' frequency`](#omzupdate-frequency)
+  - [`':omz:update' verbosity`](#omzupdate-verbosity)
   - [Deprecated settings](#deprecated-settings)
 - [Completion settings](#completion-settings)
   - [`ZSH_COMPDUMP`](#zsh_compdump)
@@ -134,6 +136,28 @@ setting only takes effect when automatic updates are enabled. **The default are 
 # Check for updates every 7 days
 zstyle ':omz:update' frequency 7
 ```
+
+### `':omz:update' verbosity`
+
+This setting controls the amount of information displayed after an update finishes. These are the available verbosity levels:
+
+1. `default`: shows everything: git update process, changelog and success message.
+
+   ```zsh
+   zstyle ':omz:update' verbosity default
+   ```
+
+2. `minimal`: shows only the git update process and a minimal success message.
+
+   ```zsh
+   zstyle ':omz:update' verbosity minimal
+   ```
+
+3. `silent`: only shows the git update process.
+
+   ```zsh
+   zstyle ':omz:update' verbosity silent
+   ```
 
 ### Deprecated settings
 
