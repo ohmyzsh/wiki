@@ -16,8 +16,6 @@ plugins=(rails git ruby)
 ## Plugins
 
 - [1password](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/1password)
-- [adb](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/adb)
-- [ag](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ag)
 - [aliases](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases)
 - [alias-finder](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/alias-finder)
 - [ansible](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ansible)
@@ -101,7 +99,6 @@ plugins=(rails git ruby)
 - [fasd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fasd)
 - [fastfile](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fastfile)
 - [fbterm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fbterm)
-- [fd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fd)
 - [fig](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fig)
 - [firewalld](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/firewalld)
 - [flutter](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/flutter)
@@ -263,7 +260,6 @@ plugins=(rails git ruby)
 - [rebar](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rebar)
 - [redis-cli](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/redis-cli)
 - [repo](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/repo)
-- [ripgrep](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ripgrep)
 - [ros](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ros)
 - [rsync](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rsync)
 - [ruby](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ruby)
@@ -359,18 +355,22 @@ plugins=(rails git ruby)
 
 ### Removed
 
-- boot2docker: the boot2docker project was abandoned in 2020.
-- cargo: moved to the `rust` plugin.
-- cloudapp: removed due to [deprecated API](https://github.com/cloudapp/api#note-the-api-is-no-longer-supported).
-- copydir: functionality moved to [`copypath`](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copypath) plugin.
-- django: removed because Zsh provides a better completion for Django.
-- fedora: use `dnf` instead.
-- gb: [project archived since 2017](https://github.com/constabulary/gb).
-- git-remote-branch: not actively maintained.
-- go: use `golang` instead.
-- npx: new npm versions (>=7.0.0) do not provide the same functionality.
-- nyan: the service that the plugin relied on is no longer available.
-- osx: renamed to `macos`.
-- rustup: moved to the `rust` plugin.
-- rtx: moved to the `mise` plugin as [it was renamed](https://mise.jdx.dev/rtx.html).
-- zsh_reload: functionality baked into the CLI with `omz reload`.
+- `adb`: completion is already provided by Zsh 4.3.17 and newer.
+- `ag`: completion for "The Silver Searcher" is already included when installed via package managers.
+- `boot2docker`: the boot2docker project was abandoned in 2020.
+- `cargo`: moved to the `rust` plugin.
+- `cloudapp`: removed due to [deprecated API](https://github.com/cloudapp/api#note-the-api-is-no-longer-supported).
+- `copydir`: functionality moved to [`copypath`](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copypath) plugin.
+- `django`: removed because Zsh provides a better completion for Django.
+- `fedora`: use `dnf` instead.
+- `fd`: completion is already included when installed via package managers.
+- `gb`: [project archived since 2017](https://github.com/constabulary/gb).
+- `git-remote-branch`: not actively maintained.
+- `go`: use `golang` instead.
+- `npx`: new npm versions (>=7.0.0) do not provide the same functionality.
+- `nyan`: the service that the plugin relied on is no longer available.
+- `osx`: renamed to `macos`.
+- `ripgrep`: completion is already included when installed via package managers.
+- `rustup`: moved to the `rust` plugin.
+- `rtx`: moved to the `mise` plugin as [it was renamed](https://mise.jdx.dev/rtx.html).
+- `zsh_reload`: functionality baked into the CLI with `omz reload`.
