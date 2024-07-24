@@ -16,6 +16,7 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [How do I install Zsh?](#how-do-i-install-zsh)
       - [How do I install Zsh on Windows?](#how-do-i-install-zsh-on-windows)
     - [How do I install Oh My Zsh?](#how-do-i-install-oh-my-zsh)
+      - [How do I install Oh My Zsh globally?](#how-do-i-install-oh-my-zsh-globally)
     - [How do I uninstall Oh My Zsh?](#how-do-i-uninstall-oh-my-zsh)
     - [How do I change my locale?](#how-do-i-change-my-locale)
     - [How do I reload the zshrc file?](#how-do-i-reload-the-zshrc-file)
@@ -32,7 +33,7 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [I see duplicate typed characters after I complete a command](#i-see-duplicate-typed-characters-after-i-complete-a-command)
   - [Zsh errors](#zsh-errors)
     - [zsh: no matches found](#zsh-no-matches-found)
-  - [Some commands no longer work after installing Oh My Zsh](#some-commands-no-longer-work-after-installing-oh-my-zsh)
+    - [Some commands no longer work after installing Oh My Zsh](#some-commands-no-longer-work-after-installing-oh-my-zsh)
 - [Other problems](#other-problems)
     - [`kill-word` or `backward-kill-word` do / don't delete a symbol (`WORDCHARS`)](#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars)
 - [Why shouldn't I install Oh My Zsh as root?](#why-shouldnt-i-install-oh-my-zsh-as-root)
@@ -98,6 +99,35 @@ If you're running earlier versions of Windows, you can't install it at all. You'
 #### How do I install Oh My Zsh?
 
 Please follow the project's README instructions for a [basic installation](https://github.com/ohmyzsh/ohmyzsh#basic-installation), or the [advanced instructions](https://github.com/ohmyzsh/ohmyzsh#advanced-installation) if you need to automate the installation or change some of the settings of the installer.
+
+If you'd like to install Oh My Zsh for all the users in a system, you can read the next section.
+
+##### How do I install Oh My Zsh globally?
+
+Requirements for a global install:
+
+1. The root of the folder needs to be installed somewhere globally accessible, like  `/usr/share/ohmyzsh` or `/opt/ohmyzsh`, with root ownership without global write permissions.
+
+2. Every user's `.zshrc` file needs to reference the global `$ZSH` installation, and add the settings there, see more below.
+
+3. Automatic updates are already skipped if there's no write access to the global directory or it's not a git repository, so it is not needed to turn it off manually in every `.zshrc` file.
+   Remember that the global installation will not be updated automatically. **If you have installed it as a git repository**, you can trigger a manual update by running the command below as the root user:
+   ```sh
+   zsh /usr/share/ohmyzsh/tools/upgrade.sh  # or wherever you installed Oh My Zsh
+   ```
+
+4. `ZSH_CACHE_DIR` is needed for normal usage. This is automatically changed from `$ZSH/cache` to `$HOME/.cache/oh-my-zsh` if `$ZSH/cache` is not writable, so it is not needed to manually change it in every `.zshrc` file.
+
+5. `ZSH_CUSTOM` is set as `$ZSH/custom` and this one is not changed. If the user wants to add custom files they should redefine it to a directory they have write access to.
+
+A reference of the minimal `.zshrc` file is below:
+
+```sh
+export ZSH="/usr/share/ohmyzsh"
+ZSH_THEME=...
+plugins=(...)
+source "$ZSH/oh-my-zsh.sh"
+```
 
 #### How do I uninstall Oh My Zsh?
 
