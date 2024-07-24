@@ -17,11 +17,12 @@ _If you don't find what you're looking for, and you think it should be covered b
       - [How do I install Zsh on Windows?](#how-do-i-install-zsh-on-windows)
     - [How do I install Oh My Zsh?](#how-do-i-install-oh-my-zsh)
       - [How do I install Oh My Zsh globally?](#how-do-i-install-oh-my-zsh-globally)
+    - [How do I update Oh My Zsh?](#how-do-i-update-oh-my-zsh)
+    - [How do I manually update Oh My Zsh from a script?](#how-do-i-manually-update-oh-my-zsh-from-a-script)
     - [How do I uninstall Oh My Zsh?](#how-do-i-uninstall-oh-my-zsh)
     - [How do I change my locale?](#how-do-i-change-my-locale)
     - [How do I reload the zshrc file?](#how-do-i-reload-the-zshrc-file)
     - [How do I reset the completion cache?](#how-do-i-reset-the-completion-cache)
-    - [How do I manually update Oh My Zsh from a script?](#how-do-i-manually-update-oh-my-zsh-from-a-script)
 - [Common problems](#common-problems)
   - [Installation](#installation)
     - [I can't access the installer / connection timed out](#i-cant-access-the-installer--connection-timed-out)
@@ -129,6 +130,39 @@ plugins=(...)
 source "$ZSH/oh-my-zsh.sh"
 ```
 
+#### How do I update Oh My Zsh?
+
+Oh My Zsh automatically updates itself if left at the default settings. You can check out [[Settings]] for more information on how to change the update settings.
+
+If you want to manually update Oh My Zsh, you have 2 options:
+
+- If running within your shell, you can use the CLI tool `omz` to force an update and restart the shell session:
+
+  ```sh
+  omz update
+  ```
+
+- If you want to update Oh My Zsh as part of an automated script, its better to use the `upgrade.sh` script directly. You can call it with any of these alternatives:
+
+  ```sh
+  "$ZSH/tools/upgrade.sh"               # $ZSH needs to be defined within the script
+  zsh "$ZSH/tools/upgrade.sh"
+  /path/to/ohmyzsh/tools/upgrade.sh
+  ```
+
+  This script also allows you to pass in 2 separate flags to control its behavior:
+
+  - `-i`: tells the script to upgrade interactively. In this mode, the only change is that the changelog will be displayed after the update.
+  - `-v default|minimal|silent`: control the verbosity of the script. This is equivalent to the [verbosity](https://github.com/ohmyzsh/ohmyzsh/wiki/Settings#omzupdate-verbosity) settings.
+
+> [!IMPORTANT]
+> To upgrade Oh My Zsh, you need to have `git` installed and it needs to be installed as a git repository.  
+> It is also required to be running with a user that has write access to the Oh My Zsh installation directory.
+
+#### How do I manually update Oh My Zsh from a script?
+
+See [the section above](#how-do-i-update-oh-my-zsh).
+
 #### How do I uninstall Oh My Zsh?
 
 To remove Oh My Zsh, run `uninstall_oh_my_zsh`. The uninstaller will:
@@ -214,16 +248,6 @@ rm "$ZSH_COMPDUMP"
 # Restart the zsh session
 exec zsh
 ```
-
-#### How do I manually update Oh My Zsh from a script?
-
-The best way to do that is to call the `upgrade.sh` script directly. If `$ZSH` is defined (it should point to where OMZ is installed), then you can call it like so:
-
-```sh
-"$ZSH/tools/upgrade.sh"
-```
-
-Another option is to use the `omz` CLI. The `omz update` command triggers an update, but it also shows the changelog and restarts the zsh session (which _might_ cause a restart loop). To avoid that, run it with the `--unattended` flag, like so: `omz update --unattended`. But again, it's better to call the `upgrade.sh` script directly.
 
 ## Common problems
 
