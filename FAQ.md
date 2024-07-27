@@ -27,6 +27,7 @@ _If you don't find what you're looking for, and you think it should be covered b
   - [Installation](#installation)
     - [I can't access the installer / connection timed out](#i-cant-access-the-installer--connection-timed-out)
     - [My .zshrc file was deleted on install](#my-zshrc-file-was-deleted-on-install)
+    - [I can't check out a specific commit in the Oh My Zsh folder](#i-cant-check-out-a-specific-commit-in-the-oh-my-zsh-folder)
   - [Font issues](#font-issues)
     - [I have a weird character in my prompt](#i-have-a-weird-character-in-my-prompt)
   - [Completion issues](#completion-issues)
@@ -305,6 +306,17 @@ If you find that your `.zshrc` file was deleted, you can search for the backup f
 
 ```sh
 ls -l ~/.zshrc*
+```
+
+#### I can't check out a specific commit in the Oh My Zsh folder
+
+This happens because Oh My Zsh installs itself as a shallow git repository, with parameter `--depth=1`, which only pulls the latest commit. This is done to reduce the amount of data downloaded, as the repository is quite large, and also to speed up the installation process. Most users don't need the full history of the repository, so this is a good trade-off.
+
+If you need to check out a specific commit, you can convert the repository to a full one by running the following commands:
+
+```zsh
+cd $ZSH
+git fetch --unshallow
 ```
 
 ### Font issues
