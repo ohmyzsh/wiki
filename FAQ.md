@@ -37,6 +37,7 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [Some commands no longer work after installing Oh My Zsh](#some-commands-no-longer-work-after-installing-oh-my-zsh)
 - [Other problems](#other-problems)
     - [`kill-word` or `backward-kill-word` do / don't delete a symbol (`WORDCHARS`)](#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars)
+- [Why is `PUSHD_IGNORE_DUPS` set by default?](#why-is-pushd_ignore_dups-set-by-default)
 - [Why shouldn't I install Oh My Zsh as root?](#why-shouldnt-i-install-oh-my-zsh-as-root)
 
 <!-- /TOC -->
@@ -145,7 +146,8 @@ If you want to manually update Oh My Zsh, you have 2 options:
 - If you want to update Oh My Zsh as part of an automated script, its better to use the `upgrade.sh` script directly. You can call it with any of these alternatives:
 
   ```sh
-  "$ZSH/tools/upgrade.sh"               # $ZSH needs to be defined within the script
+  # $ZSH needs to be defined within the automated script you created
+  "$ZSH/tools/upgrade.sh"
   zsh "$ZSH/tools/upgrade.sh"
   /path/to/ohmyzsh/tools/upgrade.sh
   ```
@@ -382,6 +384,12 @@ There are many solutions, some temporary, some permanent:
 
 If you installed software from outside the default system package manager, and therefore made changes to the `PATH` variable to be able to use them, you need to re-add those PATH changes to `~/.zshrc` to get the commands to work. This is required as the PATH variable determines where the shell looks for binaries, and without the changes from your previous shell(s), it can't find the commands. The software this affects includes, but is not limited to, nvm, rustup, Anaconda, and many others. If it works in bash, or worked before you installed Oh My Zsh, it's probably a path issue.
 
+This might result in errors such as this:
+
+```
+zsh: command not found: npm
+```
+
 This applies even if you were using zsh, and not some other shell, prior to installing Oh My Zsh, as your original zshrc is not modified; it's replaced, but backed up before it's installed. If you used zsh prior to installing Oh My Zsh, you can retrieve your old zshrc from `~/.zshrc.pre-oh-my-zsh`, and copy the changes you made from there. 
 
 If you weren't using zsh before, you need to copy over any changes to the PATH from the config file for your previous shell. Note that certain programs, such as Anaconda, may have initialisation functions that are shell-dependent, and that cannot be copied directly. For these, it's recommended you try to re-initialise the config using the software's own installation/initialisation system. For example, for Anaconda, you can use `conda init zsh` to regenerate the initialisation block correctly. See the documentation for the specific software you're using for more details about your alternatives when changing shells. 
@@ -438,6 +446,32 @@ If you want this behavior to change, set the `WORDCHARS` variable in your zshrc 
 
 ```zsh
 WORDCHARS='_-*'
+```
+
+## Why is `PUSHD_IGNORE_DUPS` set by default?
+
+`PUSHD_IGNORE_DUPS` is a setting that tells `pushd` to ignore duplicates in the directory stack. This means that if you try to push a directory that is already in the stack, it will not be added again. This is useful because it avoids having the same directory multiple times in the stack, which can be confusing and make it harder to navigate the stack.
+
+This behavior makes sense when in an interactive session, especially paired with plugins such as `dircycle` or `dirhistory`, which allow you to cycle the directory stack with a simple keyboard shortcut. Having duplicates in there would make the UX worse and more confusing.
+
+However, this behavior is not recommended when you are using `pushd` and `popd` in a script, as it can lead to unexpected behavior, as documented in [the official Zsh guide](https://zsh.sourceforge.io/Guide/zshguide03.html#:~:text=Setting%20PUSHD_IGNORE_DUPS%20means%20that%20if,entry%20will%20be%20silently%20removed.):
+
+> Setting PUSHD_IGNORE_DUPS means that if you pushd to a directory which is already somewhere in the list, the duplicate entry will be silently removed. This is useful for most human operations --- however, if you are using pushd in a function or script to remember previous directories for a future matching popd, this can be dangerous and **you probably want to turn it off locally inside the function**.
+
+If you are running a script non-interactively, i.e. spawning a new zsh process (via `./script.sh` or `zsh script.sh`), you should not encounter this issue, as Oh My Zsh does not get loaded at all. However, if you are running it via `source`, which is not recommended, you will have this issue. If so, the solution is to unset the option locally in the script within a function:
+
+```zsh
+#!/usr/bin/env zsh
+
+function main() {
+  emulate -L zsh # sets all options to their zsh default
+  # or
+  setopt localoptions nopushdignoredups
+
+  # your script here
+}
+
+main # run main
 ```
 
 ## Why shouldn't I install Oh My Zsh as root?
