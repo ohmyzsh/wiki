@@ -33,6 +33,7 @@ _If you don't find what you're looking for, and you think it should be covered b
   - [Completion issues](#completion-issues)
     - [I have enabled a completion plugin but the completion doesn't work](#i-have-enabled-a-completion-plugin-but-the-completion-doesnt-work)
     - [I see duplicate typed characters after I complete a command](#i-see-duplicate-typed-characters-after-i-complete-a-command)
+    - [Completions are not loaded when using a plugin manager](#completions-are-not-loaded-when-using-a-plugin-manager)
   - [Zsh errors](#zsh-errors)
     - [zsh: no matches found](#zsh-no-matches-found)
     - [Some commands no longer work after installing Oh My Zsh](#some-commands-no-longer-work-after-installing-oh-my-zsh)
@@ -348,6 +349,34 @@ If this doesn't solve the problem, you might have found a bug in the plugin. Sea
 This usually happens because your theme uses UTF-8 characters but your `locale` is not set up to handle them. Make sure that you're running a `locale` ending in `.UTF-8` or `.utf8`. See [How do I change my locale](#how-do-i-change-my-locale) for instructions.
 
 Similar issues: [#6985](https://github.com/ohmyzsh/ohmyzsh/issues/6985#issuecomment-412055789), [#3932](https://github.com/ohmyzsh/ohmyzsh/pull/3932), [#4529](https://github.com/ohmyzsh/ohmyzsh/issues/4529), [#4632](https://github.com/ohmyzsh/ohmyzsh/issues/4632).
+
+#### Completions are not loaded when using a plugin manager
+
+Some of the plugins in Oh My Zsh generate completion files dynamically, and puts them in the cache directory under `$ZSH_CACHE_DIR/completions`.
+
+Oh My Zsh already sets this up for you, as part of the [init script](https://github.com/ohmyzsh/ohmyzsh/blob/master/oh-my-zsh.sh). However, plugin
+managers don't run this script automatically as they do some internal optimizations.
+
+To check that you are affected by this, try:
+
+```zsh
+echo $ZSH_CACHE_DIR
+```
+
+It should return something like `/path/to/oh-my-zsh-folder/cache` or `$HOME/.cache/oh-my-zsh`.  
+If not, add `ZSH_CACHE_DIR="$HOME/.cache/oh-my-zsh"` in your .zshrc file, before the plugin manager code.
+
+Then, also check that the directories exist:
+
+```zsh
+ls -l "$ZSH_CACHE_DIR"
+ls -l "$ZSH_CACHE_DIR/completions"
+```
+
+If they don't exist, run `mkdir -p $ZSH_CACHE_DIR/completions` once, or add it in the zshrc file after defining `ZSH_CACHE_DIR`.
+
+> [!NOTE]
+> This is a workaround when using plugin managers. Ideally we want to make this so that it works out of the box with any plugin manager you use. If you encounter an issue related to this, please +1 Feature Request [#12583](https://github.com/ohmyzsh/ohmyzsh/issues/12583) and add a comment with the plugin manager affected if not already in the list.
 
 ### Zsh errors
 
