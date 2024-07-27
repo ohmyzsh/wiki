@@ -373,7 +373,25 @@ ls -l "$ZSH_CACHE_DIR"
 ls -l "$ZSH_CACHE_DIR/completions"
 ```
 
-If they don't exist, run `mkdir -p $ZSH_CACHE_DIR/completions` once, or add it in the zshrc file after defining `ZSH_CACHE_DIR`.
+If they don't exist, run `mkdir -p $ZSH_CACHE_DIR/completions` once, or add this command in the .zshrc file after defining `ZSH_CACHE_DIR`.
+
+Finally, you should check whether this directory is also added to `$fpath`:
+
+```zsh
+print -l $fpath | grep "$ZSH_CACHE_DIR/completions"
+```
+
+A line should appear with the path to the `$ZSH_CACHE_DIR/completions` folder. If not, you should also add this directory to `$fpath` in your .zshrc file.
+
+Here's what you should add to your .zshrc file to fix this, before any lines loading Oh My Zsh or its plugins:
+
+```zsh
+ZSH_CACHE_DIR="$HOME/.cache/oh-my-zsh"      # or any other directory you want
+mkdir -p "$ZSH_CACHE_DIR/completions"
+fpath=("$ZSH_CACHE_DIR/completions" $fpath)
+```
+
+After that everything should work again.
 
 > [!NOTE]
 > This is a workaround when using plugin managers. Ideally we want to make this so that it works out of the box with any plugin manager you use. If you encounter an issue related to this, please +1 Feature Request [#12583](https://github.com/ohmyzsh/ohmyzsh/issues/12583) and add a comment with the plugin manager affected if not already in the list.
