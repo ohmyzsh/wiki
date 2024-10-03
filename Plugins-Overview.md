@@ -17,7 +17,6 @@
 
 | Name                                                                                                        | Description                                                                                                    |
 | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| [ag](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ag)                                             | autocompletion for ag                                                                                         |
 | [aliases](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases)                                   | aliases cheatsheet - list aliases based on the plugins that you have enabled                                   |
 | [autoenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/autoenv)                                   | automatically execs script on changing dir (.env file)                                                         |
 | [colemak](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colemak)                                   | colemak layout support + vi-mode fixes for colemak https://en.wikipedia.org/wiki/Keyboard_layout#Colemak       |
