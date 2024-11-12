@@ -56,7 +56,7 @@ plugins=(rails git ruby)
 - [catimg](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/catimg): plugin for displaying images on the terminal using the `catimg.sh` script provided by [posva](https://github.com/posva/catimg)
 - [celery](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/celery): this plugin provides completion for [Celery](http://www.celeryproject.org/).
 - [charm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/charm): this plugin adds completion for the [charm](https://github.com/charmbracelet/charm) CLI.
-- [chezmoi](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/chezmoi): ## Introduction
+- [chezmoi](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/chezmoi): This plugin adds completion for [chezmoi](https://chezmoi.io/).
 - [chruby](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/chruby): this plugin loads [chruby](https://github.com/postmodern/chruby), a tool that changes the current Ruby version, and completion and a prompt function to display the Ruby version. Supports brew and manual installation of chruby.
 - [chucknorris](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/chucknorris): fortunes plugin for Chuck Norris for Oh My Zsh. Perfectly suitable as MOTD.
 - [cloudfoundry](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cloudfoundry): this plugin is intended to offer a few simple aliases for regular users of the [Cloud Foundry Cli][1]. Most are just simple aliases that will save a bit of typing. Others include mini functions and or accept parameters. Take a look at the table below for details.
