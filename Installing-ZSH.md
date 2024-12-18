@@ -27,13 +27,13 @@ If necessary, follow these steps to install Zsh:
 
    - Note that this will not work if Zsh is not in your authorized shells list (`/etc/shells`)
     or if you don't have permission to use `chsh`. If that's the case [you'll need to use a different procedure](https://www.google.com/search?q=zsh+default+without+chsh).
-    - If you use `chsh` you need to type `/bin/zsh` to make it your default shell.
+   - If you use `chsh` you need to type `/bin/zsh` to make it your default shell.
 
-5. Log out and log back in again to use your new default shell.
+4. Log out and log back in again to use your new default shell.
 
-6. Test that it worked with `echo $SHELL`. Expected result: `/bin/zsh` or similar.
+5. Test that it worked with `echo $SHELL`. Expected result: `/bin/zsh` or similar.
 
-7. Test with `$SHELL --version`. Expected result: 'zsh 5.8' or similar
+6. Test with `$SHELL --version`. Expected result: 'zsh 5.8' or similar
 
 ## How to install zsh on many platforms
 
