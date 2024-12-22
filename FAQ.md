@@ -1,28 +1,30 @@
+<!-- prettier-ignore-start -->
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-end -->
 
 _If you don't find what you're looking for, and you think it should be covered by the FAQ, please [open a new issue](https://github.com/ohmyzsh/ohmyzsh/issues/new?title=FAQ:%20) with what you think should be here._
 
 <!-- TOC depthfrom:2 -->
 
 - [Definitions](#definitions)
-    - [What is Oh My Zsh and what does it have to do with zsh?](#what-is-oh-my-zsh-and-what-does-it-have-to-do-with-zsh)
-    - [What is a zsh plugin?](#what-is-a-zsh-plugin)
-    - [What is a zsh theme?](#what-is-a-zsh-theme)
-    - [What is the .zshrc file?](#what-is-the-zshrc-file)
-    - [What Oh My Zsh is not](#what-oh-my-zsh-is-not)
-    - [What Zsh is not](#what-zsh-is-not)
+  - [What is Oh My Zsh and what does it have to do with zsh?](#what-is-oh-my-zsh-and-what-does-it-have-to-do-with-zsh)
+  - [What is a zsh plugin?](#what-is-a-zsh-plugin)
+  - [What is a zsh theme?](#what-is-a-zsh-theme)
+  - [What is the .zshrc file?](#what-is-the-zshrc-file)
+  - [What Oh My Zsh is not](#what-oh-my-zsh-is-not)
+  - [What Zsh is not](#what-zsh-is-not)
 - [How do I...?](#how-do-i)
-    - [How do I install Zsh?](#how-do-i-install-zsh)
-      - [How do I install Zsh on Windows?](#how-do-i-install-zsh-on-windows)
-    - [How do I install Oh My Zsh?](#how-do-i-install-oh-my-zsh)
-      - [How do I install Oh My Zsh globally?](#how-do-i-install-oh-my-zsh-globally)
-    - [How do I update Oh My Zsh?](#how-do-i-update-oh-my-zsh)
-    - [How do I manually update Oh My Zsh from a script?](#how-do-i-manually-update-oh-my-zsh-from-a-script)
-    - [How do I uninstall Oh My Zsh?](#how-do-i-uninstall-oh-my-zsh)
-    - [How do I change my locale?](#how-do-i-change-my-locale)
-    - [How do I reload the zshrc file?](#how-do-i-reload-the-zshrc-file)
-    - [How do I reset the completion cache?](#how-do-i-reset-the-completion-cache)
+  - [How do I install Zsh?](#how-do-i-install-zsh)
+    - [How do I install Zsh on Windows?](#how-do-i-install-zsh-on-windows)
+  - [How do I install Oh My Zsh?](#how-do-i-install-oh-my-zsh)
+    - [How do I install Oh My Zsh globally?](#how-do-i-install-oh-my-zsh-globally)
+  - [How do I update Oh My Zsh?](#how-do-i-update-oh-my-zsh)
+  - [How do I manually update Oh My Zsh from a script?](#how-do-i-manually-update-oh-my-zsh-from-a-script)
+  - [How do I uninstall Oh My Zsh?](#how-do-i-uninstall-oh-my-zsh)
+  - [How do I change my locale?](#how-do-i-change-my-locale)
+  - [How do I reload the zshrc file?](#how-do-i-reload-the-zshrc-file)
+  - [How do I reset the completion cache?](#how-do-i-reset-the-completion-cache)
 - [Common problems](#common-problems)
   - [Installation](#installation)
     - [I can't access the installer / connection timed out](#i-cant-access-the-installer--connection-timed-out)
@@ -38,7 +40,7 @@ _If you don't find what you're looking for, and you think it should be covered b
     - [zsh: no matches found](#zsh-no-matches-found)
     - [Some commands no longer work after installing Oh My Zsh](#some-commands-no-longer-work-after-installing-oh-my-zsh)
 - [Other problems](#other-problems)
-    - [`kill-word` or `backward-kill-word` do / don't delete a symbol (`WORDCHARS`)](#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars)
+  - [`kill-word` or `backward-kill-word` do / don't delete a symbol (`WORDCHARS`)](#kill-word-or-backward-kill-word-do--dont-delete-a-symbol-wordchars)
 - [Why is `PUSHD_IGNORE_DUPS` set by default?](#why-is-pushd_ignore_dups-set-by-default)
 - [Why shouldn't I install Oh My Zsh as root?](#why-shouldnt-i-install-oh-my-zsh-as-root)
 
@@ -48,7 +50,7 @@ _If you don't find what you're looking for, and you think it should be covered b
 
 #### What is Oh My Zsh and what does it have to do with zsh?
 
-Zsh is a [shell](https://en.wikipedia.org/wiki/Shell_(computing)), just like [bash](https://www.gnu.org/software/bash/) or [fish](https://fishshell.com/), which interprets commands and runs them. Oh My Zsh is a framework built on top of zsh that is structured to allow it to have plugins and themes, as well as providing what we think are the best settings from the start. You can use zsh without Oh My Zsh, but you can't use Oh My Zsh if you don't have zsh.
+Zsh is a [shell](<https://en.wikipedia.org/wiki/Shell_(computing)>), just like [bash](https://www.gnu.org/software/bash/) or [fish](https://fishshell.com/), which interprets commands and runs them. Oh My Zsh is a framework built on top of zsh that is structured to allow it to have plugins and themes, as well as providing what we think are the best settings from the start. You can use zsh without Oh My Zsh, but you can't use Oh My Zsh if you don't have zsh.
 
 #### What is a zsh plugin?
 
@@ -110,12 +112,13 @@ If you'd like to install Oh My Zsh for all the users in a system, you can read t
 
 Requirements for a global install:
 
-1. The root of the folder needs to be installed somewhere globally accessible, like  `/usr/share/ohmyzsh` or `/opt/ohmyzsh`, with root ownership without global write permissions.
+1. The root of the folder needs to be installed somewhere globally accessible, like `/usr/share/ohmyzsh` or `/opt/ohmyzsh`, with root ownership without global write permissions.
 
 2. Every user's `.zshrc` file needs to reference the global `$ZSH` installation, and add the settings there, see more below.
 
 3. Automatic updates are already skipped if there's no write access to the global directory or it's not a git repository, so it is not needed to turn it off manually in every `.zshrc` file.
    Remember that the global installation will not be updated automatically. **If you have installed it as a git repository**, you can trigger a manual update by running the command below as the root user:
+
    ```sh
    zsh /usr/share/ohmyzsh/tools/upgrade.sh  # or wherever you installed Oh My Zsh
    ```
@@ -286,7 +289,6 @@ Similar issues:
 [#11818](https://github.com/ohmyzsh/ohmyzsh/issues/11818)
 [#11908](https://github.com/ohmyzsh/ohmyzsh/discussions/11908)
 
-
 #### My .zshrc file was deleted on install
 
 The installer script is designed to back up your existing `.zshrc` file, and any previous backups are also preserved.
@@ -298,9 +300,9 @@ a. If a `.zshrc` file is not found, write and modify the template zshrc file to 
 
 b. If otherwise the `.zshrc` exists, start the back up process:
 
-   1. If `~/.zshrc.pre-oh-my-zsh` exists, back it up to `~/.zshrc.pre-oh-my-zsh-<current-datetime>`, where `<current-datetime>` is in the format `YYYY-mm-dd_HH-MM-SS`. **If this destination file exists, the installer is aborted**.
-   2. After `~/.zshrc.pre-oh-my-zsh` is backed up, back up the existing `.zshrc` file to `~/.zshrc.pre-oh-my-zsh`.
-   3. **Only then write the template zshrc file to `~/.zshrc`.**
+1.  If `~/.zshrc.pre-oh-my-zsh` exists, back it up to `~/.zshrc.pre-oh-my-zsh-<current-datetime>`, where `<current-datetime>` is in the format `YYYY-mm-dd_HH-MM-SS`. **If this destination file exists, the installer is aborted**.
+2.  After `~/.zshrc.pre-oh-my-zsh` is backed up, back up the existing `.zshrc` file to `~/.zshrc.pre-oh-my-zsh`.
+3.  **Only then write the template zshrc file to `~/.zshrc`.**
 
 As you can see, the installer is designed to never delete any existing files, even if the installer is ran multiple times.
 If you find that your `.zshrc` file was deleted, you can search for the backup file with the command below:
@@ -449,11 +451,11 @@ This might result in errors such as this:
 zsh: command not found: npm
 ```
 
-This applies even if you were using zsh, and not some other shell, prior to installing Oh My Zsh, as your original zshrc is not modified; it's replaced, but backed up before it's installed. If you used zsh prior to installing Oh My Zsh, you can retrieve your old zshrc from `~/.zshrc.pre-oh-my-zsh`, and copy the changes you made from there. 
+This applies even if you were using zsh, and not some other shell, prior to installing Oh My Zsh, as your original zshrc is not modified; it's replaced, but backed up before it's installed. If you used zsh prior to installing Oh My Zsh, you can retrieve your old zshrc from `~/.zshrc.pre-oh-my-zsh`, and copy the changes you made from there.
 
-If you weren't using zsh before, you need to copy over any changes to the PATH from the config file for your previous shell. Note that certain programs, such as Anaconda, may have initialisation functions that are shell-dependent, and that cannot be copied directly. For these, it's recommended you try to re-initialise the config using the software's own installation/initialisation system. For example, for Anaconda, you can use `conda init zsh` to regenerate the initialisation block correctly. See the documentation for the specific software you're using for more details about your alternatives when changing shells. 
+If you weren't using zsh before, you need to copy over any changes to the PATH from the config file for your previous shell. Note that certain programs, such as Anaconda, may have initialisation functions that are shell-dependent, and that cannot be copied directly. For these, it's recommended you try to re-initialise the config using the software's own installation/initialisation system. For example, for Anaconda, you can use `conda init zsh` to regenerate the initialisation block correctly. See the documentation for the specific software you're using for more details about your alternatives when changing shells.
 
-However, in most cases, it's enough to look at your old config files, find any and all `export PATH="some string here"` (where "some string here" is a placeholder for actual PATH changes), and copy those back into your current `.zshrc`. 
+However, in most cases, it's enough to look at your old config files, find any and all `export PATH="some string here"` (where "some string here" is a placeholder for actual PATH changes), and copy those back into your current `.zshrc`.
 
 ## Other problems
 

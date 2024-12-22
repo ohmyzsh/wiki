@@ -1,5 +1,7 @@
+<!-- prettier-ignore-start -->
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-end -->
 
 Oh My Zsh is fully configurable to your needs with the help of the `$ZSH_CUSTOM` variable, whether you want to change its internals, plugins or the rich theme set – and all that **without forking**!
 
@@ -30,11 +32,11 @@ $ZSH_CUSTOM
 
 Also follow these steps if you want to override plugins that ship with your Oh My Zsh installation. To override a plugin with a custom version, put your custom version at `$ZSH_CUSTOM/plugins/<plugin_name>/`. For example, if it's the rvm plugin you want to override, create the directory `custom/plugins/rvm` and place a file called `rvm.plugin.zsh` inside of it.
 
-This method will override the entire plugin: your custom plugin files will be loaded *instead* of the files from the original plugin.
+This method will override the entire plugin: your custom plugin files will be loaded _instead_ of the files from the original plugin.
 
 ### Partially overriding an existing plugin
 
-To partially customize a plugin by redefining individual functions or variables from it, use a "patch" plugin. Create a custom "patch" plugin with a different name that has definitions for just the items you wish to override, and load that after the base plugin by putting your patch plugin in `$plugins` *after* the base plugin it customizes. (This is necessary because user custom files are loaded before any plugins are loaded.) Make sure it doesn't have the same name as any other base plugin, either.
+To partially customize a plugin by redefining individual functions or variables from it, use a "patch" plugin. Create a custom "patch" plugin with a different name that has definitions for just the items you wish to override, and load that after the base plugin by putting your patch plugin in `$plugins` _after_ the base plugin it customizes. (This is necessary because user custom files are loaded before any plugins are loaded.) Make sure it doesn't have the same name as any other base plugin, either.
 
 This may or may not work, depending on how the plugin is written: your redefinitions only take effect after the plugin has been loaded by `source`-ing its definition file. If any of the things you redefine are called or referenced during the plugin's initialization, they will not see your redefinitions.
 

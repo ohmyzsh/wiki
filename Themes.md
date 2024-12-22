@@ -1,5 +1,7 @@
+<!-- prettier-ignore-start -->
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-end -->
 
 _This section uses new, uniform screenshots. To see the previous section, go to [[Themes (legacy)]]._
 
@@ -12,7 +14,7 @@ Here is a collection of screenshots and descriptions of themes that have been co
 
 > [!NOTE]
 > You will many times see screenshots for a zsh theme, and try it out, and find that it doesn't look the same for you.
-> 
+>
 > This is because many themes require installing a [Powerline Font](https://github.com/powerline/fonts) or a [Nerd Font](https://github.com/ryanoasis/nerd-fonts) in order to render properly.
 > Without them, these themes will render weird prompt symbols. Check out [the FAQ](https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#i-have-a-weird-character-in-my-prompt) for more information.
 >
@@ -24,11 +26,11 @@ Here is a collection of screenshots and descriptions of themes that have been co
 
 ### robbyrussell
 
-*The default that Robby Russell uses.*
+_The default that Robby Russell uses._
 
 ![robbyrussell](https://user-images.githubusercontent.com/49100982/108254738-764b8700-716c-11eb-9a59-4deb8c8c6193.jpg)
 
-----
+---
 
 The rest of the themes, in alphabetical order:
 
@@ -51,7 +53,7 @@ The rest of the themes, in alphabetical order:
 Additional setup:
 
 - Install one of the [patched fonts from Vim-Powerline](https://github.com/powerline/fonts) or [patch your own](https://github.com/powerline/fontpatcher) for the special characters.
-- *Optionally* set `DEFAULT_USER` to your regular username to hide the “user@hostname” info when you’re logged in as yourself on your local machine. Or add `prompt_context(){}` to `~/.zshrc` to always hide the “user@hostname” info.
+- _Optionally_ set `DEFAULT_USER` to your regular username to hide the “user@hostname” info when you’re logged in as yourself on your local machine. Or add `prompt_context(){}` to `~/.zshrc` to always hide the “user@hostname” info.
 
 ### alanpeabody
 
@@ -644,7 +646,7 @@ It is recommended to use with a dark background.
 
 ![zhann](https://user-images.githubusercontent.com/49100982/108255796-be1ede00-716d-11eb-8b61-9a419ebe7a4a.jpg)
 
-----
+---
 
 ## More themes
 

@@ -1,5 +1,7 @@
+<!-- prettier-ignore-start -->
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-end -->
 
 Oh My Zsh is a community-driven project and contributions are welcome, but it all works best with a proper setup. Here follow the best practices for setting up a fork and getting started for contributing.
 

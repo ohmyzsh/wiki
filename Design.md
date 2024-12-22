@@ -1,5 +1,7 @@
+<!-- prettier-ignore-start -->
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-end -->
 
 This page is a description of the current architecture and design of Oh My Zsh.
 
@@ -25,7 +27,7 @@ It seems that plugins can get arbitrarily powerful and do whatever they want, so
 
 ## Variables
 
-These are variables that base OMZ (excluding any plugins) uses. I've read through .oh-my-zsh so far, but not the lib/*.zsh files. More may be on the way.
+These are variables that base OMZ (excluding any plugins) uses. I've read through .oh-my-zsh so far, but not the lib/\*.zsh files. More may be on the way.
 
 ### Variables OMZ reads
 
@@ -39,8 +41,8 @@ In oh-my-zsh.sh:
 - `ZSH_THEME` – theme to load at startup
 - `CASE_SENSITIVE` – controls zsh completion matching
 - `COMPLETION_WAITING_DOTS`
-- `DISABLE_AUTO_UPDATE` – ("true"/*)
-- `DISABLE_AUTO_PROMPT` – ("true"/*)
+- `DISABLE_AUTO_UPDATE` – ("true"/\*)
+- `DISABLE_AUTO_PROMPT` – ("true"/\*)
 - `DISABLE_LS_COLORS` – in lib/theme-and-appearance
 - `ENABLE_CORRECTION`
 - `ZSH_CACHE_DIR`
@@ -67,13 +69,13 @@ At init:
 - `POST_1_7_2_GIT`
 - `PAGER`
 - `LESS`
-- `FX`  – special terminal control "effects" (reset/bold/no-bold/etc)
+- `FX` – special terminal control "effects" (reset/bold/no-bold/etc)
 - `FG`
 - `BG`
 
 At init (defaults if not provided):
 
-- `ZSH_CUSTOM`  - defaults to `$ZSH/custom`
+- `ZSH_CUSTOM` - defaults to `$ZSH/custom`
 - `ZSH_CACHE_DIR` - defaults to `$ZSH/cache`
 - `ZSH_COMPDUMP`
 - `ZSH_SPECTRUM_TEXT`
@@ -117,7 +119,7 @@ The initialization steps in detail:
   - Discovers and sources all lib files, in alphabetical order, respecting custom overrides
 - Load custom user code
   - Source each `$ZSH_CUSTOM/*.zsh` file, in alphabetical order
-- Pre-load plugins  (add to `$fpath`, but don't source)
+- Pre-load plugins (add to `$fpath`, but don't source)
 - Set `$SHORT_HOST`
 - Initialize Completion support
   - Set `$ZSH_COMPDUMP`
@@ -130,16 +132,16 @@ The initialization steps in detail:
 
 In Oh My Zsh terms, _customization_ means adding or overriding zsh code, including its internals and implementation. It's not just a term for user-specified configuration.
 
-Overriding internals can be done by adding `*.zsh` files to the `$ZSH_CUSTOM` root directory. All `*.zsh` files there will be sourced after OMZ loads and sources its own lib/* files. This allows you to redefine functions after the fact. (This will take place after any setup has called OMZ functions.) These are referred to as "config files" in oh-my-zsh.sh.
+Overriding internals can be done by adding `*.zsh` files to the `$ZSH_CUSTOM` root directory. All `*.zsh` files there will be sourced after OMZ loads and sources its own lib/\* files. This allows you to redefine functions after the fact. (This will take place after any setup has called OMZ functions.) These are referred to as "config files" in oh-my-zsh.sh.
 
 It's not documented in the _Customization_ page, but `$ZSH_CUSTOM/lib/*.zsh` do override the corresponding internals lib files. If a custom one is present, it is sourced instead of the one in the distribution.
 
 So, you can:
 
-- Override lib/* files on a per-file basis (loaded instead of the base file of the same name)
+- Override lib/\* files on a per-file basis (loaded instead of the base file of the same name)
 - Add arbitrary customization code that runs later and can redefine any function or variable from the core
 - Override plugins and themes on a per-plugin/theme basis (loaded instead of base)
-- Override parts of plugins by defining an additional "patch" plugin and including it in `$plugins` *after* the base plugin
+- Override parts of plugins by defining an additional "patch" plugin and including it in `$plugins` _after_ the base plugin
 
 `$ZSH_CUSTOM` controls where the custom override files are found; defaults to `$ZSH/custom` (under the main OMZ installation).
 
@@ -169,7 +171,7 @@ Themes control the appearance of the `zsh` prompt, the appearance of certain oth
 
 OMZ turns on the `prompt_subst` shell option, and OMZ themes assume it is enabled.
 
-Themes set a variety of variables to control the appearance of the zsh prompt. They may also  install hook functions. These variables are read by core OMZ functions like `git_prompt_info()` and used to modify their behavior and style their output.
+Themes set a variety of variables to control the appearance of the zsh prompt. They may also install hook functions. These variables are read by core OMZ functions like `git_prompt_info()` and used to modify their behavior and style their output.
 
 Things themes do:
 
@@ -183,7 +185,7 @@ These variables are set by themes to control the prompt's appearance and other c
 
 - `PROMPT`
 - `DEFAULT_USER`
-- `ZSH_THEME_SCM_PROMPT_PREFIX`  – used in `bzr_prompt_info()` from `lib/bzr.sh`
+- `ZSH_THEME_SCM_PROMPT_PREFIX` – used in `bzr_prompt_info()` from `lib/bzr.sh`
 
 git_prompt_info():
 

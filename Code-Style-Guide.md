@@ -1,5 +1,7 @@
+<!-- prettier-ignore-start -->
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-end -->
 
 ## General Code Style
 
@@ -27,7 +29,7 @@ long_string_1="I am an exceptionalllllllllllly loooooooooooooooooooooooooooooooo
 
 ```shell
 cat <<END;
-I am an exceptionalllllllllllly 
+I am an exceptionalllllllllllly
 looooooooooooooooooooooooooooooooooooooooong string.
 END
 ```
@@ -35,7 +37,7 @@ END
 ##### _Good:_
 
 ```shell
-long_string_2="I am an exceptionalllllllllllly 
+long_string_2="I am an exceptionalllllllllllly
  looooooooooooooooooooooooooooooooooooooooong string."
 ```
 
@@ -175,7 +177,7 @@ Ensure that local variables are only seen inside a function and its children by 
 ```shell
 function func_bad() {
   global_var=37  #  Visible only within the function block
-                 #  before the function has been called. 
+                 #  before the function has been called.
 }
 
 echo "global_var = $global_var"  # Function "func_bad" has not yet been called,

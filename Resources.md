@@ -1,5 +1,7 @@
+<!-- prettier-ignore-start -->
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-end -->
 
 ### These are a few resources for Oh My Zsh
 
@@ -31,7 +33,7 @@
 
   **The `zsh-users` list is for asking questions as a user; the `zsh-workers` list is for asking questions as a
   developer of Zsh code**.
-  
+
   I recommend joining the `zsh-workers` list and periodically reading the emails to push your knowledge further,
   even if sometimes you don't understand what you're reading. You can also use it to search if your question
   has already been answered by adding `site:https://zsh.org/mla` to your Google search.
