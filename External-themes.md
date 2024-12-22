@@ -66,14 +66,15 @@ Author: [Migo](https://gitlab.com/migoa)**
 
 ![heapbytes-theme](https://github.com/ohmyzsh/wiki/assets/56447720/39c2e4e0-3315-4e06-8b46-8e83514ccaca)
 
+> NOTE: theme uses alias customization to change the `ls` function to `exa`, [but exa is no longer maintained](https://github.com/ogham/exa/issues/1243). So the `exa` alias customization needs to be manually changed or removed.
+
 #### Features
 
 - Fork/update/inspiration of rkj theme.
 - Prints the tun0 IP if connected to a VPN
 - Prints the wlan0 IP if you aren't connected to any VPN. (change the module name in `.zsh-theme` according to your wifi module)
-- Easy for pentesters who needs their ip for creating rev shells.
+- Easy for pentesters who need their ip for creating rev shells.
 - Git info.
-- Doesn't require any external fonts.
 
 See [repository](https://github.com/heapbytes/heapbytes-zsh) for source.
 Author: [heapbytes](https://github.com/heapbytes)
