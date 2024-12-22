@@ -1,28 +1,28 @@
-* **[[Home]]**
-* **[[FAQ]]**
-* **[[Plugins Overview]]**
-* **Documentation**
-  * [[Installing ZSH]]
-  * [[Settings]]
-  * [[Plugins]]
-  * [[Themes]]
-  * [[Cheatsheet]]
-  * [[Customization]]
-  * [[Resources]]
-  * [[Troubleshooting]]
-* **Community**
-  * [[Articles]]
-  * [[External plugins]]
-  * [[External themes]]
-  * [[Testimonials]]
-* **Contributing**
-  * [[Volunteers]]
-  * [[Design]]
-  * [[Code Style Guide]]
-  * [[Wiki Style Guide]]
-  * [[Contribution Technical Practices]]
+- **[[Home]]**
+- **[[FAQ]]**
+- **[[Plugins Overview]]**
+- **Documentation**
+  - [[Installing ZSH]]
+  - [[Settings]]
+  - [[Plugins]]
+  - [[Themes]]
+  - [[Cheatsheet]]
+  - [[Customization]]
+  - [[Resources]]
+  - [[Troubleshooting]]
+- **Community**
+  - [[Articles]]
+  - [[External plugins]]
+  - [[External themes]]
+  - [[Testimonials]]
+- **Contributing**
+  - [[Volunteers]]
+  - [[Design]]
+  - [[Code Style Guide]]
+  - [[Wiki Style Guide]]
+  - [[Contribution Technical Practices]]
 
-------------------
+---
 
 <p align="center"><strong><a href="https://shop.planetargon.com/products/ohmyzsh-t-shirts">Get a t-shirt!</a></strong></p>
 

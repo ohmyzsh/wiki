@@ -1,5 +1,7 @@
+<!-- prettier-ignore-start -->
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-end -->
 
 ## General Wiki Code Style
 
@@ -11,13 +13,13 @@ Following these guidelines while making the readme for your plugin/theme would b
 
 ## Headers
 
-| GFM Element | HTML Header Tag Equivalent |                                      Use                                       |
-| ----------- | -------------------------- | ------------------------------------------------------------------------------ |
-| #           | `<h1>`                     | This will not be used, as Github wiki pages uses the filename as h1             |
+| GFM Element | HTML Header Tag Equivalent | Use                                                                              |
+| ----------- | -------------------------- | -------------------------------------------------------------------------------- |
+| #           | `<h1>`                     | This will not be used, as Github wiki pages uses the filename as h1              |
 | ##          | `<h2>`                     | Main section divider (as in this page _Headers_, _Syntax Highlighting_, etc are) |
-| ### - ####  | `<h3>` - `<h4>`            | For use in subsections                                                         |
-| #####       | `<h5>`                     | Please try to use this just for labeling _Example_ in fenced code blocks       |
-| ######      | `<h6>`                     | For descriptors in example fenced code blocks                                  |
+| ### - ####  | `<h3>` - `<h4>`            | For use in subsections                                                           |
+| #####       | `<h5>`                     | Please try to use this just for labeling _Example_ in fenced code blocks         |
+| ######      | `<h6>`                     | For descriptors in example fenced code blocks                                    |
 
 Below is an example of how to use each header (and will be the only use of ##/h2 in abnormal circumstances).
 

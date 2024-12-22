@@ -1,4 +1,7 @@
-> _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_ > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-start -->
+> _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
+> _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-end -->
 
 Due to the massive amount of themes bundled with OMZ, [new themes are not accepted](https://github.com/ohmyzsh/ohmyzsh/#do-not-send-us-themes). This is a list of other themes that are compatible with Oh My Zsh that live in their own separate repositories. More themes are listed in the [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) list.
 

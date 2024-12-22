@@ -1,5 +1,7 @@
+<!-- prettier-ignore-start -->
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-end -->
 
 Oh My Zsh comes bundled with plugins, which allow you to take advantage of functionality of many sorts to your shell just by enabling them. They are
 each documented in the README file in their respective `plugins/` folder.
@@ -347,7 +349,7 @@ plugins=(rails git ruby)
 - [vundle](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vundle): this plugin adds functions to control [vundle](https://github.com/VundleVim/Vundle.vim) plug-in manager for vim.
 - [wakeonlan](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/wakeonlan): this plugin provides a wrapper around the "wakeonlan" tool available from most distributions' package repositories, or from [the following website](https://github.com/jpoliv/wakeonlan).
 - [watson](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/watson): this plugin provides completion for [Watson](https://tailordev.github.io/Watson/).
-- [wd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/wd): `wd` (*warp directory*) lets you jump to custom directories in zsh, without using `cd`. Why? Because `cd` seems inefficient when the folder is frequently visited or has a long path.
+- [wd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/wd): `wd` (_warp directory_) lets you jump to custom directories in zsh, without using `cd`. Why? Because `cd` seems inefficient when the folder is frequently visited or has a long path.
 - [web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search): this plugin adds aliases for searching with Google, Wiki, Bing, YouTube and other popular services.
 - [wp-cli](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/wp-cli): the [WordPress CLI](https://wp-cli.org/) is a command-line tool for managing WordPress installations. You can update plugins, set up multisite installs and much more, without using a web browser.
 - [xcode](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/xcode): this plugin provides a few utilities that can help you on your daily use of Xcode and iOS development.

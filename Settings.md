@@ -1,5 +1,7 @@
+<!-- prettier-ignore-start -->
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-end -->
 
 # Settings <!-- omit in toc -->
 
@@ -167,7 +169,7 @@ Migrate to the `zstyle` settings while you still can.
 <a name="disable_auto_update"></a>
 
 - `DISABLE_AUTO_UPDATE=true`: if set, it has the same effect as setting
-[**`disabled` mode** in the new zstyle format](#omzupdate-mode). Instead, use:
+  [**`disabled` mode** in the new zstyle format](#omzupdate-mode). Instead, use:
 
   ```zsh
   zstyle ':omz:update' mode disabled
@@ -176,7 +178,7 @@ Migrate to the `zstyle` settings while you still can.
 <a name="disable_update_prompt"></a>
 
 - `DISABLE_UPDATE_PROMPT=true`: if set, it has the same effect as setting
-[**`auto` mode** in the new zstyle format](#omzupdate-mode). Instead, use:
+  [**`auto` mode** in the new zstyle format](#omzupdate-mode). Instead, use:
 
   ```zsh
   zstyle ':omz:update' mode auto
@@ -185,11 +187,11 @@ Migrate to the `zstyle` settings while you still can.
 <a name="update_zsh_days"></a>
 
 - `UPDATE_ZSH_DAYS=<days>`: if set, it has the same effect as setting
-[**`frequency <days>`** in the new zstyle format](#omzupdate-frequency). Instead, use:
+  [**`frequency <days>`** in the new zstyle format](#omzupdate-frequency). Instead, use:
 
-   ```zsh
-   zstyle ':omz:update' frequency <days>
-   ```
+  ```zsh
+  zstyle ':omz:update' frequency <days>
+  ```
 
 ## Completion settings
 

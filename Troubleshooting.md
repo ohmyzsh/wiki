@@ -1,5 +1,7 @@
+<!-- prettier-ignore-start -->
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-end -->
 
 This page is meant to describe the most common problems with Oh My Zsh and what you can do to diagnose them:
 
@@ -13,19 +15,19 @@ bindkey '^L' clear-screen
 
 Two main things could go wrong:
 
-1. The key sequence (`^L` in the example) does not match the key sequence being sent to the terminal:  
+1. The key sequence (`^L` in the example) does not match the key sequence being sent to the terminal:
 
    You can see the exact sequence a keyboard shortcut sends by pressing `CTRL`+`V` and then the keyboard shortcut.
    For example: `CTRL`+`V`, `CTRL`+`L` will output `^L` (`^` represents the Control key).
 
 2. The command executed (`clear-screen` in the example) has an error. In that case, post both the key binding and
-    the definition of the command (if exists) like so:
+   the definition of the command (if exists) like so:
 
    - **key binding:** `bindkey '^[[1;6D'`  
      will print `"^[[1;6D" insert-cycledleft`
    - **command definition:** `which insert-cycledleft`  
      will print `insert-cycledleft () { ... }`
-  
+
      Notice that sometimes the command is a builtin [zle widget](https://zsh.sourceforge.net/Doc/Release/Zsh-Line-Editor.html) and so the `which` command won't work. If that's the case, just post the key binding and we'll figure it out.
 
 ### Completion problems
@@ -35,7 +37,7 @@ Many completion problems, including the infamous `command not found: compdef`, c
 1. First, try to remove your completion cache with `rm ~/.zcompdump*`, close and reopen your shells.
 
 2. If you still have problems, try fully resetting the completion system, as explained by
-    [**@dragon788**](https://github.com/ohmyzsh/ohmyzsh/issues/630#issuecomment-70291622):
+   [**@dragon788**](https://github.com/ohmyzsh/ohmyzsh/issues/630#issuecomment-70291622):
 
    ```zsh
    compaudit | xargs chmod g-w,o-w

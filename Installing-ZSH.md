@@ -1,5 +1,7 @@
+<!-- prettier-ignore-start -->
 > _This wiki is automatically published from [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki). To edit this page,_
 > _go to [ohmyzsh/wiki](https://github.com/ohmyzsh/wiki), make your changes and submit a Pull Request._
+<!-- prettier-ignore-end -->
 
 ## Zsh?
 
@@ -23,11 +25,12 @@ If necessary, follow these steps to install Zsh:
 
 2. Verify installation by running `zsh --version`. Expected result: `zsh 5.0.8` or more recent.
 
-3. Make it your default shell: `chsh -s $(which zsh)` or use `sudo lchsh $USER` if you are on Fedora.
+3. Make it your default shell: `chsh -s $(which zsh)`.  
+   If you are on Fedora, use `sudo chsh $USER` for recent versions or `sudo lchsh $USER` for older versions.
 
    - Note that this will not work if Zsh is not in your authorized shells list (`/etc/shells`)
-    or if you don't have permission to use `chsh`. If that's the case [you'll need to use a different procedure](https://www.google.com/search?q=zsh+default+without+chsh).
-    - If you use `lchsh` you need to type `/bin/zsh` to make it your default shell.
+     or if you don't have permission to use `chsh`. If that's the case [you'll need to use a different procedure](https://www.google.com/search?q=zsh+default+without+chsh).
+   - If you run just `chsh` you need to type `/bin/zsh` to make it your default shell.
 
 4. Log out and log back in again to use your new default shell.
 
@@ -54,7 +57,7 @@ To set zsh as your default shell, execute the following assuming a default insta
   ```sh
   chsh -s $(which zsh)
   ```
-  
+
   For intel macs:
 
   ```sh
@@ -67,14 +70,14 @@ To set zsh as your default shell, execute the following assuming a default insta
   chsh -s /bin/zsh
   ```
 
-If you get an error for non-stadard shell you can try running first 
+If you get an error for non-stadard shell you can try running first
 
 ```sh
 sudo sh -c "echo $(which zsh) >> /etc/shells"
 ```
 
 Assuming you have [Homebrew](https://brew.sh/) installed. If not, most versions of
-**macOS** ship zsh by default, but it's normally an older version.  Alternatively, you may
+**macOS** ship zsh by default, but it's normally an older version. Alternatively, you may
 also use [MacPorts](https://www.macports.org/)
 
 ```sh
@@ -168,7 +171,7 @@ apt-cyg install zsh
 
 The easiest way to change the default shell is to set your SHELL user environment variable. Search for "Edit Environment variables for your account" to bring up the environment variables window, create a new variable named "SHELL" and give it the value "/usr/bin/zsh/".
 
-*Alternatively:*
+_Alternatively:_
 Open Cygwin (in BASH) then type:
 
 ```sh
