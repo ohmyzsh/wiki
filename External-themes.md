@@ -272,7 +272,7 @@ author: [@masaakifuruki](https://github.com/masaakifuruki)
 
 #### Ultima Theme
 
-![ultima theme](https://github.com/egorlem/021011/blob/main/demos/zsh-theme-demo-min.png?raw=true) 
+![ultima theme](https://github.com/egorlem/ultima.workspace/blob/8b285369eab9ec1b49248f4c3f30a05676c36208/demos/zsh-theme-demo-min.png?raw=true) 
 
 **Minimalistic zsh theme designed to provide all the necessary settings for a comfortable terminal experience**
 
