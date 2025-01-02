@@ -106,6 +106,12 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
 ### SSH
 
+- [tmux-ssh-syncing](https://github.com/alberti42/tmux-ssh-syncing)
+	
+	Synchronize your [tmux](https://github.com/tmux/tmux/wiki) window names with active ssh sessions. This plugin dynamically updates the tmux window name to reflect the remote hosts of active ssh sessions in the same window. It also restores the original window name when all ssh sessions are closed.
+
+	<img src="https://github.com/alberti42/tmux-ssh-syncing/blob/main/doc/screencast.gif" alt="Screencast" />
+
 - [xxh](https://github.com/xxh/xxh)
 
   Bring Oh My Zsh wherever you go through the SSH. This allows you to bring Zsh with Oh My Zsh framework to the remote host without any installations, root access or affection on the host.
