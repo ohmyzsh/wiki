@@ -363,7 +363,6 @@ plugins=(rails git ruby)
 - [zoxide](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zoxide): initializes [zoxide](https://github.com/ajeetdsouza/zoxide), a smarter cd command for your terminal.
 - [zsh-interactive-cd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh-interactive-cd): this plugin provides an interactive way to change directories in zsh using fzf.
 - [zsh-navigation-tools](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh-navigation-tools): set of tools like `n-history` – multi-word history searcher, `n-cd` – directory bookmark manager, `n-kill` – `htop` like kill utility, and more. Based on `n-list`, a tool generating selectable curses-based list of elements that has access to current `Zsh` session, i.e. has broad capabilities to work together with it. Feature highlights include incremental multi-word searching, approximate matching, ANSI coloring, themes, unique mode, horizontal scroll, grepping, advanced history management and various integrations with `Zsh`.
-- [zsh-copilot](https://github.com/Gamma-Software/zsh-copilot): Integrate ChatGPT to your terminal so that you can predict your next command based on command history. Ask to generate complexe commands. Or Fix a previous failed command.
 
 ### Removed
 
