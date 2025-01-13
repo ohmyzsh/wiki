@@ -23,6 +23,10 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
   tofuutils tenv plugin providing autocompletions
 
+- [zsh-copilot](https://github.com/Gamma-Software/zsh-copilot)
+  
+  Integrate ChatGPT to your terminal so that you can predict your next command based on command history. Ask to generate complexe commands. Or Fix a previous failed command.
+
 ### FUN
 
 - [Doge Say](https://github.com/txstc55/dogesay/blob/master/dogesay.plugin.zsh)
