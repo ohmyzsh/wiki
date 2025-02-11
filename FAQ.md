@@ -241,6 +241,10 @@ or
 
 - Restart the zsh process by running: `exec zsh`.
 
+or
+
+- Execute `omz reload`. 
+
 #### How do I reset the completion cache?
 
 The completion cache file (also known as zcompdump file) is a cache of the completion functions found when starting the zsh session. This file is written when calling `compinit`, and it is done automatically by Oh My Zsh when starting. It can be found at `$ZSH_COMPDUMP`, usually in your home directory and named `.zcompdump-<host>-<zsh-version>`.
