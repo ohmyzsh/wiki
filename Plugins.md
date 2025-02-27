@@ -252,6 +252,7 @@ plugins=(rails git ruby)
 - [pow](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pow): this plugin adds completion and commands for [pow](http://pow.cx/), a zero-configuration Rack server for macOS.
 - [powder](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/powder): this plugin provides completion for [powder](https://github.com/powder-rb/powder/).
 - [powify](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/powify): this plugin adds autocompletion for [powify](https://github.com/sethvargo/powify), an easy-to-use wrapper for Basecamp's [pow](https://github.com/basecamp/pow).
+- [pnpm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pnpm): this plugin adds autocompletion for [pnpm](https://pnpm.io/).
 - [pre-commit](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pre-commit): this plugin adds aliases for common commands of [pre-commit](https://pre-commit.com/).
 - [procs](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/procs): this plugin provides completion for [procs](https://github.com/dalance/procs).
 - [profiles](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/profiles): this plugin allows you to create separate configuration files for zsh based on your long hostname (including the domain).
