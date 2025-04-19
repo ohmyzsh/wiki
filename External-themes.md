@@ -1690,3 +1690,17 @@ _<div align="center"><h5>A Shrimple and concise terminal prompt theme for Oh My 
 </div>
 
 ---
+
+#### rie
+
+A minimalistic theme.
+
+![rie](https://raw.githubusercontent.com/andrii-rieznik/rho-zsh-theme/master/rie.png)
+
+##### Features
+
+- Git branch name, clean & dirty;
+- Username and directory path;
+- Exit status ✅ or ❌.
+
+Source: [rie-zsh-theme](https://github.com/andrii-rieznik/rie-zsh-theme)
