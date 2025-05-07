@@ -1704,3 +1704,26 @@ A minimalistic theme.
 - Exit status ✅ or ❌.
 
 Source: [rie-zsh-theme](https://github.com/andrii-rieznik/rie-zsh-theme)
+
+---
+
+### Zen
+
+A Simple, minimalistic theme.
+
+<div align="center>
+
+![Zen](https://raw.githubusercontent.com/hyZenith/Zen-zsh-theme/refs/heads/main/Prompt.png)
+
+</div>
+
+**Features**
+
+  - 🕒 Time Display
+  - 👤 Username (system user in white)
+  - 🌿 Git Integration (via vcs_info)
+  - 📏 Clean Separator Bar
+
+See [repository](https://github.com/hyZenith/Zen-zsh-theme) for source code.
+
+Author: [@!Zenith](https://github.com/hyZenith)
