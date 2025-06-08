@@ -133,6 +133,7 @@
 | [node](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/node)           | NodeJS docs easy access via CLI                    |
 | [npm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npm)             | package manager for NodeJS                         |
 | [nvm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm)             | NodeJS version manager                             |
+| [pnpm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pnpm)           | NodeJS package manager                             |
 
 ### PHP
 
