@@ -62,6 +62,22 @@ Author: [Migo](https://gitlab.com/migoa)**
 
 ---
 
+**<div align="center"><h2>🐉Y-Kali Theme</h2></div>**
+_<div align="center"><h5>Zsh theme built specially for kali linux users</h5></div>_<br>
+
+- Prints a modifiable banner at any new zsh session.
+- Prints the user name and hostname.
+- Prints the current working directory
+- Prints the wlan0 IP if you aren't connected to any VPN.
+- Git info
+![image](https://github.com/JeffreyYAJ/ykali-zsh/blob/main/theme-preview.png)<br><br><br>
+<div align="center"><h5><a href="https://github.com/JeffreyYAJ/ykali-zsh">🐉Y-Kali Repo🐉</a></h5></div><br>
+See [repository](https://github.com/JeffreyYAJ/ykali-zsh) for source.
+Author: [Jeffrey YAJ](https://github.com/JeffreyYAJ)
+<br/>
+
+---
+
 ### Heapbytes Terminal theme
 
 ![heapbytes-theme](https://github.com/ohmyzsh/wiki/assets/56447720/39c2e4e0-3315-4e06-8b46-8e83514ccaca)
@@ -272,17 +288,18 @@ author: [@masaakifuruki](https://github.com/masaakifuruki)
 
 #### Ultima Theme
 
-![ultima theme](https://github.com/egorlem/ultima.workspace/blob/8b285369eab9ec1b49248f4c3f30a05676c36208/demos/zsh-theme-demo-min.png?raw=true) 
+![ultima theme](https://github.com/egorlem/ultima.workspace/blob/8b285369eab9ec1b49248f4c3f30a05676c36208/demos/zsh-theme-demo-min.png?raw=true)
 
 **Minimalistic zsh theme designed to provide all the necessary settings for a comfortable terminal experience**
 
 #### Features
+
 - **Multi-Line Prompt**: The prompt is divided into three lines for better readability. The first line separates the previous command's output from the prompt, the second line provides detailed path information, and the third line is for input.
 - **Multiple Prompt Levels**: Provides configurations for secondary and tertiary prompt levels (`PS2` and `PS3`).
 - **SSH Status Indicator**: Displays an indicator when an SSH connection is established.
 - **VCS (Version Control System) Integration**: Supports Git, SVN, and Mercurial for showing branch and repository status directly in the prompt.
-    - **Git Integration**: Shows branch name, staged and unstaged changes, and untracked files.
-    - **SVN and Mercurial Integration**: Shows branch name and repository status.
+  - **Git Integration**: Shows branch name, staged and unstaged changes, and untracked files.
+  - **SVN and Mercurial Integration**: Shows branch name and repository status.
 - **Completion Enhancements**: Provides advanced completion settings, including menu completion, caching, and various completion styles and formats.
 - **LS_COLORS Configuration**: Configures `LS_COLORS` for both BSD and GNU systems to enhance the display of directory listings.
 - **LESS and MAN Configuration**: Customizes the behavior and appearance of `less` and `man` pages.
@@ -1719,10 +1736,10 @@ A Simple, minimalistic theme.
 
 **Features**
 
-  - 🕒 Time Display
-  - 👤 Username (system user in white)
-  - 🌿 Git Integration (via vcs_info)
-  - 📏 Clean Separator Bar
+- 🕒 Time Display
+- 👤 Username (system user in white)
+- 🌿 Git Integration (via vcs_info)
+- 📏 Clean Separator Bar
 
 See [repository](https://github.com/hyZenith/Zen-zsh-theme) for source code.
 
