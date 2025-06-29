@@ -288,17 +288,18 @@ author: [@masaakifuruki](https://github.com/masaakifuruki)
 
 #### Ultima Theme
 
-![ultima theme](https://github.com/egorlem/ultima.workspace/blob/8b285369eab9ec1b49248f4c3f30a05676c36208/demos/zsh-theme-demo-min.png?raw=true) 
+![ultima theme](https://github.com/egorlem/ultima.workspace/blob/8b285369eab9ec1b49248f4c3f30a05676c36208/demos/zsh-theme-demo-min.png?raw=true)
 
 **Minimalistic zsh theme designed to provide all the necessary settings for a comfortable terminal experience**
 
 #### Features
+
 - **Multi-Line Prompt**: The prompt is divided into three lines for better readability. The first line separates the previous command's output from the prompt, the second line provides detailed path information, and the third line is for input.
 - **Multiple Prompt Levels**: Provides configurations for secondary and tertiary prompt levels (`PS2` and `PS3`).
 - **SSH Status Indicator**: Displays an indicator when an SSH connection is established.
 - **VCS (Version Control System) Integration**: Supports Git, SVN, and Mercurial for showing branch and repository status directly in the prompt.
-    - **Git Integration**: Shows branch name, staged and unstaged changes, and untracked files.
-    - **SVN and Mercurial Integration**: Shows branch name and repository status.
+  - **Git Integration**: Shows branch name, staged and unstaged changes, and untracked files.
+  - **SVN and Mercurial Integration**: Shows branch name and repository status.
 - **Completion Enhancements**: Provides advanced completion settings, including menu completion, caching, and various completion styles and formats.
 - **LS_COLORS Configuration**: Configures `LS_COLORS` for both BSD and GNU systems to enhance the display of directory listings.
 - **LESS and MAN Configuration**: Customizes the behavior and appearance of `less` and `man` pages.
@@ -1735,10 +1736,10 @@ A Simple, minimalistic theme.
 
 **Features**
 
-  - 🕒 Time Display
-  - 👤 Username (system user in white)
-  - 🌿 Git Integration (via vcs_info)
-  - 📏 Clean Separator Bar
+- 🕒 Time Display
+- 👤 Username (system user in white)
+- 🌿 Git Integration (via vcs_info)
+- 📏 Clean Separator Bar
 
 See [repository](https://github.com/hyZenith/Zen-zsh-theme) for source code.
 
