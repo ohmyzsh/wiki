@@ -62,6 +62,22 @@ Author: [Migo](https://gitlab.com/migoa)**
 
 ---
 
+**<div align="center"><h2>🐉Y-Kali Theme</h2></div>**
+_<div align="center"><h5>Zsh theme built specially for kali linux users</h5></div>_<br>
+
+- Prints a modifiable banner at any new zsh session.
+- Prints the user name and hostname.
+- Prints the current working directory
+- Prints the wlan0 IP if you aren't connected to any VPN.
+- Git info
+![image](https://github.com/JeffreyYAJ/ykali-zsh/blob/main/theme-preview.png)<br><br><br>
+<div align="center"><h5><a href="https://github.com/JeffreyYAJ/ykali-zsh">🐉Y-Kali Repo🐉</a></h5></div><br>
+See [repository](https://github.com/JeffreyYAJ/ykali-zsh) for source.
+Author: [Jeffrey YAJ](https://github.com/JeffreyYAJ)
+<br/>
+
+---
+
 ### Heapbytes Terminal theme
 
 ![heapbytes-theme](https://github.com/ohmyzsh/wiki/assets/56447720/39c2e4e0-3315-4e06-8b46-8e83514ccaca)
