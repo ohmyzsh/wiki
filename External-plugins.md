@@ -24,7 +24,7 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
   tofuutils tenv plugin providing autocompletions
 
 - [zsh-copilot](https://github.com/Gamma-Software/zsh-copilot)
-  
+
   Integrate ChatGPT to your terminal so that you can predict your next command based on command history. Ask to generate complexe commands. Or Fix a previous failed command.
 
 ### FUN
@@ -108,10 +108,18 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
   Add `node_modules/.bin` directories to your `$PATH`.
 
+### PYTHON
+
+- [viper-env](https://github.com/DanielAtKrypton/viper-env)
+
+  Automatically activates and deactivates python virtualenv upon cd in and out.
+
+  ![Demo](https://github.com/DanielAtKrypton/viper-env/raw/master/make_animation/assets/final.svg)
+
 ### SSH
 
 - [tmux-ssh-syncing](https://github.com/alberti42/tmux-ssh-syncing)
-	
+
 	Synchronize your [tmux](https://github.com/tmux/tmux/wiki) window names with active ssh sessions. This plugin dynamically updates the tmux window name to reflect the remote hosts of active ssh sessions in the same window. It also restores the original window name when all ssh sessions are closed.
 
 	<img src="https://github.com/alberti42/tmux-ssh-syncing/blob/main/doc/screencast.gif" alt="Screencast" />
