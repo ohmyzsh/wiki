@@ -27,6 +27,10 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
   
   Integrate ChatGPT to your terminal so that you can predict your next command based on command history. Ask to generate complexe commands. Or Fix a previous failed command.
 
+- [Docker ps output colorized](https://github.com/bouteillerAlan/dockolor)
+
+  `dockolor` is a lightweight plugin that enhances your docker ps experience with color-coded output based on container status. It also replaces common aliases like dps and dpsa if defined.
+
 ### FUN
 
 - [Doge Say](https://github.com/txstc55/dogesay/blob/master/dogesay.plugin.zsh)
