@@ -591,6 +591,24 @@ See [repo](https://github.com/romkatv/powerlevel10k) for documentation.
 
 author: [@romkatv](https://github.com/romkatv)
 
+#### ✨ Quantum Theme
+
+Welcome to Quantum—a sleek, cross-platform Zsh theme built for speed, style, and shell supremacy. Crafted for developers who care about both aesthetics and precision, Quantum adapts to your flow whether you're deep in Git or just vibing in your terminal. With dynamic color logic and a pixel-perfect prompt layout, it looks sharp in Zsh, VS Code, and anywhere your shell takes you.
+
+![screenshot](https://github.com/calebephrem/quantum-zsh/blob/main/assets/screenshot.png?raw=true)
+
+**Features**:
+
+- Dynamic color escapes for prompt sections
+- Smart Git indicators (branch, status, detached HEAD, etc.)
+- Remix-friendly structure with clearly scoped logic blocks
+- Robust edge case handling (SSH sessions, empty repos, etc.)
+- Cross-platform consistency across macOS, Linux, and WSL
+
+**Repo**: https://github.com/calebephrem/quantum-zsh
+
+**Author**: [@calebephrem](https://github.com/calebephrem)
+
 #### Bullet train
 
 ![powerlevel9k theme](https://camo.githubusercontent.com/c5b0c78df1c3ca27bb2c5577114a92018bbdbee0/687474703a2f2f7261772e6769746875622e636f6d2f6361696f676f6e64696d2f62756c6c65742d747261696e2d6f682d6d792d7a73682d7468656d652f6d61737465722f696d672f707265766965772e676966)
