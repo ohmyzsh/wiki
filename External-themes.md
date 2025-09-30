@@ -1762,3 +1762,12 @@ A Simple, minimalistic theme.
 See [repository](https://github.com/hyZenith/Zen-zsh-theme) for source code.
 
 Author: [@!Zenith](https://github.com/hyZenith)
+
+# Keep It Simple
+
+Variation of [jispwoso](https://github.com/ohmyzsh/ohmyzsh/wiki/themes#jispwoso) theme
+
+![demo](https://github.com/user-attachments/assets/0b1d8e14-026d-4267-82a1-74ec4ba636cc)
+
+source: [kis theme](https://github.com/DaniSald/dotfiles/tree/main/zsh)
+
