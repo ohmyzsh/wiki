@@ -1785,6 +1785,10 @@ The Hogwarts theme is a feature-rich Zsh prompt that displays comprehensive syst
 - **Command exit status indicator** with color-coded prompt character
 - **Real-time clock** showing current time
 
+## Source
+
+[Hogwarts theme](https://github.com/TheWinterShadow/HogwartsTrunk)
+
 ## Preview
 
 The prompt displays information in the following format:
