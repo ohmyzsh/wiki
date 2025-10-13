@@ -1771,3 +1771,26 @@ Variation of [jispwoso](https://github.com/ohmyzsh/ohmyzsh/wiki/themes#jispwoso)
 
 source: [kis theme](https://github.com/DaniSald/dotfiles/tree/main/zsh)
 
+
+# Hogwarts
+
+The Hogwarts theme is a feature-rich Zsh prompt that displays comprehensive system and git information using colors inspired by the four Hogwarts houses. It provides at-a-glance visibility of your current context, git status, and command execution results.
+
+## Features
+
+- **Two-line prompt design** for improved readability and command space
+- **Hogwarts house colors** throughout the prompt elements
+- **Git integration** with branch, status, and tracking information
+- **Screen/Tmux session indicators** for terminal multiplexer users
+- **Command exit status indicator** with color-coded prompt character
+- **Real-time clock** showing current time
+
+## Source
+
+[Hogwarts theme](https://github.com/TheWinterShadow/HogwartsTrunk)
+
+## Preview
+
+The prompt displays information in the following format:
+
+![](https://github.com/TheWinterShadow/HogwartsTrunk/blob/25ff1e2a552eda2a152a77d862426fad31967632/zsh/zsh_hogwarts_theme.png)
