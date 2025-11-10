@@ -19,7 +19,7 @@
 - [Update settings](#update-settings)
   - [`':omz:update' mode`](#omzupdate-mode)
   - [`':omz:update' frequency`](#omzupdate-frequency)
-  - [`':omz:update' verbosity`](#omzupdate-verbosity)
+  - [`':omz:update' verbose`](#omzupdate-verbose)
   - [Deprecated settings](#deprecated-settings)
 - [Completion settings](#completion-settings)
   - [`ZSH_COMPDUMP`](#zsh_compdump)
@@ -139,26 +139,26 @@ setting only takes effect when automatic updates are enabled. **The default are 
 zstyle ':omz:update' frequency 7
 ```
 
-### `':omz:update' verbosity`
+### `':omz:update' verbose`
 
 This setting controls the amount of information displayed after an update finishes. These are the available verbosity levels:
 
 1. `default`: shows everything: git update process, changelog and success message.
 
    ```zsh
-   zstyle ':omz:update' verbosity default
+   zstyle ':omz:update' verbose default
    ```
 
 2. `minimal`: shows only the git update process and a minimal success message.
 
    ```zsh
-   zstyle ':omz:update' verbosity minimal
+   zstyle ':omz:update' verbose minimal
    ```
 
 3. `silent`: only shows the git update process.
 
    ```zsh
-   zstyle ':omz:update' verbosity silent
+   zstyle ':omz:update' verbose silent
    ```
 
 ### Deprecated settings
