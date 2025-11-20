@@ -375,6 +375,7 @@ plugins=(rails git ruby)
 - `docker-machine`: removed because Docker Machine was deprecated. Use Docker Desktop instead.
 - `fedora`: use `dnf` instead.
 - `fd`: completion is already included when installed via package managers.
+- `fig`: [project sunset in 2024](https://fig.io/)  
 - `gb`: [project archived since 2017](https://github.com/constabulary/gb).
 - `git-remote-branch`: not actively maintained.
 - `go`: use `golang` instead.
