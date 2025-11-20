@@ -109,7 +109,6 @@ plugins=(rails git ruby)
 - [fasd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fasd): [`Fasd`](https://github.com/clvv/fasd) (pronounced similar to "fast") is a command-line productivity booster. Fasd offers quick access to files and directories for POSIX shells.
 - [fastfile](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fastfile): this plugin adds a way to reference certain files or folders used frequently using a global alias or shortcut.
 - [fbterm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fbterm): this plugin automatically starts [fbterm](https://github.com/zhangyuanwei/fbterm) if on a real TTY (`/dev/tty*`).
-- [fig](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fig): this plugin sets up completion for [Fig](https://fig.io/).
 - [firewalld](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/firewalld): this plugin adds some aliases and functions for FirewallD using the `firewalld-cmd` command. To use it, add firewalld to your plugins array.
 - [flutter](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/flutter): the Flutter plugin provides completion and useful aliases
 - [fluxcd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fluxcd): this plugin adds completion for [FluxCD](https://fluxcd.io), an open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit.
