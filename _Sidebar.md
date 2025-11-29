@@ -18,6 +18,7 @@
 - **Contributing**
   - [[Volunteers]]
   - [[Design]]
+  - [[Secure Code]]
   - [[Code Style Guide]]
   - [[Wiki Style Guide]]
   - [[Contribution Technical Practices]]
