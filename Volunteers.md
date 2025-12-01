@@ -93,6 +93,7 @@ As a Level 5 volunteer, you might be:
 This is currently handled by:
 
 - [@mcornella](https://github.com/mcornella) (official maintainer of Oh My Zsh)
+- [@carlosala](https://github.com/carlosala) (official maintainer of Oh My Zsh)
 - [@robbyrussell](https://github.com/robbyrussell) (creator of Oh My Zsh)
 
 ## In Summary
