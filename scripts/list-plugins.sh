@@ -7,15 +7,6 @@ local plugin readme description
 for plugin in plugins/*(:t); do
   readme="plugins/$plugin/README.md"
 
-  # sed command explanation:
-  # -n: suppress automatic printing of lines
-  #
-  # a. `N``: join the next line of input with the pattern space, including \n in the pattern
-  # b. `s/\n/ /`: replace the newline character with a space (this joins the lines together)
-  # c. `3,/^ /{ /^ /!p }`:
-  #     - match from line 3 until the first line that starts with a space (i.e. the first empty line, because of (a) and (b))
-  #     - print all lines except the delimiter line that starts with a space (again, the first empty line)
-  #
   # Summary: get the first paragraph of the README file, which starts at line 3, and join all contiguous lines together
   description="$(awk '
     function lowercase_first_if_not_acronym(paragraph) {
