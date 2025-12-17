@@ -41,7 +41,8 @@ Once Oh My Zsh is installed:
 
 - Take a look at the most common questions and gotchas in the [[FAQ]].
 - Get a quick summary of the built-in plugins: [[Plugins Overview]].
-- Take a look at our [[Themes]] and [[Plugins]] (read the READMEs first!).
+- Take a look at our [[Themes]] and their functionality: [[Themes Overview]].
+- And check out our full list of [[Plugins]] (read the READMEs first!).
 - If you need more, you can look at [[External themes]] and [[External plugins]].
   **Take caution, we do not review these.**
 - Have a look at the [[Cheatsheet]] for other Oh My Zsh tricks.

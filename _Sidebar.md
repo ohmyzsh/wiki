@@ -1,6 +1,7 @@
 - **[[Home]]**
 - **[[FAQ]]**
 - **[[Plugins Overview]]**
+- **[[Themes Overview]]**
 - **Documentation**
   - [[Installing ZSH]]
   - [[Settings]]
