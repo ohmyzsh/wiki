@@ -40,40 +40,8 @@ WAYS_TO_FIND={
         'customizable': re.compile(r'MLH'),
     }
 }
-for td in TH_DIRS:
-    for fname in sorted(os.listdir(td)): #loop through all files
-        #checking for the extras
-        other=[]
-        for name,rx in extras:
-            if rx.search(txt):
-                other.append(name)
-        #generating the array for the report
-        other_info=', '.join(other) if other else '' # make the array into a string
-        lines=['```yaml']
-        lines.append(f'  Theme: {base}')
-        lines.append(f'  Shows username: {shows_username}')
-        lines.append(f'  Shows hostname: {shows_hostname}')
-        lines.append(f'  Shows time/date: {shows_time}')
-        lines.append(f'  Shows last command failure: {shows_last}')
-        lines.append(f'  PWD style: {pwd_style}')
-        if other_info:
-            lines.append(f'  Other info: {other_info}')
-        lines.append('```')
-        content='\n'.join(lines)+'\n' #make into a string
-        #making report
-        try:
-            report_name=find_report_name(base) #get the correct file name
-            outpath=os.path.join(R_DIR,report_name) #get the file path
-            fd, tmp = tempfile.mkstemp(dir=R_DIR) #make a temp file
-            with os.fdopen(fd,'w',encoding='utf-8') as f: #add text to temp file
-                f.write(content)
-                f.flush(); os.fsync(f.fileno())
-            os.replace(tmp, outpath) #make temp file into perm file
-            changed.append(report_name)
-        except Exception as e:
-            failed.append((outpath,str(e)))
 class themes:
-    def __init__(self, name, conf,path):
+    def __init__(self, name, conf,cfpath,repath):
         """this class contains all info about a theme
 
         Args:
@@ -83,7 +51,8 @@ class themes:
         """
         self.name = name
         self.config = conf
-        self.path = path
+        self.cfpath = cfpath
+        self.repath = repath
         self.capabilities = {
             "basic":{
                 "username":bool,
@@ -94,6 +63,7 @@ class themes:
             },
             "extras":[]
         }
+        self.fill_data()
     def fill_data(self):
         """gathers all the info on the theme
         """
@@ -103,9 +73,9 @@ class themes:
         self.capabilities["basic"]["last_failure"]=True if WAYS_TO_FIND["last_failure"].search(self.config) else False
         #pwd determination:
         pwd_style='shortened path'
-        m=WAYS_TO_FIND["pwd_num"].search(self.config)
-        if m:
-            pwd_style=f'shortened path ({m.group(1)} folders)'
+        n=WAYS_TO_FIND["pwd_num"].search(self.config)
+        if n:
+            pwd_style=f'shortened path ({n.group(1)} folders)'
         elif WAYS_TO_FIND["pwd_basename"].search(self.config):
             pwd_style='basename (current directory name)'
         elif WAYS_TO_FIND["pwd_short"].search(self.config):
@@ -119,9 +89,23 @@ class themes:
         for key in WAYS_TO_FIND['extra'].keys():
             if WAYS_TO_FIND['extra'][key].search(self.config):
                 self.capabilities['extras'].append(key)
-            else:continue
-
-
+            else:continue #sounded harder in my head.
+    def generate_report(self) -> str:
+        """Generating the report, returns a string formated as a markdown list.
+        """
+        extras=', '.join(self.capabilities["extras"]) if self.capabilities["extras"] else ''
+        lines=[
+            f"# Report for {self.name}",
+            f"- Name: {self.name}",
+            f"- Shows username: {self.capabilities["basic"]["username"]}",
+            f"- Shows hostname: {self.capabilities["basic"]["hostname"]}",
+            f"- Shows time/date: {self.capabilities["basic"]["time"]}",
+            f"- Shows last command failure: {self.capabilities["basic"]["last_failure"]}",
+            f"- PWD style: {self.capabilities["basic"]["pwd"]}",
+            f"- Other info: {extras}"
+        ]
+        report='\n'.join(lines)+'\n'
+        return report
 
 def main():
     p = argparse.ArgumentParser(description='Generate reports/summary.md and reports/summary.csv')
@@ -131,70 +115,47 @@ def main():
     args = p.parse_args()
     #making the aliases into something usefull.
     alias={}
-    for i in args.alias:
-        x=i.split(":", 2) #split the alias in a temp var
-        alias[x[0]]=x[1] #making the before be the key and the after be the value
+    if args.alias:
+        for i in args.alias:
+            x=i.split(":", 2) #split the alias in a temp var
+            alias[x[0]]=x[1] #making the before be the key and the after be the value
     #making documentation is harder then i thought ngl, i am not a programmer lol
-    themeDict=[]
+    themeDict: list[type[themes]]
+    themeDict=[] 
     #Looping through all theme directory
     for theme_dir in args.theme_dirs:
-        # step 1 - verify if dir actually exists
+        #? step 1 - verify if dir actually exists
         if not os.path.isdir(theme_dir):
             continue
-        #step 2 - loop through all files in dir
+        #? step 2 - loop through all files in dir
         for theme in sorted(os.listdir(theme_dir)):
             if not theme.endswith('.zsh-theme'): #verification that the file is actually a theme file
                 continue
             #now i need to obtain the important data...
             themeName=theme[:-10] #remove the file extension from name
-            themePath=os.path.join(td,fname)
+            if alias:
+                if themeName in alias.keys: themeName=alias[themeName]
+            themePath=os.path.join(theme_dir,theme)
+            rePath=os.path.join(args.reports_dir,themeName)
             try:
                 with open(themePath,'r',errors='ignore') as fh:
                     themeConfig=fh.read()
             except Exception as e:
-                failed.append((themePath,str(e)))
+                print("Failed to read config file: "+themePath)
+                print(e)
                 continue
             #Now adding to the theme dict the class for the theme.
-            themeDict.append(themes(themeName,themeConfig,themePath))
-        
+            themeDict.append(themes(themeName,themeConfig,themePath,rePath))
+    for th in themeDict:
+        th.fill_data()
+        report=th.generate_report()
+        try:
+            with open(th.repath, "w") as f:
+                f.write(report)
+        except Exception as e:
+            print("failed write")
+            exit(1)
 
 
 if __name__ == '__main__':
     main()
-    quit()
-
-
-
-reports = set(os.listdir(R_DIR)) if os.path.isdir(R_DIR) else set()
-
-
-
-changed=[]
-processed=0
-failed=[]
-
-def find_report_name(base):
-    if base in reports:
-        return base
-    alt = base.replace('+','plus') #was worried that a + in a file name messed something up.
-    if alt in reports:
-        return alt
-    if base.startswith('xiong-'): #omg i made a small mistake in creating files and it copilot punishes me like that...
-        cand='w'+base
-        if cand in reports:
-            return cand
-    low = base.lower()
-    if low in reports:
-        return low
-    return alt
-
-
-print('SAFE WRITE DONE. themes processed:', processed, 'reports updated:', len(changed))
-if failed:
-    print('FAILED:')
-    for p,e in failed:
-        print(p, e)
-if changed:
-    print('\nUPDATED REPORTS:')
-    for r in sorted(set(changed)):
-        print(r)

@@ -1,1 +1,4 @@
 .vscode/*
+# file for testing the theme scripts:
+themes-files/* 
+reports/*

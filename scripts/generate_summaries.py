@@ -107,7 +107,7 @@ def generate_csv(reports_dir, out_md, out_csv):
 
 def main():
     p = argparse.ArgumentParser(description='Generate reports/summary.md and reports/summary.csv')
-    p.add_argument('--reports-dir', default='reports', help='Directory containing report files')
+    p.add_argument('--reports-dir', required=True, help='Directory containing report files')
     p.add_argument('-m','--make-md',help="Enables creating a MD file",action='store_true')
     p.add_argument('-c','--make-csv',help="Enables creating a csv file",action='store_true')
     p.add_argument('--out-md', default=os.path.join('reports','summary.md'), help='Output markdown file')
