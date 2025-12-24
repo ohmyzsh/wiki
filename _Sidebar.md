@@ -6,6 +6,7 @@
   - [[Settings]]
   - [[Plugins]]
   - [[Themes]]
+  - [[Themes Overview]]
   - [[Cheatsheet]]
   - [[Customization]]
   - [[Resources]]
