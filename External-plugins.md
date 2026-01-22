@@ -59,6 +59,14 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
   user123/repo-9876/fix-bug-in-feature  -->  9876/fix...-feature
   ```
 
+- [git-clean-branches](https://github.com/adelbeke/git-clean-branches)
+
+  Interactive git branch deletion tool with a beautiful UI powered by [gum](https://github.com/charmbracelet/gum). Shows branch info with last commit date and message. Automatically protects current branch and main/master branches.
+
+- [git-switch-branch](https://github.com/adelbeke/git-switch-branch)
+
+  Interactive git branch switching tool with gum-powered UI. Displays branch info with last commit date and message. Warns about uncommitted changes with optional auto-stash.
+
 - [Custom Git](https://github.com/davidde/git)
 
   A small, tidy, lightweight notes app that creates a daily text file and timestamps every line of added text
