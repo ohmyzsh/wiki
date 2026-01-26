@@ -1794,3 +1794,25 @@ The Hogwarts theme is a feature-rich Zsh prompt that displays comprehensive syst
 The prompt displays information in the following format:
 
 ![](https://github.com/TheWinterShadow/HogwartsTrunk/blob/25ff1e2a552eda2a152a77d862426fad31967632/zsh/zsh_hogwarts_theme.png)
+
+# LCARS
+
+A Star Trek: The Next Generation LCARS-inspired theme for Oh My Zsh with modern powerline-style segments and authentic color palette.
+
+![LCARS Theme Preview](https://github.com/lgulliver/lcars-zsh-theme/raw/main/preview.png)
+
+## Features
+
+- 🚀 **OS-specific icon** - Automatically displays  for macOS,  for Linux, or  for Windows
+- 📁 **Directory display** with bright orange LCARS color
+- 🔀 **Git integration** - Shows branch name, dirty/clean status, and detailed change indicators:
+  - `+` Added/staged files
+  - `*` Modified files
+  - `-` Deleted files
+  - `?` Untracked files
+  - `→` Renamed files
+  - `‡` Conflicts/unmerged files
+- 🔋 **Battery status** (when plugin enabled) - Visual icon that changes based on charge level
+- 🕐 **Clock display** - Shows current time in HH:MM:SS format
+- 🚨 **Red Alert Mode** - All segments turn red when a command fails
+- 🎨 **Authentic LCARS color palette** - Using the official colors from Star Trek: TNG
