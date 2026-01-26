@@ -1799,6 +1799,8 @@ The prompt displays information in the following format:
 
 A Star Trek: The Next Generation LCARS-inspired theme for Oh My Zsh with modern powerline-style segments and authentic color palette.
 
+[Source](https://github.com/lgulliver/lcars-zsh-theme)
+
 ![LCARS Theme Preview](https://github.com/lgulliver/lcars-zsh-theme/raw/main/preview.png)
 
 ## Features
