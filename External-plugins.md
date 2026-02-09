@@ -35,6 +35,9 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
   `dockolor` is a lightweight plugin that enhances your docker ps experience with color-coded output based on container status. It also replaces common aliases like dps and dpsa if defined.
 
+- [zsh-indent-control](https://github.com/alberti42/zsh-indent-control)
+	Turn leading Tab into spaces. Inserts a fixed number of spaces when you press Tab in the leading indentation area of the ZLE prompt, and otherwise preserves your normal Tab behavior (completion, etc.).
+
 ### FUN
 
 - [Doge Say](https://github.com/txstc55/dogesay/blob/master/dogesay.plugin.zsh)
