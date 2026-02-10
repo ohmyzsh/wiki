@@ -13,6 +13,10 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
 ### CLI
 
+- [arc-zsh-plugin](https://github.com/dkryaklin/arc-zsh-plugin)
+
+  Arc VCS prompt integration, status caching, and aliases. Supports agnoster theme with auto-injection.
+
 - [fz](https://github.com/changyuheng/fz)
 
   Give tab-completions to `z`.
