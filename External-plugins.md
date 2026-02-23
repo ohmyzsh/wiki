@@ -50,6 +50,10 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
   ![Alt Text](https://raw.githubusercontent.com/txstc55/dogesay/master/dogesay.gif)
 
+- [matecito-zsh](https://github.com/uvallasciani/matecito-zsh)
+
+  Displays quotes from your country's authors in your native language. Auto-detects locale. Simple, offline, no noise.
+
 ### GIT
 
 - [Auto Status](https://gist.github.com/oshybystyi/475ee7768efc03727f21)
