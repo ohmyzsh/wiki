@@ -42,6 +42,10 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 - [zsh-indent-control](https://github.com/alberti42/zsh-indent-control)
 	Turn leading Tab into spaces. Inserts a fixed number of spaces when you press Tab in the leading indentation area of the ZLE prompt, and otherwise preserves your normal Tab behavior (completion, etc.).
 
+- [zsh-make-completion](https://github.com/pksublime/zsh-make-completion)
+  
+  Give tab-completion to `make` that behave like `bash` does out of the box.
+
 ### FUN
 
 - [Doge Say](https://github.com/txstc55/dogesay/blob/master/dogesay.plugin.zsh)
