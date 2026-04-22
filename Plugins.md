@@ -65,6 +65,7 @@ plugins=(rails git ruby)
 - [chucknorris](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/chucknorris): fortunes plugin for Chuck Norris for Oh My Zsh. Perfectly suitable as MOTD.
 - [cloudfoundry](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/cloudfoundry): this plugin is intended to offer a few simple aliases for regular users of the [Cloud Foundry Cli][1]. Most are just simple aliases that will save a bit of typing. Others include mini functions and or accept parameters. Take a look at the table below for details.
 - [codeclimate](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/codeclimate): this plugin adds autocompletion for the [`codeclimate` CLI](https://github.com/codeclimate/codeclimate).
+- [codex-session](https://github.com/shubhindia/codex-session): the `codex-session` plugin provides directory and git branch-aware session management for the Codex CLI, with auto-resume, `fzf`-based session switching, and cleanup of stale sessions.
 - [coffee](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/coffee): this plugin provides aliases for quickly compiling and previewing your coffeescript code.
 - [colemak](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colemak): this plugin remaps keys in `zsh`'s [`vi`-style navigation mode](https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html#Keymaps) for a [Colemak](https://colemak.com/) keyboard layout, to match the QWERTY position:
 - [colored-man-pages](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colored-man-pages): this plugin adds colors to man pages.
