@@ -152,6 +152,7 @@ plugins=(rails git ruby)
 - [gulp](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gulp): this plugin adds autocompletion for your [`gulp`](https://gulpjs.com/) tasks. It grabs all available tasks from the `gulpfile.js` in the current directory.
 - [hanami](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/hanami): this plugin adds convenient aliases to work with [Hanami](https://hanamirb.org/) via console. It's inspired by Rails plugin, so if you've used it, you'll feel like home.
 - [hasura](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/hasura): this plugin adds completion for [the Hasura CLI](https://hasura.io/docs/latest/hasura-cli/index/).
+- [hcloud](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/hcloud): this plugin adds completion for the [Hetzner Cloud CLI](https://github.com/hetznercloud/cli), as well as some aliases for common hcloud commands.
 - [helm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/helm): this plugin adds completion and aliases for [Helm](https://helm.sh/), the Kubernetes package manager.
 - [heroku](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/heroku): this plugin provides completion for the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
 - [heroku-alias](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/heroku-alias): full alias list for Heroku CLI.
@@ -260,7 +261,7 @@ plugins=(rails git ruby)
 - [pow](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pow): this plugin adds completion and commands for [pow](http://pow.cx/), a zero-configuration Rack server for macOS.
 - [powder](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/powder): this plugin provides completion for [powder](https://github.com/powder-rb/powder/).
 - [powify](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/powify): this plugin adds autocompletion for [powify](https://github.com/sethvargo/powify), an easy-to-use wrapper for Basecamp's [pow](https://github.com/basecamp/pow).
-- [pre-commit](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pre-commit): this plugin adds aliases for common commands of [pre-commit](https://pre-commit.com/).
+- [pre-commit](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pre-commit): this plugin adds aliases for common commands of [pre-commit](https://pre-commit.com/). It also supports [prek](https://github.com/prek/prek) as a drop-in replacement. If `prek` is available, it will be used; otherwise, `pre-commit` is used as fallback.
 - [procs](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/procs): this plugin provides completion for [procs](https://github.com/dalance/procs).
 - [profiles](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/profiles): this plugin allows you to create separate configuration files for zsh based on your long hostname (including the domain).
 - [pulumi](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pulumi): this is an **Oh My Zsh plugin** for the [**Pulumi CLI**](https://www.pulumi.com/docs/iac/cli/), an Infrastructure as Code (IaC) tool for building, deploying and managing cloud infrastucture.
