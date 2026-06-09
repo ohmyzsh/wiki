@@ -1816,3 +1816,27 @@ A Star Trek: The Next Generation LCARS-inspired theme for Oh My Zsh with modern 
 - 🕐 **Clock display** - Shows current time in HH:MM:SS format
 - 🚨 **Red Alert Mode** - All segments turn red when a command fails
 - 🎨 **Authentic LCARS color palette** - Using the official colors from Star Trek: TNG
+### Trios
+
+**A minimal cyberpunk ZSH prompt for pentesters,cyber-experts and CTF players.**
+
+![trios theme preview](https://raw.githubusercontent.com/MrEchoFi/trios-zsh-theme/main/preview.png)
+
+Features:
+- ⬡ Hexagon bullet segments
+- Electric blue path and prompt
+- Colour-coded command echo — blue for success, red for error
+- No Nerd Font required
+
+Install:
+
+```zsh
+git clone https://github.com/MrEchoFi/trios-zsh-theme.git \
+  ~/.oh-my-zsh/custom/themes/trios && \
+  cp ~/.oh-my-zsh/custom/themes/trios/trios.zsh-theme \
+  ~/.oh-my-zsh/custom/themes/
+```
+
+Then set `ZSH_THEME="trios"` in `~/.zshrc`
+
+- [Repository](https://github.com/MrEchoFi/trios-zsh-theme)
