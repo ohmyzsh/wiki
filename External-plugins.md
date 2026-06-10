@@ -13,6 +13,12 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
 ### CLI
 
+- [ccline](https://github.com/jianshuo/ccline)
+
+  Type a natural-language thought directly at your zsh prompt — no command, no prefix. ccline intercepts `command_not_found_handler` and sends your query to Claude or Codex. If the AI response contains runnable commands, an interactive arrow-key menu lets you confirm and execute them in your live shell (so `cd`, `export`, etc. persist).
+
+  [![ccline demo](https://raw.githubusercontent.com/jianshuo/ccline/main/docs/demo.gif)](https://github.com/jianshuo/ccline)
+
 - [arc-zsh-plugin](https://github.com/dkryaklin/arc-zsh-plugin)
 
   Arc VCS prompt integration, status caching, and aliases. Supports agnoster theme with auto-injection.
