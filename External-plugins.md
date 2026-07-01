@@ -23,6 +23,10 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
   Arc VCS prompt integration, status caching, and aliases. Supports agnoster theme with auto-injection.
 
+- [better-chmod](https://github.com/Balzabu/zsh-better-chmod)
+
+  Adds a `bchmod` command (and an optional `chmod` replacement) that accepts symbolic and octal permission formats with input validation and colored output.
+
 - [fz](https://github.com/changyuheng/fz)
 
   Give tab-completions to `z`.
