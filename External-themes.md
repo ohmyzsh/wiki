@@ -1840,3 +1840,48 @@ git clone https://github.com/MrEchoFi/trios-zsh-theme.git \
 Then set `ZSH_THEME="trios"` in `~/.zshrc`
 
 - [Repository](https://github.com/MrEchoFi/trios-zsh-theme)
+
+---
+
+### Modern Dark Pro
+
+**A premium, modern, and dark-mode-optimized Oh My Zsh theme inspired by the VS Code / JetBrains Modern Dark Pro color palettes.**
+
+![Modern Dark Pro Theme Preview](https://raw.githubusercontent.com/dvigo/modern-dark-pro-ohmyzsh/main/preview.png)
+
+#### Features
+
+- **Dual Variant Support**: Switch between Night (pastel tones, soft black) and Monokai (vibrant classic Monokai, warm black) to match your editor theme.
+- **Smart Path Display**: Customizable directory path styles ('shrink', 'limit', or 'full').
+- **Complete Git Status**: Displays branch name, remote sync status, and interactive modification badges (Modified, Staged, Untracked, Stashed).
+- **Execution Timer**: Automatically shows command duration if it exceeds a configurable threshold (default: 2s).
+- **Right Prompt Clock**: Clean current system time display (`HH:MM:SS`) aligned on the right.
+- **Developer Features**: Python virtualenv/Conda, SSH indicator, read-only lock icon, and background jobs count.
+- **Super Lightweight**: Highly optimized Git status parsing and shell hooks to ensure zero terminal lag.
+
+See [repository](https://github.com/dvigo/modern-dark-pro-ohmyzsh) for source and installation instructions.
+
+Author: [@dvigo](https://github.com/dvigo)
+
+---
+
+### Modern Dark Pro Capsule
+
+**A premium, modern, and dark-mode-optimized Oh My Zsh theme featuring capsule/pill-shaped status segments, inspired by the Modern Dark Pro color palettes.**
+
+![Modern Dark Pro Capsule Theme Preview](https://raw.githubusercontent.com/dvigo/modern-dark-pro-capsule-ohmyzsh/main/preview.png)
+
+#### Features
+
+- **Capsule design**: Displays all prompt segments (directory, git status, command duration, etc.) wrapped in clean, pill-shaped containers.
+- **Dual Variant Support**: Switch between Night (pastel tones, soft black) and Monokai (vibrant classic Monokai, warm black).
+- **Smart Path Display**: Clean directory display inside a dedicated capsule.
+- **Complete Git Status**: Displays branch name and remote sync status inside a dedicated capsule.
+- **Execution Timer**: Shows command duration inside a capsule if it takes longer than 2 seconds.
+- **System Clock**: Perfectly aligned system clock display (`HH:MM:SS`).
+- **Developer Features**: Displays Python virtualenv/Conda, SSH sessions, read-only lock, and background jobs inside custom capsules.
+
+See [repository](https://github.com/dvigo/modern-dark-pro-capsule-ohmyzsh) for source and installation instructions.
+
+Author: [@dvigo](https://github.com/dvigo)
+
