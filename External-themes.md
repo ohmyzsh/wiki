@@ -1840,3 +1840,44 @@ git clone https://github.com/MrEchoFi/trios-zsh-theme.git \
 Then set `ZSH_THEME="trios"` in `~/.zshrc`
 
 - [Repository](https://github.com/MrEchoFi/trios-zsh-theme)
+
+---
+
+### Modern Dark Pro
+
+#### _A clean, professional, and dark-mode-optimized theme featuring clickable paths and Git branches._
+
+![Modern Dark Pro](https://raw.githubusercontent.com/dvigo/modern-dark-pro-ohmyzsh/main/preview.png)
+
+#### Features
+- **OLED/Dark optimized**: Dual variant support for **Night** (soft OLED black) and **Monokai** colors.
+- **Clickable Prompt Elements (OSC 8)**: `Cmd+Click` (macOS) or `Ctrl+Click` (Linux/Windows) on the directory path opens Finder/File Explorer, and on the Git branch opens the remote repository page in the browser (automatically disabled in SSH).
+- **Execution Timer & Right Clock**: Tracks command execution time and prints a right-aligned local system clock out of the way.
+- **Runtimes & Cloud integration**: Smart status segments for Node.js, Go, Rust, Terraform, Kubernetes context, active virtualenvs, background jobs count, and SSH connection indicator.
+
+#### Install: [Instructions](https://github.com/dvigo/modern-dark-pro-ohmyzsh#%EF%B8%8F-installation)
+
+#### Source: [modern-dark-pro-ohmyzsh](https://github.com/dvigo/modern-dark-pro-ohmyzsh)
+
+#### Author: [@dvigo](https://github.com/dvigo)
+
+---
+
+### Modern Dark Pro - Capsule
+
+#### _A fork of Modern Dark Pro featuring capsule/pill-shaped status segments and clickable prompt elements._
+
+![Modern Dark Pro Capsule](https://raw.githubusercontent.com/dvigo/modern-dark-pro-capsule-ohmyzsh/main/preview.png)
+
+#### Features
+- **Capsule-style UI**: Elegant pill-shaped status segments (brackets, rounded, or plain text container styles).
+- **Clickable Prompt Elements (OSC 8)**: `Cmd+Click` (macOS) or `Ctrl+Click` (Linux/Windows) on the directory path capsule opens Finder/File Explorer, and on the Git branch capsule opens the remote repository tree page in your browser (automatically disabled in SSH).
+- **Comprehensive Status**: Renders runtime indicators (Node.js, Go, Rust, Terraform), active Python environments, Kubernetes, and AWS profiles inside clean segments.
+- **Aesthetics & Clock**: Right-aligned clock, command duration tracker, and green/red status prompt indicators.
+
+#### Install: [Instructions](https://github.com/dvigo/modern-dark-pro-capsule-ohmyzsh#%EF%B8%8F-installation)
+
+#### Source: [modern-dark-pro-capsule-ohmyzsh](https://github.com/dvigo/modern-dark-pro-capsule-ohmyzsh)
+
+#### Author: [@dvigo](https://github.com/dvigo)
+
