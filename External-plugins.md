@@ -56,6 +56,14 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
   
   Give tab-completion to `make` that behave like `bash` does out of the box.
 
+- [zsh-dev-navigator](https://github.com/dvigo/zsh-dev-navigator)
+
+  A minimal Zsh plugin to quickly navigate into development folders with recursive autocompletion, create new project directories, and open them in your preferred editor (VS Code, Cursor, Windsurf, etc.) with fuzzy finder (`fzf`) integration.
+
+- [project-aliases](https://github.com/dvigo/project-aliases)
+
+  Lightweight plugin to manage per-project shell aliases. It automatically loads aliases defined in a `.proj_aliases` file when entering a project directory and unloads them upon leaving, keeping your global shell namespace clean.
+
 ### FUN
 
 - [Doge Say](https://github.com/txstc55/dogesay/blob/master/dogesay.plugin.zsh)
