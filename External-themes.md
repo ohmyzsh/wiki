@@ -1894,8 +1894,8 @@ terminal work. Restrained colors keep essential context visible without
 competing with command output, while a distinctive lightning prompt makes
 command lines easy to spot.
 
-Abbreviated paths and concise indicators cover command and pipeline status,
-Git changes and operations, unpushed commits, virtualenvs, nested shells and
-background jobs.
+Abbreviated paths and concise indicators cover Git and command status,
+virtualenvs, nested shells and background jobs. It also provides a quick-copy
+action for the current working directory.
 
 [Source](https://github.com/azhuchkov/cobalt-spark)
