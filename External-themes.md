@@ -1881,3 +1881,21 @@ Then set `ZSH_THEME="trios"` in `~/.zshrc`
 
 #### Author: [@dvigo](https://github.com/dvigo)
 
+---
+
+### Cobalt Spark
+
+*A compact theme designed for everyday terminal work.*
+
+![Cobalt Spark](https://github.com/user-attachments/assets/05f2a056-0cfd-4874-9496-4ea1d35e4e41)
+
+A compact, low-noise theme designed to stay out of the way during everyday
+terminal work. Restrained colors keep essential context visible without
+competing with command output, while a distinctive lightning prompt makes
+command lines easy to spot.
+
+Abbreviated paths and concise indicators cover Git and command status,
+virtualenvs, nested shells and background jobs. It also provides a quick-copy
+action for the current working directory.
+
+[Source](https://github.com/azhuchkov/cobalt-spark)
