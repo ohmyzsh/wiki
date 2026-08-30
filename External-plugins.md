@@ -108,6 +108,10 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
   A Zsh plugin that automatically prefixes your Git commit messages with Jira issue keys, project prefixes, or branch names.
 
+- [git-flow-shortcuts](https://github.com/cleversontrujilu/zsh-git-flow-shortcuts/)
+
+  Short zsh aliases for the git-flow (AVH) workflow. Each command handles branch sync, auto-stash, origin publishing, and SemVer bumping, following Conventional Commits and SemVer.
+
 - [git-switch-branch](https://github.com/adelbeke/git-switch-branch)
 
   Interactive git branch switching tool with gum-powered UI. Displays branch info with last commit date and message. Warns about uncommitted changes with optional auto-stash.
