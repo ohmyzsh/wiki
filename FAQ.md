@@ -148,6 +148,8 @@ If you want to manually update Oh My Zsh, you have 2 options:
   omz update
   ```
 
+  This command honors the `':omz:update' cooldown` setting documented in [[Settings]].
+
 - If you want to update Oh My Zsh as part of an automated script, its better to use the `upgrade.sh` script directly. You can call it with any of these alternatives:
 
   ```sh
@@ -157,10 +159,11 @@ If you want to manually update Oh My Zsh, you have 2 options:
   /path/to/ohmyzsh/tools/upgrade.sh
   ```
 
-  This script also allows you to pass in 2 separate flags to control its behavior:
+  This script also allows you to pass in 3 separate flags to control its behavior:
 
   - `-i`: tells the script to upgrade interactively. In this mode, the only change is that the changelog will be displayed after the update.
   - `-v default|minimal|silent`: control the verbosity of the script. This is equivalent to the [verbosity](https://github.com/ohmyzsh/ohmyzsh/wiki/Settings#omzupdate-verbosity) settings.
+  - `-c <days>`: only apply updates that are at least _N_ days old. This is equivalent to the [`cooldown`](https://github.com/ohmyzsh/ohmyzsh/wiki/Settings#omzupdate-cooldown) setting.
 
 > [!IMPORTANT]
 > To upgrade Oh My Zsh, you need to have `git` installed and it needs to be installed as a git repository.  
