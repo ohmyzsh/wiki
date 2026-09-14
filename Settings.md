@@ -19,6 +19,7 @@
 - [Update settings](#update-settings)
   - [`':omz:update' mode`](#omzupdate-mode)
   - [`':omz:update' frequency`](#omzupdate-frequency)
+  - [`':omz:update' cooldown`](#omzupdate-cooldown)
   - [`':omz:update' verbose`](#omzupdate-verbose)
   - [Deprecated settings](#deprecated-settings)
 - [Completion settings](#completion-settings)
@@ -137,6 +138,21 @@ setting only takes effect when automatic updates are enabled. **The default are 
 ```zsh
 # Check for updates every 7 days
 zstyle ':omz:update' frequency 7
+```
+
+### `':omz:update' cooldown`
+
+By default, updates always pull the latest changes. This setting tells Oh My Zsh to only apply updates whose commits are at least _N_ days old. It affects both the auto-updater and `omz update`. **The default is 0 days**, which keeps the current behavior.
+
+```zsh
+# Only apply updates that are at least 10 days old
+zstyle ':omz:update' cooldown 10
+```
+
+If you call `upgrade.sh` directly from a script, pass the same value with `-c` because the script does not read your `.zshrc`:
+
+```sh
+"$ZSH/tools/upgrade.sh" -c 10
 ```
 
 ### `':omz:update' verbose`
