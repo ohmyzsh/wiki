@@ -154,6 +154,7 @@ plugins=(rails git ruby)
 - [hasura](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/hasura): this plugin adds completion for [the Hasura CLI](https://hasura.io/docs/latest/hasura-cli/index/).
 - [hcloud](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/hcloud): this plugin adds completion for the [Hetzner Cloud CLI](https://github.com/hetznercloud/cli), as well as some aliases for common hcloud commands.
 - [helm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/helm): this plugin adds completion and aliases for [Helm](https://helm.sh/), the Kubernetes package manager.
+- [herdr](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/herdr): this plugin adds completion, aliases, an interactive session picker and a prompt function for [herdr](https://herdr.dev/), the runtime your coding agents live on.
 - [heroku](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/heroku): this plugin provides completion for the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
 - [heroku-alias](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/heroku-alias): full alias list for Heroku CLI.
 - [history](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history): provides a couple of convenient aliases for using the `history` command to examine your command line history.
@@ -284,6 +285,7 @@ plugins=(rails git ruby)
 - [ros](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ros): this plugin adds completions and aliases for [Roswell](https://github.com/roswell/roswell/).
 - [rsync](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rsync): this plugin adds aliases for frequent [rsync](https://rsync.samba.org/) commands, simplifying file transfer and synchronization tasks.
 - [ruby](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ruby): this plugin adds aliases for common commands used in dealing with [Ruby](https://www.ruby-lang.org/en/) and [gem packages](https://rubygems.org/).
+- [ruff](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ruff): this plugin automatically installs [ruff](https://github.com/astral-sh/ruff)'s completions for you, and keeps them up to date. It also adds convenient aliases for common usage.
 - [rust](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rust): this plugin adds completion for [`rustc`](https://doc.rust-lang.org/rustc/index.html), the compiler for the Rust programming language, as well as for `rustup` and `cargo` if you have the Rust toolchain installed.
 - [rvm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rvm): this plugin adds some utility functions and completions for [Ruby Version Manager](https://rvm.io/).
 - [safe-paste](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/safe-paste): preventing any code from actually running while pasting, so you have a chance to review what was actually pasted before running it.
@@ -353,6 +355,7 @@ plugins=(rails git ruby)
 - [universalarchive](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/universalarchive): the `universalarchive` plugin provides a convenient command-line interface for archiving files and directories using a wide variety of compression formats - without having to remember the exact syntax for each tool.
 - [urltools](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/urltools): this plugin provides two aliases to URL-encode and URL-decode strings.
 - [uv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/uv): this plugin automatically installs [uv](https://github.com/astral-sh/uv)'s completions for you, and keeps them up to date. It also adds convenient aliases for common usage.
+- [uv-env](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/uv-env): this plugin automatically activates the uv virtual environment when you cd into a project directory, and deactivates it when you cd out.
 - [vagrant](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vagrant): this plugin adds autocompletion for [Vagrant](https://www.vagrantup.com/) commands, task names, box names and built-in handy documentation.
 - [vagrant-prompt](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vagrant-prompt): this plugin prompts the status of the Vagrant VMs. It supports single-host and multi-host configurations as well.
 - [vault](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vault): this plugin adds completion for [Vault](https://www.vaultproject.io/), the secrets and sensitive data manager.
