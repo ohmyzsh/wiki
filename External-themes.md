@@ -1899,3 +1899,19 @@ virtualenvs, nested shells and background jobs. It also provides a quick-copy
 action for the current working directory.
 
 [Source](https://github.com/azhuchkov/cobalt-spark)
+
+---
+
+### cad0p Theme
+
+#### _A minimal one-line prompt with a 24-hour clock, `user@host`, the current directory and git status._
+
+![cad0p Theme](https://raw.githubusercontent.com/cad0p/cad0p-zsh-theme/main/preview.gif)
+
+One-line prompt: `[2:27:39] user@host:dir git:(branch) $`. Shows the 24-hour clock, `user@host`, the current directory basename and `git:(branch)` status, with a `*` marker when the repository is dirty. Based on the geoffgarside theme from oh-my-zsh.
+
+#### Install: [Install](https://github.com/cad0p/cad0p-zsh-theme#install)
+
+#### Source: [cad0p-zsh-theme](https://github.com/cad0p/cad0p-zsh-theme)
+
+#### Author: [@cad0p](https://github.com/cad0p)
