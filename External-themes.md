@@ -5,47 +5,26 @@
 
 Due to the massive amount of themes bundled with OMZ, [new themes are not accepted](https://github.com/ohmyzsh/ohmyzsh/#do-not-send-us-themes). This is a list of other themes that are compatible with Oh My Zsh that live in their own separate repositories. More themes are listed in the [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) list.
 
-You can also use GitHub's search to find `*.zsh-theme` files:
+You can also use Github's search to find `*.zsh-theme` files:
 [Gist zsh themes search](https://gist.github.com/search?l=Shell&q=extension%3Azsh-theme&ref=searchresults&utf8=%E2%9C%93), [GitHub zsh themes search](https://github.com/search?l=Shell&q=extension%3Azsh-theme+PS1+%7C%7C+PROMPT+&ref=searchresults&type=Code&utf8=%E2%9C%93).
 
-## Installation
+### Installation
 
 Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
 
 ---
 
-## Synthwave
-
-![Synthwave theme preview](https://raw.githubusercontent.com/JimmyBoomBots3000/synthwave-zsh/main/synthwave-zsh.png)
-
-A two-line Oh My Zsh theme with sunset stripes, orange-to-magenta prompt arrows, a violet frame, and a bright cyan path. Uses 256 colors and standard Unicode characters; no Nerd Font or Powerline font is required.
-
-### Features
-
-- Git branch and clean/dirty worktree indicators.
-- Current directory shortened to the last three path components.
-- Username, plus hostname in SSH sessions.
-- Command execution time and a 24-hour clock.
-- Failed command exit codes and background job count.
-- Configurable terminal background color.
-
-See [repository](https://github.com/JimmyBoomBots3000/synthwave-zsh) for source and [installation instructions](https://github.com/JimmyBoomBots3000/synthwave-zsh#install).
-
-Author: [James Richmond](https://github.com/JimmyBoomBots3000)
-
----
-
 <div align="center">
 
-## Simplerich Theme
+### Simplerich Theme
 
-_Informative Git Status, Anaconda Environment Info and Command Execution Time._
+#### _Informative Git Status, Anaconda Environment Info and Command Execution Time._
 
 ![Simplerich](https://github.com/philip82148/simplerich-zsh-theme/blob/main/readme/demo.png)
 
 </div>
 
-### Features
+#### Features
 
 You can see the followings at once:
 
@@ -60,19 +39,18 @@ After command execution, you can see also:
 - Command Execution Time
 - Success/Error Hint
 
-Install: [Install](https://github.com/philip82148/simplerich-zsh-theme#install)
+#### Install: [Install](https://github.com/philip82148/simplerich-zsh-theme#install)
 
-Source: [simplerich-zsh-theme](https://github.com/philip82148/simplerich-zsh-theme)
+#### Source: [simplerich-zsh-theme](https://github.com/philip82148/simplerich-zsh-theme)
 
-Author: [@philip82148](https://github.com/philip82148)
+#### Author: [@philip82148](https://github.com/philip82148)
 
 ---
 
 <div align="center">
-
-## Neo Theme
-
-_Simple, intuitive, and uncluttered._
+  
+### Neo Theme
+#### *Simple, intuitive, and nonclustered.*
 
 ![neo](https://github.com/migoa/wiki/assets/111497717/9c641982-3d6f-4548-9e5d-92a50308bea7)
 
@@ -100,13 +78,13 @@ Author: [Jeffrey YAJ](https://github.com/JeffreyYAJ)
 
 ---
 
-## Heapbytes Terminal theme
+### Heapbytes Terminal theme
 
 ![heapbytes-theme](https://github.com/ohmyzsh/wiki/assets/56447720/39c2e4e0-3315-4e06-8b46-8e83514ccaca)
 
 > NOTE: theme uses alias customization to change the `ls` function to `exa`, [but exa is no longer maintained](https://github.com/ogham/exa/issues/1243). So the `exa` alias customization needs to be manually changed or removed.
 
-### Features
+#### Features
 
 - Fork/update/inspiration of rkj theme.
 - Prints the tun0 IP if connected to a VPN
@@ -119,7 +97,7 @@ Author: [heapbytes](https://github.com/heapbytes)
 
 ---
 
-## Amresh Terminal Theme
+### Amresh Terminal Theme
 
 ![amresh-terminal-theme](https://i.imgur.com/aT6Od6S.png)
 
@@ -138,7 +116,7 @@ Author: [amreshpro](https://github.com/amreshpro)
 
 ---
 
-## Aphrodite Terminal Theme
+#### Aphrodite Terminal Theme
 
 ![Aphrodite Terminal Theme](https://raw.githubusercontent.com/win0err/aphrodite-terminal-theme/master/assets/screenshot.png)
 
@@ -149,22 +127,22 @@ Author: [@win0err](https://github.com/win0err)
 
 ---
 
-## passion
+#### passion
 
 ![passion](https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/demo/demo.png)
 
-### Feature
+##### Feature
 
 - real time prompt.
 - command running time cost prompt.
 - command running error hint.
 - git status prompt;
 
-Install: [Install](https://github.com/ChesterYue/ohmyzsh-theme-passion#install)
+##### Install: [Install](https://github.com/ChesterYue/ohmyzsh-theme-passion#install)
 
-Source: [Repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
+##### Source: [Repo](https://github.com/ChesterYue/ohmyzsh-theme-passion)
 
-Author: [@chesteryue](https://github.com/ChesterYue)
+##### Author: [@chesteryue](https://github.com/ChesterYue)
 
 ---
 
@@ -172,7 +150,7 @@ Author: [@chesteryue](https://github.com/ChesterYue)
 <img src="https://raw.githubusercontent.com/reobin/typewritten/main/docs/_media/logo.svg" alt="typewritten" />
 
 </p></a>
-<h2 align="center"><a href="https://github.com/reobin/typewritten">typewritten</a></h2>
+<h3 align="center"><a href="https://github.com/reobin/typewritten">typewritten</a></h3>
 <p align="center">A minimal zsh prompt</p>
 <br />
 <p align="center">
@@ -225,7 +203,7 @@ Author: [@reobin](https://github.com/reobin)
 
 ---
 
-<h2 align="center"><a href="https://github.com/Moarram/headline">Headline</a></h2>
+<h3 align="center"><a href="https://github.com/Moarram/headline">Headline</a></h3>
 <p align="center">A theme with Git status info and a colored line</p>
 <br/>
 <a href="https://github.com/Moarram/headline"><p align="center">
@@ -243,7 +221,7 @@ Author: [@Moarram](https://github.com/moarram)
 
 ---
 
-## yeknomhtooms
+#### yeknomhtooms
 
 <img width="912" alt="smoothmonkey" src="https://user-images.githubusercontent.com/17438047/179404887-b1bdb0a7-9f73-46cf-bcad-a9ac6a98c4e0.png">
 
@@ -252,7 +230,7 @@ Author: [@sebastianpulido](https://github.com/sebastianpulido)
 
 ---
 
-## ubunly
+#### ubunly
 
 The **new Kali Linux** console adapted to Ubuntu (and maybe any distro)!
 
@@ -265,7 +243,7 @@ The **new Kali Linux** console adapted to Ubuntu (and maybe any distro)!
 
 ---
 
-## bigpath
+#### bigpath
 
 ![bigpath screenshot](https://preview.redd.it/ie39emm3bl461.png?width=1230&format=png&auto=webp&s=418d6c1a143bd4506bb3c161264606375ed5050e)
 
@@ -277,13 +255,13 @@ Author: [@Tesohh](https://github.com/Tesohh)
 
 ---
 
-## ✏️✅ emoji
+#### ✏️✅ emoji
 
 emoji theme for [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh/). simplified _robbyrussell_ and replaced git prompt symbol with emoji for better clarity. Works fine on Macs.
 
 ![Alt text](https://raw.githubusercontent.com/masaakifuruki/emoji.zsh-theme/main/emoji_theme_ohmyzsh.png "emoji oh my zsh theme preview")
 
-### Installation
+##### Installation
 
 Copy emoji.zsh-theme into your `~/.oh-my-zsh/themes/` directory
 
@@ -291,14 +269,14 @@ Then change current theme to emoji `ZSH_THEME=emoji` in your `~/.zshrc`.
 
 Activate a new theme with `$ source ~/.zshrc`.
 
-### Syntax
+##### Syntax
 
 - `➜ current_dir (git_branch) <emoji indicator>`
 
 - ✏️ Git prompt is dirty (uncommitted files)
 - ✅ Git prompt is clean (committed)
 
-### Issues
+##### Issues
 
 - ✏️ emoji is breaking cursor potion to the right hover on the first character on Crostini terminal
 
@@ -308,13 +286,13 @@ author: [@masaakifuruki](https://github.com/masaakifuruki)
 
 ---
 
-## Ultima Theme
+#### Ultima Theme
 
 ![ultima theme](https://github.com/egorlem/ultima.workspace/blob/8b285369eab9ec1b49248f4c3f30a05676c36208/demos/zsh-theme-demo-min.png?raw=true)
 
 **Minimalistic zsh theme designed to provide all the necessary settings for a comfortable terminal experience**
 
-### Features
+#### Features
 
 - **Multi-Line Prompt**: The prompt is divided into three lines for better readability. The first line separates the previous command's output from the prompt, the second line provides detailed path information, and the third line is for input.
 - **Multiple Prompt Levels**: Provides configurations for secondary and tertiary prompt levels (`PS2` and `PS3`).
@@ -332,7 +310,9 @@ author: [@egorlem](https://github.com/egorlem)
 
 ---
 
-## MacOS Terminal
+#### MacOS Terminal
+
+<h3 align="center"><a href="https://github.com/alejandromume/macos-zsh-theme">MacOS Terminal</a></h3>
 
 <p align="center">
   <a href="https://github.com/alejandromume/macos-zsh-theme/blob/master/LICENSE">
@@ -372,7 +352,7 @@ The minimal MacOS terminal brought to ZSH
 
 ---
 
-## short
+#### short
 
 <img src=https://github.com/nikhilkmr300/omz-themes/blob/master/images/short.png width=640>
 
@@ -392,7 +372,7 @@ Author: [@nikhilkmr300](https://github.com/nikhilkmr300)
 
 ---
 
-## matte-black-yellow
+#### matte-black-yellow
 
 <img src=https://github.com/nikhilkmr300/omz-themes/blob/master/images/matte-black-yellow-line.png width=640>
 
@@ -410,7 +390,7 @@ Author: [@nikhilkmr300](https://github.com/nikhilkmr300)
 
 ---
 
-## color-input
+#### color-input
 
 <img src=https://github.com/nikhilkmr300/omz-themes/blob/master/images/color-input-line.png width=640>
 
@@ -428,7 +408,7 @@ Author: [@nikhilkmr300](https://github.com/nikhilkmr300)
 
 ---
 
-## zsh2000
+#### zsh2000
 
 ![zsh2000 theme](https://raw.githubusercontent.com/consolemaverick/zsh2000/master/demo.png)
 
@@ -438,7 +418,7 @@ Influenced heavily by agnoster's theme and jeremyFreeAgent's theme
 
 Author: [@consolemaverick](https://github.com/consolemaverick)
 
-## Daivasmara
+#### Daivasmara
 
 ![Daivasmara Theme](https://raw.githubusercontent.com/Daivasmara/daivasmara.zsh-theme/master/media/Screenshot%20from%202020-04-30%2016-12-27.png)
 
@@ -450,7 +430,7 @@ Author: [@Daivasmara](https://github.com/Daivasmara)
 
 ---
 
-## Ducula
+#### Ducula
 
 ![Ducula Theme](https://raw.githubusercontent.com/janjoswig/Ducula/master/ducula_showcase.png)
 
@@ -468,7 +448,7 @@ Author: [@janjoswig](https://github.com/janjoswig/)
 
 ---
 
-## Nuts Theme
+#### Nuts Theme
 
 ![Nuts Terminal Theme](https://raw.githubusercontent.com/rafaelsq/nuts.zsh-theme/master/nuts.zsh-theme.png)
 
@@ -480,7 +460,7 @@ Author: [@rafaelsq](https://github.com/rafaelsq/)
 
 ---
 
-## Reggae Theme
+#### Reggae Theme
 
 ![Reggae Terminal Theme](https://i.imgur.com/lQaaWvX.png)
 
@@ -490,7 +470,7 @@ Author: [@mgimenez](https://github.com/mgimenez/)
 
 ---
 
-## Intika Theme
+### Intika Theme
 
 ![img](https://github.com/Intika-Linux-Apps/Oh-My-Zsh-Intika/raw/master/capture.png)
 
@@ -500,7 +480,7 @@ Author: [Intika](https://github.com/intika)
 
 ---
 
-## Philthy Theme
+### Philthy Theme
 
 ![img](https://imgur.com/am1MIxH.gif)
 
@@ -510,7 +490,7 @@ Author: [Phil Fernandez](https://github.com/philFernandez) (philFernandez)
 
 ---
 
-## Minimal Improved theme
+### Minimal Improved theme
 
 ![Minimal Improved theme for ZSH](https://raw.githubusercontent.com/gdsrosa/minimal_improved/master/minimal_improved_theme.png)
 
@@ -519,7 +499,7 @@ Author: [@gdsrosa](https://github.com/gdsrosa)
 
 ---
 
-## kmac theme
+#### kmac theme
 
 ![kmac theme for ZSH](https://github.com/koreymacdougall/config_files/blob/master/deprecated_files/kmac-zsh-theme-ss.png)
 
@@ -531,7 +511,7 @@ Author: [@koreymacdougall](https://github.com/koreymacdougall)
 
 ---
 
-## Fishy2
+#### Fishy2
 
 ![fishy2 zsh](https://github.com/akinjide/fishy2/raw/master/images/Screen%20Shot%202017-04-20%20at%2010.46.49%20AM.png)
 
@@ -541,7 +521,7 @@ Author: [@akinjide](https://github.com/akinjide)
 
 ---
 
-## abaykan
+#### abaykan
 
 ![abaykan](https://abaykan.com/server/abaykan.zsh-theme~.png)<br>
 See [repository](https://github.com/abaykan/Mine/blob/master/abaykan.zsh-theme) for source.
@@ -550,7 +530,7 @@ Author: [@abaykan](https://github.com/abaykan)
 
 ---
 
-## Oxide
+#### Oxide
 
 ![oxide zsh](https://dikiaap.pages.dev/img/dotfiles/zsh.png)
 
@@ -558,7 +538,7 @@ See [repository](https://github.com/dikiaap/dotfiles) for source.
 
 Author: [@dikiaap](https://github.com/dikiaap)
 
-## Windows CMD
+#### Windows CMD
 
 ![windows cmd](https://raw.githubusercontent.com/juliavallina/windows-zsh-theme/master/screenshot.gif)
 
@@ -566,14 +546,14 @@ See [repository](https://github.com/juliavallina/windows-zsh-theme) for source.
 
 Author: [@juliavallina](https://github.com/juliavallina)
 
-## sobole
+#### sobole
 
 [![sobole](https://github.com/sobolevn/sobole-zsh-theme/blob/master/showcases/ls-colors.png?raw=true)](https://sobolevn.github.io/sobole-zsh-theme/)
 Github: https://github.com/sobolevn/sobole-zsh-theme
 
 author: [@sobolevn](https://github.com/sobolevn)
 
-## xxf
+#### xxf
 
 ![xxf](https://i.ibb.co/rtGyPRs/Wechat-IMG230.png)
 
@@ -582,7 +562,7 @@ author: [@sobolevn](https://github.com/sobolevn)
 
 author: [@xfanwu](https://github.com/xfanwu)
 
-## Random Emoji Theme
+#### Random Emoji Theme
 
 ![emoji theme](https://camo.githubusercontent.com/cef821db4ca342faa6a721a408a111d7ad91bb60/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f662e636c2e6c792f6974656d732f30633057327930573138335332543042337a30612f53637265656e2532305265636f7264696e67253230323031352d30352d30352532306174253230313525334131392e676966)
 
@@ -590,7 +570,7 @@ See [Gist](https://gist.github.com/oshybystyi/2c30543cd48b2c9ecab0) for source.
 
 author: [@audy](https://github.com/audy), maintainer: [@oshybystyi](https://github.com/oshybystyi)
 
-## powerlevel9k
+#### powerlevel9k
 
 ![powerlevel9k theme](https://camo.githubusercontent.com/80ec23fda88d2f445906a3502690f22827336736/687474703a2f2f692e696d6775722e636f6d2f777942565a51792e676966)
 A Powerline theme for ZSH that was written from scratch to address some of the speed issues in other feature-heavy themes. It comes with a great default setup, but is also highly configurable and can be heavily customized with built-in options. It also offers a large array of useful segments that you can add to your prompt, covering everything from Ruby versions to your AWS instance.
@@ -599,7 +579,7 @@ See [Repo](https://github.com/bhilburn/powerlevel9k) for source & documentation.
 
 author: [@bhilburn](https://github.com/bhilburn)
 
-## powerlevel10k
+#### powerlevel10k
 
 ![powerlevel10k theme](https://camo.githubusercontent.com/80ec23fda88d2f445906a3502690f22827336736/687474703a2f2f692e696d6775722e636f6d2f777942565a51792e676966)
 Powerlevel10k is a backward-compatible reimplementation of the popular Powerlevel9k theme (see above) with 10-100 times better performance. When given the same configuration options it will generate the same prompt.
@@ -611,8 +591,7 @@ See [repo](https://github.com/romkatv/powerlevel10k) for documentation.
 
 author: [@romkatv](https://github.com/romkatv)
 
-## Quantum Theme
-
+#### Quantum Theme
 A lightweight, configurable & customizable ZSH theme.
 
 ![screenshot](https://github.com/calebephrem/quantum-zsh/blob/main/assets/screenshot.png?raw=true)
@@ -628,7 +607,7 @@ A lightweight, configurable & customizable ZSH theme.
 **Repo**: https://github.com/calebephrem/quantum-zsh  
 **Author**: [@calebephrem](https://github.com/calebephrem)
 
-## Bullet train
+#### Bullet train
 
 ![powerlevel9k theme](https://camo.githubusercontent.com/c5b0c78df1c3ca27bb2c5577114a92018bbdbee0/687474703a2f2f7261772e6769746875622e636f6d2f6361696f676f6e64696d2f62756c6c65742d747261696e2d6f682d6d792d7a73682d7468656d652f6d61737465722f696d672f707265766965772e676966)
 
@@ -649,7 +628,7 @@ See [Repo](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) for sourc
 
 author: [@caiogondim](https://github.com/caiogondim)
 
-## Cordial
+#### Cordial
 
 [![cordial](https://raw.githubusercontent.com/stevelacy/cordial-zsh-theme/master/screenshot.png)](https://raw.githubusercontent.com/stevelacy/cordial-zsh-theme/master/screenshot.png)
 
@@ -659,7 +638,7 @@ Additional setup:
 
 - Install [node.js](https://nodejs.org/) to parse `package.json` files
 
-## Gitster
+#### Gitster
 
 ![gitster theme](https://recordit.co/1Y5XxMkXFl.gif)
 
@@ -670,7 +649,7 @@ See my dotfiles [repo](https://github.com/shashankmehta/dotfiles/blob/master/the
 
 author: [shashankmehta](https://github.com/shashankmehta)/[@leostatic](https://twitter.com/@leostatic)
 
-## Lambda-Gitster
+#### Lambda-Gitster
 
 ![lambda-gitster theme](https://raw.githubusercontent.com/ergenekonyigit/lambda-gitster/master/demo.gif)
 
@@ -680,7 +659,7 @@ source: [lambda-gitster](https://github.com/ergenekonyigit/lambda-gitster)
 
 author: [ergenekonyigit](https://github.com/ergenekonyigit)/[@ergenekonyigit](https://twitter.com/ergenekonyigit)
 
-## Pi
+#### Pi
 
 ![pi theme](https://raw.githubusercontent.com/tobyjamesthomas/pi/master/demo.gif)
 
@@ -690,7 +669,7 @@ See [repository](https://github.com/tobyjamesthomas/pi) for source.
 
 author: [tobyjamesthomas](https://github.com/tobyjamesthomas)
 
-## Elessar
+#### Elessar
 
 ![Elessar theme](https://github.com/fjpalacios/elessar-theme/raw/master/elessar.gif)
 
@@ -700,7 +679,7 @@ See [repo](https://github.com/fjpalacios/elessar-theme) for source.
 
 Author: [@fjpalacios](https://github.com/fjpalacios)
 
-## Chi
+#### Chi
 
 ![Chi theme](https://github.com/akinjide/chi/raw/master/images/Screen%20Shot%202015-07-03%20at%2001.13.41.png)
 ![Chi theme](https://github.com/akinjide/chi/raw/master/images/Screen%20Shot%202015-07-03%20at%2001.14.40.png)
@@ -719,7 +698,7 @@ See [repository](https://github.com/akinjide/chi) for source.
 
 Author: [@akinjide](https://github.com/akinjide)
 
-## Haribo theme
+#### Haribo theme
 
 ![haribotheme](https://fooo.biz/images/haribo_omz_theme.png)
 
@@ -729,7 +708,7 @@ Author: [@akinjide](https://github.com/akinjide)
 
 See [Repo](https://github.com/haribo/omz-haribo-theme) for source
 
-## Schminitz theme
+#### Schminitz theme
 
 ![schminitztheme](https://g.recordit.co/krsXnCfF0W.gif)
 
@@ -739,7 +718,7 @@ See [Gist](https://gist.github.com/schminitz/9931af23bbb59e772eec) for source.
 
 author: [Schminitz](https://github.com/schminitz)/[@Schminitz](https://twitter.com/Schminitz)
 
-## Odin theme
+#### Odin theme
 
 ![odin](https://github.com/tylerreckart/odin/raw/master/images/preview.gif)
 
@@ -751,7 +730,7 @@ author: [Schminitz](https://github.com/schminitz)/[@Schminitz](https://twitter.c
 
 author: [@tylerreckart](https://github.com/tylerreckart)
 
-## HYPERZSH theme
+#### HYPERZSH theme
 
 ![hyperzsh](https://raw.githubusercontent.com/tylerreckart/hyperzsh/master/screenshots/demo.gif)
 
@@ -765,7 +744,7 @@ See [hyperzsh](https://github.com/tylerreckart/hyperzsh) for source.
 
 author: [@tylerreckart](https://github.com/tylerreckart)
 
-## Hyper Oh My Zsh
+### Hyper Oh My Zsh
 
 ![Hyper Oh My Zsh](https://user-images.githubusercontent.com/1252570/43366555-1a7e5eb2-9383-11e8-89d5-98b255968bdb.png)
 
@@ -774,7 +753,7 @@ author: [@tylerreckart](https://github.com/tylerreckart)
 source: [here](https://github.com/willmendesneto/hyper-oh-my-zsh)
 author: [@willmendesneto](https://github.com/willmendesneto)
 
-## Lambda (Mod) theme
+#### Lambda (Mod) theme
 
 ![Screenshot](https://raw.githubusercontent.com/halfo/lambda-mod-zsh-theme/master/screenshot.png)
 
@@ -783,7 +762,7 @@ author: [@willmendesneto](https://github.com/willmendesneto)
 
 author: [@halfo](https://github.com/halfo)
 
-## Hedgehog theme
+#### Hedgehog theme
 
 ![hedgehog](https://i.imgur.com/GTbKcj5.gif)
 
@@ -792,14 +771,14 @@ author: [@halfo](https://github.com/halfo)
 source: [here](https://gist.github.com/hedgehog1029/dfbb7e66511e2c399157)
 author: [@hedgehog1029](https://github.com/hedgehog1029)
 
-## Node theme
+#### Node theme
 
 ![node](https://raw.githubusercontent.com/skuridin/oh-my-zsh-node-theme/master/screenshot.png)
 
 source: [here](https://github.com/skuridin/oh-my-zsh-node-theme)
 author: [@skuridin](https://github.com/skuridin)
 
-## classyTouch Theme
+#### classyTouch Theme
 
 ![classyTouch](https://raw.githubusercontent.com/pr0tocol/classyTouch_oh-my-zsh/master/classyTouch.png)
 
@@ -808,7 +787,7 @@ author: [@skuridin](https://github.com/skuridin)
 source: [here](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh)
 author: [@yarisgutierrez](https://github.com/yarisgutierrez)
 
-## Spaceship
+#### Spaceship
 
 ![Spaceship](https://user-images.githubusercontent.com/10276208/36086434-5de52ace-0ff2-11e8-8299-c67f9ab4e9bd.gif)
 
@@ -867,7 +846,7 @@ source: [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/
 docs: [spaceship-prompt.sh](https://spaceship-prompt.sh)
 author: [@denysdovhan](https://twitter.com/denysdovhan)
 
-## Zeta Theme
+#### Zeta Theme
 
 ![zeta theme](https://user-images.githubusercontent.com/6789491/57182938-68197180-6ed8-11e9-9171-74b4618be62f.jpg)
 
@@ -892,7 +871,7 @@ source: [here](https://github.com/skylerlee/zeta-zsh-theme)
 
 author: [@skylerlee](https://github.com/skylerlee)
 
-## AgnosterZak
+#### AgnosterZak
 
 ![AgnosterZak theme](https://raw.githubusercontent.com/zakaziko99/agnosterzak-ohmyzsh-theme/master/images/agnosterzak-01.png)
 
@@ -910,7 +889,7 @@ See [Repo](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) for source
 
 author: [@zakaziko99](https://github.com/zakaziko99)
 
-## Nodeys
+#### Nodeys
 
 ![Nodeys theme](https://raw.githubusercontent.com/marszall87/nodeys-zsh-theme/master/screenshot.png)
 
@@ -920,7 +899,7 @@ source: [Repo](https://github.com/marszall87/nodeys-zsh-theme) for source
 
 author: [@marszall87](https://github.com/marszall87)
 
-## Ciacho
+#### Ciacho
 
 ![Ciacho theme](https://dl.dropboxusercontent.com/u/6741388/ciacho-zsh-theme.png)
 
@@ -930,11 +909,11 @@ See [Repo](https://github.com/Ciacho/ciacho-ohmyzsh-theme) for source.
 
 author: [@Ciacho](https://github.com/Ciacho/)
 
-## igorsilva
+#### igorsilva
 
 ![igorsilva theme](https://raw.githubusercontent.com/igor9silva/zsh-theme/master/igorsilva.gif)
 
-### What it shows
+##### What it shows
 
 - The current folder
 - A customizable delimiter
@@ -945,13 +924,13 @@ See [Repo](https://github.com/igor9silva/zsh-theme) for source.
 
 author: [@igor9silva](https://github.com/igor9silva/)
 
-## nt9
+#### nt9
 
 ![nt9 theme](https://raw.githubusercontent.com/lenguyenthanh/nt9-oh-my-zsh-theme/master/nt9.png)
 
 A clean, distraction free and git focused development theme.
 
-### It currently shows:
+##### It currently shows:
 
 - Show the location from git's root folder (when in a git repo) or show from home `~`
 - Show current sha()
@@ -963,7 +942,7 @@ See [Repo](https://github.com/lenguyenthanh/nt9-oh-my-zsh-theme) for source.
 
 author: [@lenguyenthanh](https://github.com/lenguyenthanh)
 
-## jovial
+#### jovial
 
 ![jovial theme](https://github.com/zthxxx/jovial/raw/master/docs/jovial-preview.png)
 
@@ -983,13 +962,13 @@ See [Repo](https://github.com/zthxxx/jovial) for source.
 
 author: [@zthxxx](https://github.com/zthxxx)
 
-## geometry
+#### geometry
 
 ![geometry](https://raw.githubusercontent.com/frmendes/geometry/master/screenshots/geometry.png)
 
 geometry is a minimalistic, fully customizable zsh prompt theme.
 
-### What it does:
+##### What it does:
 
 - work asynchronously to speed up the prompt
 - display current git branch
@@ -1009,7 +988,7 @@ See [repo](https://github.com/frmendes/geometry) for source. We welcome any cont
 
 author: [@frmendes](https://github.com/frmendes)
 
-## avit-da2k
+#### avit-da2k
 
 ![avit-da2k](https://raw.githubusercontent.com/fdaciuk/avit-da2k/master/dots.png)
 
@@ -1019,7 +998,7 @@ See [repo](https://github.com/fdaciuk/avit-da2k) for source.
 
 author: [@fdaciuk](https://github.com/fdaciuk)
 
-## kimwz
+#### kimwz
 
 ![kimwz](https://raw.githubusercontent.com/kimwz/kimwz-oh-my-zsh-theme/master/theme.jpg)
 
@@ -1029,7 +1008,7 @@ See [repo](https://github.com/kimwz/kimwz-oh-my-zsh-theme) for source.
 
 author: [@kimwz](https://github.com/kimwz)
 
-## hub
+#### hub
 
 ![hub animated preview](https://gist.githubusercontent.com/hub23/c226b1c77446e099f7684b0d21c6b22a/raw/e4260d7135ef5ebfa26cdb084e43f3f03f86346a/zsh-preview.gif)
 
@@ -1039,13 +1018,13 @@ See [gist](https://gist.github.com/hub23/c226b1c77446e099f7684b0d21c6b22a) for s
 
 author: [@hub23](https://github.com/hub23)
 
-## Punctual
+#### Punctual
 
 ![Screenshot of Punctual in action](https://raw.githubusercontent.com/dannynimmo/punctual-zsh-theme/master/screenshot.png)
 
 A simple, informative prompt built with Solarized colours in mind.
 
-### Features
+##### Features
 
 - Customisable colours & output
 - Git branch & status display
@@ -1056,7 +1035,7 @@ See [repo](https://github.com/dannynimmo/punctual-zsh-theme) for installation.
 
 By [Danny](https://github.com/dannynimmo).
 
-## Staples
+#### Staples
 
 ![Screenshot of Staples](https://github.com/dersam/staples/blob/master/sample.png?raw=true)
 
@@ -1066,7 +1045,7 @@ See [repo](https://github.com/dersam/staples) for source.
 
 Author: [@dersam](https://github.com/dersam)
 
-## Bunnyruni
+#### Bunnyruni
 
 ![Screenshot of Bunnyruni](https://raw.githubusercontent.com/jopcode/oh-my-zsh-bunnyruni-theme/master/bunnyruni.gif)
 
@@ -1076,7 +1055,7 @@ See [repo](https://github.com/jopcode/oh-my-zsh-bunnyruni-theme) for source.
 
 Author: [@jopcode](https://github.com/jopcode)
 
-## traditional-plus
+#### traditional-plus
 
 ![screenshot](https://raw.githubusercontent.com/xfxf/zsh-theme-traditional-plus/master/screenshot.png)
 
@@ -1085,7 +1064,7 @@ Single-line boring/traditional prompt without distracting colours, providing ext
 See [repo](https://github.com/xfxf/zsh-theme-traditional-plus) for source.
 Author: [@xfxf](https://github.com/xfxf)
 
-## oh-wonder
+#### oh-wonder
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6545467/19431231/3c2bfa60-9475-11e6-98f7-312c749186cf.png)
 
@@ -1094,7 +1073,7 @@ Just another funky theme.
 See [repo](https://gist.github.com/kaushik94/a54e128869c0c82bdbed31d56c710daa) for source.
 Author: [@kaushik94](https://gist.github.com/kaushik94)
 
-## rafiki-zsh
+#### rafiki-zsh
 
 ![screenshot](https://www.dropbox.com/s/u08c2zofducjvh9/rafiki-zsh-2.png?raw=1)
 
@@ -1103,7 +1082,7 @@ A zsh friend to watch over you.
 See [repo](https://github.com/akabiru/rafiki-zsh) for source and instructions.
 Author: [@akabiru](https://github.com/akabiru)
 
-## λ Pure
+#### λ Pure
 
 ![lambda-pure theme](https://raw.githubusercontent.com/marszall87/lambda-pure/master/screenshot.png)
 
@@ -1113,7 +1092,7 @@ source: [Repo](https://github.com/marszall87/lambda-pure) for source
 
 author: [@marszall87](https://github.com/marszall87)
 
-## Imperator / Imperator Root
+#### Imperator / Imperator Root
 
 ![imperator theme](https://raw.githubusercontent.com/LinuxGogley/Linux-Mods/master/Shell-Themes/Screenshot_2016-11-28_17-48-18.png)
 
@@ -1123,7 +1102,7 @@ source: [Repo](https://github.com/LinuxGogley/Linux-Mods/tree/master/Shell-Theme
 
 author: [@LinuxGogley](https://github.com/LinuxGogley)
 
-## Oh-My-VIA
+#### Oh-My-VIA
 
 ![oh-my-via theme](https://user-images.githubusercontent.com/19719047/85171739-db627c00-b26f-11ea-94ef-8f1f87929c47.png "Oh-My-VIA theme preview")
 
@@ -1133,7 +1112,7 @@ See [Repo](https://github.com/badouralix/oh-my-via) for source & documentation.
 
 author: [@badouralix](https://github.com/badouralix)
 
-## alien
+#### alien
 
 [![asciicast](https://asciinema.org/a/154047.png)](https://asciinema.org/a/154047)
 
@@ -1143,7 +1122,7 @@ Themes:
 ![red](https://raw.githubusercontent.com/eendroroy/alien/master/screenshots/red.png)
 ![soft](https://raw.githubusercontent.com/eendroroy/alien/master/screenshots/soft.png)
 
-### Features
+##### Features
 
 - Time
 - Battery percentage (with charging direction, - discharging, + charging, ● full-charge)
@@ -1157,11 +1136,11 @@ See [Repo](https://github.com/eendroroy/alien) for source & documentation.
 
 author: [@eendroroy](https://github.com/eendroroy)
 
-## alien-minimal
+#### alien-minimal
 
 [![asciicast](https://asciinema.org/a/264037.svg)](https://asciinema.org/a/264037)
 
-### Features
+##### Features
 
 - Working directory
 - Previous command exit status
@@ -1175,7 +1154,7 @@ See [Repo](https://github.com/eendroroy/alien-minimal) for source & documentatio
 
 author: [@eendroroy](https://github.com/eendroroy)
 
-## Imp
+#### Imp
 
 ![Screenshot of Imp](https://raw.githubusercontent.com/igormp/Imp/master/imp.png)
 
@@ -1185,7 +1164,7 @@ See [repo](https://github.com/igormp/Imp) for source and install instructions.
 
 Author: [@igormp](https://github.com/igormp)
 
-## Omega
+#### Omega
 
 ![Screenshot of Omega Minimal](https://raw.githubusercontent.com/Section214/zsh-omega/master/screenshots/minimal.png)
 
@@ -1195,7 +1174,7 @@ See [repo](https://github.com/Section214/zsh-omega) for source and install instr
 
 Author: [@igormp](https://github.com/igormp)
 
-## Docker-ZSH
+#### Docker-ZSH
 
 This theme is pretty much based on the 'bureau' theme. It has been extended by a `DOCKER_HOST` live view,
 so that in every terminal session you see immediately which docker host is configured and where the local
@@ -1209,7 +1188,7 @@ See [repo](https://github.com/dpdornseifer/docker-zsh-theme) for source and inst
 
 Author: [@dpdornseifer](https://github.com/dpdornseifer)
 
-## Vero
+#### Vero
 
 A theme designed for simplicity, neatness and availability of information. Vero offers:
 
@@ -1225,11 +1204,11 @@ See [repo](https://gitlab.com/thornjad/vero) for source and documentation
 
 Author: [@thornjad](https://github.com/thornjad)
 
-## theta
+#### theta
 
 [![asciicast](https://asciinema.org/a/121490.png)](https://asciinema.org/a/121490)
 
-### Features
+##### Features
 
 - Working directory
 - Version control - branch, commit hash, dirty status, ahead/behind status
@@ -1241,11 +1220,11 @@ See [Repo](https://github.com/eendroroy/theta) for source & documentation.
 
 author: [@eendroroy](https://github.com/eendroroy)
 
-## enlightenment
+#### enlightenment
 
 ![enlightenment](https://w33tmaricich.com/images/enlightenment.png)
 
-### Features
+##### Features
 
 - Current working directory.
 - Clojure, python, and node version numbers, only when you need them.
@@ -1258,13 +1237,13 @@ See [repository](https://github.com/w33tmaricich/enlightenment) for source & doc
 
 Author: [@w33tmaricich](https://w33tmaricich.com)
 
-## iGeek
+#### iGeek
 
 ![iGeek](https://camo.githubusercontent.com/db9d61987431bc10c3b410e6b3bcf103240fd866/687474703a2f2f692e696d6775722e636f6d2f614154384242432e706e67)
 
 See [repository](https://github.com/Saleh7/igeek-zsh-theme) for source.
 
-## ASCIIGit
+#### ASCIIGit
 
 ASCII-only ZSH prompt theme (using Oh My Zsh) for git users who are not fan of fancy glyphs.
 
@@ -1284,7 +1263,7 @@ See [repository](https://github.com/cemsbr/asciigit) for source and readme.
 
 Author: [@cemsbr](https://github.com/cemsbr)
 
-## dpoggi-newline-timestamp
+#### dpoggi-newline-timestamp
 
 Timestamp and new line based on [dpoggi](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#dpoggi) theme.
 
@@ -1299,11 +1278,11 @@ See [repository](https://github.com/channprj/dotfiles-macOS) for [source](https:
 
 Author: [@channprj](https://github.com/channprj)
 
-## nothing
+#### nothing
 
 ![nothing](https://raw.githubusercontent.com/eendroroy/nothing/master/nothing.png)
 
-### Features
+##### Features
 
 - Current sessions history count
 - Exit code in right prompt on error
@@ -1312,7 +1291,7 @@ See [Repo](https://github.com/eendroroy/nothing) for source & documentation.
 
 author: [@eendroroy](https://github.com/eendroroy)
 
-## kinda-fishy
+#### kinda-fishy
 
 A theme based on [fishy](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#fishy) with two differences:
 
@@ -1326,7 +1305,7 @@ See [repo](https://github.com/folixg/kinda-fishy-theme) for source
 
 Author: [@folixg](https://github.com/folixg)
 
-## blokkzh
+#### blokkzh
 
 Based on the built-in gnzh theme with added current Python virtualenv display.
 
@@ -1336,7 +1315,7 @@ See [repo](https://github.com/KorvinSilver/blokkzh) for source.
 
 Author: [@KorvinSilver](https://github.com/KorvinSilver)
 
-## bender
+#### bender
 
 Fancy two-line prompt with git integration.
 
@@ -1344,7 +1323,7 @@ Repo: https://github.com/specious/bender
 
 ![bender-zsh-theme](https://raw.githubusercontent.com/specious/bender/master/screenshot.png)
 
-## agkozak
+#### agkozak
 
 Uses three asynchronous methods to keep the ZSH prompt swift while displaying the Git status and indicators of SSH connection, exit codes, and `vi` mode, along with an abbreviated, `PROMPT_DIRTRIM`-style path. Very customizable. Asynchronous even on Cygwin and MSYS2.
 
@@ -1354,7 +1333,7 @@ Repo: [https://github.com/agkozak/agkozak-zsh-prompt](https://github.com/agkozak
 
 Author: [@agkozak](https://github.com/agkozak)
 
-## rainbow-theme
+#### rainbow-theme
 
 ![rainbow-theme](https://github.com/nivaca/rainbow-theme/blob/master/screenshot.png)
 
@@ -1364,7 +1343,7 @@ Author: [@nivaca](https://github.com/nivaca)
 
 ---
 
-## Zeroastro Theme
+#### Zeroastro Theme
 
 ![Zeroastro ZSH Theme](https://github.com/zeroastro/zeroastro-zsh-theme/raw/master/zeroastro-zsh-theme.png)
 
@@ -1376,7 +1355,7 @@ Author: [@zeroastro](https://github.com/zeroastro)
 
 ---
 
-## Kayid Theme
+### Kayid Theme
 
 ![Kayid Theme for ZSH](https://raw.githubusercontent.com/AmrMKayid/KayidmacOS/master/Kayid-Theme.png)
 
@@ -1385,7 +1364,7 @@ Author: [@AmrMKayid](https://github.com/AmrMKayid)
 
 ---
 
-## Shayan ZSH Theme
+### Shayan ZSH Theme
 
 ![Shayan ZSH Theme](https://raw.githubusercontent.com/shayanh/shayan-zsh-theme/master/shayan-zsh-theme.png)
 
@@ -1397,7 +1376,7 @@ Author: [@shayanh](https://github.com/shayanh)
 
 ---
 
-## FunkyBerlin Theme
+### FunkyBerlin Theme
 
 ![FunkyBerlin](https://raw.githubusercontent.com/Ottootto2010/funkyberlin-zsh-theme/master/showcase.png)
 
@@ -1409,7 +1388,7 @@ Author: [@Ottootto2010](https://github.com/Ottootto2010/funkyberlin-zsh-theme)
 
 ---
 
-## RobbyRussell-WIP Theme
+### RobbyRussell-WIP Theme
 
 ![img](https://raw.githubusercontent.com/ecbrodie/robbyrussell-WIP-theme/master/images/screenshot.png)
 
@@ -1421,7 +1400,7 @@ Author: [@ecbrodie](https://github.com/ecbrodie)
 
 ---
 
-## McQuen Theme
+### McQuen Theme
 
 ![McQuen](https://user-images.githubusercontent.com/772937/54210241-5d27ff00-449c-11e9-81b3-64efe0a13f6c.png)
 
@@ -1433,7 +1412,7 @@ Author: [@ryanpcmcquen](https://github.com/ryanpcmcquen)
 
 ---
 
-## sm
+#### sm
 
 ![sm-theme](https://raw.githubusercontent.com/blyndusk/sm-theme/master/docs/sm-theme.gif)
 
@@ -1445,7 +1424,7 @@ author: [@blyndusk](https://github.com/blyndusk)
 
 ---
 
-## minimal2
+#### minimal2
 
 ![minimal2](https://github.com/girishrau/oh-my-zsh-customizations/blob/master/images/minimal2.jpg)
 
@@ -1457,7 +1436,7 @@ Author: [@girishrau](https://github.com/girishrau)
 
 ---
 
-## drofloh
+#### drofloh
 
 ![screenshot](https://raw.githubusercontent.com/drofloh/oh-my-zsh-custom/master/screenshot.png)
 
@@ -1469,7 +1448,7 @@ Author: [@drofloh](https://github.com/drofloh)
 
 ---
 
-## lambda-v
+#### lambda-v
 
 ![screenshot](https://raw.githubusercontent.com/vkaracic/lambdav-zsh-theme/master/screenshot.png)
 
@@ -1481,7 +1460,7 @@ Author: [@vkaracic](https://github.com/vkaracic)
 
 ---
 
-## Halil
+#### Halil
 
 ![Halil Theme](https://raw.githubusercontent.com/5m0k3r/zsh-themes/master/zsh-theme-halil-thumb.gif)
 
@@ -1493,7 +1472,7 @@ Author: [@5m0k3r](https://github.com/5m0k3r)
 
 ---
 
-## Lucky
+#### Lucky
 
 ![lucky-zsh-theme](https://raw.githubusercontent.com/MelonBreadVR/lucky-zsh-theme/main/assets/lucky-zsh-theme-preview.png)
 
@@ -1505,7 +1484,7 @@ Author: [@MelonBreadVR](https://github.com/MelonBreadVR)
 
 ---
 
-## Maza
+#### Maza
 
 ![Maza Theme](https://raw.githubusercontent.com/eamazaj/maza-theme/master/video.gif)
 
@@ -1515,7 +1494,7 @@ Source: [maza.zsh-theme](https://github.com/eamazaj/maza-theme)
 
 Author: [@eamazaj](https://github.com/eamazaj)
 
-## Chill
+#### Chill
 
 ![Chill Theme](https://raw.githubusercontent.com/PsychoPatate/chill.zsh-theme/master/chill.png)
 
@@ -1525,7 +1504,7 @@ Source: [chill.zsh-theme](https://github.com/PsychoPatate/chill.zsh-theme)
 
 Author: [@PsychoPatate](https://github.com/PsychoPatate)
 
-## Solus
+#### Solus
 
 ![Solus Theme](https://gist.githubusercontent.com/cloudnull/4cc7890acaae6cb809e811e09e9eaade/raw/f62c35e3f1a383dbd281fbdaaede00069582141d/solus-oh-my-zsh-theme.png)
 
@@ -1535,13 +1514,13 @@ Source: [solus.zsh-theme](https://gist.github.com/cloudnull/4cc7890acaae6cb809e8
 
 Author: [@cloudnull](https://github.com/cloudnull)
 
-## gitstatus
+#### gitstatus
 
 [Official repository](https://github.com/kimyvgy/gitstatus-zsh-theme)
 
 [![gitstatus](https://raw.githubusercontent.com/kimyvgy/gitstatus-zsh-theme/master/gitstatus.png)](https://cloud.githubusercontent.com/assets/2618447/6316736/51c6a6c8-ba00-11e4-8b5f-b45795d98907.png)
 
-## Antsy
+#### Antsy
 
 ![Antsy](https://raw.githubusercontent.com/jeffmhubbard/antsy-zsh-theme/assets/demo.png)
 
@@ -1551,7 +1530,7 @@ Source: [antsy.zsh-theme](https://github.com/jeffmhubbard/antsy-zsh-theme)
 
 Author: [@jeffmhubbard](https://github.com/jeffmhubbard)
 
-## thm
+#### thm
 
 ![thm](https://raw.githubusercontent.com/thm-unix/thm-zshtheme/master/screenshot-terminator.png)
 
@@ -1563,7 +1542,7 @@ Author: [@thm-unix](https://github.com/thm-unix)
 
 Original: [@RainyDayMedia](https://github.com/RainyDayMedia/oh-my-zsh-poncho)
 
-## None Theme
+#### None Theme
 
 ![none-theme](https://user-images.githubusercontent.com/43632885/83956911-a1c55600-a817-11ea-97d1-65c32238fb23.png)
 
@@ -1573,9 +1552,9 @@ Source: File `none.zsh-theme` containing only the line `PROMPT=""`.
 
 Author: [@catleeball](https://github.com/catleeball)
 
-## fishbone++
+#### fishbone++
 
-### Features:
+##### Features:
 
 - emoji git status :)
 - fault return indicator
@@ -1589,9 +1568,9 @@ Author: [@catleeball](https://github.com/catleeball)
 Source: [fishbone++](https://github.com/EYH0602/Fishbonepp)
 Author: [@EYH0602](https://github.com/EYH0602)
 
-## Ohio2's themes!
+#### Ohio2's themes!
 
-### Features:
+##### Features:
 
 - Simple
 - One based on dallas
@@ -1606,14 +1585,14 @@ Themes:[Ohio2's themes repo](https://github.com/Ohio2/dotfiles-ohio2/tree/master
 ---
 
 <br/>
-<h2 align="center"><a href="https://github.com/ice-bear-forever/bubblegum-zsh">bubblegum</a></h2>
+<h3 align="center"><a href="https://github.com/ice-bear-forever/bubblegum-zsh">bubblegum</a></h3>
 <p align="center">a deliciously minimalist light pink theme</p>
 <br/>
 <a href="https://github.com/ice-bear-forever/bubblegum-zsh"><p align="center">
   <img src="https://github.com/ice-bear-forever/bubblegum-zsh/blob/main/screenshot.png"/>
 </p></a>
 
-### features:
+##### features:
 
 - a triangular glyph and your working directory, nothing more
 - a [matching theme](https://github.com/ice-bear-forever/hyper-bubblegum) for [Hyper](https://hyper.is) terminal
@@ -1625,14 +1604,14 @@ author: [@ice-bear-forever](https://github.com/ice-bear-forever/)
 ---
 
 <br/>
-<h2 align="center"><a href="https://github.com/tigerjz32/kube-zsh-theme">kube</a></h2>
+<h3 align="center"><a href="https://github.com/tigerjz32/kube-zsh-theme">kube</a></h3>
 <p align="center">a colorful and informative theme</p>
 <br/>
 <a href="https://github.com/tigerjz32/kube-zsh-theme"><p align="center">
   <img src="https://github.com/tigerjz32/kube-zsh-theme/blob/main/assets/image1.jpg"/>
 </p></a>
 
-### features:
+##### features:
 
 - shows the current time
 
@@ -1646,7 +1625,7 @@ repository: [kube-zsh-theme](https://github.com/tigerjz32/kube-zsh-theme/)
 
 author: [@tigerjz32](https://github.com/tigerjz32)
 
-## shini
+#### shini
 
 ![shini](https://raw.github.com/bashelled/shini/master/screenshot.png)
 
@@ -1656,7 +1635,7 @@ See [repository](https://github.com/bashelled/shini) for installation.
 
 Author: [@bashelled](https://github.com/bashelled)
 
-## ivabus
+#### ivabus
 
 ![ivabus](https://github.com/ivabus/ivabus-zsh-theme/blob/main/screenshot.png)
 
@@ -1664,7 +1643,7 @@ repository: [ivabus-zsh-theme](https://github.com/ivabus/ivabus-zsh-theme)
 
 author: [@ivabus](https://github.com/ivabus)
 
-## uysal
+#### uysal
 
 ![uysal](https://user-images.githubusercontent.com/24881389/188575122-9cf3b176-b804-4083-a433-8379b213c2c0.png)
 
@@ -1674,20 +1653,20 @@ Author: [@uysalserkan](https://github.com/uysalserkan)
 
 ---
 
-## Comfyline Prompt
+#### Comfyline Prompt
 
 ![comfyline_prompt theme](https://gitlab.com/imnotpua/comfyline_prompt/-/raw/main/screenshots/screenshot.jpg)
 
 A highly customizable zsh theme for your terminal, which is stupidly easy to configure. Just follow the below documentation and it will guide you through.
 
-### Features
+##### Features
 
 - Extensive fool-proof customization by just setting variables
 - Configurable symbols, prompt segment orders
 - Can set each and every color manually
 - Detects multiple batteries in linux
 
-### Installation
+##### Installation
 
 - Install any powerline or nerdfonts.
 - If you have oh-my-zsh installed, just run install.sh ( with zsh not bash )
@@ -1724,10 +1703,10 @@ _<div align="center"><h5>A Shrimple and concise terminal prompt theme for Oh My 
   </div>
   <br/>
   <div>
-    <h3>
+    <h4>
       <b>Features</b>
-    </h3>
-    <p>
+    </h4>
+    <p/>
       Customization of all the colors and symbols<br/>
       Built-in logic for gathering git infos, which can be turned off to use <code>OhMyZsh</code>'s <code>git-prompt</code> plugin instead<br/>
       Light git mode can be enabled to reduce performace overhead in git directories (only for built-in logic)<br/>
@@ -1745,13 +1724,13 @@ _<div align="center"><h5>A Shrimple and concise terminal prompt theme for Oh My 
 
 ---
 
-## rie
+#### rie
 
 A minimalistic theme.
 
 ![rie](https://raw.githubusercontent.com/andrii-rieznik/rho-zsh-theme/master/rie.png)
 
-### Features
+##### Features
 
 - Git branch name, clean & dirty;
 - Username and directory path;
@@ -1761,11 +1740,11 @@ Source: [rie-zsh-theme](https://github.com/andrii-rieznik/rie-zsh-theme)
 
 ---
 
-## Zen
+### Zen
 
 A Simple, minimalistic theme.
 
-<div align="center">
+<div align="center>
 
 ![Zen](https://raw.githubusercontent.com/hyZenith/Zen-zsh-theme/refs/heads/main/Prompt.png)
 
@@ -1782,7 +1761,7 @@ See [repository](https://github.com/hyZenith/Zen-zsh-theme) for source code.
 
 Author: [@!Zenith](https://github.com/hyZenith)
 
-## Keep It Simple
+# Keep It Simple
 
 Variation of [jispwoso](https://github.com/ohmyzsh/ohmyzsh/wiki/themes#jispwoso) theme
 
@@ -1790,11 +1769,12 @@ Variation of [jispwoso](https://github.com/ohmyzsh/ohmyzsh/wiki/themes#jispwoso)
 
 source: [kis theme](https://github.com/DaniSald/dotfiles/tree/main/zsh)
 
-## Hogwarts
+
+# Hogwarts
 
 The Hogwarts theme is a feature-rich Zsh prompt that displays comprehensive system and git information using colors inspired by the four Hogwarts houses. It provides at-a-glance visibility of your current context, git status, and command execution results.
 
-### Features
+## Features
 
 - **Two-line prompt design** for improved readability and command space
 - **Hogwarts house colors** throughout the prompt elements
@@ -1803,17 +1783,17 @@ The Hogwarts theme is a feature-rich Zsh prompt that displays comprehensive syst
 - **Command exit status indicator** with color-coded prompt character
 - **Real-time clock** showing current time
 
-### Source
+## Source
 
 [Hogwarts theme](https://github.com/TheWinterShadow/HogwartsTrunk)
 
-### Preview
+## Preview
 
 The prompt displays information in the following format:
 
-![Hogwarts theme preview](https://github.com/TheWinterShadow/HogwartsTrunk/blob/25ff1e2a552eda2a152a77d862426fad31967632/zsh/zsh_hogwarts_theme.png)
+![](https://github.com/TheWinterShadow/HogwartsTrunk/blob/25ff1e2a552eda2a152a77d862426fad31967632/zsh/zsh_hogwarts_theme.png)
 
-## LCARS
+# LCARS
 
 A Star Trek: The Next Generation LCARS-inspired theme for Oh My Zsh with modern powerline-style segments and authentic color palette.
 
@@ -1821,7 +1801,7 @@ A Star Trek: The Next Generation LCARS-inspired theme for Oh My Zsh with modern 
 
 ![LCARS Theme Preview](https://github.com/lgulliver/lcars-zsh-theme/raw/main/preview.png)
 
-### Features
+## Features
 
 - 🚀 **OS-specific icon** - Automatically displays  for macOS,  for Linux, or  for Windows
 - 📁 **Directory display** with bright orange LCARS color
@@ -1836,15 +1816,13 @@ A Star Trek: The Next Generation LCARS-inspired theme for Oh My Zsh with modern 
 - 🕐 **Clock display** - Shows current time in HH:MM:SS format
 - 🚨 **Red Alert Mode** - All segments turn red when a command fails
 - 🎨 **Authentic LCARS color palette** - Using the official colors from Star Trek: TNG
-
-## Trios
+### Trios
 
 **A minimal cyberpunk ZSH prompt for pentesters,cyber-experts and CTF players.**
 
 ![trios theme preview](https://raw.githubusercontent.com/MrEchoFi/trios-zsh-theme/main/preview.png)
 
 Features:
-
 - ⬡ Hexagon bullet segments
 - Electric blue path and prompt
 - Colour-coded command echo — blue for success, red for error
@@ -1852,7 +1830,7 @@ Features:
 
 Install:
 
-```shell
+```zsh
 git clone https://github.com/MrEchoFi/trios-zsh-theme.git \
   ~/.oh-my-zsh/custom/themes/trios && \
   cp ~/.oh-my-zsh/custom/themes/trios/trios.zsh-theme \
@@ -1865,51 +1843,49 @@ Then set `ZSH_THEME="trios"` in `~/.zshrc`
 
 ---
 
-## Modern Dark Pro
+### Modern Dark Pro
 
-_A clean, professional, and dark-mode-optimized theme featuring clickable paths and Git branches._
+#### _A clean, professional, and dark-mode-optimized theme featuring clickable paths and Git branches._
 
 ![Modern Dark Pro](https://raw.githubusercontent.com/dvigo/modern-dark-pro-ohmyzsh/main/preview.png)
 
-### Features
-
+#### Features
 - **OLED/Dark optimized**: Dual variant support for **Night** (soft OLED black) and **Monokai** colors.
 - **Clickable Prompt Elements (OSC 8)**: `Cmd+Click` (macOS) or `Ctrl+Click` (Linux/Windows) on the directory path opens Finder/File Explorer, and on the Git branch opens the remote repository page in the browser (automatically disabled in SSH).
 - **Execution Timer & Right Clock**: Tracks command execution time and prints a right-aligned local system clock out of the way.
 - **Runtimes & Cloud integration**: Smart status segments for Node.js, Go, Rust, Terraform, Kubernetes context, active virtualenvs, background jobs count, and SSH connection indicator.
 
-Install: [Instructions](https://github.com/dvigo/modern-dark-pro-ohmyzsh#%EF%B8%8F-installation)
+#### Install: [Instructions](https://github.com/dvigo/modern-dark-pro-ohmyzsh#%EF%B8%8F-installation)
 
-Source: [modern-dark-pro-ohmyzsh](https://github.com/dvigo/modern-dark-pro-ohmyzsh)
+#### Source: [modern-dark-pro-ohmyzsh](https://github.com/dvigo/modern-dark-pro-ohmyzsh)
 
-Author: [@dvigo](https://github.com/dvigo)
+#### Author: [@dvigo](https://github.com/dvigo)
 
 ---
 
-## Modern Dark Pro - Capsule
+### Modern Dark Pro - Capsule
 
-_A fork of Modern Dark Pro featuring capsule/pill-shaped status segments and clickable prompt elements._
+#### _A fork of Modern Dark Pro featuring capsule/pill-shaped status segments and clickable prompt elements._
 
 ![Modern Dark Pro Capsule](https://raw.githubusercontent.com/dvigo/modern-dark-pro-capsule-ohmyzsh/main/preview.png)
 
-### Features
-
+#### Features
 - **Capsule-style UI**: Elegant pill-shaped status segments (brackets, rounded, or plain text container styles).
 - **Clickable Prompt Elements (OSC 8)**: `Cmd+Click` (macOS) or `Ctrl+Click` (Linux/Windows) on the directory path capsule opens Finder/File Explorer, and on the Git branch capsule opens the remote repository tree page in your browser (automatically disabled in SSH).
 - **Comprehensive Status**: Renders runtime indicators (Node.js, Go, Rust, Terraform), active Python environments, Kubernetes, and AWS profiles inside clean segments.
 - **Aesthetics & Clock**: Right-aligned clock, command duration tracker, and green/red status prompt indicators.
 
-Install: [Instructions](https://github.com/dvigo/modern-dark-pro-capsule-ohmyzsh#%EF%B8%8F-installation)
+#### Install: [Instructions](https://github.com/dvigo/modern-dark-pro-capsule-ohmyzsh#%EF%B8%8F-installation)
 
-Source: [modern-dark-pro-capsule-ohmyzsh](https://github.com/dvigo/modern-dark-pro-capsule-ohmyzsh)
+#### Source: [modern-dark-pro-capsule-ohmyzsh](https://github.com/dvigo/modern-dark-pro-capsule-ohmyzsh)
 
-Author: [@dvigo](https://github.com/dvigo)
+#### Author: [@dvigo](https://github.com/dvigo)
 
 ---
 
-## Cobalt Spark
+### Cobalt Spark
 
-_A compact theme designed for everyday terminal work._
+*A compact theme designed for everyday terminal work.*
 
 ![Cobalt Spark](https://github.com/user-attachments/assets/05f2a056-0cfd-4874-9496-4ea1d35e4e41)
 
@@ -1926,16 +1902,16 @@ action for the current working directory.
 
 ---
 
-## cad0p Theme
+### cad0p Theme
 
-_A minimal one-line prompt with a 24-hour clock, `user@host`, the current directory and git status._
+#### _A minimal one-line prompt with a 24-hour clock, `user@host`, the current directory and git status._
 
 ![cad0p Theme](https://raw.githubusercontent.com/cad0p/cad0p-zsh-theme/main/preview.gif)
 
 One-line prompt: `[2:27:39] user@host:dir git:(branch) $`. Shows the 24-hour clock, `user@host`, the current directory basename and `git:(branch)` status, with a `*` marker when the repository is dirty. Based on the geoffgarside theme from oh-my-zsh.
 
-Install: [Install](https://github.com/cad0p/cad0p-zsh-theme#install)
+#### Install: [Install](https://github.com/cad0p/cad0p-zsh-theme#install)
 
-Source: [cad0p-zsh-theme](https://github.com/cad0p/cad0p-zsh-theme)
+#### Source: [cad0p-zsh-theme](https://github.com/cad0p/cad0p-zsh-theme)
 
-Author: [@cad0p](https://github.com/cad0p)
+#### Author: [@cad0p](https://github.com/cad0p)
