@@ -1915,3 +1915,24 @@ One-line prompt: `[2:27:39] user@host:dir git:(branch) $`. Shows the 24-hour clo
 #### Source: [cad0p-zsh-theme](https://github.com/cad0p/cad0p-zsh-theme)
 
 #### Author: [@cad0p](https://github.com/cad0p)
+
+---
+
+## Synthwave
+
+![Synthwave theme preview](https://raw.githubusercontent.com/JimmyBoomBots3000/synthwave-zsh/main/synthwave-zsh.png)
+
+A two-line Oh My Zsh theme with sunset stripes, orange-to-magenta prompt arrows, a violet frame, and a bright cyan path. Uses 256 colors and standard Unicode characters; no Nerd Font or Powerline font is required.
+
+### Features
+
+- Git branch and clean/dirty worktree indicators.
+- Current directory shortened to the last three path components.
+- Username, plus hostname in SSH sessions.
+- Command execution time and a 24-hour clock.
+- Failed command exit codes and background job count.
+- Configurable terminal background color.
+
+See [repository](https://github.com/JimmyBoomBots3000/synthwave-zsh) for source and [installation instructions](https://github.com/JimmyBoomBots3000/synthwave-zsh#install).
+
+Author: [James Richmond](https://github.com/JimmyBoomBots3000)
