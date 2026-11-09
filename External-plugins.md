@@ -68,6 +68,10 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
 
   Lightweight plugin to manage per-project shell aliases. It automatically loads aliases defined in a `.proj_aliases` file when entering a project directory and unloads them upon leaving, keeping your global shell namespace clean.
 
+- [zsh-claude-code](https://github.com/matheus-poli/zsh-claude-code)
+
+  Claude helpers at your prompt, built on the Claude Code CLI you already have logged in: `ask` for one-shot answers, `explain` to describe a command in plain English, `Ctrl+X` to rewrite a natural-language request on the command line into a shell command (you review it before pressing Enter), and `Alt+E` to explain the command you're typing without touching it. No dependencies beyond `zsh` and `claude`; every call runs with tools and MCP servers disabled, so it only returns text.
+
 ### FUN
 
 - [Doge Say](https://github.com/txstc55/dogesay/blob/master/dogesay.plugin.zsh)
