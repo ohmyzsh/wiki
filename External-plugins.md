@@ -145,6 +145,10 @@ Unlike [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes), there 
   HEAD         master       second-branch   ORIG_HEAD
   ```
 
+- [zsh-git-sweep](https://github.com/rosado-io/zsh-git-sweep)
+
+  A small Zsh plugin for cleaning up merged local Git branches and their worktrees, with protected branch patterns, dry-run previews, and optional interactive selection. Separate commands support explicit remote cleanup. Requires Git 2.36 or newer; installation instructions are in the README.
+
 ### GPG
 
 - [History Sync](https://github.com/wulfgarpro/history-sync)
