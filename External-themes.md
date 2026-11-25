@@ -16,6 +16,31 @@ Check out the instructions [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Custom
 
 <div align="center">
 
+### Omarchy Tokyo Night
+
+#### _Oh My Zsh prompt + Ghostty palette matching Omarchy Linux Tokyo Night (rally-car / Quattro wallpaper)._
+
+![Omarchy Tokyo Night](https://raw.githubusercontent.com/NezbiT/omarchy-tokyo-night/main/screenshots/prompt.png)
+
+</div>
+
+**Features**
+
+- Truecolor Tokyo Night palette (`#1a1b26`, `#7aa2f7`, `#bb9af7`, `#ff9e64`, `#9ece6a`, `#f7768e`)
+- Two-line prompt with Nerd Font car glyph
+- Git branch + dirty marker, virtualenv, SSH host, exit status
+- Matching Ghostty config and optional wallpaper
+
+**Install:** clone into `$ZSH_CUSTOM/themes/omarchy-tokyo-night` and set `ZSH_THEME="omarchy-tokyo-night/omarchy-tokyo-night"`
+
+**Source:** [omarchy-tokyo-night](https://github.com/NezbiT/omarchy-tokyo-night)
+
+**Author:** [@NezbiT](https://github.com/NezbiT)
+
+---
+
+<div align="center">
+
 ### Simplerich Theme
 
 #### _Informative Git Status, Anaconda Environment Info and Command Execution Time._
